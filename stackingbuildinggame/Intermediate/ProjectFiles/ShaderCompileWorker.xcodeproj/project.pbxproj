@@ -1,0 +1,935 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CB28322DB0005F16D702F02 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 3C6BE91A37F9FD5CFF7747B6 /* DefaultEngine.ini */; };
+		5480493A0654A01E71F4ADE8 /* MacEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 601546E98164E78870787B0D /* MacEngine.ini */; };
+		6295D94D04FA46AE7AEE4197 /* ShaderCompileWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CA82BAA67822DBE06559E94 /* ShaderCompileWorker.cpp */; };
+		B3508A553219F4790ABBB236 /* XGEControlWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC8F1F7BEB1F13527B2B287F /* XGEControlWorker.cpp */; };
+		E63A8114CBB5DD237632CE8E /* ShaderCompileWorker.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 40BDC274280F9EFDD46C30C5 /* ShaderCompileWorker.Build.cs */; };
+		B07ACB0BA904470F02CCA67D /* ShaderCompileWorker.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 28A2D12CF10D594BBD0E2A83 /* ShaderCompileWorker.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C6BE91A37F9FD5CFF7747B6 /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/ShaderCompileWorker/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		601546E98164E78870787B0D /* MacEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "MacEngine.ini"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/ShaderCompileWorker/Config/Mac/MacEngine.ini"; sourceTree = SOURCE_ROOT; };
+		4CA82BAA67822DBE06559E94 /* ShaderCompileWorker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ShaderCompileWorker.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ShaderCompileWorker/Private/ShaderCompileWorker.cpp"; sourceTree = SOURCE_ROOT; };
+		DC8F1F7BEB1F13527B2B287F /* XGEControlWorker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "XGEControlWorker.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ShaderCompileWorker/Private/XGEControlWorker.cpp"; sourceTree = SOURCE_ROOT; };
+		40BDC274280F9EFDD46C30C5 /* ShaderCompileWorker.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ShaderCompileWorker.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ShaderCompileWorker/ShaderCompileWorker.Build.cs"; sourceTree = SOURCE_ROOT; };
+		28A2D12CF10D594BBD0E2A83 /* ShaderCompileWorker.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ShaderCompileWorker.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ShaderCompileWorker/ShaderCompileWorker.Target.cs"; sourceTree = SOURCE_ROOT; };
+		4C2805812AB15356C078D862 /* ShaderCompileWorker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ShaderCompileWorker; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A589A1738D7F475D16B1C4A = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6295D94D04FA46AE7AEE4197 /* ShaderCompileWorker.cpp in Sources */,
+				B3508A553219F4790ABBB236 /* XGEControlWorker.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	499DB19931D2C3077F585ABD /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		8AD372ACC79854FAF4BCDA0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F68C2B421013F50C13530CA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B48C8BE7A352C2C6BB4D1164;
+			remoteInfo = "ShaderCompileWorker_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		8047B2C560E08319CE511DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B48C8BE7A352C2C6BB4D1164 /* ShaderCompileWorker_Build */;
+			targetProxy = 8AD372ACC79854FAF4BCDA0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		26C6CA585A792139DE5B2671 = {
+			isa = PBXGroup;
+			children = (
+				C48D4B85EE417F481EA13140 /* Programs */,
+				C267321D37374B5A143B81F7 /* Source */,
+				9BA601E71AEB27B95FB53E53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C48D4B85EE417F481EA13140 = {
+			isa = PBXGroup;
+			children = (
+				523D72EE8C3D1A83CC6A7810 /* ShaderCompileWorker */,
+			);
+			name = "Programs";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs";
+			sourceTree = "<absolute>";
+		};
+		523D72EE8C3D1A83CC6A7810 = {
+			isa = PBXGroup;
+			children = (
+				04F6AA04B08413FCE5CAD994 /* Config */,
+			);
+			name = "ShaderCompileWorker";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/ShaderCompileWorker";
+			sourceTree = "<absolute>";
+		};
+		04F6AA04B08413FCE5CAD994 = {
+			isa = PBXGroup;
+			children = (
+				199B59F81957D0ACF1ADD14F /* Mac */,
+				3C6BE91A37F9FD5CFF7747B6 /* DefaultEngine.ini */,
+			);
+			name = "Config";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/ShaderCompileWorker/Config";
+			sourceTree = "<absolute>";
+		};
+		199B59F81957D0ACF1ADD14F = {
+			isa = PBXGroup;
+			children = (
+				601546E98164E78870787B0D /* MacEngine.ini */,
+			);
+			name = "Mac";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/ShaderCompileWorker/Config/Mac";
+			sourceTree = "<absolute>";
+		};
+		C267321D37374B5A143B81F7 = {
+			isa = PBXGroup;
+			children = (
+				967A98998D345A8763DDD5F1 /* Programs */,
+			);
+			name = "Source";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source";
+			sourceTree = "<absolute>";
+		};
+		967A98998D345A8763DDD5F1 = {
+			isa = PBXGroup;
+			children = (
+				E421697599CC1E56255B4149 /* ShaderCompileWorker */,
+			);
+			name = "Programs";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs";
+			sourceTree = "<absolute>";
+		};
+		E421697599CC1E56255B4149 = {
+			isa = PBXGroup;
+			children = (
+				52F6C4AE7F7F7FDD1A61629E /* Private */,
+				40BDC274280F9EFDD46C30C5 /* ShaderCompileWorker.Build.cs */,
+				28A2D12CF10D594BBD0E2A83 /* ShaderCompileWorker.Target.cs */,
+			);
+			name = "ShaderCompileWorker";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ShaderCompileWorker";
+			sourceTree = "<absolute>";
+		};
+		52F6C4AE7F7F7FDD1A61629E = {
+			isa = PBXGroup;
+			children = (
+				4CA82BAA67822DBE06559E94 /* ShaderCompileWorker.cpp */,
+				DC8F1F7BEB1F13527B2B287F /* XGEControlWorker.cpp */,
+			);
+			name = "Private";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ShaderCompileWorker/Private";
+			sourceTree = "<absolute>";
+		};
+		9BA601E71AEB27B95FB53E53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C2805812AB15356C078D862 /* ShaderCompileWorker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		B48C8BE7A352C2C6BB4D1164 /* ShaderCompileWorker_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 5D97BBC72B7D68C46CA87838 /* Build configuration list for PBXLegacyTarget "ShaderCompileWorker_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5";
+			dependencies = (
+			);
+			name = "ShaderCompileWorker_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ShaderCompileWorker_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		D638D558A96751ECC8266C90 /* ShaderCompileWorker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D9F79B37CF4382607F775C /* Build configuration list for PBXNativeTarget "ShaderCompileWorker" */;
+			buildPhases = (
+				499DB19931D2C3077F585ABD /* Embed App Extensions */, 
+				FE8132B35901607087770E02 /* Shell Script */, 
+			);
+			dependencies = (
+				8047B2C560E08319CE511DA9 /* PBXTargetDependency */,
+			);
+			name = "ShaderCompileWorker";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ShaderCompileWorker";
+			productReference = "4C2805812AB15356C078D862";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		DB02EF1CFDC6E911FB10F83A /* ShaderCompileWorker_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C6C56A2F9134EFE16A12393 /* Build configuration list for PBXNativeTarget "ShaderCompileWorker_Index" */;
+			buildPhases = (
+				4A589A1738D7F475D16B1C4A /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "ShaderCompileWorker_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ShaderCompileWorker_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F68C2B421013F50C13530CA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					D638D558A96751ECC8266C90 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 63A5C9F564FF684C9F80BABF /* Build configuration list for PBXProject "ShaderCompileWorker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 26C6CA585A792139DE5B2671;
+			productRefGroup = 9BA601E71AEB27B95FB53E53;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			D638D558A96751ECC8266C90 /* ShaderCompileWorker */,
+			B48C8BE7A352C2C6BB4D1164 /* ShaderCompileWorker_Build */,
+			DB02EF1CFDC6E911FB10F83A /* ShaderCompileWorker_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		DF0A010767B0A02F8AB69E7D /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/SPIRV-Reflect/SPIRV-Reflect",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ShaderCompileWorker/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RenderCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SandboxFile/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TargetPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TextureFormat/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/ShaderCompilerCommon/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/ProfilerService/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		78D47E50A31C0402F14A6226 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/SPIRV-Reflect/SPIRV-Reflect",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ShaderCompileWorker/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RenderCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SandboxFile/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TargetPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TextureFormat/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/ShaderCompilerCommon/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/ProfilerService/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		06535316C5EFF9171947BA9E /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/SPIRV-Reflect/SPIRV-Reflect",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ShaderCompileWorker/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RenderCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SandboxFile/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TargetPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TextureFormat/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/ShaderCompilerCommon/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/ProfilerService/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		5F150FE61CF77018A1D17949 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/SPIRV-Reflect/SPIRV-Reflect",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ShaderCompileWorker/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RenderCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SandboxFile/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TargetPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TextureFormat/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/ShaderCompilerCommon/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/ProfilerService/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		54387B18BBFE135D74569D97 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/SPIRV-Reflect/SPIRV-Reflect",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ShaderCompileWorker/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RenderCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SandboxFile/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TargetPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TextureFormat/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/ShaderCompilerCommon/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/ProfilerService/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		3A8D888CF236D3F2FDDC19B7 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		94CF24DFF3CCEE8AD261BA36 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		E231581F76725E4478EEB282 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		10DEEBE4699ED5916502A1B9 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		093746D5066D5BAA23D5C073 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		A4411CD00AABC2D28EAFBA26 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ShaderCompileWorker";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		960439D2A9D1D4EFC8505736 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ShaderCompileWorker";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		9D7CDE1A2B34DD1BC951CC56 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ShaderCompileWorker";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		4884ED38D1CCCA0CED65BA16 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ShaderCompileWorker";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		9F02AFB14DF47668BC75E498 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ShaderCompileWorker";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		D1BBA0CFB82B3247E3B479CC /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		2D712E72ABB83586597A3BE8 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		7EBD29D9563F1DE5B7908F79 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		24F6FFD2E1B4B4AC43E0C877 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		50B251EE515DA2CE5967C8A9 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63A5C9F564FF684C9F80BABF /* Build configuration list for PBXProject "ShaderCompileWorker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0A010767B0A02F8AB69E7D /* "Debug" */,
+				78D47E50A31C0402F14A6226 /* "DebugGame" */,
+				06535316C5EFF9171947BA9E /* "Development" */,
+				5F150FE61CF77018A1D17949 /* "Test" */,
+				54387B18BBFE135D74569D97 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		5D97BBC72B7D68C46CA87838 /* Build configuration list for PBXLegacyTarget "ShaderCompileWorker_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4411CD00AABC2D28EAFBA26 /* "Debug" */,
+				960439D2A9D1D4EFC8505736 /* "DebugGame" */,
+				9D7CDE1A2B34DD1BC951CC56 /* "Development" */,
+				4884ED38D1CCCA0CED65BA16 /* "Test" */,
+				9F02AFB14DF47668BC75E498 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		18D9F79B37CF4382607F775C /* Build configuration list for PBXNativeTarget "ShaderCompileWorker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8D888CF236D3F2FDDC19B7 /* "Debug" */,
+				94CF24DFF3CCEE8AD261BA36 /* "DebugGame" */,
+				E231581F76725E4478EEB282 /* "Development" */,
+				10DEEBE4699ED5916502A1B9 /* "Test" */,
+				093746D5066D5BAA23D5C073 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		0C6C56A2F9134EFE16A12393 /* Build configuration list for PBXNativeTarget "ShaderCompileWorker_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1BBA0CFB82B3247E3B479CC /* "Debug" */,
+				2D712E72ABB83586597A3BE8 /* "DebugGame" */,
+				7EBD29D9563F1DE5B7908F79 /* "Development" */,
+				24F6FFD2E1B4B4AC43E0C877 /* "Test" */,
+				50B251EE515DA2CE5967C8A9 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F68C2B421013F50C13530CA1 /* Project object */;
+}

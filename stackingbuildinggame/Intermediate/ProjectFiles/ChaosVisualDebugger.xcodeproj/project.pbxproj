@@ -1,0 +1,1133 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B94BAD82F8AC27AB8F022A09 /* ChaosVisualDebugger.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = EA49EE6F0DBE2B863C227887 /* ChaosVisualDebugger.Build.cs */; };
+		2C4E399CAD3837ECD0F8CBD6 /* ChaosVisualDebugger.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 4E6FC01DBECF6EAFE3EBE34A /* ChaosVisualDebugger.Target.cs */; };
+		294633163D50610058A4659A /* ChaosVisualDebuggerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4377FF4249C8AB8782FF053 /* ChaosVisualDebuggerMain.cpp */; };
+		2A81681D8DA2F397D22658B2 /* ChaosVisualDebuggerMain.h in Sources */ = {isa = PBXBuildFile; fileRef = 78106D3EA12AB046E453BBD6 /* ChaosVisualDebuggerMain.h */; };
+		3F3761A098C00FF955E0ECBC /* ChaosVisualDebuggerSlateStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E84373B5B1CEC78EDECC7B13 /* ChaosVisualDebuggerSlateStyle.cpp */; };
+		2E4B164E7EAA6FD6C592DE55 /* ChaosVisualDebuggerSlateStyle.h in Sources */ = {isa = PBXBuildFile; fileRef = 4152FF12165F5D9824B1565D /* ChaosVisualDebuggerSlateStyle.h */; };
+		B6FA95158C2DF772BB4D724C /* ChaosVisualDebuggerLinux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C17AAA7115F655651D745E /* ChaosVisualDebuggerLinux.cpp */; };
+		CFB5777F6FE3EF7DF5B99784 /* ChaosVisualDebuggerMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15594A989B6B9AF3E0B26855 /* ChaosVisualDebuggerMac.cpp */; };
+		E4B2270FBA00F899853646D6 /* ChaosVisualDebuggerWindows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B57703D85EF457F02AF69517 /* ChaosVisualDebuggerWindows.cpp */; };
+		CA5EBAF982817E1C4D229BBD /* ChaosVisualDebuggerWindows.h in Sources */ = {isa = PBXBuildFile; fileRef = BCDFC3F4C0FDFFDE1374E223 /* ChaosVisualDebuggerWindows.h */; };
+		68C294EB5A782AED1C0F455B /* ChaosVisualDebugger.ico in Sources */ = {isa = PBXBuildFile; fileRef = 45FF1603B7298993DC451B7E /* ChaosVisualDebugger.ico */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA49EE6F0DBE2B863C227887 /* ChaosVisualDebugger.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ChaosVisualDebugger.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/ChaosVisualDebugger.Build.cs"; sourceTree = SOURCE_ROOT; };
+		4E6FC01DBECF6EAFE3EBE34A /* ChaosVisualDebugger.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ChaosVisualDebugger.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/ChaosVisualDebugger.Target.cs"; sourceTree = SOURCE_ROOT; };
+		B4377FF4249C8AB8782FF053 /* ChaosVisualDebuggerMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ChaosVisualDebuggerMain.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private/ChaosVisualDebuggerMain.cpp"; sourceTree = SOURCE_ROOT; };
+		78106D3EA12AB046E453BBD6 /* ChaosVisualDebuggerMain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ChaosVisualDebuggerMain.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private/ChaosVisualDebuggerMain.h"; sourceTree = SOURCE_ROOT; };
+		E84373B5B1CEC78EDECC7B13 /* ChaosVisualDebuggerSlateStyle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ChaosVisualDebuggerSlateStyle.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private/ChaosVisualDebuggerSlateStyle.cpp"; sourceTree = SOURCE_ROOT; };
+		4152FF12165F5D9824B1565D /* ChaosVisualDebuggerSlateStyle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ChaosVisualDebuggerSlateStyle.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private/ChaosVisualDebuggerSlateStyle.h"; sourceTree = SOURCE_ROOT; };
+		A9C17AAA7115F655651D745E /* ChaosVisualDebuggerLinux.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ChaosVisualDebuggerLinux.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private/Linux/ChaosVisualDebuggerLinux.cpp"; sourceTree = SOURCE_ROOT; };
+		15594A989B6B9AF3E0B26855 /* ChaosVisualDebuggerMac.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ChaosVisualDebuggerMac.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private/Mac/ChaosVisualDebuggerMac.cpp"; sourceTree = SOURCE_ROOT; };
+		B57703D85EF457F02AF69517 /* ChaosVisualDebuggerWindows.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ChaosVisualDebuggerWindows.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private/Windows/ChaosVisualDebuggerWindows.cpp"; sourceTree = SOURCE_ROOT; };
+		BCDFC3F4C0FDFFDE1374E223 /* ChaosVisualDebuggerWindows.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ChaosVisualDebuggerWindows.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private/Windows/ChaosVisualDebuggerWindows.h"; sourceTree = SOURCE_ROOT; };
+		45FF1603B7298993DC451B7E /* ChaosVisualDebugger.ico */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ChaosVisualDebugger.ico"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Resources/Windows/ChaosVisualDebugger.ico"; sourceTree = SOURCE_ROOT; };
+		C7485F1EF7A0F96479738DFB /* ChaosVisualDebugger */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = ChaosVisualDebugger; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E325F1BB08BBA2863CF65179 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294633163D50610058A4659A /* ChaosVisualDebuggerMain.cpp in Sources */,
+				3F3761A098C00FF955E0ECBC /* ChaosVisualDebuggerSlateStyle.cpp in Sources */,
+				CFB5777F6FE3EF7DF5B99784 /* ChaosVisualDebuggerMac.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	7A2DF4060F5E0E87936CF8DA /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		7E184B4547C7855BA20D94AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9472DD6D0ACBB027A3C42A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B44777E46BC99CCD50BF4B71;
+			remoteInfo = "ChaosVisualDebugger_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		CEDF386CFA192F1A6FE37F22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B44777E46BC99CCD50BF4B71 /* ChaosVisualDebugger_Build */;
+			targetProxy = 7E184B4547C7855BA20D94AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		1B905183329CB5CB4B1F3A77 = {
+			isa = PBXGroup;
+			children = (
+				1323FC4AF2B181ED906C27AA /* Private */,
+				33580EFCDF610A089D11E9DA /* Resources */,
+				EA49EE6F0DBE2B863C227887 /* ChaosVisualDebugger.Build.cs */,
+				4E6FC01DBECF6EAFE3EBE34A /* ChaosVisualDebugger.Target.cs */,
+				3D3CFFBF9E695C8B759532A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1323FC4AF2B181ED906C27AA = {
+			isa = PBXGroup;
+			children = (
+				F24446619B50EB5CC30A86EB /* Linux */,
+				6117ED09E8FDBB0E127819B2 /* Mac */,
+				4A173D7AE837A70FD7D64AEF /* Windows */,
+				B4377FF4249C8AB8782FF053 /* ChaosVisualDebuggerMain.cpp */,
+				78106D3EA12AB046E453BBD6 /* ChaosVisualDebuggerMain.h */,
+				E84373B5B1CEC78EDECC7B13 /* ChaosVisualDebuggerSlateStyle.cpp */,
+				4152FF12165F5D9824B1565D /* ChaosVisualDebuggerSlateStyle.h */,
+			);
+			name = "Private";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private";
+			sourceTree = "<absolute>";
+		};
+		F24446619B50EB5CC30A86EB = {
+			isa = PBXGroup;
+			children = (
+				A9C17AAA7115F655651D745E /* ChaosVisualDebuggerLinux.cpp */,
+			);
+			name = "Linux";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private/Linux";
+			sourceTree = "<absolute>";
+		};
+		6117ED09E8FDBB0E127819B2 = {
+			isa = PBXGroup;
+			children = (
+				15594A989B6B9AF3E0B26855 /* ChaosVisualDebuggerMac.cpp */,
+			);
+			name = "Mac";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private/Mac";
+			sourceTree = "<absolute>";
+		};
+		4A173D7AE837A70FD7D64AEF = {
+			isa = PBXGroup;
+			children = (
+				B57703D85EF457F02AF69517 /* ChaosVisualDebuggerWindows.cpp */,
+				BCDFC3F4C0FDFFDE1374E223 /* ChaosVisualDebuggerWindows.h */,
+			);
+			name = "Windows";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private/Windows";
+			sourceTree = "<absolute>";
+		};
+		33580EFCDF610A089D11E9DA = {
+			isa = PBXGroup;
+			children = (
+				C3770593B11897792A931784 /* Windows */,
+			);
+			name = "Resources";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Resources";
+			sourceTree = "<absolute>";
+		};
+		C3770593B11897792A931784 = {
+			isa = PBXGroup;
+			children = (
+				45FF1603B7298993DC451B7E /* ChaosVisualDebugger.ico */,
+			);
+			name = "Windows";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Resources/Windows";
+			sourceTree = "<absolute>";
+		};
+		3D3CFFBF9E695C8B759532A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7485F1EF7A0F96479738DFB /* ChaosVisualDebugger */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		B44777E46BC99CCD50BF4B71 /* ChaosVisualDebugger_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 59F30C87870C69C14A8DA4B2 /* Build configuration list for PBXLegacyTarget "ChaosVisualDebugger_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5";
+			dependencies = (
+			);
+			name = "ChaosVisualDebugger_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ChaosVisualDebugger_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		71E17F5CDBECB471FE9AE40C /* ChaosVisualDebugger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D0E2C989A438534E0C670B /* Build configuration list for PBXNativeTarget "ChaosVisualDebugger" */;
+			buildPhases = (
+				7A2DF4060F5E0E87936CF8DA /* Embed App Extensions */, 
+				41266BF8B0AB70855EAEA00D /* Shell Script */, 
+			);
+			dependencies = (
+				CEDF386CFA192F1A6FE37F22 /* PBXTargetDependency */,
+			);
+			name = "ChaosVisualDebugger";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ChaosVisualDebugger";
+			productReference = "C7485F1EF7A0F96479738DFB";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		BA1123CEEA1AA90A8B4F91FF /* ChaosVisualDebugger_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A0F0D870C75A07FCEEC504 /* Build configuration list for PBXNativeTarget "ChaosVisualDebugger_Index" */;
+			buildPhases = (
+				E325F1BB08BBA2863CF65179 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "ChaosVisualDebugger_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ChaosVisualDebugger_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9472DD6D0ACBB027A3C42A5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					71E17F5CDBECB471FE9AE40C = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = A6CDE3351641E509620D36E6 /* Build configuration list for PBXProject "ChaosVisualDebugger" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 1B905183329CB5CB4B1F3A77;
+			productRefGroup = 3D3CFFBF9E695C8B759532A2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			71E17F5CDBECB471FE9AE40C /* ChaosVisualDebugger */,
+			B44777E46BC99CCD50BF4B71 /* ChaosVisualDebugger_Build */,
+			BA1123CEEA1AA90A8B4F91FF /* ChaosVisualDebugger_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		ABFAC38F7DB33B46EA864571 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SymsLib",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SymsLib/syms",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/AppFramework/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/AppFramework/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/AppFramework/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Slate/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Slate/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Slate/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/InputCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/InputCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/InputCore/Classes",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/InputCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SlateCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageWrapper/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageWrapper/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ImageCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/StandaloneRenderer/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/StandaloneRenderer/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SourceCodeAccess/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SourceCodeAccess/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Settings/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Settings/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/Settings/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceInsights/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceInsights/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TraceInsights/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Cbor/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Cbor/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Cbor/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/DesktopPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/DesktopPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RenderCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RenderCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RenderCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Sockets/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Sockets/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Sockets/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/NetCommon/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/NetCommon/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net/Common/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceAnalysis/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceAnalysis/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceServices/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceServices/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TraceServices/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/WorkspaceMenuStructure/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/WorkspaceMenuStructure/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/XmlParser/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/XmlParser/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/XmlParser/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateReflector/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateReflector/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/SlateReflector/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ChaosVisualDebugger/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ChaosVisualDebugger/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		2F59FEB49F28E09480E03ED3 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SymsLib",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SymsLib/syms",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/AppFramework/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/AppFramework/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/AppFramework/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Slate/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Slate/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Slate/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/InputCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/InputCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/InputCore/Classes",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/InputCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SlateCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageWrapper/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageWrapper/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ImageCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/StandaloneRenderer/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/StandaloneRenderer/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SourceCodeAccess/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SourceCodeAccess/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Settings/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Settings/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/Settings/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceInsights/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceInsights/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TraceInsights/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Cbor/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Cbor/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Cbor/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/DesktopPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/DesktopPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RenderCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RenderCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RenderCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Sockets/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Sockets/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Sockets/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/NetCommon/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/NetCommon/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net/Common/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceAnalysis/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceAnalysis/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceServices/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceServices/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TraceServices/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/WorkspaceMenuStructure/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/WorkspaceMenuStructure/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/XmlParser/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/XmlParser/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/XmlParser/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateReflector/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateReflector/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/SlateReflector/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ChaosVisualDebugger/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ChaosVisualDebugger/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		F1D0506714F560C7DEF6136F /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SymsLib",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SymsLib/syms",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/AppFramework/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/AppFramework/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/AppFramework/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Slate/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Slate/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Slate/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/InputCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/InputCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/InputCore/Classes",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/InputCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SlateCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageWrapper/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageWrapper/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ImageCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/StandaloneRenderer/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/StandaloneRenderer/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SourceCodeAccess/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SourceCodeAccess/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Settings/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Settings/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/Settings/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceInsights/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceInsights/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TraceInsights/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Cbor/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Cbor/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Cbor/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/DesktopPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/DesktopPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RenderCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RenderCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RenderCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Sockets/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Sockets/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Sockets/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/NetCommon/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/NetCommon/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net/Common/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceAnalysis/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceAnalysis/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceServices/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceServices/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TraceServices/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/WorkspaceMenuStructure/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/WorkspaceMenuStructure/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/XmlParser/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/XmlParser/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/XmlParser/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateReflector/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateReflector/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/SlateReflector/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ChaosVisualDebugger/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ChaosVisualDebugger/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		59D1DC588A9E3C5C7D4A1A94 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SymsLib",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SymsLib/syms",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/AppFramework/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/AppFramework/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/AppFramework/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Slate/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Slate/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Slate/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/InputCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/InputCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/InputCore/Classes",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/InputCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SlateCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageWrapper/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageWrapper/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ImageCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/StandaloneRenderer/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/StandaloneRenderer/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SourceCodeAccess/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SourceCodeAccess/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Settings/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Settings/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/Settings/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceInsights/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceInsights/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TraceInsights/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Cbor/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Cbor/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Cbor/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/DesktopPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/DesktopPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RenderCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RenderCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RenderCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Sockets/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Sockets/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Sockets/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/NetCommon/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/NetCommon/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net/Common/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceAnalysis/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceAnalysis/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceServices/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceServices/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TraceServices/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/WorkspaceMenuStructure/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/WorkspaceMenuStructure/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/XmlParser/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/XmlParser/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/XmlParser/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateReflector/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateReflector/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/SlateReflector/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ChaosVisualDebugger/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ChaosVisualDebugger/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		A52EA8A87C63C6437D98B30F /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SymsLib",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SymsLib/syms",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/AppFramework/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/AppFramework/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/AppFramework/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Slate/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Slate/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Slate/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/InputCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/InputCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/InputCore/Classes",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/InputCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SlateCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageWrapper/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageWrapper/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ImageCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/StandaloneRenderer/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/StandaloneRenderer/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SourceCodeAccess/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SourceCodeAccess/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Settings/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Settings/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/Settings/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceInsights/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceInsights/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TraceInsights/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Cbor/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Cbor/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Cbor/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/DesktopPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/DesktopPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RenderCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RenderCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RenderCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Sockets/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Sockets/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Sockets/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/NetCommon/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/NetCommon/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net/Common/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceAnalysis/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceAnalysis/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceServices/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceServices/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/TraceServices/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/WorkspaceMenuStructure/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/WorkspaceMenuStructure/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/XmlParser/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/XmlParser/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/XmlParser/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateReflector/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateReflector/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/SlateReflector/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ChaosVisualDebugger/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ChaosVisualDebugger/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		75557C1787AA0F772C1679E2 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		DDAAC01F6B79E48DFB677B08 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		E1656DC2DEE7AC6249945205 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		6F2BF41E2DAA4020DB155444 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		578D14019889988B4FF33BBD /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		50A9D69085CB1ACB8CE75A14 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ChaosVisualDebugger";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		A030477A27BE0157267B612B /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ChaosVisualDebugger";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		4D808534D3BFC8692EC18957 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ChaosVisualDebugger";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		A57B47AF477BB290FCE3DB01 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ChaosVisualDebugger";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		CBB09CAE3B31C3F7BA580918 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ChaosVisualDebugger";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		9B7E0ADF30B1EFBBE0F9835B /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		CC662C6407C694BB3F360185 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		6E9A42311A9A4DD652BD83A2 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		E370DE8F842DD92380ADC1EF /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		D20A13991D98834ABCCF38F6 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6CDE3351641E509620D36E6 /* Build configuration list for PBXProject "ChaosVisualDebugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFAC38F7DB33B46EA864571 /* "Debug" */,
+				2F59FEB49F28E09480E03ED3 /* "DebugGame" */,
+				F1D0506714F560C7DEF6136F /* "Development" */,
+				59D1DC588A9E3C5C7D4A1A94 /* "Test" */,
+				A52EA8A87C63C6437D98B30F /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		59F30C87870C69C14A8DA4B2 /* Build configuration list for PBXLegacyTarget "ChaosVisualDebugger_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A9D69085CB1ACB8CE75A14 /* "Debug" */,
+				A030477A27BE0157267B612B /* "DebugGame" */,
+				4D808534D3BFC8692EC18957 /* "Development" */,
+				A57B47AF477BB290FCE3DB01 /* "Test" */,
+				CBB09CAE3B31C3F7BA580918 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		B1D0E2C989A438534E0C670B /* Build configuration list for PBXNativeTarget "ChaosVisualDebugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75557C1787AA0F772C1679E2 /* "Debug" */,
+				DDAAC01F6B79E48DFB677B08 /* "DebugGame" */,
+				E1656DC2DEE7AC6249945205 /* "Development" */,
+				6F2BF41E2DAA4020DB155444 /* "Test" */,
+				578D14019889988B4FF33BBD /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		50A0F0D870C75A07FCEEC504 /* Build configuration list for PBXNativeTarget "ChaosVisualDebugger_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B7E0ADF30B1EFBBE0F9835B /* "Debug" */,
+				CC662C6407C694BB3F360185 /* "DebugGame" */,
+				6E9A42311A9A4DD652BD83A2 /* "Development" */,
+				E370DE8F842DD92380ADC1EF /* "Test" */,
+				D20A13991D98834ABCCF38F6 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9472DD6D0ACBB027A3C42A5A /* Project object */;
+}

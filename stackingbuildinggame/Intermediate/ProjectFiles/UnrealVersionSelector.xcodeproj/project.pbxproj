@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8022066652EEC71A21E70BEB /* GenericPlatformInstallation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2CCA9F4AA237B3A7D509005 /* GenericPlatformInstallation.cpp */; };
+		6F55693EBBDF8DD1735CF2D1 /* GenericPlatformInstallation.h in Sources */ = {isa = PBXBuildFile; fileRef = D80548B12634CECABE41F9A4 /* GenericPlatformInstallation.h */; };
+		30A8967D43B72F2F9201F6FD /* LinuxPlatformInstallation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85885F42593A7766DAD71CA4 /* LinuxPlatformInstallation.cpp */; };
+		DACA144981C5462D5CC50E13 /* LinuxPlatformInstallation.h in Sources */ = {isa = PBXBuildFile; fileRef = 48108DBC2DC23FD60E4B2C9D /* LinuxPlatformInstallation.h */; };
+		ADBA39179745958F9D7774F4 /* com.epicgames.UnrealEngine.desktop in Sources */ = {isa = PBXBuildFile; fileRef = 55C364C9FBB487566E131947 /* com.epicgames.UnrealEngine.desktop */; };
+		14731C46AA6C22889327D60E /* com.epicgames.UnrealEngineEditor.desktop in Sources */ = {isa = PBXBuildFile; fileRef = 59B2C1465C12DB2B71B877F7 /* com.epicgames.UnrealEngineEditor.desktop */; };
+		64D8C4C6C5A2DA99A1F10324 /* com.epicgames.UnrealVersionSelector.desktop in Sources */ = {isa = PBXBuildFile; fileRef = 294FE43054EB612DEC556F48 /* com.epicgames.UnrealVersionSelector.desktop */; };
+		F240FA5B37EED55BFC25E1D2 /* Icon.png in Sources */ = {isa = PBXBuildFile; fileRef = A85BC3F14D3C6D68AF9D1D0C /* Icon.png */; };
+		2EABD78557490A0E687BD384 /* uproject.xml in Sources */ = {isa = PBXBuildFile; fileRef = A77E61B31CA728036E1288F8 /* uproject.xml */; };
+		D48C7083C992CA598BF1A279 /* UnrealVersionSelectorLinuxMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2E5ADCCBAC8A1BF7A4CF948 /* UnrealVersionSelectorLinuxMain.cpp */; };
+		F78785BE86F68F730B361A97 /* PlatformInstallation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8990C9788F6C7F803359B46E /* PlatformInstallation.cpp */; };
+		FF6ACEC232C8667E86AF7770 /* PlatformInstallation.h in Sources */ = {isa = PBXBuildFile; fileRef = 5760DB1978C165D50263C9E0 /* PlatformInstallation.h */; };
+		7341169C51CB3E9ED316BF1C /* UnrealVersionSelector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28CC4042CF9C10DA1858202F /* UnrealVersionSelector.cpp */; };
+		90650872F4DE6C9BA0ED4FF0 /* UnrealVersionSelector.h in Sources */ = {isa = PBXBuildFile; fileRef = B2CA2CBB70D99D41A1BFF1AC /* UnrealVersionSelector.h */; };
+		A375E89BA85C70E92611D42D /* Icon.ico in Sources */ = {isa = PBXBuildFile; fileRef = BB92E00A50116A38F21C48C1 /* Icon.ico */; };
+		AC08490ADE907D071E7F63FF /* Resource.h in Sources */ = {isa = PBXBuildFile; fileRef = 310273C56E74C05885F8A650 /* Resource.h */; };
+		9D56683F6963DA872D26EFA0 /* Resource.rc in Sources */ = {isa = PBXBuildFile; fileRef = 13650A9694CD0F3B2EE0D84E /* Resource.rc */; };
+		9EA5CA7E5CEF3BB361F96D87 /* Resource.rc2 in Sources */ = {isa = PBXBuildFile; fileRef = 283D9DBBA5DCD10A13D2B208 /* Resource.rc2 */; };
+		2870DFB0E807995523EE2D8C /* WindowsPlatformInstallation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 174F03B21BD2692C883F49CE /* WindowsPlatformInstallation.cpp */; };
+		DBBA4B0775199D1B22DE5DE7 /* WindowsPlatformInstallation.h in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A2661E27D60B951D49CCC /* WindowsPlatformInstallation.h */; };
+		4ED2226FF7DC1F6210073470 /* UnrealVersionSelector.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0B1CFB53713DBAA608D04B72 /* UnrealVersionSelector.Build.cs */; };
+		3266CBCA199C8E1C9D42DDBA /* UnrealVersionSelector.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = F2FEA1954DF5A91D60F7EAD8 /* UnrealVersionSelector.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C2CCA9F4AA237B3A7D509005 /* GenericPlatformInstallation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "GenericPlatformInstallation.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/GenericPlatform/GenericPlatformInstallation.cpp"; sourceTree = SOURCE_ROOT; };
+		D80548B12634CECABE41F9A4 /* GenericPlatformInstallation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "GenericPlatformInstallation.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/GenericPlatform/GenericPlatformInstallation.h"; sourceTree = SOURCE_ROOT; };
+		85885F42593A7766DAD71CA4 /* LinuxPlatformInstallation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LinuxPlatformInstallation.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/Linux/LinuxPlatformInstallation.cpp"; sourceTree = SOURCE_ROOT; };
+		48108DBC2DC23FD60E4B2C9D /* LinuxPlatformInstallation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LinuxPlatformInstallation.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/Linux/LinuxPlatformInstallation.h"; sourceTree = SOURCE_ROOT; };
+		55C364C9FBB487566E131947 /* com.epicgames.UnrealEngine.desktop */ = {isa = PBXFileReference; explicitFileType = file.text; name = "com.epicgames.UnrealEngine.desktop"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/Linux/Resources/com.epicgames.UnrealEngine.desktop"; sourceTree = SOURCE_ROOT; };
+		59B2C1465C12DB2B71B877F7 /* com.epicgames.UnrealEngineEditor.desktop */ = {isa = PBXFileReference; explicitFileType = file.text; name = "com.epicgames.UnrealEngineEditor.desktop"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/Linux/Resources/com.epicgames.UnrealEngineEditor.desktop"; sourceTree = SOURCE_ROOT; };
+		294FE43054EB612DEC556F48 /* com.epicgames.UnrealVersionSelector.desktop */ = {isa = PBXFileReference; explicitFileType = file.text; name = "com.epicgames.UnrealVersionSelector.desktop"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/Linux/Resources/com.epicgames.UnrealVersionSelector.desktop"; sourceTree = SOURCE_ROOT; };
+		A85BC3F14D3C6D68AF9D1D0C /* Icon.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "Icon.png"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/Linux/Resources/Icon.png"; sourceTree = SOURCE_ROOT; };
+		A77E61B31CA728036E1288F8 /* uproject.xml */ = {isa = PBXFileReference; explicitFileType = file.text; name = "uproject.xml"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/Linux/Resources/uproject.xml"; sourceTree = SOURCE_ROOT; };
+		A2E5ADCCBAC8A1BF7A4CF948 /* UnrealVersionSelectorLinuxMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealVersionSelectorLinuxMain.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/Linux/UnrealVersionSelectorLinuxMain.cpp"; sourceTree = SOURCE_ROOT; };
+		8990C9788F6C7F803359B46E /* PlatformInstallation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PlatformInstallation.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/PlatformInstallation.cpp"; sourceTree = SOURCE_ROOT; };
+		5760DB1978C165D50263C9E0 /* PlatformInstallation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PlatformInstallation.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/PlatformInstallation.h"; sourceTree = SOURCE_ROOT; };
+		28CC4042CF9C10DA1858202F /* UnrealVersionSelector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealVersionSelector.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/UnrealVersionSelector.cpp"; sourceTree = SOURCE_ROOT; };
+		B2CA2CBB70D99D41A1BFF1AC /* UnrealVersionSelector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealVersionSelector.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/UnrealVersionSelector.h"; sourceTree = SOURCE_ROOT; };
+		BB92E00A50116A38F21C48C1 /* Icon.ico */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Icon.ico"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/Windows/Resources/Icon.ico"; sourceTree = SOURCE_ROOT; };
+		310273C56E74C05885F8A650 /* Resource.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Resource.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/Windows/Resources/Resource.h"; sourceTree = SOURCE_ROOT; };
+		13650A9694CD0F3B2EE0D84E /* Resource.rc */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resource.rc"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/Windows/Resources/Resource.rc"; sourceTree = SOURCE_ROOT; };
+		283D9DBBA5DCD10A13D2B208 /* Resource.rc2 */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resource.rc2"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/Windows/Resources/Resource.rc2"; sourceTree = SOURCE_ROOT; };
+		174F03B21BD2692C883F49CE /* WindowsPlatformInstallation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "WindowsPlatformInstallation.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/Windows/WindowsPlatformInstallation.cpp"; sourceTree = SOURCE_ROOT; };
+		6A5A2661E27D60B951D49CCC /* WindowsPlatformInstallation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "WindowsPlatformInstallation.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/Windows/WindowsPlatformInstallation.h"; sourceTree = SOURCE_ROOT; };
+		0B1CFB53713DBAA608D04B72 /* UnrealVersionSelector.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealVersionSelector.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/UnrealVersionSelector.Build.cs"; sourceTree = SOURCE_ROOT; };
+		F2FEA1954DF5A91D60F7EAD8 /* UnrealVersionSelector.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealVersionSelector.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/UnrealVersionSelector.Target.cs"; sourceTree = SOURCE_ROOT; };
+		CBCA2433503DE6B61E4B2D41 /* UnrealVersionSelector */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = UnrealVersionSelector; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B0C1C0B4E7E100213265079 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8022066652EEC71A21E70BEB /* GenericPlatformInstallation.cpp in Sources */,
+				F78785BE86F68F730B361A97 /* PlatformInstallation.cpp in Sources */,
+				7341169C51CB3E9ED316BF1C /* UnrealVersionSelector.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	571F287C4D8C6D7C8616E2D2 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		86884C1F007993BC2F237808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A83FE21727A89F2F51FE7D8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4212FD7A7DBAF155FDE07C18;
+			remoteInfo = "UnrealVersionSelector_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		A81A1B8CC821245047A5B531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4212FD7A7DBAF155FDE07C18 /* UnrealVersionSelector_Build */;
+			targetProxy = 86884C1F007993BC2F237808 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		C7AE517F07D5B1F11E3D607F = {
+			isa = PBXGroup;
+			children = (
+				8515AF3116E5AC5D291EE08B /* Private */,
+				0B1CFB53713DBAA608D04B72 /* UnrealVersionSelector.Build.cs */,
+				F2FEA1954DF5A91D60F7EAD8 /* UnrealVersionSelector.Target.cs */,
+				1CFB13B26CAD9C7C9BB3BA4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8515AF3116E5AC5D291EE08B = {
+			isa = PBXGroup;
+			children = (
+				92857EE84099D4D429244A01 /* GenericPlatform */,
+				06189416CC48385BDDF66DCA /* Linux */,
+				FEE06FE3BC045261CAAE2AFD /* Windows */,
+				8990C9788F6C7F803359B46E /* PlatformInstallation.cpp */,
+				5760DB1978C165D50263C9E0 /* PlatformInstallation.h */,
+				28CC4042CF9C10DA1858202F /* UnrealVersionSelector.cpp */,
+				B2CA2CBB70D99D41A1BFF1AC /* UnrealVersionSelector.h */,
+			);
+			name = "Private";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private";
+			sourceTree = "<absolute>";
+		};
+		92857EE84099D4D429244A01 = {
+			isa = PBXGroup;
+			children = (
+				C2CCA9F4AA237B3A7D509005 /* GenericPlatformInstallation.cpp */,
+				D80548B12634CECABE41F9A4 /* GenericPlatformInstallation.h */,
+			);
+			name = "GenericPlatform";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/GenericPlatform";
+			sourceTree = "<absolute>";
+		};
+		06189416CC48385BDDF66DCA = {
+			isa = PBXGroup;
+			children = (
+				F46950D5655108761C5EFAAD /* Resources */,
+				85885F42593A7766DAD71CA4 /* LinuxPlatformInstallation.cpp */,
+				48108DBC2DC23FD60E4B2C9D /* LinuxPlatformInstallation.h */,
+				A2E5ADCCBAC8A1BF7A4CF948 /* UnrealVersionSelectorLinuxMain.cpp */,
+			);
+			name = "Linux";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/Linux";
+			sourceTree = "<absolute>";
+		};
+		F46950D5655108761C5EFAAD = {
+			isa = PBXGroup;
+			children = (
+				55C364C9FBB487566E131947 /* com.epicgames.UnrealEngine.desktop */,
+				59B2C1465C12DB2B71B877F7 /* com.epicgames.UnrealEngineEditor.desktop */,
+				294FE43054EB612DEC556F48 /* com.epicgames.UnrealVersionSelector.desktop */,
+				A85BC3F14D3C6D68AF9D1D0C /* Icon.png */,
+				A77E61B31CA728036E1288F8 /* uproject.xml */,
+			);
+			name = "Resources";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/Linux/Resources";
+			sourceTree = "<absolute>";
+		};
+		FEE06FE3BC045261CAAE2AFD = {
+			isa = PBXGroup;
+			children = (
+				519591E1E585AE9B17B4F3D7 /* Resources */,
+				174F03B21BD2692C883F49CE /* WindowsPlatformInstallation.cpp */,
+				6A5A2661E27D60B951D49CCC /* WindowsPlatformInstallation.h */,
+			);
+			name = "Windows";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/Windows";
+			sourceTree = "<absolute>";
+		};
+		519591E1E585AE9B17B4F3D7 = {
+			isa = PBXGroup;
+			children = (
+				BB92E00A50116A38F21C48C1 /* Icon.ico */,
+				310273C56E74C05885F8A650 /* Resource.h */,
+				13650A9694CD0F3B2EE0D84E /* Resource.rc */,
+				283D9DBBA5DCD10A13D2B208 /* Resource.rc2 */,
+			);
+			name = "Resources";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private/Windows/Resources";
+			sourceTree = "<absolute>";
+		};
+		1CFB13B26CAD9C7C9BB3BA4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBCA2433503DE6B61E4B2D41 /* UnrealVersionSelector */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		4212FD7A7DBAF155FDE07C18 /* UnrealVersionSelector_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 5F8E94A7D4062384A112C0FE /* Build configuration list for PBXLegacyTarget "UnrealVersionSelector_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5";
+			dependencies = (
+			);
+			name = "UnrealVersionSelector_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealVersionSelector_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		1EE09FD55B5E9EC69CA10A38 /* UnrealVersionSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB31203A1ACAD952067C253 /* Build configuration list for PBXNativeTarget "UnrealVersionSelector" */;
+			buildPhases = (
+				571F287C4D8C6D7C8616E2D2 /* Embed App Extensions */, 
+				2E0BE80409AE2014F306F4FA /* Shell Script */, 
+			);
+			dependencies = (
+				A81A1B8CC821245047A5B531 /* PBXTargetDependency */,
+			);
+			name = "UnrealVersionSelector";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealVersionSelector";
+			productReference = "CBCA2433503DE6B61E4B2D41";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		FDF1FF09BFFE123B5A0BDCEE /* UnrealVersionSelector_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B183E7532220BEA4D0CD3C2 /* Build configuration list for PBXNativeTarget "UnrealVersionSelector_Index" */;
+			buildPhases = (
+				8B0C1C0B4E7E100213265079 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "UnrealVersionSelector_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealVersionSelector_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A83FE21727A89F2F51FE7D8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					1EE09FD55B5E9EC69CA10A38 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = BAE796FECD41BD54B1A62BBB /* Build configuration list for PBXProject "UnrealVersionSelector" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = C7AE517F07D5B1F11E3D607F;
+			productRefGroup = 1CFB13B26CAD9C7C9BB3BA4B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			1EE09FD55B5E9EC69CA10A38 /* UnrealVersionSelector */,
+			4212FD7A7DBAF155FDE07C18 /* UnrealVersionSelector_Build */,
+			FDF1FF09BFFE123B5A0BDCEE /* UnrealVersionSelector_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		B8A6A29F2D5E6BF5AA9A5A4C /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/DesktopPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/DesktopPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/UnrealVersionSelector/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/UnrealVersionSelector/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		7E11CEB5417FCF6EC9600920 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/DesktopPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/DesktopPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/UnrealVersionSelector/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/UnrealVersionSelector/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		FCB97EA67A278CF5EC57C7A5 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/DesktopPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/DesktopPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/UnrealVersionSelector/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/UnrealVersionSelector/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		075DBBB49A6D8501B938AB04 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/DesktopPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/DesktopPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/UnrealVersionSelector/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/UnrealVersionSelector/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		A6B771FF9B637D22A7D8236C /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVersionSelector/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/DesktopPlatform/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/DesktopPlatform/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/UnrealVersionSelector/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/UnrealVersionSelector/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		85202F0E453DC4742A4ADC42 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		6506EF6E150A21575D882577 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		B6914D80CE0F93551FFB0045 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		2D834A50A408CD914EE5B5E3 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		9B570ECDFA19840082FB70A6 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		950CF865063C85502B2DC3A6 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealVersionSelector";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		EE9CC93E214991F98D0FE6F4 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealVersionSelector";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		FB75F908AB9BB2BFD8244267 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealVersionSelector";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		902ED22EF2EB3D91802D014E /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealVersionSelector";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		E362F20E3623A316F6D2873B /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealVersionSelector";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		E9CE4F28ABEC2893B09C7FE9 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		6DCF0EAB5D54DD89C42EC3A4 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		CAEB7F6583F108150769F5CC /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		E0FE246A9F40AE923F7A37FF /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		7A3EF51DAFDFA608DAB7CF47 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE796FECD41BD54B1A62BBB /* Build configuration list for PBXProject "UnrealVersionSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A6A29F2D5E6BF5AA9A5A4C /* "Debug" */,
+				7E11CEB5417FCF6EC9600920 /* "DebugGame" */,
+				FCB97EA67A278CF5EC57C7A5 /* "Development" */,
+				075DBBB49A6D8501B938AB04 /* "Test" */,
+				A6B771FF9B637D22A7D8236C /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		5F8E94A7D4062384A112C0FE /* Build configuration list for PBXLegacyTarget "UnrealVersionSelector_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				950CF865063C85502B2DC3A6 /* "Debug" */,
+				EE9CC93E214991F98D0FE6F4 /* "DebugGame" */,
+				FB75F908AB9BB2BFD8244267 /* "Development" */,
+				902ED22EF2EB3D91802D014E /* "Test" */,
+				E362F20E3623A316F6D2873B /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		FBB31203A1ACAD952067C253 /* Build configuration list for PBXNativeTarget "UnrealVersionSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85202F0E453DC4742A4ADC42 /* "Debug" */,
+				6506EF6E150A21575D882577 /* "DebugGame" */,
+				B6914D80CE0F93551FFB0045 /* "Development" */,
+				2D834A50A408CD914EE5B5E3 /* "Test" */,
+				9B570ECDFA19840082FB70A6 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		7B183E7532220BEA4D0CD3C2 /* Build configuration list for PBXNativeTarget "UnrealVersionSelector_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9CE4F28ABEC2893B09C7FE9 /* "Debug" */,
+				6DCF0EAB5D54DD89C42EC3A4 /* "DebugGame" */,
+				CAEB7F6583F108150769F5CC /* "Development" */,
+				E0FE246A9F40AE923F7A37FF /* "Test" */,
+				7A3EF51DAFDFA608DAB7CF47 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A83FE21727A89F2F51FE7D8B /* Project object */;
+}

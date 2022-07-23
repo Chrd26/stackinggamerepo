@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ACC0F42BACB15A5FBCD25EE /* UnrealLaunchDaemon-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 2A330723B803C73C79622F5A /* UnrealLaunchDaemon-Info.plist */; };
+		98C2AA397B19327E046F9C0A /* IOSLaunchDaemonAppMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC79B133A16AD79860B7312A /* IOSLaunchDaemonAppMain.cpp */; };
+		77C67BA51D17CDC23B1D5E14 /* IOSLaunchDaemonView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1E39D5D90EAC5E61FE5BED4 /* IOSLaunchDaemonView.cpp */; };
+		34DA0118DC1D29E1907FC2B5 /* IOSLaunchDaemonView.h in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C60ECA1DACFAF1A9D92BD /* IOSLaunchDaemonView.h */; };
+		EC6A4119EAE074ACEC3022E6 /* LaunchDaemonMessageHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46F81C6CBA65D9198CFE6C82 /* LaunchDaemonMessageHandler.cpp */; };
+		A95C7F6BA9DCDD089DB5554F /* LaunchDaemonMessageHandler.h in Sources */ = {isa = PBXBuildFile; fileRef = 89FCBA1B597902F91020DDC0 /* LaunchDaemonMessageHandler.h */; };
+		E75A81138816CEEDFDBF6F8E /* UnrealLaunchDaemon.h in Sources */ = {isa = PBXBuildFile; fileRef = 6108021053194991A2CDE3BE /* UnrealLaunchDaemon.h */; };
+		AABEC012FC7371897FBE844E /* UnrealLaunchDaemonApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AC98087E66851C98C2CBA51 /* UnrealLaunchDaemonApp.cpp */; };
+		76F1A6F7D74B1D1977C269C9 /* UnrealLaunchDaemonApp.h in Sources */ = {isa = PBXBuildFile; fileRef = 55BBF08A4EE60EA283B4B589 /* UnrealLaunchDaemonApp.h */; };
+		93FAB01BE997F5E149756CFA /* UnrealLaunchDaemon.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A7025DAA2E31C1CBCC2E0 /* UnrealLaunchDaemon.Build.cs */; };
+		C06FD615FA82FA5CAE40259F /* UnrealLaunchDaemon.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = BAD4C0871947E7940A2A8C37 /* UnrealLaunchDaemon.Target.cs */; };
+		1013B143F3B1BFBB7AF3DAFF /* UnrealLaunchDaemon.tps in Sources */ = {isa = PBXBuildFile; fileRef = 0C8337160CD902F7CA6B18E3 /* UnrealLaunchDaemon.tps */; };
+		1D04878CB3563AD638D00AD5 /* UnrealLaunchDaemon.uproject in Sources */ = {isa = PBXBuildFile; fileRef = E6B1ED97B5B180376F701856 /* UnrealLaunchDaemon.uproject */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A330723B803C73C79622F5A /* UnrealLaunchDaemon-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; name = "UnrealLaunchDaemon-Info.plist"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Build/IOS/UnrealLaunchDaemon-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CC79B133A16AD79860B7312A /* IOSLaunchDaemonAppMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IOSLaunchDaemonAppMain.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/IOS/IOSLaunchDaemonAppMain.cpp"; sourceTree = SOURCE_ROOT; };
+		A1E39D5D90EAC5E61FE5BED4 /* IOSLaunchDaemonView.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IOSLaunchDaemonView.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/IOS/IOSLaunchDaemonView.cpp"; sourceTree = SOURCE_ROOT; };
+		9E8C60ECA1DACFAF1A9D92BD /* IOSLaunchDaemonView.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "IOSLaunchDaemonView.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/IOS/IOSLaunchDaemonView.h"; sourceTree = SOURCE_ROOT; };
+		46F81C6CBA65D9198CFE6C82 /* LaunchDaemonMessageHandler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LaunchDaemonMessageHandler.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/LaunchDaemonMessageHandler.cpp"; sourceTree = SOURCE_ROOT; };
+		89FCBA1B597902F91020DDC0 /* LaunchDaemonMessageHandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LaunchDaemonMessageHandler.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/LaunchDaemonMessageHandler.h"; sourceTree = SOURCE_ROOT; };
+		6108021053194991A2CDE3BE /* UnrealLaunchDaemon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealLaunchDaemon.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/UnrealLaunchDaemon.h"; sourceTree = SOURCE_ROOT; };
+		5AC98087E66851C98C2CBA51 /* UnrealLaunchDaemonApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealLaunchDaemonApp.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/UnrealLaunchDaemonApp.cpp"; sourceTree = SOURCE_ROOT; };
+		55BBF08A4EE60EA283B4B589 /* UnrealLaunchDaemonApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealLaunchDaemonApp.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/UnrealLaunchDaemonApp.h"; sourceTree = SOURCE_ROOT; };
+		2B4A7025DAA2E31C1CBCC2E0 /* UnrealLaunchDaemon.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealLaunchDaemon.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/IOS/UnrealLaunchDaemon/UnrealLaunchDaemon.Build.cs"; sourceTree = SOURCE_ROOT; };
+		BAD4C0871947E7940A2A8C37 /* UnrealLaunchDaemon.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealLaunchDaemon.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/IOS/UnrealLaunchDaemon/UnrealLaunchDaemon.Target.cs"; sourceTree = SOURCE_ROOT; };
+		0C8337160CD902F7CA6B18E3 /* UnrealLaunchDaemon.tps */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealLaunchDaemon.tps"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/IOS/UnrealLaunchDaemon/UnrealLaunchDaemon.tps"; sourceTree = SOURCE_ROOT; };
+		E6B1ED97B5B180376F701856 /* UnrealLaunchDaemon.uproject */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealLaunchDaemon.uproject"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/IOS/UnrealLaunchDaemon/UnrealLaunchDaemon.uproject"; sourceTree = SOURCE_ROOT; };
+		4CBDA37DFDC71BAA0DF0B7BC /* UnrealLaunchDaemon */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = UnrealLaunchDaemon; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB6DA18FFDAD1C96B783E199 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C2AA397B19327E046F9C0A /* IOSLaunchDaemonAppMain.cpp in Sources */,
+				77C67BA51D17CDC23B1D5E14 /* IOSLaunchDaemonView.cpp in Sources */,
+				EC6A4119EAE074ACEC3022E6 /* LaunchDaemonMessageHandler.cpp in Sources */,
+				AABEC012FC7371897FBE844E /* UnrealLaunchDaemonApp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	5A8CA8A495D0D575EE33947F /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		2CE2590C072FF207C422C8FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3173811E83D85E68B0BE425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1718A343B0A8B89424DB468;
+			remoteInfo = "UnrealLaunchDaemon_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		9DFFF9323CF2930387529DFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1718A343B0A8B89424DB468 /* UnrealLaunchDaemon_Build */;
+			targetProxy = 2CE2590C072FF207C422C8FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		304EE2F83EE676144F8FDC1F = {
+			isa = PBXGroup;
+			children = (
+				6828B3301CB99A730032FCC7 /* Build */,
+				26200B21656798D0D2201E3F /* Private */,
+				2B4A7025DAA2E31C1CBCC2E0 /* UnrealLaunchDaemon.Build.cs */,
+				BAD4C0871947E7940A2A8C37 /* UnrealLaunchDaemon.Target.cs */,
+				0C8337160CD902F7CA6B18E3 /* UnrealLaunchDaemon.tps */,
+				E6B1ED97B5B180376F701856 /* UnrealLaunchDaemon.uproject */,
+				BBDD53EE18450A98D9A6B5CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6828B3301CB99A730032FCC7 = {
+			isa = PBXGroup;
+			children = (
+				416102685428AAFCB87F6833 /* IOS */,
+			);
+			name = "Build";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Build";
+			sourceTree = "<absolute>";
+		};
+		416102685428AAFCB87F6833 = {
+			isa = PBXGroup;
+			children = (
+				2A330723B803C73C79622F5A /* UnrealLaunchDaemon-Info.plist */,
+			);
+			name = "IOS";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Build/IOS";
+			sourceTree = "<absolute>";
+		};
+		26200B21656798D0D2201E3F = {
+			isa = PBXGroup;
+			children = (
+				EB34E2F3F268E806D6D36B36 /* IOS */,
+				46F81C6CBA65D9198CFE6C82 /* LaunchDaemonMessageHandler.cpp */,
+				89FCBA1B597902F91020DDC0 /* LaunchDaemonMessageHandler.h */,
+				6108021053194991A2CDE3BE /* UnrealLaunchDaemon.h */,
+				5AC98087E66851C98C2CBA51 /* UnrealLaunchDaemonApp.cpp */,
+				55BBF08A4EE60EA283B4B589 /* UnrealLaunchDaemonApp.h */,
+			);
+			name = "Private";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private";
+			sourceTree = "<absolute>";
+		};
+		EB34E2F3F268E806D6D36B36 = {
+			isa = PBXGroup;
+			children = (
+				CC79B133A16AD79860B7312A /* IOSLaunchDaemonAppMain.cpp */,
+				A1E39D5D90EAC5E61FE5BED4 /* IOSLaunchDaemonView.cpp */,
+				9E8C60ECA1DACFAF1A9D92BD /* IOSLaunchDaemonView.h */,
+			);
+			name = "IOS";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/IOS";
+			sourceTree = "<absolute>";
+		};
+		BBDD53EE18450A98D9A6B5CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CBDA37DFDC71BAA0DF0B7BC /* UnrealLaunchDaemon */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		E1718A343B0A8B89424DB468 /* UnrealLaunchDaemon_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = B685E30472FC087A37FAE57E /* Build configuration list for PBXLegacyTarget "UnrealLaunchDaemon_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5";
+			dependencies = (
+			);
+			name = "UnrealLaunchDaemon_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealLaunchDaemon_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		0F11BD54BBDAA3C726CE0D13 /* UnrealLaunchDaemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDF4AE04B1092EB336403CD /* Build configuration list for PBXNativeTarget "UnrealLaunchDaemon" */;
+			buildPhases = (
+				5A8CA8A495D0D575EE33947F /* Embed App Extensions */, 
+				254F001542C7DA8998160DD0 /* Shell Script */, 
+			);
+			dependencies = (
+				9DFFF9323CF2930387529DFD /* PBXTargetDependency */,
+			);
+			name = "UnrealLaunchDaemon";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealLaunchDaemon";
+			productReference = "4CBDA37DFDC71BAA0DF0B7BC";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		4F1606C036F3EF3B2B9D2B96 /* UnrealLaunchDaemon_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4BECBBA973EBCFF083AC677 /* Build configuration list for PBXNativeTarget "UnrealLaunchDaemon_Index" */;
+			buildPhases = (
+				EB6DA18FFDAD1C96B783E199 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "UnrealLaunchDaemon_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealLaunchDaemon_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3173811E83D85E68B0BE425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					0F11BD54BBDAA3C726CE0D13 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 04CB534F5D783D185A4D5FB4 /* Build configuration list for PBXProject "UnrealLaunchDaemon" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 304EE2F83EE676144F8FDC1F;
+			productRefGroup = BBDD53EE18450A98D9A6B5CC;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			0F11BD54BBDAA3C726CE0D13 /* UnrealLaunchDaemon */,
+			E1718A343B0A8B89424DB468 /* UnrealLaunchDaemon_Build */,
+			4F1606C036F3EF3B2B9D2B96 /* UnrealLaunchDaemon_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		45E617A272466737FCBA938C /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		C4D1B9583956F7237B69F56B /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		CFDFB16A64B2D671821C1B04 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		B7B7DA83BB390818DA9F247D /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		68D1C51780E598F08BEC9DBA /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		9C650208D040DDB7D9216AAE /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon-IOS-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Mac/UnrealLaunchDaemon-IOS-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		F2778DA4B9500EC506534F9D /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon-IOS-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Mac/UnrealLaunchDaemon-IOS-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		6B7A857B76BBDC7B4CB60511 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Mac/UnrealLaunchDaemon-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		CD0C5183BD7585D6CDC62CEE /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon-IOS-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Mac/UnrealLaunchDaemon-IOS-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		5D76B6581AE3514EF9E95EE2 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon-IOS-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Mac/UnrealLaunchDaemon-IOS-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		AD0753F0A95800437ED75FAF /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLaunchDaemon";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		3D34EA7C9E00F23A8E762BD7 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLaunchDaemon";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		46E7E4CA1FFE5EA67F95ADBE /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLaunchDaemon";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		E500DB92628285402B7F1367 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLaunchDaemon";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		8A3F4837E27C8A8DF2472991 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLaunchDaemon";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		B93302A8CC5C836ABB7378DC /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon-IOS-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Mac/UnrealLaunchDaemon-IOS-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		9EA70A27E03C33503E97B554 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon-IOS-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Mac/UnrealLaunchDaemon-IOS-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		4E88D5DCA0B954828C05BB65 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Mac/UnrealLaunchDaemon-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		24DBEA458D95E4AF63570E93 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon-IOS-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Mac/UnrealLaunchDaemon-IOS-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		BD6DC046E622DC383D30E716 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon-IOS-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Mac/UnrealLaunchDaemon-IOS-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CB534F5D783D185A4D5FB4 /* Build configuration list for PBXProject "UnrealLaunchDaemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E617A272466737FCBA938C /* "Debug" */,
+				C4D1B9583956F7237B69F56B /* "DebugGame" */,
+				CFDFB16A64B2D671821C1B04 /* "Development" */,
+				B7B7DA83BB390818DA9F247D /* "Test" */,
+				68D1C51780E598F08BEC9DBA /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		B685E30472FC087A37FAE57E /* Build configuration list for PBXLegacyTarget "UnrealLaunchDaemon_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0753F0A95800437ED75FAF /* "Debug" */,
+				3D34EA7C9E00F23A8E762BD7 /* "DebugGame" */,
+				46E7E4CA1FFE5EA67F95ADBE /* "Development" */,
+				E500DB92628285402B7F1367 /* "Test" */,
+				8A3F4837E27C8A8DF2472991 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		DCDF4AE04B1092EB336403CD /* Build configuration list for PBXNativeTarget "UnrealLaunchDaemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C650208D040DDB7D9216AAE /* "Debug" */,
+				F2778DA4B9500EC506534F9D /* "DebugGame" */,
+				6B7A857B76BBDC7B4CB60511 /* "Development" */,
+				CD0C5183BD7585D6CDC62CEE /* "Test" */,
+				5D76B6581AE3514EF9E95EE2 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		A4BECBBA973EBCFF083AC677 /* Build configuration list for PBXNativeTarget "UnrealLaunchDaemon_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93302A8CC5C836ABB7378DC /* "Debug" */,
+				9EA70A27E03C33503E97B554 /* "DebugGame" */,
+				4E88D5DCA0B954828C05BB65 /* "Development" */,
+				24DBEA458D95E4AF63570E93 /* "Test" */,
+				BD6DC046E622DC383D30E716 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3173811E83D85E68B0BE425 /* Project object */;
+}

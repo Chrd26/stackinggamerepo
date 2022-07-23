@@ -1,0 +1,1290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36D00D5796B661F8C91E05B6 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 1A3B3BBC47EE730F0BB1A49F /* DefaultEngine.ini */; };
+		04D8007A413065D22771AD1E /* CPUSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB9415E27DD9025BAAB352 /* CPUSolver.cpp */; };
+		541466299762351DC2B884DC /* CPUSolver.h in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C0A713235684E305BDB7B /* CPUSolver.h */; };
+		EEEAEBBDA47E735A25AD252C /* Exporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3C3BC43C8F5B4346B8E885 /* Exporter.cpp */; };
+		7268CF26416422F939EA3AAD /* Exporter.h in Sources */ = {isa = PBXBuildFile; fileRef = 77777944452AB67F37DEA6F6 /* Exporter.h */; };
+		FAA312A0FF97353502654A3C /* Importer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE4C19C08B2CF2DF018D4DC4 /* Importer.cpp */; };
+		1617FE1C02684E94C1D92B9D /* Importer.h in Sources */ = {isa = PBXBuildFile; fileRef = 5282F9A2B504AA122D3C96F8 /* Importer.h */; };
+		11F6F40AEBC6F46C564D89E8 /* LightmassScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9819339916B67BD4217B6D08 /* LightmassScene.cpp */; };
+		32502AFCE23A97DA80060B0B /* LightmassScene.h in Sources */ = {isa = PBXBuildFile; fileRef = 7443A9FAE4BF4705F811099C /* LightmassScene.h */; };
+		D011FB76C1C2D79588EBD79A /* LightmassSwarm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CF7891BB5AF67920D2824D2 /* LightmassSwarm.cpp */; };
+		0C80EF6133681021468E2CD1 /* LightmassSwarm.h in Sources */ = {isa = PBXBuildFile; fileRef = 3E2119BE2F7583896C0E5EED /* LightmassSwarm.h */; };
+		362B5049A9778EA8EC296940 /* Material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2756220DBB5540DCBB7DD94 /* Material.cpp */; };
+		96A96398A49B66FE21022B08 /* Material.h in Sources */ = {isa = PBXBuildFile; fileRef = 17C678CF0083E515B7D8ECB9 /* Material.h */; };
+		1362ADB6BA51217E4EBBB200 /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14F50350C26B1ECF4A5A0814 /* Mesh.cpp */; };
+		3D840D47D2C7DDBDBDA98542 /* Mesh.h in Sources */ = {isa = PBXBuildFile; fileRef = EEB044D0E0ADB95B1378BB0A /* Mesh.h */; };
+		8094534BB91C6EB959987835 /* UnitTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43DAAB87DEF5436A70C16211 /* UnitTest.cpp */; };
+		274EEF9DA0AC00C4C802C73E /* UnitTest.h in Sources */ = {isa = PBXBuildFile; fileRef = 739104A03ACCE855380E8C06 /* UnitTest.h */; };
+		02327D1E35519ABF3242246B /* UnrealLightmass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CD118AC97B36C41126C134D /* UnrealLightmass.cpp */; };
+		F0A22FA3D80DD918C1E89B6E /* UnrealLightmass.h in Sources */ = {isa = PBXBuildFile; fileRef = 2FE28F7767080C316C987369 /* UnrealLightmass.h */; };
+		B33CBD84A14BF3951E302D92 /* AdaptiveVolumetricLightmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22F6E624680CAA4436AA7DB5 /* AdaptiveVolumetricLightmap.cpp */; };
+		24F5D90A60E1E0582EC6F09C /* BSP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F557675F4054FFFB4FC5570 /* BSP.cpp */; };
+		21E7C860EE2F3209BE0760AC /* BSP.h in Sources */ = {isa = PBXBuildFile; fileRef = 71E9343D50D5645C064AD513 /* BSP.h */; };
+		95344F305B7E0027A069E878 /* BuildOptions.h in Sources */ = {isa = PBXBuildFile; fileRef = 187F6AFF93E6DD47F4CA040B /* BuildOptions.h */; };
+		D012AFDF98F969D612B5CBB9 /* Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF01AD4007380C0800BC24D0 /* Collision.cpp */; };
+		6B65C81F6D8D1FCA30446049 /* Collision.h in Sources */ = {isa = PBXBuildFile; fileRef = CF218FA7FF116663B4B01F92 /* Collision.h */; };
+		389C40BBBEFC0A14EDDE7432 /* Embree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 304969849600899BA16471E5 /* Embree.cpp */; };
+		A96508EE55C01BBA4636E7D1 /* Embree.h in Sources */ = {isa = PBXBuildFile; fileRef = 4D630C333A4B5BF0AC5C76B5 /* Embree.h */; };
+		A8E2CDB32783F1D42A5A1259 /* FinalGather.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31BBF2DC2B9ECFA62973732 /* FinalGather.cpp */; };
+		F45561560981394DEE534573 /* FluidSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F26893C24512A7F250B3401E /* FluidSurface.cpp */; };
+		8B2D2DF3707C5211AA9ABFD1 /* FluidSurface.h in Sources */ = {isa = PBXBuildFile; fileRef = 219BCAA821C56AA0D54C3A5A /* FluidSurface.h */; };
+		2629B54FF044E2401543CADB /* GatheredLightingSample.h in Sources */ = {isa = PBXBuildFile; fileRef = 5445DD720034C857A8C2A0AA /* GatheredLightingSample.h */; };
+		48FED18B489F493FF3D2CD46 /* Landscape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6022166B87EBCDED0EF54DB /* Landscape.cpp */; };
+		E7F7A0A184E3B264880B07F1 /* Landscape.h in Sources */ = {isa = PBXBuildFile; fileRef = 7356F775F98AE8817896ABFD /* Landscape.h */; };
+		13619E2905C1D958A9F5A451 /* Lighting.h in Sources */ = {isa = PBXBuildFile; fileRef = FFA8BB0F2068BDBBFB2FF362 /* Lighting.h */; };
+		8646E54606D262514BA28D22 /* LightingCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44885EC632AE477DB2A67551 /* LightingCache.cpp */; };
+		CFD8610FD8F002E36E3CA2BF /* LightingCache.h in Sources */ = {isa = PBXBuildFile; fileRef = DC9252D79352055D1A98CB97 /* LightingCache.h */; };
+		0AF6894CE775B0E0D193772E /* LightingMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7052785BA0A9B408E59EE99F /* LightingMesh.cpp */; };
+		5C70EA5FA11837360DCA05E2 /* LightingMesh.h in Sources */ = {isa = PBXBuildFile; fileRef = 66B5FCF88BC2EE491B236640 /* LightingMesh.h */; };
+		DAA9BC70E4C3B16B0CEAEF77 /* LightingSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B513EB85B4121A64D96F4EA /* LightingSystem.cpp */; };
+		ADBB7D23B0A0833809A984F7 /* LightingSystem.h in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7514A1899D57CC5856D39 /* LightingSystem.h */; };
+		8435EEDA02C0F244B5D1C329 /* LightingSystem.inl in Sources */ = {isa = PBXBuildFile; fileRef = 458EBB6C66B66DE1CD465C94 /* LightingSystem.inl */; };
+		F0D78DB4C07724274E439E7B /* LightmapData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1A93648B63F428A0327048A /* LightmapData.cpp */; };
+		DE68160F188B6B3DD859EA2B /* LightmapData.h in Sources */ = {isa = PBXBuildFile; fileRef = 333E843DAC9BDB02EF3FBABD /* LightmapData.h */; };
+		80242B8E04D290C8D303D658 /* Mappings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61150FC3D761A358BF0A1578 /* Mappings.cpp */; };
+		BB05DD684C019A9EAD588EF3 /* Mappings.h in Sources */ = {isa = PBXBuildFile; fileRef = 60DD3905C821582F672BDB96 /* Mappings.h */; };
+		8C182A8D9C62FE760EB2D2FE /* MonteCarlo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5287CD16837AB09871C63FA /* MonteCarlo.cpp */; };
+		289D8F9DB1E5108F2A46DC34 /* MonteCarlo.h in Sources */ = {isa = PBXBuildFile; fileRef = D70C014A5A17E4AD0A3A10A0 /* MonteCarlo.h */; };
+		A587C63080D10E6FB53065FF /* PhotonMapping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D360C429A243D3AE4C48F95C /* PhotonMapping.cpp */; };
+		3560AE7037B5EFEE8CEFF82A /* PrecomputedVisibility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE00F58376C7EA6A70277F9 /* PrecomputedVisibility.cpp */; };
+		52BB0AC76662535C8D6AFA20 /* Radiosity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 239E38FF417672E4689A0AC1 /* Radiosity.cpp */; };
+		337B76E0C953B433E9B51D7C /* Raster.h in Sources */ = {isa = PBXBuildFile; fileRef = AA27872A9B9B9CB4E6EF3598 /* Raster.h */; };
+		337F65308F9290B8B04993EB /* SampleVolume.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB72933AB5C6366D81BC5419 /* SampleVolume.cpp */; };
+		EF4848CDFD56DB4446DDAC4A /* StaticMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED84A3562464CB61949C3E29 /* StaticMesh.cpp */; };
+		0862FE1FB8C717772A4C4147 /* StaticMesh.h in Sources */ = {isa = PBXBuildFile; fileRef = 49C3BA5A6D4EA50DC5494C31 /* StaticMesh.h */; };
+		23E0491CF0F38552091FC49B /* Texture.h in Sources */ = {isa = PBXBuildFile; fileRef = 57BB8C7EC6351FA1425C0D60 /* Texture.h */; };
+		AA70F445F73063BF15CDFCD8 /* TextureMapping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA8637C7EE3D29FF1F03B1 /* TextureMapping.cpp */; };
+		C126479029ABEEC6D2E87280 /* TextureMappingSetup.h in Sources */ = {isa = PBXBuildFile; fileRef = FE3F5BD8BC058689BFB4FFCB /* TextureMappingSetup.h */; };
+		AEE7D9531EE3618A6C4283D0 /* VolumeDistanceField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9D29569DE35059688063887 /* VolumeDistanceField.cpp */; };
+		93646DF99979F20D267BE241 /* LMCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D19BA7EF86E713BBBB8AEFEA /* LMCore.cpp */; };
+		6F1CAB89AF6943A8AE52BFBA /* LMCore.h in Sources */ = {isa = PBXBuildFile; fileRef = 7668F1F35076AA6DF0539743 /* LMCore.h */; };
+		8D150FA0F27DCB097582897C /* LMCollision.h in Sources */ = {isa = PBXBuildFile; fileRef = CE685DBC383A937FDBED791E /* LMCollision.h */; };
+		F6206B45E081FA1C8467FB99 /* LMkDOP.h in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3B53186B645F3DE7425E8 /* LMkDOP.h */; };
+		18ED35B5C01868A09CF0AAD2 /* LMMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 118629F3886DF7666CC46295 /* LMMath.cpp */; };
+		8461F924A8854081FB832CF2 /* LMMath.h in Sources */ = {isa = PBXBuildFile; fileRef = 4B445B6CFF5BFC69F8E320FF /* LMMath.h */; };
+		8D516A717CBE7B548BA0315F /* LMMathSSE.h in Sources */ = {isa = PBXBuildFile; fileRef = 1E43F717B028D68E5A36A844 /* LMMathSSE.h */; };
+		118A6711C8F89CA041F99757 /* LMOctree.h in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE043C08D867AB12FC4EBB /* LMOctree.h */; };
+		64E5B9CF0C91A556A9255FF2 /* MersennePrimeTwister.tps in Sources */ = {isa = PBXBuildFile; fileRef = 576A8C9304901E25ACA0FBE1 /* MersennePrimeTwister.tps */; };
+		249A8682CFFD31153CACADE2 /* SFMT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC93AF5441AEF56F12E59D /* SFMT.cpp */; };
+		4CD3A681DE280EC3E9D7AB72 /* LMDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2286ABF44AB5AABDA95438 /* LMDebug.cpp */; };
+		FD6ED06BF2067211B4E836FC /* LMDebug.h in Sources */ = {isa = PBXBuildFile; fileRef = 56AF37139DE9F9662020A331 /* LMDebug.h */; };
+		BA0201245D3AE0A27E6E846F /* LMHelpers.h in Sources */ = {isa = PBXBuildFile; fileRef = 58A3D1E36599BD22EC8A5544 /* LMHelpers.h */; };
+		13A10DD3B0EE17DCCB9EB0F0 /* LMStats.h in Sources */ = {isa = PBXBuildFile; fileRef = 054DB47A08937DE82BC8BBFA /* LMStats.h */; };
+		1815018763814530ACBC11BB /* LMThreading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D0CF29057A8A4B9F3E1DD17 /* LMThreading.cpp */; };
+		E4431A590C6D184AE612BB9A /* LMThreading.h in Sources */ = {isa = PBXBuildFile; fileRef = EC907949597F43483BF94CFB /* LMThreading.h */; };
+		A0EC90832401073737E9A21F /* LMQueue.h in Sources */ = {isa = PBXBuildFile; fileRef = 66EC233FA4C6D51A5158A3C7 /* LMQueue.h */; };
+		2E5A5F739D95DCEBF61FB820 /* FluidExport.h in Sources */ = {isa = PBXBuildFile; fileRef = DC9526E40B846203ED59E36D /* FluidExport.h */; };
+		5B04A4742332AA4848C954CA /* ImportExport.h in Sources */ = {isa = PBXBuildFile; fileRef = A29399A20CB728473303620E /* ImportExport.h */; };
+		A0F10ECCF5A0D9D476F21799 /* LightmassPublic.h in Sources */ = {isa = PBXBuildFile; fileRef = F167C7C4746FD712415C4278 /* LightmassPublic.h */; };
+		EBC0F636319C3958A195D432 /* MaterialExport.h in Sources */ = {isa = PBXBuildFile; fileRef = 23DD52A8F07F53AF7B00B0A5 /* MaterialExport.h */; };
+		EF64D2C42B4FCD43AF96E135 /* MeshExport.h in Sources */ = {isa = PBXBuildFile; fileRef = A9A2A3DAB8BFF75B9295A197 /* MeshExport.h */; };
+		1C2F22C10992FDEB0F5147CC /* SceneExport.h in Sources */ = {isa = PBXBuildFile; fileRef = CA742C51C891828DFC1CFF4D /* SceneExport.h */; };
+		9C428689B42ED74CA1970890 /* UnrealLightmass.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = C0DD7AD74683FFCD3A7E80CE /* UnrealLightmass.Build.cs */; };
+		76066C7041057D4075887977 /* UnrealLightmass.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0B2C0A2488F28ADA1061B450 /* UnrealLightmass.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A3B3BBC47EE730F0BB1A49F /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/UnrealLightmass/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		FCCB9415E27DD9025BAAB352 /* CPUSolver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CPUSolver.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver/CPUSolver.cpp"; sourceTree = SOURCE_ROOT; };
+		2D5C0A713235684E305BDB7B /* CPUSolver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CPUSolver.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver/CPUSolver.h"; sourceTree = SOURCE_ROOT; };
+		CA3C3BC43C8F5B4346B8E885 /* Exporter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Exporter.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Exporter.cpp"; sourceTree = SOURCE_ROOT; };
+		77777944452AB67F37DEA6F6 /* Exporter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Exporter.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Exporter.h"; sourceTree = SOURCE_ROOT; };
+		AE4C19C08B2CF2DF018D4DC4 /* Importer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Importer.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Importer.cpp"; sourceTree = SOURCE_ROOT; };
+		5282F9A2B504AA122D3C96F8 /* Importer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Importer.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Importer.h"; sourceTree = SOURCE_ROOT; };
+		9819339916B67BD4217B6D08 /* LightmassScene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LightmassScene.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/LightmassScene.cpp"; sourceTree = SOURCE_ROOT; };
+		7443A9FAE4BF4705F811099C /* LightmassScene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LightmassScene.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/LightmassScene.h"; sourceTree = SOURCE_ROOT; };
+		9CF7891BB5AF67920D2824D2 /* LightmassSwarm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LightmassSwarm.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/LightmassSwarm.cpp"; sourceTree = SOURCE_ROOT; };
+		3E2119BE2F7583896C0E5EED /* LightmassSwarm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LightmassSwarm.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/LightmassSwarm.h"; sourceTree = SOURCE_ROOT; };
+		D2756220DBB5540DCBB7DD94 /* Material.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Material.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Material.cpp"; sourceTree = SOURCE_ROOT; };
+		17C678CF0083E515B7D8ECB9 /* Material.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Material.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Material.h"; sourceTree = SOURCE_ROOT; };
+		14F50350C26B1ECF4A5A0814 /* Mesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Mesh.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Mesh.cpp"; sourceTree = SOURCE_ROOT; };
+		EEB044D0E0ADB95B1378BB0A /* Mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Mesh.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Mesh.h"; sourceTree = SOURCE_ROOT; };
+		43DAAB87DEF5436A70C16211 /* UnitTest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnitTest.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Launch/UnitTest.cpp"; sourceTree = SOURCE_ROOT; };
+		739104A03ACCE855380E8C06 /* UnitTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnitTest.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Launch/UnitTest.h"; sourceTree = SOURCE_ROOT; };
+		2CD118AC97B36C41126C134D /* UnrealLightmass.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealLightmass.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Launch/UnrealLightmass.cpp"; sourceTree = SOURCE_ROOT; };
+		2FE28F7767080C316C987369 /* UnrealLightmass.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealLightmass.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Launch/UnrealLightmass.h"; sourceTree = SOURCE_ROOT; };
+		22F6E624680CAA4436AA7DB5 /* AdaptiveVolumetricLightmap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AdaptiveVolumetricLightmap.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/AdaptiveVolumetricLightmap.cpp"; sourceTree = SOURCE_ROOT; };
+		4F557675F4054FFFB4FC5570 /* BSP.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "BSP.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/BSP.cpp"; sourceTree = SOURCE_ROOT; };
+		71E9343D50D5645C064AD513 /* BSP.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "BSP.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/BSP.h"; sourceTree = SOURCE_ROOT; };
+		187F6AFF93E6DD47F4CA040B /* BuildOptions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "BuildOptions.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/BuildOptions.h"; sourceTree = SOURCE_ROOT; };
+		DF01AD4007380C0800BC24D0 /* Collision.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Collision.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Collision.cpp"; sourceTree = SOURCE_ROOT; };
+		CF218FA7FF116663B4B01F92 /* Collision.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Collision.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Collision.h"; sourceTree = SOURCE_ROOT; };
+		304969849600899BA16471E5 /* Embree.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Embree.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Embree.cpp"; sourceTree = SOURCE_ROOT; };
+		4D630C333A4B5BF0AC5C76B5 /* Embree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Embree.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Embree.h"; sourceTree = SOURCE_ROOT; };
+		F31BBF2DC2B9ECFA62973732 /* FinalGather.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "FinalGather.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/FinalGather.cpp"; sourceTree = SOURCE_ROOT; };
+		F26893C24512A7F250B3401E /* FluidSurface.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "FluidSurface.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/FluidSurface.cpp"; sourceTree = SOURCE_ROOT; };
+		219BCAA821C56AA0D54C3A5A /* FluidSurface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "FluidSurface.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/FluidSurface.h"; sourceTree = SOURCE_ROOT; };
+		5445DD720034C857A8C2A0AA /* GatheredLightingSample.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "GatheredLightingSample.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/GatheredLightingSample.h"; sourceTree = SOURCE_ROOT; };
+		C6022166B87EBCDED0EF54DB /* Landscape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Landscape.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Landscape.cpp"; sourceTree = SOURCE_ROOT; };
+		7356F775F98AE8817896ABFD /* Landscape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Landscape.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Landscape.h"; sourceTree = SOURCE_ROOT; };
+		FFA8BB0F2068BDBBFB2FF362 /* Lighting.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Lighting.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Lighting.h"; sourceTree = SOURCE_ROOT; };
+		44885EC632AE477DB2A67551 /* LightingCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LightingCache.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightingCache.cpp"; sourceTree = SOURCE_ROOT; };
+		DC9252D79352055D1A98CB97 /* LightingCache.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LightingCache.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightingCache.h"; sourceTree = SOURCE_ROOT; };
+		7052785BA0A9B408E59EE99F /* LightingMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LightingMesh.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightingMesh.cpp"; sourceTree = SOURCE_ROOT; };
+		66B5FCF88BC2EE491B236640 /* LightingMesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LightingMesh.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightingMesh.h"; sourceTree = SOURCE_ROOT; };
+		8B513EB85B4121A64D96F4EA /* LightingSystem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LightingSystem.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightingSystem.cpp"; sourceTree = SOURCE_ROOT; };
+		5BC7514A1899D57CC5856D39 /* LightingSystem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LightingSystem.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightingSystem.h"; sourceTree = SOURCE_ROOT; };
+		458EBB6C66B66DE1CD465C94 /* LightingSystem.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LightingSystem.inl"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightingSystem.inl"; sourceTree = SOURCE_ROOT; };
+		B1A93648B63F428A0327048A /* LightmapData.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LightmapData.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightmapData.cpp"; sourceTree = SOURCE_ROOT; };
+		333E843DAC9BDB02EF3FBABD /* LightmapData.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LightmapData.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightmapData.h"; sourceTree = SOURCE_ROOT; };
+		61150FC3D761A358BF0A1578 /* Mappings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Mappings.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Mappings.cpp"; sourceTree = SOURCE_ROOT; };
+		60DD3905C821582F672BDB96 /* Mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Mappings.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Mappings.h"; sourceTree = SOURCE_ROOT; };
+		F5287CD16837AB09871C63FA /* MonteCarlo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MonteCarlo.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/MonteCarlo.cpp"; sourceTree = SOURCE_ROOT; };
+		D70C014A5A17E4AD0A3A10A0 /* MonteCarlo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MonteCarlo.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/MonteCarlo.h"; sourceTree = SOURCE_ROOT; };
+		D360C429A243D3AE4C48F95C /* PhotonMapping.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PhotonMapping.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/PhotonMapping.cpp"; sourceTree = SOURCE_ROOT; };
+		1EE00F58376C7EA6A70277F9 /* PrecomputedVisibility.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PrecomputedVisibility.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/PrecomputedVisibility.cpp"; sourceTree = SOURCE_ROOT; };
+		239E38FF417672E4689A0AC1 /* Radiosity.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Radiosity.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Radiosity.cpp"; sourceTree = SOURCE_ROOT; };
+		AA27872A9B9B9CB4E6EF3598 /* Raster.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Raster.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Raster.h"; sourceTree = SOURCE_ROOT; };
+		EB72933AB5C6366D81BC5419 /* SampleVolume.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SampleVolume.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/SampleVolume.cpp"; sourceTree = SOURCE_ROOT; };
+		ED84A3562464CB61949C3E29 /* StaticMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "StaticMesh.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/StaticMesh.cpp"; sourceTree = SOURCE_ROOT; };
+		49C3BA5A6D4EA50DC5494C31 /* StaticMesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "StaticMesh.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/StaticMesh.h"; sourceTree = SOURCE_ROOT; };
+		57BB8C7EC6351FA1425C0D60 /* Texture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Texture.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Texture.h"; sourceTree = SOURCE_ROOT; };
+		7EFA8637C7EE3D29FF1F03B1 /* TextureMapping.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "TextureMapping.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/TextureMapping.cpp"; sourceTree = SOURCE_ROOT; };
+		FE3F5BD8BC058689BFB4FFCB /* TextureMappingSetup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TextureMappingSetup.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/TextureMappingSetup.h"; sourceTree = SOURCE_ROOT; };
+		E9D29569DE35059688063887 /* VolumeDistanceField.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "VolumeDistanceField.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting/VolumeDistanceField.cpp"; sourceTree = SOURCE_ROOT; };
+		D19BA7EF86E713BBBB8AEFEA /* LMCore.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LMCore.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/LMCore.cpp"; sourceTree = SOURCE_ROOT; };
+		7668F1F35076AA6DF0539743 /* LMCore.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMCore.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/LMCore.h"; sourceTree = SOURCE_ROOT; };
+		CE685DBC383A937FDBED791E /* LMCollision.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMCollision.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/LMCollision.h"; sourceTree = SOURCE_ROOT; };
+		5AA3B53186B645F3DE7425E8 /* LMkDOP.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMkDOP.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/LMkDOP.h"; sourceTree = SOURCE_ROOT; };
+		118629F3886DF7666CC46295 /* LMMath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LMMath.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/LMMath.cpp"; sourceTree = SOURCE_ROOT; };
+		4B445B6CFF5BFC69F8E320FF /* LMMath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMMath.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/LMMath.h"; sourceTree = SOURCE_ROOT; };
+		1E43F717B028D68E5A36A844 /* LMMathSSE.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMMathSSE.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/LMMathSSE.h"; sourceTree = SOURCE_ROOT; };
+		1BCE043C08D867AB12FC4EBB /* LMOctree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMOctree.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/LMOctree.h"; sourceTree = SOURCE_ROOT; };
+		576A8C9304901E25ACA0FBE1 /* MersennePrimeTwister.tps */ = {isa = PBXFileReference; explicitFileType = file.text; name = "MersennePrimeTwister.tps"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/MersennePrimeTwister.tps"; sourceTree = SOURCE_ROOT; };
+		3ECC93AF5441AEF56F12E59D /* SFMT.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SFMT.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/SFMT.cpp"; sourceTree = SOURCE_ROOT; };
+		0B2286ABF44AB5AABDA95438 /* LMDebug.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LMDebug.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc/LMDebug.cpp"; sourceTree = SOURCE_ROOT; };
+		56AF37139DE9F9662020A331 /* LMDebug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMDebug.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc/LMDebug.h"; sourceTree = SOURCE_ROOT; };
+		58A3D1E36599BD22EC8A5544 /* LMHelpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMHelpers.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc/LMHelpers.h"; sourceTree = SOURCE_ROOT; };
+		054DB47A08937DE82BC8BBFA /* LMStats.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMStats.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc/LMStats.h"; sourceTree = SOURCE_ROOT; };
+		2D0CF29057A8A4B9F3E1DD17 /* LMThreading.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LMThreading.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc/LMThreading.cpp"; sourceTree = SOURCE_ROOT; };
+		EC907949597F43483BF94CFB /* LMThreading.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMThreading.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc/LMThreading.h"; sourceTree = SOURCE_ROOT; };
+		66EC233FA4C6D51A5158A3C7 /* LMQueue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMQueue.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Templates/LMQueue.h"; sourceTree = SOURCE_ROOT; };
+		DC9526E40B846203ED59E36D /* FluidExport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "FluidExport.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Public/FluidExport.h"; sourceTree = SOURCE_ROOT; };
+		A29399A20CB728473303620E /* ImportExport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ImportExport.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Public/ImportExport.h"; sourceTree = SOURCE_ROOT; };
+		F167C7C4746FD712415C4278 /* LightmassPublic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LightmassPublic.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Public/LightmassPublic.h"; sourceTree = SOURCE_ROOT; };
+		23DD52A8F07F53AF7B00B0A5 /* MaterialExport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MaterialExport.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Public/MaterialExport.h"; sourceTree = SOURCE_ROOT; };
+		A9A2A3DAB8BFF75B9295A197 /* MeshExport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MeshExport.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Public/MeshExport.h"; sourceTree = SOURCE_ROOT; };
+		CA742C51C891828DFC1CFF4D /* SceneExport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SceneExport.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Public/SceneExport.h"; sourceTree = SOURCE_ROOT; };
+		C0DD7AD74683FFCD3A7E80CE /* UnrealLightmass.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealLightmass.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/UnrealLightmass.Build.cs"; sourceTree = SOURCE_ROOT; };
+		0B2C0A2488F28ADA1061B450 /* UnrealLightmass.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealLightmass.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/UnrealLightmass.Target.cs"; sourceTree = SOURCE_ROOT; };
+		9A6D1565CFC21CD7EA92A82B /* UnrealLightmass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = UnrealLightmass; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27111CF906480284F956169E = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D8007A413065D22771AD1E /* CPUSolver.cpp in Sources */,
+				EEEAEBBDA47E735A25AD252C /* Exporter.cpp in Sources */,
+				FAA312A0FF97353502654A3C /* Importer.cpp in Sources */,
+				11F6F40AEBC6F46C564D89E8 /* LightmassScene.cpp in Sources */,
+				D011FB76C1C2D79588EBD79A /* LightmassSwarm.cpp in Sources */,
+				362B5049A9778EA8EC296940 /* Material.cpp in Sources */,
+				1362ADB6BA51217E4EBBB200 /* Mesh.cpp in Sources */,
+				8094534BB91C6EB959987835 /* UnitTest.cpp in Sources */,
+				02327D1E35519ABF3242246B /* UnrealLightmass.cpp in Sources */,
+				B33CBD84A14BF3951E302D92 /* AdaptiveVolumetricLightmap.cpp in Sources */,
+				24F5D90A60E1E0582EC6F09C /* BSP.cpp in Sources */,
+				D012AFDF98F969D612B5CBB9 /* Collision.cpp in Sources */,
+				389C40BBBEFC0A14EDDE7432 /* Embree.cpp in Sources */,
+				A8E2CDB32783F1D42A5A1259 /* FinalGather.cpp in Sources */,
+				F45561560981394DEE534573 /* FluidSurface.cpp in Sources */,
+				48FED18B489F493FF3D2CD46 /* Landscape.cpp in Sources */,
+				8646E54606D262514BA28D22 /* LightingCache.cpp in Sources */,
+				0AF6894CE775B0E0D193772E /* LightingMesh.cpp in Sources */,
+				DAA9BC70E4C3B16B0CEAEF77 /* LightingSystem.cpp in Sources */,
+				F0D78DB4C07724274E439E7B /* LightmapData.cpp in Sources */,
+				80242B8E04D290C8D303D658 /* Mappings.cpp in Sources */,
+				8C182A8D9C62FE760EB2D2FE /* MonteCarlo.cpp in Sources */,
+				A587C63080D10E6FB53065FF /* PhotonMapping.cpp in Sources */,
+				3560AE7037B5EFEE8CEFF82A /* PrecomputedVisibility.cpp in Sources */,
+				52BB0AC76662535C8D6AFA20 /* Radiosity.cpp in Sources */,
+				337F65308F9290B8B04993EB /* SampleVolume.cpp in Sources */,
+				EF4848CDFD56DB4446DDAC4A /* StaticMesh.cpp in Sources */,
+				AA70F445F73063BF15CDFCD8 /* TextureMapping.cpp in Sources */,
+				AEE7D9531EE3618A6C4283D0 /* VolumeDistanceField.cpp in Sources */,
+				93646DF99979F20D267BE241 /* LMCore.cpp in Sources */,
+				18ED35B5C01868A09CF0AAD2 /* LMMath.cpp in Sources */,
+				249A8682CFFD31153CACADE2 /* SFMT.cpp in Sources */,
+				4CD3A681DE280EC3E9D7AB72 /* LMDebug.cpp in Sources */,
+				1815018763814530ACBC11BB /* LMThreading.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	6F69F1B15292F43097A33DCD /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		48F739E1B3806D71EF20F2A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A9881E93AC41213F04AB773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C19C4242349283220715AF;
+			remoteInfo = "UnrealLightmass_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		040B446BBF9F34BB56588A7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5C19C4242349283220715AF /* UnrealLightmass_Build */;
+			targetProxy = 48F739E1B3806D71EF20F2A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		D29C55A9223FF8247F1868A3 = {
+			isa = PBXGroup;
+			children = (
+				9BDB69997A4AA8F663ABB460 /* Programs */,
+				976F6636A048B5BF9FB41A43 /* Source */,
+				31A87B8AFB18019973BA738E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BDB69997A4AA8F663ABB460 = {
+			isa = PBXGroup;
+			children = (
+				91ECA2C55F561A199141AD27 /* UnrealLightmass */,
+			);
+			name = "Programs";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs";
+			sourceTree = "<absolute>";
+		};
+		91ECA2C55F561A199141AD27 = {
+			isa = PBXGroup;
+			children = (
+				810A222AA976286ADAFB4239 /* Config */,
+			);
+			name = "UnrealLightmass";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/UnrealLightmass";
+			sourceTree = "<absolute>";
+		};
+		810A222AA976286ADAFB4239 = {
+			isa = PBXGroup;
+			children = (
+				1A3B3BBC47EE730F0BB1A49F /* DefaultEngine.ini */,
+			);
+			name = "Config";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/UnrealLightmass/Config";
+			sourceTree = "<absolute>";
+		};
+		976F6636A048B5BF9FB41A43 = {
+			isa = PBXGroup;
+			children = (
+				3C5129CF3CAABB592D41186F /* Programs */,
+			);
+			name = "Source";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source";
+			sourceTree = "<absolute>";
+		};
+		3C5129CF3CAABB592D41186F = {
+			isa = PBXGroup;
+			children = (
+				287D4DEC824A8595AA682DEF /* UnrealLightmass */,
+			);
+			name = "Programs";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs";
+			sourceTree = "<absolute>";
+		};
+		287D4DEC824A8595AA682DEF = {
+			isa = PBXGroup;
+			children = (
+				F0E379488BED88CCEFDFEE57 /* Private */,
+				3A8F830FC448989EFBC33B6F /* Public */,
+				C0DD7AD74683FFCD3A7E80CE /* UnrealLightmass.Build.cs */,
+				0B2C0A2488F28ADA1061B450 /* UnrealLightmass.Target.cs */,
+			);
+			name = "UnrealLightmass";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass";
+			sourceTree = "<absolute>";
+		};
+		F0E379488BED88CCEFDFEE57 = {
+			isa = PBXGroup;
+			children = (
+				4D582D3040E80C5656F60E22 /* CPUSolver */,
+				FBC93D552F8498D32439DF58 /* ImportExport */,
+				3172CD3FB94C80488FF59F2A /* Launch */,
+				1D5555C15CD799F9D5574DC2 /* Lighting */,
+				B0339D6A461A331478D4FFCD /* LightmassCore */,
+			);
+			name = "Private";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private";
+			sourceTree = "<absolute>";
+		};
+		4D582D3040E80C5656F60E22 = {
+			isa = PBXGroup;
+			children = (
+				FCCB9415E27DD9025BAAB352 /* CPUSolver.cpp */,
+				2D5C0A713235684E305BDB7B /* CPUSolver.h */,
+			);
+			name = "CPUSolver";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver";
+			sourceTree = "<absolute>";
+		};
+		FBC93D552F8498D32439DF58 = {
+			isa = PBXGroup;
+			children = (
+				CA3C3BC43C8F5B4346B8E885 /* Exporter.cpp */,
+				77777944452AB67F37DEA6F6 /* Exporter.h */,
+				AE4C19C08B2CF2DF018D4DC4 /* Importer.cpp */,
+				5282F9A2B504AA122D3C96F8 /* Importer.h */,
+				9819339916B67BD4217B6D08 /* LightmassScene.cpp */,
+				7443A9FAE4BF4705F811099C /* LightmassScene.h */,
+				9CF7891BB5AF67920D2824D2 /* LightmassSwarm.cpp */,
+				3E2119BE2F7583896C0E5EED /* LightmassSwarm.h */,
+				D2756220DBB5540DCBB7DD94 /* Material.cpp */,
+				17C678CF0083E515B7D8ECB9 /* Material.h */,
+				14F50350C26B1ECF4A5A0814 /* Mesh.cpp */,
+				EEB044D0E0ADB95B1378BB0A /* Mesh.h */,
+			);
+			name = "ImportExport";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/ImportExport";
+			sourceTree = "<absolute>";
+		};
+		3172CD3FB94C80488FF59F2A = {
+			isa = PBXGroup;
+			children = (
+				43DAAB87DEF5436A70C16211 /* UnitTest.cpp */,
+				739104A03ACCE855380E8C06 /* UnitTest.h */,
+				2CD118AC97B36C41126C134D /* UnrealLightmass.cpp */,
+				2FE28F7767080C316C987369 /* UnrealLightmass.h */,
+			);
+			name = "Launch";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Launch";
+			sourceTree = "<absolute>";
+		};
+		1D5555C15CD799F9D5574DC2 = {
+			isa = PBXGroup;
+			children = (
+				22F6E624680CAA4436AA7DB5 /* AdaptiveVolumetricLightmap.cpp */,
+				4F557675F4054FFFB4FC5570 /* BSP.cpp */,
+				71E9343D50D5645C064AD513 /* BSP.h */,
+				187F6AFF93E6DD47F4CA040B /* BuildOptions.h */,
+				DF01AD4007380C0800BC24D0 /* Collision.cpp */,
+				CF218FA7FF116663B4B01F92 /* Collision.h */,
+				304969849600899BA16471E5 /* Embree.cpp */,
+				4D630C333A4B5BF0AC5C76B5 /* Embree.h */,
+				F31BBF2DC2B9ECFA62973732 /* FinalGather.cpp */,
+				F26893C24512A7F250B3401E /* FluidSurface.cpp */,
+				219BCAA821C56AA0D54C3A5A /* FluidSurface.h */,
+				5445DD720034C857A8C2A0AA /* GatheredLightingSample.h */,
+				C6022166B87EBCDED0EF54DB /* Landscape.cpp */,
+				7356F775F98AE8817896ABFD /* Landscape.h */,
+				FFA8BB0F2068BDBBFB2FF362 /* Lighting.h */,
+				44885EC632AE477DB2A67551 /* LightingCache.cpp */,
+				DC9252D79352055D1A98CB97 /* LightingCache.h */,
+				7052785BA0A9B408E59EE99F /* LightingMesh.cpp */,
+				66B5FCF88BC2EE491B236640 /* LightingMesh.h */,
+				8B513EB85B4121A64D96F4EA /* LightingSystem.cpp */,
+				5BC7514A1899D57CC5856D39 /* LightingSystem.h */,
+				458EBB6C66B66DE1CD465C94 /* LightingSystem.inl */,
+				B1A93648B63F428A0327048A /* LightmapData.cpp */,
+				333E843DAC9BDB02EF3FBABD /* LightmapData.h */,
+				61150FC3D761A358BF0A1578 /* Mappings.cpp */,
+				60DD3905C821582F672BDB96 /* Mappings.h */,
+				F5287CD16837AB09871C63FA /* MonteCarlo.cpp */,
+				D70C014A5A17E4AD0A3A10A0 /* MonteCarlo.h */,
+				D360C429A243D3AE4C48F95C /* PhotonMapping.cpp */,
+				1EE00F58376C7EA6A70277F9 /* PrecomputedVisibility.cpp */,
+				239E38FF417672E4689A0AC1 /* Radiosity.cpp */,
+				AA27872A9B9B9CB4E6EF3598 /* Raster.h */,
+				EB72933AB5C6366D81BC5419 /* SampleVolume.cpp */,
+				ED84A3562464CB61949C3E29 /* StaticMesh.cpp */,
+				49C3BA5A6D4EA50DC5494C31 /* StaticMesh.h */,
+				57BB8C7EC6351FA1425C0D60 /* Texture.h */,
+				7EFA8637C7EE3D29FF1F03B1 /* TextureMapping.cpp */,
+				FE3F5BD8BC058689BFB4FFCB /* TextureMappingSetup.h */,
+				E9D29569DE35059688063887 /* VolumeDistanceField.cpp */,
+			);
+			name = "Lighting";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting";
+			sourceTree = "<absolute>";
+		};
+		B0339D6A461A331478D4FFCD = {
+			isa = PBXGroup;
+			children = (
+				1ACD9C0A76C593052A1237D9 /* Math */,
+				2FD7774CA0E583D9240B8E85 /* Misc */,
+				AF150274C28BB1485687A68F /* Templates */,
+				D19BA7EF86E713BBBB8AEFEA /* LMCore.cpp */,
+				7668F1F35076AA6DF0539743 /* LMCore.h */,
+			);
+			name = "LightmassCore";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore";
+			sourceTree = "<absolute>";
+		};
+		1ACD9C0A76C593052A1237D9 = {
+			isa = PBXGroup;
+			children = (
+				CE685DBC383A937FDBED791E /* LMCollision.h */,
+				5AA3B53186B645F3DE7425E8 /* LMkDOP.h */,
+				118629F3886DF7666CC46295 /* LMMath.cpp */,
+				4B445B6CFF5BFC69F8E320FF /* LMMath.h */,
+				1E43F717B028D68E5A36A844 /* LMMathSSE.h */,
+				1BCE043C08D867AB12FC4EBB /* LMOctree.h */,
+				576A8C9304901E25ACA0FBE1 /* MersennePrimeTwister.tps */,
+				3ECC93AF5441AEF56F12E59D /* SFMT.cpp */,
+			);
+			name = "Math";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math";
+			sourceTree = "<absolute>";
+		};
+		2FD7774CA0E583D9240B8E85 = {
+			isa = PBXGroup;
+			children = (
+				0B2286ABF44AB5AABDA95438 /* LMDebug.cpp */,
+				56AF37139DE9F9662020A331 /* LMDebug.h */,
+				58A3D1E36599BD22EC8A5544 /* LMHelpers.h */,
+				054DB47A08937DE82BC8BBFA /* LMStats.h */,
+				2D0CF29057A8A4B9F3E1DD17 /* LMThreading.cpp */,
+				EC907949597F43483BF94CFB /* LMThreading.h */,
+			);
+			name = "Misc";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc";
+			sourceTree = "<absolute>";
+		};
+		AF150274C28BB1485687A68F = {
+			isa = PBXGroup;
+			children = (
+				66EC233FA4C6D51A5158A3C7 /* LMQueue.h */,
+			);
+			name = "Templates";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Templates";
+			sourceTree = "<absolute>";
+		};
+		3A8F830FC448989EFBC33B6F = {
+			isa = PBXGroup;
+			children = (
+				DC9526E40B846203ED59E36D /* FluidExport.h */,
+				A29399A20CB728473303620E /* ImportExport.h */,
+				F167C7C4746FD712415C4278 /* LightmassPublic.h */,
+				23DD52A8F07F53AF7B00B0A5 /* MaterialExport.h */,
+				A9A2A3DAB8BFF75B9295A197 /* MeshExport.h */,
+				CA742C51C891828DFC1CFF4D /* SceneExport.h */,
+			);
+			name = "Public";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Public";
+			sourceTree = "<absolute>";
+		};
+		31A87B8AFB18019973BA738E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A6D1565CFC21CD7EA92A82B /* UnrealLightmass */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		B5C19C4242349283220715AF /* UnrealLightmass_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 15FC9783550157E318A2D151 /* Build configuration list for PBXLegacyTarget "UnrealLightmass_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5";
+			dependencies = (
+			);
+			name = "UnrealLightmass_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealLightmass_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		9A5DD9AC36F92C5BE277EFE8 /* UnrealLightmass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAC845DA64EDD4A04C37247 /* Build configuration list for PBXNativeTarget "UnrealLightmass" */;
+			buildPhases = (
+				6F69F1B15292F43097A33DCD /* Embed App Extensions */, 
+				E3D50CB8A405B71728C78110 /* Shell Script */, 
+			);
+			dependencies = (
+				040B446BBF9F34BB56588A7C /* PBXTargetDependency */,
+			);
+			name = "UnrealLightmass";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealLightmass";
+			productReference = "9A6D1565CFC21CD7EA92A82B";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		8ACFEB933CB392B54F0D2BF1 /* UnrealLightmass_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42B2EBB8D6E809258654FD3 /* Build configuration list for PBXNativeTarget "UnrealLightmass_Index" */;
+			buildPhases = (
+				27111CF906480284F956169E /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "UnrealLightmass_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealLightmass_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A9881E93AC41213F04AB773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					9A5DD9AC36F92C5BE277EFE8 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 48FF476E755F5F07D0A59F2A /* Build configuration list for PBXProject "UnrealLightmass" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = D29C55A9223FF8247F1868A3;
+			productRefGroup = 31A87B8AFB18019973BA738E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			9A5DD9AC36F92C5BE277EFE8 /* UnrealLightmass */,
+			B5C19C4242349283220715AF /* UnrealLightmass_Build */,
+			8ACFEB933CB392B54F0D2BF1 /* UnrealLightmass_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		22FF1E3715E3AADA91DD1B92 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/zlib/1.2.12/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Launch",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/ImportExport",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Templates",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/SwarmInterface/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/SwarmInterface/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/SwarmInterface/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Sockets/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Sockets/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Sockets/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/NetCommon/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/NetCommon/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net/Common/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Networking/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Networking/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Networking/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Messaging/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Messaging/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Messaging/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UdpMessaging/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UdpMessaging/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UnrealLightmass/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UnrealLightmass/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/Intel/Embree/Embree270/MacOSX/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		BDD650E6CFFD3DD3E8EEFBCB /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/zlib/1.2.12/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Launch",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/ImportExport",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Templates",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/SwarmInterface/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/SwarmInterface/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/SwarmInterface/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Sockets/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Sockets/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Sockets/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/NetCommon/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/NetCommon/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net/Common/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Networking/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Networking/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Networking/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Messaging/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Messaging/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Messaging/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UdpMessaging/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UdpMessaging/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UnrealLightmass/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UnrealLightmass/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/Intel/Embree/Embree270/MacOSX/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		27A89D46CF4991C96A46BE8B /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/zlib/1.2.12/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Launch",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/ImportExport",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Templates",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/SwarmInterface/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/SwarmInterface/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/SwarmInterface/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Sockets/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Sockets/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Sockets/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/NetCommon/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/NetCommon/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net/Common/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Networking/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Networking/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Networking/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Messaging/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Messaging/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Messaging/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UdpMessaging/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UdpMessaging/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UnrealLightmass/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UnrealLightmass/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/Intel/Embree/Embree270/MacOSX/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		FB920D863E3BC0B5C4C3AB0E /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/zlib/1.2.12/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Launch",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/ImportExport",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Templates",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/SwarmInterface/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/SwarmInterface/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/SwarmInterface/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Sockets/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Sockets/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Sockets/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/NetCommon/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/NetCommon/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net/Common/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Networking/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Networking/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Networking/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Messaging/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Messaging/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Messaging/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UdpMessaging/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UdpMessaging/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UnrealLightmass/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UnrealLightmass/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/Intel/Embree/Embree270/MacOSX/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		2DDA6AEA535252A72CC43E9E /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/zlib/1.2.12/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Launch",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/ImportExport",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/Lighting",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Templates",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/SwarmInterface/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/SwarmInterface/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/SwarmInterface/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Sockets/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Sockets/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Sockets/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/NetCommon/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/NetCommon/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net/Common/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Networking/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Networking/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Networking/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Messaging/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Messaging/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Messaging/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UdpMessaging/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UdpMessaging/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UnrealLightmass/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UnrealLightmass/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/Intel/Embree/Embree270/MacOSX/include",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealLightmass/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		275047E0C642F784D34F1630 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		02B63A926873AB47C2F46C0A /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		70CCBFD8783A11758072E4D9 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		A4893F83FDE6F82683546548 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		C0ACA148BB5DC6D67D47AA3A /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		3B4AE0F39FFF75A7E7E08E53 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLightmass";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		27438C70141076C1B98C36C8 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLightmass";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		9BC1A4078AE649D8924A486B /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLightmass";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		48A07A14137B084E48CE0CF7 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLightmass";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		4DA19CF0ADB6C565D308E639 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLightmass";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		74BC1AB3F8623B05BA7A9053 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		AE8ED8E9A2BA6A85C14FB041 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		732FF170FB6C5E68D04C78D6 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		D9C299578993A6AF83E3CC71 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		111EFBF57B64CB1484FA97DC /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48FF476E755F5F07D0A59F2A /* Build configuration list for PBXProject "UnrealLightmass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FF1E3715E3AADA91DD1B92 /* "Debug" */,
+				BDD650E6CFFD3DD3E8EEFBCB /* "DebugGame" */,
+				27A89D46CF4991C96A46BE8B /* "Development" */,
+				FB920D863E3BC0B5C4C3AB0E /* "Test" */,
+				2DDA6AEA535252A72CC43E9E /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		15FC9783550157E318A2D151 /* Build configuration list for PBXLegacyTarget "UnrealLightmass_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4AE0F39FFF75A7E7E08E53 /* "Debug" */,
+				27438C70141076C1B98C36C8 /* "DebugGame" */,
+				9BC1A4078AE649D8924A486B /* "Development" */,
+				48A07A14137B084E48CE0CF7 /* "Test" */,
+				4DA19CF0ADB6C565D308E639 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		DCAC845DA64EDD4A04C37247 /* Build configuration list for PBXNativeTarget "UnrealLightmass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275047E0C642F784D34F1630 /* "Debug" */,
+				02B63A926873AB47C2F46C0A /* "DebugGame" */,
+				70CCBFD8783A11758072E4D9 /* "Development" */,
+				A4893F83FDE6F82683546548 /* "Test" */,
+				C0ACA148BB5DC6D67D47AA3A /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		E42B2EBB8D6E809258654FD3 /* Build configuration list for PBXNativeTarget "UnrealLightmass_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74BC1AB3F8623B05BA7A9053 /* "Debug" */,
+				AE8ED8E9A2BA6A85C14FB041 /* "DebugGame" */,
+				732FF170FB6C5E68D04C78D6 /* "Development" */,
+				D9C299578993A6AF83E3CC71 /* "Test" */,
+				111EFBF57B64CB1484FA97DC /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A9881E93AC41213F04AB773 /* Project object */;
+}

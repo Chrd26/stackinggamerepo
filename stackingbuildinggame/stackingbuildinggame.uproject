@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{6830E81C-7845-26C8-A5D4-3FA2332FEDF7}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "stackingbuildinggame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}

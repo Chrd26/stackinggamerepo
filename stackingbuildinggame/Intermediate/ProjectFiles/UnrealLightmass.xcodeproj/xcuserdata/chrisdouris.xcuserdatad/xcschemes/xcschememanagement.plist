@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>UnrealLightmass.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>36</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>9A5DD9AC36F92C5BE277EFE8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5C19C4242349283220715AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8ACFEB933CB392B54F0D2BF1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A84D93B537999EAE268187FB /* TextureShareSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9D8C7959314410993755159 /* TextureShareSDK.cpp */; };
+		E86EA69D652C5BC50773514E /* TextureShareSDKObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9220144D759B15EDAC85DA16 /* TextureShareSDKObject.cpp */; };
+		C8DC48EF0108C032FB39CCC8 /* TextureShareSDKObject.h in Sources */ = {isa = PBXBuildFile; fileRef = F20048FA26C1F45687780273 /* TextureShareSDKObject.h */; };
+		FEF5A36825A91FB49820A545 /* TextureShareSDKContainers.h in Sources */ = {isa = PBXBuildFile; fileRef = 9DC2D2100186AF0D7DB58BEA /* TextureShareSDKContainers.h */; };
+		4CBBCCEA17F84893030DEC9B /* TextureShareSDKUnrealEngineArray.h in Sources */ = {isa = PBXBuildFile; fileRef = E126292FB63A7553238CF9CA /* TextureShareSDKUnrealEngineArray.h */; };
+		962460A50F093C486AB91B6A /* TextureShareSDKUnrealEngineContainers.h in Sources */ = {isa = PBXBuildFile; fileRef = DD349D9FD7114290D5372EDA /* TextureShareSDKUnrealEngineContainers.h */; };
+		5C8057424037C6C0C20154F2 /* TextureShareSDKUnrealEngineEnums_PixelFormat.h in Sources */ = {isa = PBXBuildFile; fileRef = 97A383F9D0A431280ABF5281 /* TextureShareSDKUnrealEngineEnums_PixelFormat.h */; };
+		9CD57B114968F55EF586488F /* TextureShareSDKUnrealEngineMath.h in Sources */ = {isa = PBXBuildFile; fileRef = B1FA0832F25BA7DBE0AB0733 /* TextureShareSDKUnrealEngineMath.h */; };
+		8E48C0310506D09C2DD6A66A /* TextureShareSDKUnrealEngineString.h in Sources */ = {isa = PBXBuildFile; fileRef = BCB576590CF5FD115BF447D6 /* TextureShareSDKUnrealEngineString.h */; };
+		9BFF35AE1776A1F1CD478301 /* TextureShareSDKUnrealEngineTypes.h in Sources */ = {isa = PBXBuildFile; fileRef = A8C358EEB6AB61DB539D753D /* TextureShareSDKUnrealEngineTypes.h */; };
+		00F394F76064AC639490D589 /* ITextureShareSDK.h in Sources */ = {isa = PBXBuildFile; fileRef = E36CC3FEB21E5259534B5B74 /* ITextureShareSDK.h */; };
+		521AC6EA90848F4FD9D5EF0E /* ITextureShareSDKObject.h in Sources */ = {isa = PBXBuildFile; fileRef = 73C8D2978C6934622BBF17B9 /* ITextureShareSDKObject.h */; };
+		E54ECEEAAEF6D89900EA9506 /* ITextureShareSDKSerializeStream.h in Sources */ = {isa = PBXBuildFile; fileRef = D02185B635B49D743175B148 /* ITextureShareSDKSerializeStream.h */; };
+		9C0E5BAF926C82FE89F8C9C9 /* TextureShareSDKDataWrappers.h in Sources */ = {isa = PBXBuildFile; fileRef = A8B643D76EE900BD2E521D94 /* TextureShareSDKDataWrappers.h */; };
+		0819C7F99C25D64CE713493C /* TextureShareSDK.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 6E3480A3EE8F71DC04431253 /* TextureShareSDK.Build.cs */; };
+		5819FC4EF0924BF77F76422C /* TextureShareSDK.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = CF90D219DADB59479F940009 /* TextureShareSDK.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9D8C7959314410993755159 /* TextureShareSDK.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "TextureShareSDK.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Private/TextureShareSDK.cpp"; sourceTree = SOURCE_ROOT; };
+		9220144D759B15EDAC85DA16 /* TextureShareSDKObject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "TextureShareSDKObject.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Private/TextureShareSDKObject.cpp"; sourceTree = SOURCE_ROOT; };
+		F20048FA26C1F45687780273 /* TextureShareSDKObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TextureShareSDKObject.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Private/TextureShareSDKObject.h"; sourceTree = SOURCE_ROOT; };
+		9DC2D2100186AF0D7DB58BEA /* TextureShareSDKContainers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TextureShareSDKContainers.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public/Containers/TextureShareSDKContainers.h"; sourceTree = SOURCE_ROOT; };
+		E126292FB63A7553238CF9CA /* TextureShareSDKUnrealEngineArray.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TextureShareSDKUnrealEngineArray.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public/Containers/UnrealEngine/TextureShareSDKUnrealEngineArray.h"; sourceTree = SOURCE_ROOT; };
+		DD349D9FD7114290D5372EDA /* TextureShareSDKUnrealEngineContainers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TextureShareSDKUnrealEngineContainers.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public/Containers/UnrealEngine/TextureShareSDKUnrealEngineContainers.h"; sourceTree = SOURCE_ROOT; };
+		97A383F9D0A431280ABF5281 /* TextureShareSDKUnrealEngineEnums_PixelFormat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TextureShareSDKUnrealEngineEnums_PixelFormat.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public/Containers/UnrealEngine/TextureShareSDKUnrealEngineEnums_PixelFormat.h"; sourceTree = SOURCE_ROOT; };
+		B1FA0832F25BA7DBE0AB0733 /* TextureShareSDKUnrealEngineMath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TextureShareSDKUnrealEngineMath.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public/Containers/UnrealEngine/TextureShareSDKUnrealEngineMath.h"; sourceTree = SOURCE_ROOT; };
+		BCB576590CF5FD115BF447D6 /* TextureShareSDKUnrealEngineString.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TextureShareSDKUnrealEngineString.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public/Containers/UnrealEngine/TextureShareSDKUnrealEngineString.h"; sourceTree = SOURCE_ROOT; };
+		A8C358EEB6AB61DB539D753D /* TextureShareSDKUnrealEngineTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TextureShareSDKUnrealEngineTypes.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public/Containers/UnrealEngine/TextureShareSDKUnrealEngineTypes.h"; sourceTree = SOURCE_ROOT; };
+		E36CC3FEB21E5259534B5B74 /* ITextureShareSDK.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ITextureShareSDK.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public/ITextureShareSDK.h"; sourceTree = SOURCE_ROOT; };
+		73C8D2978C6934622BBF17B9 /* ITextureShareSDKObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ITextureShareSDKObject.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public/ITextureShareSDKObject.h"; sourceTree = SOURCE_ROOT; };
+		D02185B635B49D743175B148 /* ITextureShareSDKSerializeStream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ITextureShareSDKSerializeStream.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public/Serialize/ITextureShareSDKSerializeStream.h"; sourceTree = SOURCE_ROOT; };
+		A8B643D76EE900BD2E521D94 /* TextureShareSDKDataWrappers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TextureShareSDKDataWrappers.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public/Serialize/TextureShareSDKDataWrappers.h"; sourceTree = SOURCE_ROOT; };
+		6E3480A3EE8F71DC04431253 /* TextureShareSDK.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "TextureShareSDK.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/TextureShareSDK.Build.cs"; sourceTree = SOURCE_ROOT; };
+		CF90D219DADB59479F940009 /* TextureShareSDK.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "TextureShareSDK.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/TextureShareSDK.Target.cs"; sourceTree = SOURCE_ROOT; };
+		A0D321A318DC109A714E37E5 /* TextureShareSDK */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = TextureShareSDK; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A8481FCD9446444DC7650CA = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84D93B537999EAE268187FB /* TextureShareSDK.cpp in Sources */,
+				E86EA69D652C5BC50773514E /* TextureShareSDKObject.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	3B6FD1959D3233E57056E964 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		492CDED9A6D62C78F365F811 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D6D1BFB8286579B187B0074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4A0C350ADDEFF50C49C689E;
+			remoteInfo = "TextureShareSDK_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		15862A271C72DC2B2BC4968B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4A0C350ADDEFF50C49C689E /* TextureShareSDK_Build */;
+			targetProxy = 492CDED9A6D62C78F365F811 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		ABB74AE7CA83DDCD40E64046 = {
+			isa = PBXGroup;
+			children = (
+				98312E79E23DF7265B10EA0F /* Private */,
+				C389888A60AE84B879E630B1 /* Public */,
+				6E3480A3EE8F71DC04431253 /* TextureShareSDK.Build.cs */,
+				CF90D219DADB59479F940009 /* TextureShareSDK.Target.cs */,
+				E01E786EA189ED97DB5649B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98312E79E23DF7265B10EA0F = {
+			isa = PBXGroup;
+			children = (
+				C9D8C7959314410993755159 /* TextureShareSDK.cpp */,
+				9220144D759B15EDAC85DA16 /* TextureShareSDKObject.cpp */,
+				F20048FA26C1F45687780273 /* TextureShareSDKObject.h */,
+			);
+			name = "Private";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Private";
+			sourceTree = "<absolute>";
+		};
+		C389888A60AE84B879E630B1 = {
+			isa = PBXGroup;
+			children = (
+				FF5810952FF2CBD306B894F2 /* Containers */,
+				3B21DCCB927E33B1007D798A /* Serialize */,
+				E36CC3FEB21E5259534B5B74 /* ITextureShareSDK.h */,
+				73C8D2978C6934622BBF17B9 /* ITextureShareSDKObject.h */,
+			);
+			name = "Public";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public";
+			sourceTree = "<absolute>";
+		};
+		FF5810952FF2CBD306B894F2 = {
+			isa = PBXGroup;
+			children = (
+				E6B0493D0FE8B16B1EF8D76F /* UnrealEngine */,
+				9DC2D2100186AF0D7DB58BEA /* TextureShareSDKContainers.h */,
+			);
+			name = "Containers";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public/Containers";
+			sourceTree = "<absolute>";
+		};
+		E6B0493D0FE8B16B1EF8D76F = {
+			isa = PBXGroup;
+			children = (
+				E126292FB63A7553238CF9CA /* TextureShareSDKUnrealEngineArray.h */,
+				DD349D9FD7114290D5372EDA /* TextureShareSDKUnrealEngineContainers.h */,
+				97A383F9D0A431280ABF5281 /* TextureShareSDKUnrealEngineEnums_PixelFormat.h */,
+				B1FA0832F25BA7DBE0AB0733 /* TextureShareSDKUnrealEngineMath.h */,
+				BCB576590CF5FD115BF447D6 /* TextureShareSDKUnrealEngineString.h */,
+				A8C358EEB6AB61DB539D753D /* TextureShareSDKUnrealEngineTypes.h */,
+			);
+			name = "UnrealEngine";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public/Containers/UnrealEngine";
+			sourceTree = "<absolute>";
+		};
+		3B21DCCB927E33B1007D798A = {
+			isa = PBXGroup;
+			children = (
+				D02185B635B49D743175B148 /* ITextureShareSDKSerializeStream.h */,
+				A8B643D76EE900BD2E521D94 /* TextureShareSDKDataWrappers.h */,
+			);
+			name = "Serialize";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public/Serialize";
+			sourceTree = "<absolute>";
+		};
+		E01E786EA189ED97DB5649B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0D321A318DC109A714E37E5 /* TextureShareSDK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		B4A0C350ADDEFF50C49C689E /* TextureShareSDK_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = ABECCFA37F76CCB08E188748 /* Build configuration list for PBXLegacyTarget "TextureShareSDK_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5";
+			dependencies = (
+			);
+			name = "TextureShareSDK_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "TextureShareSDK_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		46600E4C6CDEC8E0C289092A /* TextureShareSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 145A27B1CA89C5757AABEEBF /* Build configuration list for PBXNativeTarget "TextureShareSDK" */;
+			buildPhases = (
+				3B6FD1959D3233E57056E964 /* Embed App Extensions */, 
+				F63A123EDCF9C8556E95DC46 /* Shell Script */, 
+			);
+			dependencies = (
+				15862A271C72DC2B2BC4968B /* PBXTargetDependency */,
+			);
+			name = "TextureShareSDK";
+			passBuildSettingsInEnvironment = 1;
+			productName = "TextureShareSDK";
+			productReference = "A0D321A318DC109A714E37E5";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		5038124EB3FB19FAF5F82405 /* TextureShareSDK_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12DBCA1465A74D046A82F72C /* Build configuration list for PBXNativeTarget "TextureShareSDK_Index" */;
+			buildPhases = (
+				0A8481FCD9446444DC7650CA /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "TextureShareSDK_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "TextureShareSDK_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D6D1BFB8286579B187B0074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					46600E4C6CDEC8E0C289092A = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = CBB09CC9826EA9B3C7C990A4 /* Build configuration list for PBXProject "TextureShareSDK" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = ABB74AE7CA83DDCD40E64046;
+			productRefGroup = E01E786EA189ED97DB5649B5;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			46600E4C6CDEC8E0C289092A /* TextureShareSDK */,
+			B4A0C350ADDEFF50C49C689E /* TextureShareSDK_Build */,
+			5038124EB3FB19FAF5F82405 /* TextureShareSDK_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		01E1F4FC81FB6A69CEAD3331 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/VirtualProduction/TextureShare/Source/TextureShareCore/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/VirtualProduction/TextureShare/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/VirtualProduction/TextureShare/Source/TextureShareCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareSDK/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareSDK/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		FF20320A5028ABE3DB56CB5B /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/VirtualProduction/TextureShare/Source/TextureShareCore/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/VirtualProduction/TextureShare/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/VirtualProduction/TextureShare/Source/TextureShareCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareSDK/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareSDK/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		C4C3F8794259C1C1B5470B80 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/VirtualProduction/TextureShare/Source/TextureShareCore/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/VirtualProduction/TextureShare/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/VirtualProduction/TextureShare/Source/TextureShareCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareSDK/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareSDK/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		55C227F14D31C397B8F8400F /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/VirtualProduction/TextureShare/Source/TextureShareCore/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/VirtualProduction/TextureShare/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/VirtualProduction/TextureShare/Source/TextureShareCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareSDK/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareSDK/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		BCA7B830430C16BF698584D7 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/VirtualProduction/TextureShare/Source/TextureShareCore/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/VirtualProduction/TextureShare/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Plugins/VirtualProduction/TextureShare/Source/TextureShareCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareSDK/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/TextureShareSDK/Inc/TextureShareSDK/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/VirtualProduction/TextureShare/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		B757F9A8226344B49B1D069E /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "TextureShareSDK-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		9386BBD2508D9E2CC33D6BEB /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "TextureShareSDK-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		60905B1EBF7ABBAFA22D0AFF /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "TextureShareSDK";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		0CAF6531C81590FD399659A1 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "TextureShareSDK-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		A542422E3FDBE50EF2CBD53A /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "TextureShareSDK-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		312668E3AEFB5CA5928A94BC /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "TextureShareSDK";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		FFD0C81B87BC96509FE4E38D /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "TextureShareSDK";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		39334D125C837FF6EF6256C4 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "TextureShareSDK";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		6D758C805489B96429FDBC99 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "TextureShareSDK";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		6CD25E79898DC46F3C18C3AD /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "TextureShareSDK";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		3D376474EC7F954907E18684 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "TextureShareSDK-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		C851546ADFB1E1E76C09E065 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "TextureShareSDK-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		C41D0D452222D88045D40A4F /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "TextureShareSDK";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		5C8DA8BD9FBF0CCBDDFE3973 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "TextureShareSDK-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		D188211DE7FC30D609D0185C /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "TextureShareSDK-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBB09CC9826EA9B3C7C990A4 /* Build configuration list for PBXProject "TextureShareSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E1F4FC81FB6A69CEAD3331 /* "Debug" */,
+				FF20320A5028ABE3DB56CB5B /* "DebugGame" */,
+				C4C3F8794259C1C1B5470B80 /* "Development" */,
+				55C227F14D31C397B8F8400F /* "Test" */,
+				BCA7B830430C16BF698584D7 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		ABECCFA37F76CCB08E188748 /* Build configuration list for PBXLegacyTarget "TextureShareSDK_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312668E3AEFB5CA5928A94BC /* "Debug" */,
+				FFD0C81B87BC96509FE4E38D /* "DebugGame" */,
+				39334D125C837FF6EF6256C4 /* "Development" */,
+				6D758C805489B96429FDBC99 /* "Test" */,
+				6CD25E79898DC46F3C18C3AD /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		145A27B1CA89C5757AABEEBF /* Build configuration list for PBXNativeTarget "TextureShareSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B757F9A8226344B49B1D069E /* "Debug" */,
+				9386BBD2508D9E2CC33D6BEB /* "DebugGame" */,
+				60905B1EBF7ABBAFA22D0AFF /* "Development" */,
+				0CAF6531C81590FD399659A1 /* "Test" */,
+				A542422E3FDBE50EF2CBD53A /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		12DBCA1465A74D046A82F72C /* Build configuration list for PBXNativeTarget "TextureShareSDK_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D376474EC7F954907E18684 /* "Debug" */,
+				C851546ADFB1E1E76C09E065 /* "DebugGame" */,
+				C41D0D452222D88045D40A4F /* "Development" */,
+				5C8DA8BD9FBF0CCBDDFE3973 /* "Test" */,
+				D188211DE7FC30D609D0185C /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D6D1BFB8286579B187B0074 /* Project object */;
+}

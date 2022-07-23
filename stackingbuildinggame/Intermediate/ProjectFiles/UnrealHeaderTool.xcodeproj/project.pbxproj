@@ -1,0 +1,992 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B313DA9A90BF46DC053B776A /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 1336B6612EA97D9348EB32B5 /* DefaultEngine.ini */; };
+		6050D118083A8AFB857EB939 /* BaseParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4F6FF6C5E9480DEBFD96643 /* BaseParser.cpp */; };
+		ACED42D64AC882780A63AD15 /* BaseParser.h in Sources */ = {isa = PBXBuildFile; fileRef = 1A9311F50EAE813E265AA74A /* BaseParser.h */; };
+		16C9EBF4099EF187E98E6B1A /* ClassMaps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8B3B0BDFC412F7148E952CA /* ClassMaps.cpp */; };
+		838AD01158271C5246F7BF81 /* ClassMaps.h in Sources */ = {isa = PBXBuildFile; fileRef = DC8E6E6B71262B8C28F6FD5B /* ClassMaps.h */; };
+		FDC442E52A35012C7721707F /* CodeGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE02EC27119D300F32FE06E /* CodeGenerator.cpp */; };
+		D2C4FF22BEC6A28C8D751494 /* EngineAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5372710F5920ABB1DEF9C91 /* EngineAPI.cpp */; };
+		F7691A0F22FC67CDE4D41266 /* EngineAPI.h in Sources */ = {isa = PBXBuildFile; fileRef = 36DF6EB17FE3F159CB9ADC39 /* EngineAPI.h */; };
+		F1C20B61252450E2276D2A55 /* Exceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB9269910E46B01124C1DA16 /* Exceptions.cpp */; };
+		24593C39FD43C65D8CE11D60 /* Exceptions.h in Sources */ = {isa = PBXBuildFile; fileRef = F105A8BF83303EC9B41905EC /* Exceptions.h */; };
+		79604B84E9CB1530E8F43CCB /* GeneratedCodeVersion.h in Sources */ = {isa = PBXBuildFile; fileRef = E717E4E4A7CCC8C97509A008 /* GeneratedCodeVersion.h */; };
+		9EF08EF48211610B5350BF9D /* HeaderParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F74173C1CCED77FCC9DCD86B /* HeaderParser.cpp */; };
+		4B5A21E7503B7770C043E6F9 /* HeaderParser.h in Sources */ = {isa = PBXBuildFile; fileRef = 3C20ADD7923178965747EC66 /* HeaderParser.h */; };
+		5907FD8792A33FC11722A828 /* HeaderProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF79BA17D94FDCB45B7A84AB /* HeaderProvider.cpp */; };
+		3FA06997644213036DBB8E49 /* HeaderProvider.h in Sources */ = {isa = PBXBuildFile; fileRef = 3EEFDD1D0324E11A7785E718 /* HeaderProvider.h */; };
+		7660BC086B370ADE825247F1 /* IScriptGeneratorPluginInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39A75DD50EA5BA34EB71D9EA /* IScriptGeneratorPluginInterface.cpp */; };
+		71BFB036986A33BAB8502103 /* Manifest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 850B9835B0AFC7EBA7EBE35C /* Manifest.cpp */; };
+		C60C0BD2CAB32D0587D297AB /* Manifest.h in Sources */ = {isa = PBXBuildFile; fileRef = 87D346181E8C39E8865A5003 /* Manifest.h */; };
+		0D85833BAAED4285DC54708C /* NativeClassExporter.h in Sources */ = {isa = PBXBuildFile; fileRef = 5E61F004231B7BB274ECAEDC /* NativeClassExporter.h */; };
+		69AFCC1BB2FAD66BBB07C544 /* ParserHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30F25B999011CF3263BAB9BD /* ParserHelper.cpp */; };
+		9B34C56ADE9E8F20D6A6D1FB /* ParserHelper.h in Sources */ = {isa = PBXBuildFile; fileRef = 2126D3E17D04D0579BACD430 /* ParserHelper.h */; };
+		C0E221621C7B79AEF50F7F7D /* PropertyTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 346C8D1D77A46D8920607869 /* PropertyTypes.cpp */; };
+		3EEDB55EEA6121EF6095A9FC /* PropertyTypes.h in Sources */ = {isa = PBXBuildFile; fileRef = 7C2D035B2D230512A755AD11 /* PropertyTypes.h */; };
+		77B2DFF73E4B0F606AB8242E /* Scope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C61AC494ED8F1D9FC290A14A /* Scope.cpp */; };
+		A0125BFD5A65C2E940A3E737 /* Scope.h in Sources */ = {isa = PBXBuildFile; fileRef = 812AB114854991C409D59412 /* Scope.h */; };
+		D3D06228C68956EDE6BC81D4 /* CheckedMetadataSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = 0784B75B0604B4463CFDF657 /* CheckedMetadataSpecifiers.def */; };
+		CAC415E8EE3FF7D7098A7786 /* CheckedMetadataSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = 032052CF2196FF748344C947 /* CheckedMetadataSpecifiers.h */; };
+		6F35F62A142A08D5D90A5D02 /* ClassMetadataSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = 736EFFA6C5AACA7C0C3157E6 /* ClassMetadataSpecifiers.def */; };
+		B1E524A5FD82D486FBCD78B9 /* ClassMetadataSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = 49CCC2DF82A1ADF9C3505BB3 /* ClassMetadataSpecifiers.h */; };
+		9759AED8794C3B3EDD10782E /* EnumSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = 0562D85635D707A6F5455DF9 /* EnumSpecifiers.def */; };
+		E7EAF96A845D226189700EA3 /* EnumSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = D3FB0CAE923ADB385394D920 /* EnumSpecifiers.h */; };
+		C956C3EB49B5BE51FCB5F18E /* FunctionSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = 52D0BA7FED17A5945434833A /* FunctionSpecifiers.def */; };
+		CA5813BB6924A55311D9A12E /* FunctionSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = 9A3618D4B2BCA71E0A7E5BC2 /* FunctionSpecifiers.h */; };
+		805C4A3CEE44CB94D38921F0 /* InterfaceSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = A102E7D80F9E7D792F8CE5B6 /* InterfaceSpecifiers.def */; };
+		FED0E2978D64304CFC513B0D /* InterfaceSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = D96964CC0E0D5A10152732AF /* InterfaceSpecifiers.h */; };
+		D5CF0E6C00E293F376943D1E /* SpecifierArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6234066E59D4F450C7D9FEA6 /* SpecifierArrays.cpp */; };
+		39B06A2231D4A1D79E32C2BE /* StructSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = 56C44B19BE4796452C466ADA /* StructSpecifiers.def */; };
+		06ECB74033E1E7FBD0683250 /* StructSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = 7770C2A2F3657F3071481895 /* StructSpecifiers.h */; };
+		88DA928043B979F346901B44 /* VariableSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = 1C60A3BC4AC6EEEE91FBA24D /* VariableSpecifiers.def */; };
+		84F452C6C63A68BED422B859 /* VariableSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = 4F67B817EE3E09E6557D8593 /* VariableSpecifiers.h */; };
+		5F702517370E4FE61195562B /* StringUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF120504F53AEE22338C12C2 /* StringUtils.cpp */; };
+		DE081979FFDC41CB7D489EEA /* StringUtils.h in Sources */ = {isa = PBXBuildFile; fileRef = 40ABB132540126ECD4852572 /* StringUtils.h */; };
+		438DCECEE772DFD25E62382E /* UnrealHeaderTool.h in Sources */ = {isa = PBXBuildFile; fileRef = F4D5E734538AAEA6741BC34A /* UnrealHeaderTool.h */; };
+		89BBCE326625EE59E3A73571 /* UnrealHeaderToolGlobals.h in Sources */ = {isa = PBXBuildFile; fileRef = 0E73E40B69CB8BDE72823E7E /* UnrealHeaderToolGlobals.h */; };
+		19F19849D67EFE28CA84442B /* UnrealHeaderToolMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3AD6C3874DF4B4DA07526E0 /* UnrealHeaderToolMain.cpp */; };
+		A6A33DA98FE5D8077C4F1874 /* UnrealHeaderToolStats.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA48265A90DA7892EB867BB /* UnrealHeaderToolStats.cpp */; };
+		5F53699237F1DEA3CBB7A333 /* UnrealHeaderToolStats.h in Sources */ = {isa = PBXBuildFile; fileRef = 405598E5AB3DAE5395F7ABCF /* UnrealHeaderToolStats.h */; };
+		5DE5A392CE9CB2ED3B824A3C /* UnrealSourceFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B45D08B7174A9D4014E2454 /* UnrealSourceFile.cpp */; };
+		75C2DEF109132567A79A3551 /* UnrealSourceFile.h in Sources */ = {isa = PBXBuildFile; fileRef = 4D4BD52E05B6F8BE0B5B6966 /* UnrealSourceFile.h */; };
+		6C23E2214ED6CE0EC14F1D0C /* UnrealTypeDefinitionInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEC0E3285CE295E00F7E3D25 /* UnrealTypeDefinitionInfo.cpp */; };
+		9F7ACF4A56654819587884E6 /* UnrealTypeDefinitionInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = 310418D0CB2790FD2EC87044 /* UnrealTypeDefinitionInfo.h */; };
+		C2C3E5AB5929038D3845FC4F /* IScriptGeneratorPluginInterface.h in Sources */ = {isa = PBXBuildFile; fileRef = 67B32D0C285D70FAA7496DE3 /* IScriptGeneratorPluginInterface.h */; };
+		0ED7FF53F1BBF8066EBF0302 /* UHTDebugging.manifest in Sources */ = {isa = PBXBuildFile; fileRef = 54BD64AA1E2B210A6A69B03B /* UHTDebugging.manifest */; };
+		11FDBEF70D8BEB7855019C82 /* DocumentationObjects.h in Sources */ = {isa = PBXBuildFile; fileRef = 2AB09B7D4DF6E0A8AF2AB76B /* DocumentationObjects.h */; };
+		F9C5DB7C286378A526C442F4 /* EnumOnlyHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = FD00F8E2D38BAC5320E17F6E /* EnumOnlyHeader.h */; };
+		8FA4BC7488088CE64652FE48 /* RigVMStructHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = B06E50F288F75B666EA67F4C /* RigVMStructHeader.h */; };
+		FDFED4237D644B17456CEC84 /* StructOnlyHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = A6041D1E385BADAA01B03265 /* StructOnlyHeader.h */; };
+		3BBACA29851900E92470778A /* TestDeprecatedObject.h in Sources */ = {isa = PBXBuildFile; fileRef = 336868E206E7024381CB4C84 /* TestDeprecatedObject.h */; };
+		DA3C2E12F8D54B4CCB6EE8C3 /* TestInterface.h in Sources */ = {isa = PBXBuildFile; fileRef = 9A22912C6B0360368D92EACF /* TestInterface.h */; };
+		F3CBA41AAEEFE46F6E454E48 /* TestInterfaceObject.h in Sources */ = {isa = PBXBuildFile; fileRef = EBEEF04F242ABEC57FA548E4 /* TestInterfaceObject.h */; };
+		55D6D77D6B15F747515E1F2C /* TestObject.h in Sources */ = {isa = PBXBuildFile; fileRef = 30309EDC8A795554D348407D /* TestObject.h */; };
+		13101163D425504D83BFC4D8 /* TestObjectSerializers.h in Sources */ = {isa = PBXBuildFile; fileRef = 176603584E07F68CCFC31EF3 /* TestObjectSerializers.h */; };
+		0287150E65EBAC193098A906 /* UnrealHeaderTool.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = BDDF947B4015364A89897DB1 /* UnrealHeaderTool.Build.cs */; };
+		CCF8E411B308BFB5491F226A /* UnrealHeaderTool.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = EE4DF99CC0FF26F17E8C825B /* UnrealHeaderTool.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1336B6612EA97D9348EB32B5 /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/UnrealHeaderTool/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		D4F6FF6C5E9480DEBFD96643 /* BaseParser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "BaseParser.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/BaseParser.cpp"; sourceTree = SOURCE_ROOT; };
+		1A9311F50EAE813E265AA74A /* BaseParser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "BaseParser.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/BaseParser.h"; sourceTree = SOURCE_ROOT; };
+		F8B3B0BDFC412F7148E952CA /* ClassMaps.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ClassMaps.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/ClassMaps.cpp"; sourceTree = SOURCE_ROOT; };
+		DC8E6E6B71262B8C28F6FD5B /* ClassMaps.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ClassMaps.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/ClassMaps.h"; sourceTree = SOURCE_ROOT; };
+		CEE02EC27119D300F32FE06E /* CodeGenerator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CodeGenerator.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/CodeGenerator.cpp"; sourceTree = SOURCE_ROOT; };
+		E5372710F5920ABB1DEF9C91 /* EngineAPI.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EngineAPI.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/EngineAPI.cpp"; sourceTree = SOURCE_ROOT; };
+		36DF6EB17FE3F159CB9ADC39 /* EngineAPI.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EngineAPI.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/EngineAPI.h"; sourceTree = SOURCE_ROOT; };
+		AB9269910E46B01124C1DA16 /* Exceptions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Exceptions.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Exceptions.cpp"; sourceTree = SOURCE_ROOT; };
+		F105A8BF83303EC9B41905EC /* Exceptions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Exceptions.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Exceptions.h"; sourceTree = SOURCE_ROOT; };
+		E717E4E4A7CCC8C97509A008 /* GeneratedCodeVersion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "GeneratedCodeVersion.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/GeneratedCodeVersion.h"; sourceTree = SOURCE_ROOT; };
+		F74173C1CCED77FCC9DCD86B /* HeaderParser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HeaderParser.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderParser.cpp"; sourceTree = SOURCE_ROOT; };
+		3C20ADD7923178965747EC66 /* HeaderParser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "HeaderParser.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderParser.h"; sourceTree = SOURCE_ROOT; };
+		EF79BA17D94FDCB45B7A84AB /* HeaderProvider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HeaderProvider.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderProvider.cpp"; sourceTree = SOURCE_ROOT; };
+		3EEFDD1D0324E11A7785E718 /* HeaderProvider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "HeaderProvider.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderProvider.h"; sourceTree = SOURCE_ROOT; };
+		39A75DD50EA5BA34EB71D9EA /* IScriptGeneratorPluginInterface.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IScriptGeneratorPluginInterface.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/IScriptGeneratorPluginInterface.cpp"; sourceTree = SOURCE_ROOT; };
+		850B9835B0AFC7EBA7EBE35C /* Manifest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Manifest.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Manifest.cpp"; sourceTree = SOURCE_ROOT; };
+		87D346181E8C39E8865A5003 /* Manifest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Manifest.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Manifest.h"; sourceTree = SOURCE_ROOT; };
+		5E61F004231B7BB274ECAEDC /* NativeClassExporter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "NativeClassExporter.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/NativeClassExporter.h"; sourceTree = SOURCE_ROOT; };
+		30F25B999011CF3263BAB9BD /* ParserHelper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ParserHelper.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/ParserHelper.cpp"; sourceTree = SOURCE_ROOT; };
+		2126D3E17D04D0579BACD430 /* ParserHelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ParserHelper.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/ParserHelper.h"; sourceTree = SOURCE_ROOT; };
+		346C8D1D77A46D8920607869 /* PropertyTypes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PropertyTypes.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/PropertyTypes.cpp"; sourceTree = SOURCE_ROOT; };
+		7C2D035B2D230512A755AD11 /* PropertyTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PropertyTypes.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/PropertyTypes.h"; sourceTree = SOURCE_ROOT; };
+		C61AC494ED8F1D9FC290A14A /* Scope.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Scope.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Scope.cpp"; sourceTree = SOURCE_ROOT; };
+		812AB114854991C409D59412 /* Scope.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Scope.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Scope.h"; sourceTree = SOURCE_ROOT; };
+		0784B75B0604B4463CFDF657 /* CheckedMetadataSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CheckedMetadataSpecifiers.def"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/CheckedMetadataSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		032052CF2196FF748344C947 /* CheckedMetadataSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CheckedMetadataSpecifiers.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/CheckedMetadataSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		736EFFA6C5AACA7C0C3157E6 /* ClassMetadataSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ClassMetadataSpecifiers.def"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/ClassMetadataSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		49CCC2DF82A1ADF9C3505BB3 /* ClassMetadataSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ClassMetadataSpecifiers.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/ClassMetadataSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		0562D85635D707A6F5455DF9 /* EnumSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EnumSpecifiers.def"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/EnumSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		D3FB0CAE923ADB385394D920 /* EnumSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnumSpecifiers.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/EnumSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		52D0BA7FED17A5945434833A /* FunctionSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FunctionSpecifiers.def"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/FunctionSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		9A3618D4B2BCA71E0A7E5BC2 /* FunctionSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "FunctionSpecifiers.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/FunctionSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		A102E7D80F9E7D792F8CE5B6 /* InterfaceSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "InterfaceSpecifiers.def"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/InterfaceSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		D96964CC0E0D5A10152732AF /* InterfaceSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "InterfaceSpecifiers.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/InterfaceSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		6234066E59D4F450C7D9FEA6 /* SpecifierArrays.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SpecifierArrays.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/SpecifierArrays.cpp"; sourceTree = SOURCE_ROOT; };
+		56C44B19BE4796452C466ADA /* StructSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "StructSpecifiers.def"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/StructSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		7770C2A2F3657F3071481895 /* StructSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "StructSpecifiers.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/StructSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		1C60A3BC4AC6EEEE91FBA24D /* VariableSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "VariableSpecifiers.def"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/VariableSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		4F67B817EE3E09E6557D8593 /* VariableSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "VariableSpecifiers.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/VariableSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		EF120504F53AEE22338C12C2 /* StringUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "StringUtils.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/StringUtils.cpp"; sourceTree = SOURCE_ROOT; };
+		40ABB132540126ECD4852572 /* StringUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "StringUtils.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/StringUtils.h"; sourceTree = SOURCE_ROOT; };
+		F4D5E734538AAEA6741BC34A /* UnrealHeaderTool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealHeaderTool.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderTool.h"; sourceTree = SOURCE_ROOT; };
+		0E73E40B69CB8BDE72823E7E /* UnrealHeaderToolGlobals.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealHeaderToolGlobals.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderToolGlobals.h"; sourceTree = SOURCE_ROOT; };
+		A3AD6C3874DF4B4DA07526E0 /* UnrealHeaderToolMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealHeaderToolMain.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderToolMain.cpp"; sourceTree = SOURCE_ROOT; };
+		8CA48265A90DA7892EB867BB /* UnrealHeaderToolStats.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealHeaderToolStats.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderToolStats.cpp"; sourceTree = SOURCE_ROOT; };
+		405598E5AB3DAE5395F7ABCF /* UnrealHeaderToolStats.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealHeaderToolStats.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderToolStats.h"; sourceTree = SOURCE_ROOT; };
+		7B45D08B7174A9D4014E2454 /* UnrealSourceFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealSourceFile.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealSourceFile.cpp"; sourceTree = SOURCE_ROOT; };
+		4D4BD52E05B6F8BE0B5B6966 /* UnrealSourceFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealSourceFile.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealSourceFile.h"; sourceTree = SOURCE_ROOT; };
+		BEC0E3285CE295E00F7E3D25 /* UnrealTypeDefinitionInfo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealTypeDefinitionInfo.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealTypeDefinitionInfo.cpp"; sourceTree = SOURCE_ROOT; };
+		310418D0CB2790FD2EC87044 /* UnrealTypeDefinitionInfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealTypeDefinitionInfo.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealTypeDefinitionInfo.h"; sourceTree = SOURCE_ROOT; };
+		67B32D0C285D70FAA7496DE3 /* IScriptGeneratorPluginInterface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "IScriptGeneratorPluginInterface.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Public/IScriptGeneratorPluginInterface.h"; sourceTree = SOURCE_ROOT; };
+		54BD64AA1E2B210A6A69B03B /* UHTDebugging.manifest */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UHTDebugging.manifest"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging.manifest"; sourceTree = SOURCE_ROOT; };
+		2AB09B7D4DF6E0A8AF2AB76B /* DocumentationObjects.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DocumentationObjects.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/DocumentationObjects.h"; sourceTree = SOURCE_ROOT; };
+		FD00F8E2D38BAC5320E17F6E /* EnumOnlyHeader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnumOnlyHeader.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/EnumOnlyHeader.h"; sourceTree = SOURCE_ROOT; };
+		B06E50F288F75B666EA67F4C /* RigVMStructHeader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "RigVMStructHeader.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/RigVMStructHeader.h"; sourceTree = SOURCE_ROOT; };
+		A6041D1E385BADAA01B03265 /* StructOnlyHeader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "StructOnlyHeader.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/StructOnlyHeader.h"; sourceTree = SOURCE_ROOT; };
+		336868E206E7024381CB4C84 /* TestDeprecatedObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TestDeprecatedObject.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestDeprecatedObject.h"; sourceTree = SOURCE_ROOT; };
+		9A22912C6B0360368D92EACF /* TestInterface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TestInterface.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestInterface.h"; sourceTree = SOURCE_ROOT; };
+		EBEEF04F242ABEC57FA548E4 /* TestInterfaceObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TestInterfaceObject.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestInterfaceObject.h"; sourceTree = SOURCE_ROOT; };
+		30309EDC8A795554D348407D /* TestObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TestObject.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestObject.h"; sourceTree = SOURCE_ROOT; };
+		176603584E07F68CCFC31EF3 /* TestObjectSerializers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TestObjectSerializers.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestObjectSerializers.h"; sourceTree = SOURCE_ROOT; };
+		BDDF947B4015364A89897DB1 /* UnrealHeaderTool.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealHeaderTool.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/UnrealHeaderTool.Build.cs"; sourceTree = SOURCE_ROOT; };
+		EE4DF99CC0FF26F17E8C825B /* UnrealHeaderTool.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealHeaderTool.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/UnrealHeaderTool.Target.cs"; sourceTree = SOURCE_ROOT; };
+		21CF3ADD1884F15768BF2E33 /* UnrealHeaderTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = UnrealHeaderTool; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4CE1F45B81DA309B302244F = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6050D118083A8AFB857EB939 /* BaseParser.cpp in Sources */,
+				16C9EBF4099EF187E98E6B1A /* ClassMaps.cpp in Sources */,
+				FDC442E52A35012C7721707F /* CodeGenerator.cpp in Sources */,
+				D2C4FF22BEC6A28C8D751494 /* EngineAPI.cpp in Sources */,
+				F1C20B61252450E2276D2A55 /* Exceptions.cpp in Sources */,
+				9EF08EF48211610B5350BF9D /* HeaderParser.cpp in Sources */,
+				5907FD8792A33FC11722A828 /* HeaderProvider.cpp in Sources */,
+				7660BC086B370ADE825247F1 /* IScriptGeneratorPluginInterface.cpp in Sources */,
+				71BFB036986A33BAB8502103 /* Manifest.cpp in Sources */,
+				69AFCC1BB2FAD66BBB07C544 /* ParserHelper.cpp in Sources */,
+				C0E221621C7B79AEF50F7F7D /* PropertyTypes.cpp in Sources */,
+				77B2DFF73E4B0F606AB8242E /* Scope.cpp in Sources */,
+				D5CF0E6C00E293F376943D1E /* SpecifierArrays.cpp in Sources */,
+				5F702517370E4FE61195562B /* StringUtils.cpp in Sources */,
+				19F19849D67EFE28CA84442B /* UnrealHeaderToolMain.cpp in Sources */,
+				A6A33DA98FE5D8077C4F1874 /* UnrealHeaderToolStats.cpp in Sources */,
+				5DE5A392CE9CB2ED3B824A3C /* UnrealSourceFile.cpp in Sources */,
+				6C23E2214ED6CE0EC14F1D0C /* UnrealTypeDefinitionInfo.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	D8DFE9B2E8AA39A7B008A541 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		B8733A9F9FC7309AFBA9DED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3F36AE77E0FCFC7E3ECC14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0545A14469DB63C3DF25C1E4;
+			remoteInfo = "UnrealHeaderTool_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		F616DEE832B332FA2A6F0FB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0545A14469DB63C3DF25C1E4 /* UnrealHeaderTool_Build */;
+			targetProxy = B8733A9F9FC7309AFBA9DED5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		8927071C13CB5522DB510C3E = {
+			isa = PBXGroup;
+			children = (
+				976B77D108EAC67ED21B5A0E /* Programs */,
+				7CC1B7E9F48050F0B437EF3E /* Source */,
+				819B81640A9DDBE81F1B2789 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		976B77D108EAC67ED21B5A0E = {
+			isa = PBXGroup;
+			children = (
+				ED042B864E5697A80D775BDC /* UnrealHeaderTool */,
+			);
+			name = "Programs";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs";
+			sourceTree = "<absolute>";
+		};
+		ED042B864E5697A80D775BDC = {
+			isa = PBXGroup;
+			children = (
+				5F2D7465F612F4C5B8738C63 /* Config */,
+			);
+			name = "UnrealHeaderTool";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/UnrealHeaderTool";
+			sourceTree = "<absolute>";
+		};
+		5F2D7465F612F4C5B8738C63 = {
+			isa = PBXGroup;
+			children = (
+				1336B6612EA97D9348EB32B5 /* DefaultEngine.ini */,
+			);
+			name = "Config";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/UnrealHeaderTool/Config";
+			sourceTree = "<absolute>";
+		};
+		7CC1B7E9F48050F0B437EF3E = {
+			isa = PBXGroup;
+			children = (
+				4785FE36B6855220109A72DB /* Programs */,
+			);
+			name = "Source";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source";
+			sourceTree = "<absolute>";
+		};
+		4785FE36B6855220109A72DB = {
+			isa = PBXGroup;
+			children = (
+				766188C02695567A77C70A8D /* UnrealHeaderTool */,
+			);
+			name = "Programs";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs";
+			sourceTree = "<absolute>";
+		};
+		766188C02695567A77C70A8D = {
+			isa = PBXGroup;
+			children = (
+				9FADB48D266A28273D351D70 /* Private */,
+				F790CA1EE175C6807A719708 /* Public */,
+				D0C4F9A5714B9E414317AC68 /* Resources */,
+				BDDF947B4015364A89897DB1 /* UnrealHeaderTool.Build.cs */,
+				EE4DF99CC0FF26F17E8C825B /* UnrealHeaderTool.Target.cs */,
+			);
+			name = "UnrealHeaderTool";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool";
+			sourceTree = "<absolute>";
+		};
+		9FADB48D266A28273D351D70 = {
+			isa = PBXGroup;
+			children = (
+				13BD0E32206C53E14EDC7393 /* Specifiers */,
+				D4F6FF6C5E9480DEBFD96643 /* BaseParser.cpp */,
+				1A9311F50EAE813E265AA74A /* BaseParser.h */,
+				F8B3B0BDFC412F7148E952CA /* ClassMaps.cpp */,
+				DC8E6E6B71262B8C28F6FD5B /* ClassMaps.h */,
+				CEE02EC27119D300F32FE06E /* CodeGenerator.cpp */,
+				E5372710F5920ABB1DEF9C91 /* EngineAPI.cpp */,
+				36DF6EB17FE3F159CB9ADC39 /* EngineAPI.h */,
+				AB9269910E46B01124C1DA16 /* Exceptions.cpp */,
+				F105A8BF83303EC9B41905EC /* Exceptions.h */,
+				E717E4E4A7CCC8C97509A008 /* GeneratedCodeVersion.h */,
+				F74173C1CCED77FCC9DCD86B /* HeaderParser.cpp */,
+				3C20ADD7923178965747EC66 /* HeaderParser.h */,
+				EF79BA17D94FDCB45B7A84AB /* HeaderProvider.cpp */,
+				3EEFDD1D0324E11A7785E718 /* HeaderProvider.h */,
+				39A75DD50EA5BA34EB71D9EA /* IScriptGeneratorPluginInterface.cpp */,
+				850B9835B0AFC7EBA7EBE35C /* Manifest.cpp */,
+				87D346181E8C39E8865A5003 /* Manifest.h */,
+				5E61F004231B7BB274ECAEDC /* NativeClassExporter.h */,
+				30F25B999011CF3263BAB9BD /* ParserHelper.cpp */,
+				2126D3E17D04D0579BACD430 /* ParserHelper.h */,
+				346C8D1D77A46D8920607869 /* PropertyTypes.cpp */,
+				7C2D035B2D230512A755AD11 /* PropertyTypes.h */,
+				C61AC494ED8F1D9FC290A14A /* Scope.cpp */,
+				812AB114854991C409D59412 /* Scope.h */,
+				EF120504F53AEE22338C12C2 /* StringUtils.cpp */,
+				40ABB132540126ECD4852572 /* StringUtils.h */,
+				F4D5E734538AAEA6741BC34A /* UnrealHeaderTool.h */,
+				0E73E40B69CB8BDE72823E7E /* UnrealHeaderToolGlobals.h */,
+				A3AD6C3874DF4B4DA07526E0 /* UnrealHeaderToolMain.cpp */,
+				8CA48265A90DA7892EB867BB /* UnrealHeaderToolStats.cpp */,
+				405598E5AB3DAE5395F7ABCF /* UnrealHeaderToolStats.h */,
+				7B45D08B7174A9D4014E2454 /* UnrealSourceFile.cpp */,
+				4D4BD52E05B6F8BE0B5B6966 /* UnrealSourceFile.h */,
+				BEC0E3285CE295E00F7E3D25 /* UnrealTypeDefinitionInfo.cpp */,
+				310418D0CB2790FD2EC87044 /* UnrealTypeDefinitionInfo.h */,
+			);
+			name = "Private";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private";
+			sourceTree = "<absolute>";
+		};
+		13BD0E32206C53E14EDC7393 = {
+			isa = PBXGroup;
+			children = (
+				0784B75B0604B4463CFDF657 /* CheckedMetadataSpecifiers.def */,
+				032052CF2196FF748344C947 /* CheckedMetadataSpecifiers.h */,
+				736EFFA6C5AACA7C0C3157E6 /* ClassMetadataSpecifiers.def */,
+				49CCC2DF82A1ADF9C3505BB3 /* ClassMetadataSpecifiers.h */,
+				0562D85635D707A6F5455DF9 /* EnumSpecifiers.def */,
+				D3FB0CAE923ADB385394D920 /* EnumSpecifiers.h */,
+				52D0BA7FED17A5945434833A /* FunctionSpecifiers.def */,
+				9A3618D4B2BCA71E0A7E5BC2 /* FunctionSpecifiers.h */,
+				A102E7D80F9E7D792F8CE5B6 /* InterfaceSpecifiers.def */,
+				D96964CC0E0D5A10152732AF /* InterfaceSpecifiers.h */,
+				6234066E59D4F450C7D9FEA6 /* SpecifierArrays.cpp */,
+				56C44B19BE4796452C466ADA /* StructSpecifiers.def */,
+				7770C2A2F3657F3071481895 /* StructSpecifiers.h */,
+				1C60A3BC4AC6EEEE91FBA24D /* VariableSpecifiers.def */,
+				4F67B817EE3E09E6557D8593 /* VariableSpecifiers.h */,
+			);
+			name = "Specifiers";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers";
+			sourceTree = "<absolute>";
+		};
+		F790CA1EE175C6807A719708 = {
+			isa = PBXGroup;
+			children = (
+				67B32D0C285D70FAA7496DE3 /* IScriptGeneratorPluginInterface.h */,
+			);
+			name = "Public";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Public";
+			sourceTree = "<absolute>";
+		};
+		D0C4F9A5714B9E414317AC68 = {
+			isa = PBXGroup;
+			children = (
+				8723590B74293EC33A209696 /* UHTDebugging */,
+				54BD64AA1E2B210A6A69B03B /* UHTDebugging.manifest */,
+			);
+			name = "Resources";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Resources";
+			sourceTree = "<absolute>";
+		};
+		8723590B74293EC33A209696 = {
+			isa = PBXGroup;
+			children = (
+				2AB09B7D4DF6E0A8AF2AB76B /* DocumentationObjects.h */,
+				FD00F8E2D38BAC5320E17F6E /* EnumOnlyHeader.h */,
+				B06E50F288F75B666EA67F4C /* RigVMStructHeader.h */,
+				A6041D1E385BADAA01B03265 /* StructOnlyHeader.h */,
+				336868E206E7024381CB4C84 /* TestDeprecatedObject.h */,
+				9A22912C6B0360368D92EACF /* TestInterface.h */,
+				EBEEF04F242ABEC57FA548E4 /* TestInterfaceObject.h */,
+				30309EDC8A795554D348407D /* TestObject.h */,
+				176603584E07F68CCFC31EF3 /* TestObjectSerializers.h */,
+			);
+			name = "UHTDebugging";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging";
+			sourceTree = "<absolute>";
+		};
+		819B81640A9DDBE81F1B2789 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21CF3ADD1884F15768BF2E33 /* UnrealHeaderTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		0545A14469DB63C3DF25C1E4 /* UnrealHeaderTool_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 6387EAB220B9484D3708C663 /* Build configuration list for PBXLegacyTarget "UnrealHeaderTool_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5";
+			dependencies = (
+			);
+			name = "UnrealHeaderTool_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealHeaderTool_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		A7BC032549E32DD3F89BD58D /* UnrealHeaderTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33EFD77A579E278979505444 /* Build configuration list for PBXNativeTarget "UnrealHeaderTool" */;
+			buildPhases = (
+				D8DFE9B2E8AA39A7B008A541 /* Embed App Extensions */, 
+				463A5150B4A3156DFF7E4844 /* Shell Script */, 
+			);
+			dependencies = (
+				F616DEE832B332FA2A6F0FB1 /* PBXTargetDependency */,
+			);
+			name = "UnrealHeaderTool";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealHeaderTool";
+			productReference = "21CF3ADD1884F15768BF2E33";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		7854E2A67DB849F945069A5A /* UnrealHeaderTool_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26EB3020461AF5FB0D567990 /* Build configuration list for PBXNativeTarget "UnrealHeaderTool_Index" */;
+			buildPhases = (
+				D4CE1F45B81DA309B302244F /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "UnrealHeaderTool_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealHeaderTool_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A3F36AE77E0FCFC7E3ECC14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					A7BC032549E32DD3F89BD58D = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = F8BC4627DCC89E5CED908C34 /* Build configuration list for PBXProject "UnrealHeaderTool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 8927071C13CB5522DB510C3E;
+			productRefGroup = 819B81640A9DDBE81F1B2789;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			A7BC032549E32DD3F89BD58D /* UnrealHeaderTool */,
+			0545A14469DB63C3DF25C1E4 /* UnrealHeaderTool_Build */,
+			7854E2A67DB849F945069A5A /* UnrealHeaderTool_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		AC0F69BDAD028A7F76328B2B /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RigVM/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/UnrealHeaderTool/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/UnrealHeaderTool/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		A4A08B7FA57C1BCE0FEBF25A /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RigVM/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/UnrealHeaderTool/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/UnrealHeaderTool/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		940C317D928D697E6A25F97B /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RigVM/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/UnrealHeaderTool/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/UnrealHeaderTool/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		7BA4373CFA1EF34F781E0118 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RigVM/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/UnrealHeaderTool/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/UnrealHeaderTool/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		CB58BBC5E70BC1C53B6D0180 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RigVM/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/UnrealHeaderTool/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/UnrealHeaderTool/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealHeaderTool/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		B328FF75E180D8CC28DDFF7E /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		AC7A91BFE231940F22263566 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		2D1ABC241C4DA3E30F449312 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		077E2089491152E1ADB569C9 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		9BD0EDE9E2BE8CEF0F68E0A9 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		CB53550FEDB74F5A96A406D9 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealHeaderTool";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		862A4E0112EBCFA5B6C96B4D /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealHeaderTool";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		7C7986EA5DE1DCE7284B6D06 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealHeaderTool";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		3A7A8222628E3C428B176EB8 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealHeaderTool";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		2347898F27CD784057A0560A /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealHeaderTool";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		407BF9AE7D26CB13AE269C8B /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		2BCFB41A8837C954899E0103 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		BA52122960ECE205D639ED6E /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		A9A0ED0A571D8E9C51F922E1 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		D2765A8055A97C3B9E6C6E86 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8BC4627DCC89E5CED908C34 /* Build configuration list for PBXProject "UnrealHeaderTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0F69BDAD028A7F76328B2B /* "Debug" */,
+				A4A08B7FA57C1BCE0FEBF25A /* "DebugGame" */,
+				940C317D928D697E6A25F97B /* "Development" */,
+				7BA4373CFA1EF34F781E0118 /* "Test" */,
+				CB58BBC5E70BC1C53B6D0180 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		6387EAB220B9484D3708C663 /* Build configuration list for PBXLegacyTarget "UnrealHeaderTool_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB53550FEDB74F5A96A406D9 /* "Debug" */,
+				862A4E0112EBCFA5B6C96B4D /* "DebugGame" */,
+				7C7986EA5DE1DCE7284B6D06 /* "Development" */,
+				3A7A8222628E3C428B176EB8 /* "Test" */,
+				2347898F27CD784057A0560A /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		33EFD77A579E278979505444 /* Build configuration list for PBXNativeTarget "UnrealHeaderTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B328FF75E180D8CC28DDFF7E /* "Debug" */,
+				AC7A91BFE231940F22263566 /* "DebugGame" */,
+				2D1ABC241C4DA3E30F449312 /* "Development" */,
+				077E2089491152E1ADB569C9 /* "Test" */,
+				9BD0EDE9E2BE8CEF0F68E0A9 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		26EB3020461AF5FB0D567990 /* Build configuration list for PBXNativeTarget "UnrealHeaderTool_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407BF9AE7D26CB13AE269C8B /* "Debug" */,
+				2BCFB41A8837C954899E0103 /* "DebugGame" */,
+				BA52122960ECE205D639ED6E /* "Development" */,
+				A9A0ED0A571D8E9C51F922E1 /* "Test" */,
+				D2765A8055A97C3B9E6C6E86 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A3F36AE77E0FCFC7E3ECC14 /* Project object */;
+}

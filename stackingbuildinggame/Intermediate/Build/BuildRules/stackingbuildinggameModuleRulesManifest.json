@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/chrisdouris/Desktop/Game_Projects/Game jams/Weekly Game Jam Skyscraper/Project/stackingbuildinggame/Source/stackingbuildinggame/stackingbuildinggame.Build.cs",
+		"/Users/chrisdouris/Desktop/Game_Projects/Game jams/Weekly Game Jam Skyscraper/Project/stackingbuildinggame/Source/stackingbuildinggame.Target.cs",
+		"/Users/chrisdouris/Desktop/Game_Projects/Game jams/Weekly Game Jam Skyscraper/Project/stackingbuildinggame/Source/stackingbuildinggameEditor.Target.cs"
+	],
+	"EngineVersion": "5.1.0"
+}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "stackingbuildinggame",
+			"Path": "/Users/chrisdouris/Desktop/Game_Projects/Game jams/Weekly Game Jam Skyscraper/Project/stackingbuildinggame/Source/stackingbuildinggame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "stackingbuildinggameEditor",
+			"Path": "/Users/chrisdouris/Desktop/Game_Projects/Game jams/Weekly Game Jam Skyscraper/Project/stackingbuildinggame/Source/stackingbuildinggameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

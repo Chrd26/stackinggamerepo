@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35AB72058E6D535AAF0D31B5 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = E87D4C4E1B48F3DAF214C2EC /* DefaultEngine.ini */; };
+		AE66DB9355B52A1D412876A9 /* BuildPatchTool.Automation.cs in Sources */ = {isa = PBXBuildFile; fileRef = F0D6E59B1BA2BB062065C64A /* BuildPatchTool.Automation.cs */; };
+		E73EB33A3D8D913ADB5C5B53 /* BuildPatchTool.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = E80F7BB8998AE3D983AD67E6 /* BuildPatchTool.Build.cs */; };
+		1CA02256E208777020EF3683 /* BuildPatchTool.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 5873D72E80F5FC38B15BAE4B /* BuildPatchTool.Target.cs */; };
+		607462BCDEE9ED499F91AB17 /* BuildPatchTool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EFE0B3973BCE937A92B30B /* BuildPatchTool.cpp */; };
+		27026D9582EDC639D6CCDAC8 /* ToolMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD45BF16F12B3566363B6A9 /* ToolMode.cpp */; };
+		AA2F4147DFD36CCDC15694DC /* AutomationMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B57C6B2CB714035141888C2 /* AutomationMode.cpp */; };
+		E0DC2468DF5DA7C44BC3EB53 /* ChunkDeltaOptimiseMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB7E5A02600C07D4407E7617 /* ChunkDeltaOptimiseMode.cpp */; };
+		4B008AF122819491A67F6702 /* CompactifyMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF04EE63AED091B86C73074C /* CompactifyMode.cpp */; };
+		173ED40811B48261660D1CDE /* DiffManifestMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2B6A1C92E59AD2B1658535C /* DiffManifestMode.cpp */; };
+		1DA3256FEDBDABD8F93EDAE4 /* EnumerationMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD8C80F1FD069BA2E71091F8 /* EnumerationMode.cpp */; };
+		2EC78A12C5DB36BEEA78EA6D /* MergeManifestMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F1273A96244E494DBBD1CA1 /* MergeManifestMode.cpp */; };
+		D9BC2D10BCB1750D122C4026 /* PackageChunksMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3398121E071BF934A21262EB /* PackageChunksMode.cpp */; };
+		92F240A22BFC1D71AAE83809 /* PatchGenerationMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD25023903DC5B62D14D75C9 /* PatchGenerationMode.cpp */; };
+		31C68CBFC3E7FFC759427DCA /* VerifyChunksMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70D2E1150FCF7B4B600870E2 /* VerifyChunksMode.cpp */; };
+		19C031C5B7FF19457C767065 /* BuildPatchTool.h in Sources */ = {isa = PBXBuildFile; fileRef = 705DADC3E971AF6BA837C830 /* BuildPatchTool.h */; };
+		FB465302D22A692856AAA603 /* ToolMode.h in Sources */ = {isa = PBXBuildFile; fileRef = B539105A29384DFA617BA4B1 /* ToolMode.h */; };
+		21B862EE59043AE1F701CA70 /* AutomationMode.h in Sources */ = {isa = PBXBuildFile; fileRef = AC1672520D480FC6B6AA0DAF /* AutomationMode.h */; };
+		6155426FE9CECE7FA1A1E11A /* ChunkDeltaOptimiseMode.h in Sources */ = {isa = PBXBuildFile; fileRef = C87ACF5170C40BB46F9FAD12 /* ChunkDeltaOptimiseMode.h */; };
+		C5FBEC196CDEFB76AAB28D03 /* CompactifyMode.h in Sources */ = {isa = PBXBuildFile; fileRef = C2CAF729324ACF0B34588A92 /* CompactifyMode.h */; };
+		78BE56F29F5840C1A72FAAEE /* DiffManifestMode.h in Sources */ = {isa = PBXBuildFile; fileRef = E2B512C2A66A6F15EDCC8EA5 /* DiffManifestMode.h */; };
+		CCE28224CFA2DD6D7059A1AE /* EnumerationMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 8808D75272CB5B922009477C /* EnumerationMode.h */; };
+		380C64CAE875A5AC2FB025BC /* MergeManifestMode.h in Sources */ = {isa = PBXBuildFile; fileRef = D51BF105513C7D8814643A9D /* MergeManifestMode.h */; };
+		931DA22170FB85C39A05ECC3 /* PackageChunksMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 3D1384FBB4F57ED8E31A7C56 /* PackageChunksMode.h */; };
+		D95640E38BBF68D3D2C736CB /* PatchGenerationMode.h in Sources */ = {isa = PBXBuildFile; fileRef = D2843B332A6122D02F2EC73E /* PatchGenerationMode.h */; };
+		B882D41FE562B978A04B4719 /* VerifyChunksMode.h in Sources */ = {isa = PBXBuildFile; fileRef = BAA238DB9C18F176DCB8292F /* VerifyChunksMode.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E87D4C4E1B48F3DAF214C2EC /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/BuildPatchTool/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		F0D6E59B1BA2BB062065C64A /* BuildPatchTool.Automation.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BuildPatchTool.Automation.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/BuildPatchTool.Automation.cs"; sourceTree = SOURCE_ROOT; };
+		E80F7BB8998AE3D983AD67E6 /* BuildPatchTool.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BuildPatchTool.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/BuildPatchTool.Build.cs"; sourceTree = SOURCE_ROOT; };
+		5873D72E80F5FC38B15BAE4B /* BuildPatchTool.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BuildPatchTool.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/BuildPatchTool.Target.cs"; sourceTree = SOURCE_ROOT; };
+		02EFE0B3973BCE937A92B30B /* BuildPatchTool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "BuildPatchTool.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/BuildPatchTool.cpp"; sourceTree = SOURCE_ROOT; };
+		2AD45BF16F12B3566363B6A9 /* ToolMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ToolMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolMode.cpp"; sourceTree = SOURCE_ROOT; };
+		7B57C6B2CB714035141888C2 /* AutomationMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AutomationMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/AutomationMode.cpp"; sourceTree = SOURCE_ROOT; };
+		AB7E5A02600C07D4407E7617 /* ChunkDeltaOptimiseMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ChunkDeltaOptimiseMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/ChunkDeltaOptimiseMode.cpp"; sourceTree = SOURCE_ROOT; };
+		AF04EE63AED091B86C73074C /* CompactifyMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CompactifyMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/CompactifyMode.cpp"; sourceTree = SOURCE_ROOT; };
+		D2B6A1C92E59AD2B1658535C /* DiffManifestMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DiffManifestMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/DiffManifestMode.cpp"; sourceTree = SOURCE_ROOT; };
+		AD8C80F1FD069BA2E71091F8 /* EnumerationMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EnumerationMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/EnumerationMode.cpp"; sourceTree = SOURCE_ROOT; };
+		8F1273A96244E494DBBD1CA1 /* MergeManifestMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MergeManifestMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/MergeManifestMode.cpp"; sourceTree = SOURCE_ROOT; };
+		3398121E071BF934A21262EB /* PackageChunksMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PackageChunksMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/PackageChunksMode.cpp"; sourceTree = SOURCE_ROOT; };
+		AD25023903DC5B62D14D75C9 /* PatchGenerationMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PatchGenerationMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/PatchGenerationMode.cpp"; sourceTree = SOURCE_ROOT; };
+		70D2E1150FCF7B4B600870E2 /* VerifyChunksMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "VerifyChunksMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/VerifyChunksMode.cpp"; sourceTree = SOURCE_ROOT; };
+		705DADC3E971AF6BA837C830 /* BuildPatchTool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "BuildPatchTool.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/BuildPatchTool.h"; sourceTree = SOURCE_ROOT; };
+		B539105A29384DFA617BA4B1 /* ToolMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ToolMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/Interfaces/ToolMode.h"; sourceTree = SOURCE_ROOT; };
+		AC1672520D480FC6B6AA0DAF /* AutomationMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AutomationMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/AutomationMode.h"; sourceTree = SOURCE_ROOT; };
+		C87ACF5170C40BB46F9FAD12 /* ChunkDeltaOptimiseMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ChunkDeltaOptimiseMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/ChunkDeltaOptimiseMode.h"; sourceTree = SOURCE_ROOT; };
+		C2CAF729324ACF0B34588A92 /* CompactifyMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CompactifyMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/CompactifyMode.h"; sourceTree = SOURCE_ROOT; };
+		E2B512C2A66A6F15EDCC8EA5 /* DiffManifestMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DiffManifestMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/DiffManifestMode.h"; sourceTree = SOURCE_ROOT; };
+		8808D75272CB5B922009477C /* EnumerationMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnumerationMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/EnumerationMode.h"; sourceTree = SOURCE_ROOT; };
+		D51BF105513C7D8814643A9D /* MergeManifestMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MergeManifestMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/MergeManifestMode.h"; sourceTree = SOURCE_ROOT; };
+		3D1384FBB4F57ED8E31A7C56 /* PackageChunksMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PackageChunksMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/PackageChunksMode.h"; sourceTree = SOURCE_ROOT; };
+		D2843B332A6122D02F2EC73E /* PatchGenerationMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PatchGenerationMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/PatchGenerationMode.h"; sourceTree = SOURCE_ROOT; };
+		BAA238DB9C18F176DCB8292F /* VerifyChunksMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "VerifyChunksMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/VerifyChunksMode.h"; sourceTree = SOURCE_ROOT; };
+		2F74AD05C239B9F9694E0AC7 /* BuildPatchTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = BuildPatchTool; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5405D1DB1E56B7EC36EE9B6 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607462BCDEE9ED499F91AB17 /* BuildPatchTool.cpp in Sources */,
+				27026D9582EDC639D6CCDAC8 /* ToolMode.cpp in Sources */,
+				AA2F4147DFD36CCDC15694DC /* AutomationMode.cpp in Sources */,
+				E0DC2468DF5DA7C44BC3EB53 /* ChunkDeltaOptimiseMode.cpp in Sources */,
+				4B008AF122819491A67F6702 /* CompactifyMode.cpp in Sources */,
+				173ED40811B48261660D1CDE /* DiffManifestMode.cpp in Sources */,
+				1DA3256FEDBDABD8F93EDAE4 /* EnumerationMode.cpp in Sources */,
+				2EC78A12C5DB36BEEA78EA6D /* MergeManifestMode.cpp in Sources */,
+				D9BC2D10BCB1750D122C4026 /* PackageChunksMode.cpp in Sources */,
+				92F240A22BFC1D71AAE83809 /* PatchGenerationMode.cpp in Sources */,
+				31C68CBFC3E7FFC759427DCA /* VerifyChunksMode.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	3C48A8B58CCE33D578843ECB /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		93C5F4F22C1DB95778E5BE5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 092E1A614A6D4DF2E431C20E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9386FD87C809774908BD4EDB;
+			remoteInfo = "BuildPatchTool_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		8238FFD04073BE903E33EB13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9386FD87C809774908BD4EDB /* BuildPatchTool_Build */;
+			targetProxy = 93C5F4F22C1DB95778E5BE5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		789430044A2FA4F3DA65FB4B = {
+			isa = PBXGroup;
+			children = (
+				080A666D7171613A187190CB /* Programs */,
+				2BD7B8F13B153D15E2497249 /* Source */,
+				D748FA4EDF6BC1EF6F8133FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		080A666D7171613A187190CB = {
+			isa = PBXGroup;
+			children = (
+				A2FDF1BDB0A17FD5590D1722 /* BuildPatchTool */,
+			);
+			name = "Programs";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs";
+			sourceTree = "<absolute>";
+		};
+		A2FDF1BDB0A17FD5590D1722 = {
+			isa = PBXGroup;
+			children = (
+				5CB74A907462EC0C1418D9B4 /* Config */,
+			);
+			name = "BuildPatchTool";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/BuildPatchTool";
+			sourceTree = "<absolute>";
+		};
+		5CB74A907462EC0C1418D9B4 = {
+			isa = PBXGroup;
+			children = (
+				E87D4C4E1B48F3DAF214C2EC /* DefaultEngine.ini */,
+			);
+			name = "Config";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/BuildPatchTool/Config";
+			sourceTree = "<absolute>";
+		};
+		2BD7B8F13B153D15E2497249 = {
+			isa = PBXGroup;
+			children = (
+				F0A9E4EB7FE5A7FBF34410BA /* Programs */,
+			);
+			name = "Source";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source";
+			sourceTree = "<absolute>";
+		};
+		F0A9E4EB7FE5A7FBF34410BA = {
+			isa = PBXGroup;
+			children = (
+				27D1C6B68583B68A233C91D8 /* BuildPatchTool */,
+			);
+			name = "Programs";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs";
+			sourceTree = "<absolute>";
+		};
+		27D1C6B68583B68A233C91D8 = {
+			isa = PBXGroup;
+			children = (
+				E88D9A43CF01401244009FCB /* Private */,
+				4F87905E92E825B3170B02F2 /* Public */,
+				F0D6E59B1BA2BB062065C64A /* BuildPatchTool.Automation.cs */,
+				E80F7BB8998AE3D983AD67E6 /* BuildPatchTool.Build.cs */,
+				5873D72E80F5FC38B15BAE4B /* BuildPatchTool.Target.cs */,
+			);
+			name = "BuildPatchTool";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool";
+			sourceTree = "<absolute>";
+		};
+		E88D9A43CF01401244009FCB = {
+			isa = PBXGroup;
+			children = (
+				7D018D2F70DDC1E7C7FECA6A /* ToolModes */,
+				02EFE0B3973BCE937A92B30B /* BuildPatchTool.cpp */,
+				2AD45BF16F12B3566363B6A9 /* ToolMode.cpp */,
+			);
+			name = "Private";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private";
+			sourceTree = "<absolute>";
+		};
+		7D018D2F70DDC1E7C7FECA6A = {
+			isa = PBXGroup;
+			children = (
+				7B57C6B2CB714035141888C2 /* AutomationMode.cpp */,
+				AB7E5A02600C07D4407E7617 /* ChunkDeltaOptimiseMode.cpp */,
+				AF04EE63AED091B86C73074C /* CompactifyMode.cpp */,
+				D2B6A1C92E59AD2B1658535C /* DiffManifestMode.cpp */,
+				AD8C80F1FD069BA2E71091F8 /* EnumerationMode.cpp */,
+				8F1273A96244E494DBBD1CA1 /* MergeManifestMode.cpp */,
+				3398121E071BF934A21262EB /* PackageChunksMode.cpp */,
+				AD25023903DC5B62D14D75C9 /* PatchGenerationMode.cpp */,
+				70D2E1150FCF7B4B600870E2 /* VerifyChunksMode.cpp */,
+			);
+			name = "ToolModes";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes";
+			sourceTree = "<absolute>";
+		};
+		4F87905E92E825B3170B02F2 = {
+			isa = PBXGroup;
+			children = (
+				4A642CF104FD752631FB3883 /* Interfaces */,
+				F68719467BAA11E9C22FF448 /* ToolModes */,
+				705DADC3E971AF6BA837C830 /* BuildPatchTool.h */,
+			);
+			name = "Public";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public";
+			sourceTree = "<absolute>";
+		};
+		4A642CF104FD752631FB3883 = {
+			isa = PBXGroup;
+			children = (
+				B539105A29384DFA617BA4B1 /* ToolMode.h */,
+			);
+			name = "Interfaces";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/Interfaces";
+			sourceTree = "<absolute>";
+		};
+		F68719467BAA11E9C22FF448 = {
+			isa = PBXGroup;
+			children = (
+				AC1672520D480FC6B6AA0DAF /* AutomationMode.h */,
+				C87ACF5170C40BB46F9FAD12 /* ChunkDeltaOptimiseMode.h */,
+				C2CAF729324ACF0B34588A92 /* CompactifyMode.h */,
+				E2B512C2A66A6F15EDCC8EA5 /* DiffManifestMode.h */,
+				8808D75272CB5B922009477C /* EnumerationMode.h */,
+				D51BF105513C7D8814643A9D /* MergeManifestMode.h */,
+				3D1384FBB4F57ED8E31A7C56 /* PackageChunksMode.h */,
+				D2843B332A6122D02F2EC73E /* PatchGenerationMode.h */,
+				BAA238DB9C18F176DCB8292F /* VerifyChunksMode.h */,
+			);
+			name = "ToolModes";
+			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes";
+			sourceTree = "<absolute>";
+		};
+		D748FA4EDF6BC1EF6F8133FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F74AD05C239B9F9694E0AC7 /* BuildPatchTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		9386FD87C809774908BD4EDB /* BuildPatchTool_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 265A308BDE07039D7AA0A1CB /* Build configuration list for PBXLegacyTarget "BuildPatchTool_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5";
+			dependencies = (
+			);
+			name = "BuildPatchTool_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "BuildPatchTool_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		91C8CA8D0092563DFA8699B5 /* BuildPatchTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF3D0E1A11A4D5DA9985F7B /* Build configuration list for PBXNativeTarget "BuildPatchTool" */;
+			buildPhases = (
+				3C48A8B58CCE33D578843ECB /* Embed App Extensions */, 
+				0ED21A90C87B3CF661355F0A /* Shell Script */, 
+			);
+			dependencies = (
+				8238FFD04073BE903E33EB13 /* PBXTargetDependency */,
+			);
+			name = "BuildPatchTool";
+			passBuildSettingsInEnvironment = 1;
+			productName = "BuildPatchTool";
+			productReference = "2F74AD05C239B9F9694E0AC7";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		C5B9CD0479F2A945BB2C5EA6 /* BuildPatchTool_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20318F6F6D75567126D1DE67 /* Build configuration list for PBXNativeTarget "BuildPatchTool_Index" */;
+			buildPhases = (
+				A5405D1DB1E56B7EC36EE9B6 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "BuildPatchTool_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "BuildPatchTool_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		092E1A614A6D4DF2E431C20E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					91C8CA8D0092563DFA8699B5 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 3B73CF16130920F9FC8A6AAC /* Build configuration list for PBXProject "BuildPatchTool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 789430044A2FA4F3DA65FB4B;
+			productRefGroup = D748FA4EDF6BC1EF6F8133FA;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			91C8CA8D0092563DFA8699B5 /* BuildPatchTool */,
+			9386FD87C809774908BD4EDB /* BuildPatchTool_Build */,
+			C5B9CD0479F2A945BB2C5EA6 /* BuildPatchTool_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		D18742F5FA7C87695E441196 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchServices/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchServices/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Online",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Online/BuildPatchServices/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/HTTP/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/HTTP/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/PakFile/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/PakFile/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/PakFile/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RSA/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RSA/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RSA/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/SandboxFile/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/SandboxFile/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SandboxFile/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetworkFile/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetworkFile/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public/UObject",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/NetworkFile/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/StreamingFile/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/StreamingFile/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/StreamingFile/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Sockets/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Sockets/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Sockets/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetCommon/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetCommon/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net/Common/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Messaging/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Messaging/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Messaging/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationWorker/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationWorker/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/AutomationWorker/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationController/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationController/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/AutomationController/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationTest/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationTest/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/AutomationTest/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchTool/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchTool/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		199BA903B33E093F78642B1E /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchServices/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchServices/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Online",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Online/BuildPatchServices/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/HTTP/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/HTTP/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/PakFile/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/PakFile/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/PakFile/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RSA/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RSA/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RSA/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/SandboxFile/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/SandboxFile/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SandboxFile/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetworkFile/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetworkFile/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public/UObject",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/NetworkFile/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/StreamingFile/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/StreamingFile/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/StreamingFile/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Sockets/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Sockets/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Sockets/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetCommon/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetCommon/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net/Common/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Messaging/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Messaging/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Messaging/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationWorker/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationWorker/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/AutomationWorker/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationController/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationController/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/AutomationController/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationTest/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationTest/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/AutomationTest/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchTool/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchTool/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		9D01DBB7D6A793BB8798812D /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Core/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Core/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/TraceLog/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/TraceLog/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchServices/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchServices/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Online",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Online/BuildPatchServices/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Projects/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Projects/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Projects/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Json/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Json/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Json/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/HTTP/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/HTTP/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/PakFile/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/PakFile/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/PakFile/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RSA/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RSA/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RSA/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/SandboxFile/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/SandboxFile/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/SandboxFile/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetworkFile/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetworkFile/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public/UObject",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/NetworkFile/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/StreamingFile/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/StreamingFile/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/StreamingFile/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Sockets/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Sockets/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Sockets/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetCommon/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetCommon/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net/Common/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/ApplicationCore/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/ApplicationCore/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RHI/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RHI/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/RHI/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Messaging/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Messaging/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Messaging/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationWorker/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationWorker/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/AutomationWorker/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationController/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationController/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/AutomationController/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationTest/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationTest/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/AutomationTest/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchTool/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchTool/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Launch/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		C30C62A04D5D812101920EDE /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "BuildPatchTool-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		C540376BEF09AD25285D1410 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "BuildPatchTool-Mac-Development";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		19DD193447E411CA11A2229D /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "BuildPatchTool";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		CADBB64731F25507E99DE405 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "BuildPatchTool";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		8285252B25441C460DFA2E95 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "BuildPatchTool";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		B6029183D0ECFDC54E698D23 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "BuildPatchTool";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		8C3DDBFCFCD56DCAC183CDBB /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "BuildPatchTool-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		495153AA94A58C2812BC37BB /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "BuildPatchTool-Mac-Development";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		6864706666720DB0D02591B6 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "BuildPatchTool";
+				CONFIGURATION_BUILD_DIR = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B73CF16130920F9FC8A6AAC /* Build configuration list for PBXProject "BuildPatchTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18742F5FA7C87695E441196 /* "Debug" */,
+				199BA903B33E093F78642B1E /* "Development" */,
+				9D01DBB7D6A793BB8798812D /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		265A308BDE07039D7AA0A1CB /* Build configuration list for PBXLegacyTarget "BuildPatchTool_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADBB64731F25507E99DE405 /* "Debug" */,
+				8285252B25441C460DFA2E95 /* "Development" */,
+				B6029183D0ECFDC54E698D23 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		7DF3D0E1A11A4D5DA9985F7B /* Build configuration list for PBXNativeTarget "BuildPatchTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30C62A04D5D812101920EDE /* "Debug" */,
+				C540376BEF09AD25285D1410 /* "Development" */,
+				19DD193447E411CA11A2229D /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		20318F6F6D75567126D1DE67 /* Build configuration list for PBXNativeTarget "BuildPatchTool_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3DDBFCFCD56DCAC183CDBB /* "Debug" */,
+				495153AA94A58C2812BC37BB /* "Development" */,
+				6864706666720DB0D02591B6 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 092E1A614A6D4DF2E431C20E /* Project object */;
+}
