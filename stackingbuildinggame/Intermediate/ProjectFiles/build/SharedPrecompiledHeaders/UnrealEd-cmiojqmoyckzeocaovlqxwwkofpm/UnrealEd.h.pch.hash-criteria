@@ -1,0 +1,35 @@
+-x
+objective-c++
+-target
+arm64-apple-macos10.15
+-std=c++14
+-fno-rtti
+-fno-sanitize=vptr
+-fpascal-strings
+-Os
+-D__INTELLISENSE__
+-DMONOLITHIC_BUILD=1
+-DOBJC_OLD_DISPATCH_PROTOTYPES=1
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+-g
+-iquote/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source
+-iquote/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty
+-iquote/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/OpenSSL/1.1.1n/include/Mac
+-iquote/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/DotNetPerforceLib/Inc/DotNetPerforceLib/UHT
+-iquote/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/DotNetPerforceLib/Inc/DotNetPerforceLib/VNI
+-iquote/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Shared
+-iquote/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/Perforce/p4api-2018.1/Include/Mac
+-iquote/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/DotNetPerforceLib/Inc/Core/UHT
+-iquote/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/DotNetPerforceLib/Inc/Core/VNI
+-iquote/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime
+-iquote/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public
+-iquote/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public
+-I/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac/include
+-I/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/ThirdParty/mimalloc/include
+-I/Users/chrisdouris/Desktop/Game_Projects/Game jams/Weekly Game Jam Skyscraper/Project/stackingbuildinggame/Intermediate/ProjectFiles/build/DotNetPerforceLib.build/Debug/DotNetPerforceLib_Index.build/DerivedSources-normal/arm64
+-F/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Binaries/Mac
+arm64-apple-darwin21.5.0
+"Apple LLVM 13.1.6 (clang-1316.0.21.2.5)"
+SDK_PRODUCT_BUILD_VERSION=21E226
+21E226
