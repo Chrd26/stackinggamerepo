@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>22</integer>
 		</dict>
+		<key>ReplicationSystemTest_Build.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>76</integer>
+		</dict>
+		<key>ReplicationSystemTest_Index.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>53</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C5D5555EEFD2D3C84F267856</key>
+		<key>4EB3B9B3705C9044871BA11A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -22,7 +32,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4EB3B9B3705C9044871BA11A</key>
+		<key>C5D5555EEFD2D3C84F267856</key>
 		<dict>
 			<key>primary</key>
 			<true/>

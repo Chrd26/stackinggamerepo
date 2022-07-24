@@ -7,53 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF7F3B45350982B1733A5968 /* CommandBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0698B6078C581CBC1BC63 /* CommandBase.cpp */; };
-		B3D6ABCFC7E86971F248EB52 /* CommandBase.h in Sources */ = {isa = PBXBuildFile; fileRef = 5E9499502E771CED8ECDD7AB /* CommandBase.h */; };
-		C299BB0789A6F41EC2D8915F /* RehydrateCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EB3EA8AD1E77606B5172CCB /* RehydrateCommand.cpp */; };
-		DF755353A5CFD4E6FE000C2D /* RehydrateCommand.h in Sources */ = {isa = PBXBuildFile; fileRef = 2D61E84B53CD90860339F17B /* RehydrateCommand.h */; };
-		305496520ECE3ACBF2C21431 /* ProjectFiles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A83CAF6D7AF090D9CD82249 /* ProjectFiles.cpp */; };
-		B1921FD8939810E6BB6E8895 /* ProjectFiles.h in Sources */ = {isa = PBXBuildFile; fileRef = D4CFAEAFDFD5D1D647F91467 /* ProjectFiles.h */; };
-		704842487960BA57314DA17B /* UnrealVirtualizationTool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF62375AB12D76BCFB352208 /* UnrealVirtualizationTool.cpp */; };
-		015A2DC6064C01B87EB7674B /* UnrealVirtualizationTool.h in Sources */ = {isa = PBXBuildFile; fileRef = 55C76D5BB33063872E32007D /* UnrealVirtualizationTool.h */; };
-		9D77241982576B3B263A471E /* UnrealVirtualizationToolApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32F350E44BE9FDF7FBEC04E9 /* UnrealVirtualizationToolApp.cpp */; };
-		C01A08CBD19ADACE59B0288F /* UnrealVirtualizationToolApp.h in Sources */ = {isa = PBXBuildFile; fileRef = 28E735274B2C251B804E28BF /* UnrealVirtualizationToolApp.h */; };
-		692AC4B8E96A21BD7D1AA1C4 /* UnrealVirtualizationTool.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 985C2B3EEB3B3E19F8826E56 /* UnrealVirtualizationTool.Build.cs */; };
+		B3D6ABCFC7E86971F248EB52 /* CommandBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E9499502E771CED8ECDD7AB /* CommandBase.cpp */; };
+		C299BB0789A6F41EC2D8915F /* CommandBase.h in Sources */ = {isa = PBXBuildFile; fileRef = 5EB3EA8AD1E77606B5172CCB /* CommandBase.h */; };
+		DF755353A5CFD4E6FE000C2D /* RehydrateCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D61E84B53CD90860339F17B /* RehydrateCommand.cpp */; };
+		8D921BA656D1F5AB6DF02813 /* RehydrateCommand.h in Sources */ = {isa = PBXBuildFile; fileRef = 53A078F203AA615DA6BC5D70 /* RehydrateCommand.h */; };
+		B1921FD8939810E6BB6E8895 /* ProjectFiles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4CFAEAFDFD5D1D647F91467 /* ProjectFiles.cpp */; };
+		704842487960BA57314DA17B /* ProjectFiles.h in Sources */ = {isa = PBXBuildFile; fileRef = AF62375AB12D76BCFB352208 /* ProjectFiles.h */; };
+		015A2DC6064C01B87EB7674B /* UnrealVirtualizationTool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55C76D5BB33063872E32007D /* UnrealVirtualizationTool.cpp */; };
+		9D77241982576B3B263A471E /* UnrealVirtualizationTool.h in Sources */ = {isa = PBXBuildFile; fileRef = 32F350E44BE9FDF7FBEC04E9 /* UnrealVirtualizationTool.h */; };
+		C01A08CBD19ADACE59B0288F /* UnrealVirtualizationToolApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28E735274B2C251B804E28BF /* UnrealVirtualizationToolApp.cpp */; };
+		DF7F3B45350982B1733A5968 /* UnrealVirtualizationToolApp.h in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0698B6078C581CBC1BC63 /* UnrealVirtualizationToolApp.h */; };
+		305496520ECE3ACBF2C21431 /* UnrealVirtualizationTool.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 2A83CAF6D7AF090D9CD82249 /* UnrealVirtualizationTool.Build.cs */; };
 		48100C750B70082B2AAA17D4 /* UnrealVirtualizationTool.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 39219D8F211207588C509195 /* UnrealVirtualizationTool.Target.cs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4FA0698B6078C581CBC1BC63 /* CommandBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CommandBase.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/Commands/CommandBase.cpp"; sourceTree = SOURCE_ROOT; };
-		5E9499502E771CED8ECDD7AB /* CommandBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CommandBase.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/Commands/CommandBase.h"; sourceTree = SOURCE_ROOT; };
-		5EB3EA8AD1E77606B5172CCB /* RehydrateCommand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "RehydrateCommand.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/Commands/RehydrateCommand.cpp"; sourceTree = SOURCE_ROOT; };
-		2D61E84B53CD90860339F17B /* RehydrateCommand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "RehydrateCommand.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/Commands/RehydrateCommand.h"; sourceTree = SOURCE_ROOT; };
-		2A83CAF6D7AF090D9CD82249 /* ProjectFiles.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ProjectFiles.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/ProjectFiles.cpp"; sourceTree = SOURCE_ROOT; };
-		D4CFAEAFDFD5D1D647F91467 /* ProjectFiles.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ProjectFiles.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/ProjectFiles.h"; sourceTree = SOURCE_ROOT; };
-		AF62375AB12D76BCFB352208 /* UnrealVirtualizationTool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealVirtualizationTool.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/UnrealVirtualizationTool.cpp"; sourceTree = SOURCE_ROOT; };
-		55C76D5BB33063872E32007D /* UnrealVirtualizationTool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealVirtualizationTool.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/UnrealVirtualizationTool.h"; sourceTree = SOURCE_ROOT; };
-		32F350E44BE9FDF7FBEC04E9 /* UnrealVirtualizationToolApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealVirtualizationToolApp.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/UnrealVirtualizationToolApp.cpp"; sourceTree = SOURCE_ROOT; };
-		28E735274B2C251B804E28BF /* UnrealVirtualizationToolApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealVirtualizationToolApp.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/UnrealVirtualizationToolApp.h"; sourceTree = SOURCE_ROOT; };
-		985C2B3EEB3B3E19F8826E56 /* UnrealVirtualizationTool.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealVirtualizationTool.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/UnrealVirtualizationTool.Build.cs"; sourceTree = SOURCE_ROOT; };
+		5E9499502E771CED8ECDD7AB /* CommandBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CommandBase.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/Commands/CommandBase.cpp"; sourceTree = SOURCE_ROOT; };
+		5EB3EA8AD1E77606B5172CCB /* CommandBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CommandBase.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/Commands/CommandBase.h"; sourceTree = SOURCE_ROOT; };
+		2D61E84B53CD90860339F17B /* RehydrateCommand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "RehydrateCommand.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/Commands/RehydrateCommand.cpp"; sourceTree = SOURCE_ROOT; };
+		53A078F203AA615DA6BC5D70 /* RehydrateCommand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "RehydrateCommand.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/Commands/RehydrateCommand.h"; sourceTree = SOURCE_ROOT; };
+		D4CFAEAFDFD5D1D647F91467 /* ProjectFiles.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ProjectFiles.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/ProjectFiles.cpp"; sourceTree = SOURCE_ROOT; };
+		AF62375AB12D76BCFB352208 /* ProjectFiles.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ProjectFiles.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/ProjectFiles.h"; sourceTree = SOURCE_ROOT; };
+		55C76D5BB33063872E32007D /* UnrealVirtualizationTool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealVirtualizationTool.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/UnrealVirtualizationTool.cpp"; sourceTree = SOURCE_ROOT; };
+		32F350E44BE9FDF7FBEC04E9 /* UnrealVirtualizationTool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealVirtualizationTool.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/UnrealVirtualizationTool.h"; sourceTree = SOURCE_ROOT; };
+		28E735274B2C251B804E28BF /* UnrealVirtualizationToolApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealVirtualizationToolApp.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/UnrealVirtualizationToolApp.cpp"; sourceTree = SOURCE_ROOT; };
+		4FA0698B6078C581CBC1BC63 /* UnrealVirtualizationToolApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealVirtualizationToolApp.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/UnrealVirtualizationToolApp.h"; sourceTree = SOURCE_ROOT; };
+		2A83CAF6D7AF090D9CD82249 /* UnrealVirtualizationTool.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealVirtualizationTool.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/UnrealVirtualizationTool.Build.cs"; sourceTree = SOURCE_ROOT; };
 		39219D8F211207588C509195 /* UnrealVirtualizationTool.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealVirtualizationTool.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/UnrealVirtualizationTool.Target.cs"; sourceTree = SOURCE_ROOT; };
-		E6D6F80AB4AC98F57BA016F5 /* UnrealVirtualizationTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = UnrealVirtualizationTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C03F169E4EC37853013353 /* UnrealVirtualizationTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = UnrealVirtualizationTool; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8AC067440CCA592DA82E64AF = {
+		38FFC0CC9F0044B4700E8633 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF7F3B45350982B1733A5968 /* CommandBase.cpp in Sources */,
-				C299BB0789A6F41EC2D8915F /* RehydrateCommand.cpp in Sources */,
-				305496520ECE3ACBF2C21431 /* ProjectFiles.cpp in Sources */,
-				704842487960BA57314DA17B /* UnrealVirtualizationTool.cpp in Sources */,
-				9D77241982576B3B263A471E /* UnrealVirtualizationToolApp.cpp in Sources */,
+				B3D6ABCFC7E86971F248EB52 /* CommandBase.cpp in Sources */,
+				DF755353A5CFD4E6FE000C2D /* RehydrateCommand.cpp in Sources */,
+				B1921FD8939810E6BB6E8895 /* ProjectFiles.cpp in Sources */,
+				015A2DC6064C01B87EB7674B /* UnrealVirtualizationTool.cpp in Sources */,
+				C01A08CBD19ADACE59B0288F /* UnrealVirtualizationToolApp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	828418F0D6C27C4FAF1BF3BE /* Embed App Extensions */ = {
+	328BD1005D599D9A68D6B316 /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -65,65 +65,65 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		957B44F7C982DF6A7EA40990 /* PBXContainerItemProxy */ = {
+		2FDB82634FFAD8429C1E59C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2FDB82634FFAD8429C1E59C5 /* Project object */;
+			containerPortal = AA5800E022C78EA92892C969 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 424DF8BF50CDFF3FBAE04328;
+			remoteGlobalIDString = FEA0775329AB479648E81024;
 			remoteInfo = "UnrealVirtualizationTool_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		C0269097B05E964AEC989ABE /* PBXTargetDependency */ = {
+		891F1AB0A4C9D60592CF42AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 424DF8BF50CDFF3FBAE04328 /* UnrealVirtualizationTool_Build */;
-			targetProxy = 957B44F7C982DF6A7EA40990 /* PBXContainerItemProxy */;
+			target = FEA0775329AB479648E81024 /* UnrealVirtualizationTool_Build */;
+			targetProxy = 2FDB82634FFAD8429C1E59C5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		FEA0775329AB479648E81024 = {
+		5AEE9402D728346FCCA89AB3 = {
 			isa = PBXGroup;
 			children = (
-				EF94E5F1EB8A96CA7D54588E /* Private */,
-				985C2B3EEB3B3E19F8826E56 /* UnrealVirtualizationTool.Build.cs */,
+				CE99BD6440680C4FA558BAAC /* Private */,
+				2A83CAF6D7AF090D9CD82249 /* UnrealVirtualizationTool.Build.cs */,
 				39219D8F211207588C509195 /* UnrealVirtualizationTool.Target.cs */,
-				22DFA46A7772DF6BC55478E4 /* Products */,
+				C9780BE1A0BB87EFBBAEADD3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EF94E5F1EB8A96CA7D54588E = {
+		CE99BD6440680C4FA558BAAC = {
 			isa = PBXGroup;
 			children = (
-				2FB3A39655DD60FCD3F896EB /* Commands */,
-				2A83CAF6D7AF090D9CD82249 /* ProjectFiles.cpp */,
-				D4CFAEAFDFD5D1D647F91467 /* ProjectFiles.h */,
-				AF62375AB12D76BCFB352208 /* UnrealVirtualizationTool.cpp */,
-				55C76D5BB33063872E32007D /* UnrealVirtualizationTool.h */,
-				32F350E44BE9FDF7FBEC04E9 /* UnrealVirtualizationToolApp.cpp */,
-				28E735274B2C251B804E28BF /* UnrealVirtualizationToolApp.h */,
+				FF969FFBEBD559834536340B /* Commands */,
+				D4CFAEAFDFD5D1D647F91467 /* ProjectFiles.cpp */,
+				AF62375AB12D76BCFB352208 /* ProjectFiles.h */,
+				55C76D5BB33063872E32007D /* UnrealVirtualizationTool.cpp */,
+				32F350E44BE9FDF7FBEC04E9 /* UnrealVirtualizationTool.h */,
+				28E735274B2C251B804E28BF /* UnrealVirtualizationToolApp.cpp */,
+				4FA0698B6078C581CBC1BC63 /* UnrealVirtualizationToolApp.h */,
 			);
 			name = "Private";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private";
 			sourceTree = "<absolute>";
 		};
-		2FB3A39655DD60FCD3F896EB = {
+		FF969FFBEBD559834536340B = {
 			isa = PBXGroup;
 			children = (
-				4FA0698B6078C581CBC1BC63 /* CommandBase.cpp */,
-				5E9499502E771CED8ECDD7AB /* CommandBase.h */,
-				5EB3EA8AD1E77606B5172CCB /* RehydrateCommand.cpp */,
-				2D61E84B53CD90860339F17B /* RehydrateCommand.h */,
+				5E9499502E771CED8ECDD7AB /* CommandBase.cpp */,
+				5EB3EA8AD1E77606B5172CCB /* CommandBase.h */,
+				2D61E84B53CD90860339F17B /* RehydrateCommand.cpp */,
+				53A078F203AA615DA6BC5D70 /* RehydrateCommand.h */,
 			);
 			name = "Commands";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealVirtualizationTool/Private/Commands";
 			sourceTree = "<absolute>";
 		};
-		22DFA46A7772DF6BC55478E4 /* Products */ = {
+		C9780BE1A0BB87EFBBAEADD3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E6D6F80AB4AC98F57BA016F5 /* UnrealVirtualizationTool */,
+				38C03F169E4EC37853013353 /* UnrealVirtualizationTool */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,10 +131,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		424DF8BF50CDFF3FBAE04328 /* UnrealVirtualizationTool_Build */ = {
+		FEA0775329AB479648E81024 /* UnrealVirtualizationTool_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = C7087DBC7318501C1D00B1DA /* Build configuration list for PBXLegacyTarget "UnrealVirtualizationTool_Build" */;
+			buildConfigurationList = 22DFA46A7772DF6BC55478E4 /* Build configuration list for PBXLegacyTarget "UnrealVirtualizationTool_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -148,30 +148,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		48FE6FD71CD3E4A81EE617EC /* UnrealVirtualizationTool */ = {
+		C7087DBC7318501C1D00B1DA /* UnrealVirtualizationTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8549ED8A30CFF463E5383CF /* Build configuration list for PBXNativeTarget "UnrealVirtualizationTool" */;
+			buildConfigurationList = 668B953F00A442F4654FB47B /* Build configuration list for PBXNativeTarget "UnrealVirtualizationTool" */;
 			buildPhases = (
-				828418F0D6C27C4FAF1BF3BE /* Embed App Extensions */, 
-				AA5800E022C78EA92892C969 /* Shell Script */, 
+				328BD1005D599D9A68D6B316 /* Embed App Extensions */, 
+				D79A53BF6EF836AB41C0CAD8 /* Shell Script */, 
 			);
 			dependencies = (
-				C0269097B05E964AEC989ABE /* PBXTargetDependency */,
+				891F1AB0A4C9D60592CF42AC /* PBXTargetDependency */,
 			);
 			name = "UnrealVirtualizationTool";
 			passBuildSettingsInEnvironment = 1;
 			productName = "UnrealVirtualizationTool";
-			productReference = "E6D6F80AB4AC98F57BA016F5";
+			productReference = "38C03F169E4EC37853013353";
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		668B953F00A442F4654FB47B /* UnrealVirtualizationTool_Index */ = {
+		8AC067440CCA592DA82E64AF /* UnrealVirtualizationTool_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 891F1AB0A4C9D60592CF42AC /* Build configuration list for PBXNativeTarget "UnrealVirtualizationTool_Index" */;
+			buildConfigurationList = 828418F0D6C27C4FAF1BF3BE /* Build configuration list for PBXNativeTarget "UnrealVirtualizationTool_Index" */;
 			buildPhases = (
-				8AC067440CCA592DA82E64AF /* Sources */,
+				38FFC0CC9F0044B4700E8633 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -183,38 +183,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2FDB82634FFAD8429C1E59C5 /* Project object */ = {
+		AA5800E022C78EA92892C969 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					48FE6FD71CD3E4A81EE617EC = {
+					C7087DBC7318501C1D00B1DA = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 38C03F169E4EC37853013353 /* Build configuration list for PBXProject "UnrealVirtualizationTool" */;
+			buildConfigurationList = 43028A7D8FE27BF37AF5E7F2 /* Build configuration list for PBXProject "UnrealVirtualizationTool" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = FEA0775329AB479648E81024;
-			productRefGroup = 22DFA46A7772DF6BC55478E4;
+			mainGroup = 5AEE9402D728346FCCA89AB3;
+			productRefGroup = C9780BE1A0BB87EFBBAEADD3;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			48FE6FD71CD3E4A81EE617EC /* UnrealVirtualizationTool */,
-			424DF8BF50CDFF3FBAE04328 /* UnrealVirtualizationTool_Build */,
-			668B953F00A442F4654FB47B /* UnrealVirtualizationTool_Index */,
+			C7087DBC7318501C1D00B1DA /* UnrealVirtualizationTool */,
+			FEA0775329AB479648E81024 /* UnrealVirtualizationTool_Build */,
+			8AC067440CCA592DA82E64AF /* UnrealVirtualizationTool_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		43028A7D8FE27BF37AF5E7F2 /* "Debug" */ = {
+		6768CFCB64E542BBF1D7AE15 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -286,7 +286,7 @@
 			};
 			name = "Debug";
 		};
-		328BD1005D599D9A68D6B316 /* "DebugGame" */ = {
+		66D4992E55688DBC72CB1EE0 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -357,7 +357,7 @@
 			};
 			name = "DebugGame";
 		};
-		AD844678D8DBF271C0F898F5 /* "Development" */ = {
+		160E1BAFE9E4F9C9FC59526D /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -428,7 +428,7 @@
 			};
 			name = "Development";
 		};
-		DCE7CD5285F5186FAF5F1204 /* "Test" */ = {
+		A4050B0325A5113839FA8FEC /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -499,7 +499,7 @@
 			};
 			name = "Test";
 		};
-		20FC851118198C8602043C77 /* "Shipping" */ = {
+		97251AA4432631E561C2DBBF /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -570,7 +570,7 @@
 			};
 			name = "Shipping";
 		};
-		5AEE9402D728346FCCA89AB3 /* "Debug" */ = {
+		E986926211126B614BAAF504 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -587,7 +587,7 @@
 			};
 			name = "Debug";
 		};
-		D79A53BF6EF836AB41C0CAD8 /* "DebugGame" */ = {
+		9ECAE216E43C54F1ED9CD83F /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -604,7 +604,7 @@
 			};
 			name = "DebugGame";
 		};
-		89D1368393F82400EC3DD5E7 /* "Development" */ = {
+		9A3A377DB2AF303FB7DED421 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -621,7 +621,7 @@
 			};
 			name = "Development";
 		};
-		41C31C586BDB83BEB356E4C9 /* "Test" */ = {
+		5EE7B0E2CDCC6B96FEBFA349 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -638,7 +638,7 @@
 			};
 			name = "Test";
 		};
-		D96986CA664808E770AEBD30 /* "Shipping" */ = {
+		CCA2624C4A1DAD097A9DD544 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -655,7 +655,7 @@
 			};
 			name = "Shipping";
 		};
-		C9780BE1A0BB87EFBBAEADD3 /* "Debug" */ = {
+		AD844678D8DBF271C0F898F5 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -668,7 +668,7 @@
 			};
 			name = "Debug";
 		};
-		6768CFCB64E542BBF1D7AE15 /* "DebugGame" */ = {
+		DCE7CD5285F5186FAF5F1204 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -681,7 +681,7 @@
 			};
 			name = "DebugGame";
 		};
-		66D4992E55688DBC72CB1EE0 /* "Development" */ = {
+		20FC851118198C8602043C77 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -694,7 +694,7 @@
 			};
 			name = "Development";
 		};
-		160E1BAFE9E4F9C9FC59526D /* "Test" */ = {
+		2866D86FD6EDB0713F556D13 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -707,7 +707,7 @@
 			};
 			name = "Test";
 		};
-		A4050B0325A5113839FA8FEC /* "Shipping" */ = {
+		6B0DA4FA81C46F8FF959D7B0 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -720,7 +720,7 @@
 			};
 			name = "Shipping";
 		};
-		38FFC0CC9F0044B4700E8633 /* "Debug" */ = {
+		89D1368393F82400EC3DD5E7 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -737,7 +737,7 @@
 			};
 			name = "Debug";
 		};
-		E986926211126B614BAAF504 /* "DebugGame" */ = {
+		41C31C586BDB83BEB356E4C9 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -754,7 +754,7 @@
 			};
 			name = "DebugGame";
 		};
-		9ECAE216E43C54F1ED9CD83F /* "Development" */ = {
+		D96986CA664808E770AEBD30 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -771,7 +771,7 @@
 			};
 			name = "Development";
 		};
-		9A3A377DB2AF303FB7DED421 /* "Test" */ = {
+		0D88605DF2043EDFD9996C7E /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -788,7 +788,7 @@
 			};
 			name = "Test";
 		};
-		5EE7B0E2CDCC6B96FEBFA349 /* "Shipping" */ = {
+		D20B2E182388B14BADA1904F /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -808,55 +808,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		38C03F169E4EC37853013353 /* Build configuration list for PBXProject "UnrealVirtualizationTool" */ = {
+		43028A7D8FE27BF37AF5E7F2 /* Build configuration list for PBXProject "UnrealVirtualizationTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43028A7D8FE27BF37AF5E7F2 /* "Debug" */,
-				328BD1005D599D9A68D6B316 /* "DebugGame" */,
-				AD844678D8DBF271C0F898F5 /* "Development" */,
-				DCE7CD5285F5186FAF5F1204 /* "Test" */,
-				20FC851118198C8602043C77 /* "Shipping" */,
+				6768CFCB64E542BBF1D7AE15 /* "Debug" */,
+				66D4992E55688DBC72CB1EE0 /* "DebugGame" */,
+				160E1BAFE9E4F9C9FC59526D /* "Development" */,
+				A4050B0325A5113839FA8FEC /* "Test" */,
+				97251AA4432631E561C2DBBF /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		C7087DBC7318501C1D00B1DA /* Build configuration list for PBXLegacyTarget "UnrealVirtualizationTool_Build" */ = {
+		22DFA46A7772DF6BC55478E4 /* Build configuration list for PBXLegacyTarget "UnrealVirtualizationTool_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9780BE1A0BB87EFBBAEADD3 /* "Debug" */,
-				6768CFCB64E542BBF1D7AE15 /* "DebugGame" */,
-				66D4992E55688DBC72CB1EE0 /* "Development" */,
-				160E1BAFE9E4F9C9FC59526D /* "Test" */,
-				A4050B0325A5113839FA8FEC /* "Shipping" */,
+				AD844678D8DBF271C0F898F5 /* "Debug" */,
+				DCE7CD5285F5186FAF5F1204 /* "DebugGame" */,
+				20FC851118198C8602043C77 /* "Development" */,
+				2866D86FD6EDB0713F556D13 /* "Test" */,
+				6B0DA4FA81C46F8FF959D7B0 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		D8549ED8A30CFF463E5383CF /* Build configuration list for PBXNativeTarget "UnrealVirtualizationTool" */ = {
+		668B953F00A442F4654FB47B /* Build configuration list for PBXNativeTarget "UnrealVirtualizationTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AEE9402D728346FCCA89AB3 /* "Debug" */,
-				D79A53BF6EF836AB41C0CAD8 /* "DebugGame" */,
-				89D1368393F82400EC3DD5E7 /* "Development" */,
-				41C31C586BDB83BEB356E4C9 /* "Test" */,
-				D96986CA664808E770AEBD30 /* "Shipping" */,
+				E986926211126B614BAAF504 /* "Debug" */,
+				9ECAE216E43C54F1ED9CD83F /* "DebugGame" */,
+				9A3A377DB2AF303FB7DED421 /* "Development" */,
+				5EE7B0E2CDCC6B96FEBFA349 /* "Test" */,
+				CCA2624C4A1DAD097A9DD544 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		891F1AB0A4C9D60592CF42AC /* Build configuration list for PBXNativeTarget "UnrealVirtualizationTool_Index" */ = {
+		828418F0D6C27C4FAF1BF3BE /* Build configuration list for PBXNativeTarget "UnrealVirtualizationTool_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38FFC0CC9F0044B4700E8633 /* "Debug" */,
-				E986926211126B614BAAF504 /* "DebugGame" */,
-				9ECAE216E43C54F1ED9CD83F /* "Development" */,
-				9A3A377DB2AF303FB7DED421 /* "Test" */,
-				5EE7B0E2CDCC6B96FEBFA349 /* "Shipping" */,
+				89D1368393F82400EC3DD5E7 /* "Debug" */,
+				41C31C586BDB83BEB356E4C9 /* "DebugGame" */,
+				D96986CA664808E770AEBD30 /* "Development" */,
+				0D88605DF2043EDFD9996C7E /* "Test" */,
+				D20B2E182388B14BADA1904F /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2FDB82634FFAD8429C1E59C5 /* Project object */;
+	rootObject = AA5800E022C78EA92892C969 /* Project object */;
 }

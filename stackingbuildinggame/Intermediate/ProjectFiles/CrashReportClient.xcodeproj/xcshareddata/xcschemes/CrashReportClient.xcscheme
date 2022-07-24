@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1270738C6377138BCDFED68F"
+               BlueprintIdentifier = "6CEE3CD055F1D0BD6F6BD456"
                BuildableName = "CrashReportClient-Mac-Development.app"
                BlueprintName = "CrashReportClient"
                ReferencedContainer = "container:CrashReportClient.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1270738C6377138BCDFED68F"
+            BlueprintIdentifier = "6CEE3CD055F1D0BD6F6BD456"
             BuildableName = "CrashReportClient-Mac-Development.app"
             BlueprintName = "CrashReportClient"
             ReferencedContainer = "container:CrashReportClient.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1270738C6377138BCDFED68F"
+            BlueprintIdentifier = "6CEE3CD055F1D0BD6F6BD456"
             BuildableName = "CrashReportClient-Mac-Development.app"
             BlueprintName = "CrashReportClient"
             ReferencedContainer = "container:CrashReportClient.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1270738C6377138BCDFED68F"
+            BlueprintIdentifier = "6CEE3CD055F1D0BD6F6BD456"
             BuildableName = "CrashReportClient-Mac-Development.app"
             BlueprintName = "CrashReportClient"
             ReferencedContainer = "container:CrashReportClient.xcodeproj">

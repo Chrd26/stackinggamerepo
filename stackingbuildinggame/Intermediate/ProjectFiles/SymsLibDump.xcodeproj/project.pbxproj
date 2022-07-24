@@ -7,33 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		040CCF5BB7F5A9C5C182F773 /* SymsLibDump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E50529D681854D90845637CD /* SymsLibDump.cpp */; };
-		8F17378BB9F0F1EB86FEEE05 /* SymsLibDumpLog.h in Sources */ = {isa = PBXBuildFile; fileRef = B39C7417A14DD26DB94FFCA9 /* SymsLibDumpLog.h */; };
-		12573BF21182F82B0D4B1294 /* SymsLibDump.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = F0B1C2E2AF93925F8A27D13D /* SymsLibDump.Build.cs */; };
+		8F17378BB9F0F1EB86FEEE05 /* SymsLibDump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B39C7417A14DD26DB94FFCA9 /* SymsLibDump.cpp */; };
+		6ABCDE05D940B8ADD501CB9F /* SymsLibDumpLog.h in Sources */ = {isa = PBXBuildFile; fileRef = BE1D0CD1910BEDE7172422E4 /* SymsLibDumpLog.h */; };
+		040CCF5BB7F5A9C5C182F773 /* SymsLibDump.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = E50529D681854D90845637CD /* SymsLibDump.Build.cs */; };
 		74463447C80C84F733E3FA0A /* SymsLibDump.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF435BBD8661095C2492C2 /* SymsLibDump.Target.cs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E50529D681854D90845637CD /* SymsLibDump.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SymsLibDump.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SymsLibDump/Private/SymsLibDump.cpp"; sourceTree = SOURCE_ROOT; };
-		B39C7417A14DD26DB94FFCA9 /* SymsLibDumpLog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SymsLibDumpLog.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SymsLibDump/Private/SymsLibDumpLog.h"; sourceTree = SOURCE_ROOT; };
-		F0B1C2E2AF93925F8A27D13D /* SymsLibDump.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SymsLibDump.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SymsLibDump/SymsLibDump.Build.cs"; sourceTree = SOURCE_ROOT; };
+		B39C7417A14DD26DB94FFCA9 /* SymsLibDump.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SymsLibDump.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SymsLibDump/Private/SymsLibDump.cpp"; sourceTree = SOURCE_ROOT; };
+		BE1D0CD1910BEDE7172422E4 /* SymsLibDumpLog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SymsLibDumpLog.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SymsLibDump/Private/SymsLibDumpLog.h"; sourceTree = SOURCE_ROOT; };
+		E50529D681854D90845637CD /* SymsLibDump.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SymsLibDump.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SymsLibDump/SymsLibDump.Build.cs"; sourceTree = SOURCE_ROOT; };
 		6FBF435BBD8661095C2492C2 /* SymsLibDump.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SymsLibDump.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SymsLibDump/SymsLibDump.Target.cs"; sourceTree = SOURCE_ROOT; };
-		FE2DFB4C65500BE04BCB6D74 /* SymsLibDump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SymsLibDump; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FEEDEBE3045752BDDE47C05 /* SymsLibDump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SymsLibDump; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B71AC996D401DF342EAEF41D = {
+		7BB79368DD8C6ED1213543B1 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040CCF5BB7F5A9C5C182F773 /* SymsLibDump.cpp in Sources */,
+				8F17378BB9F0F1EB86FEEE05 /* SymsLibDump.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	F289627DDB012E2991C6CE55 /* Embed App Extensions */ = {
+	966EECCD37018340F704E016 /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -45,48 +45,48 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		D8A868D8C3E928963393373C /* PBXContainerItemProxy */ = {
+		18ABB3FA4418334BFA835BA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 18ABB3FA4418334BFA835BA6 /* Project object */;
+			containerPortal = 7C526B5F8C1C396265E6F2CF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0E7006004CD264A1620551B1;
+			remoteGlobalIDString = 062626AAE97CA75A78755D17;
 			remoteInfo = "SymsLibDump_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		E778FE75B09FF197C6CE8420 /* PBXTargetDependency */ = {
+		E3274A602E96D9F9DB4A2DBD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0E7006004CD264A1620551B1 /* SymsLibDump_Build */;
-			targetProxy = D8A868D8C3E928963393373C /* PBXContainerItemProxy */;
+			target = 062626AAE97CA75A78755D17 /* SymsLibDump_Build */;
+			targetProxy = 18ABB3FA4418334BFA835BA6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		062626AAE97CA75A78755D17 = {
+		1CDA85CA7597AEF14C731981 = {
 			isa = PBXGroup;
 			children = (
-				2A49D0D4683DF9559C8FDC0F /* Private */,
-				F0B1C2E2AF93925F8A27D13D /* SymsLibDump.Build.cs */,
+				2D8C99DCF86C84F7C3D61F83 /* Private */,
+				E50529D681854D90845637CD /* SymsLibDump.Build.cs */,
 				6FBF435BBD8661095C2492C2 /* SymsLibDump.Target.cs */,
-				F0DAC823BF7E5860CCA4C140 /* Products */,
+				957FA8127591B80C9693C9C9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2A49D0D4683DF9559C8FDC0F = {
+		2D8C99DCF86C84F7C3D61F83 = {
 			isa = PBXGroup;
 			children = (
-				E50529D681854D90845637CD /* SymsLibDump.cpp */,
-				B39C7417A14DD26DB94FFCA9 /* SymsLibDumpLog.h */,
+				B39C7417A14DD26DB94FFCA9 /* SymsLibDump.cpp */,
+				BE1D0CD1910BEDE7172422E4 /* SymsLibDumpLog.h */,
 			);
 			name = "Private";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SymsLibDump/Private";
 			sourceTree = "<absolute>";
 		};
-		F0DAC823BF7E5860CCA4C140 /* Products */ = {
+		957FA8127591B80C9693C9C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE2DFB4C65500BE04BCB6D74 /* SymsLibDump */,
+				9FEEDEBE3045752BDDE47C05 /* SymsLibDump */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,10 +94,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		0E7006004CD264A1620551B1 /* SymsLibDump_Build */ = {
+		062626AAE97CA75A78755D17 /* SymsLibDump_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 1EA8375F2C50875440C27683 /* Build configuration list for PBXLegacyTarget "SymsLibDump_Build" */;
+			buildConfigurationList = F0DAC823BF7E5860CCA4C140 /* Build configuration list for PBXLegacyTarget "SymsLibDump_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -111,30 +111,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		35328654EC0DE6B6A03D6A2A /* SymsLibDump */ = {
+		1EA8375F2C50875440C27683 /* SymsLibDump */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FE7252A5A8680FB4955E7BA /* Build configuration list for PBXNativeTarget "SymsLibDump" */;
+			buildConfigurationList = A4A53276C3A4D50C3BF3CA52 /* Build configuration list for PBXNativeTarget "SymsLibDump" */;
 			buildPhases = (
-				F289627DDB012E2991C6CE55 /* Embed App Extensions */, 
-				7C526B5F8C1C396265E6F2CF /* Shell Script */, 
+				966EECCD37018340F704E016 /* Embed App Extensions */, 
+				80D5CC55F324A08911BC4FBE /* Shell Script */, 
 			);
 			dependencies = (
-				E778FE75B09FF197C6CE8420 /* PBXTargetDependency */,
+				E3274A602E96D9F9DB4A2DBD /* PBXTargetDependency */,
 			);
 			name = "SymsLibDump";
 			passBuildSettingsInEnvironment = 1;
 			productName = "SymsLibDump";
-			productReference = "FE2DFB4C65500BE04BCB6D74";
+			productReference = "9FEEDEBE3045752BDDE47C05";
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		A4A53276C3A4D50C3BF3CA52 /* SymsLibDump_Index */ = {
+		B71AC996D401DF342EAEF41D /* SymsLibDump_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3274A602E96D9F9DB4A2DBD /* Build configuration list for PBXNativeTarget "SymsLibDump_Index" */;
+			buildConfigurationList = F289627DDB012E2991C6CE55 /* Build configuration list for PBXNativeTarget "SymsLibDump_Index" */;
 			buildPhases = (
-				B71AC996D401DF342EAEF41D /* Sources */,
+				7BB79368DD8C6ED1213543B1 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -146,38 +146,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18ABB3FA4418334BFA835BA6 /* Project object */ = {
+		7C526B5F8C1C396265E6F2CF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					35328654EC0DE6B6A03D6A2A = {
+					1EA8375F2C50875440C27683 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 9FEEDEBE3045752BDDE47C05 /* Build configuration list for PBXProject "SymsLibDump" */;
+			buildConfigurationList = B31186769628E841E6AB3036 /* Build configuration list for PBXProject "SymsLibDump" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 062626AAE97CA75A78755D17;
-			productRefGroup = F0DAC823BF7E5860CCA4C140;
+			mainGroup = 1CDA85CA7597AEF14C731981;
+			productRefGroup = 957FA8127591B80C9693C9C9;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			35328654EC0DE6B6A03D6A2A /* SymsLibDump */,
-			0E7006004CD264A1620551B1 /* SymsLibDump_Build */,
-			A4A53276C3A4D50C3BF3CA52 /* SymsLibDump_Index */,
+			1EA8375F2C50875440C27683 /* SymsLibDump */,
+			062626AAE97CA75A78755D17 /* SymsLibDump_Build */,
+			B71AC996D401DF342EAEF41D /* SymsLibDump_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		B31186769628E841E6AB3036 /* "Debug" */ = {
+		044513BF05485F603CF67C07 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -227,7 +227,7 @@
 			};
 			name = "Debug";
 		};
-		966EECCD37018340F704E016 /* "DebugGame" */ = {
+		4F0B7887EAD8E7875D0BFEEB /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -276,7 +276,7 @@
 			};
 			name = "DebugGame";
 		};
-		C019DEFD94B9A0DA1F2DC9F1 /* "Development" */ = {
+		B35633B8DC37E86B642C39C9 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -325,7 +325,7 @@
 			};
 			name = "Development";
 		};
-		4E21D256A35EAEFB69D5AE88 /* "Test" */ = {
+		5E9484C2CDB08E7014F6063B /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -374,7 +374,7 @@
 			};
 			name = "Test";
 		};
-		B1A131DD4EC587FEDC90A24C /* "Shipping" */ = {
+		25846FA33ACDC5C7BF1EDE7D /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -423,7 +423,7 @@
 			};
 			name = "Shipping";
 		};
-		1CDA85CA7597AEF14C731981 /* "Debug" */ = {
+		A5EAD4941089D177D67CE808 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -440,7 +440,7 @@
 			};
 			name = "Debug";
 		};
-		80D5CC55F324A08911BC4FBE /* "DebugGame" */ = {
+		6A62CC8256A1E87720E3A74C /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -457,7 +457,7 @@
 			};
 			name = "DebugGame";
 		};
-		EDC33BAFA480D98A59C4AF08 /* "Development" */ = {
+		0591E4FF5D028194B343413D /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -474,7 +474,7 @@
 			};
 			name = "Development";
 		};
-		4118EF46454294E2C54F4542 /* "Test" */ = {
+		060B1D9FA53AEC74EF97D566 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -491,7 +491,7 @@
 			};
 			name = "Test";
 		};
-		2AF61F31EC422414DE2641B4 /* "Shipping" */ = {
+		081E51E7977BDB888C625FE0 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -508,7 +508,7 @@
 			};
 			name = "Shipping";
 		};
-		957FA8127591B80C9693C9C9 /* "Debug" */ = {
+		C019DEFD94B9A0DA1F2DC9F1 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -521,7 +521,7 @@
 			};
 			name = "Debug";
 		};
-		044513BF05485F603CF67C07 /* "DebugGame" */ = {
+		4E21D256A35EAEFB69D5AE88 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -534,7 +534,7 @@
 			};
 			name = "DebugGame";
 		};
-		4F0B7887EAD8E7875D0BFEEB /* "Development" */ = {
+		B1A131DD4EC587FEDC90A24C /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -547,7 +547,7 @@
 			};
 			name = "Development";
 		};
-		B35633B8DC37E86B642C39C9 /* "Test" */ = {
+		E350A8701F2D5F8A5F7D7EBA /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -560,7 +560,7 @@
 			};
 			name = "Test";
 		};
-		5E9484C2CDB08E7014F6063B /* "Shipping" */ = {
+		09C072BD5FA176FF24C64A9A /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -573,7 +573,7 @@
 			};
 			name = "Shipping";
 		};
-		7BB79368DD8C6ED1213543B1 /* "Debug" */ = {
+		EDC33BAFA480D98A59C4AF08 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -590,7 +590,7 @@
 			};
 			name = "Debug";
 		};
-		A5EAD4941089D177D67CE808 /* "DebugGame" */ = {
+		4118EF46454294E2C54F4542 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -607,7 +607,7 @@
 			};
 			name = "DebugGame";
 		};
-		6A62CC8256A1E87720E3A74C /* "Development" */ = {
+		2AF61F31EC422414DE2641B4 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -624,7 +624,7 @@
 			};
 			name = "Development";
 		};
-		0591E4FF5D028194B343413D /* "Test" */ = {
+		40C5312C01313733EFE32BE1 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -641,7 +641,7 @@
 			};
 			name = "Test";
 		};
-		060B1D9FA53AEC74EF97D566 /* "Shipping" */ = {
+		BEBB5092B8B7FA22E6B423E3 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -661,55 +661,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9FEEDEBE3045752BDDE47C05 /* Build configuration list for PBXProject "SymsLibDump" */ = {
+		B31186769628E841E6AB3036 /* Build configuration list for PBXProject "SymsLibDump" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B31186769628E841E6AB3036 /* "Debug" */,
-				966EECCD37018340F704E016 /* "DebugGame" */,
-				C019DEFD94B9A0DA1F2DC9F1 /* "Development" */,
-				4E21D256A35EAEFB69D5AE88 /* "Test" */,
-				B1A131DD4EC587FEDC90A24C /* "Shipping" */,
+				044513BF05485F603CF67C07 /* "Debug" */,
+				4F0B7887EAD8E7875D0BFEEB /* "DebugGame" */,
+				B35633B8DC37E86B642C39C9 /* "Development" */,
+				5E9484C2CDB08E7014F6063B /* "Test" */,
+				25846FA33ACDC5C7BF1EDE7D /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		1EA8375F2C50875440C27683 /* Build configuration list for PBXLegacyTarget "SymsLibDump_Build" */ = {
+		F0DAC823BF7E5860CCA4C140 /* Build configuration list for PBXLegacyTarget "SymsLibDump_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				957FA8127591B80C9693C9C9 /* "Debug" */,
-				044513BF05485F603CF67C07 /* "DebugGame" */,
-				4F0B7887EAD8E7875D0BFEEB /* "Development" */,
-				B35633B8DC37E86B642C39C9 /* "Test" */,
-				5E9484C2CDB08E7014F6063B /* "Shipping" */,
+				C019DEFD94B9A0DA1F2DC9F1 /* "Debug" */,
+				4E21D256A35EAEFB69D5AE88 /* "DebugGame" */,
+				B1A131DD4EC587FEDC90A24C /* "Development" */,
+				E350A8701F2D5F8A5F7D7EBA /* "Test" */,
+				09C072BD5FA176FF24C64A9A /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		6FE7252A5A8680FB4955E7BA /* Build configuration list for PBXNativeTarget "SymsLibDump" */ = {
+		A4A53276C3A4D50C3BF3CA52 /* Build configuration list for PBXNativeTarget "SymsLibDump" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CDA85CA7597AEF14C731981 /* "Debug" */,
-				80D5CC55F324A08911BC4FBE /* "DebugGame" */,
-				EDC33BAFA480D98A59C4AF08 /* "Development" */,
-				4118EF46454294E2C54F4542 /* "Test" */,
-				2AF61F31EC422414DE2641B4 /* "Shipping" */,
+				A5EAD4941089D177D67CE808 /* "Debug" */,
+				6A62CC8256A1E87720E3A74C /* "DebugGame" */,
+				0591E4FF5D028194B343413D /* "Development" */,
+				060B1D9FA53AEC74EF97D566 /* "Test" */,
+				081E51E7977BDB888C625FE0 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		E3274A602E96D9F9DB4A2DBD /* Build configuration list for PBXNativeTarget "SymsLibDump_Index" */ = {
+		F289627DDB012E2991C6CE55 /* Build configuration list for PBXNativeTarget "SymsLibDump_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7BB79368DD8C6ED1213543B1 /* "Debug" */,
-				A5EAD4941089D177D67CE808 /* "DebugGame" */,
-				6A62CC8256A1E87720E3A74C /* "Development" */,
-				0591E4FF5D028194B343413D /* "Test" */,
-				060B1D9FA53AEC74EF97D566 /* "Shipping" */,
+				EDC33BAFA480D98A59C4AF08 /* "Debug" */,
+				4118EF46454294E2C54F4542 /* "DebugGame" */,
+				2AF61F31EC422414DE2641B4 /* "Development" */,
+				40C5312C01313733EFE32BE1 /* "Test" */,
+				BEBB5092B8B7FA22E6B423E3 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 18ABB3FA4418334BFA835BA6 /* Project object */;
+	rootObject = 7C526B5F8C1C396265E6F2CF /* Project object */;
 }

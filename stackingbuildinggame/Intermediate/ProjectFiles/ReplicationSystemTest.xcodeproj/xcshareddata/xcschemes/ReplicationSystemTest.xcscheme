@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C5D5555EEFD2D3C84F267856"
+               BlueprintIdentifier = "2BBFC4FAC67581B7F9BA590C"
                BuildableName = "ReplicationSystemTest"
                BlueprintName = "ReplicationSystemTest"
                ReferencedContainer = "container:ReplicationSystemTest.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C5D5555EEFD2D3C84F267856"
+            BlueprintIdentifier = "2BBFC4FAC67581B7F9BA590C"
             BuildableName = "ReplicationSystemTest"
             BlueprintName = "ReplicationSystemTest"
             ReferencedContainer = "container:ReplicationSystemTest.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C5D5555EEFD2D3C84F267856"
+            BlueprintIdentifier = "2BBFC4FAC67581B7F9BA590C"
             BuildableName = "ReplicationSystemTest"
             BlueprintName = "ReplicationSystemTest"
             ReferencedContainer = "container:ReplicationSystemTest.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C5D5555EEFD2D3C84F267856"
+            BlueprintIdentifier = "2BBFC4FAC67581B7F9BA590C"
             BuildableName = "ReplicationSystemTest"
             BlueprintName = "ReplicationSystemTest"
             ReferencedContainer = "container:ReplicationSystemTest.xcodeproj">

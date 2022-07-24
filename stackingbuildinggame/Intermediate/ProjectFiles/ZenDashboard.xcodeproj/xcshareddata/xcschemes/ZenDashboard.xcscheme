@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4889FDB38A6380CE52298E21"
+               BlueprintIdentifier = "7E89F7200230590B29B66A6E"
                BuildableName = "ZenDashboard.app"
                BlueprintName = "ZenDashboard"
                ReferencedContainer = "container:ZenDashboard.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4889FDB38A6380CE52298E21"
+               BlueprintIdentifier = "7E89F7200230590B29B66A6E"
                BuildableName = "ZenDashboard.app"
                BlueprintName = "ZenDashboard"
                ReferencedContainer = "container:ZenDashboard.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4889FDB38A6380CE52298E21"
+               BlueprintIdentifier = "7E89F7200230590B29B66A6E"
                BuildableName = "ZenDashboard.app"
                BlueprintName = "ZenDashboard"
                ReferencedContainer = "container:ZenDashboard.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4889FDB38A6380CE52298E21"
+               BlueprintIdentifier = "7E89F7200230590B29B66A6E"
                BuildableName = "ZenDashboard.app"
                BlueprintName = "ZenDashboard"
                ReferencedContainer = "container:ZenDashboard.xcodeproj">

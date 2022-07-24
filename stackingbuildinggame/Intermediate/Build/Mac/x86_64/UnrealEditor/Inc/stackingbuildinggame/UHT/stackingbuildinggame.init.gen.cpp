@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodestackingbuildinggame_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xE3019AB0,
-				0xAD28C617,
+				0x5BA2F012,
+				0xF862AAAA,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_stackingbuildinggame.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_stackingbuildinggame.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_stackingbuildinggame(Z_Construct_UPackage__Script_stackingbuildinggame, TEXT("/Script/stackingbuildinggame"), Z_Registration_Info_UPackage__Script_stackingbuildinggame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xE3019AB0, 0xAD28C617));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_stackingbuildinggame(Z_Construct_UPackage__Script_stackingbuildinggame, TEXT("/Script/stackingbuildinggame"), Z_Registration_Info_UPackage__Script_stackingbuildinggame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x5BA2F012, 0xF862AAAA));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "968F48351665A329F4F1DF80"
+               BlueprintIdentifier = "DCD7D85A62DCF85442D7F347"
                BuildableName = "EpicWebHelper-Mac-Development.app"
                BlueprintName = "EpicWebHelper"
                ReferencedContainer = "container:EpicWebHelper.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "968F48351665A329F4F1DF80"
+            BlueprintIdentifier = "DCD7D85A62DCF85442D7F347"
             BuildableName = "EpicWebHelper-Mac-Development.app"
             BlueprintName = "EpicWebHelper"
             ReferencedContainer = "container:EpicWebHelper.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "968F48351665A329F4F1DF80"
+            BlueprintIdentifier = "DCD7D85A62DCF85442D7F347"
             BuildableName = "EpicWebHelper-Mac-Development.app"
             BlueprintName = "EpicWebHelper"
             ReferencedContainer = "container:EpicWebHelper.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "968F48351665A329F4F1DF80"
+            BlueprintIdentifier = "DCD7D85A62DCF85442D7F347"
             BuildableName = "EpicWebHelper-Mac-Development.app"
             BlueprintName = "EpicWebHelper"
             ReferencedContainer = "container:EpicWebHelper.xcodeproj">

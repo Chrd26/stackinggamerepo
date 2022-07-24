@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
+		<key>LiveCodingConsole_Build.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>54</integer>
+		</dict>
+		<key>LiveCodingConsole_Index.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>68</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>

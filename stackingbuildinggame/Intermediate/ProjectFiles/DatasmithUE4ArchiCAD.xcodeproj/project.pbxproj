@@ -7,33 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D3B7E1845680BDF40AE6858 /* DatasmithUE4ArchiCAD.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = A63B9D6DC6440B8C3EF65DE8 /* DatasmithUE4ArchiCAD.Build.cs */; };
+		43AC4645075B7F2A3E542F1A /* DatasmithUE4ArchiCAD.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = D7E7A883504126001C08AEC1 /* DatasmithUE4ArchiCAD.Build.cs */; };
 		0C85F79A3782A2230DBB49C9 /* DatasmithUE4ArchiCAD.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 7451D3F36FE827DF64027CFE /* DatasmithUE4ArchiCAD.Target.cs */; };
-		43AC4645075B7F2A3E542F1A /* DatasmithUE4ArchiCAD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E7A883504126001C08AEC1 /* DatasmithUE4ArchiCAD.cpp */; };
-		E58352E5B9BF3F16DD95D499 /* DatasmithUE4ArchiCAD.h in Sources */ = {isa = PBXBuildFile; fileRef = 22C5D7E52E3E1A510C8296DE /* DatasmithUE4ArchiCAD.h */; };
+		E58352E5B9BF3F16DD95D499 /* DatasmithUE4ArchiCAD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22C5D7E52E3E1A510C8296DE /* DatasmithUE4ArchiCAD.cpp */; };
+		9B873BFDCF5CCC3AFE846083 /* DatasmithUE4ArchiCAD.h in Sources */ = {isa = PBXBuildFile; fileRef = 099A707E15183D42120F618A /* DatasmithUE4ArchiCAD.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A63B9D6DC6440B8C3EF65DE8 /* DatasmithUE4ArchiCAD.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithUE4ArchiCAD.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatsmithUE4ArchiCAD/DatasmithUE4ArchiCAD.Build.cs"; sourceTree = SOURCE_ROOT; };
+		D7E7A883504126001C08AEC1 /* DatasmithUE4ArchiCAD.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithUE4ArchiCAD.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatsmithUE4ArchiCAD/DatasmithUE4ArchiCAD.Build.cs"; sourceTree = SOURCE_ROOT; };
 		7451D3F36FE827DF64027CFE /* DatasmithUE4ArchiCAD.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithUE4ArchiCAD.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatsmithUE4ArchiCAD/DatasmithUE4ArchiCAD.Target.cs"; sourceTree = SOURCE_ROOT; };
-		D7E7A883504126001C08AEC1 /* DatasmithUE4ArchiCAD.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DatasmithUE4ArchiCAD.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatsmithUE4ArchiCAD/Private/DatasmithUE4ArchiCAD.cpp"; sourceTree = SOURCE_ROOT; };
-		22C5D7E52E3E1A510C8296DE /* DatasmithUE4ArchiCAD.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DatasmithUE4ArchiCAD.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatsmithUE4ArchiCAD/Private/DatasmithUE4ArchiCAD.h"; sourceTree = SOURCE_ROOT; };
-		F9851D97C027289AD77C3ADE /* DatasmithUE4ArchiCAD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DatasmithUE4ArchiCAD; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C5D7E52E3E1A510C8296DE /* DatasmithUE4ArchiCAD.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DatasmithUE4ArchiCAD.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatsmithUE4ArchiCAD/Private/DatasmithUE4ArchiCAD.cpp"; sourceTree = SOURCE_ROOT; };
+		099A707E15183D42120F618A /* DatasmithUE4ArchiCAD.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DatasmithUE4ArchiCAD.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatsmithUE4ArchiCAD/Private/DatasmithUE4ArchiCAD.h"; sourceTree = SOURCE_ROOT; };
+		DEF6716326096400956EBC08 /* DatasmithUE4ArchiCAD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DatasmithUE4ArchiCAD; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		02241F6D62C37D9F42CE282F = {
+		824E18AFEC4A2B4FFB798464 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43AC4645075B7F2A3E542F1A /* DatasmithUE4ArchiCAD.cpp in Sources */,
+				E58352E5B9BF3F16DD95D499 /* DatasmithUE4ArchiCAD.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	0FDA80416B798B3D038D7094 /* Embed App Extensions */ = {
+	89B663C1D150F7196DBC4873 /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -45,48 +45,48 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		812AB1C0BDB7AF5B1FD9C8B7 /* PBXContainerItemProxy */ = {
+		0DFED7FB0FB3A250069ED38C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0DFED7FB0FB3A250069ED38C /* Project object */;
+			containerPortal = 1428CFCCC8ED225531B9C5AB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A71249F55192F7542FB30E55;
+			remoteGlobalIDString = D2E0A4C7CFC5335901A1F3E3;
 			remoteInfo = "DatasmithUE4ArchiCAD_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		5F040E05303F5C74270B6564 /* PBXTargetDependency */ = {
+		6DB9098CE174874677C7C412 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A71249F55192F7542FB30E55 /* DatasmithUE4ArchiCAD_Build */;
-			targetProxy = 812AB1C0BDB7AF5B1FD9C8B7 /* PBXContainerItemProxy */;
+			target = D2E0A4C7CFC5335901A1F3E3 /* DatasmithUE4ArchiCAD_Build */;
+			targetProxy = 0DFED7FB0FB3A250069ED38C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		D2E0A4C7CFC5335901A1F3E3 = {
+		4764646CF170E774B38B583A = {
 			isa = PBXGroup;
 			children = (
-				B0798E2D3069EB2AB2816AAF /* Private */,
-				A63B9D6DC6440B8C3EF65DE8 /* DatasmithUE4ArchiCAD.Build.cs */,
+				5199837E2E14F320EBD66E4D /* Private */,
+				D7E7A883504126001C08AEC1 /* DatasmithUE4ArchiCAD.Build.cs */,
 				7451D3F36FE827DF64027CFE /* DatasmithUE4ArchiCAD.Target.cs */,
-				F391F53C30C8A5CFE67DAEEA /* Products */,
+				F4B0D655ABD3FD5615D59BA4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B0798E2D3069EB2AB2816AAF = {
+		5199837E2E14F320EBD66E4D = {
 			isa = PBXGroup;
 			children = (
-				D7E7A883504126001C08AEC1 /* DatasmithUE4ArchiCAD.cpp */,
-				22C5D7E52E3E1A510C8296DE /* DatasmithUE4ArchiCAD.h */,
+				22C5D7E52E3E1A510C8296DE /* DatasmithUE4ArchiCAD.cpp */,
+				099A707E15183D42120F618A /* DatasmithUE4ArchiCAD.h */,
 			);
 			name = "Private";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatsmithUE4ArchiCAD/Private";
 			sourceTree = "<absolute>";
 		};
-		F391F53C30C8A5CFE67DAEEA /* Products */ = {
+		F4B0D655ABD3FD5615D59BA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F9851D97C027289AD77C3ADE /* DatasmithUE4ArchiCAD */,
+				DEF6716326096400956EBC08 /* DatasmithUE4ArchiCAD */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,10 +94,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		A71249F55192F7542FB30E55 /* DatasmithUE4ArchiCAD_Build */ = {
+		D2E0A4C7CFC5335901A1F3E3 /* DatasmithUE4ArchiCAD_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = D3AE1A2AC2DB6D863C570BAA /* Build configuration list for PBXLegacyTarget "DatasmithUE4ArchiCAD_Build" */;
+			buildConfigurationList = F391F53C30C8A5CFE67DAEEA /* Build configuration list for PBXLegacyTarget "DatasmithUE4ArchiCAD_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -111,30 +111,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		0C0E0999E3B6177A34AD061F /* DatasmithUE4ArchiCAD */ = {
+		D3AE1A2AC2DB6D863C570BAA /* DatasmithUE4ArchiCAD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F94179080846FD7E172378C /* Build configuration list for PBXNativeTarget "DatasmithUE4ArchiCAD" */;
+			buildConfigurationList = 21C5B300E2CB8D04F0D219AB /* Build configuration list for PBXNativeTarget "DatasmithUE4ArchiCAD" */;
 			buildPhases = (
-				0FDA80416B798B3D038D7094 /* Embed App Extensions */, 
-				1428CFCCC8ED225531B9C5AB /* Shell Script */, 
+				89B663C1D150F7196DBC4873 /* Embed App Extensions */, 
+				7E4C7995C7D64072C8BFE9A3 /* Shell Script */, 
 			);
 			dependencies = (
-				5F040E05303F5C74270B6564 /* PBXTargetDependency */,
+				6DB9098CE174874677C7C412 /* PBXTargetDependency */,
 			);
 			name = "DatasmithUE4ArchiCAD";
 			passBuildSettingsInEnvironment = 1;
 			productName = "DatasmithUE4ArchiCAD";
-			productReference = "F9851D97C027289AD77C3ADE";
+			productReference = "DEF6716326096400956EBC08";
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		21C5B300E2CB8D04F0D219AB /* DatasmithUE4ArchiCAD_Index */ = {
+		02241F6D62C37D9F42CE282F /* DatasmithUE4ArchiCAD_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DB9098CE174874677C7C412 /* Build configuration list for PBXNativeTarget "DatasmithUE4ArchiCAD_Index" */;
+			buildConfigurationList = 0FDA80416B798B3D038D7094 /* Build configuration list for PBXNativeTarget "DatasmithUE4ArchiCAD_Index" */;
 			buildPhases = (
-				02241F6D62C37D9F42CE282F /* Sources */,
+				824E18AFEC4A2B4FFB798464 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -146,38 +146,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0DFED7FB0FB3A250069ED38C /* Project object */ = {
+		1428CFCCC8ED225531B9C5AB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					0C0E0999E3B6177A34AD061F = {
+					D3AE1A2AC2DB6D863C570BAA = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = DEF6716326096400956EBC08 /* Build configuration list for PBXProject "DatasmithUE4ArchiCAD" */;
+			buildConfigurationList = A5C6F63D2454A12568C52C55 /* Build configuration list for PBXProject "DatasmithUE4ArchiCAD" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = D2E0A4C7CFC5335901A1F3E3;
-			productRefGroup = F391F53C30C8A5CFE67DAEEA;
+			mainGroup = 4764646CF170E774B38B583A;
+			productRefGroup = F4B0D655ABD3FD5615D59BA4;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			0C0E0999E3B6177A34AD061F /* DatasmithUE4ArchiCAD */,
-			A71249F55192F7542FB30E55 /* DatasmithUE4ArchiCAD_Build */,
-			21C5B300E2CB8D04F0D219AB /* DatasmithUE4ArchiCAD_Index */,
+			D3AE1A2AC2DB6D863C570BAA /* DatasmithUE4ArchiCAD */,
+			D2E0A4C7CFC5335901A1F3E3 /* DatasmithUE4ArchiCAD_Build */,
+			02241F6D62C37D9F42CE282F /* DatasmithUE4ArchiCAD_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		A5C6F63D2454A12568C52C55 /* "Debug" */ = {
+		5838886960093F7A2B71CBF5 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -266,7 +266,7 @@
 			};
 			name = "Debug";
 		};
-		89B663C1D150F7196DBC4873 /* "DebugGame" */ = {
+		517C944687229DB307E897C9 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -354,7 +354,7 @@
 			};
 			name = "DebugGame";
 		};
-		D196872438129CCACDC06999 /* "Development" */ = {
+		8C2E367F5B75B8667F447EB4 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -442,7 +442,7 @@
 			};
 			name = "Development";
 		};
-		C7D34A375C241F4D71FBD3BC /* "Test" */ = {
+		5FAF17AB975B1A0793B6C0DE /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -530,7 +530,7 @@
 			};
 			name = "Test";
 		};
-		BE7D8C1D591B59D8F1E8AA2D /* "Shipping" */ = {
+		60D84F2FCAE10036BAEF523A /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -618,7 +618,7 @@
 			};
 			name = "Shipping";
 		};
-		4764646CF170E774B38B583A /* "Debug" */ = {
+		703C84C4DE8137C605A431A0 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -635,7 +635,7 @@
 			};
 			name = "Debug";
 		};
-		7E4C7995C7D64072C8BFE9A3 /* "DebugGame" */ = {
+		821A4119D50128AFD3EBFC4F /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -652,7 +652,7 @@
 			};
 			name = "DebugGame";
 		};
-		C88EB9647CCE480C8084248B /* "Development" */ = {
+		D86656E2C84A588647859B80 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -669,7 +669,7 @@
 			};
 			name = "Development";
 		};
-		7E5542AA23B591E0F6EFE261 /* "Test" */ = {
+		E89A0C63EAA6C3F0BB28F428 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -686,7 +686,7 @@
 			};
 			name = "Test";
 		};
-		EDA0F1FB436C3C39D68ED2BC /* "Shipping" */ = {
+		193FBF320C8F3218DB615F3C /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -703,7 +703,7 @@
 			};
 			name = "Shipping";
 		};
-		F4B0D655ABD3FD5615D59BA4 /* "Debug" */ = {
+		D196872438129CCACDC06999 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -716,7 +716,7 @@
 			};
 			name = "Debug";
 		};
-		5838886960093F7A2B71CBF5 /* "DebugGame" */ = {
+		C7D34A375C241F4D71FBD3BC /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -729,7 +729,7 @@
 			};
 			name = "DebugGame";
 		};
-		517C944687229DB307E897C9 /* "Development" */ = {
+		BE7D8C1D591B59D8F1E8AA2D /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -742,7 +742,7 @@
 			};
 			name = "Development";
 		};
-		8C2E367F5B75B8667F447EB4 /* "Test" */ = {
+		595C42DA4861AA30ABCFBEAA /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -755,7 +755,7 @@
 			};
 			name = "Test";
 		};
-		5FAF17AB975B1A0793B6C0DE /* "Shipping" */ = {
+		662D22188EBD484649997A6F /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -768,7 +768,7 @@
 			};
 			name = "Shipping";
 		};
-		824E18AFEC4A2B4FFB798464 /* "Debug" */ = {
+		C88EB9647CCE480C8084248B /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -785,7 +785,7 @@
 			};
 			name = "Debug";
 		};
-		703C84C4DE8137C605A431A0 /* "DebugGame" */ = {
+		7E5542AA23B591E0F6EFE261 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -802,7 +802,7 @@
 			};
 			name = "DebugGame";
 		};
-		821A4119D50128AFD3EBFC4F /* "Development" */ = {
+		EDA0F1FB436C3C39D68ED2BC /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -819,7 +819,7 @@
 			};
 			name = "Development";
 		};
-		D86656E2C84A588647859B80 /* "Test" */ = {
+		04AD4095CDA29A37E01313A9 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -836,7 +836,7 @@
 			};
 			name = "Test";
 		};
-		E89A0C63EAA6C3F0BB28F428 /* "Shipping" */ = {
+		127A65C9CE88F0145B067C8E /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -856,55 +856,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DEF6716326096400956EBC08 /* Build configuration list for PBXProject "DatasmithUE4ArchiCAD" */ = {
+		A5C6F63D2454A12568C52C55 /* Build configuration list for PBXProject "DatasmithUE4ArchiCAD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5C6F63D2454A12568C52C55 /* "Debug" */,
-				89B663C1D150F7196DBC4873 /* "DebugGame" */,
-				D196872438129CCACDC06999 /* "Development" */,
-				C7D34A375C241F4D71FBD3BC /* "Test" */,
-				BE7D8C1D591B59D8F1E8AA2D /* "Shipping" */,
+				5838886960093F7A2B71CBF5 /* "Debug" */,
+				517C944687229DB307E897C9 /* "DebugGame" */,
+				8C2E367F5B75B8667F447EB4 /* "Development" */,
+				5FAF17AB975B1A0793B6C0DE /* "Test" */,
+				60D84F2FCAE10036BAEF523A /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		D3AE1A2AC2DB6D863C570BAA /* Build configuration list for PBXLegacyTarget "DatasmithUE4ArchiCAD_Build" */ = {
+		F391F53C30C8A5CFE67DAEEA /* Build configuration list for PBXLegacyTarget "DatasmithUE4ArchiCAD_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4B0D655ABD3FD5615D59BA4 /* "Debug" */,
-				5838886960093F7A2B71CBF5 /* "DebugGame" */,
-				517C944687229DB307E897C9 /* "Development" */,
-				8C2E367F5B75B8667F447EB4 /* "Test" */,
-				5FAF17AB975B1A0793B6C0DE /* "Shipping" */,
+				D196872438129CCACDC06999 /* "Debug" */,
+				C7D34A375C241F4D71FBD3BC /* "DebugGame" */,
+				BE7D8C1D591B59D8F1E8AA2D /* "Development" */,
+				595C42DA4861AA30ABCFBEAA /* "Test" */,
+				662D22188EBD484649997A6F /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		5F94179080846FD7E172378C /* Build configuration list for PBXNativeTarget "DatasmithUE4ArchiCAD" */ = {
+		21C5B300E2CB8D04F0D219AB /* Build configuration list for PBXNativeTarget "DatasmithUE4ArchiCAD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4764646CF170E774B38B583A /* "Debug" */,
-				7E4C7995C7D64072C8BFE9A3 /* "DebugGame" */,
-				C88EB9647CCE480C8084248B /* "Development" */,
-				7E5542AA23B591E0F6EFE261 /* "Test" */,
-				EDA0F1FB436C3C39D68ED2BC /* "Shipping" */,
+				703C84C4DE8137C605A431A0 /* "Debug" */,
+				821A4119D50128AFD3EBFC4F /* "DebugGame" */,
+				D86656E2C84A588647859B80 /* "Development" */,
+				E89A0C63EAA6C3F0BB28F428 /* "Test" */,
+				193FBF320C8F3218DB615F3C /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		6DB9098CE174874677C7C412 /* Build configuration list for PBXNativeTarget "DatasmithUE4ArchiCAD_Index" */ = {
+		0FDA80416B798B3D038D7094 /* Build configuration list for PBXNativeTarget "DatasmithUE4ArchiCAD_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				824E18AFEC4A2B4FFB798464 /* "Debug" */,
-				703C84C4DE8137C605A431A0 /* "DebugGame" */,
-				821A4119D50128AFD3EBFC4F /* "Development" */,
-				D86656E2C84A588647859B80 /* "Test" */,
-				E89A0C63EAA6C3F0BB28F428 /* "Shipping" */,
+				C88EB9647CCE480C8084248B /* "Debug" */,
+				7E5542AA23B591E0F6EFE261 /* "DebugGame" */,
+				EDA0F1FB436C3C39D68ED2BC /* "Development" */,
+				04AD4095CDA29A37E01313A9 /* "Test" */,
+				127A65C9CE88F0145B067C8E /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0DFED7FB0FB3A250069ED38C /* Project object */;
+	rootObject = 1428CFCCC8ED225531B9C5AB /* Project object */;
 }

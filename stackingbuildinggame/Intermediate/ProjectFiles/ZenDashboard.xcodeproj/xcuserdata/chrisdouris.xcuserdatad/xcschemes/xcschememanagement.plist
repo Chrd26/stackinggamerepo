@@ -9,20 +9,30 @@
 			<key>orderHint</key>
 			<integer>46</integer>
 		</dict>
+		<key>ZenDashboard_Build.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>85</integer>
+		</dict>
+		<key>ZenDashboard_Index.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>69</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4889FDB38A6380CE52298E21</key>
+		<key>31C95036BCB6BCA6C0D1C318</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8996833C68E7F49629CC29D9</key>
+		<key>7E89F7200230590B29B66A6E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F181F7FB5A42895FD1064A81</key>
+		<key>B81270E84249E6C2CC039008</key>
 		<dict>
 			<key>primary</key>
 			<true/>

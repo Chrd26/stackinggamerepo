@@ -7,78 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF3A73B3DFF69484FE6F1BE7 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = E255CC4056CF39C1E6BDCD03 /* DefaultEngine.ini */; };
-		3163302CF6B604557C9790C0 /* CrashReportClient.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = ED93C2D4F7ADA0AD9A67AFC0 /* CrashReportClient.Build.cs */; };
+		84DCBA299AE33821E9865654 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = F99F7AB878ACB67862656BC5 /* DefaultEngine.ini */; };
+		E6FB27E9EB4E4722A615B9F7 /* CrashReportClient.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 48FDF6650AEFDFAE6E551624 /* CrashReportClient.Build.cs */; };
 		24EDCC7DA8ED33C0F2D72993 /* CrashReportClient.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = CEDBC2E8B849B360A801E011 /* CrashReportClient.Target.cs */; };
-		E6FB27E9EB4E4722A615B9F7 /* CrashReportClientEditor.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 48FDF6650AEFDFAE6E551624 /* CrashReportClientEditor.Build.cs */; };
-		67B49C2EA46EE3CAB36F46FB /* CrashReportAnalyticsSessionSummary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F1A6A2D506D1AD7D9CA8CF9 /* CrashReportAnalyticsSessionSummary.cpp */; };
-		B63BA2AB87005290E5028236 /* CrashReportAnalyticsSessionSummary.h in Sources */ = {isa = PBXBuildFile; fileRef = B2187D3731EF43D8B7FBD5EF /* CrashReportAnalyticsSessionSummary.h */; };
-		84B25D013B3E4B9C27A37769 /* CrashReportClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC3842B31DB5168D97347B37 /* CrashReportClient.cpp */; };
-		EFE3A5E986B341BB65B227D5 /* CrashReportClient.h in Sources */ = {isa = PBXBuildFile; fileRef = A35055A6B6E60F0FA0146AF9 /* CrashReportClient.h */; };
-		AC90BB02E547585036261157 /* CrashReportClientApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9961157361BC031A106D10CC /* CrashReportClientApp.cpp */; };
-		5F70D7B1246C96DB78AB3DF6 /* CrashReportClientDefines.h in Sources */ = {isa = PBXBuildFile; fileRef = F83FD51E5AD79E7C3FFD0C54 /* CrashReportClientDefines.h */; };
-		D09BADE41050E93F80EFA275 /* CrashReportClientStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70A62BCA8F35DFED241F7B22 /* CrashReportClientStyle.cpp */; };
-		E6E5BF39CE938C616382E189 /* CrashReportClientStyle.h in Sources */ = {isa = PBXBuildFile; fileRef = BEB2CA28C2FD75099C60ADB3 /* CrashReportClientStyle.h */; };
-		B142B10F9274DB47D954FC34 /* CrashReportClientMainLinux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA50D193CA3703CEF35445F9 /* CrashReportClientMainLinux.cpp */; };
-		B63BB3E903DC0A8A21A7EE02 /* CrashReportClientMainMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCEC91097720A355EFE862D8 /* CrashReportClientMainMac.cpp */; };
-		ACD4EC091E1F30B0208BFD2A /* MainLoopTiming.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90AF71ED624111EEC4A10BDD /* MainLoopTiming.cpp */; };
-		6AB62B27AA728685380B8DFA /* MainLoopTiming.h in Sources */ = {isa = PBXBuildFile; fileRef = A682424452316933B4A09712 /* MainLoopTiming.h */; };
-		8C88A65A4EBEEF0AC80F9F67 /* RecoveryService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F40805AD0577F284227646DF /* RecoveryService.cpp */; };
-		FECD9C9338D829CA1F189A22 /* RecoveryService.h in Sources */ = {isa = PBXBuildFile; fileRef = CB2B37791C833297E3DA5049 /* RecoveryService.h */; };
-		2BBB2E3DAD12EF1541C65B81 /* SCrashReportClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 225BD1EFE5D448DB6EE3E2D9 /* SCrashReportClient.cpp */; };
-		4078689F44AEFC247D53687D /* SCrashReportClient.h in Sources */ = {isa = PBXBuildFile; fileRef = AAEC1D0D2884E005CFB557C1 /* SCrashReportClient.h */; };
-		B34D3B97B288CD5CFCB75857 /* CrashReportClientMainWindows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F244FC4971130361CF96DD /* CrashReportClientMainWindows.cpp */; };
-		A5FA57D3B0EF0ACED8DA35B5 /* CrashReportClientApp.h in Sources */ = {isa = PBXBuildFile; fileRef = A172D898D9910545933A4785 /* CrashReportClientApp.h */; };
-		DBA60B7DD55F76E4B75DF2B7 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 31FAAB0DAD8A7EE6BC8E5BD7 /* Info.plist */; };
+		67B49C2EA46EE3CAB36F46FB /* CrashReportClientEditor.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 8F1A6A2D506D1AD7D9CA8CF9 /* CrashReportClientEditor.Build.cs */; };
+		B63BA2AB87005290E5028236 /* CrashReportAnalyticsSessionSummary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2187D3731EF43D8B7FBD5EF /* CrashReportAnalyticsSessionSummary.cpp */; };
+		84B25D013B3E4B9C27A37769 /* CrashReportAnalyticsSessionSummary.h in Sources */ = {isa = PBXBuildFile; fileRef = CC3842B31DB5168D97347B37 /* CrashReportAnalyticsSessionSummary.h */; };
+		EFE3A5E986B341BB65B227D5 /* CrashReportClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A35055A6B6E60F0FA0146AF9 /* CrashReportClient.cpp */; };
+		AC90BB02E547585036261157 /* CrashReportClient.h in Sources */ = {isa = PBXBuildFile; fileRef = 9961157361BC031A106D10CC /* CrashReportClient.h */; };
+		5F70D7B1246C96DB78AB3DF6 /* CrashReportClientApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F83FD51E5AD79E7C3FFD0C54 /* CrashReportClientApp.cpp */; };
+		D09BADE41050E93F80EFA275 /* CrashReportClientDefines.h in Sources */ = {isa = PBXBuildFile; fileRef = 70A62BCA8F35DFED241F7B22 /* CrashReportClientDefines.h */; };
+		E6E5BF39CE938C616382E189 /* CrashReportClientStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB2CA28C2FD75099C60ADB3 /* CrashReportClientStyle.cpp */; };
+		ACD4EC091E1F30B0208BFD2A /* CrashReportClientStyle.h in Sources */ = {isa = PBXBuildFile; fileRef = 90AF71ED624111EEC4A10BDD /* CrashReportClientStyle.h */; };
+		B63BB3E903DC0A8A21A7EE02 /* CrashReportClientMainLinux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCEC91097720A355EFE862D8 /* CrashReportClientMainLinux.cpp */; };
+		B34D3B97B288CD5CFCB75857 /* CrashReportClientMainMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F244FC4971130361CF96DD /* CrashReportClientMainMac.cpp */; };
+		6AB62B27AA728685380B8DFA /* MainLoopTiming.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A682424452316933B4A09712 /* MainLoopTiming.cpp */; };
+		8C88A65A4EBEEF0AC80F9F67 /* MainLoopTiming.h in Sources */ = {isa = PBXBuildFile; fileRef = F40805AD0577F284227646DF /* MainLoopTiming.h */; };
+		FECD9C9338D829CA1F189A22 /* RecoveryService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2B37791C833297E3DA5049 /* RecoveryService.cpp */; };
+		2BBB2E3DAD12EF1541C65B81 /* RecoveryService.h in Sources */ = {isa = PBXBuildFile; fileRef = 225BD1EFE5D448DB6EE3E2D9 /* RecoveryService.h */; };
+		4078689F44AEFC247D53687D /* SCrashReportClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAEC1D0D2884E005CFB557C1 /* SCrashReportClient.cpp */; };
+		B142B10F9274DB47D954FC34 /* SCrashReportClient.h in Sources */ = {isa = PBXBuildFile; fileRef = AA50D193CA3703CEF35445F9 /* SCrashReportClient.h */; };
+		A5FA57D3B0EF0ACED8DA35B5 /* CrashReportClientMainWindows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A172D898D9910545933A4785 /* CrashReportClientMainWindows.cpp */; };
+		DBA60B7DD55F76E4B75DF2B7 /* CrashReportClientApp.h in Sources */ = {isa = PBXBuildFile; fileRef = 31FAAB0DAD8A7EE6BC8E5BD7 /* CrashReportClientApp.h */; };
+		997A29CFCA51496AB2D1F70A /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = E38CF8786351FE43802067DF /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E255CC4056CF39C1E6BDCD03 /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/CrashReportClient/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
-		ED93C2D4F7ADA0AD9A67AFC0 /* CrashReportClient.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CrashReportClient.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/CrashReportClient.Build.cs"; sourceTree = SOURCE_ROOT; };
+		F99F7AB878ACB67862656BC5 /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/CrashReportClient/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		48FDF6650AEFDFAE6E551624 /* CrashReportClient.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CrashReportClient.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/CrashReportClient.Build.cs"; sourceTree = SOURCE_ROOT; };
 		CEDBC2E8B849B360A801E011 /* CrashReportClient.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CrashReportClient.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/CrashReportClient.Target.cs"; sourceTree = SOURCE_ROOT; };
-		48FDF6650AEFDFAE6E551624 /* CrashReportClientEditor.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CrashReportClientEditor.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/CrashReportClientEditor.Build.cs"; sourceTree = SOURCE_ROOT; };
-		8F1A6A2D506D1AD7D9CA8CF9 /* CrashReportAnalyticsSessionSummary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportAnalyticsSessionSummary.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/CrashReportAnalyticsSessionSummary.cpp"; sourceTree = SOURCE_ROOT; };
-		B2187D3731EF43D8B7FBD5EF /* CrashReportAnalyticsSessionSummary.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CrashReportAnalyticsSessionSummary.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/CrashReportAnalyticsSessionSummary.h"; sourceTree = SOURCE_ROOT; };
-		CC3842B31DB5168D97347B37 /* CrashReportClient.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportClient.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/CrashReportClient.cpp"; sourceTree = SOURCE_ROOT; };
-		A35055A6B6E60F0FA0146AF9 /* CrashReportClient.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CrashReportClient.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/CrashReportClient.h"; sourceTree = SOURCE_ROOT; };
-		9961157361BC031A106D10CC /* CrashReportClientApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportClientApp.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/CrashReportClientApp.cpp"; sourceTree = SOURCE_ROOT; };
-		F83FD51E5AD79E7C3FFD0C54 /* CrashReportClientDefines.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CrashReportClientDefines.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/CrashReportClientDefines.h"; sourceTree = SOURCE_ROOT; };
-		70A62BCA8F35DFED241F7B22 /* CrashReportClientStyle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportClientStyle.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/CrashReportClientStyle.cpp"; sourceTree = SOURCE_ROOT; };
-		BEB2CA28C2FD75099C60ADB3 /* CrashReportClientStyle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CrashReportClientStyle.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/CrashReportClientStyle.h"; sourceTree = SOURCE_ROOT; };
-		AA50D193CA3703CEF35445F9 /* CrashReportClientMainLinux.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportClientMainLinux.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/Linux/CrashReportClientMainLinux.cpp"; sourceTree = SOURCE_ROOT; };
-		FCEC91097720A355EFE862D8 /* CrashReportClientMainMac.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportClientMainMac.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/Mac/CrashReportClientMainMac.cpp"; sourceTree = SOURCE_ROOT; };
-		90AF71ED624111EEC4A10BDD /* MainLoopTiming.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MainLoopTiming.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/MainLoopTiming.cpp"; sourceTree = SOURCE_ROOT; };
-		A682424452316933B4A09712 /* MainLoopTiming.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MainLoopTiming.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/MainLoopTiming.h"; sourceTree = SOURCE_ROOT; };
-		F40805AD0577F284227646DF /* RecoveryService.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "RecoveryService.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/RecoveryService.cpp"; sourceTree = SOURCE_ROOT; };
-		CB2B37791C833297E3DA5049 /* RecoveryService.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "RecoveryService.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/RecoveryService.h"; sourceTree = SOURCE_ROOT; };
-		225BD1EFE5D448DB6EE3E2D9 /* SCrashReportClient.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SCrashReportClient.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/SCrashReportClient.cpp"; sourceTree = SOURCE_ROOT; };
-		AAEC1D0D2884E005CFB557C1 /* SCrashReportClient.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SCrashReportClient.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/SCrashReportClient.h"; sourceTree = SOURCE_ROOT; };
-		C1F244FC4971130361CF96DD /* CrashReportClientMainWindows.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportClientMainWindows.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/Windows/CrashReportClientMainWindows.cpp"; sourceTree = SOURCE_ROOT; };
-		A172D898D9910545933A4785 /* CrashReportClientApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CrashReportClientApp.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Public/CrashReportClientApp.h"; sourceTree = SOURCE_ROOT; };
-		31FAAB0DAD8A7EE6BC8E5BD7 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; name = "Info.plist"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Resources/Mac/Info.plist"; sourceTree = SOURCE_ROOT; };
-		E9E70B197EDD56AFBA01594F /* CrashReportClient */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = CrashReportClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1A6A2D506D1AD7D9CA8CF9 /* CrashReportClientEditor.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CrashReportClientEditor.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/CrashReportClientEditor.Build.cs"; sourceTree = SOURCE_ROOT; };
+		B2187D3731EF43D8B7FBD5EF /* CrashReportAnalyticsSessionSummary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportAnalyticsSessionSummary.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/CrashReportAnalyticsSessionSummary.cpp"; sourceTree = SOURCE_ROOT; };
+		CC3842B31DB5168D97347B37 /* CrashReportAnalyticsSessionSummary.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CrashReportAnalyticsSessionSummary.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/CrashReportAnalyticsSessionSummary.h"; sourceTree = SOURCE_ROOT; };
+		A35055A6B6E60F0FA0146AF9 /* CrashReportClient.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportClient.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/CrashReportClient.cpp"; sourceTree = SOURCE_ROOT; };
+		9961157361BC031A106D10CC /* CrashReportClient.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CrashReportClient.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/CrashReportClient.h"; sourceTree = SOURCE_ROOT; };
+		F83FD51E5AD79E7C3FFD0C54 /* CrashReportClientApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportClientApp.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/CrashReportClientApp.cpp"; sourceTree = SOURCE_ROOT; };
+		70A62BCA8F35DFED241F7B22 /* CrashReportClientDefines.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CrashReportClientDefines.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/CrashReportClientDefines.h"; sourceTree = SOURCE_ROOT; };
+		BEB2CA28C2FD75099C60ADB3 /* CrashReportClientStyle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportClientStyle.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/CrashReportClientStyle.cpp"; sourceTree = SOURCE_ROOT; };
+		90AF71ED624111EEC4A10BDD /* CrashReportClientStyle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CrashReportClientStyle.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/CrashReportClientStyle.h"; sourceTree = SOURCE_ROOT; };
+		FCEC91097720A355EFE862D8 /* CrashReportClientMainLinux.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportClientMainLinux.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/Linux/CrashReportClientMainLinux.cpp"; sourceTree = SOURCE_ROOT; };
+		C1F244FC4971130361CF96DD /* CrashReportClientMainMac.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportClientMainMac.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/Mac/CrashReportClientMainMac.cpp"; sourceTree = SOURCE_ROOT; };
+		A682424452316933B4A09712 /* MainLoopTiming.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MainLoopTiming.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/MainLoopTiming.cpp"; sourceTree = SOURCE_ROOT; };
+		F40805AD0577F284227646DF /* MainLoopTiming.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MainLoopTiming.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/MainLoopTiming.h"; sourceTree = SOURCE_ROOT; };
+		CB2B37791C833297E3DA5049 /* RecoveryService.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "RecoveryService.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/RecoveryService.cpp"; sourceTree = SOURCE_ROOT; };
+		225BD1EFE5D448DB6EE3E2D9 /* RecoveryService.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "RecoveryService.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/RecoveryService.h"; sourceTree = SOURCE_ROOT; };
+		AAEC1D0D2884E005CFB557C1 /* SCrashReportClient.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SCrashReportClient.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/SCrashReportClient.cpp"; sourceTree = SOURCE_ROOT; };
+		AA50D193CA3703CEF35445F9 /* SCrashReportClient.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SCrashReportClient.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/SCrashReportClient.h"; sourceTree = SOURCE_ROOT; };
+		A172D898D9910545933A4785 /* CrashReportClientMainWindows.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportClientMainWindows.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/Windows/CrashReportClientMainWindows.cpp"; sourceTree = SOURCE_ROOT; };
+		31FAAB0DAD8A7EE6BC8E5BD7 /* CrashReportClientApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CrashReportClientApp.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Public/CrashReportClientApp.h"; sourceTree = SOURCE_ROOT; };
+		E38CF8786351FE43802067DF /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; name = "Info.plist"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Resources/Mac/Info.plist"; sourceTree = SOURCE_ROOT; };
+		16E9309B0BD4CC16E193BE44 /* CrashReportClient */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = CrashReportClient; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0F811D514D96AF0DC71564CA = {
+		2D25A4719BF09927C3DF8316 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67B49C2EA46EE3CAB36F46FB /* CrashReportAnalyticsSessionSummary.cpp in Sources */,
-				84B25D013B3E4B9C27A37769 /* CrashReportClient.cpp in Sources */,
-				AC90BB02E547585036261157 /* CrashReportClientApp.cpp in Sources */,
-				D09BADE41050E93F80EFA275 /* CrashReportClientStyle.cpp in Sources */,
-				B63BB3E903DC0A8A21A7EE02 /* CrashReportClientMainMac.cpp in Sources */,
-				ACD4EC091E1F30B0208BFD2A /* MainLoopTiming.cpp in Sources */,
-				8C88A65A4EBEEF0AC80F9F67 /* RecoveryService.cpp in Sources */,
-				2BBB2E3DAD12EF1541C65B81 /* SCrashReportClient.cpp in Sources */,
+				B63BA2AB87005290E5028236 /* CrashReportAnalyticsSessionSummary.cpp in Sources */,
+				EFE3A5E986B341BB65B227D5 /* CrashReportClient.cpp in Sources */,
+				5F70D7B1246C96DB78AB3DF6 /* CrashReportClientApp.cpp in Sources */,
+				E6E5BF39CE938C616382E189 /* CrashReportClientStyle.cpp in Sources */,
+				B34D3B97B288CD5CFCB75857 /* CrashReportClientMainMac.cpp in Sources */,
+				6AB62B27AA728685380B8DFA /* MainLoopTiming.cpp in Sources */,
+				FECD9C9338D829CA1F189A22 /* RecoveryService.cpp in Sources */,
+				4078689F44AEFC247D53687D /* SCrashReportClient.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	06B15FD4C58B8E862682BB20 /* Embed App Extensions */ = {
+	4E1AF44741920690A65475B4 /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -90,175 +90,175 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		EE7DA526FD5D0DC5A075A4F2 /* PBXContainerItemProxy */ = {
+		A18659C9319CE0AE7FF6368D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A18659C9319CE0AE7FF6368D /* Project object */;
+			containerPortal = 1944A2826AA36A6514581FCC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 19544CFC39374E64D5C0C1F0;
+			remoteGlobalIDString = 6467962E4EAB30ABFF90C2AE;
 			remoteInfo = "CrashReportClient_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		32135DBE3ED0C59F418AE96E /* PBXTargetDependency */ = {
+		11118C6927401D29261AAC90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 19544CFC39374E64D5C0C1F0 /* CrashReportClient_Build */;
-			targetProxy = EE7DA526FD5D0DC5A075A4F2 /* PBXContainerItemProxy */;
+			target = 6467962E4EAB30ABFF90C2AE /* CrashReportClient_Build */;
+			targetProxy = A18659C9319CE0AE7FF6368D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		6467962E4EAB30ABFF90C2AE = {
+		FF54554F70CC168CC5FD3808 = {
 			isa = PBXGroup;
 			children = (
-				DAEE4B78A0EFABB3E02E2EC0 /* Programs */,
-				754465DF3DA8F315B994D48C /* Source */,
-				DFEBBB87745F281BDAFF523D /* Products */,
+				040CD37438A2553241927A9A /* Programs */,
+				6FDC7694E77F483E35BF266D /* Source */,
+				F32CA323ABFEB5AD929346E6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DAEE4B78A0EFABB3E02E2EC0 = {
+		040CD37438A2553241927A9A = {
 			isa = PBXGroup;
 			children = (
-				94EC566D1E6AEB111C2CB70E /* CrashReportClient */,
+				96784DB394E00C3892DA0E8D /* CrashReportClient */,
 			);
 			name = "Programs";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs";
 			sourceTree = "<absolute>";
 		};
-		94EC566D1E6AEB111C2CB70E = {
+		96784DB394E00C3892DA0E8D = {
 			isa = PBXGroup;
 			children = (
-				C6151EFB58234871F7E58F43 /* Config */,
+				4D362FFCCB252F6DC5B2CC18 /* Config */,
 			);
 			name = "CrashReportClient";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/CrashReportClient";
 			sourceTree = "<absolute>";
 		};
-		C6151EFB58234871F7E58F43 = {
+		4D362FFCCB252F6DC5B2CC18 = {
 			isa = PBXGroup;
 			children = (
-				E255CC4056CF39C1E6BDCD03 /* DefaultEngine.ini */,
+				F99F7AB878ACB67862656BC5 /* DefaultEngine.ini */,
 			);
 			name = "Config";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/CrashReportClient/Config";
 			sourceTree = "<absolute>";
 		};
-		754465DF3DA8F315B994D48C = {
+		6FDC7694E77F483E35BF266D = {
 			isa = PBXGroup;
 			children = (
-				80BE8DD0244350AE363CB18A /* Programs */,
+				70151A7C07BF4729FD462701 /* Programs */,
 			);
 			name = "Source";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source";
 			sourceTree = "<absolute>";
 		};
-		80BE8DD0244350AE363CB18A = {
+		70151A7C07BF4729FD462701 = {
 			isa = PBXGroup;
 			children = (
-				D0AF5ABCE5BDC9AE5C13F8DA /* CrashReportClient */,
+				7259661C620DD5E3AC3543B8 /* CrashReportClient */,
 			);
 			name = "Programs";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs";
 			sourceTree = "<absolute>";
 		};
-		D0AF5ABCE5BDC9AE5C13F8DA = {
+		7259661C620DD5E3AC3543B8 = {
 			isa = PBXGroup;
 			children = (
-				040CD37438A2553241927A9A /* Private */,
-				70151A7C07BF4729FD462701 /* Public */,
-				7259661C620DD5E3AC3543B8 /* Resources */,
-				ED93C2D4F7ADA0AD9A67AFC0 /* CrashReportClient.Build.cs */,
+				6A77511392D0588E10C28BB5 /* Private */,
+				A7CF78091A1A03F556C3FA65 /* Public */,
+				F431A3CD0150E3A8A1D69736 /* Resources */,
+				48FDF6650AEFDFAE6E551624 /* CrashReportClient.Build.cs */,
 				CEDBC2E8B849B360A801E011 /* CrashReportClient.Target.cs */,
-				48FDF6650AEFDFAE6E551624 /* CrashReportClientEditor.Build.cs */,
+				8F1A6A2D506D1AD7D9CA8CF9 /* CrashReportClientEditor.Build.cs */,
 			);
 			name = "CrashReportClient";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient";
 			sourceTree = "<absolute>";
 		};
-		040CD37438A2553241927A9A = {
+		6A77511392D0588E10C28BB5 = {
 			isa = PBXGroup;
 			children = (
-				96784DB394E00C3892DA0E8D /* Linux */,
-				4D362FFCCB252F6DC5B2CC18 /* Mac */,
-				6FDC7694E77F483E35BF266D /* Windows */,
-				8F1A6A2D506D1AD7D9CA8CF9 /* CrashReportAnalyticsSessionSummary.cpp */,
-				B2187D3731EF43D8B7FBD5EF /* CrashReportAnalyticsSessionSummary.h */,
-				CC3842B31DB5168D97347B37 /* CrashReportClient.cpp */,
-				A35055A6B6E60F0FA0146AF9 /* CrashReportClient.h */,
-				9961157361BC031A106D10CC /* CrashReportClientApp.cpp */,
-				F83FD51E5AD79E7C3FFD0C54 /* CrashReportClientDefines.h */,
-				70A62BCA8F35DFED241F7B22 /* CrashReportClientStyle.cpp */,
-				BEB2CA28C2FD75099C60ADB3 /* CrashReportClientStyle.h */,
-				90AF71ED624111EEC4A10BDD /* MainLoopTiming.cpp */,
-				A682424452316933B4A09712 /* MainLoopTiming.h */,
-				F40805AD0577F284227646DF /* RecoveryService.cpp */,
-				CB2B37791C833297E3DA5049 /* RecoveryService.h */,
-				225BD1EFE5D448DB6EE3E2D9 /* SCrashReportClient.cpp */,
-				AAEC1D0D2884E005CFB557C1 /* SCrashReportClient.h */,
+				0AB365056AA21A29B574218D /* Linux */,
+				182CDB27EA42C03BD162128F /* Mac */,
+				6E34972DED98F0AFCDB111AF /* Windows */,
+				B2187D3731EF43D8B7FBD5EF /* CrashReportAnalyticsSessionSummary.cpp */,
+				CC3842B31DB5168D97347B37 /* CrashReportAnalyticsSessionSummary.h */,
+				A35055A6B6E60F0FA0146AF9 /* CrashReportClient.cpp */,
+				9961157361BC031A106D10CC /* CrashReportClient.h */,
+				F83FD51E5AD79E7C3FFD0C54 /* CrashReportClientApp.cpp */,
+				70A62BCA8F35DFED241F7B22 /* CrashReportClientDefines.h */,
+				BEB2CA28C2FD75099C60ADB3 /* CrashReportClientStyle.cpp */,
+				90AF71ED624111EEC4A10BDD /* CrashReportClientStyle.h */,
+				A682424452316933B4A09712 /* MainLoopTiming.cpp */,
+				F40805AD0577F284227646DF /* MainLoopTiming.h */,
+				CB2B37791C833297E3DA5049 /* RecoveryService.cpp */,
+				225BD1EFE5D448DB6EE3E2D9 /* RecoveryService.h */,
+				AAEC1D0D2884E005CFB557C1 /* SCrashReportClient.cpp */,
+				AA50D193CA3703CEF35445F9 /* SCrashReportClient.h */,
 			);
 			name = "Private";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private";
 			sourceTree = "<absolute>";
 		};
-		96784DB394E00C3892DA0E8D = {
+		0AB365056AA21A29B574218D = {
 			isa = PBXGroup;
 			children = (
-				AA50D193CA3703CEF35445F9 /* CrashReportClientMainLinux.cpp */,
+				FCEC91097720A355EFE862D8 /* CrashReportClientMainLinux.cpp */,
 			);
 			name = "Linux";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/Linux";
 			sourceTree = "<absolute>";
 		};
-		4D362FFCCB252F6DC5B2CC18 = {
+		182CDB27EA42C03BD162128F = {
 			isa = PBXGroup;
 			children = (
-				FCEC91097720A355EFE862D8 /* CrashReportClientMainMac.cpp */,
+				C1F244FC4971130361CF96DD /* CrashReportClientMainMac.cpp */,
 			);
 			name = "Mac";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/Mac";
 			sourceTree = "<absolute>";
 		};
-		6FDC7694E77F483E35BF266D = {
+		6E34972DED98F0AFCDB111AF = {
 			isa = PBXGroup;
 			children = (
-				C1F244FC4971130361CF96DD /* CrashReportClientMainWindows.cpp */,
+				A172D898D9910545933A4785 /* CrashReportClientMainWindows.cpp */,
 			);
 			name = "Windows";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/Windows";
 			sourceTree = "<absolute>";
 		};
-		70151A7C07BF4729FD462701 = {
+		A7CF78091A1A03F556C3FA65 = {
 			isa = PBXGroup;
 			children = (
-				A172D898D9910545933A4785 /* CrashReportClientApp.h */,
+				31FAAB0DAD8A7EE6BC8E5BD7 /* CrashReportClientApp.h */,
 			);
 			name = "Public";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Public";
 			sourceTree = "<absolute>";
 		};
-		7259661C620DD5E3AC3543B8 = {
+		F431A3CD0150E3A8A1D69736 = {
 			isa = PBXGroup;
 			children = (
-				6A77511392D0588E10C28BB5 /* Mac */,
+				0BED3B1C8371C0671A2C7F1A /* Mac */,
 			);
 			name = "Resources";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Resources";
 			sourceTree = "<absolute>";
 		};
-		6A77511392D0588E10C28BB5 = {
+		0BED3B1C8371C0671A2C7F1A = {
 			isa = PBXGroup;
 			children = (
-				31FAAB0DAD8A7EE6BC8E5BD7 /* Info.plist */,
+				E38CF8786351FE43802067DF /* Info.plist */,
 			);
 			name = "Mac";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Resources/Mac";
 			sourceTree = "<absolute>";
 		};
-		DFEBBB87745F281BDAFF523D /* Products */ = {
+		F32CA323ABFEB5AD929346E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E9E70B197EDD56AFBA01594F /* CrashReportClient */,
+				16E9309B0BD4CC16E193BE44 /* CrashReportClient */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -266,10 +266,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		19544CFC39374E64D5C0C1F0 /* CrashReportClient_Build */ = {
+		6467962E4EAB30ABFF90C2AE /* CrashReportClient_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 6CEE3CD055F1D0BD6F6BD456 /* Build configuration list for PBXLegacyTarget "CrashReportClient_Build" */;
+			buildConfigurationList = DFEBBB87745F281BDAFF523D /* Build configuration list for PBXLegacyTarget "CrashReportClient_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -283,30 +283,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		1270738C6377138BCDFED68F /* CrashReportClient */ = {
+		6CEE3CD055F1D0BD6F6BD456 /* CrashReportClient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEBE2FB06E1114392D63B671 /* Build configuration list for PBXNativeTarget "CrashReportClient" */;
+			buildConfigurationList = C5AB20643439B4EC24550DA8 /* Build configuration list for PBXNativeTarget "CrashReportClient" */;
 			buildPhases = (
-				06B15FD4C58B8E862682BB20 /* Embed App Extensions */, 
-				1944A2826AA36A6514581FCC /* Shell Script */, 
+				4E1AF44741920690A65475B4 /* Embed App Extensions */, 
+				11C31F873BD3306B0D6E214B /* Shell Script */, 
 			);
 			dependencies = (
-				32135DBE3ED0C59F418AE96E /* PBXTargetDependency */,
+				11118C6927401D29261AAC90 /* PBXTargetDependency */,
 			);
 			name = "CrashReportClient";
 			passBuildSettingsInEnvironment = 1;
 			productName = "CrashReportClient";
-			productReference = "E9E70B197EDD56AFBA01594F";
+			productReference = "16E9309B0BD4CC16E193BE44";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		C5AB20643439B4EC24550DA8 /* CrashReportClient_Index */ = {
+		0F811D514D96AF0DC71564CA /* CrashReportClient_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11118C6927401D29261AAC90 /* Build configuration list for PBXNativeTarget "CrashReportClient_Index" */;
+			buildConfigurationList = 06B15FD4C58B8E862682BB20 /* Build configuration list for PBXNativeTarget "CrashReportClient_Index" */;
 			buildPhases = (
-				0F811D514D96AF0DC71564CA /* Sources */,
+				2D25A4719BF09927C3DF8316 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -318,38 +318,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A18659C9319CE0AE7FF6368D /* Project object */ = {
+		1944A2826AA36A6514581FCC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					1270738C6377138BCDFED68F = {
+					6CEE3CD055F1D0BD6F6BD456 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 16E9309B0BD4CC16E193BE44 /* Build configuration list for PBXProject "CrashReportClient" */;
+			buildConfigurationList = 8DDE5D69E1B4E6CA86F181C2 /* Build configuration list for PBXProject "CrashReportClient" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 6467962E4EAB30ABFF90C2AE;
-			productRefGroup = DFEBBB87745F281BDAFF523D;
+			mainGroup = FF54554F70CC168CC5FD3808;
+			productRefGroup = F32CA323ABFEB5AD929346E6;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			1270738C6377138BCDFED68F /* CrashReportClient */,
-			19544CFC39374E64D5C0C1F0 /* CrashReportClient_Build */,
-			C5AB20643439B4EC24550DA8 /* CrashReportClient_Index */,
+			6CEE3CD055F1D0BD6F6BD456 /* CrashReportClient */,
+			6467962E4EAB30ABFF90C2AE /* CrashReportClient_Build */,
+			0F811D514D96AF0DC71564CA /* CrashReportClient_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		8DDE5D69E1B4E6CA86F181C2 /* "Debug" */ = {
+		28A5F1D463104514A98CD490 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -463,7 +463,7 @@
 			};
 			name = "Debug";
 		};
-		4E1AF44741920690A65475B4 /* "Development" */ = {
+		6730DF582E499B3845190351 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -576,7 +576,7 @@
 			};
 			name = "Development";
 		};
-		D111EBEFAE1708DFF8A81F9C /* "Shipping" */ = {
+		FA7700FAF71B7E98D284CF83 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -689,7 +689,7 @@
 			};
 			name = "Shipping";
 		};
-		FF54554F70CC168CC5FD3808 /* "Debug" */ = {
+		0A6E6CFF8CB540D8AFF05FD7 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -706,7 +706,7 @@
 			};
 			name = "Debug";
 		};
-		11C31F873BD3306B0D6E214B /* "Development" */ = {
+		2555669284F497614FCF5E5A /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -723,7 +723,7 @@
 			};
 			name = "Development";
 		};
-		A1312D950F600A84EF8E7DCD /* "Shipping" */ = {
+		804C526A31C0BD06CEE85BD4 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -740,7 +740,7 @@
 			};
 			name = "Shipping";
 		};
-		F32CA323ABFEB5AD929346E6 /* "Debug" */ = {
+		D111EBEFAE1708DFF8A81F9C /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -753,7 +753,7 @@
 			};
 			name = "Debug";
 		};
-		28A5F1D463104514A98CD490 /* "Development" */ = {
+		88AAC84FE5DBE842941E877D /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -766,7 +766,7 @@
 			};
 			name = "Development";
 		};
-		6730DF582E499B3845190351 /* "Shipping" */ = {
+		43E8546879D72CAC3A0F556D /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -779,7 +779,7 @@
 			};
 			name = "Shipping";
 		};
-		2D25A4719BF09927C3DF8316 /* "Debug" */ = {
+		A1312D950F600A84EF8E7DCD /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -796,7 +796,7 @@
 			};
 			name = "Debug";
 		};
-		0A6E6CFF8CB540D8AFF05FD7 /* "Development" */ = {
+		37B0B1AF0CE656872EDC70B9 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -813,7 +813,7 @@
 			};
 			name = "Development";
 		};
-		2555669284F497614FCF5E5A /* "Shipping" */ = {
+		DAEE4B78A0EFABB3E02E2EC0 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -833,47 +833,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16E9309B0BD4CC16E193BE44 /* Build configuration list for PBXProject "CrashReportClient" */ = {
+		8DDE5D69E1B4E6CA86F181C2 /* Build configuration list for PBXProject "CrashReportClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DDE5D69E1B4E6CA86F181C2 /* "Debug" */,
-				4E1AF44741920690A65475B4 /* "Development" */,
-				D111EBEFAE1708DFF8A81F9C /* "Shipping" */,
+				28A5F1D463104514A98CD490 /* "Debug" */,
+				6730DF582E499B3845190351 /* "Development" */,
+				FA7700FAF71B7E98D284CF83 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		6CEE3CD055F1D0BD6F6BD456 /* Build configuration list for PBXLegacyTarget "CrashReportClient_Build" */ = {
+		DFEBBB87745F281BDAFF523D /* Build configuration list for PBXLegacyTarget "CrashReportClient_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F32CA323ABFEB5AD929346E6 /* "Debug" */,
-				28A5F1D463104514A98CD490 /* "Development" */,
-				6730DF582E499B3845190351 /* "Shipping" */,
+				D111EBEFAE1708DFF8A81F9C /* "Debug" */,
+				88AAC84FE5DBE842941E877D /* "Development" */,
+				43E8546879D72CAC3A0F556D /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		EEBE2FB06E1114392D63B671 /* Build configuration list for PBXNativeTarget "CrashReportClient" */ = {
+		C5AB20643439B4EC24550DA8 /* Build configuration list for PBXNativeTarget "CrashReportClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF54554F70CC168CC5FD3808 /* "Debug" */,
-				11C31F873BD3306B0D6E214B /* "Development" */,
-				A1312D950F600A84EF8E7DCD /* "Shipping" */,
+				0A6E6CFF8CB540D8AFF05FD7 /* "Debug" */,
+				2555669284F497614FCF5E5A /* "Development" */,
+				804C526A31C0BD06CEE85BD4 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		11118C6927401D29261AAC90 /* Build configuration list for PBXNativeTarget "CrashReportClient_Index" */ = {
+		06B15FD4C58B8E862682BB20 /* Build configuration list for PBXNativeTarget "CrashReportClient_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D25A4719BF09927C3DF8316 /* "Debug" */,
-				0A6E6CFF8CB540D8AFF05FD7 /* "Development" */,
-				2555669284F497614FCF5E5A /* "Shipping" */,
+				A1312D950F600A84EF8E7DCD /* "Debug" */,
+				37B0B1AF0CE656872EDC70B9 /* "Development" */,
+				DAEE4B78A0EFABB3E02E2EC0 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A18659C9319CE0AE7FF6368D /* Project object */;
+	rootObject = 1944A2826AA36A6514581FCC /* Project object */;
 }

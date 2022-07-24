@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3D14067ED5A819E8BF800AFC"
+               BlueprintIdentifier = "31CC1A0D4212F5606F90F547"
                BuildableName = "LiveCodingConsole.app"
                BlueprintName = "LiveCodingConsole"
                ReferencedContainer = "container:LiveCodingConsole.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3D14067ED5A819E8BF800AFC"
+               BlueprintIdentifier = "31CC1A0D4212F5606F90F547"
                BuildableName = "LiveCodingConsole.app"
                BlueprintName = "LiveCodingConsole"
                ReferencedContainer = "container:LiveCodingConsole.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3D14067ED5A819E8BF800AFC"
+               BlueprintIdentifier = "31CC1A0D4212F5606F90F547"
                BuildableName = "LiveCodingConsole.app"
                BlueprintName = "LiveCodingConsole"
                ReferencedContainer = "container:LiveCodingConsole.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3D14067ED5A819E8BF800AFC"
+               BlueprintIdentifier = "31CC1A0D4212F5606F90F547"
                BuildableName = "LiveCodingConsole.app"
                BlueprintName = "LiveCodingConsole"
                ReferencedContainer = "container:LiveCodingConsole.xcodeproj">

@@ -7,43 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D84B766F46AA4C39DD0FEDF /* SZenCacheStatistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B3EDDB01360B1395DF30AE8 /* SZenCacheStatistics.cpp */; };
-		8C044984D331CFD567BFA109 /* SZenCacheStatistics.h in Sources */ = {isa = PBXBuildFile; fileRef = 34AED91E1CA26BCD85974F4A /* SZenCacheStatistics.h */; };
-		3F9B89551154CD6979CFDAF0 /* ZenDashboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020F06C0028779B9DD37B65 /* ZenDashboard.cpp */; };
-		87931CBB883D62F5B4FE4437 /* ZenDashboard.h in Sources */ = {isa = PBXBuildFile; fileRef = A77AC313F2378F65D4E8FDFC /* ZenDashboard.h */; };
-		B1FFCC5C1FB4AD6B2023CE7E /* ZenDashboardStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3712E13C6CE43B21DBB8C485 /* ZenDashboardStyle.cpp */; };
-		6564A8664315919E95200988 /* ZenDashboardStyle.h in Sources */ = {isa = PBXBuildFile; fileRef = 7006D50051D81784AC45DBE0 /* ZenDashboardStyle.h */; };
-		99F5EAFE8EEC14CD88C06508 /* ZenDashboard.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 9E8376AA891C4B9DB5C38D2A /* ZenDashboard.Build.cs */; };
+		8C044984D331CFD567BFA109 /* SZenCacheStatistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34AED91E1CA26BCD85974F4A /* SZenCacheStatistics.cpp */; };
+		3F9B89551154CD6979CFDAF0 /* SZenCacheStatistics.h in Sources */ = {isa = PBXBuildFile; fileRef = 2020F06C0028779B9DD37B65 /* SZenCacheStatistics.h */; };
+		87931CBB883D62F5B4FE4437 /* ZenDashboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77AC313F2378F65D4E8FDFC /* ZenDashboard.cpp */; };
+		B1FFCC5C1FB4AD6B2023CE7E /* ZenDashboard.h in Sources */ = {isa = PBXBuildFile; fileRef = 3712E13C6CE43B21DBB8C485 /* ZenDashboard.h */; };
+		6564A8664315919E95200988 /* ZenDashboardStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7006D50051D81784AC45DBE0 /* ZenDashboardStyle.cpp */; };
+		5553F9EFACDC20F83A47F7BA /* ZenDashboardStyle.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B47280A912FE8160858CC65 /* ZenDashboardStyle.h */; };
+		5D84B766F46AA4C39DD0FEDF /* ZenDashboard.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 5B3EDDB01360B1395DF30AE8 /* ZenDashboard.Build.cs */; };
 		DE766D0B73148CC319F34C16 /* ZenDashboard.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 73703735C8DCAA5970940557 /* ZenDashboard.Target.cs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B3EDDB01360B1395DF30AE8 /* SZenCacheStatistics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SZenCacheStatistics.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/Private/SZenCacheStatistics.cpp"; sourceTree = SOURCE_ROOT; };
-		34AED91E1CA26BCD85974F4A /* SZenCacheStatistics.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SZenCacheStatistics.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/Private/SZenCacheStatistics.h"; sourceTree = SOURCE_ROOT; };
-		2020F06C0028779B9DD37B65 /* ZenDashboard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ZenDashboard.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/Private/ZenDashboard.cpp"; sourceTree = SOURCE_ROOT; };
-		A77AC313F2378F65D4E8FDFC /* ZenDashboard.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ZenDashboard.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/Private/ZenDashboard.h"; sourceTree = SOURCE_ROOT; };
-		3712E13C6CE43B21DBB8C485 /* ZenDashboardStyle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ZenDashboardStyle.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/Private/ZenDashboardStyle.cpp"; sourceTree = SOURCE_ROOT; };
-		7006D50051D81784AC45DBE0 /* ZenDashboardStyle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ZenDashboardStyle.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/Private/ZenDashboardStyle.h"; sourceTree = SOURCE_ROOT; };
-		9E8376AA891C4B9DB5C38D2A /* ZenDashboard.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ZenDashboard.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/ZenDashboard.Build.cs"; sourceTree = SOURCE_ROOT; };
+		34AED91E1CA26BCD85974F4A /* SZenCacheStatistics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SZenCacheStatistics.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/Private/SZenCacheStatistics.cpp"; sourceTree = SOURCE_ROOT; };
+		2020F06C0028779B9DD37B65 /* SZenCacheStatistics.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SZenCacheStatistics.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/Private/SZenCacheStatistics.h"; sourceTree = SOURCE_ROOT; };
+		A77AC313F2378F65D4E8FDFC /* ZenDashboard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ZenDashboard.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/Private/ZenDashboard.cpp"; sourceTree = SOURCE_ROOT; };
+		3712E13C6CE43B21DBB8C485 /* ZenDashboard.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ZenDashboard.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/Private/ZenDashboard.h"; sourceTree = SOURCE_ROOT; };
+		7006D50051D81784AC45DBE0 /* ZenDashboardStyle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ZenDashboardStyle.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/Private/ZenDashboardStyle.cpp"; sourceTree = SOURCE_ROOT; };
+		0B47280A912FE8160858CC65 /* ZenDashboardStyle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ZenDashboardStyle.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/Private/ZenDashboardStyle.h"; sourceTree = SOURCE_ROOT; };
+		5B3EDDB01360B1395DF30AE8 /* ZenDashboard.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ZenDashboard.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/ZenDashboard.Build.cs"; sourceTree = SOURCE_ROOT; };
 		73703735C8DCAA5970940557 /* ZenDashboard.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ZenDashboard.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/ZenDashboard.Target.cs"; sourceTree = SOURCE_ROOT; };
-		7FDB243FAF3063D6F12BF7D6 /* ZenDashboard */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = ZenDashboard; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F93BE742C907783E7675D0 /* ZenDashboard */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = ZenDashboard; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B81270E84249E6C2CC039008 = {
+		42AE3333D70E42B6D73C6441 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D84B766F46AA4C39DD0FEDF /* SZenCacheStatistics.cpp in Sources */,
-				3F9B89551154CD6979CFDAF0 /* ZenDashboard.cpp in Sources */,
-				B1FFCC5C1FB4AD6B2023CE7E /* ZenDashboardStyle.cpp in Sources */,
+				8C044984D331CFD567BFA109 /* SZenCacheStatistics.cpp in Sources */,
+				87931CBB883D62F5B4FE4437 /* ZenDashboard.cpp in Sources */,
+				6564A8664315919E95200988 /* ZenDashboardStyle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	9B77157557A5261E3522797A /* Embed App Extensions */ = {
+	A0A927A801E70F5028424DCA /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -55,52 +55,52 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		8BC9DDD3182E6E6777B08923 /* PBXContainerItemProxy */ = {
+		3842D4C1D1EBADD22C144BE6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3842D4C1D1EBADD22C144BE6 /* Project object */;
+			containerPortal = 3C211EC620DFEA19298E7DA9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8996833C68E7F49629CC29D9;
+			remoteGlobalIDString = 31C95036BCB6BCA6C0D1C318;
 			remoteInfo = "ZenDashboard_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		BBB3DAE94A15C1A62CBE187B /* PBXTargetDependency */ = {
+		AB31FE8FBBF3FAB3B24AC125 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8996833C68E7F49629CC29D9 /* ZenDashboard_Build */;
-			targetProxy = 8BC9DDD3182E6E6777B08923 /* PBXContainerItemProxy */;
+			target = 31C95036BCB6BCA6C0D1C318 /* ZenDashboard_Build */;
+			targetProxy = 3842D4C1D1EBADD22C144BE6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		31C95036BCB6BCA6C0D1C318 = {
+		62DF3E40F2818C9599F6AC21 = {
 			isa = PBXGroup;
 			children = (
-				7DC485324CEA65B26F05A52F /* Private */,
-				9E8376AA891C4B9DB5C38D2A /* ZenDashboard.Build.cs */,
+				4C7800604ED5A80717B3690D /* Private */,
+				5B3EDDB01360B1395DF30AE8 /* ZenDashboard.Build.cs */,
 				73703735C8DCAA5970940557 /* ZenDashboard.Target.cs */,
-				6EC88DE659785596E6189FC2 /* Products */,
+				2A20A1ED1876DE0DF96C2F83 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7DC485324CEA65B26F05A52F = {
+		4C7800604ED5A80717B3690D = {
 			isa = PBXGroup;
 			children = (
-				5B3EDDB01360B1395DF30AE8 /* SZenCacheStatistics.cpp */,
-				34AED91E1CA26BCD85974F4A /* SZenCacheStatistics.h */,
-				2020F06C0028779B9DD37B65 /* ZenDashboard.cpp */,
-				A77AC313F2378F65D4E8FDFC /* ZenDashboard.h */,
-				3712E13C6CE43B21DBB8C485 /* ZenDashboardStyle.cpp */,
-				7006D50051D81784AC45DBE0 /* ZenDashboardStyle.h */,
+				34AED91E1CA26BCD85974F4A /* SZenCacheStatistics.cpp */,
+				2020F06C0028779B9DD37B65 /* SZenCacheStatistics.h */,
+				A77AC313F2378F65D4E8FDFC /* ZenDashboard.cpp */,
+				3712E13C6CE43B21DBB8C485 /* ZenDashboard.h */,
+				7006D50051D81784AC45DBE0 /* ZenDashboardStyle.cpp */,
+				0B47280A912FE8160858CC65 /* ZenDashboardStyle.h */,
 			);
 			name = "Private";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/Private";
 			sourceTree = "<absolute>";
 		};
-		6EC88DE659785596E6189FC2 /* Products */ = {
+		2A20A1ED1876DE0DF96C2F83 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7FDB243FAF3063D6F12BF7D6 /* ZenDashboard */,
+				F0F93BE742C907783E7675D0 /* ZenDashboard */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,10 +108,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		8996833C68E7F49629CC29D9 /* ZenDashboard_Build */ = {
+		31C95036BCB6BCA6C0D1C318 /* ZenDashboard_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 7E89F7200230590B29B66A6E /* Build configuration list for PBXLegacyTarget "ZenDashboard_Build" */;
+			buildConfigurationList = 6EC88DE659785596E6189FC2 /* Build configuration list for PBXLegacyTarget "ZenDashboard_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -125,30 +125,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		4889FDB38A6380CE52298E21 /* ZenDashboard */ = {
+		7E89F7200230590B29B66A6E /* ZenDashboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 544247B5A35B5C104F7197D1 /* Build configuration list for PBXNativeTarget "ZenDashboard" */;
+			buildConfigurationList = F181F7FB5A42895FD1064A81 /* Build configuration list for PBXNativeTarget "ZenDashboard" */;
 			buildPhases = (
-				9B77157557A5261E3522797A /* Embed App Extensions */, 
-				3C211EC620DFEA19298E7DA9 /* Shell Script */, 
+				A0A927A801E70F5028424DCA /* Embed App Extensions */, 
+				605D52C1A73DE8F6B0BBFE43 /* Shell Script */, 
 			);
 			dependencies = (
-				BBB3DAE94A15C1A62CBE187B /* PBXTargetDependency */,
+				AB31FE8FBBF3FAB3B24AC125 /* PBXTargetDependency */,
 			);
 			name = "ZenDashboard";
 			passBuildSettingsInEnvironment = 1;
 			productName = "ZenDashboard";
-			productReference = "7FDB243FAF3063D6F12BF7D6";
+			productReference = "F0F93BE742C907783E7675D0";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		F181F7FB5A42895FD1064A81 /* ZenDashboard_Index */ = {
+		B81270E84249E6C2CC039008 /* ZenDashboard_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB31FE8FBBF3FAB3B24AC125 /* Build configuration list for PBXNativeTarget "ZenDashboard_Index" */;
+			buildConfigurationList = 9B77157557A5261E3522797A /* Build configuration list for PBXNativeTarget "ZenDashboard_Index" */;
 			buildPhases = (
-				B81270E84249E6C2CC039008 /* Sources */,
+				42AE3333D70E42B6D73C6441 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -160,38 +160,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3842D4C1D1EBADD22C144BE6 /* Project object */ = {
+		3C211EC620DFEA19298E7DA9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					4889FDB38A6380CE52298E21 = {
+					7E89F7200230590B29B66A6E = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = F0F93BE742C907783E7675D0 /* Build configuration list for PBXProject "ZenDashboard" */;
+			buildConfigurationList = 46D46377EA014B6A38854AE2 /* Build configuration list for PBXProject "ZenDashboard" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 31C95036BCB6BCA6C0D1C318;
-			productRefGroup = 6EC88DE659785596E6189FC2;
+			mainGroup = 62DF3E40F2818C9599F6AC21;
+			productRefGroup = 2A20A1ED1876DE0DF96C2F83;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			4889FDB38A6380CE52298E21 /* ZenDashboard */,
-			8996833C68E7F49629CC29D9 /* ZenDashboard_Build */,
-			F181F7FB5A42895FD1064A81 /* ZenDashboard_Index */,
+			7E89F7200230590B29B66A6E /* ZenDashboard */,
+			31C95036BCB6BCA6C0D1C318 /* ZenDashboard_Build */,
+			B81270E84249E6C2CC039008 /* ZenDashboard_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		46D46377EA014B6A38854AE2 /* "Debug" */ = {
+		4D58BE8BB4F54AEDBB5F4D6E /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -268,7 +268,7 @@
 			};
 			name = "Debug";
 		};
-		A0A927A801E70F5028424DCA /* "DebugGame" */ = {
+		31D69AD160FEE1E58544CE33 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -344,7 +344,7 @@
 			};
 			name = "DebugGame";
 		};
-		BC800F99546E90E4ABE35AA8 /* "Development" */ = {
+		C6C130A81F0596CDEEC28E39 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -420,7 +420,7 @@
 			};
 			name = "Development";
 		};
-		4227070159D369D90E9D687D /* "Test" */ = {
+		EA700AC04403FFAB4720C408 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -496,7 +496,7 @@
 			};
 			name = "Test";
 		};
-		E4176A65400221D9DBC03A98 /* "Shipping" */ = {
+		0DA26F7BEC7F7BF760EF8428 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -572,7 +572,7 @@
 			};
 			name = "Shipping";
 		};
-		62DF3E40F2818C9599F6AC21 /* "Debug" */ = {
+		4F350B115CDE5A006168D379 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -589,7 +589,7 @@
 			};
 			name = "Debug";
 		};
-		605D52C1A73DE8F6B0BBFE43 /* "DebugGame" */ = {
+		E6B0994DCF68C36BDB63E7D7 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -606,7 +606,7 @@
 			};
 			name = "DebugGame";
 		};
-		29849C32F85F0F0010E37171 /* "Development" */ = {
+		F6E08BB2DBF52449481B7910 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -623,7 +623,7 @@
 			};
 			name = "Development";
 		};
-		D4BE83AC017522E5B6684C47 /* "Test" */ = {
+		9B308DECA1B45E36A5F2101A /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -640,7 +640,7 @@
 			};
 			name = "Test";
 		};
-		A2C0B908079A8E112F4AB521 /* "Shipping" */ = {
+		C1501EDF3F2AA653B5BCF341 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -657,7 +657,7 @@
 			};
 			name = "Shipping";
 		};
-		2A20A1ED1876DE0DF96C2F83 /* "Debug" */ = {
+		BC800F99546E90E4ABE35AA8 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -670,7 +670,7 @@
 			};
 			name = "Debug";
 		};
-		4D58BE8BB4F54AEDBB5F4D6E /* "DebugGame" */ = {
+		4227070159D369D90E9D687D /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -683,7 +683,7 @@
 			};
 			name = "DebugGame";
 		};
-		31D69AD160FEE1E58544CE33 /* "Development" */ = {
+		E4176A65400221D9DBC03A98 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -696,7 +696,7 @@
 			};
 			name = "Development";
 		};
-		C6C130A81F0596CDEEC28E39 /* "Test" */ = {
+		3C1B42AE8C68E09961487BD0 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -709,7 +709,7 @@
 			};
 			name = "Test";
 		};
-		EA700AC04403FFAB4720C408 /* "Shipping" */ = {
+		1F857516A18E1E8BAE6BA1EA /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -722,7 +722,7 @@
 			};
 			name = "Shipping";
 		};
-		42AE3333D70E42B6D73C6441 /* "Debug" */ = {
+		29849C32F85F0F0010E37171 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -739,7 +739,7 @@
 			};
 			name = "Debug";
 		};
-		4F350B115CDE5A006168D379 /* "DebugGame" */ = {
+		D4BE83AC017522E5B6684C47 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -756,7 +756,7 @@
 			};
 			name = "DebugGame";
 		};
-		E6B0994DCF68C36BDB63E7D7 /* "Development" */ = {
+		A2C0B908079A8E112F4AB521 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -773,7 +773,7 @@
 			};
 			name = "Development";
 		};
-		F6E08BB2DBF52449481B7910 /* "Test" */ = {
+		F86095D8C08F5181FCB16DD6 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -790,7 +790,7 @@
 			};
 			name = "Test";
 		};
-		9B308DECA1B45E36A5F2101A /* "Shipping" */ = {
+		F865ACE2CD837009DB6D166F /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -810,55 +810,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F0F93BE742C907783E7675D0 /* Build configuration list for PBXProject "ZenDashboard" */ = {
+		46D46377EA014B6A38854AE2 /* Build configuration list for PBXProject "ZenDashboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46D46377EA014B6A38854AE2 /* "Debug" */,
-				A0A927A801E70F5028424DCA /* "DebugGame" */,
-				BC800F99546E90E4ABE35AA8 /* "Development" */,
-				4227070159D369D90E9D687D /* "Test" */,
-				E4176A65400221D9DBC03A98 /* "Shipping" */,
+				4D58BE8BB4F54AEDBB5F4D6E /* "Debug" */,
+				31D69AD160FEE1E58544CE33 /* "DebugGame" */,
+				C6C130A81F0596CDEEC28E39 /* "Development" */,
+				EA700AC04403FFAB4720C408 /* "Test" */,
+				0DA26F7BEC7F7BF760EF8428 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		7E89F7200230590B29B66A6E /* Build configuration list for PBXLegacyTarget "ZenDashboard_Build" */ = {
+		6EC88DE659785596E6189FC2 /* Build configuration list for PBXLegacyTarget "ZenDashboard_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A20A1ED1876DE0DF96C2F83 /* "Debug" */,
-				4D58BE8BB4F54AEDBB5F4D6E /* "DebugGame" */,
-				31D69AD160FEE1E58544CE33 /* "Development" */,
-				C6C130A81F0596CDEEC28E39 /* "Test" */,
-				EA700AC04403FFAB4720C408 /* "Shipping" */,
+				BC800F99546E90E4ABE35AA8 /* "Debug" */,
+				4227070159D369D90E9D687D /* "DebugGame" */,
+				E4176A65400221D9DBC03A98 /* "Development" */,
+				3C1B42AE8C68E09961487BD0 /* "Test" */,
+				1F857516A18E1E8BAE6BA1EA /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		544247B5A35B5C104F7197D1 /* Build configuration list for PBXNativeTarget "ZenDashboard" */ = {
+		F181F7FB5A42895FD1064A81 /* Build configuration list for PBXNativeTarget "ZenDashboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62DF3E40F2818C9599F6AC21 /* "Debug" */,
-				605D52C1A73DE8F6B0BBFE43 /* "DebugGame" */,
-				29849C32F85F0F0010E37171 /* "Development" */,
-				D4BE83AC017522E5B6684C47 /* "Test" */,
-				A2C0B908079A8E112F4AB521 /* "Shipping" */,
+				4F350B115CDE5A006168D379 /* "Debug" */,
+				E6B0994DCF68C36BDB63E7D7 /* "DebugGame" */,
+				F6E08BB2DBF52449481B7910 /* "Development" */,
+				9B308DECA1B45E36A5F2101A /* "Test" */,
+				C1501EDF3F2AA653B5BCF341 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		AB31FE8FBBF3FAB3B24AC125 /* Build configuration list for PBXNativeTarget "ZenDashboard_Index" */ = {
+		9B77157557A5261E3522797A /* Build configuration list for PBXNativeTarget "ZenDashboard_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42AE3333D70E42B6D73C6441 /* "Debug" */,
-				4F350B115CDE5A006168D379 /* "DebugGame" */,
-				E6B0994DCF68C36BDB63E7D7 /* "Development" */,
-				F6E08BB2DBF52449481B7910 /* "Test" */,
-				9B308DECA1B45E36A5F2101A /* "Shipping" */,
+				29849C32F85F0F0010E37171 /* "Debug" */,
+				D4BE83AC017522E5B6684C47 /* "DebugGame" */,
+				A2C0B908079A8E112F4AB521 /* "Development" */,
+				F86095D8C08F5181FCB16DD6 /* "Test" */,
+				F865ACE2CD837009DB6D166F /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3842D4C1D1EBADD22C144BE6 /* Project object */;
+	rootObject = 3C211EC620DFEA19298E7DA9 /* Project object */;
 }

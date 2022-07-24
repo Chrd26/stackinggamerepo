@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1EE09FD55B5E9EC69CA10A38"
+               BlueprintIdentifier = "5F8E94A7D4062384A112C0FE"
                BuildableName = "UnrealVersionSelector.app"
                BlueprintName = "UnrealVersionSelector"
                ReferencedContainer = "container:UnrealVersionSelector.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1EE09FD55B5E9EC69CA10A38"
+               BlueprintIdentifier = "5F8E94A7D4062384A112C0FE"
                BuildableName = "UnrealVersionSelector.app"
                BlueprintName = "UnrealVersionSelector"
                ReferencedContainer = "container:UnrealVersionSelector.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1EE09FD55B5E9EC69CA10A38"
+               BlueprintIdentifier = "5F8E94A7D4062384A112C0FE"
                BuildableName = "UnrealVersionSelector.app"
                BlueprintName = "UnrealVersionSelector"
                ReferencedContainer = "container:UnrealVersionSelector.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1EE09FD55B5E9EC69CA10A38"
+               BlueprintIdentifier = "5F8E94A7D4062384A112C0FE"
                BuildableName = "UnrealVersionSelector.app"
                BlueprintName = "UnrealVersionSelector"
                ReferencedContainer = "container:UnrealVersionSelector.xcodeproj">

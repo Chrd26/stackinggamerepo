@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0D6222A0B7FCF2B1D1E038DE"
+               BlueprintIdentifier = "6285E0E3CA80E724084A0249"
                BuildableName = "SwitchboardListener.app"
                BlueprintName = "SwitchboardListener"
                ReferencedContainer = "container:SwitchboardListener.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0D6222A0B7FCF2B1D1E038DE"
+               BlueprintIdentifier = "6285E0E3CA80E724084A0249"
                BuildableName = "SwitchboardListener.app"
                BlueprintName = "SwitchboardListener"
                ReferencedContainer = "container:SwitchboardListener.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0D6222A0B7FCF2B1D1E038DE"
+               BlueprintIdentifier = "6285E0E3CA80E724084A0249"
                BuildableName = "SwitchboardListener.app"
                BlueprintName = "SwitchboardListener"
                ReferencedContainer = "container:SwitchboardListener.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0D6222A0B7FCF2B1D1E038DE"
+               BlueprintIdentifier = "6285E0E3CA80E724084A0249"
                BuildableName = "SwitchboardListener.app"
                BlueprintName = "SwitchboardListener"
                ReferencedContainer = "container:SwitchboardListener.xcodeproj">

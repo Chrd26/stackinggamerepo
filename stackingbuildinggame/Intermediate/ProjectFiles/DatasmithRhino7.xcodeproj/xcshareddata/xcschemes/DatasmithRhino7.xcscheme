@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F405BBA635FD4C9030CE7AF3"
+               BlueprintIdentifier = "C38F76D2DCA7A19E42342904"
                BuildableName = "DatasmithRhino7"
                BlueprintName = "DatasmithRhino7"
                ReferencedContainer = "container:DatasmithRhino7.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F405BBA635FD4C9030CE7AF3"
+            BlueprintIdentifier = "C38F76D2DCA7A19E42342904"
             BuildableName = "DatasmithRhino7"
             BlueprintName = "DatasmithRhino7"
             ReferencedContainer = "container:DatasmithRhino7.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F405BBA635FD4C9030CE7AF3"
+            BlueprintIdentifier = "C38F76D2DCA7A19E42342904"
             BuildableName = "DatasmithRhino7"
             BlueprintName = "DatasmithRhino7"
             ReferencedContainer = "container:DatasmithRhino7.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F405BBA635FD4C9030CE7AF3"
+            BlueprintIdentifier = "C38F76D2DCA7A19E42342904"
             BuildableName = "DatasmithRhino7"
             BlueprintName = "DatasmithRhino7"
             ReferencedContainer = "container:DatasmithRhino7.xcodeproj">

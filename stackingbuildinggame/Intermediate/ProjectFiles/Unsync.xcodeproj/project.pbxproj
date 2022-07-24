@@ -7,204 +7,204 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D921BA656D1F5AB6DF02813 /* CMakeLists.txt in Sources */ = {isa = PBXBuildFile; fileRef = 53A078F203AA615DA6BC5D70 /* CMakeLists.txt */; };
-		B6A179E387364FB624570803 /* UnsyncBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C82E6B726A48B752F27AE72 /* UnsyncBuffer.cpp */; };
-		23C994096AF081015459FEA3 /* UnsyncBuffer.h in Sources */ = {isa = PBXBuildFile; fileRef = 02F667275E8780E986CF08F1 /* UnsyncBuffer.h */; };
-		9542F8D5AF2E8B8EF206BFBE /* UnsyncCmdDiff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1454C34D507AEB38343B430 /* UnsyncCmdDiff.cpp */; };
-		3D6317A8A7C5EB54C0A37428 /* UnsyncCmdDiff.h in Sources */ = {isa = PBXBuildFile; fileRef = F7AC5126CE6FB0FB36A98618 /* UnsyncCmdDiff.h */; };
-		3A4B137F20556E518DC8984C /* UnsyncCmdHash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16E2E72C1A6BFDFDD1243D29 /* UnsyncCmdHash.cpp */; };
-		B588E41393B8F994DDFF6D5B /* UnsyncCmdHash.h in Sources */ = {isa = PBXBuildFile; fileRef = B26C336B35229A2F140510EB /* UnsyncCmdHash.h */; };
-		8884E1CAAB8847160EE9C998 /* UnsyncCmdPatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 705ABED5CE036F16758C79AE /* UnsyncCmdPatch.cpp */; };
-		3791C8AF8A0E15B077F98B0E /* UnsyncCmdPatch.h in Sources */ = {isa = PBXBuildFile; fileRef = D72FE854B8564DC8A29BFADA /* UnsyncCmdPatch.h */; };
-		63C5601095FA75FC0A329219 /* UnsyncCmdPush.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF978C00D4182077CFB0FD9F /* UnsyncCmdPush.cpp */; };
-		1B1A5E1F3EB10B9C97ED4CC5 /* UnsyncCmdPush.h in Sources */ = {isa = PBXBuildFile; fileRef = AD051B7D848F04A49CCE9420 /* UnsyncCmdPush.h */; };
-		CA4DF48A7A830BB2C7C1F47B /* UnsyncCmdQuery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B55BD5927F682D24BC752CE /* UnsyncCmdQuery.cpp */; };
-		FDA3F240AC59034D853D55F1 /* UnsyncCmdQuery.h in Sources */ = {isa = PBXBuildFile; fileRef = BC802114E299FDEC109FE12E /* UnsyncCmdQuery.h */; };
-		D1AA7DA54BC2D402FA258CD7 /* UnsyncCmdSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90CA066EBDA7F55D00CB9DA6 /* UnsyncCmdSync.cpp */; };
-		D56EF0B2C965BE5DC1C46E01 /* UnsyncCmdSync.h in Sources */ = {isa = PBXBuildFile; fileRef = DB5D01C36952F796F34A8317 /* UnsyncCmdSync.h */; };
-		928F2E68AA842D060DD6CFDD /* UnsyncCommon.h in Sources */ = {isa = PBXBuildFile; fileRef = D2213994672F15CC5B05925F /* UnsyncCommon.h */; };
-		A632F4AED406B28BEBD8203A /* UnsyncCompression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3656B33D9668F3058E24F047 /* UnsyncCompression.cpp */; };
-		18622FC434B7BB8CFCCEC277 /* UnsyncCompression.h in Sources */ = {isa = PBXBuildFile; fileRef = 8F7E31072444F2FA01FE5D11 /* UnsyncCompression.h */; };
-		7BD735F3118DD18241AC9572 /* UnsyncCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6ED56331C933D68933CAD17 /* UnsyncCore.cpp */; };
-		36ECE14A31F64519041E495C /* UnsyncCore.h in Sources */ = {isa = PBXBuildFile; fileRef = 81C87B6FFD3F35E2E9BF3036 /* UnsyncCore.h */; };
-		EDBEDD6DC1F57D3F2A1DBC24 /* UnsyncError.h in Sources */ = {isa = PBXBuildFile; fileRef = AC87504A677C6DB7A4FAB253 /* UnsyncError.h */; };
-		17CD6A5406CA2E77BBAA5D73 /* UnsyncFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19D8580EA10A32630C56C375 /* UnsyncFile.cpp */; };
-		EEEB7B6C517891F30C8955F4 /* UnsyncFile.h in Sources */ = {isa = PBXBuildFile; fileRef = 8B28395FEF4568012ADD318E /* UnsyncFile.h */; };
-		235F169AC74E47C109F4651B /* UnsyncHash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC12542186A678F82648378 /* UnsyncHash.cpp */; };
-		D0D374C7EDC24B11B9ED49F2 /* UnsyncHash.h in Sources */ = {isa = PBXBuildFile; fileRef = 62F72BBD4294EA96C31D102D /* UnsyncHash.h */; };
-		1F26E8C076A20CBFDC9DC9F4 /* UnsyncHttp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D980D347A95361617833E021 /* UnsyncHttp.cpp */; };
-		3EA94DED79EDB4B2C247A7C7 /* UnsyncHttp.h in Sources */ = {isa = PBXBuildFile; fileRef = D98B9B17E08915C42E37E3C1 /* UnsyncHttp.h */; };
-		C1A2EC70BCAEB4EB45C781CC /* UnsyncJupiter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 541E45EEE9163192D80B6D1E /* UnsyncJupiter.cpp */; };
-		B84A81EF1D1BF307C68B2BD6 /* UnsyncJupiter.h in Sources */ = {isa = PBXBuildFile; fileRef = 0044F61492BB821109CFC2C1 /* UnsyncJupiter.h */; };
-		4326DB170651E8B635CEB871 /* UnsyncLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5CE2AD47A06C8F36FEEA4 /* UnsyncLog.cpp */; };
-		1F1DFF1C895B14E987BFACF6 /* UnsyncLog.h in Sources */ = {isa = PBXBuildFile; fileRef = 40DB0175A375A1318C84E6CD /* UnsyncLog.h */; };
-		ED573D8FC8F9CED43836F7E8 /* UnsyncMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51CC2DD9BACEEA6D19D7E9F9 /* UnsyncMain.cpp */; };
-		7991257DCDBC189B36312E31 /* UnsyncMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E85208EF1D7BE09E31823D7 /* UnsyncMemory.cpp */; };
-		48C877BD9A78B4166E441537 /* UnsyncMemory.h in Sources */ = {isa = PBXBuildFile; fileRef = D450067C1E5CB11F9DFBBA35 /* UnsyncMemory.h */; };
-		AE5C7C4119E015616D4E3504 /* UnsyncMiniCb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 445A00BE7D18C3DA6FE8B9A0 /* UnsyncMiniCb.cpp */; };
-		D141EB876604394C0E420E3E /* UnsyncMiniCb.h in Sources */ = {isa = PBXBuildFile; fileRef = FC73FD8D2EB4CA851B0237C3 /* UnsyncMiniCb.h */; };
-		5BF3A28438DFC5C6A2DC70D7 /* UnsyncPool.h in Sources */ = {isa = PBXBuildFile; fileRef = F48EFA6914E9F6024CC2C209 /* UnsyncPool.h */; };
-		1B35ABBA1E3485CF0A272B72 /* UnsyncProtocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61B5132E7C489C1F032598A0 /* UnsyncProtocol.cpp */; };
-		BA6071310B34779931986903 /* UnsyncProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = 340BA86E56A1CCCD6387075F /* UnsyncProtocol.h */; };
-		D5C8860326A206F59C0B00BD /* UnsyncProxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C253C3D6B09141C94B0FFA71 /* UnsyncProxy.cpp */; };
-		A02DC86259CB3D3259115B43 /* UnsyncProxy.h in Sources */ = {isa = PBXBuildFile; fileRef = AE73738F917467280AEAAB03 /* UnsyncProxy.h */; };
-		DDF61DD1463D13C6CD1563F8 /* UnsyncRemote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9A49BD0CECD63B0F780283C /* UnsyncRemote.cpp */; };
-		1EB137D7A8D166B582C58463 /* UnsyncRemote.h in Sources */ = {isa = PBXBuildFile; fileRef = AE6CEC1BFE957599107AB5ED /* UnsyncRemote.h */; };
-		D896593C86FA0B5DCEE0B294 /* UnsyncScan.h in Sources */ = {isa = PBXBuildFile; fileRef = 063C1DFCAEAE75131F382262 /* UnsyncScan.h */; };
-		E148B2620A8F2CA4FB4AFE12 /* UnsyncSerialization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78292E88B92795CDB95815C2 /* UnsyncSerialization.cpp */; };
-		7879EA6105A2CE9F73F75B3E /* UnsyncSerialization.h in Sources */ = {isa = PBXBuildFile; fileRef = 47A9523EB40E98BB3D0B8384 /* UnsyncSerialization.h */; };
-		7FED59F7A355A88932F0E991 /* UnsyncSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4CA9F597B5F9E80CEF04010 /* UnsyncSocket.cpp */; };
-		D55618ABBF59846CF565E217 /* UnsyncSocket.h in Sources */ = {isa = PBXBuildFile; fileRef = 48D6FC1E4ED10B57BFC09AEA /* UnsyncSocket.h */; };
-		6E3E40DE6D02B68FAC49224C /* UnsyncTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCC9D96B7D9C3FE88711A5 /* UnsyncTest.cpp */; };
-		627F32FCE4E95014BC2E3C81 /* UnsyncTest.h in Sources */ = {isa = PBXBuildFile; fileRef = 19A6FFF2AF536AFFB3AFE251 /* UnsyncTest.h */; };
-		0832EB42245B01E72D9A7BED /* UnsyncThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0BAAAC3F80E900DC048C0C5 /* UnsyncThread.cpp */; };
-		7DA990941C12F2B29CE0F4B2 /* UnsyncThread.h in Sources */ = {isa = PBXBuildFile; fileRef = FD0EEF602D55537E2A1221F4 /* UnsyncThread.h */; };
-		A8A706A41ED591BF7226C57A /* UnsyncUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB6CCB1BA8C950EFC5F7C6EA /* UnsyncUtil.cpp */; };
-		1E2FE06BF5419A6B879BEC75 /* UnsyncUtil.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D93C74F3540D6487595C0 /* UnsyncUtil.h */; };
-		8938D661C1322FB1E11B85EF /* UnsyncVarInt.h in Sources */ = {isa = PBXBuildFile; fileRef = F526CA308C5AF23080560F5A /* UnsyncVarInt.h */; };
-		FF2AB2E786A6C7A583D7C613 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B32D8F2D0A61C03C38D4F7B3 /* README.md */; };
-		35899F90B6EFA1A99A20E1BC /* flat_hash_map.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A38A9556C3B94F0C7A4D129 /* flat_hash_map.hpp */; };
-		3C880570F2A755ED56AE372E /* DebugHeap.c in Sources */ = {isa = PBXBuildFile; fileRef = 084DE371AE000BABF4516141 /* DebugHeap.c */; };
-		5AC589B0F69D52728E0C5AF1 /* DebugHeap.h in Sources */ = {isa = PBXBuildFile; fileRef = D2D74B33A017C9FA6F12B245 /* DebugHeap.h */; };
-		E4EB007336E6F2EB27C3152D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1DA5F7B85BC4A0FBF3F29FD6 /* README.md */; };
-		6A0F4AEE82653F33297B2C37 /* json11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 929EFAF17ADB55D5440DC653 /* json11.cpp */; };
-		B09DC345C21E9290B77625A6 /* json11.hpp in Sources */ = {isa = PBXBuildFile; fileRef = A5B22734E0AE93EE0C72C2CD /* json11.hpp */; };
-		20119EAA71B651F24C29BF5E /* flat_hash_map_License.txt in Sources */ = {isa = PBXBuildFile; fileRef = DC1563C0F1CC1AD9D9ED1A7C /* flat_hash_map_License.txt */; };
-		B4D70ADD8767D2481344CB0A /* flat_hash_map.tps in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF3BA71A6EC90EC21E15FB /* flat_hash_map.tps */; };
-		0B091CF5043C2233F6212178 /* ig-debugheap_License.txt in Sources */ = {isa = PBXBuildFile; fileRef = D4CDCABB14289CCD58ECF7CA /* ig-debugheap_License.txt */; };
-		89F9E18428911496C20EBC76 /* ig-debugheap.tps in Sources */ = {isa = PBXBuildFile; fileRef = C827D75DF2D8BD7420DCCB04 /* ig-debugheap.tps */; };
-		0E025FF740FEAC1E1152FF47 /* json11_License.txt in Sources */ = {isa = PBXBuildFile; fileRef = 56200450C57549F753AA47F5 /* json11_License.txt */; };
-		F5BDE6012FA65CAC2EDC791F /* json11.tps in Sources */ = {isa = PBXBuildFile; fileRef = 741F9185EC8980A7055F8825 /* json11.tps */; };
-		8530E1901590D163BB6A6029 /* sse-hash_License.txt in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCB2C08E6912952DD70960 /* sse-hash_License.txt */; };
-		9616E0CF6C50C49634C0F32C /* sse-hash.tps in Sources */ = {isa = PBXBuildFile; fileRef = 46656C30305A0E211F4A2FCC /* sse-hash.tps */; };
-		40A276EB4FFCE45D49F63EE5 /* md5-sse2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1F9710AE89B7F1B78534CC7 /* md5-sse2.cpp */; };
-		B420F4967AD7473EDAF6041F /* md5-sse2.h in Sources */ = {isa = PBXBuildFile; fileRef = A8A741BA92C85DAE744192E7 /* md5-sse2.h */; };
-		549D8259D894D5D035ABA72C /* Unsync.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E24C72883907BD9653FD5 /* Unsync.Build.cs */; };
+		FF2AB2E786A6C7A583D7C613 /* CMakeLists.txt in Sources */ = {isa = PBXBuildFile; fileRef = B32D8F2D0A61C03C38D4F7B3 /* CMakeLists.txt */; };
+		23C994096AF081015459FEA3 /* UnsyncBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02F667275E8780E986CF08F1 /* UnsyncBuffer.cpp */; };
+		9542F8D5AF2E8B8EF206BFBE /* UnsyncBuffer.h in Sources */ = {isa = PBXBuildFile; fileRef = A1454C34D507AEB38343B430 /* UnsyncBuffer.h */; };
+		3D6317A8A7C5EB54C0A37428 /* UnsyncCmdDiff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7AC5126CE6FB0FB36A98618 /* UnsyncCmdDiff.cpp */; };
+		3A4B137F20556E518DC8984C /* UnsyncCmdDiff.h in Sources */ = {isa = PBXBuildFile; fileRef = 16E2E72C1A6BFDFDD1243D29 /* UnsyncCmdDiff.h */; };
+		B588E41393B8F994DDFF6D5B /* UnsyncCmdHash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26C336B35229A2F140510EB /* UnsyncCmdHash.cpp */; };
+		8884E1CAAB8847160EE9C998 /* UnsyncCmdHash.h in Sources */ = {isa = PBXBuildFile; fileRef = 705ABED5CE036F16758C79AE /* UnsyncCmdHash.h */; };
+		3791C8AF8A0E15B077F98B0E /* UnsyncCmdPatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D72FE854B8564DC8A29BFADA /* UnsyncCmdPatch.cpp */; };
+		63C5601095FA75FC0A329219 /* UnsyncCmdPatch.h in Sources */ = {isa = PBXBuildFile; fileRef = BF978C00D4182077CFB0FD9F /* UnsyncCmdPatch.h */; };
+		1B1A5E1F3EB10B9C97ED4CC5 /* UnsyncCmdPush.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD051B7D848F04A49CCE9420 /* UnsyncCmdPush.cpp */; };
+		CA4DF48A7A830BB2C7C1F47B /* UnsyncCmdPush.h in Sources */ = {isa = PBXBuildFile; fileRef = 9B55BD5927F682D24BC752CE /* UnsyncCmdPush.h */; };
+		FDA3F240AC59034D853D55F1 /* UnsyncCmdQuery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC802114E299FDEC109FE12E /* UnsyncCmdQuery.cpp */; };
+		D1AA7DA54BC2D402FA258CD7 /* UnsyncCmdQuery.h in Sources */ = {isa = PBXBuildFile; fileRef = 90CA066EBDA7F55D00CB9DA6 /* UnsyncCmdQuery.h */; };
+		D56EF0B2C965BE5DC1C46E01 /* UnsyncCmdSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB5D01C36952F796F34A8317 /* UnsyncCmdSync.cpp */; };
+		928F2E68AA842D060DD6CFDD /* UnsyncCmdSync.h in Sources */ = {isa = PBXBuildFile; fileRef = D2213994672F15CC5B05925F /* UnsyncCmdSync.h */; };
+		A632F4AED406B28BEBD8203A /* UnsyncCommon.h in Sources */ = {isa = PBXBuildFile; fileRef = 3656B33D9668F3058E24F047 /* UnsyncCommon.h */; };
+		18622FC434B7BB8CFCCEC277 /* UnsyncCompression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F7E31072444F2FA01FE5D11 /* UnsyncCompression.cpp */; };
+		7BD735F3118DD18241AC9572 /* UnsyncCompression.h in Sources */ = {isa = PBXBuildFile; fileRef = D6ED56331C933D68933CAD17 /* UnsyncCompression.h */; };
+		36ECE14A31F64519041E495C /* UnsyncCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81C87B6FFD3F35E2E9BF3036 /* UnsyncCore.cpp */; };
+		EDBEDD6DC1F57D3F2A1DBC24 /* UnsyncCore.h in Sources */ = {isa = PBXBuildFile; fileRef = AC87504A677C6DB7A4FAB253 /* UnsyncCore.h */; };
+		17CD6A5406CA2E77BBAA5D73 /* UnsyncError.h in Sources */ = {isa = PBXBuildFile; fileRef = 19D8580EA10A32630C56C375 /* UnsyncError.h */; };
+		EEEB7B6C517891F30C8955F4 /* UnsyncFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B28395FEF4568012ADD318E /* UnsyncFile.cpp */; };
+		235F169AC74E47C109F4651B /* UnsyncFile.h in Sources */ = {isa = PBXBuildFile; fileRef = 4EC12542186A678F82648378 /* UnsyncFile.h */; };
+		D0D374C7EDC24B11B9ED49F2 /* UnsyncHash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62F72BBD4294EA96C31D102D /* UnsyncHash.cpp */; };
+		1F26E8C076A20CBFDC9DC9F4 /* UnsyncHash.h in Sources */ = {isa = PBXBuildFile; fileRef = D980D347A95361617833E021 /* UnsyncHash.h */; };
+		3EA94DED79EDB4B2C247A7C7 /* UnsyncHttp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D98B9B17E08915C42E37E3C1 /* UnsyncHttp.cpp */; };
+		C1A2EC70BCAEB4EB45C781CC /* UnsyncHttp.h in Sources */ = {isa = PBXBuildFile; fileRef = 541E45EEE9163192D80B6D1E /* UnsyncHttp.h */; };
+		B84A81EF1D1BF307C68B2BD6 /* UnsyncJupiter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0044F61492BB821109CFC2C1 /* UnsyncJupiter.cpp */; };
+		4326DB170651E8B635CEB871 /* UnsyncJupiter.h in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5CE2AD47A06C8F36FEEA4 /* UnsyncJupiter.h */; };
+		1F1DFF1C895B14E987BFACF6 /* UnsyncLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40DB0175A375A1318C84E6CD /* UnsyncLog.cpp */; };
+		ED573D8FC8F9CED43836F7E8 /* UnsyncLog.h in Sources */ = {isa = PBXBuildFile; fileRef = 51CC2DD9BACEEA6D19D7E9F9 /* UnsyncLog.h */; };
+		7991257DCDBC189B36312E31 /* UnsyncMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E85208EF1D7BE09E31823D7 /* UnsyncMain.cpp */; };
+		48C877BD9A78B4166E441537 /* UnsyncMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D450067C1E5CB11F9DFBBA35 /* UnsyncMemory.cpp */; };
+		AE5C7C4119E015616D4E3504 /* UnsyncMemory.h in Sources */ = {isa = PBXBuildFile; fileRef = 445A00BE7D18C3DA6FE8B9A0 /* UnsyncMemory.h */; };
+		D141EB876604394C0E420E3E /* UnsyncMiniCb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC73FD8D2EB4CA851B0237C3 /* UnsyncMiniCb.cpp */; };
+		5BF3A28438DFC5C6A2DC70D7 /* UnsyncMiniCb.h in Sources */ = {isa = PBXBuildFile; fileRef = F48EFA6914E9F6024CC2C209 /* UnsyncMiniCb.h */; };
+		1B35ABBA1E3485CF0A272B72 /* UnsyncPool.h in Sources */ = {isa = PBXBuildFile; fileRef = 61B5132E7C489C1F032598A0 /* UnsyncPool.h */; };
+		BA6071310B34779931986903 /* UnsyncProtocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 340BA86E56A1CCCD6387075F /* UnsyncProtocol.cpp */; };
+		D5C8860326A206F59C0B00BD /* UnsyncProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = C253C3D6B09141C94B0FFA71 /* UnsyncProtocol.h */; };
+		A02DC86259CB3D3259115B43 /* UnsyncProxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE73738F917467280AEAAB03 /* UnsyncProxy.cpp */; };
+		DDF61DD1463D13C6CD1563F8 /* UnsyncProxy.h in Sources */ = {isa = PBXBuildFile; fileRef = D9A49BD0CECD63B0F780283C /* UnsyncProxy.h */; };
+		1EB137D7A8D166B582C58463 /* UnsyncRemote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE6CEC1BFE957599107AB5ED /* UnsyncRemote.cpp */; };
+		D896593C86FA0B5DCEE0B294 /* UnsyncRemote.h in Sources */ = {isa = PBXBuildFile; fileRef = 063C1DFCAEAE75131F382262 /* UnsyncRemote.h */; };
+		E148B2620A8F2CA4FB4AFE12 /* UnsyncScan.h in Sources */ = {isa = PBXBuildFile; fileRef = 78292E88B92795CDB95815C2 /* UnsyncScan.h */; };
+		7879EA6105A2CE9F73F75B3E /* UnsyncSerialization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47A9523EB40E98BB3D0B8384 /* UnsyncSerialization.cpp */; };
+		7FED59F7A355A88932F0E991 /* UnsyncSerialization.h in Sources */ = {isa = PBXBuildFile; fileRef = A4CA9F597B5F9E80CEF04010 /* UnsyncSerialization.h */; };
+		D55618ABBF59846CF565E217 /* UnsyncSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48D6FC1E4ED10B57BFC09AEA /* UnsyncSocket.cpp */; };
+		6E3E40DE6D02B68FAC49224C /* UnsyncSocket.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCC9D96B7D9C3FE88711A5 /* UnsyncSocket.h */; };
+		627F32FCE4E95014BC2E3C81 /* UnsyncTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19A6FFF2AF536AFFB3AFE251 /* UnsyncTest.cpp */; };
+		0832EB42245B01E72D9A7BED /* UnsyncTest.h in Sources */ = {isa = PBXBuildFile; fileRef = D0BAAAC3F80E900DC048C0C5 /* UnsyncTest.h */; };
+		7DA990941C12F2B29CE0F4B2 /* UnsyncThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FD0EEF602D55537E2A1221F4 /* UnsyncThread.cpp */; };
+		A8A706A41ED591BF7226C57A /* UnsyncThread.h in Sources */ = {isa = PBXBuildFile; fileRef = CB6CCB1BA8C950EFC5F7C6EA /* UnsyncThread.h */; };
+		1E2FE06BF5419A6B879BEC75 /* UnsyncUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D93C74F3540D6487595C0 /* UnsyncUtil.cpp */; };
+		8938D661C1322FB1E11B85EF /* UnsyncUtil.h in Sources */ = {isa = PBXBuildFile; fileRef = F526CA308C5AF23080560F5A /* UnsyncUtil.h */; };
+		35899F90B6EFA1A99A20E1BC /* UnsyncVarInt.h in Sources */ = {isa = PBXBuildFile; fileRef = 6A38A9556C3B94F0C7A4D129 /* UnsyncVarInt.h */; };
+		549D8259D894D5D035ABA72C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E24C72883907BD9653FD5 /* README.md */; };
+		6A0F4AEE82653F33297B2C37 /* flat_hash_map.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 929EFAF17ADB55D5440DC653 /* flat_hash_map.hpp */; };
+		5AC589B0F69D52728E0C5AF1 /* DebugHeap.c in Sources */ = {isa = PBXBuildFile; fileRef = D2D74B33A017C9FA6F12B245 /* DebugHeap.c */; };
+		E4EB007336E6F2EB27C3152D /* DebugHeap.h in Sources */ = {isa = PBXBuildFile; fileRef = 1DA5F7B85BC4A0FBF3F29FD6 /* DebugHeap.h */; };
+		B4D70ADD8767D2481344CB0A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF3BA71A6EC90EC21E15FB /* README.md */; };
+		B09DC345C21E9290B77625A6 /* json11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5B22734E0AE93EE0C72C2CD /* json11.cpp */; };
+		40A276EB4FFCE45D49F63EE5 /* json11.hpp in Sources */ = {isa = PBXBuildFile; fileRef = A1F9710AE89B7F1B78534CC7 /* json11.hpp */; };
+		89F9E18428911496C20EBC76 /* flat_hash_map_License.txt in Sources */ = {isa = PBXBuildFile; fileRef = C827D75DF2D8BD7420DCCB04 /* flat_hash_map_License.txt */; };
+		20119EAA71B651F24C29BF5E /* flat_hash_map.tps in Sources */ = {isa = PBXBuildFile; fileRef = DC1563C0F1CC1AD9D9ED1A7C /* flat_hash_map.tps */; };
+		F5BDE6012FA65CAC2EDC791F /* ig-debugheap_License.txt in Sources */ = {isa = PBXBuildFile; fileRef = 741F9185EC8980A7055F8825 /* ig-debugheap_License.txt */; };
+		0B091CF5043C2233F6212178 /* ig-debugheap.tps in Sources */ = {isa = PBXBuildFile; fileRef = D4CDCABB14289CCD58ECF7CA /* ig-debugheap.tps */; };
+		9616E0CF6C50C49634C0F32C /* json11_License.txt in Sources */ = {isa = PBXBuildFile; fileRef = 46656C30305A0E211F4A2FCC /* json11_License.txt */; };
+		0E025FF740FEAC1E1152FF47 /* json11.tps in Sources */ = {isa = PBXBuildFile; fileRef = 56200450C57549F753AA47F5 /* json11.tps */; };
+		0819C7F99C25D64CE713493C /* sse-hash_License.txt in Sources */ = {isa = PBXBuildFile; fileRef = 6E3480A3EE8F71DC04431253 /* sse-hash_License.txt */; };
+		8530E1901590D163BB6A6029 /* sse-hash.tps in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCB2C08E6912952DD70960 /* sse-hash.tps */; };
+		B420F4967AD7473EDAF6041F /* md5-sse2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8A741BA92C85DAE744192E7 /* md5-sse2.cpp */; };
+		3C880570F2A755ED56AE372E /* md5-sse2.h in Sources */ = {isa = PBXBuildFile; fileRef = 084DE371AE000BABF4516141 /* md5-sse2.h */; };
+		1A335345FC20372A32FF93E9 /* Unsync.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 236ECCEF02F6DE0886630EFC /* Unsync.Build.cs */; };
 		33DEA1785810D03B7BF28208 /* Unsync.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 8F18112D3AB18F47E7CD5C2B /* Unsync.Target.cs */; };
-		1A335345FC20372A32FF93E9 /* vcpkg.json in Sources */ = {isa = PBXBuildFile; fileRef = 236ECCEF02F6DE0886630EFC /* vcpkg.json */; };
-		3CF813B5447BD9EE5EAD3EA5 /* vs-chromium-project.txt in Sources */ = {isa = PBXBuildFile; fileRef = 408FD314737CF91E7A3BA3BA /* vs-chromium-project.txt */; };
+		3CF813B5447BD9EE5EAD3EA5 /* vcpkg.json in Sources */ = {isa = PBXBuildFile; fileRef = 408FD314737CF91E7A3BA3BA /* vcpkg.json */; };
+		B6A179E387364FB624570803 /* vs-chromium-project.txt in Sources */ = {isa = PBXBuildFile; fileRef = 0C82E6B726A48B752F27AE72 /* vs-chromium-project.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		53A078F203AA615DA6BC5D70 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CMakeLists.txt"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
-		0C82E6B726A48B752F27AE72 /* UnsyncBuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncBuffer.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncBuffer.cpp"; sourceTree = SOURCE_ROOT; };
-		02F667275E8780E986CF08F1 /* UnsyncBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncBuffer.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncBuffer.h"; sourceTree = SOURCE_ROOT; };
-		A1454C34D507AEB38343B430 /* UnsyncCmdDiff.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCmdDiff.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdDiff.cpp"; sourceTree = SOURCE_ROOT; };
-		F7AC5126CE6FB0FB36A98618 /* UnsyncCmdDiff.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCmdDiff.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdDiff.h"; sourceTree = SOURCE_ROOT; };
-		16E2E72C1A6BFDFDD1243D29 /* UnsyncCmdHash.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCmdHash.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdHash.cpp"; sourceTree = SOURCE_ROOT; };
-		B26C336B35229A2F140510EB /* UnsyncCmdHash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCmdHash.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdHash.h"; sourceTree = SOURCE_ROOT; };
-		705ABED5CE036F16758C79AE /* UnsyncCmdPatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCmdPatch.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdPatch.cpp"; sourceTree = SOURCE_ROOT; };
-		D72FE854B8564DC8A29BFADA /* UnsyncCmdPatch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCmdPatch.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdPatch.h"; sourceTree = SOURCE_ROOT; };
-		BF978C00D4182077CFB0FD9F /* UnsyncCmdPush.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCmdPush.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdPush.cpp"; sourceTree = SOURCE_ROOT; };
-		AD051B7D848F04A49CCE9420 /* UnsyncCmdPush.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCmdPush.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdPush.h"; sourceTree = SOURCE_ROOT; };
-		9B55BD5927F682D24BC752CE /* UnsyncCmdQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCmdQuery.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdQuery.cpp"; sourceTree = SOURCE_ROOT; };
-		BC802114E299FDEC109FE12E /* UnsyncCmdQuery.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCmdQuery.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdQuery.h"; sourceTree = SOURCE_ROOT; };
-		90CA066EBDA7F55D00CB9DA6 /* UnsyncCmdSync.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCmdSync.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdSync.cpp"; sourceTree = SOURCE_ROOT; };
-		DB5D01C36952F796F34A8317 /* UnsyncCmdSync.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCmdSync.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdSync.h"; sourceTree = SOURCE_ROOT; };
-		D2213994672F15CC5B05925F /* UnsyncCommon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCommon.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCommon.h"; sourceTree = SOURCE_ROOT; };
-		3656B33D9668F3058E24F047 /* UnsyncCompression.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCompression.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCompression.cpp"; sourceTree = SOURCE_ROOT; };
-		8F7E31072444F2FA01FE5D11 /* UnsyncCompression.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCompression.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCompression.h"; sourceTree = SOURCE_ROOT; };
-		D6ED56331C933D68933CAD17 /* UnsyncCore.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCore.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCore.cpp"; sourceTree = SOURCE_ROOT; };
-		81C87B6FFD3F35E2E9BF3036 /* UnsyncCore.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCore.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCore.h"; sourceTree = SOURCE_ROOT; };
-		AC87504A677C6DB7A4FAB253 /* UnsyncError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncError.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncError.h"; sourceTree = SOURCE_ROOT; };
-		19D8580EA10A32630C56C375 /* UnsyncFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncFile.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncFile.cpp"; sourceTree = SOURCE_ROOT; };
-		8B28395FEF4568012ADD318E /* UnsyncFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncFile.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncFile.h"; sourceTree = SOURCE_ROOT; };
-		4EC12542186A678F82648378 /* UnsyncHash.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncHash.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncHash.cpp"; sourceTree = SOURCE_ROOT; };
-		62F72BBD4294EA96C31D102D /* UnsyncHash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncHash.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncHash.h"; sourceTree = SOURCE_ROOT; };
-		D980D347A95361617833E021 /* UnsyncHttp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncHttp.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncHttp.cpp"; sourceTree = SOURCE_ROOT; };
-		D98B9B17E08915C42E37E3C1 /* UnsyncHttp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncHttp.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncHttp.h"; sourceTree = SOURCE_ROOT; };
-		541E45EEE9163192D80B6D1E /* UnsyncJupiter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncJupiter.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncJupiter.cpp"; sourceTree = SOURCE_ROOT; };
-		0044F61492BB821109CFC2C1 /* UnsyncJupiter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncJupiter.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncJupiter.h"; sourceTree = SOURCE_ROOT; };
-		2DC5CE2AD47A06C8F36FEEA4 /* UnsyncLog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncLog.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncLog.cpp"; sourceTree = SOURCE_ROOT; };
-		40DB0175A375A1318C84E6CD /* UnsyncLog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncLog.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncLog.h"; sourceTree = SOURCE_ROOT; };
-		51CC2DD9BACEEA6D19D7E9F9 /* UnsyncMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncMain.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncMain.cpp"; sourceTree = SOURCE_ROOT; };
-		1E85208EF1D7BE09E31823D7 /* UnsyncMemory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncMemory.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncMemory.cpp"; sourceTree = SOURCE_ROOT; };
-		D450067C1E5CB11F9DFBBA35 /* UnsyncMemory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncMemory.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncMemory.h"; sourceTree = SOURCE_ROOT; };
-		445A00BE7D18C3DA6FE8B9A0 /* UnsyncMiniCb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncMiniCb.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncMiniCb.cpp"; sourceTree = SOURCE_ROOT; };
-		FC73FD8D2EB4CA851B0237C3 /* UnsyncMiniCb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncMiniCb.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncMiniCb.h"; sourceTree = SOURCE_ROOT; };
-		F48EFA6914E9F6024CC2C209 /* UnsyncPool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncPool.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncPool.h"; sourceTree = SOURCE_ROOT; };
-		61B5132E7C489C1F032598A0 /* UnsyncProtocol.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncProtocol.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncProtocol.cpp"; sourceTree = SOURCE_ROOT; };
-		340BA86E56A1CCCD6387075F /* UnsyncProtocol.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncProtocol.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncProtocol.h"; sourceTree = SOURCE_ROOT; };
-		C253C3D6B09141C94B0FFA71 /* UnsyncProxy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncProxy.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncProxy.cpp"; sourceTree = SOURCE_ROOT; };
-		AE73738F917467280AEAAB03 /* UnsyncProxy.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncProxy.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncProxy.h"; sourceTree = SOURCE_ROOT; };
-		D9A49BD0CECD63B0F780283C /* UnsyncRemote.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncRemote.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncRemote.cpp"; sourceTree = SOURCE_ROOT; };
-		AE6CEC1BFE957599107AB5ED /* UnsyncRemote.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncRemote.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncRemote.h"; sourceTree = SOURCE_ROOT; };
-		063C1DFCAEAE75131F382262 /* UnsyncScan.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncScan.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncScan.h"; sourceTree = SOURCE_ROOT; };
-		78292E88B92795CDB95815C2 /* UnsyncSerialization.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncSerialization.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncSerialization.cpp"; sourceTree = SOURCE_ROOT; };
-		47A9523EB40E98BB3D0B8384 /* UnsyncSerialization.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncSerialization.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncSerialization.h"; sourceTree = SOURCE_ROOT; };
-		A4CA9F597B5F9E80CEF04010 /* UnsyncSocket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncSocket.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncSocket.cpp"; sourceTree = SOURCE_ROOT; };
-		48D6FC1E4ED10B57BFC09AEA /* UnsyncSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncSocket.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncSocket.h"; sourceTree = SOURCE_ROOT; };
-		3CFCC9D96B7D9C3FE88711A5 /* UnsyncTest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncTest.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncTest.cpp"; sourceTree = SOURCE_ROOT; };
-		19A6FFF2AF536AFFB3AFE251 /* UnsyncTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncTest.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncTest.h"; sourceTree = SOURCE_ROOT; };
-		D0BAAAC3F80E900DC048C0C5 /* UnsyncThread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncThread.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncThread.cpp"; sourceTree = SOURCE_ROOT; };
-		FD0EEF602D55537E2A1221F4 /* UnsyncThread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncThread.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncThread.h"; sourceTree = SOURCE_ROOT; };
-		CB6CCB1BA8C950EFC5F7C6EA /* UnsyncUtil.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncUtil.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncUtil.cpp"; sourceTree = SOURCE_ROOT; };
-		0B4D93C74F3540D6487595C0 /* UnsyncUtil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncUtil.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncUtil.h"; sourceTree = SOURCE_ROOT; };
-		F526CA308C5AF23080560F5A /* UnsyncVarInt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncVarInt.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncVarInt.h"; sourceTree = SOURCE_ROOT; };
-		B32D8F2D0A61C03C38D4F7B3 /* README.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "README.md"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/README.md"; sourceTree = SOURCE_ROOT; };
-		6A38A9556C3B94F0C7A4D129 /* flat_hash_map.hpp */ = {isa = PBXFileReference; explicitFileType = file.text; name = "flat_hash_map.hpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/flat_hash_map.hpp"; sourceTree = SOURCE_ROOT; };
-		084DE371AE000BABF4516141 /* DebugHeap.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; name = "DebugHeap.c"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/ig-debugheap/DebugHeap.c"; sourceTree = SOURCE_ROOT; };
-		D2D74B33A017C9FA6F12B245 /* DebugHeap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DebugHeap.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/ig-debugheap/DebugHeap.h"; sourceTree = SOURCE_ROOT; };
-		1DA5F7B85BC4A0FBF3F29FD6 /* README.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "README.md"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/ig-debugheap/README.md"; sourceTree = SOURCE_ROOT; };
-		929EFAF17ADB55D5440DC653 /* json11.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "json11.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/json11.cpp"; sourceTree = SOURCE_ROOT; };
-		A5B22734E0AE93EE0C72C2CD /* json11.hpp */ = {isa = PBXFileReference; explicitFileType = file.text; name = "json11.hpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/json11.hpp"; sourceTree = SOURCE_ROOT; };
-		DC1563C0F1CC1AD9D9ED1A7C /* flat_hash_map_License.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "flat_hash_map_License.txt"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/Licenses/flat_hash_map_License.txt"; sourceTree = SOURCE_ROOT; };
-		9DDF3BA71A6EC90EC21E15FB /* flat_hash_map.tps */ = {isa = PBXFileReference; explicitFileType = file.text; name = "flat_hash_map.tps"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/Licenses/flat_hash_map.tps"; sourceTree = SOURCE_ROOT; };
-		D4CDCABB14289CCD58ECF7CA /* ig-debugheap_License.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ig-debugheap_License.txt"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/Licenses/ig-debugheap_License.txt"; sourceTree = SOURCE_ROOT; };
-		C827D75DF2D8BD7420DCCB04 /* ig-debugheap.tps */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ig-debugheap.tps"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/Licenses/ig-debugheap.tps"; sourceTree = SOURCE_ROOT; };
-		56200450C57549F753AA47F5 /* json11_License.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "json11_License.txt"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/Licenses/json11_License.txt"; sourceTree = SOURCE_ROOT; };
-		741F9185EC8980A7055F8825 /* json11.tps */ = {isa = PBXFileReference; explicitFileType = file.text; name = "json11.tps"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/Licenses/json11.tps"; sourceTree = SOURCE_ROOT; };
-		1DDCB2C08E6912952DD70960 /* sse-hash_License.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "sse-hash_License.txt"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/Licenses/sse-hash_License.txt"; sourceTree = SOURCE_ROOT; };
-		46656C30305A0E211F4A2FCC /* sse-hash.tps */ = {isa = PBXFileReference; explicitFileType = file.text; name = "sse-hash.tps"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/Licenses/sse-hash.tps"; sourceTree = SOURCE_ROOT; };
-		A1F9710AE89B7F1B78534CC7 /* md5-sse2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "md5-sse2.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/md5-sse2.cpp"; sourceTree = SOURCE_ROOT; };
-		A8A741BA92C85DAE744192E7 /* md5-sse2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "md5-sse2.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/md5-sse2.h"; sourceTree = SOURCE_ROOT; };
-		1E0E24C72883907BD9653FD5 /* Unsync.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Unsync.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Unsync.Build.cs"; sourceTree = SOURCE_ROOT; };
+		B32D8F2D0A61C03C38D4F7B3 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CMakeLists.txt"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		02F667275E8780E986CF08F1 /* UnsyncBuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncBuffer.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncBuffer.cpp"; sourceTree = SOURCE_ROOT; };
+		A1454C34D507AEB38343B430 /* UnsyncBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncBuffer.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncBuffer.h"; sourceTree = SOURCE_ROOT; };
+		F7AC5126CE6FB0FB36A98618 /* UnsyncCmdDiff.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCmdDiff.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdDiff.cpp"; sourceTree = SOURCE_ROOT; };
+		16E2E72C1A6BFDFDD1243D29 /* UnsyncCmdDiff.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCmdDiff.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdDiff.h"; sourceTree = SOURCE_ROOT; };
+		B26C336B35229A2F140510EB /* UnsyncCmdHash.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCmdHash.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdHash.cpp"; sourceTree = SOURCE_ROOT; };
+		705ABED5CE036F16758C79AE /* UnsyncCmdHash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCmdHash.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdHash.h"; sourceTree = SOURCE_ROOT; };
+		D72FE854B8564DC8A29BFADA /* UnsyncCmdPatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCmdPatch.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdPatch.cpp"; sourceTree = SOURCE_ROOT; };
+		BF978C00D4182077CFB0FD9F /* UnsyncCmdPatch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCmdPatch.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdPatch.h"; sourceTree = SOURCE_ROOT; };
+		AD051B7D848F04A49CCE9420 /* UnsyncCmdPush.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCmdPush.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdPush.cpp"; sourceTree = SOURCE_ROOT; };
+		9B55BD5927F682D24BC752CE /* UnsyncCmdPush.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCmdPush.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdPush.h"; sourceTree = SOURCE_ROOT; };
+		BC802114E299FDEC109FE12E /* UnsyncCmdQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCmdQuery.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdQuery.cpp"; sourceTree = SOURCE_ROOT; };
+		90CA066EBDA7F55D00CB9DA6 /* UnsyncCmdQuery.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCmdQuery.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdQuery.h"; sourceTree = SOURCE_ROOT; };
+		DB5D01C36952F796F34A8317 /* UnsyncCmdSync.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCmdSync.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdSync.cpp"; sourceTree = SOURCE_ROOT; };
+		D2213994672F15CC5B05925F /* UnsyncCmdSync.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCmdSync.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCmdSync.h"; sourceTree = SOURCE_ROOT; };
+		3656B33D9668F3058E24F047 /* UnsyncCommon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCommon.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCommon.h"; sourceTree = SOURCE_ROOT; };
+		8F7E31072444F2FA01FE5D11 /* UnsyncCompression.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCompression.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCompression.cpp"; sourceTree = SOURCE_ROOT; };
+		D6ED56331C933D68933CAD17 /* UnsyncCompression.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCompression.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCompression.h"; sourceTree = SOURCE_ROOT; };
+		81C87B6FFD3F35E2E9BF3036 /* UnsyncCore.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCore.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCore.cpp"; sourceTree = SOURCE_ROOT; };
+		AC87504A677C6DB7A4FAB253 /* UnsyncCore.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCore.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncCore.h"; sourceTree = SOURCE_ROOT; };
+		19D8580EA10A32630C56C375 /* UnsyncError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncError.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncError.h"; sourceTree = SOURCE_ROOT; };
+		8B28395FEF4568012ADD318E /* UnsyncFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncFile.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncFile.cpp"; sourceTree = SOURCE_ROOT; };
+		4EC12542186A678F82648378 /* UnsyncFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncFile.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncFile.h"; sourceTree = SOURCE_ROOT; };
+		62F72BBD4294EA96C31D102D /* UnsyncHash.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncHash.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncHash.cpp"; sourceTree = SOURCE_ROOT; };
+		D980D347A95361617833E021 /* UnsyncHash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncHash.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncHash.h"; sourceTree = SOURCE_ROOT; };
+		D98B9B17E08915C42E37E3C1 /* UnsyncHttp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncHttp.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncHttp.cpp"; sourceTree = SOURCE_ROOT; };
+		541E45EEE9163192D80B6D1E /* UnsyncHttp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncHttp.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncHttp.h"; sourceTree = SOURCE_ROOT; };
+		0044F61492BB821109CFC2C1 /* UnsyncJupiter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncJupiter.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncJupiter.cpp"; sourceTree = SOURCE_ROOT; };
+		2DC5CE2AD47A06C8F36FEEA4 /* UnsyncJupiter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncJupiter.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncJupiter.h"; sourceTree = SOURCE_ROOT; };
+		40DB0175A375A1318C84E6CD /* UnsyncLog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncLog.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncLog.cpp"; sourceTree = SOURCE_ROOT; };
+		51CC2DD9BACEEA6D19D7E9F9 /* UnsyncLog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncLog.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncLog.h"; sourceTree = SOURCE_ROOT; };
+		1E85208EF1D7BE09E31823D7 /* UnsyncMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncMain.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncMain.cpp"; sourceTree = SOURCE_ROOT; };
+		D450067C1E5CB11F9DFBBA35 /* UnsyncMemory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncMemory.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncMemory.cpp"; sourceTree = SOURCE_ROOT; };
+		445A00BE7D18C3DA6FE8B9A0 /* UnsyncMemory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncMemory.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncMemory.h"; sourceTree = SOURCE_ROOT; };
+		FC73FD8D2EB4CA851B0237C3 /* UnsyncMiniCb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncMiniCb.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncMiniCb.cpp"; sourceTree = SOURCE_ROOT; };
+		F48EFA6914E9F6024CC2C209 /* UnsyncMiniCb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncMiniCb.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncMiniCb.h"; sourceTree = SOURCE_ROOT; };
+		61B5132E7C489C1F032598A0 /* UnsyncPool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncPool.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncPool.h"; sourceTree = SOURCE_ROOT; };
+		340BA86E56A1CCCD6387075F /* UnsyncProtocol.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncProtocol.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncProtocol.cpp"; sourceTree = SOURCE_ROOT; };
+		C253C3D6B09141C94B0FFA71 /* UnsyncProtocol.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncProtocol.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncProtocol.h"; sourceTree = SOURCE_ROOT; };
+		AE73738F917467280AEAAB03 /* UnsyncProxy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncProxy.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncProxy.cpp"; sourceTree = SOURCE_ROOT; };
+		D9A49BD0CECD63B0F780283C /* UnsyncProxy.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncProxy.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncProxy.h"; sourceTree = SOURCE_ROOT; };
+		AE6CEC1BFE957599107AB5ED /* UnsyncRemote.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncRemote.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncRemote.cpp"; sourceTree = SOURCE_ROOT; };
+		063C1DFCAEAE75131F382262 /* UnsyncRemote.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncRemote.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncRemote.h"; sourceTree = SOURCE_ROOT; };
+		78292E88B92795CDB95815C2 /* UnsyncScan.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncScan.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncScan.h"; sourceTree = SOURCE_ROOT; };
+		47A9523EB40E98BB3D0B8384 /* UnsyncSerialization.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncSerialization.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncSerialization.cpp"; sourceTree = SOURCE_ROOT; };
+		A4CA9F597B5F9E80CEF04010 /* UnsyncSerialization.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncSerialization.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncSerialization.h"; sourceTree = SOURCE_ROOT; };
+		48D6FC1E4ED10B57BFC09AEA /* UnsyncSocket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncSocket.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncSocket.cpp"; sourceTree = SOURCE_ROOT; };
+		3CFCC9D96B7D9C3FE88711A5 /* UnsyncSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncSocket.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncSocket.h"; sourceTree = SOURCE_ROOT; };
+		19A6FFF2AF536AFFB3AFE251 /* UnsyncTest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncTest.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncTest.cpp"; sourceTree = SOURCE_ROOT; };
+		D0BAAAC3F80E900DC048C0C5 /* UnsyncTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncTest.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncTest.h"; sourceTree = SOURCE_ROOT; };
+		FD0EEF602D55537E2A1221F4 /* UnsyncThread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncThread.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncThread.cpp"; sourceTree = SOURCE_ROOT; };
+		CB6CCB1BA8C950EFC5F7C6EA /* UnsyncThread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncThread.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncThread.h"; sourceTree = SOURCE_ROOT; };
+		0B4D93C74F3540D6487595C0 /* UnsyncUtil.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncUtil.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncUtil.cpp"; sourceTree = SOURCE_ROOT; };
+		F526CA308C5AF23080560F5A /* UnsyncUtil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncUtil.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncUtil.h"; sourceTree = SOURCE_ROOT; };
+		6A38A9556C3B94F0C7A4D129 /* UnsyncVarInt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncVarInt.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private/UnsyncVarInt.h"; sourceTree = SOURCE_ROOT; };
+		1E0E24C72883907BD9653FD5 /* README.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "README.md"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/README.md"; sourceTree = SOURCE_ROOT; };
+		929EFAF17ADB55D5440DC653 /* flat_hash_map.hpp */ = {isa = PBXFileReference; explicitFileType = file.text; name = "flat_hash_map.hpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/flat_hash_map.hpp"; sourceTree = SOURCE_ROOT; };
+		D2D74B33A017C9FA6F12B245 /* DebugHeap.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; name = "DebugHeap.c"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/ig-debugheap/DebugHeap.c"; sourceTree = SOURCE_ROOT; };
+		1DA5F7B85BC4A0FBF3F29FD6 /* DebugHeap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DebugHeap.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/ig-debugheap/DebugHeap.h"; sourceTree = SOURCE_ROOT; };
+		9DDF3BA71A6EC90EC21E15FB /* README.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "README.md"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/ig-debugheap/README.md"; sourceTree = SOURCE_ROOT; };
+		A5B22734E0AE93EE0C72C2CD /* json11.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "json11.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/json11.cpp"; sourceTree = SOURCE_ROOT; };
+		A1F9710AE89B7F1B78534CC7 /* json11.hpp */ = {isa = PBXFileReference; explicitFileType = file.text; name = "json11.hpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/json11.hpp"; sourceTree = SOURCE_ROOT; };
+		C827D75DF2D8BD7420DCCB04 /* flat_hash_map_License.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "flat_hash_map_License.txt"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/Licenses/flat_hash_map_License.txt"; sourceTree = SOURCE_ROOT; };
+		DC1563C0F1CC1AD9D9ED1A7C /* flat_hash_map.tps */ = {isa = PBXFileReference; explicitFileType = file.text; name = "flat_hash_map.tps"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/Licenses/flat_hash_map.tps"; sourceTree = SOURCE_ROOT; };
+		741F9185EC8980A7055F8825 /* ig-debugheap_License.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ig-debugheap_License.txt"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/Licenses/ig-debugheap_License.txt"; sourceTree = SOURCE_ROOT; };
+		D4CDCABB14289CCD58ECF7CA /* ig-debugheap.tps */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ig-debugheap.tps"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/Licenses/ig-debugheap.tps"; sourceTree = SOURCE_ROOT; };
+		46656C30305A0E211F4A2FCC /* json11_License.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "json11_License.txt"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/Licenses/json11_License.txt"; sourceTree = SOURCE_ROOT; };
+		56200450C57549F753AA47F5 /* json11.tps */ = {isa = PBXFileReference; explicitFileType = file.text; name = "json11.tps"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/Licenses/json11.tps"; sourceTree = SOURCE_ROOT; };
+		6E3480A3EE8F71DC04431253 /* sse-hash_License.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "sse-hash_License.txt"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/Licenses/sse-hash_License.txt"; sourceTree = SOURCE_ROOT; };
+		1DDCB2C08E6912952DD70960 /* sse-hash.tps */ = {isa = PBXFileReference; explicitFileType = file.text; name = "sse-hash.tps"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/Licenses/sse-hash.tps"; sourceTree = SOURCE_ROOT; };
+		A8A741BA92C85DAE744192E7 /* md5-sse2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "md5-sse2.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/md5-sse2.cpp"; sourceTree = SOURCE_ROOT; };
+		084DE371AE000BABF4516141 /* md5-sse2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "md5-sse2.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/md5-sse2.h"; sourceTree = SOURCE_ROOT; };
+		236ECCEF02F6DE0886630EFC /* Unsync.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Unsync.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Unsync.Build.cs"; sourceTree = SOURCE_ROOT; };
 		8F18112D3AB18F47E7CD5C2B /* Unsync.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Unsync.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Unsync.Target.cs"; sourceTree = SOURCE_ROOT; };
-		236ECCEF02F6DE0886630EFC /* vcpkg.json */ = {isa = PBXFileReference; explicitFileType = file.text; name = "vcpkg.json"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/vcpkg.json"; sourceTree = SOURCE_ROOT; };
-		408FD314737CF91E7A3BA3BA /* vs-chromium-project.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "vs-chromium-project.txt"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/vs-chromium-project.txt"; sourceTree = SOURCE_ROOT; };
-		CE99BD6440680C4FA558BAAC /* Unsync */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Unsync; sourceTree = BUILT_PRODUCTS_DIR; };
+		408FD314737CF91E7A3BA3BA /* vcpkg.json */ = {isa = PBXFileReference; explicitFileType = file.text; name = "vcpkg.json"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/vcpkg.json"; sourceTree = SOURCE_ROOT; };
+		0C82E6B726A48B752F27AE72 /* vs-chromium-project.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "vs-chromium-project.txt"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/vs-chromium-project.txt"; sourceTree = SOURCE_ROOT; };
+		1DC296C604FA913FF725AFA3 /* Unsync */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Unsync; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FD36936A20A4F0E4E5EC66F7 = {
+		41466F8DCCD826BD55FEC391 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6A179E387364FB624570803 /* UnsyncBuffer.cpp in Sources */,
-				9542F8D5AF2E8B8EF206BFBE /* UnsyncCmdDiff.cpp in Sources */,
-				3A4B137F20556E518DC8984C /* UnsyncCmdHash.cpp in Sources */,
-				8884E1CAAB8847160EE9C998 /* UnsyncCmdPatch.cpp in Sources */,
-				63C5601095FA75FC0A329219 /* UnsyncCmdPush.cpp in Sources */,
-				CA4DF48A7A830BB2C7C1F47B /* UnsyncCmdQuery.cpp in Sources */,
-				D1AA7DA54BC2D402FA258CD7 /* UnsyncCmdSync.cpp in Sources */,
-				A632F4AED406B28BEBD8203A /* UnsyncCompression.cpp in Sources */,
-				7BD735F3118DD18241AC9572 /* UnsyncCore.cpp in Sources */,
-				17CD6A5406CA2E77BBAA5D73 /* UnsyncFile.cpp in Sources */,
-				235F169AC74E47C109F4651B /* UnsyncHash.cpp in Sources */,
-				1F26E8C076A20CBFDC9DC9F4 /* UnsyncHttp.cpp in Sources */,
-				C1A2EC70BCAEB4EB45C781CC /* UnsyncJupiter.cpp in Sources */,
-				4326DB170651E8B635CEB871 /* UnsyncLog.cpp in Sources */,
-				ED573D8FC8F9CED43836F7E8 /* UnsyncMain.cpp in Sources */,
-				7991257DCDBC189B36312E31 /* UnsyncMemory.cpp in Sources */,
-				AE5C7C4119E015616D4E3504 /* UnsyncMiniCb.cpp in Sources */,
-				1B35ABBA1E3485CF0A272B72 /* UnsyncProtocol.cpp in Sources */,
-				D5C8860326A206F59C0B00BD /* UnsyncProxy.cpp in Sources */,
-				DDF61DD1463D13C6CD1563F8 /* UnsyncRemote.cpp in Sources */,
-				E148B2620A8F2CA4FB4AFE12 /* UnsyncSerialization.cpp in Sources */,
-				7FED59F7A355A88932F0E991 /* UnsyncSocket.cpp in Sources */,
-				6E3E40DE6D02B68FAC49224C /* UnsyncTest.cpp in Sources */,
-				0832EB42245B01E72D9A7BED /* UnsyncThread.cpp in Sources */,
-				A8A706A41ED591BF7226C57A /* UnsyncUtil.cpp in Sources */,
-				3C880570F2A755ED56AE372E /* DebugHeap.c in Sources */,
-				6A0F4AEE82653F33297B2C37 /* json11.cpp in Sources */,
-				40A276EB4FFCE45D49F63EE5 /* md5-sse2.cpp in Sources */,
+				23C994096AF081015459FEA3 /* UnsyncBuffer.cpp in Sources */,
+				3D6317A8A7C5EB54C0A37428 /* UnsyncCmdDiff.cpp in Sources */,
+				B588E41393B8F994DDFF6D5B /* UnsyncCmdHash.cpp in Sources */,
+				3791C8AF8A0E15B077F98B0E /* UnsyncCmdPatch.cpp in Sources */,
+				1B1A5E1F3EB10B9C97ED4CC5 /* UnsyncCmdPush.cpp in Sources */,
+				FDA3F240AC59034D853D55F1 /* UnsyncCmdQuery.cpp in Sources */,
+				D56EF0B2C965BE5DC1C46E01 /* UnsyncCmdSync.cpp in Sources */,
+				18622FC434B7BB8CFCCEC277 /* UnsyncCompression.cpp in Sources */,
+				36ECE14A31F64519041E495C /* UnsyncCore.cpp in Sources */,
+				EEEB7B6C517891F30C8955F4 /* UnsyncFile.cpp in Sources */,
+				D0D374C7EDC24B11B9ED49F2 /* UnsyncHash.cpp in Sources */,
+				3EA94DED79EDB4B2C247A7C7 /* UnsyncHttp.cpp in Sources */,
+				B84A81EF1D1BF307C68B2BD6 /* UnsyncJupiter.cpp in Sources */,
+				1F1DFF1C895B14E987BFACF6 /* UnsyncLog.cpp in Sources */,
+				7991257DCDBC189B36312E31 /* UnsyncMain.cpp in Sources */,
+				48C877BD9A78B4166E441537 /* UnsyncMemory.cpp in Sources */,
+				D141EB876604394C0E420E3E /* UnsyncMiniCb.cpp in Sources */,
+				BA6071310B34779931986903 /* UnsyncProtocol.cpp in Sources */,
+				A02DC86259CB3D3259115B43 /* UnsyncProxy.cpp in Sources */,
+				1EB137D7A8D166B582C58463 /* UnsyncRemote.cpp in Sources */,
+				7879EA6105A2CE9F73F75B3E /* UnsyncSerialization.cpp in Sources */,
+				D55618ABBF59846CF565E217 /* UnsyncSocket.cpp in Sources */,
+				627F32FCE4E95014BC2E3C81 /* UnsyncTest.cpp in Sources */,
+				7DA990941C12F2B29CE0F4B2 /* UnsyncThread.cpp in Sources */,
+				1E2FE06BF5419A6B879BEC75 /* UnsyncUtil.cpp in Sources */,
+				5AC589B0F69D52728E0C5AF1 /* DebugHeap.c in Sources */,
+				B09DC345C21E9290B77625A6 /* json11.cpp in Sources */,
+				B420F4967AD7473EDAF6041F /* md5-sse2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	F71445F0962EC34E363ED9E2 /* Embed App Extensions */ = {
+	84145F0F3DC54C41DC446DA9 /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -216,147 +216,147 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		9234ED60CF6716D8E64C1842 /* PBXContainerItemProxy */ = {
+		0995900F9F5F962377E73BE5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0995900F9F5F962377E73BE5 /* Project object */;
+			containerPortal = 607794BB63CFC5A2B33784A8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FF969FFBEBD559834536340B;
+			remoteGlobalIDString = A9A76881DE86510D22CF8C57;
 			remoteInfo = "Unsync_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		A72F1DEE517C6BF7FEF9CDD7 /* PBXTargetDependency */ = {
+		C81AEC11F394FC9865B2E4E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FF969FFBEBD559834536340B /* Unsync_Build */;
-			targetProxy = 9234ED60CF6716D8E64C1842 /* PBXContainerItemProxy */;
+			target = A9A76881DE86510D22CF8C57 /* Unsync_Build */;
+			targetProxy = 0995900F9F5F962377E73BE5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		A9A76881DE86510D22CF8C57 = {
+		F7D14AB043A4F9BF5CB10AA8 = {
 			isa = PBXGroup;
 			children = (
-				81219312A86337130943D47C /* Private */,
-				E3309AF0BCA59396EFA15E09 /* ThirdParty */,
-				53A078F203AA615DA6BC5D70 /* CMakeLists.txt */,
-				B32D8F2D0A61C03C38D4F7B3 /* README.md */,
-				1E0E24C72883907BD9653FD5 /* Unsync.Build.cs */,
+				15862A271C72DC2B2BC4968B /* Private */,
+				492CDED9A6D62C78F365F811 /* ThirdParty */,
+				B32D8F2D0A61C03C38D4F7B3 /* CMakeLists.txt */,
+				1E0E24C72883907BD9653FD5 /* README.md */,
+				236ECCEF02F6DE0886630EFC /* Unsync.Build.cs */,
 				8F18112D3AB18F47E7CD5C2B /* Unsync.Target.cs */,
-				236ECCEF02F6DE0886630EFC /* vcpkg.json */,
-				408FD314737CF91E7A3BA3BA /* vs-chromium-project.txt */,
-				ED229A19AA3CC2E0DE06F330 /* Products */,
+				408FD314737CF91E7A3BA3BA /* vcpkg.json */,
+				0C82E6B726A48B752F27AE72 /* vs-chromium-project.txt */,
+				0F35801627C343BF909CFDAF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		81219312A86337130943D47C = {
+		15862A271C72DC2B2BC4968B = {
 			isa = PBXGroup;
 			children = (
-				0C82E6B726A48B752F27AE72 /* UnsyncBuffer.cpp */,
-				02F667275E8780E986CF08F1 /* UnsyncBuffer.h */,
-				A1454C34D507AEB38343B430 /* UnsyncCmdDiff.cpp */,
-				F7AC5126CE6FB0FB36A98618 /* UnsyncCmdDiff.h */,
-				16E2E72C1A6BFDFDD1243D29 /* UnsyncCmdHash.cpp */,
-				B26C336B35229A2F140510EB /* UnsyncCmdHash.h */,
-				705ABED5CE036F16758C79AE /* UnsyncCmdPatch.cpp */,
-				D72FE854B8564DC8A29BFADA /* UnsyncCmdPatch.h */,
-				BF978C00D4182077CFB0FD9F /* UnsyncCmdPush.cpp */,
-				AD051B7D848F04A49CCE9420 /* UnsyncCmdPush.h */,
-				9B55BD5927F682D24BC752CE /* UnsyncCmdQuery.cpp */,
-				BC802114E299FDEC109FE12E /* UnsyncCmdQuery.h */,
-				90CA066EBDA7F55D00CB9DA6 /* UnsyncCmdSync.cpp */,
-				DB5D01C36952F796F34A8317 /* UnsyncCmdSync.h */,
-				D2213994672F15CC5B05925F /* UnsyncCommon.h */,
-				3656B33D9668F3058E24F047 /* UnsyncCompression.cpp */,
-				8F7E31072444F2FA01FE5D11 /* UnsyncCompression.h */,
-				D6ED56331C933D68933CAD17 /* UnsyncCore.cpp */,
-				81C87B6FFD3F35E2E9BF3036 /* UnsyncCore.h */,
-				AC87504A677C6DB7A4FAB253 /* UnsyncError.h */,
-				19D8580EA10A32630C56C375 /* UnsyncFile.cpp */,
-				8B28395FEF4568012ADD318E /* UnsyncFile.h */,
-				4EC12542186A678F82648378 /* UnsyncHash.cpp */,
-				62F72BBD4294EA96C31D102D /* UnsyncHash.h */,
-				D980D347A95361617833E021 /* UnsyncHttp.cpp */,
-				D98B9B17E08915C42E37E3C1 /* UnsyncHttp.h */,
-				541E45EEE9163192D80B6D1E /* UnsyncJupiter.cpp */,
-				0044F61492BB821109CFC2C1 /* UnsyncJupiter.h */,
-				2DC5CE2AD47A06C8F36FEEA4 /* UnsyncLog.cpp */,
-				40DB0175A375A1318C84E6CD /* UnsyncLog.h */,
-				51CC2DD9BACEEA6D19D7E9F9 /* UnsyncMain.cpp */,
-				1E85208EF1D7BE09E31823D7 /* UnsyncMemory.cpp */,
-				D450067C1E5CB11F9DFBBA35 /* UnsyncMemory.h */,
-				445A00BE7D18C3DA6FE8B9A0 /* UnsyncMiniCb.cpp */,
-				FC73FD8D2EB4CA851B0237C3 /* UnsyncMiniCb.h */,
-				F48EFA6914E9F6024CC2C209 /* UnsyncPool.h */,
-				61B5132E7C489C1F032598A0 /* UnsyncProtocol.cpp */,
-				340BA86E56A1CCCD6387075F /* UnsyncProtocol.h */,
-				C253C3D6B09141C94B0FFA71 /* UnsyncProxy.cpp */,
-				AE73738F917467280AEAAB03 /* UnsyncProxy.h */,
-				D9A49BD0CECD63B0F780283C /* UnsyncRemote.cpp */,
-				AE6CEC1BFE957599107AB5ED /* UnsyncRemote.h */,
-				063C1DFCAEAE75131F382262 /* UnsyncScan.h */,
-				78292E88B92795CDB95815C2 /* UnsyncSerialization.cpp */,
-				47A9523EB40E98BB3D0B8384 /* UnsyncSerialization.h */,
-				A4CA9F597B5F9E80CEF04010 /* UnsyncSocket.cpp */,
-				48D6FC1E4ED10B57BFC09AEA /* UnsyncSocket.h */,
-				3CFCC9D96B7D9C3FE88711A5 /* UnsyncTest.cpp */,
-				19A6FFF2AF536AFFB3AFE251 /* UnsyncTest.h */,
-				D0BAAAC3F80E900DC048C0C5 /* UnsyncThread.cpp */,
-				FD0EEF602D55537E2A1221F4 /* UnsyncThread.h */,
-				CB6CCB1BA8C950EFC5F7C6EA /* UnsyncUtil.cpp */,
-				0B4D93C74F3540D6487595C0 /* UnsyncUtil.h */,
-				F526CA308C5AF23080560F5A /* UnsyncVarInt.h */,
+				02F667275E8780E986CF08F1 /* UnsyncBuffer.cpp */,
+				A1454C34D507AEB38343B430 /* UnsyncBuffer.h */,
+				F7AC5126CE6FB0FB36A98618 /* UnsyncCmdDiff.cpp */,
+				16E2E72C1A6BFDFDD1243D29 /* UnsyncCmdDiff.h */,
+				B26C336B35229A2F140510EB /* UnsyncCmdHash.cpp */,
+				705ABED5CE036F16758C79AE /* UnsyncCmdHash.h */,
+				D72FE854B8564DC8A29BFADA /* UnsyncCmdPatch.cpp */,
+				BF978C00D4182077CFB0FD9F /* UnsyncCmdPatch.h */,
+				AD051B7D848F04A49CCE9420 /* UnsyncCmdPush.cpp */,
+				9B55BD5927F682D24BC752CE /* UnsyncCmdPush.h */,
+				BC802114E299FDEC109FE12E /* UnsyncCmdQuery.cpp */,
+				90CA066EBDA7F55D00CB9DA6 /* UnsyncCmdQuery.h */,
+				DB5D01C36952F796F34A8317 /* UnsyncCmdSync.cpp */,
+				D2213994672F15CC5B05925F /* UnsyncCmdSync.h */,
+				3656B33D9668F3058E24F047 /* UnsyncCommon.h */,
+				8F7E31072444F2FA01FE5D11 /* UnsyncCompression.cpp */,
+				D6ED56331C933D68933CAD17 /* UnsyncCompression.h */,
+				81C87B6FFD3F35E2E9BF3036 /* UnsyncCore.cpp */,
+				AC87504A677C6DB7A4FAB253 /* UnsyncCore.h */,
+				19D8580EA10A32630C56C375 /* UnsyncError.h */,
+				8B28395FEF4568012ADD318E /* UnsyncFile.cpp */,
+				4EC12542186A678F82648378 /* UnsyncFile.h */,
+				62F72BBD4294EA96C31D102D /* UnsyncHash.cpp */,
+				D980D347A95361617833E021 /* UnsyncHash.h */,
+				D98B9B17E08915C42E37E3C1 /* UnsyncHttp.cpp */,
+				541E45EEE9163192D80B6D1E /* UnsyncHttp.h */,
+				0044F61492BB821109CFC2C1 /* UnsyncJupiter.cpp */,
+				2DC5CE2AD47A06C8F36FEEA4 /* UnsyncJupiter.h */,
+				40DB0175A375A1318C84E6CD /* UnsyncLog.cpp */,
+				51CC2DD9BACEEA6D19D7E9F9 /* UnsyncLog.h */,
+				1E85208EF1D7BE09E31823D7 /* UnsyncMain.cpp */,
+				D450067C1E5CB11F9DFBBA35 /* UnsyncMemory.cpp */,
+				445A00BE7D18C3DA6FE8B9A0 /* UnsyncMemory.h */,
+				FC73FD8D2EB4CA851B0237C3 /* UnsyncMiniCb.cpp */,
+				F48EFA6914E9F6024CC2C209 /* UnsyncMiniCb.h */,
+				61B5132E7C489C1F032598A0 /* UnsyncPool.h */,
+				340BA86E56A1CCCD6387075F /* UnsyncProtocol.cpp */,
+				C253C3D6B09141C94B0FFA71 /* UnsyncProtocol.h */,
+				AE73738F917467280AEAAB03 /* UnsyncProxy.cpp */,
+				D9A49BD0CECD63B0F780283C /* UnsyncProxy.h */,
+				AE6CEC1BFE957599107AB5ED /* UnsyncRemote.cpp */,
+				063C1DFCAEAE75131F382262 /* UnsyncRemote.h */,
+				78292E88B92795CDB95815C2 /* UnsyncScan.h */,
+				47A9523EB40E98BB3D0B8384 /* UnsyncSerialization.cpp */,
+				A4CA9F597B5F9E80CEF04010 /* UnsyncSerialization.h */,
+				48D6FC1E4ED10B57BFC09AEA /* UnsyncSocket.cpp */,
+				3CFCC9D96B7D9C3FE88711A5 /* UnsyncSocket.h */,
+				19A6FFF2AF536AFFB3AFE251 /* UnsyncTest.cpp */,
+				D0BAAAC3F80E900DC048C0C5 /* UnsyncTest.h */,
+				FD0EEF602D55537E2A1221F4 /* UnsyncThread.cpp */,
+				CB6CCB1BA8C950EFC5F7C6EA /* UnsyncThread.h */,
+				0B4D93C74F3540D6487595C0 /* UnsyncUtil.cpp */,
+				F526CA308C5AF23080560F5A /* UnsyncUtil.h */,
+				6A38A9556C3B94F0C7A4D129 /* UnsyncVarInt.h */,
 			);
 			name = "Private";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/Private";
 			sourceTree = "<absolute>";
 		};
-		E3309AF0BCA59396EFA15E09 = {
+		492CDED9A6D62C78F365F811 = {
 			isa = PBXGroup;
 			children = (
-				097D4EDCEB57794AB76EB6EF /* ig-debugheap */,
-				02FC8F0C6CC885EC2DDE528A /* Licenses */,
-				6A38A9556C3B94F0C7A4D129 /* flat_hash_map.hpp */,
-				929EFAF17ADB55D5440DC653 /* json11.cpp */,
-				A5B22734E0AE93EE0C72C2CD /* json11.hpp */,
-				A1F9710AE89B7F1B78534CC7 /* md5-sse2.cpp */,
-				A8A741BA92C85DAE744192E7 /* md5-sse2.h */,
+				A0D321A318DC109A714E37E5 /* ig-debugheap */,
+				B4A0C350ADDEFF50C49C689E /* Licenses */,
+				929EFAF17ADB55D5440DC653 /* flat_hash_map.hpp */,
+				A5B22734E0AE93EE0C72C2CD /* json11.cpp */,
+				A1F9710AE89B7F1B78534CC7 /* json11.hpp */,
+				A8A741BA92C85DAE744192E7 /* md5-sse2.cpp */,
+				084DE371AE000BABF4516141 /* md5-sse2.h */,
 			);
 			name = "ThirdParty";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty";
 			sourceTree = "<absolute>";
 		};
-		097D4EDCEB57794AB76EB6EF = {
+		A0D321A318DC109A714E37E5 = {
 			isa = PBXGroup;
 			children = (
-				084DE371AE000BABF4516141 /* DebugHeap.c */,
-				D2D74B33A017C9FA6F12B245 /* DebugHeap.h */,
-				1DA5F7B85BC4A0FBF3F29FD6 /* README.md */,
+				D2D74B33A017C9FA6F12B245 /* DebugHeap.c */,
+				1DA5F7B85BC4A0FBF3F29FD6 /* DebugHeap.h */,
+				9DDF3BA71A6EC90EC21E15FB /* README.md */,
 			);
 			name = "ig-debugheap";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/ig-debugheap";
 			sourceTree = "<absolute>";
 		};
-		02FC8F0C6CC885EC2DDE528A = {
+		B4A0C350ADDEFF50C49C689E = {
 			isa = PBXGroup;
 			children = (
-				DC1563C0F1CC1AD9D9ED1A7C /* flat_hash_map_License.txt */,
-				9DDF3BA71A6EC90EC21E15FB /* flat_hash_map.tps */,
-				D4CDCABB14289CCD58ECF7CA /* ig-debugheap_License.txt */,
-				C827D75DF2D8BD7420DCCB04 /* ig-debugheap.tps */,
-				56200450C57549F753AA47F5 /* json11_License.txt */,
-				741F9185EC8980A7055F8825 /* json11.tps */,
-				1DDCB2C08E6912952DD70960 /* sse-hash_License.txt */,
-				46656C30305A0E211F4A2FCC /* sse-hash.tps */,
+				C827D75DF2D8BD7420DCCB04 /* flat_hash_map_License.txt */,
+				DC1563C0F1CC1AD9D9ED1A7C /* flat_hash_map.tps */,
+				741F9185EC8980A7055F8825 /* ig-debugheap_License.txt */,
+				D4CDCABB14289CCD58ECF7CA /* ig-debugheap.tps */,
+				46656C30305A0E211F4A2FCC /* json11_License.txt */,
+				56200450C57549F753AA47F5 /* json11.tps */,
+				6E3480A3EE8F71DC04431253 /* sse-hash_License.txt */,
+				1DDCB2C08E6912952DD70960 /* sse-hash.tps */,
 			);
 			name = "Licenses";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Unsync/ThirdParty/Licenses";
 			sourceTree = "<absolute>";
 		};
-		ED229A19AA3CC2E0DE06F330 /* Products */ = {
+		0F35801627C343BF909CFDAF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE99BD6440680C4FA558BAAC /* Unsync */,
+				1DC296C604FA913FF725AFA3 /* Unsync */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -364,10 +364,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		FF969FFBEBD559834536340B /* Unsync_Build */ = {
+		A9A76881DE86510D22CF8C57 /* Unsync_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 80585E77BE96B85B16DB1FB7 /* Build configuration list for PBXLegacyTarget "Unsync_Build" */;
+			buildConfigurationList = ED229A19AA3CC2E0DE06F330 /* Build configuration list for PBXLegacyTarget "Unsync_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -381,30 +381,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		2414F862DC1D84F07856CC57 /* Unsync */ = {
+		80585E77BE96B85B16DB1FB7 /* Unsync */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D120EC63F6EB82EDFD46E9F /* Build configuration list for PBXNativeTarget "Unsync" */;
+			buildConfigurationList = BF06B796ED7E313979406039 /* Build configuration list for PBXNativeTarget "Unsync" */;
 			buildPhases = (
-				F71445F0962EC34E363ED9E2 /* Embed App Extensions */, 
-				607794BB63CFC5A2B33784A8 /* Shell Script */, 
+				84145F0F3DC54C41DC446DA9 /* Embed App Extensions */, 
+				275BD9F85E62065BD49B6FFD /* Shell Script */, 
 			);
 			dependencies = (
-				A72F1DEE517C6BF7FEF9CDD7 /* PBXTargetDependency */,
+				C81AEC11F394FC9865B2E4E7 /* PBXTargetDependency */,
 			);
 			name = "Unsync";
 			passBuildSettingsInEnvironment = 1;
 			productName = "Unsync";
-			productReference = "CE99BD6440680C4FA558BAAC";
+			productReference = "1DC296C604FA913FF725AFA3";
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		BF06B796ED7E313979406039 /* Unsync_Index */ = {
+		FD36936A20A4F0E4E5EC66F7 /* Unsync_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C81AEC11F394FC9865B2E4E7 /* Build configuration list for PBXNativeTarget "Unsync_Index" */;
+			buildConfigurationList = F71445F0962EC34E363ED9E2 /* Build configuration list for PBXNativeTarget "Unsync_Index" */;
 			buildPhases = (
-				FD36936A20A4F0E4E5EC66F7 /* Sources */,
+				41466F8DCCD826BD55FEC391 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -416,38 +416,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0995900F9F5F962377E73BE5 /* Project object */ = {
+		607794BB63CFC5A2B33784A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					2414F862DC1D84F07856CC57 = {
+					80585E77BE96B85B16DB1FB7 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 1DC296C604FA913FF725AFA3 /* Build configuration list for PBXProject "Unsync" */;
+			buildConfigurationList = F2E6ED7DDFA87200BBA22296 /* Build configuration list for PBXProject "Unsync" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = A9A76881DE86510D22CF8C57;
-			productRefGroup = ED229A19AA3CC2E0DE06F330;
+			mainGroup = F7D14AB043A4F9BF5CB10AA8;
+			productRefGroup = 0F35801627C343BF909CFDAF;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			2414F862DC1D84F07856CC57 /* Unsync */,
-			FF969FFBEBD559834536340B /* Unsync_Build */,
-			BF06B796ED7E313979406039 /* Unsync_Index */,
+			80585E77BE96B85B16DB1FB7 /* Unsync */,
+			A9A76881DE86510D22CF8C57 /* Unsync_Build */,
+			FD36936A20A4F0E4E5EC66F7 /* Unsync_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		F2E6ED7DDFA87200BBA22296 /* "Debug" */ = {
+		356CF2838A4C531171EF9112 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -481,7 +481,7 @@
 			};
 			name = "Debug";
 		};
-		84145F0F3DC54C41DC446DA9 /* "DebugGame" */ = {
+		E13B0B17C872246F0681845C /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -514,7 +514,7 @@
 			};
 			name = "DebugGame";
 		};
-		FF2D5FF2F868BDE9A562DAD1 /* "Development" */ = {
+		432F07215993CF3142831284 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -547,7 +547,7 @@
 			};
 			name = "Development";
 		};
-		05430B7B8D2DA738993511BC /* "Test" */ = {
+		88F278F896E940E7827B9B1F /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -580,7 +580,7 @@
 			};
 			name = "Test";
 		};
-		863AC3F0E4A643ABA17B375E /* "Shipping" */ = {
+		92DD982CB9E023033F248CD8 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -613,7 +613,7 @@
 			};
 			name = "Shipping";
 		};
-		F7D14AB043A4F9BF5CB10AA8 /* "Debug" */ = {
+		633481CB4FBCD2FCD8C56571 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -630,7 +630,7 @@
 			};
 			name = "Debug";
 		};
-		275BD9F85E62065BD49B6FFD /* "DebugGame" */ = {
+		ED61190931A76D015AAFF887 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -647,7 +647,7 @@
 			};
 			name = "DebugGame";
 		};
-		D2C8B68FF05C3838C9C69429 /* "Development" */ = {
+		67A9E2D9D94BC3B84F5CAC8B /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -664,7 +664,7 @@
 			};
 			name = "Development";
 		};
-		5CA521323D6ACB514459A18F /* "Test" */ = {
+		CFDF4D9C4066E3EB7184B353 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -681,7 +681,7 @@
 			};
 			name = "Test";
 		};
-		2585DF0665DF7AD9939CCB94 /* "Shipping" */ = {
+		96CF05AF83B1B0A0775B6DF5 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -698,7 +698,7 @@
 			};
 			name = "Shipping";
 		};
-		0F35801627C343BF909CFDAF /* "Debug" */ = {
+		FF2D5FF2F868BDE9A562DAD1 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -711,7 +711,7 @@
 			};
 			name = "Debug";
 		};
-		356CF2838A4C531171EF9112 /* "DebugGame" */ = {
+		05430B7B8D2DA738993511BC /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -724,7 +724,7 @@
 			};
 			name = "DebugGame";
 		};
-		E13B0B17C872246F0681845C /* "Development" */ = {
+		863AC3F0E4A643ABA17B375E /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -737,7 +737,7 @@
 			};
 			name = "Development";
 		};
-		432F07215993CF3142831284 /* "Test" */ = {
+		6BBD5270E2D3F8E96E2F68F2 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -750,7 +750,7 @@
 			};
 			name = "Test";
 		};
-		88F278F896E940E7827B9B1F /* "Shipping" */ = {
+		502AAF20A80969AB87CBDD04 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -763,7 +763,7 @@
 			};
 			name = "Shipping";
 		};
-		41466F8DCCD826BD55FEC391 /* "Debug" */ = {
+		D2C8B68FF05C3838C9C69429 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -780,7 +780,7 @@
 			};
 			name = "Debug";
 		};
-		633481CB4FBCD2FCD8C56571 /* "DebugGame" */ = {
+		5CA521323D6ACB514459A18F /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -797,7 +797,7 @@
 			};
 			name = "DebugGame";
 		};
-		ED61190931A76D015AAFF887 /* "Development" */ = {
+		2585DF0665DF7AD9939CCB94 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -814,7 +814,7 @@
 			};
 			name = "Development";
 		};
-		67A9E2D9D94BC3B84F5CAC8B /* "Test" */ = {
+		2E4A15B83B50DBA9EAC03686 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -831,7 +831,7 @@
 			};
 			name = "Test";
 		};
-		CFDF4D9C4066E3EB7184B353 /* "Shipping" */ = {
+		3ACB308E0C64B309BE3D216B /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -851,55 +851,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DC296C604FA913FF725AFA3 /* Build configuration list for PBXProject "Unsync" */ = {
+		F2E6ED7DDFA87200BBA22296 /* Build configuration list for PBXProject "Unsync" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2E6ED7DDFA87200BBA22296 /* "Debug" */,
-				84145F0F3DC54C41DC446DA9 /* "DebugGame" */,
-				FF2D5FF2F868BDE9A562DAD1 /* "Development" */,
-				05430B7B8D2DA738993511BC /* "Test" */,
-				863AC3F0E4A643ABA17B375E /* "Shipping" */,
+				356CF2838A4C531171EF9112 /* "Debug" */,
+				E13B0B17C872246F0681845C /* "DebugGame" */,
+				432F07215993CF3142831284 /* "Development" */,
+				88F278F896E940E7827B9B1F /* "Test" */,
+				92DD982CB9E023033F248CD8 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		80585E77BE96B85B16DB1FB7 /* Build configuration list for PBXLegacyTarget "Unsync_Build" */ = {
+		ED229A19AA3CC2E0DE06F330 /* Build configuration list for PBXLegacyTarget "Unsync_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0F35801627C343BF909CFDAF /* "Debug" */,
-				356CF2838A4C531171EF9112 /* "DebugGame" */,
-				E13B0B17C872246F0681845C /* "Development" */,
-				432F07215993CF3142831284 /* "Test" */,
-				88F278F896E940E7827B9B1F /* "Shipping" */,
+				FF2D5FF2F868BDE9A562DAD1 /* "Debug" */,
+				05430B7B8D2DA738993511BC /* "DebugGame" */,
+				863AC3F0E4A643ABA17B375E /* "Development" */,
+				6BBD5270E2D3F8E96E2F68F2 /* "Test" */,
+				502AAF20A80969AB87CBDD04 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		7D120EC63F6EB82EDFD46E9F /* Build configuration list for PBXNativeTarget "Unsync" */ = {
+		BF06B796ED7E313979406039 /* Build configuration list for PBXNativeTarget "Unsync" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7D14AB043A4F9BF5CB10AA8 /* "Debug" */,
-				275BD9F85E62065BD49B6FFD /* "DebugGame" */,
-				D2C8B68FF05C3838C9C69429 /* "Development" */,
-				5CA521323D6ACB514459A18F /* "Test" */,
-				2585DF0665DF7AD9939CCB94 /* "Shipping" */,
+				633481CB4FBCD2FCD8C56571 /* "Debug" */,
+				ED61190931A76D015AAFF887 /* "DebugGame" */,
+				67A9E2D9D94BC3B84F5CAC8B /* "Development" */,
+				CFDF4D9C4066E3EB7184B353 /* "Test" */,
+				96CF05AF83B1B0A0775B6DF5 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		C81AEC11F394FC9865B2E4E7 /* Build configuration list for PBXNativeTarget "Unsync_Index" */ = {
+		F71445F0962EC34E363ED9E2 /* Build configuration list for PBXNativeTarget "Unsync_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				41466F8DCCD826BD55FEC391 /* "Debug" */,
-				633481CB4FBCD2FCD8C56571 /* "DebugGame" */,
-				ED61190931A76D015AAFF887 /* "Development" */,
-				67A9E2D9D94BC3B84F5CAC8B /* "Test" */,
-				CFDF4D9C4066E3EB7184B353 /* "Shipping" */,
+				D2C8B68FF05C3838C9C69429 /* "Debug" */,
+				5CA521323D6ACB514459A18F /* "DebugGame" */,
+				2585DF0665DF7AD9939CCB94 /* "Development" */,
+				2E4A15B83B50DBA9EAC03686 /* "Test" */,
+				3ACB308E0C64B309BE3D216B /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0995900F9F5F962377E73BE5 /* Project object */;
+	rootObject = 607794BB63CFC5A2B33784A8 /* Project object */;
 }

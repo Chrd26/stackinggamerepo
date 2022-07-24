@@ -9,20 +9,30 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>ChaosVisualDebugger_Build.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>51</integer>
+		</dict>
+		<key>ChaosVisualDebugger_Index.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>52</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>71E17F5CDBECB471FE9AE40C</key>
+		<key>1B905183329CB5CB4B1F3A77</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B44777E46BC99CCD50BF4B71</key>
+		<key>59F30C87870C69C14A8DA4B2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BA1123CEEA1AA90A8B4F91FF</key>
+		<key>E325F1BB08BBA2863CF65179</key>
 		<dict>
 			<key>primary</key>
 			<true/>

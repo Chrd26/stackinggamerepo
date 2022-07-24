@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1048B3EB300E3F7053942779"
+               BlueprintIdentifier = "C884751A70658C01C2342E81"
                BuildableName = "UnrealEditorServices.app"
                BlueprintName = "UnrealEditorServices"
                ReferencedContainer = "container:UnrealEditorServices.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1048B3EB300E3F7053942779"
+               BlueprintIdentifier = "C884751A70658C01C2342E81"
                BuildableName = "UnrealEditorServices.app"
                BlueprintName = "UnrealEditorServices"
                ReferencedContainer = "container:UnrealEditorServices.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1048B3EB300E3F7053942779"
+               BlueprintIdentifier = "C884751A70658C01C2342E81"
                BuildableName = "UnrealEditorServices.app"
                BlueprintName = "UnrealEditorServices"
                ReferencedContainer = "container:UnrealEditorServices.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1048B3EB300E3F7053942779"
+               BlueprintIdentifier = "C884751A70658C01C2342E81"
                BuildableName = "UnrealEditorServices.app"
                BlueprintName = "UnrealEditorServices"
                ReferencedContainer = "container:UnrealEditorServices.xcodeproj">

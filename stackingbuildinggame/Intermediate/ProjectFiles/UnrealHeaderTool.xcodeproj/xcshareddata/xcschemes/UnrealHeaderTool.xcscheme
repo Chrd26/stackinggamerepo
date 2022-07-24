@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A7BC032549E32DD3F89BD58D"
+               BlueprintIdentifier = "6387EAB220B9484D3708C663"
                BuildableName = "UnrealHeaderTool"
                BlueprintName = "UnrealHeaderTool"
                ReferencedContainer = "container:UnrealHeaderTool.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A7BC032549E32DD3F89BD58D"
+            BlueprintIdentifier = "6387EAB220B9484D3708C663"
             BuildableName = "UnrealHeaderTool"
             BlueprintName = "UnrealHeaderTool"
             ReferencedContainer = "container:UnrealHeaderTool.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A7BC032549E32DD3F89BD58D"
+            BlueprintIdentifier = "6387EAB220B9484D3708C663"
             BuildableName = "UnrealHeaderTool"
             BlueprintName = "UnrealHeaderTool"
             ReferencedContainer = "container:UnrealHeaderTool.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A7BC032549E32DD3F89BD58D"
+            BlueprintIdentifier = "6387EAB220B9484D3708C663"
             BuildableName = "UnrealHeaderTool"
             BlueprintName = "UnrealHeaderTool"
             ReferencedContainer = "container:UnrealHeaderTool.xcodeproj">

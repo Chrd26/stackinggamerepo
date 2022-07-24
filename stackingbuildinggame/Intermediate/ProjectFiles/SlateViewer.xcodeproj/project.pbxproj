@@ -7,45 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9107DBDB4022B5D52DF503C8 /* IOSSlateViewerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C254EFB78B525AF9C85F42BA /* IOSSlateViewerMain.cpp */; };
-		4AC85E8433D4B703A968ED7E /* SlateViewerMainLinux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7401C67F126D9A4B033BAFB /* SlateViewerMainLinux.cpp */; };
-		C13E884F1C0F4D32C5219078 /* SlateViewerMainMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C431A1593D001E596771D04B /* SlateViewerMainMac.cpp */; };
-		79B37E7F85C21C5C8AA6FC06 /* SlateViewerApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AB4FC7C50B1F514A2760915 /* SlateViewerApp.cpp */; };
-		36F208A2859D09170E62C2F5 /* SlateViewerMainWindows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B67E69A1BBAB8C5AFA3A3BF /* SlateViewerMainWindows.cpp */; };
-		847F67AF146094506E3D1829 /* SlateViewer.h in Sources */ = {isa = PBXBuildFile; fileRef = 06ABAC28177969616FAC0ED6 /* SlateViewer.h */; };
-		1A843EACB80A9B934F491D06 /* SlateViewerApp.h in Sources */ = {isa = PBXBuildFile; fileRef = 355A02AECE71860E4EBC9470 /* SlateViewerApp.h */; };
-		FF164F7D7B40D3757AA8AFE4 /* SlateViewer.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = A0C466DC6E4644AF3529E85A /* SlateViewer.Build.cs */; };
+		4AC85E8433D4B703A968ED7E /* IOSSlateViewerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7401C67F126D9A4B033BAFB /* IOSSlateViewerMain.cpp */; };
+		C13E884F1C0F4D32C5219078 /* SlateViewerMainLinux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C431A1593D001E596771D04B /* SlateViewerMainLinux.cpp */; };
+		36F208A2859D09170E62C2F5 /* SlateViewerMainMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B67E69A1BBAB8C5AFA3A3BF /* SlateViewerMainMac.cpp */; };
+		9107DBDB4022B5D52DF503C8 /* SlateViewerApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C254EFB78B525AF9C85F42BA /* SlateViewerApp.cpp */; };
+		847F67AF146094506E3D1829 /* SlateViewerMainWindows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06ABAC28177969616FAC0ED6 /* SlateViewerMainWindows.cpp */; };
+		1A843EACB80A9B934F491D06 /* SlateViewer.h in Sources */ = {isa = PBXBuildFile; fileRef = 355A02AECE71860E4EBC9470 /* SlateViewer.h */; };
+		0D90AD353A4150D771909590 /* SlateViewerApp.h in Sources */ = {isa = PBXBuildFile; fileRef = 22E79864A185DABD8DA6F2BD /* SlateViewerApp.h */; };
+		79B37E7F85C21C5C8AA6FC06 /* SlateViewer.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 9AB4FC7C50B1F514A2760915 /* SlateViewer.Build.cs */; };
 		6EFDCB77488E8264F4C508D7 /* SlateViewer.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = B39EC8FFBF5D5CEB9677CAE7 /* SlateViewer.Target.cs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C254EFB78B525AF9C85F42BA /* IOSSlateViewerMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IOSSlateViewerMain.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private/IOS/IOSSlateViewerMain.cpp"; sourceTree = SOURCE_ROOT; };
-		E7401C67F126D9A4B033BAFB /* SlateViewerMainLinux.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SlateViewerMainLinux.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private/Linux/SlateViewerMainLinux.cpp"; sourceTree = SOURCE_ROOT; };
-		C431A1593D001E596771D04B /* SlateViewerMainMac.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SlateViewerMainMac.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private/Mac/SlateViewerMainMac.cpp"; sourceTree = SOURCE_ROOT; };
-		9AB4FC7C50B1F514A2760915 /* SlateViewerApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SlateViewerApp.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private/SlateViewerApp.cpp"; sourceTree = SOURCE_ROOT; };
-		4B67E69A1BBAB8C5AFA3A3BF /* SlateViewerMainWindows.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SlateViewerMainWindows.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private/Windows/SlateViewerMainWindows.cpp"; sourceTree = SOURCE_ROOT; };
-		06ABAC28177969616FAC0ED6 /* SlateViewer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SlateViewer.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Public/SlateViewer.h"; sourceTree = SOURCE_ROOT; };
-		355A02AECE71860E4EBC9470 /* SlateViewerApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SlateViewerApp.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Public/SlateViewerApp.h"; sourceTree = SOURCE_ROOT; };
-		A0C466DC6E4644AF3529E85A /* SlateViewer.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SlateViewer.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/SlateViewer.Build.cs"; sourceTree = SOURCE_ROOT; };
+		E7401C67F126D9A4B033BAFB /* IOSSlateViewerMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IOSSlateViewerMain.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private/IOS/IOSSlateViewerMain.cpp"; sourceTree = SOURCE_ROOT; };
+		C431A1593D001E596771D04B /* SlateViewerMainLinux.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SlateViewerMainLinux.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private/Linux/SlateViewerMainLinux.cpp"; sourceTree = SOURCE_ROOT; };
+		4B67E69A1BBAB8C5AFA3A3BF /* SlateViewerMainMac.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SlateViewerMainMac.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private/Mac/SlateViewerMainMac.cpp"; sourceTree = SOURCE_ROOT; };
+		C254EFB78B525AF9C85F42BA /* SlateViewerApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SlateViewerApp.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private/SlateViewerApp.cpp"; sourceTree = SOURCE_ROOT; };
+		06ABAC28177969616FAC0ED6 /* SlateViewerMainWindows.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SlateViewerMainWindows.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private/Windows/SlateViewerMainWindows.cpp"; sourceTree = SOURCE_ROOT; };
+		355A02AECE71860E4EBC9470 /* SlateViewer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SlateViewer.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Public/SlateViewer.h"; sourceTree = SOURCE_ROOT; };
+		22E79864A185DABD8DA6F2BD /* SlateViewerApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SlateViewerApp.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Public/SlateViewerApp.h"; sourceTree = SOURCE_ROOT; };
+		9AB4FC7C50B1F514A2760915 /* SlateViewer.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SlateViewer.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/SlateViewer.Build.cs"; sourceTree = SOURCE_ROOT; };
 		B39EC8FFBF5D5CEB9677CAE7 /* SlateViewer.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SlateViewer.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/SlateViewer.Target.cs"; sourceTree = SOURCE_ROOT; };
-		E3AE1FC92239E49C3BD6A828 /* SlateViewer */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SlateViewer; sourceTree = BUILT_PRODUCTS_DIR; };
+		33114496164405A5A33C4203 /* SlateViewer */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SlateViewer; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9F6A5742C072AE682B7B05F7 = {
+		88EDA5BC061A5FC41A0CB73A = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9107DBDB4022B5D52DF503C8 /* IOSSlateViewerMain.cpp in Sources */,
-				C13E884F1C0F4D32C5219078 /* SlateViewerMainMac.cpp in Sources */,
-				79B37E7F85C21C5C8AA6FC06 /* SlateViewerApp.cpp in Sources */,
+				4AC85E8433D4B703A968ED7E /* IOSSlateViewerMain.cpp in Sources */,
+				36F208A2859D09170E62C2F5 /* SlateViewerMainMac.cpp in Sources */,
+				9107DBDB4022B5D52DF503C8 /* SlateViewerApp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	461C073318AEB914328F1A38 /* Embed App Extensions */ = {
+	80A6A4A260E4F1103252A4EB /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -57,98 +57,98 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		B8FD328F07335C91260B4C92 /* PBXContainerItemProxy */ = {
+		A56D7E80253CAFB4BB4795F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A56D7E80253CAFB4BB4795F8 /* Project object */;
+			containerPortal = 88EC4B29A1547E32DD92F441 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 62B0FE4250A2956791752659;
+			remoteGlobalIDString = 7A2DF693AC872FE63F1EDEB5;
 			remoteInfo = "SlateViewer_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		76C440D865CC2191BD07979A /* PBXTargetDependency */ = {
+		341A408375E4016D87C51851 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 62B0FE4250A2956791752659 /* SlateViewer_Build */;
-			targetProxy = B8FD328F07335C91260B4C92 /* PBXContainerItemProxy */;
+			target = 7A2DF693AC872FE63F1EDEB5 /* SlateViewer_Build */;
+			targetProxy = A56D7E80253CAFB4BB4795F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		7A2DF693AC872FE63F1EDEB5 = {
+		7267D4D78E3B310F501FBAD3 = {
 			isa = PBXGroup;
 			children = (
-				0FF413CED9301CAD587264DF /* Private */,
-				B9549576B5E0E8120B537D40 /* Public */,
-				A0C466DC6E4644AF3529E85A /* SlateViewer.Build.cs */,
+				0D6222A0B7FCF2B1D1E038DE /* Private */,
+				6DAC2E4454FC20F1331789F3 /* Public */,
+				9AB4FC7C50B1F514A2760915 /* SlateViewer.Build.cs */,
 				B39EC8FFBF5D5CEB9677CAE7 /* SlateViewer.Target.cs */,
-				7BDEBC185A799AED85475064 /* Products */,
+				2784C6D6FDD31AB327C5032C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0FF413CED9301CAD587264DF = {
+		0D6222A0B7FCF2B1D1E038DE = {
 			isa = PBXGroup;
 			children = (
-				BE0C4163D3D4757A11644217 /* IOS */,
-				1D7277C818E1BC84F6AB00ED /* Linux */,
-				E593C6135870AD45256CA097 /* Mac */,
-				8F3A984BE7472CAAB2FBB066 /* Windows */,
-				9AB4FC7C50B1F514A2760915 /* SlateViewerApp.cpp */,
+				49719CAE7F553BEAE25F5A03 /* IOS */,
+				DB368F45838D8B3BBD573D85 /* Linux */,
+				258BF3B509FE94D91CB62D44 /* Mac */,
+				433993B518935DAE081EC580 /* Windows */,
+				C254EFB78B525AF9C85F42BA /* SlateViewerApp.cpp */,
 			);
 			name = "Private";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private";
 			sourceTree = "<absolute>";
 		};
-		BE0C4163D3D4757A11644217 = {
+		49719CAE7F553BEAE25F5A03 = {
 			isa = PBXGroup;
 			children = (
-				C254EFB78B525AF9C85F42BA /* IOSSlateViewerMain.cpp */,
+				E7401C67F126D9A4B033BAFB /* IOSSlateViewerMain.cpp */,
 			);
 			name = "IOS";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private/IOS";
 			sourceTree = "<absolute>";
 		};
-		1D7277C818E1BC84F6AB00ED = {
+		DB368F45838D8B3BBD573D85 = {
 			isa = PBXGroup;
 			children = (
-				E7401C67F126D9A4B033BAFB /* SlateViewerMainLinux.cpp */,
+				C431A1593D001E596771D04B /* SlateViewerMainLinux.cpp */,
 			);
 			name = "Linux";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private/Linux";
 			sourceTree = "<absolute>";
 		};
-		E593C6135870AD45256CA097 = {
+		258BF3B509FE94D91CB62D44 = {
 			isa = PBXGroup;
 			children = (
-				C431A1593D001E596771D04B /* SlateViewerMainMac.cpp */,
+				4B67E69A1BBAB8C5AFA3A3BF /* SlateViewerMainMac.cpp */,
 			);
 			name = "Mac";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private/Mac";
 			sourceTree = "<absolute>";
 		};
-		8F3A984BE7472CAAB2FBB066 = {
+		433993B518935DAE081EC580 = {
 			isa = PBXGroup;
 			children = (
-				4B67E69A1BBAB8C5AFA3A3BF /* SlateViewerMainWindows.cpp */,
+				06ABAC28177969616FAC0ED6 /* SlateViewerMainWindows.cpp */,
 			);
 			name = "Windows";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private/Windows";
 			sourceTree = "<absolute>";
 		};
-		B9549576B5E0E8120B537D40 = {
+		6DAC2E4454FC20F1331789F3 = {
 			isa = PBXGroup;
 			children = (
-				06ABAC28177969616FAC0ED6 /* SlateViewer.h */,
-				355A02AECE71860E4EBC9470 /* SlateViewerApp.h */,
+				355A02AECE71860E4EBC9470 /* SlateViewer.h */,
+				22E79864A185DABD8DA6F2BD /* SlateViewerApp.h */,
 			);
 			name = "Public";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Public";
 			sourceTree = "<absolute>";
 		};
-		7BDEBC185A799AED85475064 /* Products */ = {
+		2784C6D6FDD31AB327C5032C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E3AE1FC92239E49C3BD6A828 /* SlateViewer */,
+				33114496164405A5A33C4203 /* SlateViewer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,10 +156,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		62B0FE4250A2956791752659 /* SlateViewer_Build */ = {
+		7A2DF693AC872FE63F1EDEB5 /* SlateViewer_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = B0D093771EBBB16B78AEF5B6 /* Build configuration list for PBXLegacyTarget "SlateViewer_Build" */;
+			buildConfigurationList = 7BDEBC185A799AED85475064 /* Build configuration list for PBXLegacyTarget "SlateViewer_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -173,30 +173,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		1787AD1FECA389630E723452 /* SlateViewer */ = {
+		B0D093771EBBB16B78AEF5B6 /* SlateViewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F280FDF57E3609AAA7A4CD7 /* Build configuration list for PBXNativeTarget "SlateViewer" */;
+			buildConfigurationList = AC586F8422FA5EE1540A2D56 /* Build configuration list for PBXNativeTarget "SlateViewer" */;
 			buildPhases = (
-				461C073318AEB914328F1A38 /* Embed App Extensions */, 
-				88EC4B29A1547E32DD92F441 /* Shell Script */, 
+				80A6A4A260E4F1103252A4EB /* Embed App Extensions */, 
+				AFB20205A91E16AC63A74FA1 /* Shell Script */, 
 			);
 			dependencies = (
-				76C440D865CC2191BD07979A /* PBXTargetDependency */,
+				341A408375E4016D87C51851 /* PBXTargetDependency */,
 			);
 			name = "SlateViewer";
 			passBuildSettingsInEnvironment = 1;
 			productName = "SlateViewer";
-			productReference = "E3AE1FC92239E49C3BD6A828";
+			productReference = "33114496164405A5A33C4203";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		AC586F8422FA5EE1540A2D56 /* SlateViewer_Index */ = {
+		9F6A5742C072AE682B7B05F7 /* SlateViewer_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 341A408375E4016D87C51851 /* Build configuration list for PBXNativeTarget "SlateViewer_Index" */;
+			buildConfigurationList = 461C073318AEB914328F1A38 /* Build configuration list for PBXNativeTarget "SlateViewer_Index" */;
 			buildPhases = (
-				9F6A5742C072AE682B7B05F7 /* Sources */,
+				88EDA5BC061A5FC41A0CB73A /* Sources */,
 			);
 			dependencies = (
 			);
@@ -208,38 +208,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A56D7E80253CAFB4BB4795F8 /* Project object */ = {
+		88EC4B29A1547E32DD92F441 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					1787AD1FECA389630E723452 = {
+					B0D093771EBBB16B78AEF5B6 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 33114496164405A5A33C4203 /* Build configuration list for PBXProject "SlateViewer" */;
+			buildConfigurationList = 30EC26CC6F758900D8C4D23E /* Build configuration list for PBXProject "SlateViewer" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 7A2DF693AC872FE63F1EDEB5;
-			productRefGroup = 7BDEBC185A799AED85475064;
+			mainGroup = 7267D4D78E3B310F501FBAD3;
+			productRefGroup = 2784C6D6FDD31AB327C5032C;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			1787AD1FECA389630E723452 /* SlateViewer */,
-			62B0FE4250A2956791752659 /* SlateViewer_Build */,
-			AC586F8422FA5EE1540A2D56 /* SlateViewer_Index */,
+			B0D093771EBBB16B78AEF5B6 /* SlateViewer */,
+			7A2DF693AC872FE63F1EDEB5 /* SlateViewer_Build */,
+			9F6A5742C072AE682B7B05F7 /* SlateViewer_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		30EC26CC6F758900D8C4D23E /* "Debug" */ = {
+		96740935C0F5B91BCC8B5656 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -333,7 +333,7 @@
 			};
 			name = "Debug";
 		};
-		80A6A4A260E4F1103252A4EB /* "DebugGame" */ = {
+		CBD3D870AD1959DC66B51E66 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -426,7 +426,7 @@
 			};
 			name = "DebugGame";
 		};
-		17591AFCF50BD7D857020CEC /* "Development" */ = {
+		645D6FDFADAAC5646AC0CDEE /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -519,7 +519,7 @@
 			};
 			name = "Development";
 		};
-		A2BE9CBF9AEAF76B82E83122 /* "Test" */ = {
+		EC0867EA066F5161CF228DED /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -612,7 +612,7 @@
 			};
 			name = "Test";
 		};
-		51C0823CE1427AB75CC05A3C /* "Shipping" */ = {
+		4A902C83AA05D0E607C0F5FA /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -705,7 +705,7 @@
 			};
 			name = "Shipping";
 		};
-		7267D4D78E3B310F501FBAD3 /* "Debug" */ = {
+		2E785343D3F3FA3548B90D53 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -742,7 +742,7 @@
 			};
 			name = "Debug";
 		};
-		AFB20205A91E16AC63A74FA1 /* "DebugGame" */ = {
+		DABC25C1B47DFE2C6B666818 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -779,7 +779,7 @@
 			};
 			name = "DebugGame";
 		};
-		DBBB503C99891F235CACD631 /* "Development" */ = {
+		7C9A427CBEB2E3F28B028E4C /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -816,7 +816,7 @@
 			};
 			name = "Development";
 		};
-		32672B3EA92F85259DEA61DC /* "Test" */ = {
+		28888227461692BC3F0601A6 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -853,7 +853,7 @@
 			};
 			name = "Test";
 		};
-		7B17BDD723CDB872993CC10F /* "Shipping" */ = {
+		A09317B36E79EEB538AA4CB6 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -890,7 +890,7 @@
 			};
 			name = "Shipping";
 		};
-		2784C6D6FDD31AB327C5032C /* "Debug" */ = {
+		17591AFCF50BD7D857020CEC /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -903,7 +903,7 @@
 			};
 			name = "Debug";
 		};
-		96740935C0F5B91BCC8B5656 /* "DebugGame" */ = {
+		A2BE9CBF9AEAF76B82E83122 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -916,7 +916,7 @@
 			};
 			name = "DebugGame";
 		};
-		CBD3D870AD1959DC66B51E66 /* "Development" */ = {
+		51C0823CE1427AB75CC05A3C /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -929,7 +929,7 @@
 			};
 			name = "Development";
 		};
-		645D6FDFADAAC5646AC0CDEE /* "Test" */ = {
+		F50BCEBE4A1CB314FE7250D8 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -942,7 +942,7 @@
 			};
 			name = "Test";
 		};
-		EC0867EA066F5161CF228DED /* "Shipping" */ = {
+		64A54D4699A81C245C3473BA /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -955,7 +955,7 @@
 			};
 			name = "Shipping";
 		};
-		88EDA5BC061A5FC41A0CB73A /* "Debug" */ = {
+		DBBB503C99891F235CACD631 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -992,7 +992,7 @@
 			};
 			name = "Debug";
 		};
-		2E785343D3F3FA3548B90D53 /* "DebugGame" */ = {
+		32672B3EA92F85259DEA61DC /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -1029,7 +1029,7 @@
 			};
 			name = "DebugGame";
 		};
-		DABC25C1B47DFE2C6B666818 /* "Development" */ = {
+		7B17BDD723CDB872993CC10F /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -1066,7 +1066,7 @@
 			};
 			name = "Development";
 		};
-		7C9A427CBEB2E3F28B028E4C /* "Test" */ = {
+		DB8FB1ED6EF96C5889D0AF9A /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -1103,7 +1103,7 @@
 			};
 			name = "Test";
 		};
-		28888227461692BC3F0601A6 /* "Shipping" */ = {
+		F03069F9A26AD11B99B64CDB /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -1143,55 +1143,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33114496164405A5A33C4203 /* Build configuration list for PBXProject "SlateViewer" */ = {
+		30EC26CC6F758900D8C4D23E /* Build configuration list for PBXProject "SlateViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30EC26CC6F758900D8C4D23E /* "Debug" */,
-				80A6A4A260E4F1103252A4EB /* "DebugGame" */,
-				17591AFCF50BD7D857020CEC /* "Development" */,
-				A2BE9CBF9AEAF76B82E83122 /* "Test" */,
-				51C0823CE1427AB75CC05A3C /* "Shipping" */,
+				96740935C0F5B91BCC8B5656 /* "Debug" */,
+				CBD3D870AD1959DC66B51E66 /* "DebugGame" */,
+				645D6FDFADAAC5646AC0CDEE /* "Development" */,
+				EC0867EA066F5161CF228DED /* "Test" */,
+				4A902C83AA05D0E607C0F5FA /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		B0D093771EBBB16B78AEF5B6 /* Build configuration list for PBXLegacyTarget "SlateViewer_Build" */ = {
+		7BDEBC185A799AED85475064 /* Build configuration list for PBXLegacyTarget "SlateViewer_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2784C6D6FDD31AB327C5032C /* "Debug" */,
-				96740935C0F5B91BCC8B5656 /* "DebugGame" */,
-				CBD3D870AD1959DC66B51E66 /* "Development" */,
-				645D6FDFADAAC5646AC0CDEE /* "Test" */,
-				EC0867EA066F5161CF228DED /* "Shipping" */,
+				17591AFCF50BD7D857020CEC /* "Debug" */,
+				A2BE9CBF9AEAF76B82E83122 /* "DebugGame" */,
+				51C0823CE1427AB75CC05A3C /* "Development" */,
+				F50BCEBE4A1CB314FE7250D8 /* "Test" */,
+				64A54D4699A81C245C3473BA /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		6F280FDF57E3609AAA7A4CD7 /* Build configuration list for PBXNativeTarget "SlateViewer" */ = {
+		AC586F8422FA5EE1540A2D56 /* Build configuration list for PBXNativeTarget "SlateViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7267D4D78E3B310F501FBAD3 /* "Debug" */,
-				AFB20205A91E16AC63A74FA1 /* "DebugGame" */,
-				DBBB503C99891F235CACD631 /* "Development" */,
-				32672B3EA92F85259DEA61DC /* "Test" */,
-				7B17BDD723CDB872993CC10F /* "Shipping" */,
+				2E785343D3F3FA3548B90D53 /* "Debug" */,
+				DABC25C1B47DFE2C6B666818 /* "DebugGame" */,
+				7C9A427CBEB2E3F28B028E4C /* "Development" */,
+				28888227461692BC3F0601A6 /* "Test" */,
+				A09317B36E79EEB538AA4CB6 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		341A408375E4016D87C51851 /* Build configuration list for PBXNativeTarget "SlateViewer_Index" */ = {
+		461C073318AEB914328F1A38 /* Build configuration list for PBXNativeTarget "SlateViewer_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88EDA5BC061A5FC41A0CB73A /* "Debug" */,
-				2E785343D3F3FA3548B90D53 /* "DebugGame" */,
-				DABC25C1B47DFE2C6B666818 /* "Development" */,
-				7C9A427CBEB2E3F28B028E4C /* "Test" */,
-				28888227461692BC3F0601A6 /* "Shipping" */,
+				DBBB503C99891F235CACD631 /* "Debug" */,
+				32672B3EA92F85259DEA61DC /* "DebugGame" */,
+				7B17BDD723CDB872993CC10F /* "Development" */,
+				DB8FB1ED6EF96C5889D0AF9A /* "Test" */,
+				F03069F9A26AD11B99B64CDB /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A56D7E80253CAFB4BB4795F8 /* Project object */;
+	rootObject = 88EC4B29A1547E32DD92F441 /* Project object */;
 }

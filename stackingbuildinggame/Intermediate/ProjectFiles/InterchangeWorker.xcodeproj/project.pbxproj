@@ -7,40 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A4143F74B36F4E9E76F85CF2 /* InterchangeWorker.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 37524A5C86B16356E4F41531 /* InterchangeWorker.Build.cs */; };
+		B0A4A884748617E075BF4A27 /* InterchangeWorker.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = D655503D8F294C453A63ECC1 /* InterchangeWorker.Build.cs */; };
 		5D415E6FA522A713491EE5F9 /* InterchangeWorker.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 810287FAAA670940E6CE8EA2 /* InterchangeWorker.Target.cs */; };
-		B0A4A884748617E075BF4A27 /* InterchangeWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D655503D8F294C453A63ECC1 /* InterchangeWorker.cpp */; };
-		8C68AA24B7E591AFFE0EC30F /* InterchangeWorker.h in Sources */ = {isa = PBXBuildFile; fileRef = C6C92AEFE17B7C7708228531 /* InterchangeWorker.h */; };
-		6125C7BAA8D0F64CB8E7F80C /* InterchangeWorkerImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBF229902D9A28C8914077C6 /* InterchangeWorkerImpl.cpp */; };
-		FF5D64BFE774B86AE279C391 /* InterchangeWorkerImpl.h in Sources */ = {isa = PBXBuildFile; fileRef = 1DD7072E177657DFD11D13EF /* InterchangeWorkerImpl.h */; };
-		52EC496EF9BD9F20AE01BB4B /* BlankProgram.ico in Sources */ = {isa = PBXBuildFile; fileRef = 6C3765432E8D2A612F977256 /* BlankProgram.ico */; };
+		8C68AA24B7E591AFFE0EC30F /* InterchangeWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6C92AEFE17B7C7708228531 /* InterchangeWorker.cpp */; };
+		6125C7BAA8D0F64CB8E7F80C /* InterchangeWorker.h in Sources */ = {isa = PBXBuildFile; fileRef = DBF229902D9A28C8914077C6 /* InterchangeWorker.h */; };
+		FF5D64BFE774B86AE279C391 /* InterchangeWorkerImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DD7072E177657DFD11D13EF /* InterchangeWorkerImpl.cpp */; };
+		52EC496EF9BD9F20AE01BB4B /* InterchangeWorkerImpl.h in Sources */ = {isa = PBXBuildFile; fileRef = 6C3765432E8D2A612F977256 /* InterchangeWorkerImpl.h */; };
+		93FAB01BE997F5E149756CFA /* BlankProgram.ico in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A7025DAA2E31C1CBCC2E0 /* BlankProgram.ico */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37524A5C86B16356E4F41531 /* InterchangeWorker.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "InterchangeWorker.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/InterchangeWorker/InterchangeWorker.Build.cs"; sourceTree = SOURCE_ROOT; };
+		D655503D8F294C453A63ECC1 /* InterchangeWorker.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "InterchangeWorker.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/InterchangeWorker/InterchangeWorker.Build.cs"; sourceTree = SOURCE_ROOT; };
 		810287FAAA670940E6CE8EA2 /* InterchangeWorker.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "InterchangeWorker.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/InterchangeWorker/InterchangeWorker.Target.cs"; sourceTree = SOURCE_ROOT; };
-		D655503D8F294C453A63ECC1 /* InterchangeWorker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "InterchangeWorker.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/InterchangeWorker/Private/InterchangeWorker.cpp"; sourceTree = SOURCE_ROOT; };
-		C6C92AEFE17B7C7708228531 /* InterchangeWorker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "InterchangeWorker.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/InterchangeWorker/Private/InterchangeWorker.h"; sourceTree = SOURCE_ROOT; };
-		DBF229902D9A28C8914077C6 /* InterchangeWorkerImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "InterchangeWorkerImpl.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/InterchangeWorker/Private/InterchangeWorkerImpl.cpp"; sourceTree = SOURCE_ROOT; };
-		1DD7072E177657DFD11D13EF /* InterchangeWorkerImpl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "InterchangeWorkerImpl.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/InterchangeWorker/Private/InterchangeWorkerImpl.h"; sourceTree = SOURCE_ROOT; };
-		6C3765432E8D2A612F977256 /* BlankProgram.ico */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BlankProgram.ico"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/InterchangeWorker/Resources/Windows/BlankProgram.ico"; sourceTree = SOURCE_ROOT; };
-		F0A925478434102480FDEDE1 /* InterchangeWorker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = InterchangeWorker; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C92AEFE17B7C7708228531 /* InterchangeWorker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "InterchangeWorker.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/InterchangeWorker/Private/InterchangeWorker.cpp"; sourceTree = SOURCE_ROOT; };
+		DBF229902D9A28C8914077C6 /* InterchangeWorker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "InterchangeWorker.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/InterchangeWorker/Private/InterchangeWorker.h"; sourceTree = SOURCE_ROOT; };
+		1DD7072E177657DFD11D13EF /* InterchangeWorkerImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "InterchangeWorkerImpl.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/InterchangeWorker/Private/InterchangeWorkerImpl.cpp"; sourceTree = SOURCE_ROOT; };
+		6C3765432E8D2A612F977256 /* InterchangeWorkerImpl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "InterchangeWorkerImpl.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/InterchangeWorker/Private/InterchangeWorkerImpl.h"; sourceTree = SOURCE_ROOT; };
+		2B4A7025DAA2E31C1CBCC2E0 /* BlankProgram.ico */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BlankProgram.ico"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/InterchangeWorker/Resources/Windows/BlankProgram.ico"; sourceTree = SOURCE_ROOT; };
+		FB07A72EDBBB8F1E03035511 /* InterchangeWorker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = InterchangeWorker; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4AA33771A491A31C6BFB9347 = {
+		3F73A9A84BD0DD8817E91723 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0A4A884748617E075BF4A27 /* InterchangeWorker.cpp in Sources */,
-				6125C7BAA8D0F64CB8E7F80C /* InterchangeWorkerImpl.cpp in Sources */,
+				8C68AA24B7E591AFFE0EC30F /* InterchangeWorker.cpp in Sources */,
+				FF5D64BFE774B86AE279C391 /* InterchangeWorkerImpl.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	F7653459CF083380CA440112 /* Embed App Extensions */ = {
+	A6F9A53766F24FBE07FB7F26 /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -52,69 +52,69 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		BD4F580BB2CE1C295AF7BF39 /* PBXContainerItemProxy */ = {
+		1FC00C3983A9A9CA743B7585 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1FC00C3983A9A9CA743B7585 /* Project object */;
+			containerPortal = 7ED751F36696818BF927F9F1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 31A1D317881C65CC67DD7CF0;
+			remoteGlobalIDString = A63CB144951A6B6D527A3D63;
 			remoteInfo = "InterchangeWorker_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		3BF6A11D42C64AA691355D83 /* PBXTargetDependency */ = {
+		FA05A03D92F2D1122D34B0A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 31A1D317881C65CC67DD7CF0 /* InterchangeWorker_Build */;
-			targetProxy = BD4F580BB2CE1C295AF7BF39 /* PBXContainerItemProxy */;
+			target = A63CB144951A6B6D527A3D63 /* InterchangeWorker_Build */;
+			targetProxy = 1FC00C3983A9A9CA743B7585 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		A63CB144951A6B6D527A3D63 = {
+		DB43EF88E6C2C006A124F2CD = {
 			isa = PBXGroup;
 			children = (
-				962A7ED99FD3A3D8C9DAE120 /* Private */,
-				9239A1AC0EE93615E7ABF619 /* Resources */,
-				37524A5C86B16356E4F41531 /* InterchangeWorker.Build.cs */,
+				2CE2590C072FF207C422C8FE /* Private */,
+				4CBDA37DFDC71BAA0DF0B7BC /* Resources */,
+				D655503D8F294C453A63ECC1 /* InterchangeWorker.Build.cs */,
 				810287FAAA670940E6CE8EA2 /* InterchangeWorker.Target.cs */,
-				2CC83DB7CD109CBF901A428A /* Products */,
+				40B0B5D57A074DD06B4376D5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		962A7ED99FD3A3D8C9DAE120 = {
+		2CE2590C072FF207C422C8FE = {
 			isa = PBXGroup;
 			children = (
-				D655503D8F294C453A63ECC1 /* InterchangeWorker.cpp */,
-				C6C92AEFE17B7C7708228531 /* InterchangeWorker.h */,
-				DBF229902D9A28C8914077C6 /* InterchangeWorkerImpl.cpp */,
-				1DD7072E177657DFD11D13EF /* InterchangeWorkerImpl.h */,
+				C6C92AEFE17B7C7708228531 /* InterchangeWorker.cpp */,
+				DBF229902D9A28C8914077C6 /* InterchangeWorker.h */,
+				1DD7072E177657DFD11D13EF /* InterchangeWorkerImpl.cpp */,
+				6C3765432E8D2A612F977256 /* InterchangeWorkerImpl.h */,
 			);
 			name = "Private";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/InterchangeWorker/Private";
 			sourceTree = "<absolute>";
 		};
-		9239A1AC0EE93615E7ABF619 = {
+		4CBDA37DFDC71BAA0DF0B7BC = {
 			isa = PBXGroup;
 			children = (
-				D6D236A4DE979EEE8D8FB24F /* Windows */,
+				E1718A343B0A8B89424DB468 /* Windows */,
 			);
 			name = "Resources";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/InterchangeWorker/Resources";
 			sourceTree = "<absolute>";
 		};
-		D6D236A4DE979EEE8D8FB24F = {
+		E1718A343B0A8B89424DB468 = {
 			isa = PBXGroup;
 			children = (
-				6C3765432E8D2A612F977256 /* BlankProgram.ico */,
+				2B4A7025DAA2E31C1CBCC2E0 /* BlankProgram.ico */,
 			);
 			name = "Windows";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/InterchangeWorker/Resources/Windows";
 			sourceTree = "<absolute>";
 		};
-		2CC83DB7CD109CBF901A428A /* Products */ = {
+		40B0B5D57A074DD06B4376D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F0A925478434102480FDEDE1 /* InterchangeWorker */,
+				FB07A72EDBBB8F1E03035511 /* InterchangeWorker */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,10 +122,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		31A1D317881C65CC67DD7CF0 /* InterchangeWorker_Build */ = {
+		A63CB144951A6B6D527A3D63 /* InterchangeWorker_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 96DE144F1747794437672D98 /* Build configuration list for PBXLegacyTarget "InterchangeWorker_Build" */;
+			buildConfigurationList = 2CC83DB7CD109CBF901A428A /* Build configuration list for PBXLegacyTarget "InterchangeWorker_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -139,30 +139,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		58F1D129D8D2BF16DDD3C2F6 /* InterchangeWorker */ = {
+		96DE144F1747794437672D98 /* InterchangeWorker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02C5603A40EFE9C71E3470D3 /* Build configuration list for PBXNativeTarget "InterchangeWorker" */;
+			buildConfigurationList = A103215D243902C06177DA10 /* Build configuration list for PBXNativeTarget "InterchangeWorker" */;
 			buildPhases = (
-				F7653459CF083380CA440112 /* Embed App Extensions */, 
-				7ED751F36696818BF927F9F1 /* Shell Script */, 
+				A6F9A53766F24FBE07FB7F26 /* Embed App Extensions */, 
+				6C23B72DA8EFFC98CD1A4873 /* Shell Script */, 
 			);
 			dependencies = (
-				3BF6A11D42C64AA691355D83 /* PBXTargetDependency */,
+				FA05A03D92F2D1122D34B0A6 /* PBXTargetDependency */,
 			);
 			name = "InterchangeWorker";
 			passBuildSettingsInEnvironment = 1;
 			productName = "InterchangeWorker";
-			productReference = "F0A925478434102480FDEDE1";
+			productReference = "FB07A72EDBBB8F1E03035511";
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		A103215D243902C06177DA10 /* InterchangeWorker_Index */ = {
+		4AA33771A491A31C6BFB9347 /* InterchangeWorker_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA05A03D92F2D1122D34B0A6 /* Build configuration list for PBXNativeTarget "InterchangeWorker_Index" */;
+			buildConfigurationList = F7653459CF083380CA440112 /* Build configuration list for PBXNativeTarget "InterchangeWorker_Index" */;
 			buildPhases = (
-				4AA33771A491A31C6BFB9347 /* Sources */,
+				3F73A9A84BD0DD8817E91723 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -174,38 +174,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1FC00C3983A9A9CA743B7585 /* Project object */ = {
+		7ED751F36696818BF927F9F1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					58F1D129D8D2BF16DDD3C2F6 = {
+					96DE144F1747794437672D98 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = FB07A72EDBBB8F1E03035511 /* Build configuration list for PBXProject "InterchangeWorker" */;
+			buildConfigurationList = E3FAC8C0D721F83135F5C068 /* Build configuration list for PBXProject "InterchangeWorker" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = A63CB144951A6B6D527A3D63;
-			productRefGroup = 2CC83DB7CD109CBF901A428A;
+			mainGroup = DB43EF88E6C2C006A124F2CD;
+			productRefGroup = 40B0B5D57A074DD06B4376D5;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			58F1D129D8D2BF16DDD3C2F6 /* InterchangeWorker */,
-			31A1D317881C65CC67DD7CF0 /* InterchangeWorker_Build */,
-			A103215D243902C06177DA10 /* InterchangeWorker_Index */,
+			96DE144F1747794437672D98 /* InterchangeWorker */,
+			A63CB144951A6B6D527A3D63 /* InterchangeWorker_Build */,
+			4AA33771A491A31C6BFB9347 /* InterchangeWorker_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		E3FAC8C0D721F83135F5C068 /* "Debug" */ = {
+		1818BAD1476AB55798912F81 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -281,7 +281,7 @@
 			};
 			name = "Debug";
 		};
-		A6F9A53766F24FBE07FB7F26 /* "DebugGame" */ = {
+		8683A5154C047E96DC92B896 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -356,7 +356,7 @@
 			};
 			name = "DebugGame";
 		};
-		19B0E027EC7E568BB0311E4E /* "Development" */ = {
+		BD739F50659A996C4331D51B /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -431,7 +431,7 @@
 			};
 			name = "Development";
 		};
-		4030FECBF46034E3E54EA068 /* "Test" */ = {
+		E5F748F12ED9CABC32A4ED41 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -506,7 +506,7 @@
 			};
 			name = "Test";
 		};
-		63247D6FA79AAE601D460E80 /* "Shipping" */ = {
+		707D25F626E65BC43DCF99C6 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -581,7 +581,7 @@
 			};
 			name = "Shipping";
 		};
-		DB43EF88E6C2C006A124F2CD /* "Debug" */ = {
+		62166978F3B7CE44F4823B28 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -598,7 +598,7 @@
 			};
 			name = "Debug";
 		};
-		6C23B72DA8EFFC98CD1A4873 /* "DebugGame" */ = {
+		898E6A1A3BA3D030F71A4074 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -615,7 +615,7 @@
 			};
 			name = "DebugGame";
 		};
-		387E779D45288EDAF336CB91 /* "Development" */ = {
+		06B2A27B5DD5B13AED0141FB /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -632,7 +632,7 @@
 			};
 			name = "Development";
 		};
-		D9403FACB38872A5C6E013B7 /* "Test" */ = {
+		1D29C4A88275FDBFA421B979 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -649,7 +649,7 @@
 			};
 			name = "Test";
 		};
-		C1E47D4AB53425A86B24A500 /* "Shipping" */ = {
+		5312E09913AEC29F9F1356C6 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -666,7 +666,7 @@
 			};
 			name = "Shipping";
 		};
-		40B0B5D57A074DD06B4376D5 /* "Debug" */ = {
+		19B0E027EC7E568BB0311E4E /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -679,7 +679,7 @@
 			};
 			name = "Debug";
 		};
-		1818BAD1476AB55798912F81 /* "DebugGame" */ = {
+		4030FECBF46034E3E54EA068 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -692,7 +692,7 @@
 			};
 			name = "DebugGame";
 		};
-		8683A5154C047E96DC92B896 /* "Development" */ = {
+		63247D6FA79AAE601D460E80 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -705,7 +705,7 @@
 			};
 			name = "Development";
 		};
-		BD739F50659A996C4331D51B /* "Test" */ = {
+		576785B8DB99903E7E7D89B0 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -718,7 +718,7 @@
 			};
 			name = "Test";
 		};
-		E5F748F12ED9CABC32A4ED41 /* "Shipping" */ = {
+		43B94452D49C821B3AFA475E /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -731,7 +731,7 @@
 			};
 			name = "Shipping";
 		};
-		3F73A9A84BD0DD8817E91723 /* "Debug" */ = {
+		387E779D45288EDAF336CB91 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -748,7 +748,7 @@
 			};
 			name = "Debug";
 		};
-		62166978F3B7CE44F4823B28 /* "DebugGame" */ = {
+		D9403FACB38872A5C6E013B7 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -765,7 +765,7 @@
 			};
 			name = "DebugGame";
 		};
-		898E6A1A3BA3D030F71A4074 /* "Development" */ = {
+		C1E47D4AB53425A86B24A500 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -782,7 +782,7 @@
 			};
 			name = "Development";
 		};
-		06B2A27B5DD5B13AED0141FB /* "Test" */ = {
+		52BC31447B514D1DF63C2D8B /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -799,7 +799,7 @@
 			};
 			name = "Test";
 		};
-		1D29C4A88275FDBFA421B979 /* "Shipping" */ = {
+		739A189821C57382226BF069 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -819,55 +819,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FB07A72EDBBB8F1E03035511 /* Build configuration list for PBXProject "InterchangeWorker" */ = {
+		E3FAC8C0D721F83135F5C068 /* Build configuration list for PBXProject "InterchangeWorker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3FAC8C0D721F83135F5C068 /* "Debug" */,
-				A6F9A53766F24FBE07FB7F26 /* "DebugGame" */,
-				19B0E027EC7E568BB0311E4E /* "Development" */,
-				4030FECBF46034E3E54EA068 /* "Test" */,
-				63247D6FA79AAE601D460E80 /* "Shipping" */,
+				1818BAD1476AB55798912F81 /* "Debug" */,
+				8683A5154C047E96DC92B896 /* "DebugGame" */,
+				BD739F50659A996C4331D51B /* "Development" */,
+				E5F748F12ED9CABC32A4ED41 /* "Test" */,
+				707D25F626E65BC43DCF99C6 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		96DE144F1747794437672D98 /* Build configuration list for PBXLegacyTarget "InterchangeWorker_Build" */ = {
+		2CC83DB7CD109CBF901A428A /* Build configuration list for PBXLegacyTarget "InterchangeWorker_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40B0B5D57A074DD06B4376D5 /* "Debug" */,
-				1818BAD1476AB55798912F81 /* "DebugGame" */,
-				8683A5154C047E96DC92B896 /* "Development" */,
-				BD739F50659A996C4331D51B /* "Test" */,
-				E5F748F12ED9CABC32A4ED41 /* "Shipping" */,
+				19B0E027EC7E568BB0311E4E /* "Debug" */,
+				4030FECBF46034E3E54EA068 /* "DebugGame" */,
+				63247D6FA79AAE601D460E80 /* "Development" */,
+				576785B8DB99903E7E7D89B0 /* "Test" */,
+				43B94452D49C821B3AFA475E /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		02C5603A40EFE9C71E3470D3 /* Build configuration list for PBXNativeTarget "InterchangeWorker" */ = {
+		A103215D243902C06177DA10 /* Build configuration list for PBXNativeTarget "InterchangeWorker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB43EF88E6C2C006A124F2CD /* "Debug" */,
-				6C23B72DA8EFFC98CD1A4873 /* "DebugGame" */,
-				387E779D45288EDAF336CB91 /* "Development" */,
-				D9403FACB38872A5C6E013B7 /* "Test" */,
-				C1E47D4AB53425A86B24A500 /* "Shipping" */,
+				62166978F3B7CE44F4823B28 /* "Debug" */,
+				898E6A1A3BA3D030F71A4074 /* "DebugGame" */,
+				06B2A27B5DD5B13AED0141FB /* "Development" */,
+				1D29C4A88275FDBFA421B979 /* "Test" */,
+				5312E09913AEC29F9F1356C6 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		FA05A03D92F2D1122D34B0A6 /* Build configuration list for PBXNativeTarget "InterchangeWorker_Index" */ = {
+		F7653459CF083380CA440112 /* Build configuration list for PBXNativeTarget "InterchangeWorker_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F73A9A84BD0DD8817E91723 /* "Debug" */,
-				62166978F3B7CE44F4823B28 /* "DebugGame" */,
-				898E6A1A3BA3D030F71A4074 /* "Development" */,
-				06B2A27B5DD5B13AED0141FB /* "Test" */,
-				1D29C4A88275FDBFA421B979 /* "Shipping" */,
+				387E779D45288EDAF336CB91 /* "Debug" */,
+				D9403FACB38872A5C6E013B7 /* "DebugGame" */,
+				C1E47D4AB53425A86B24A500 /* "Development" */,
+				52BC31447B514D1DF63C2D8B /* "Test" */,
+				739A189821C57382226BF069 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1FC00C3983A9A9CA743B7585 /* Project object */;
+	rootObject = 7ED751F36696818BF927F9F1 /* Project object */;
 }

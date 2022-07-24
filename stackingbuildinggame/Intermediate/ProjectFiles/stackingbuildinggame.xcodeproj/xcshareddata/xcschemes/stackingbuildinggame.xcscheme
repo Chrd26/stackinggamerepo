@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "38944FCD9B180CD3AD1D4F50"
+               BlueprintIdentifier = "187E14E099299170421EF730"
                BuildableName = "stackingbuildinggame.app"
                BlueprintName = "stackingbuildinggame"
                ReferencedContainer = "container:stackingbuildinggame.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "38944FCD9B180CD3AD1D4F50"
+               BlueprintIdentifier = "187E14E099299170421EF730"
                BuildableName = "stackingbuildinggame.app"
                BlueprintName = "stackingbuildinggame"
                ReferencedContainer = "container:stackingbuildinggame.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "38944FCD9B180CD3AD1D4F50"
+               BlueprintIdentifier = "187E14E099299170421EF730"
                BuildableName = "stackingbuildinggame.app"
                BlueprintName = "stackingbuildinggame"
                ReferencedContainer = "container:stackingbuildinggame.xcodeproj">
@@ -70,8 +70,7 @@
             argument = "-RunConfig=$(Configuration)"
             isEnabled = "YES">
          </CommandLineArgument>
-      </CommandLineArguments>
-      <AdditionalOptions>
+      </CommandLineArguments>      <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
@@ -84,7 +83,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "38944FCD9B180CD3AD1D4F50"
+               BlueprintIdentifier = "187E14E099299170421EF730"
                BuildableName = "stackingbuildinggame.app"
                BlueprintName = "stackingbuildinggame"
                ReferencedContainer = "container:stackingbuildinggame.xcodeproj">

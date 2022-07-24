@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "35328654EC0DE6B6A03D6A2A"
+               BlueprintIdentifier = "1EA8375F2C50875440C27683"
                BuildableName = "SymsLibDump-Mac-Development"
                BlueprintName = "SymsLibDump"
                ReferencedContainer = "container:SymsLibDump.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "35328654EC0DE6B6A03D6A2A"
+            BlueprintIdentifier = "1EA8375F2C50875440C27683"
             BuildableName = "SymsLibDump-Mac-Development"
             BlueprintName = "SymsLibDump"
             ReferencedContainer = "container:SymsLibDump.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "35328654EC0DE6B6A03D6A2A"
+            BlueprintIdentifier = "1EA8375F2C50875440C27683"
             BuildableName = "SymsLibDump-Mac-Development"
             BlueprintName = "SymsLibDump"
             ReferencedContainer = "container:SymsLibDump.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "35328654EC0DE6B6A03D6A2A"
+            BlueprintIdentifier = "1EA8375F2C50875440C27683"
             BuildableName = "SymsLibDump-Mac-Development"
             BlueprintName = "SymsLibDump"
             ReferencedContainer = "container:SymsLibDump.xcodeproj">

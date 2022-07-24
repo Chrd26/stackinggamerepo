@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6B7CCA7E888EEAD5259DD9A3"
+               BlueprintIdentifier = "5C4445DE0BA1FD2022FDD6DA"
                BuildableName = "UnrealMultiUserSlateServer.app"
                BlueprintName = "UnrealMultiUserSlateServer"
                ReferencedContainer = "container:UnrealMultiUserSlateServer.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6B7CCA7E888EEAD5259DD9A3"
+               BlueprintIdentifier = "5C4445DE0BA1FD2022FDD6DA"
                BuildableName = "UnrealMultiUserSlateServer.app"
                BlueprintName = "UnrealMultiUserSlateServer"
                ReferencedContainer = "container:UnrealMultiUserSlateServer.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6B7CCA7E888EEAD5259DD9A3"
+               BlueprintIdentifier = "5C4445DE0BA1FD2022FDD6DA"
                BuildableName = "UnrealMultiUserSlateServer.app"
                BlueprintName = "UnrealMultiUserSlateServer"
                ReferencedContainer = "container:UnrealMultiUserSlateServer.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6B7CCA7E888EEAD5259DD9A3"
+               BlueprintIdentifier = "5C4445DE0BA1FD2022FDD6DA"
                BuildableName = "UnrealMultiUserSlateServer.app"
                BlueprintName = "UnrealMultiUserSlateServer"
                ReferencedContainer = "container:UnrealMultiUserSlateServer.xcodeproj">

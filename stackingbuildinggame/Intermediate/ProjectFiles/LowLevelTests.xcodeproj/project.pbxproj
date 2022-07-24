@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6268FCD3A7BFBFEAF58B3E4D /* LowLevelTests.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = F116EABD9DA3C18C1753BE20 /* LowLevelTests.Build.cs */; };
+		54320887597610F75F024D62 /* LowLevelTests.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 54BAF7B0B82AAF2668FA545F /* LowLevelTests.Build.cs */; };
 		A681279FE7F99795E39F5AE3 /* LowLevelTests.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = D1875E250897ECFE248A3B87 /* LowLevelTests.Target.cs */; };
-		54320887597610F75F024D62 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 54BAF7B0B82AAF2668FA545F /* README.md */; };
-		AB11D4EDA498B759DEA93E26 /* LowLevelTestsModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65735C40453FB8783B81F980 /* LowLevelTestsModule.cpp */; };
-		4932109D9A1EBD0EAADC7F75 /* vstest.runsettings in Sources */ = {isa = PBXBuildFile; fileRef = B738917F7B46EDEEC88868E2 /* vstest.runsettings */; };
+		4932109D9A1EBD0EAADC7F75 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B738917F7B46EDEEC88868E2 /* README.md */; };
+		9930AB210C6597C0C92EF189 /* LowLevelTestsModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AD06A122425970EFA6B1A08 /* LowLevelTestsModule.cpp */; };
+		AB11D4EDA498B759DEA93E26 /* vstest.runsettings in Sources */ = {isa = PBXBuildFile; fileRef = 65735C40453FB8783B81F980 /* vstest.runsettings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F116EABD9DA3C18C1753BE20 /* LowLevelTests.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "LowLevelTests.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LowLevelTests/LowLevelTests.Build.cs"; sourceTree = SOURCE_ROOT; };
+		54BAF7B0B82AAF2668FA545F /* LowLevelTests.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "LowLevelTests.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LowLevelTests/LowLevelTests.Build.cs"; sourceTree = SOURCE_ROOT; };
 		D1875E250897ECFE248A3B87 /* LowLevelTests.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "LowLevelTests.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LowLevelTests/LowLevelTests.Target.cs"; sourceTree = SOURCE_ROOT; };
-		54BAF7B0B82AAF2668FA545F /* README.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "README.md"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LowLevelTests/README.md"; sourceTree = SOURCE_ROOT; };
-		65735C40453FB8783B81F980 /* LowLevelTestsModule.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LowLevelTestsModule.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LowLevelTests/Tests/LowLevelTestsModule.cpp"; sourceTree = SOURCE_ROOT; };
-		B738917F7B46EDEEC88868E2 /* vstest.runsettings */ = {isa = PBXFileReference; explicitFileType = file.text; name = "vstest.runsettings"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LowLevelTests/vstest.runsettings"; sourceTree = SOURCE_ROOT; };
-		64AD171AC4C485AC4CCA31FF /* LowLevelTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = LowLevelTests; sourceTree = BUILT_PRODUCTS_DIR; };
+		B738917F7B46EDEEC88868E2 /* README.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "README.md"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LowLevelTests/README.md"; sourceTree = SOURCE_ROOT; };
+		4AD06A122425970EFA6B1A08 /* LowLevelTestsModule.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LowLevelTestsModule.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LowLevelTests/Tests/LowLevelTestsModule.cpp"; sourceTree = SOURCE_ROOT; };
+		65735C40453FB8783B81F980 /* vstest.runsettings */ = {isa = PBXFileReference; explicitFileType = file.text; name = "vstest.runsettings"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LowLevelTests/vstest.runsettings"; sourceTree = SOURCE_ROOT; };
+		46CD910270146A6B9DA34F07 /* LowLevelTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = LowLevelTests; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		888798C560D01F0532D3730E = {
+		3A8F18B6022E93AE9C4F07DB = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB11D4EDA498B759DEA93E26 /* LowLevelTestsModule.cpp in Sources */,
+				9930AB210C6597C0C92EF189 /* LowLevelTestsModule.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	C272A4A1BE84FA1F3FB0AE48 /* Embed App Extensions */ = {
+	B1574B8AA95AC938968CBEE8 /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -47,49 +47,49 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		8A1272EC64D871E6F6C90DBA /* PBXContainerItemProxy */ = {
+		A982DAC485182CCDC2053036 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A982DAC485182CCDC2053036 /* Project object */;
+			containerPortal = DAA12400EEA16C50F15F31A2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 81EC25A7AF2A05F3305CD44B;
+			remoteGlobalIDString = 517755B9292146AB3C268EE0;
 			remoteInfo = "LowLevelTests_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		E2DF6D8ECD8D93A8FDE8DB38 /* PBXTargetDependency */ = {
+		B3CA37CCC3198908D9CB3CBC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 81EC25A7AF2A05F3305CD44B /* LowLevelTests_Build */;
-			targetProxy = 8A1272EC64D871E6F6C90DBA /* PBXContainerItemProxy */;
+			target = 517755B9292146AB3C268EE0 /* LowLevelTests_Build */;
+			targetProxy = A982DAC485182CCDC2053036 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		517755B9292146AB3C268EE0 = {
+		F813F0150566B6D7D850EABE = {
 			isa = PBXGroup;
 			children = (
-				DDF6B86BC1F3E0B78179EA3F /* Tests */,
-				F116EABD9DA3C18C1753BE20 /* LowLevelTests.Build.cs */,
+				C511ECCB36E965CECD405291 /* Tests */,
+				54BAF7B0B82AAF2668FA545F /* LowLevelTests.Build.cs */,
 				D1875E250897ECFE248A3B87 /* LowLevelTests.Target.cs */,
-				54BAF7B0B82AAF2668FA545F /* README.md */,
-				B738917F7B46EDEEC88868E2 /* vstest.runsettings */,
-				532839C8479DB4AE9A0086F5 /* Products */,
+				B738917F7B46EDEEC88868E2 /* README.md */,
+				65735C40453FB8783B81F980 /* vstest.runsettings */,
+				AC1F179166221D634102183C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DDF6B86BC1F3E0B78179EA3F = {
+		C511ECCB36E965CECD405291 = {
 			isa = PBXGroup;
 			children = (
-				65735C40453FB8783B81F980 /* LowLevelTestsModule.cpp */,
+				4AD06A122425970EFA6B1A08 /* LowLevelTestsModule.cpp */,
 			);
 			name = "Tests";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LowLevelTests/Tests";
 			sourceTree = "<absolute>";
 		};
-		532839C8479DB4AE9A0086F5 /* Products */ = {
+		AC1F179166221D634102183C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				64AD171AC4C485AC4CCA31FF /* LowLevelTests */,
+				46CD910270146A6B9DA34F07 /* LowLevelTests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,10 +97,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		81EC25A7AF2A05F3305CD44B /* LowLevelTests_Build */ = {
+		517755B9292146AB3C268EE0 /* LowLevelTests_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = DE081B03D2884418D2B32920 /* Build configuration list for PBXLegacyTarget "LowLevelTests_Build" */;
+			buildConfigurationList = 532839C8479DB4AE9A0086F5 /* Build configuration list for PBXLegacyTarget "LowLevelTests_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -114,30 +114,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		F0BB0513DFEF7BF33442D202 /* LowLevelTests */ = {
+		DE081B03D2884418D2B32920 /* LowLevelTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB0B955E5E51F47FDB446E3B /* Build configuration list for PBXNativeTarget "LowLevelTests" */;
+			buildConfigurationList = 7678E338622EECBFE1736A77 /* Build configuration list for PBXNativeTarget "LowLevelTests" */;
 			buildPhases = (
-				C272A4A1BE84FA1F3FB0AE48 /* Embed App Extensions */, 
-				DAA12400EEA16C50F15F31A2 /* Shell Script */, 
+				B1574B8AA95AC938968CBEE8 /* Embed App Extensions */, 
+				711C19920EA293F6FBB3DB75 /* Shell Script */, 
 			);
 			dependencies = (
-				E2DF6D8ECD8D93A8FDE8DB38 /* PBXTargetDependency */,
+				B3CA37CCC3198908D9CB3CBC /* PBXTargetDependency */,
 			);
 			name = "LowLevelTests";
 			passBuildSettingsInEnvironment = 1;
 			productName = "LowLevelTests";
-			productReference = "64AD171AC4C485AC4CCA31FF";
+			productReference = "46CD910270146A6B9DA34F07";
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		7678E338622EECBFE1736A77 /* LowLevelTests_Index */ = {
+		888798C560D01F0532D3730E /* LowLevelTests_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3CA37CCC3198908D9CB3CBC /* Build configuration list for PBXNativeTarget "LowLevelTests_Index" */;
+			buildConfigurationList = C272A4A1BE84FA1F3FB0AE48 /* Build configuration list for PBXNativeTarget "LowLevelTests_Index" */;
 			buildPhases = (
-				888798C560D01F0532D3730E /* Sources */,
+				3A8F18B6022E93AE9C4F07DB /* Sources */,
 			);
 			dependencies = (
 			);
@@ -149,38 +149,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A982DAC485182CCDC2053036 /* Project object */ = {
+		DAA12400EEA16C50F15F31A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					F0BB0513DFEF7BF33442D202 = {
+					DE081B03D2884418D2B32920 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 46CD910270146A6B9DA34F07 /* Build configuration list for PBXProject "LowLevelTests" */;
+			buildConfigurationList = 89814A6B0788AD80B42B05D4 /* Build configuration list for PBXProject "LowLevelTests" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 517755B9292146AB3C268EE0;
-			productRefGroup = 532839C8479DB4AE9A0086F5;
+			mainGroup = F813F0150566B6D7D850EABE;
+			productRefGroup = AC1F179166221D634102183C;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			F0BB0513DFEF7BF33442D202 /* LowLevelTests */,
-			81EC25A7AF2A05F3305CD44B /* LowLevelTests_Build */,
-			7678E338622EECBFE1736A77 /* LowLevelTests_Index */,
+			DE081B03D2884418D2B32920 /* LowLevelTests */,
+			517755B9292146AB3C268EE0 /* LowLevelTests_Build */,
+			888798C560D01F0532D3730E /* LowLevelTests_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		89814A6B0788AD80B42B05D4 /* "Debug" */ = {
+		4EFFD4AABD3C225C173BE00F /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -226,7 +226,7 @@
 			};
 			name = "Debug";
 		};
-		B1574B8AA95AC938968CBEE8 /* "DebugGame" */ = {
+		E8ACBD1C0D2DA41EBBEE96BC /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -271,7 +271,7 @@
 			};
 			name = "DebugGame";
 		};
-		1400A0F9BC11DFFD7BD53CA9 /* "Development" */ = {
+		C0C9D95A76B924D84BA2B8C1 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -316,7 +316,7 @@
 			};
 			name = "Development";
 		};
-		634B446F5F0EA9094525110F /* "Test" */ = {
+		5E4253FB4849293016416832 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -361,7 +361,7 @@
 			};
 			name = "Test";
 		};
-		F144D03922C993A48C03AF95 /* "Shipping" */ = {
+		8241A1F7FA817735CA5E015C /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -406,7 +406,7 @@
 			};
 			name = "Shipping";
 		};
-		F813F0150566B6D7D850EABE /* "Debug" */ = {
+		D792B9E639DFA6AED12F44E6 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -443,7 +443,7 @@
 			};
 			name = "Debug";
 		};
-		711C19920EA293F6FBB3DB75 /* "DebugGame" */ = {
+		9B28A0065BE293015610611A /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -480,7 +480,7 @@
 			};
 			name = "DebugGame";
 		};
-		851E7B5A6961D0353C0ABB7B /* "Development" */ = {
+		E834BEAC448C77751790B398 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -517,7 +517,7 @@
 			};
 			name = "Development";
 		};
-		53C3F04E311DEE9787BFBF40 /* "Test" */ = {
+		E8EBB6820F1334E4852977F4 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -554,7 +554,7 @@
 			};
 			name = "Test";
 		};
-		344F928B0138C4B10B2F66FC /* "Shipping" */ = {
+		D44A6314B5A5531410D60B77 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -591,7 +591,7 @@
 			};
 			name = "Shipping";
 		};
-		AC1F179166221D634102183C /* "Debug" */ = {
+		1400A0F9BC11DFFD7BD53CA9 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -604,7 +604,7 @@
 			};
 			name = "Debug";
 		};
-		4EFFD4AABD3C225C173BE00F /* "DebugGame" */ = {
+		634B446F5F0EA9094525110F /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -617,7 +617,7 @@
 			};
 			name = "DebugGame";
 		};
-		E8ACBD1C0D2DA41EBBEE96BC /* "Development" */ = {
+		F144D03922C993A48C03AF95 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -630,7 +630,7 @@
 			};
 			name = "Development";
 		};
-		C0C9D95A76B924D84BA2B8C1 /* "Test" */ = {
+		F9EB74DECC028CC2DED3DADF /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -643,7 +643,7 @@
 			};
 			name = "Test";
 		};
-		5E4253FB4849293016416832 /* "Shipping" */ = {
+		B7F00A06AA840D99485F5C8A /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -656,7 +656,7 @@
 			};
 			name = "Shipping";
 		};
-		3A8F18B6022E93AE9C4F07DB /* "Debug" */ = {
+		851E7B5A6961D0353C0ABB7B /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -693,7 +693,7 @@
 			};
 			name = "Debug";
 		};
-		D792B9E639DFA6AED12F44E6 /* "DebugGame" */ = {
+		53C3F04E311DEE9787BFBF40 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -730,7 +730,7 @@
 			};
 			name = "DebugGame";
 		};
-		9B28A0065BE293015610611A /* "Development" */ = {
+		344F928B0138C4B10B2F66FC /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -767,7 +767,7 @@
 			};
 			name = "Development";
 		};
-		E834BEAC448C77751790B398 /* "Test" */ = {
+		76985C43DA7E7FF3E760A215 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -804,7 +804,7 @@
 			};
 			name = "Test";
 		};
-		E8EBB6820F1334E4852977F4 /* "Shipping" */ = {
+		6094C75D5CA5141796FF6F90 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -844,55 +844,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		46CD910270146A6B9DA34F07 /* Build configuration list for PBXProject "LowLevelTests" */ = {
+		89814A6B0788AD80B42B05D4 /* Build configuration list for PBXProject "LowLevelTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				89814A6B0788AD80B42B05D4 /* "Debug" */,
-				B1574B8AA95AC938968CBEE8 /* "DebugGame" */,
-				1400A0F9BC11DFFD7BD53CA9 /* "Development" */,
-				634B446F5F0EA9094525110F /* "Test" */,
-				F144D03922C993A48C03AF95 /* "Shipping" */,
+				4EFFD4AABD3C225C173BE00F /* "Debug" */,
+				E8ACBD1C0D2DA41EBBEE96BC /* "DebugGame" */,
+				C0C9D95A76B924D84BA2B8C1 /* "Development" */,
+				5E4253FB4849293016416832 /* "Test" */,
+				8241A1F7FA817735CA5E015C /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		DE081B03D2884418D2B32920 /* Build configuration list for PBXLegacyTarget "LowLevelTests_Build" */ = {
+		532839C8479DB4AE9A0086F5 /* Build configuration list for PBXLegacyTarget "LowLevelTests_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC1F179166221D634102183C /* "Debug" */,
-				4EFFD4AABD3C225C173BE00F /* "DebugGame" */,
-				E8ACBD1C0D2DA41EBBEE96BC /* "Development" */,
-				C0C9D95A76B924D84BA2B8C1 /* "Test" */,
-				5E4253FB4849293016416832 /* "Shipping" */,
+				1400A0F9BC11DFFD7BD53CA9 /* "Debug" */,
+				634B446F5F0EA9094525110F /* "DebugGame" */,
+				F144D03922C993A48C03AF95 /* "Development" */,
+				F9EB74DECC028CC2DED3DADF /* "Test" */,
+				B7F00A06AA840D99485F5C8A /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		DB0B955E5E51F47FDB446E3B /* Build configuration list for PBXNativeTarget "LowLevelTests" */ = {
+		7678E338622EECBFE1736A77 /* Build configuration list for PBXNativeTarget "LowLevelTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F813F0150566B6D7D850EABE /* "Debug" */,
-				711C19920EA293F6FBB3DB75 /* "DebugGame" */,
-				851E7B5A6961D0353C0ABB7B /* "Development" */,
-				53C3F04E311DEE9787BFBF40 /* "Test" */,
-				344F928B0138C4B10B2F66FC /* "Shipping" */,
+				D792B9E639DFA6AED12F44E6 /* "Debug" */,
+				9B28A0065BE293015610611A /* "DebugGame" */,
+				E834BEAC448C77751790B398 /* "Development" */,
+				E8EBB6820F1334E4852977F4 /* "Test" */,
+				D44A6314B5A5531410D60B77 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		B3CA37CCC3198908D9CB3CBC /* Build configuration list for PBXNativeTarget "LowLevelTests_Index" */ = {
+		C272A4A1BE84FA1F3FB0AE48 /* Build configuration list for PBXNativeTarget "LowLevelTests_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A8F18B6022E93AE9C4F07DB /* "Debug" */,
-				D792B9E639DFA6AED12F44E6 /* "DebugGame" */,
-				9B28A0065BE293015610611A /* "Development" */,
-				E834BEAC448C77751790B398 /* "Test" */,
-				E8EBB6820F1334E4852977F4 /* "Shipping" */,
+				851E7B5A6961D0353C0ABB7B /* "Debug" */,
+				53C3F04E311DEE9787BFBF40 /* "DebugGame" */,
+				344F928B0138C4B10B2F66FC /* "Development" */,
+				76985C43DA7E7FF3E760A215 /* "Test" */,
+				6094C75D5CA5141796FF6F90 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A982DAC485182CCDC2053036 /* Project object */;
+	rootObject = DAA12400EEA16C50F15F31A2 /* Project object */;
 }

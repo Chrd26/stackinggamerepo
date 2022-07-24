@@ -7,50 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84DCBA299AE33821E9865654 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = F99F7AB878ACB67862656BC5 /* DefaultEngine.ini */; };
-		CC7A0875F24B0B9108A67042 /* LiveCodingConsole.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E61DF47C842121E8BE03 /* LiveCodingConsole.Build.cs */; };
+		7CB28322DB0005F16D702F02 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 3C6BE91A37F9FD5CFF7747B6 /* DefaultEngine.ini */; };
+		8AD84445160FB99748444B61 /* LiveCodingConsole.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 15B3EF457330ACF81C1DD6ED /* LiveCodingConsole.Build.cs */; };
 		BA16B172FE88388EB3BBAF36 /* LiveCodingConsole.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 4B9119C624884B40DDE740D6 /* LiveCodingConsole.Target.cs */; };
-		8AD84445160FB99748444B61 /* LiveCodingConsole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15B3EF457330ACF81C1DD6ED /* LiveCodingConsole.cpp */; };
-		F3B1BA9E18709BE4BC05EA19 /* LiveCodingConsole.h in Sources */ = {isa = PBXBuildFile; fileRef = 06C67BF8ECD9FAD269840840 /* LiveCodingConsole.h */; };
-		8C3EADF03BC5E66C02575165 /* LiveCodingConsoleStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 541B7ED7A867A410C8D63EAD /* LiveCodingConsoleStyle.cpp */; };
-		B5B30C432303846EA87A11DA /* LiveCodingConsoleStyle.h in Sources */ = {isa = PBXBuildFile; fileRef = C3AAA8F61E7E17AF7415A4D0 /* LiveCodingConsoleStyle.h */; };
-		5A232901E0F777B600FF3B88 /* LiveCodingManifest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9A349FED3E2BCDA0AA414FD /* LiveCodingManifest.cpp */; };
-		BFADF24ABE8E39A00F3BE8FF /* LiveCodingManifest.h in Sources */ = {isa = PBXBuildFile; fileRef = DA828EB1025AD9C36F203D7A /* LiveCodingManifest.h */; };
-		3419DC9258C9C6B50F2B4232 /* SLogWidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 052DF871C69B787DBA492450 /* SLogWidget.cpp */; };
-		530BD7B0CA518E9F707815A4 /* SLogWidget.h in Sources */ = {isa = PBXBuildFile; fileRef = B2A647457533F0AE405CABD5 /* SLogWidget.h */; };
+		F3B1BA9E18709BE4BC05EA19 /* LiveCodingConsole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06C67BF8ECD9FAD269840840 /* LiveCodingConsole.cpp */; };
+		8C3EADF03BC5E66C02575165 /* LiveCodingConsole.h in Sources */ = {isa = PBXBuildFile; fileRef = 541B7ED7A867A410C8D63EAD /* LiveCodingConsole.h */; };
+		B5B30C432303846EA87A11DA /* LiveCodingConsoleStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3AAA8F61E7E17AF7415A4D0 /* LiveCodingConsoleStyle.cpp */; };
+		5A232901E0F777B600FF3B88 /* LiveCodingConsoleStyle.h in Sources */ = {isa = PBXBuildFile; fileRef = B9A349FED3E2BCDA0AA414FD /* LiveCodingConsoleStyle.h */; };
+		BFADF24ABE8E39A00F3BE8FF /* LiveCodingManifest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA828EB1025AD9C36F203D7A /* LiveCodingManifest.cpp */; };
+		3419DC9258C9C6B50F2B4232 /* LiveCodingManifest.h in Sources */ = {isa = PBXBuildFile; fileRef = 052DF871C69B787DBA492450 /* LiveCodingManifest.h */; };
+		530BD7B0CA518E9F707815A4 /* SLogWidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2A647457533F0AE405CABD5 /* SLogWidget.cpp */; };
+		6268FCD3A7BFBFEAF58B3E4D /* SLogWidget.h in Sources */ = {isa = PBXBuildFile; fileRef = F116EABD9DA3C18C1753BE20 /* SLogWidget.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F99F7AB878ACB67862656BC5 /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/LiveCodingConsole/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
-		16B4E61DF47C842121E8BE03 /* LiveCodingConsole.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "LiveCodingConsole.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/LiveCodingConsole.Build.cs"; sourceTree = SOURCE_ROOT; };
+		3C6BE91A37F9FD5CFF7747B6 /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/LiveCodingConsole/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		15B3EF457330ACF81C1DD6ED /* LiveCodingConsole.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "LiveCodingConsole.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/LiveCodingConsole.Build.cs"; sourceTree = SOURCE_ROOT; };
 		4B9119C624884B40DDE740D6 /* LiveCodingConsole.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "LiveCodingConsole.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/LiveCodingConsole.Target.cs"; sourceTree = SOURCE_ROOT; };
-		15B3EF457330ACF81C1DD6ED /* LiveCodingConsole.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LiveCodingConsole.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsole.cpp"; sourceTree = SOURCE_ROOT; };
-		06C67BF8ECD9FAD269840840 /* LiveCodingConsole.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LiveCodingConsole.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsole.h"; sourceTree = SOURCE_ROOT; };
-		541B7ED7A867A410C8D63EAD /* LiveCodingConsoleStyle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LiveCodingConsoleStyle.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsoleStyle.cpp"; sourceTree = SOURCE_ROOT; };
-		C3AAA8F61E7E17AF7415A4D0 /* LiveCodingConsoleStyle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LiveCodingConsoleStyle.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsoleStyle.h"; sourceTree = SOURCE_ROOT; };
-		B9A349FED3E2BCDA0AA414FD /* LiveCodingManifest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LiveCodingManifest.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingManifest.cpp"; sourceTree = SOURCE_ROOT; };
-		DA828EB1025AD9C36F203D7A /* LiveCodingManifest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LiveCodingManifest.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingManifest.h"; sourceTree = SOURCE_ROOT; };
-		052DF871C69B787DBA492450 /* SLogWidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SLogWidget.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/Private/SLogWidget.cpp"; sourceTree = SOURCE_ROOT; };
-		B2A647457533F0AE405CABD5 /* SLogWidget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SLogWidget.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/Private/SLogWidget.h"; sourceTree = SOURCE_ROOT; };
-		5A4F6BA9DD4AF37B96E7371E /* LiveCodingConsole */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = LiveCodingConsole; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C67BF8ECD9FAD269840840 /* LiveCodingConsole.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LiveCodingConsole.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsole.cpp"; sourceTree = SOURCE_ROOT; };
+		541B7ED7A867A410C8D63EAD /* LiveCodingConsole.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LiveCodingConsole.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsole.h"; sourceTree = SOURCE_ROOT; };
+		C3AAA8F61E7E17AF7415A4D0 /* LiveCodingConsoleStyle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LiveCodingConsoleStyle.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsoleStyle.cpp"; sourceTree = SOURCE_ROOT; };
+		B9A349FED3E2BCDA0AA414FD /* LiveCodingConsoleStyle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LiveCodingConsoleStyle.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsoleStyle.h"; sourceTree = SOURCE_ROOT; };
+		DA828EB1025AD9C36F203D7A /* LiveCodingManifest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LiveCodingManifest.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingManifest.cpp"; sourceTree = SOURCE_ROOT; };
+		052DF871C69B787DBA492450 /* LiveCodingManifest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LiveCodingManifest.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingManifest.h"; sourceTree = SOURCE_ROOT; };
+		B2A647457533F0AE405CABD5 /* SLogWidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SLogWidget.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/Private/SLogWidget.cpp"; sourceTree = SOURCE_ROOT; };
+		F116EABD9DA3C18C1753BE20 /* SLogWidget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SLogWidget.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/Private/SLogWidget.h"; sourceTree = SOURCE_ROOT; };
+		42DCF62C03BE9F5541DC2920 /* LiveCodingConsole */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = LiveCodingConsole; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		78B899594A21D053BC18B86F = {
+		96194CBABBE4511EA1A9A983 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AD84445160FB99748444B61 /* LiveCodingConsole.cpp in Sources */,
-				8C3EADF03BC5E66C02575165 /* LiveCodingConsoleStyle.cpp in Sources */,
-				5A232901E0F777B600FF3B88 /* LiveCodingManifest.cpp in Sources */,
-				3419DC9258C9C6B50F2B4232 /* SLogWidget.cpp in Sources */,
+				F3B1BA9E18709BE4BC05EA19 /* LiveCodingConsole.cpp in Sources */,
+				B5B30C432303846EA87A11DA /* LiveCodingConsoleStyle.cpp in Sources */,
+				BFADF24ABE8E39A00F3BE8FF /* LiveCodingManifest.cpp in Sources */,
+				530BD7B0CA518E9F707815A4 /* SLogWidget.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	16AD627BDB5833DFA2FAFCCE /* Embed App Extensions */ = {
+	53FF4E01E00B37F4B30D2187 /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -62,109 +62,109 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		6019FA2906357F6A2AE64679 /* PBXContainerItemProxy */ = {
+		2FE63884F1D7AF0ED30A656F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2FE63884F1D7AF0ED30A656F /* Project object */;
+			containerPortal = 369528C4725063F352FF89F3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9EC9525D23B747D894BD3881;
+			remoteGlobalIDString = CB82C101AB582F0D3C633AFB;
 			remoteInfo = "LiveCodingConsole_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		46B60A5096625D52B4D5E350 /* PBXTargetDependency */ = {
+		E32247729E6EE49D17EA7711 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9EC9525D23B747D894BD3881 /* LiveCodingConsole_Build */;
-			targetProxy = 6019FA2906357F6A2AE64679 /* PBXContainerItemProxy */;
+			target = CB82C101AB582F0D3C633AFB /* LiveCodingConsole_Build */;
+			targetProxy = 2FE63884F1D7AF0ED30A656F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		CB82C101AB582F0D3C633AFB = {
+		1AEEFD63A4501F7DBCCA22B5 = {
 			isa = PBXGroup;
 			children = (
-				D20DD3FC0FEAE552A7479AE7 /* Programs */,
-				CD3841344425D789ED83A3CF /* Source */,
-				3035870A2C7C6AD8BCD730C1 /* Products */,
+				28C9CCE8C6FA0B756CB94461 /* Programs */,
+				E2DF6D8ECD8D93A8FDE8DB38 /* Source */,
+				F80BE06CB4C51C16246EBB05 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D20DD3FC0FEAE552A7479AE7 = {
+		28C9CCE8C6FA0B756CB94461 = {
 			isa = PBXGroup;
 			children = (
-				FAFFE498DE6AFE100E9E84F9 /* LiveCodingConsole */,
+				F0BB0513DFEF7BF33442D202 /* LiveCodingConsole */,
 			);
 			name = "Programs";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs";
 			sourceTree = "<absolute>";
 		};
-		FAFFE498DE6AFE100E9E84F9 = {
+		F0BB0513DFEF7BF33442D202 = {
 			isa = PBXGroup;
 			children = (
-				F90F89A408DB530AC1A82304 /* Config */,
+				DB0B955E5E51F47FDB446E3B /* Config */,
 			);
 			name = "LiveCodingConsole";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/LiveCodingConsole";
 			sourceTree = "<absolute>";
 		};
-		F90F89A408DB530AC1A82304 = {
+		DB0B955E5E51F47FDB446E3B = {
 			isa = PBXGroup;
 			children = (
-				F99F7AB878ACB67862656BC5 /* DefaultEngine.ini */,
+				3C6BE91A37F9FD5CFF7747B6 /* DefaultEngine.ini */,
 			);
 			name = "Config";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/LiveCodingConsole/Config";
 			sourceTree = "<absolute>";
 		};
-		CD3841344425D789ED83A3CF = {
+		E2DF6D8ECD8D93A8FDE8DB38 = {
 			isa = PBXGroup;
 			children = (
-				5FA7EA9704AEC83489D903FF /* Programs */,
+				8A1272EC64D871E6F6C90DBA /* Programs */,
 			);
 			name = "Source";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source";
 			sourceTree = "<absolute>";
 		};
-		5FA7EA9704AEC83489D903FF = {
+		8A1272EC64D871E6F6C90DBA = {
 			isa = PBXGroup;
 			children = (
-				614149CCF48F2552DBDFCBA6 /* LiveCodingConsole */,
+				64AD171AC4C485AC4CCA31FF /* LiveCodingConsole */,
 			);
 			name = "Programs";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs";
 			sourceTree = "<absolute>";
 		};
-		614149CCF48F2552DBDFCBA6 = {
+		64AD171AC4C485AC4CCA31FF = {
 			isa = PBXGroup;
 			children = (
-				28C9CCE8C6FA0B756CB94461 /* Private */,
-				16B4E61DF47C842121E8BE03 /* LiveCodingConsole.Build.cs */,
+				81EC25A7AF2A05F3305CD44B /* Private */,
+				15B3EF457330ACF81C1DD6ED /* LiveCodingConsole.Build.cs */,
 				4B9119C624884B40DDE740D6 /* LiveCodingConsole.Target.cs */,
 			);
 			name = "LiveCodingConsole";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole";
 			sourceTree = "<absolute>";
 		};
-		28C9CCE8C6FA0B756CB94461 = {
+		81EC25A7AF2A05F3305CD44B = {
 			isa = PBXGroup;
 			children = (
-				15B3EF457330ACF81C1DD6ED /* LiveCodingConsole.cpp */,
-				06C67BF8ECD9FAD269840840 /* LiveCodingConsole.h */,
-				541B7ED7A867A410C8D63EAD /* LiveCodingConsoleStyle.cpp */,
-				C3AAA8F61E7E17AF7415A4D0 /* LiveCodingConsoleStyle.h */,
-				B9A349FED3E2BCDA0AA414FD /* LiveCodingManifest.cpp */,
-				DA828EB1025AD9C36F203D7A /* LiveCodingManifest.h */,
-				052DF871C69B787DBA492450 /* SLogWidget.cpp */,
-				B2A647457533F0AE405CABD5 /* SLogWidget.h */,
+				06C67BF8ECD9FAD269840840 /* LiveCodingConsole.cpp */,
+				541B7ED7A867A410C8D63EAD /* LiveCodingConsole.h */,
+				C3AAA8F61E7E17AF7415A4D0 /* LiveCodingConsoleStyle.cpp */,
+				B9A349FED3E2BCDA0AA414FD /* LiveCodingConsoleStyle.h */,
+				DA828EB1025AD9C36F203D7A /* LiveCodingManifest.cpp */,
+				052DF871C69B787DBA492450 /* LiveCodingManifest.h */,
+				B2A647457533F0AE405CABD5 /* SLogWidget.cpp */,
+				F116EABD9DA3C18C1753BE20 /* SLogWidget.h */,
 			);
 			name = "Private";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/LiveCodingConsole/Private";
 			sourceTree = "<absolute>";
 		};
-		3035870A2C7C6AD8BCD730C1 /* Products */ = {
+		F80BE06CB4C51C16246EBB05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A4F6BA9DD4AF37B96E7371E /* LiveCodingConsole */,
+				42DCF62C03BE9F5541DC2920 /* LiveCodingConsole */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,10 +172,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		9EC9525D23B747D894BD3881 /* LiveCodingConsole_Build */ = {
+		CB82C101AB582F0D3C633AFB /* LiveCodingConsole_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 31CC1A0D4212F5606F90F547 /* Build configuration list for PBXLegacyTarget "LiveCodingConsole_Build" */;
+			buildConfigurationList = 3035870A2C7C6AD8BCD730C1 /* Build configuration list for PBXLegacyTarget "LiveCodingConsole_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -189,30 +189,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		3D14067ED5A819E8BF800AFC /* LiveCodingConsole */ = {
+		31CC1A0D4212F5606F90F547 /* LiveCodingConsole */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD780E989A2CF52142C27D1F /* Build configuration list for PBXNativeTarget "LiveCodingConsole" */;
+			buildConfigurationList = F7B3746AE268B979E1DB8A3D /* Build configuration list for PBXNativeTarget "LiveCodingConsole" */;
 			buildPhases = (
-				16AD627BDB5833DFA2FAFCCE /* Embed App Extensions */, 
-				369528C4725063F352FF89F3 /* Shell Script */, 
+				53FF4E01E00B37F4B30D2187 /* Embed App Extensions */, 
+				06D263B7FBDC5BAC33F7CD8B /* Shell Script */, 
 			);
 			dependencies = (
-				46B60A5096625D52B4D5E350 /* PBXTargetDependency */,
+				E32247729E6EE49D17EA7711 /* PBXTargetDependency */,
 			);
 			name = "LiveCodingConsole";
 			passBuildSettingsInEnvironment = 1;
 			productName = "LiveCodingConsole";
-			productReference = "5A4F6BA9DD4AF37B96E7371E";
+			productReference = "42DCF62C03BE9F5541DC2920";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		F7B3746AE268B979E1DB8A3D /* LiveCodingConsole_Index */ = {
+		78B899594A21D053BC18B86F /* LiveCodingConsole_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E32247729E6EE49D17EA7711 /* Build configuration list for PBXNativeTarget "LiveCodingConsole_Index" */;
+			buildConfigurationList = 16AD627BDB5833DFA2FAFCCE /* Build configuration list for PBXNativeTarget "LiveCodingConsole_Index" */;
 			buildPhases = (
-				78B899594A21D053BC18B86F /* Sources */,
+				96194CBABBE4511EA1A9A983 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -224,38 +224,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2FE63884F1D7AF0ED30A656F /* Project object */ = {
+		369528C4725063F352FF89F3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					3D14067ED5A819E8BF800AFC = {
+					31CC1A0D4212F5606F90F547 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 42DCF62C03BE9F5541DC2920 /* Build configuration list for PBXProject "LiveCodingConsole" */;
+			buildConfigurationList = BFD6C21A93E73E177C18F37F /* Build configuration list for PBXProject "LiveCodingConsole" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = CB82C101AB582F0D3C633AFB;
-			productRefGroup = 3035870A2C7C6AD8BCD730C1;
+			mainGroup = 1AEEFD63A4501F7DBCCA22B5;
+			productRefGroup = F80BE06CB4C51C16246EBB05;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			3D14067ED5A819E8BF800AFC /* LiveCodingConsole */,
-			9EC9525D23B747D894BD3881 /* LiveCodingConsole_Build */,
-			F7B3746AE268B979E1DB8A3D /* LiveCodingConsole_Index */,
+			31CC1A0D4212F5606F90F547 /* LiveCodingConsole */,
+			CB82C101AB582F0D3C633AFB /* LiveCodingConsole_Build */,
+			78B899594A21D053BC18B86F /* LiveCodingConsole_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		BFD6C21A93E73E177C18F37F /* "Debug" */ = {
+		0464C2D87904134F615C18B5 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -346,7 +346,7 @@
 			};
 			name = "Debug";
 		};
-		53FF4E01E00B37F4B30D2187 /* "DebugGame" */ = {
+		A542756BA645923FB0D957DF /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -436,7 +436,7 @@
 			};
 			name = "DebugGame";
 		};
-		809922C44EFD505B31C3FD7B /* "Development" */ = {
+		D0C29DFD2A8EC2EA739D1F04 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -526,7 +526,7 @@
 			};
 			name = "Development";
 		};
-		4CA28E269E092ED258421E0B /* "Test" */ = {
+		1C23C482132D7BDBE675F694 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -616,7 +616,7 @@
 			};
 			name = "Test";
 		};
-		07968160F160D0B0D4E355DC /* "Shipping" */ = {
+		3B851D558163AD58E849A555 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -706,7 +706,7 @@
 			};
 			name = "Shipping";
 		};
-		1AEEFD63A4501F7DBCCA22B5 /* "Debug" */ = {
+		761B361837C75188F8C4B3E8 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -723,7 +723,7 @@
 			};
 			name = "Debug";
 		};
-		06D263B7FBDC5BAC33F7CD8B /* "DebugGame" */ = {
+		E14E00630CBC83B21DBBCFD7 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -740,7 +740,7 @@
 			};
 			name = "DebugGame";
 		};
-		495F7BAFF9D126AABAAE41E0 /* "Development" */ = {
+		B66CA0A7AB84879F2FF5DB27 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -757,7 +757,7 @@
 			};
 			name = "Development";
 		};
-		88E4B5EC31BDCA6F079BCDAB /* "Test" */ = {
+		0D62F813CD6E2FD217C43A7A /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -774,7 +774,7 @@
 			};
 			name = "Test";
 		};
-		6C30A7C97F3498EBC4B136C4 /* "Shipping" */ = {
+		0D807FF612A034511F2A777F /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -791,7 +791,7 @@
 			};
 			name = "Shipping";
 		};
-		F80BE06CB4C51C16246EBB05 /* "Debug" */ = {
+		809922C44EFD505B31C3FD7B /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -804,7 +804,7 @@
 			};
 			name = "Debug";
 		};
-		0464C2D87904134F615C18B5 /* "DebugGame" */ = {
+		4CA28E269E092ED258421E0B /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -817,7 +817,7 @@
 			};
 			name = "DebugGame";
 		};
-		A542756BA645923FB0D957DF /* "Development" */ = {
+		07968160F160D0B0D4E355DC /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -830,7 +830,7 @@
 			};
 			name = "Development";
 		};
-		D0C29DFD2A8EC2EA739D1F04 /* "Test" */ = {
+		DDBE20FA5CF0635560BC43CE /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -843,7 +843,7 @@
 			};
 			name = "Test";
 		};
-		1C23C482132D7BDBE675F694 /* "Shipping" */ = {
+		D1886A9DCF4440C90202BFD7 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -856,7 +856,7 @@
 			};
 			name = "Shipping";
 		};
-		96194CBABBE4511EA1A9A983 /* "Debug" */ = {
+		495F7BAFF9D126AABAAE41E0 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -873,7 +873,7 @@
 			};
 			name = "Debug";
 		};
-		761B361837C75188F8C4B3E8 /* "DebugGame" */ = {
+		88E4B5EC31BDCA6F079BCDAB /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -890,7 +890,7 @@
 			};
 			name = "DebugGame";
 		};
-		E14E00630CBC83B21DBBCFD7 /* "Development" */ = {
+		6C30A7C97F3498EBC4B136C4 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -907,7 +907,7 @@
 			};
 			name = "Development";
 		};
-		B66CA0A7AB84879F2FF5DB27 /* "Test" */ = {
+		9B4D9DA76779F5F63913BB1D /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -924,7 +924,7 @@
 			};
 			name = "Test";
 		};
-		0D62F813CD6E2FD217C43A7A /* "Shipping" */ = {
+		D20DD3FC0FEAE552A7479AE7 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -944,55 +944,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42DCF62C03BE9F5541DC2920 /* Build configuration list for PBXProject "LiveCodingConsole" */ = {
+		BFD6C21A93E73E177C18F37F /* Build configuration list for PBXProject "LiveCodingConsole" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFD6C21A93E73E177C18F37F /* "Debug" */,
-				53FF4E01E00B37F4B30D2187 /* "DebugGame" */,
-				809922C44EFD505B31C3FD7B /* "Development" */,
-				4CA28E269E092ED258421E0B /* "Test" */,
-				07968160F160D0B0D4E355DC /* "Shipping" */,
+				0464C2D87904134F615C18B5 /* "Debug" */,
+				A542756BA645923FB0D957DF /* "DebugGame" */,
+				D0C29DFD2A8EC2EA739D1F04 /* "Development" */,
+				1C23C482132D7BDBE675F694 /* "Test" */,
+				3B851D558163AD58E849A555 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		31CC1A0D4212F5606F90F547 /* Build configuration list for PBXLegacyTarget "LiveCodingConsole_Build" */ = {
+		3035870A2C7C6AD8BCD730C1 /* Build configuration list for PBXLegacyTarget "LiveCodingConsole_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F80BE06CB4C51C16246EBB05 /* "Debug" */,
-				0464C2D87904134F615C18B5 /* "DebugGame" */,
-				A542756BA645923FB0D957DF /* "Development" */,
-				D0C29DFD2A8EC2EA739D1F04 /* "Test" */,
-				1C23C482132D7BDBE675F694 /* "Shipping" */,
+				809922C44EFD505B31C3FD7B /* "Debug" */,
+				4CA28E269E092ED258421E0B /* "DebugGame" */,
+				07968160F160D0B0D4E355DC /* "Development" */,
+				DDBE20FA5CF0635560BC43CE /* "Test" */,
+				D1886A9DCF4440C90202BFD7 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		AD780E989A2CF52142C27D1F /* Build configuration list for PBXNativeTarget "LiveCodingConsole" */ = {
+		F7B3746AE268B979E1DB8A3D /* Build configuration list for PBXNativeTarget "LiveCodingConsole" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1AEEFD63A4501F7DBCCA22B5 /* "Debug" */,
-				06D263B7FBDC5BAC33F7CD8B /* "DebugGame" */,
-				495F7BAFF9D126AABAAE41E0 /* "Development" */,
-				88E4B5EC31BDCA6F079BCDAB /* "Test" */,
-				6C30A7C97F3498EBC4B136C4 /* "Shipping" */,
+				761B361837C75188F8C4B3E8 /* "Debug" */,
+				E14E00630CBC83B21DBBCFD7 /* "DebugGame" */,
+				B66CA0A7AB84879F2FF5DB27 /* "Development" */,
+				0D62F813CD6E2FD217C43A7A /* "Test" */,
+				0D807FF612A034511F2A777F /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		E32247729E6EE49D17EA7711 /* Build configuration list for PBXNativeTarget "LiveCodingConsole_Index" */ = {
+		16AD627BDB5833DFA2FAFCCE /* Build configuration list for PBXNativeTarget "LiveCodingConsole_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96194CBABBE4511EA1A9A983 /* "Debug" */,
-				761B361837C75188F8C4B3E8 /* "DebugGame" */,
-				E14E00630CBC83B21DBBCFD7 /* "Development" */,
-				B66CA0A7AB84879F2FF5DB27 /* "Test" */,
-				0D62F813CD6E2FD217C43A7A /* "Shipping" */,
+				495F7BAFF9D126AABAAE41E0 /* "Debug" */,
+				88E4B5EC31BDCA6F079BCDAB /* "DebugGame" */,
+				6C30A7C97F3498EBC4B136C4 /* "Development" */,
+				9B4D9DA76779F5F63913BB1D /* "Test" */,
+				D20DD3FC0FEAE552A7479AE7 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2FE63884F1D7AF0ED30A656F /* Project object */;
+	rootObject = 369528C4725063F352FF89F3 /* Project object */;
 }

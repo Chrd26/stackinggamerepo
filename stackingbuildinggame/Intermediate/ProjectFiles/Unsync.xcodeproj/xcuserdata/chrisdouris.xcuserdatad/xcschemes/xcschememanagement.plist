@@ -9,20 +9,30 @@
 			<key>orderHint</key>
 			<integer>45</integer>
 		</dict>
+		<key>Unsync_Build.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>74</integer>
+		</dict>
+		<key>Unsync_Index.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>79</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2414F862DC1D84F07856CC57</key>
+		<key>80585E77BE96B85B16DB1FB7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FF969FFBEBD559834536340B</key>
+		<key>A9A76881DE86510D22CF8C57</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BF06B796ED7E313979406039</key>
+		<key>FD36936A20A4F0E4E5EC66F7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

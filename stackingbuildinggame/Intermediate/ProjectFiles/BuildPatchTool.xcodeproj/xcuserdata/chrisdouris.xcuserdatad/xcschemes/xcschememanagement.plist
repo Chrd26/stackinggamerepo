@@ -9,20 +9,30 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>BuildPatchTool_Build.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>61</integer>
+		</dict>
+		<key>BuildPatchTool_Index.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>62</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>91C8CA8D0092563DFA8699B5</key>
+		<key>265A308BDE07039D7AA0A1CB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9386FD87C809774908BD4EDB</key>
+		<key>789430044A2FA4F3DA65FB4B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C5B9CD0479F2A945BB2C5EA6</key>
+		<key>A5405D1DB1E56B7EC36EE9B6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -9,20 +9,30 @@
 			<key>orderHint</key>
 			<integer>37</integer>
 		</dict>
+		<key>UnrealMultiUserServer_Build.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>91</integer>
+		</dict>
+		<key>UnrealMultiUserServer_Index.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>81</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>A3E674925025A90F3E175A60</key>
+		<key>3C203E9DA737BB1409928D71</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0FCD9C4D8C6E86304D678741</key>
+		<key>5815A20E173608B86AC079AC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B37EAC45531506B3ED1B2110</key>
+		<key>F752C89896EEDC3E2970D579</key>
 		<dict>
 			<key>primary</key>
 			<true/>

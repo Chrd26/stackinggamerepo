@@ -9,20 +9,30 @@
 			<key>orderHint</key>
 			<integer>40</integer>
 		</dict>
+		<key>UnrealPackageTool_Build.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>55</integer>
+		</dict>
+		<key>UnrealPackageTool_Index.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>54</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>9A6920313FD447F646A1C459</key>
+		<key>051ADBF5C7CF60CD3F9EE378</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6C2BB7B08E84DB645BAAB564</key>
+		<key>5E40BE32120FF787DA69A074</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>80F9CE5103D1848154CD85A9</key>
+		<key>8418AADFA229765AD6B4ACB6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B386D6C80B829BEAAC8CEFC0"
+               BlueprintIdentifier = "E8E9F4154174C8F32B9A40BF"
                BuildableName = "BenchmarkTool"
                BlueprintName = "BenchmarkTool"
                ReferencedContainer = "container:BenchmarkTool.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B386D6C80B829BEAAC8CEFC0"
+            BlueprintIdentifier = "E8E9F4154174C8F32B9A40BF"
             BuildableName = "BenchmarkTool"
             BlueprintName = "BenchmarkTool"
             ReferencedContainer = "container:BenchmarkTool.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B386D6C80B829BEAAC8CEFC0"
+            BlueprintIdentifier = "E8E9F4154174C8F32B9A40BF"
             BuildableName = "BenchmarkTool"
             BlueprintName = "BenchmarkTool"
             ReferencedContainer = "container:BenchmarkTool.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B386D6C80B829BEAAC8CEFC0"
+            BlueprintIdentifier = "E8E9F4154174C8F32B9A40BF"
             BuildableName = "BenchmarkTool"
             BlueprintName = "BenchmarkTool"
             ReferencedContainer = "container:BenchmarkTool.xcodeproj">

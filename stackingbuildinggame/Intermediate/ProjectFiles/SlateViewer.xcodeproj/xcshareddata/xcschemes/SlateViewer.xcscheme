@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1787AD1FECA389630E723452"
+               BlueprintIdentifier = "B0D093771EBBB16B78AEF5B6"
                BuildableName = "SlateViewer.app"
                BlueprintName = "SlateViewer"
                ReferencedContainer = "container:SlateViewer.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1787AD1FECA389630E723452"
+               BlueprintIdentifier = "B0D093771EBBB16B78AEF5B6"
                BuildableName = "SlateViewer.app"
                BlueprintName = "SlateViewer"
                ReferencedContainer = "container:SlateViewer.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1787AD1FECA389630E723452"
+               BlueprintIdentifier = "B0D093771EBBB16B78AEF5B6"
                BuildableName = "SlateViewer.app"
                BlueprintName = "SlateViewer"
                ReferencedContainer = "container:SlateViewer.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1787AD1FECA389630E723452"
+               BlueprintIdentifier = "B0D093771EBBB16B78AEF5B6"
                BuildableName = "SlateViewer.app"
                BlueprintName = "SlateViewer"
                ReferencedContainer = "container:SlateViewer.xcodeproj">

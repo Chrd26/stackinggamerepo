@@ -9,15 +9,25 @@
 			<key>orderHint</key>
 			<integer>23</integer>
 		</dict>
+		<key>ShaderCompileWorker_Build.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>59</integer>
+		</dict>
+		<key>ShaderCompileWorker_Index.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>64</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>D638D558A96751ECC8266C90</key>
+		<key>B48C8BE7A352C2C6BB4D1164</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B48C8BE7A352C2C6BB4D1164</key>
+		<key>D638D558A96751ECC8266C90</key>
 		<dict>
 			<key>primary</key>
 			<true/>

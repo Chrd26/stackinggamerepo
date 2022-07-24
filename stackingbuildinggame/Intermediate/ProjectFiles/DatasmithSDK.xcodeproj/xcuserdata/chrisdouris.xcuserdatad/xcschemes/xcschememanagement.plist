@@ -9,20 +9,30 @@
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
+		<key>DatasmithSDK_Build.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>50</integer>
+		</dict>
+		<key>DatasmithSDK_Index.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>47</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>B3852070DC8FA0D9AF886A3B</key>
+		<key>C23CA586281F6B25FCE9D063</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>658119AC9C14D8AD5DAB6B72</key>
+		<key>E7A3005B72A0904DE35CBA8C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DA7E87F0142F80522F0A2182</key>
+		<key>EB2F54408EBA7FAD06FA49E0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

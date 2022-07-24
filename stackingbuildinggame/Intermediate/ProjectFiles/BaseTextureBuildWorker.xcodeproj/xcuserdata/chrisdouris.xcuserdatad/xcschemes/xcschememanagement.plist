@@ -9,20 +9,30 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>BaseTextureBuildWorker_Build.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>47</integer>
+		</dict>
+		<key>BaseTextureBuildWorker_Index.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>48</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>324D4C2BCBA880B886E8AFAB</key>
+		<key>223E78DC837E21D7270EC087</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7732E5F05261A0F5BC91797F</key>
+		<key>2AB88E028A5DB2E660B77F86</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>97595529B90F24AB8A6537F6</key>
+		<key>3DCB17C1A9C4B6183F9BC259</key>
 		<dict>
 			<key>primary</key>
 			<true/>

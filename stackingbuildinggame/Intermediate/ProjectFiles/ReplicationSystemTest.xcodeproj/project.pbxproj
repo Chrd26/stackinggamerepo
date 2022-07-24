@@ -7,43 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05B67A5B149F9D05DDC45E6A /* AutomationTestRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48E97BC0C0C48754522FC6BE /* AutomationTestRunner.cpp */; };
-		0FC83BCE3398AB107F4FCB4C /* AutomationTestRunner.h in Sources */ = {isa = PBXBuildFile; fileRef = D7A78C456FBF68F79C0BF003 /* AutomationTestRunner.h */; };
-		C32BFF3E40260DD5F0BC4B4C /* NullTestRunner.h in Sources */ = {isa = PBXBuildFile; fileRef = 63CED245184EEAF91D2EE819 /* NullTestRunner.h */; };
-		3742E493C6CF2204D7380B08 /* ReplicationSystemTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 986CCF5842F55C1B5B40E1A0 /* ReplicationSystemTest.cpp */; };
-		ED23DE4D20F7E59542E507FE /* ReplicationSystemTest.h in Sources */ = {isa = PBXBuildFile; fileRef = 417A0F219A46742BC3C9ADAC /* ReplicationSystemTest.h */; };
-		7F91B627D2CDBDF76044A5A3 /* ReplicationSystemTestFileModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0D4E4DF5276C5B265D016C8 /* ReplicationSystemTestFileModule.cpp */; };
-		D8FAAFD0035203A0E40CC546 /* ReplicationSystemTest.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = BBFB7539EC3EEBC003C87B60 /* ReplicationSystemTest.Build.cs */; };
+		0FC83BCE3398AB107F4FCB4C /* AutomationTestRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7A78C456FBF68F79C0BF003 /* AutomationTestRunner.cpp */; };
+		C32BFF3E40260DD5F0BC4B4C /* AutomationTestRunner.h in Sources */ = {isa = PBXBuildFile; fileRef = 63CED245184EEAF91D2EE819 /* AutomationTestRunner.h */; };
+		3742E493C6CF2204D7380B08 /* NullTestRunner.h in Sources */ = {isa = PBXBuildFile; fileRef = 986CCF5842F55C1B5B40E1A0 /* NullTestRunner.h */; };
+		ED23DE4D20F7E59542E507FE /* ReplicationSystemTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 417A0F219A46742BC3C9ADAC /* ReplicationSystemTest.cpp */; };
+		7F91B627D2CDBDF76044A5A3 /* ReplicationSystemTest.h in Sources */ = {isa = PBXBuildFile; fileRef = F0D4E4DF5276C5B265D016C8 /* ReplicationSystemTest.h */; };
+		E63A8114CBB5DD237632CE8E /* ReplicationSystemTestFileModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40BDC274280F9EFDD46C30C5 /* ReplicationSystemTestFileModule.cpp */; };
+		05B67A5B149F9D05DDC45E6A /* ReplicationSystemTest.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 48E97BC0C0C48754522FC6BE /* ReplicationSystemTest.Build.cs */; };
 		64BA66AE27FFE14960C856C8 /* ReplicationSystemTest.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 68A6E4B54E789AB6BEFB8332 /* ReplicationSystemTest.Target.cs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		48E97BC0C0C48754522FC6BE /* AutomationTestRunner.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AutomationTestRunner.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ReplicationSystemTest/Private/AutomationTestRunner.cpp"; sourceTree = SOURCE_ROOT; };
-		D7A78C456FBF68F79C0BF003 /* AutomationTestRunner.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AutomationTestRunner.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ReplicationSystemTest/Private/AutomationTestRunner.h"; sourceTree = SOURCE_ROOT; };
-		63CED245184EEAF91D2EE819 /* NullTestRunner.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "NullTestRunner.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ReplicationSystemTest/Private/NullTestRunner.h"; sourceTree = SOURCE_ROOT; };
-		986CCF5842F55C1B5B40E1A0 /* ReplicationSystemTest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ReplicationSystemTest.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ReplicationSystemTest/Private/ReplicationSystemTest.cpp"; sourceTree = SOURCE_ROOT; };
-		417A0F219A46742BC3C9ADAC /* ReplicationSystemTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ReplicationSystemTest.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ReplicationSystemTest/Private/ReplicationSystemTest.h"; sourceTree = SOURCE_ROOT; };
-		F0D4E4DF5276C5B265D016C8 /* ReplicationSystemTestFileModule.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ReplicationSystemTestFileModule.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ReplicationSystemTest/Private/ReplicationSystemTestFileModule.cpp"; sourceTree = SOURCE_ROOT; };
-		BBFB7539EC3EEBC003C87B60 /* ReplicationSystemTest.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ReplicationSystemTest.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ReplicationSystemTest/ReplicationSystemTest.Build.cs"; sourceTree = SOURCE_ROOT; };
+		D7A78C456FBF68F79C0BF003 /* AutomationTestRunner.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AutomationTestRunner.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ReplicationSystemTest/Private/AutomationTestRunner.cpp"; sourceTree = SOURCE_ROOT; };
+		63CED245184EEAF91D2EE819 /* AutomationTestRunner.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AutomationTestRunner.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ReplicationSystemTest/Private/AutomationTestRunner.h"; sourceTree = SOURCE_ROOT; };
+		986CCF5842F55C1B5B40E1A0 /* NullTestRunner.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "NullTestRunner.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ReplicationSystemTest/Private/NullTestRunner.h"; sourceTree = SOURCE_ROOT; };
+		417A0F219A46742BC3C9ADAC /* ReplicationSystemTest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ReplicationSystemTest.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ReplicationSystemTest/Private/ReplicationSystemTest.cpp"; sourceTree = SOURCE_ROOT; };
+		F0D4E4DF5276C5B265D016C8 /* ReplicationSystemTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ReplicationSystemTest.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ReplicationSystemTest/Private/ReplicationSystemTest.h"; sourceTree = SOURCE_ROOT; };
+		40BDC274280F9EFDD46C30C5 /* ReplicationSystemTestFileModule.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ReplicationSystemTestFileModule.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ReplicationSystemTest/Private/ReplicationSystemTestFileModule.cpp"; sourceTree = SOURCE_ROOT; };
+		48E97BC0C0C48754522FC6BE /* ReplicationSystemTest.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ReplicationSystemTest.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ReplicationSystemTest/ReplicationSystemTest.Build.cs"; sourceTree = SOURCE_ROOT; };
 		68A6E4B54E789AB6BEFB8332 /* ReplicationSystemTest.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ReplicationSystemTest.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ReplicationSystemTest/ReplicationSystemTest.Target.cs"; sourceTree = SOURCE_ROOT; };
-		D3D8A1915C86B1F409911605 /* ReplicationSystemTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ReplicationSystemTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96AEB6B4E9227101DAABB1B /* ReplicationSystemTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ReplicationSystemTest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A862A66FCB547E17FB12936E = {
+		22E7ED9E7321E899EE9946F9 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05B67A5B149F9D05DDC45E6A /* AutomationTestRunner.cpp in Sources */,
-				3742E493C6CF2204D7380B08 /* ReplicationSystemTest.cpp in Sources */,
-				7F91B627D2CDBDF76044A5A3 /* ReplicationSystemTestFileModule.cpp in Sources */,
+				0FC83BCE3398AB107F4FCB4C /* AutomationTestRunner.cpp in Sources */,
+				ED23DE4D20F7E59542E507FE /* ReplicationSystemTest.cpp in Sources */,
+				E63A8114CBB5DD237632CE8E /* ReplicationSystemTestFileModule.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	19A7DBE8CAB3E08B78313C51 /* Embed App Extensions */ = {
+	B29654C0AC4566688BC3A563 /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -55,52 +55,52 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		D59E2125C0220A56428FF094 /* PBXContainerItemProxy */ = {
+		C1B62D94105E0CC84DD50F2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C1B62D94105E0CC84DD50F2E /* Project object */;
+			containerPortal = 5EFD0144DD517FBA6B3CBC8B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 83A6E25EE1621D5CC7DED6AF;
+			remoteGlobalIDString = 00A14564ED640B5C4E1DF1BA;
 			remoteInfo = "ReplicationSystemTest_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		47E94F2DE5F044153922509A /* PBXTargetDependency */ = {
+		3FAB74DF7294CDF401F2659C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83A6E25EE1621D5CC7DED6AF /* ReplicationSystemTest_Build */;
-			targetProxy = D59E2125C0220A56428FF094 /* PBXContainerItemProxy */;
+			target = 00A14564ED640B5C4E1DF1BA /* ReplicationSystemTest_Build */;
+			targetProxy = C1B62D94105E0CC84DD50F2E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		00A14564ED640B5C4E1DF1BA = {
+		FEE49EE866AA8F76255410CD = {
 			isa = PBXGroup;
 			children = (
-				21614CF2E344C33C506E34B4 /* Private */,
-				BBFB7539EC3EEBC003C87B60 /* ReplicationSystemTest.Build.cs */,
+				B48C8BE7A352C2C6BB4D1164 /* Private */,
+				48E97BC0C0C48754522FC6BE /* ReplicationSystemTest.Build.cs */,
 				68A6E4B54E789AB6BEFB8332 /* ReplicationSystemTest.Target.cs */,
-				2EFC33290FD9CC699B463608 /* Products */,
+				533A3AAA93D903DCEB4F2A2E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		21614CF2E344C33C506E34B4 = {
+		B48C8BE7A352C2C6BB4D1164 = {
 			isa = PBXGroup;
 			children = (
-				48E97BC0C0C48754522FC6BE /* AutomationTestRunner.cpp */,
-				D7A78C456FBF68F79C0BF003 /* AutomationTestRunner.h */,
-				63CED245184EEAF91D2EE819 /* NullTestRunner.h */,
-				986CCF5842F55C1B5B40E1A0 /* ReplicationSystemTest.cpp */,
-				417A0F219A46742BC3C9ADAC /* ReplicationSystemTest.h */,
-				F0D4E4DF5276C5B265D016C8 /* ReplicationSystemTestFileModule.cpp */,
+				D7A78C456FBF68F79C0BF003 /* AutomationTestRunner.cpp */,
+				63CED245184EEAF91D2EE819 /* AutomationTestRunner.h */,
+				986CCF5842F55C1B5B40E1A0 /* NullTestRunner.h */,
+				417A0F219A46742BC3C9ADAC /* ReplicationSystemTest.cpp */,
+				F0D4E4DF5276C5B265D016C8 /* ReplicationSystemTest.h */,
+				40BDC274280F9EFDD46C30C5 /* ReplicationSystemTestFileModule.cpp */,
 			);
 			name = "Private";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ReplicationSystemTest/Private";
 			sourceTree = "<absolute>";
 		};
-		2EFC33290FD9CC699B463608 /* Products */ = {
+		533A3AAA93D903DCEB4F2A2E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D3D8A1915C86B1F409911605 /* ReplicationSystemTest */,
+				A96AEB6B4E9227101DAABB1B /* ReplicationSystemTest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,10 +108,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		83A6E25EE1621D5CC7DED6AF /* ReplicationSystemTest_Build */ = {
+		00A14564ED640B5C4E1DF1BA /* ReplicationSystemTest_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 2BBFC4FAC67581B7F9BA590C /* Build configuration list for PBXLegacyTarget "ReplicationSystemTest_Build" */;
+			buildConfigurationList = 2EFC33290FD9CC699B463608 /* Build configuration list for PBXLegacyTarget "ReplicationSystemTest_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -125,30 +125,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		C5D5555EEFD2D3C84F267856 /* ReplicationSystemTest */ = {
+		2BBFC4FAC67581B7F9BA590C /* ReplicationSystemTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E1779AC4D4DE5851DD0CBC4 /* Build configuration list for PBXNativeTarget "ReplicationSystemTest" */;
+			buildConfigurationList = 4EB3B9B3705C9044871BA11A /* Build configuration list for PBXNativeTarget "ReplicationSystemTest" */;
 			buildPhases = (
-				19A7DBE8CAB3E08B78313C51 /* Embed App Extensions */, 
-				5EFD0144DD517FBA6B3CBC8B /* Shell Script */, 
+				B29654C0AC4566688BC3A563 /* Embed App Extensions */, 
+				9F14878FC2327CAEB970C67E /* Shell Script */, 
 			);
 			dependencies = (
-				47E94F2DE5F044153922509A /* PBXTargetDependency */,
+				3FAB74DF7294CDF401F2659C /* PBXTargetDependency */,
 			);
 			name = "ReplicationSystemTest";
 			passBuildSettingsInEnvironment = 1;
 			productName = "ReplicationSystemTest";
-			productReference = "D3D8A1915C86B1F409911605";
+			productReference = "A96AEB6B4E9227101DAABB1B";
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		4EB3B9B3705C9044871BA11A /* ReplicationSystemTest_Index */ = {
+		A862A66FCB547E17FB12936E /* ReplicationSystemTest_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FAB74DF7294CDF401F2659C /* Build configuration list for PBXNativeTarget "ReplicationSystemTest_Index" */;
+			buildConfigurationList = 19A7DBE8CAB3E08B78313C51 /* Build configuration list for PBXNativeTarget "ReplicationSystemTest_Index" */;
 			buildPhases = (
-				A862A66FCB547E17FB12936E /* Sources */,
+				22E7ED9E7321E899EE9946F9 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -160,38 +160,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C1B62D94105E0CC84DD50F2E /* Project object */ = {
+		5EFD0144DD517FBA6B3CBC8B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					C5D5555EEFD2D3C84F267856 = {
+					2BBFC4FAC67581B7F9BA590C = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = A96AEB6B4E9227101DAABB1B /* Build configuration list for PBXProject "ReplicationSystemTest" */;
+			buildConfigurationList = BD9C90F99ED9BE1B68C50F67 /* Build configuration list for PBXProject "ReplicationSystemTest" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 00A14564ED640B5C4E1DF1BA;
-			productRefGroup = 2EFC33290FD9CC699B463608;
+			mainGroup = FEE49EE866AA8F76255410CD;
+			productRefGroup = 533A3AAA93D903DCEB4F2A2E;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			C5D5555EEFD2D3C84F267856 /* ReplicationSystemTest */,
-			83A6E25EE1621D5CC7DED6AF /* ReplicationSystemTest_Build */,
-			4EB3B9B3705C9044871BA11A /* ReplicationSystemTest_Index */,
+			2BBFC4FAC67581B7F9BA590C /* ReplicationSystemTest */,
+			00A14564ED640B5C4E1DF1BA /* ReplicationSystemTest_Build */,
+			A862A66FCB547E17FB12936E /* ReplicationSystemTest_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		BD9C90F99ED9BE1B68C50F67 /* "Debug" */ = {
+		BDF103036C76DFB9F440F7FC /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -472,7 +472,7 @@
 			};
 			name = "Debug";
 		};
-		B29654C0AC4566688BC3A563 /* "DebugGame" */ = {
+		02D6C5F7CD663D34F2A46912 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -752,7 +752,7 @@
 			};
 			name = "DebugGame";
 		};
-		9959D7BB1D973F42D0D502BB /* "Development" */ = {
+		4E135D665E5B3F8E723E323F /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1032,7 +1032,7 @@
 			};
 			name = "Development";
 		};
-		C58E7B56199F420F4E58B846 /* "Test" */ = {
+		B4773A9D242D53F78AA4269B /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1312,7 +1312,7 @@
 			};
 			name = "Test";
 		};
-		40C21671AAC78EDB18BC0705 /* "Shipping" */ = {
+		4527E4BE0F4FD29F66B3F452 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1592,7 +1592,7 @@
 			};
 			name = "Shipping";
 		};
-		FEE49EE866AA8F76255410CD /* "Debug" */ = {
+		84422FA5E9C1A35F4189FE5E /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -1629,7 +1629,7 @@
 			};
 			name = "Debug";
 		};
-		9F14878FC2327CAEB970C67E /* "DebugGame" */ = {
+		9F249C5C01B52CAF40746486 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -1666,7 +1666,7 @@
 			};
 			name = "DebugGame";
 		};
-		4162FC14E3EB6F5E1C8A0B7F /* "Development" */ = {
+		EBE61A52625AC4476C5689B9 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -1703,7 +1703,7 @@
 			};
 			name = "Development";
 		};
-		D248756998CEC99CF8E975BF /* "Test" */ = {
+		45CDE3ABB057262FDF141086 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -1740,7 +1740,7 @@
 			};
 			name = "Test";
 		};
-		42DBB0F21829D39415367EB1 /* "Shipping" */ = {
+		FF107495011C56DF10B01EBF /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -1777,7 +1777,7 @@
 			};
 			name = "Shipping";
 		};
-		533A3AAA93D903DCEB4F2A2E /* "Debug" */ = {
+		9959D7BB1D973F42D0D502BB /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -1790,7 +1790,7 @@
 			};
 			name = "Debug";
 		};
-		BDF103036C76DFB9F440F7FC /* "DebugGame" */ = {
+		C58E7B56199F420F4E58B846 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -1803,7 +1803,7 @@
 			};
 			name = "DebugGame";
 		};
-		02D6C5F7CD663D34F2A46912 /* "Development" */ = {
+		40C21671AAC78EDB18BC0705 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -1816,7 +1816,7 @@
 			};
 			name = "Development";
 		};
-		4E135D665E5B3F8E723E323F /* "Test" */ = {
+		A9D22E4283F4A30A4465BD33 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -1829,7 +1829,7 @@
 			};
 			name = "Test";
 		};
-		B4773A9D242D53F78AA4269B /* "Shipping" */ = {
+		A13BC6CF9972D19425E3FC5B /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -1842,7 +1842,7 @@
 			};
 			name = "Shipping";
 		};
-		22E7ED9E7321E899EE9946F9 /* "Debug" */ = {
+		4162FC14E3EB6F5E1C8A0B7F /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -1879,7 +1879,7 @@
 			};
 			name = "Debug";
 		};
-		84422FA5E9C1A35F4189FE5E /* "DebugGame" */ = {
+		D248756998CEC99CF8E975BF /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -1916,7 +1916,7 @@
 			};
 			name = "DebugGame";
 		};
-		9F249C5C01B52CAF40746486 /* "Development" */ = {
+		42DBB0F21829D39415367EB1 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -1953,7 +1953,7 @@
 			};
 			name = "Development";
 		};
-		EBE61A52625AC4476C5689B9 /* "Test" */ = {
+		8DF0B6EA680F7B9DB515AD4A /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -1990,7 +1990,7 @@
 			};
 			name = "Test";
 		};
-		45CDE3ABB057262FDF141086 /* "Shipping" */ = {
+		10E5FAF5931DCCD9FB64EB57 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -2030,55 +2030,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A96AEB6B4E9227101DAABB1B /* Build configuration list for PBXProject "ReplicationSystemTest" */ = {
+		BD9C90F99ED9BE1B68C50F67 /* Build configuration list for PBXProject "ReplicationSystemTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD9C90F99ED9BE1B68C50F67 /* "Debug" */,
-				B29654C0AC4566688BC3A563 /* "DebugGame" */,
-				9959D7BB1D973F42D0D502BB /* "Development" */,
-				C58E7B56199F420F4E58B846 /* "Test" */,
-				40C21671AAC78EDB18BC0705 /* "Shipping" */,
+				BDF103036C76DFB9F440F7FC /* "Debug" */,
+				02D6C5F7CD663D34F2A46912 /* "DebugGame" */,
+				4E135D665E5B3F8E723E323F /* "Development" */,
+				B4773A9D242D53F78AA4269B /* "Test" */,
+				4527E4BE0F4FD29F66B3F452 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		2BBFC4FAC67581B7F9BA590C /* Build configuration list for PBXLegacyTarget "ReplicationSystemTest_Build" */ = {
+		2EFC33290FD9CC699B463608 /* Build configuration list for PBXLegacyTarget "ReplicationSystemTest_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				533A3AAA93D903DCEB4F2A2E /* "Debug" */,
-				BDF103036C76DFB9F440F7FC /* "DebugGame" */,
-				02D6C5F7CD663D34F2A46912 /* "Development" */,
-				4E135D665E5B3F8E723E323F /* "Test" */,
-				B4773A9D242D53F78AA4269B /* "Shipping" */,
+				9959D7BB1D973F42D0D502BB /* "Debug" */,
+				C58E7B56199F420F4E58B846 /* "DebugGame" */,
+				40C21671AAC78EDB18BC0705 /* "Development" */,
+				A9D22E4283F4A30A4465BD33 /* "Test" */,
+				A13BC6CF9972D19425E3FC5B /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		7E1779AC4D4DE5851DD0CBC4 /* Build configuration list for PBXNativeTarget "ReplicationSystemTest" */ = {
+		4EB3B9B3705C9044871BA11A /* Build configuration list for PBXNativeTarget "ReplicationSystemTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEE49EE866AA8F76255410CD /* "Debug" */,
-				9F14878FC2327CAEB970C67E /* "DebugGame" */,
-				4162FC14E3EB6F5E1C8A0B7F /* "Development" */,
-				D248756998CEC99CF8E975BF /* "Test" */,
-				42DBB0F21829D39415367EB1 /* "Shipping" */,
+				84422FA5E9C1A35F4189FE5E /* "Debug" */,
+				9F249C5C01B52CAF40746486 /* "DebugGame" */,
+				EBE61A52625AC4476C5689B9 /* "Development" */,
+				45CDE3ABB057262FDF141086 /* "Test" */,
+				FF107495011C56DF10B01EBF /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		3FAB74DF7294CDF401F2659C /* Build configuration list for PBXNativeTarget "ReplicationSystemTest_Index" */ = {
+		19A7DBE8CAB3E08B78313C51 /* Build configuration list for PBXNativeTarget "ReplicationSystemTest_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22E7ED9E7321E899EE9946F9 /* "Debug" */,
-				84422FA5E9C1A35F4189FE5E /* "DebugGame" */,
-				9F249C5C01B52CAF40746486 /* "Development" */,
-				EBE61A52625AC4476C5689B9 /* "Test" */,
-				45CDE3ABB057262FDF141086 /* "Shipping" */,
+				4162FC14E3EB6F5E1C8A0B7F /* "Debug" */,
+				D248756998CEC99CF8E975BF /* "DebugGame" */,
+				42DBB0F21829D39415367EB1 /* "Development" */,
+				8DF0B6EA680F7B9DB515AD4A /* "Test" */,
+				10E5FAF5931DCCD9FB64EB57 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C1B62D94105E0CC84DD50F2E /* Project object */;
+	rootObject = 5EFD0144DD517FBA6B3CBC8B /* Project object */;
 }

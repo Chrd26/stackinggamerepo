@@ -7,48 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5982605A482F5D6542ADE9C4 /* DefaultEditor.ini in Sources */ = {isa = PBXBuildFile; fileRef = C1EF125143D223AB614FD4A5 /* DefaultEditor.ini */; };
+		0A523B132C4C647748F7B265 /* DefaultEditor.ini in Sources */ = {isa = PBXBuildFile; fileRef = 916057287B543204198DA640 /* DefaultEditor.ini */; };
 		D74FD10BE7F1BB9F58D9B974 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = B10251682F15BA95B25F06D9 /* DefaultEngine.ini */; };
 		4C24C4C01392FBFA42FE717B /* DefaultGame.ini in Sources */ = {isa = PBXBuildFile; fileRef = 841BC385A85CBA6B29E6E216 /* DefaultGame.ini */; };
+		5982605A482F5D6542ADE9C4 /* DefaultInput.ini in Sources */ = {isa = PBXBuildFile; fileRef = C1EF125143D223AB614FD4A5 /* DefaultInput.ini */; };
 		EC5E64005393B30D4A402975 /* stackingbuildinggame.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = CF746C0FF4BEC24D1E04EB4B /* stackingbuildinggame.Target.cs */; };
-		130234C73FC0EA31224CFA67 /* stackingbuildinggame.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = DB161B29A7F1847BD1CDC683 /* stackingbuildinggame.Build.cs */; };
-		1CB4F0776325DF463BB145C9 /* stackingbuildinggame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34E24CCF4EC4032CE84907D2 /* stackingbuildinggame.cpp */; };
-		1E055F41D4579C0932FDB586 /* stackingbuildinggame.h in Sources */ = {isa = PBXBuildFile; fileRef = EA8B061F0C38DE9869E8A0B0 /* stackingbuildinggame.h */; };
-		82758B07E552FD3564AE2DD2 /* stackingbuildinggameGameModeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22D4CA721284639E919E44F5 /* stackingbuildinggameGameModeBase.cpp */; };
-		2712684D6928F2E43196EA30 /* stackingbuildinggameGameModeBase.h in Sources */ = {isa = PBXBuildFile; fileRef = 6286D23ECFE796718F003D30 /* stackingbuildinggameGameModeBase.h */; };
+		2712684D6928F2E43196EA30 /* buildingpart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6286D23ECFE796718F003D30 /* buildingpart.cpp */; };
+		38944FCD9B180CD3AD1D4F50 /* buildingpart.h in Sources */ = {isa = PBXBuildFile; fileRef = BC91DD13BF61979EF71B6DC8 /* buildingpart.h */; };
+		82758B07E552FD3564AE2DD2 /* stackingbuildinggame.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 22D4CA721284639E919E44F5 /* stackingbuildinggame.Build.cs */; };
+		F1C45C01B2954327D53815D5 /* stackingbuildinggame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8244919891782443681823D /* stackingbuildinggame.cpp */; };
+		130234C73FC0EA31224CFA67 /* stackingbuildinggame.h in Sources */ = {isa = PBXBuildFile; fileRef = DB161B29A7F1847BD1CDC683 /* stackingbuildinggame.h */; };
+		1CB4F0776325DF463BB145C9 /* stackingbuildinggameGameModeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34E24CCF4EC4032CE84907D2 /* stackingbuildinggameGameModeBase.cpp */; };
+		0982B22E689F381C2687DBD6 /* stackingbuildinggameGameModeBase.h in Sources */ = {isa = PBXBuildFile; fileRef = BB0B2018DA287B837C083B9A /* stackingbuildinggameGameModeBase.h */; };
 		B598FEA846B56A21864682FE /* stackingbuildinggameEditor.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 10E4841AB4578BB4EF66F8B7 /* stackingbuildinggameEditor.Target.cs */; };
 		1A0C466F5D75E4D8AD6765D5 /* stackingbuildinggame.uproject in Sources */ = {isa = PBXBuildFile; fileRef = F519DBC82B7C343B37F88500 /* stackingbuildinggame.uproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C1EF125143D223AB614FD4A5 /* DefaultEditor.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEditor.ini"; path = "../../Config/DefaultEditor.ini"; sourceTree = SOURCE_ROOT; };
+		916057287B543204198DA640 /* DefaultEditor.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEditor.ini"; path = "../../Config/DefaultEditor.ini"; sourceTree = SOURCE_ROOT; };
 		B10251682F15BA95B25F06D9 /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
 		841BC385A85CBA6B29E6E216 /* DefaultGame.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultGame.ini"; path = "../../Config/DefaultGame.ini"; sourceTree = SOURCE_ROOT; };
+		C1EF125143D223AB614FD4A5 /* DefaultInput.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultInput.ini"; path = "../../Config/DefaultInput.ini"; sourceTree = SOURCE_ROOT; };
 		CF746C0FF4BEC24D1E04EB4B /* stackingbuildinggame.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "stackingbuildinggame.Target.cs"; path = "../../Source/stackingbuildinggame.Target.cs"; sourceTree = SOURCE_ROOT; };
-		DB161B29A7F1847BD1CDC683 /* stackingbuildinggame.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "stackingbuildinggame.Build.cs"; path = "../../Source/stackingbuildinggame/stackingbuildinggame.Build.cs"; sourceTree = SOURCE_ROOT; };
-		34E24CCF4EC4032CE84907D2 /* stackingbuildinggame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "stackingbuildinggame.cpp"; path = "../../Source/stackingbuildinggame/stackingbuildinggame.cpp"; sourceTree = SOURCE_ROOT; };
-		EA8B061F0C38DE9869E8A0B0 /* stackingbuildinggame.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "stackingbuildinggame.h"; path = "../../Source/stackingbuildinggame/stackingbuildinggame.h"; sourceTree = SOURCE_ROOT; };
-		22D4CA721284639E919E44F5 /* stackingbuildinggameGameModeBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "stackingbuildinggameGameModeBase.cpp"; path = "../../Source/stackingbuildinggame/stackingbuildinggameGameModeBase.cpp"; sourceTree = SOURCE_ROOT; };
-		6286D23ECFE796718F003D30 /* stackingbuildinggameGameModeBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "stackingbuildinggameGameModeBase.h"; path = "../../Source/stackingbuildinggame/stackingbuildinggameGameModeBase.h"; sourceTree = SOURCE_ROOT; };
+		6286D23ECFE796718F003D30 /* buildingpart.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "buildingpart.cpp"; path = "../../Source/stackingbuildinggame/buildingpart.cpp"; sourceTree = SOURCE_ROOT; };
+		BC91DD13BF61979EF71B6DC8 /* buildingpart.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "buildingpart.h"; path = "../../Source/stackingbuildinggame/buildingpart.h"; sourceTree = SOURCE_ROOT; };
+		22D4CA721284639E919E44F5 /* stackingbuildinggame.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "stackingbuildinggame.Build.cs"; path = "../../Source/stackingbuildinggame/stackingbuildinggame.Build.cs"; sourceTree = SOURCE_ROOT; };
+		D8244919891782443681823D /* stackingbuildinggame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "stackingbuildinggame.cpp"; path = "../../Source/stackingbuildinggame/stackingbuildinggame.cpp"; sourceTree = SOURCE_ROOT; };
+		DB161B29A7F1847BD1CDC683 /* stackingbuildinggame.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "stackingbuildinggame.h"; path = "../../Source/stackingbuildinggame/stackingbuildinggame.h"; sourceTree = SOURCE_ROOT; };
+		34E24CCF4EC4032CE84907D2 /* stackingbuildinggameGameModeBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "stackingbuildinggameGameModeBase.cpp"; path = "../../Source/stackingbuildinggame/stackingbuildinggameGameModeBase.cpp"; sourceTree = SOURCE_ROOT; };
+		BB0B2018DA287B837C083B9A /* stackingbuildinggameGameModeBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "stackingbuildinggameGameModeBase.h"; path = "../../Source/stackingbuildinggame/stackingbuildinggameGameModeBase.h"; sourceTree = SOURCE_ROOT; };
 		10E4841AB4578BB4EF66F8B7 /* stackingbuildinggameEditor.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "stackingbuildinggameEditor.Target.cs"; path = "../../Source/stackingbuildinggameEditor.Target.cs"; sourceTree = SOURCE_ROOT; };
 		F519DBC82B7C343B37F88500 /* stackingbuildinggame.uproject */ = {isa = PBXFileReference; explicitFileType = file.text; name = "stackingbuildinggame.uproject"; path = "../../stackingbuildinggame.uproject"; sourceTree = SOURCE_ROOT; };
-		0982B22E689F381C2687DBD6 /* stackingbuildinggame */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = stackingbuildinggame; sourceTree = BUILT_PRODUCTS_DIR; };
+		6945838359EA50A52096EA2E /* stackingbuildinggame */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = stackingbuildinggame; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7B3DA75CC671C9F46D543C73 = {
+		623A89E39EEC31A99638DFE0 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CB4F0776325DF463BB145C9 /* stackingbuildinggame.cpp in Sources */,
-				82758B07E552FD3564AE2DD2 /* stackingbuildinggameGameModeBase.cpp in Sources */,
+				2712684D6928F2E43196EA30 /* buildingpart.cpp in Sources */,
+				F1C45C01B2954327D53815D5 /* stackingbuildinggame.cpp in Sources */,
+				1CB4F0776325DF463BB145C9 /* stackingbuildinggameGameModeBase.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	0150401D0868C7949ADA0DA7 /* Embed App Extensions */ = {
+	E82A40CB8126EE4EC0B1E2A1 /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -60,49 +67,50 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		D8244919891782443681823D /* PBXContainerItemProxy */ = {
+		8A5783FCF66B939D13F034C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8A5783FCF66B939D13F034C5 /* Project object */;
+			containerPortal = 9072C65F2CE5F81CDCA8C71E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BB0B2018DA287B837C083B9A;
+			remoteGlobalIDString = C08269435CF6E8CCFED4ABA8;
 			remoteInfo = "stackingbuildinggame_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		F1C45C01B2954327D53815D5 /* PBXTargetDependency */ = {
+		F66A690E06FEC101471716EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BB0B2018DA287B837C083B9A /* stackingbuildinggame_Build */;
-			targetProxy = D8244919891782443681823D /* PBXContainerItemProxy */;
+			target = C08269435CF6E8CCFED4ABA8 /* stackingbuildinggame_Build */;
+			targetProxy = 8A5783FCF66B939D13F034C5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		C08269435CF6E8CCFED4ABA8 = {
+		804CFDCDDC1126A13000CB53 = {
 			isa = PBXGroup;
 			children = (
-				4B19B58C3F44CBF6CCB591A2 /* Config */,
-				348DD31AAE6AAA7958A97A5C /* Source */,
+				1E7EADAF29C1D692B7605B21 /* Config */,
+				8D4AFE3CF8E03DD83C73F348 /* Source */,
 				F519DBC82B7C343B37F88500 /* stackingbuildinggame.uproject */,
-				75B25ADEDEC06A0536A3A5C1 /* Products */,
+				AA69C7875C1F96598821CF7B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4B19B58C3F44CBF6CCB591A2 = {
+		1E7EADAF29C1D692B7605B21 = {
 			isa = PBXGroup;
 			children = (
-				C1EF125143D223AB614FD4A5 /* DefaultEditor.ini */,
+				916057287B543204198DA640 /* DefaultEditor.ini */,
 				B10251682F15BA95B25F06D9 /* DefaultEngine.ini */,
 				841BC385A85CBA6B29E6E216 /* DefaultGame.ini */,
+				C1EF125143D223AB614FD4A5 /* DefaultInput.ini */,
 			);
 			name = "Config";
 			path = "/Users/chrisdouris/Desktop/Game_Projects/Game jams/Weekly Game Jam Skyscraper/Project/stackingbuildinggame/Config";
 			sourceTree = "<absolute>";
 		};
-		348DD31AAE6AAA7958A97A5C = {
+		8D4AFE3CF8E03DD83C73F348 = {
 			isa = PBXGroup;
 			children = (
-				7B660B48C67FE2FB0CE682DB /* stackingbuildinggame */,
+				7732E5F05261A0F5BC91797F /* stackingbuildinggame */,
 				CF746C0FF4BEC24D1E04EB4B /* stackingbuildinggame.Target.cs */,
 				10E4841AB4578BB4EF66F8B7 /* stackingbuildinggameEditor.Target.cs */,
 			);
@@ -110,23 +118,25 @@
 			path = "/Users/chrisdouris/Desktop/Game_Projects/Game jams/Weekly Game Jam Skyscraper/Project/stackingbuildinggame/Source";
 			sourceTree = "<absolute>";
 		};
-		7B660B48C67FE2FB0CE682DB = {
+		7732E5F05261A0F5BC91797F = {
 			isa = PBXGroup;
 			children = (
-				DB161B29A7F1847BD1CDC683 /* stackingbuildinggame.Build.cs */,
-				34E24CCF4EC4032CE84907D2 /* stackingbuildinggame.cpp */,
-				EA8B061F0C38DE9869E8A0B0 /* stackingbuildinggame.h */,
-				22D4CA721284639E919E44F5 /* stackingbuildinggameGameModeBase.cpp */,
-				6286D23ECFE796718F003D30 /* stackingbuildinggameGameModeBase.h */,
+				6286D23ECFE796718F003D30 /* buildingpart.cpp */,
+				BC91DD13BF61979EF71B6DC8 /* buildingpart.h */,
+				22D4CA721284639E919E44F5 /* stackingbuildinggame.Build.cs */,
+				D8244919891782443681823D /* stackingbuildinggame.cpp */,
+				DB161B29A7F1847BD1CDC683 /* stackingbuildinggame.h */,
+				34E24CCF4EC4032CE84907D2 /* stackingbuildinggameGameModeBase.cpp */,
+				BB0B2018DA287B837C083B9A /* stackingbuildinggameGameModeBase.h */,
 			);
 			name = "stackingbuildinggame";
 			path = "/Users/chrisdouris/Desktop/Game_Projects/Game jams/Weekly Game Jam Skyscraper/Project/stackingbuildinggame/Source/stackingbuildinggame";
 			sourceTree = "<absolute>";
 		};
-		75B25ADEDEC06A0536A3A5C1 /* Products */ = {
+		AA69C7875C1F96598821CF7B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0982B22E689F381C2687DBD6 /* stackingbuildinggame */,
+				6945838359EA50A52096EA2E /* stackingbuildinggame */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,10 +144,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		BB0B2018DA287B837C083B9A /* stackingbuildinggame_Build */ = {
+		C08269435CF6E8CCFED4ABA8 /* stackingbuildinggame_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/chrisdouris/Desktop/Game_Projects/Game jams/Weekly Game Jam Skyscraper/Project/stackingbuildinggame/stackingbuildinggame.uproject\"";
-			buildConfigurationList = 187E14E099299170421EF730 /* Build configuration list for PBXLegacyTarget "stackingbuildinggame_Build" */;
+			buildConfigurationList = 75B25ADEDEC06A0536A3A5C1 /* Build configuration list for PBXLegacyTarget "stackingbuildinggame_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -151,30 +161,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		38944FCD9B180CD3AD1D4F50 /* stackingbuildinggame */ = {
+		187E14E099299170421EF730 /* stackingbuildinggame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC91DD13BF61979EF71B6DC8 /* Build configuration list for PBXNativeTarget "stackingbuildinggame" */;
+			buildConfigurationList = E314BE3500F8AE5049725D7D /* Build configuration list for PBXNativeTarget "stackingbuildinggame" */;
 			buildPhases = (
-				0150401D0868C7949ADA0DA7 /* Embed App Extensions */, 
-				9072C65F2CE5F81CDCA8C71E /* Shell Script */, 
+				E82A40CB8126EE4EC0B1E2A1 /* Embed App Extensions */, 
+				EFB3C4564F82055E7D816AA1 /* Shell Script */, 
 			);
 			dependencies = (
-				F1C45C01B2954327D53815D5 /* PBXTargetDependency */,
+				F66A690E06FEC101471716EA /* PBXTargetDependency */,
 			);
 			name = "stackingbuildinggame";
 			passBuildSettingsInEnvironment = 1;
 			productName = "stackingbuildinggame";
-			productReference = "0982B22E689F381C2687DBD6";
+			productReference = "6945838359EA50A52096EA2E";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		E314BE3500F8AE5049725D7D /* stackingbuildinggame_Index */ = {
+		7B3DA75CC671C9F46D543C73 /* stackingbuildinggame_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F66A690E06FEC101471716EA /* Build configuration list for PBXNativeTarget "stackingbuildinggame_Index" */;
+			buildConfigurationList = 0150401D0868C7949ADA0DA7 /* Build configuration list for PBXNativeTarget "stackingbuildinggame_Index" */;
 			buildPhases = (
-				7B3DA75CC671C9F46D543C73 /* Sources */,
+				623A89E39EEC31A99638DFE0 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -186,38 +196,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8A5783FCF66B939D13F034C5 /* Project object */ = {
+		9072C65F2CE5F81CDCA8C71E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					38944FCD9B180CD3AD1D4F50 = {
+					187E14E099299170421EF730 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 6945838359EA50A52096EA2E /* Build configuration list for PBXProject "stackingbuildinggame" */;
+			buildConfigurationList = 4E8C058D0BB73B2076E6DC8E /* Build configuration list for PBXProject "stackingbuildinggame" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = C08269435CF6E8CCFED4ABA8;
-			productRefGroup = 75B25ADEDEC06A0536A3A5C1;
+			mainGroup = 804CFDCDDC1126A13000CB53;
+			productRefGroup = AA69C7875C1F96598821CF7B;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			38944FCD9B180CD3AD1D4F50 /* stackingbuildinggame */,
-			BB0B2018DA287B837C083B9A /* stackingbuildinggame_Build */,
-			E314BE3500F8AE5049725D7D /* stackingbuildinggame_Index */,
+			187E14E099299170421EF730 /* stackingbuildinggame */,
+			C08269435CF6E8CCFED4ABA8 /* stackingbuildinggame_Build */,
+			7B3DA75CC671C9F46D543C73 /* stackingbuildinggame_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		4E8C058D0BB73B2076E6DC8E /* "Debug" */ = {
+		88430343CE22BD728AE79F31 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -231,27 +241,24 @@
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
-					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/UHT",
-					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/VNI",
-					"../../Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Shaders/Shared",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Classes",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Core/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Core/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TraceLog/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TraceLog/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/UHT",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/UHT",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Shaders/Shared",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Classes",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreOnline/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreOnline/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreOnline/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/NetCore/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/NetCore/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
@@ -690,6 +697,9 @@
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AnimationDataController/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AnimationDataController/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/AnimationDataController/Public",
+					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/UHT",
+					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/VNI",
+					"../../Source",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				ENABLE_TESTABILITY = YES;
@@ -701,7 +711,7 @@
 			};
 			name = "Debug";
 		};
-		E82A40CB8126EE4EC0B1E2A1 /* "Debug Editor" */ = {
+		AAA32CFBC5B949A04F181AF4 /* "Debug Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -715,27 +725,24 @@
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
-					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/UHT",
-					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/VNI",
-					"../../Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Shaders/Shared",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Classes",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Core/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Core/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TraceLog/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TraceLog/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/UHT",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/UHT",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Shaders/Shared",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Classes",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreOnline/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreOnline/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreOnline/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/NetCore/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/NetCore/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
@@ -1174,6 +1181,9 @@
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AnimationDataController/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AnimationDataController/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/AnimationDataController/Public",
+					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/UHT",
+					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/VNI",
+					"../../Source",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1184,7 +1194,7 @@
 			};
 			name = "Debug Editor";
 		};
-		28DA591332806367BF9E423D /* "DebugGame" */ = {
+		300C84DB2137FA0F64A5F9A8 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1198,27 +1208,24 @@
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
-					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/UHT",
-					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/VNI",
-					"../../Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Shaders/Shared",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Classes",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Core/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Core/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TraceLog/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TraceLog/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/UHT",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/UHT",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Shaders/Shared",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Classes",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreOnline/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreOnline/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreOnline/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/NetCore/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/NetCore/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
@@ -1657,6 +1664,9 @@
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AnimationDataController/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AnimationDataController/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/AnimationDataController/Public",
+					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/UHT",
+					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/VNI",
+					"../../Source",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1667,7 +1677,7 @@
 			};
 			name = "DebugGame";
 		};
-		021DBDE7D1EAD69563D5698E /* "DebugGame Editor" */ = {
+		D288C70BFAE30B7F576844B6 /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1681,27 +1691,24 @@
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
-					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/UHT",
-					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/VNI",
-					"../../Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Shaders/Shared",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Classes",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Core/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Core/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TraceLog/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TraceLog/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/UHT",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/UHT",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Shaders/Shared",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Classes",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreOnline/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreOnline/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreOnline/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/NetCore/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/NetCore/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
@@ -2140,6 +2147,9 @@
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AnimationDataController/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AnimationDataController/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/AnimationDataController/Public",
+					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/UHT",
+					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/VNI",
+					"../../Source",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2150,7 +2160,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		976BEAE7AD34F5774772B6C4 /* "Development" */ = {
+		F9F9FFEA978045C6897FFB95 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2164,27 +2174,24 @@
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
-					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/UHT",
-					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/VNI",
-					"../../Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Shaders/Shared",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Classes",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Core/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Core/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TraceLog/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TraceLog/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/UHT",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/UHT",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Shaders/Shared",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Classes",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreOnline/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreOnline/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreOnline/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/NetCore/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/NetCore/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
@@ -2623,6 +2630,9 @@
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AnimationDataController/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AnimationDataController/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/AnimationDataController/Public",
+					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/UHT",
+					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/VNI",
+					"../../Source",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2633,7 +2643,7 @@
 			};
 			name = "Development";
 		};
-		106417E48706AF9E60F81524 /* "Development Editor" */ = {
+		3E1C4510688AC9BC3639E499 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2647,27 +2657,24 @@
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
-					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/UHT",
-					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/VNI",
-					"../../Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Shaders/Shared",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Classes",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Core/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Core/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TraceLog/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TraceLog/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/UHT",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/UHT",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Shaders/Shared",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Classes",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreOnline/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreOnline/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreOnline/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/NetCore/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/NetCore/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
@@ -3106,6 +3113,9 @@
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AnimationDataController/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AnimationDataController/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/AnimationDataController/Public",
+					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/UHT",
+					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/VNI",
+					"../../Source",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -3116,7 +3126,7 @@
 			};
 			name = "Development Editor";
 		};
-		06FD23769E0192528550EB8D /* "Test" */ = {
+		2712FF46D71D04D3D35171F3 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -3130,27 +3140,24 @@
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
-					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/UHT",
-					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/VNI",
-					"../../Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Shaders/Shared",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Classes",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Core/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Core/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TraceLog/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TraceLog/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/UHT",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/UHT",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Shaders/Shared",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Classes",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreOnline/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreOnline/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreOnline/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/NetCore/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/NetCore/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
@@ -3589,6 +3596,9 @@
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AnimationDataController/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AnimationDataController/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/AnimationDataController/Public",
+					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/UHT",
+					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/VNI",
+					"../../Source",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -3599,7 +3609,7 @@
 			};
 			name = "Test";
 		};
-		9E75A1AFA2D6D61F65E33782 /* "Shipping" */ = {
+		15F86A1B39094B81459387C2 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -3613,27 +3623,24 @@
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source",
-					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/UHT",
-					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/VNI",
-					"../../Source",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Shaders/Shared",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Classes",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Core/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Core/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/TraceLog/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Core/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TraceLog/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TraceLog/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/UHT",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/UHT",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/VNI",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Shaders/Shared",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Classes",
-					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Engine/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreOnline/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreOnline/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreOnline/Public",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/UHT",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/CoreUObject/VNI",
+					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/CoreUObject/Public",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/NetCore/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/NetCore/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Runtime/Net",
@@ -4072,6 +4079,9 @@
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AnimationDataController/UHT",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AnimationDataController/VNI",
 					"/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Developer/AnimationDataController/Public",
+					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/UHT",
+					"../Build/Mac/x86_64/UnrealEditor/Inc/stackingbuildinggame/VNI",
+					"../../Source",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -4082,7 +4092,7 @@
 			};
 			name = "Shipping";
 		};
-		804CFDCDDC1126A13000CB53 /* "Debug" */ = {
+		DECBD8623281BBB157E7F3EA /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -4121,7 +4131,7 @@
 			};
 			name = "Debug";
 		};
-		EFB3C4564F82055E7D816AA1 /* "Debug Editor" */ = {
+		C8A93F098338713F899A3F86 /* "Debug Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -4138,7 +4148,7 @@
 			};
 			name = "Debug Editor";
 		};
-		23AB7F9EF470160814927784 /* "DebugGame" */ = {
+		FC62CF65428590F23FB1B51C /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -4177,7 +4187,7 @@
 			};
 			name = "DebugGame";
 		};
-		5467A10655A1ED0A908BD54A /* "DebugGame Editor" */ = {
+		4C136130AF82618AAC0BFE48 /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -4194,7 +4204,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		66FA742BDA5A29AE6DF80AF2 /* "Development" */ = {
+		CB26F850B8A55554FE3DC3C5 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -4233,7 +4243,7 @@
 			};
 			name = "Development";
 		};
-		6CEA7C6466366CFDB5BEDFC7 /* "Development Editor" */ = {
+		5DCF2788EDA80F7B3B6A48F4 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -4250,7 +4260,7 @@
 			};
 			name = "Development Editor";
 		};
-		07C407E0B24E9AECEEE7983F /* "Test" */ = {
+		E81A195F63C4347997A5CC6B /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -4289,7 +4299,7 @@
 			};
 			name = "Test";
 		};
-		BC82E9FA862F57CDE06E83E2 /* "Shipping" */ = {
+		28F8C1593D410129928988D3 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -4328,7 +4338,7 @@
 			};
 			name = "Shipping";
 		};
-		AA69C7875C1F96598821CF7B /* "Debug" */ = {
+		28DA591332806367BF9E423D /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -4341,7 +4351,7 @@
 			};
 			name = "Debug";
 		};
-		88430343CE22BD728AE79F31 /* "Debug Editor" */ = {
+		021DBDE7D1EAD69563D5698E /* "Debug Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -4354,7 +4364,7 @@
 			};
 			name = "Debug Editor";
 		};
-		AAA32CFBC5B949A04F181AF4 /* "DebugGame" */ = {
+		976BEAE7AD34F5774772B6C4 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -4367,7 +4377,7 @@
 			};
 			name = "DebugGame";
 		};
-		300C84DB2137FA0F64A5F9A8 /* "DebugGame Editor" */ = {
+		106417E48706AF9E60F81524 /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -4380,7 +4390,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		D288C70BFAE30B7F576844B6 /* "Development" */ = {
+		06FD23769E0192528550EB8D /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -4393,7 +4403,7 @@
 			};
 			name = "Development";
 		};
-		F9F9FFEA978045C6897FFB95 /* "Development Editor" */ = {
+		9E75A1AFA2D6D61F65E33782 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -4406,7 +4416,7 @@
 			};
 			name = "Development Editor";
 		};
-		3E1C4510688AC9BC3639E499 /* "Test" */ = {
+		BE14F40B127A132FF1BF878F /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -4419,7 +4429,7 @@
 			};
 			name = "Test";
 		};
-		2712FF46D71D04D3D35171F3 /* "Shipping" */ = {
+		7CEC9B33F7615BC80288F61A /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -4432,7 +4442,7 @@
 			};
 			name = "Shipping";
 		};
-		623A89E39EEC31A99638DFE0 /* "Debug" */ = {
+		23AB7F9EF470160814927784 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -4471,7 +4481,7 @@
 			};
 			name = "Debug";
 		};
-		DECBD8623281BBB157E7F3EA /* "Debug Editor" */ = {
+		5467A10655A1ED0A908BD54A /* "Debug Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -4488,7 +4498,7 @@
 			};
 			name = "Debug Editor";
 		};
-		C8A93F098338713F899A3F86 /* "DebugGame" */ = {
+		66FA742BDA5A29AE6DF80AF2 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -4527,7 +4537,7 @@
 			};
 			name = "DebugGame";
 		};
-		FC62CF65428590F23FB1B51C /* "DebugGame Editor" */ = {
+		6CEA7C6466366CFDB5BEDFC7 /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -4544,7 +4554,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		4C136130AF82618AAC0BFE48 /* "Development" */ = {
+		07C407E0B24E9AECEEE7983F /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -4583,7 +4593,7 @@
 			};
 			name = "Development";
 		};
-		CB26F850B8A55554FE3DC3C5 /* "Development Editor" */ = {
+		BC82E9FA862F57CDE06E83E2 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -4600,7 +4610,7 @@
 			};
 			name = "Development Editor";
 		};
-		5DCF2788EDA80F7B3B6A48F4 /* "Test" */ = {
+		D78F4847DE64AE6B10F6126C /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -4639,7 +4649,7 @@
 			};
 			name = "Test";
 		};
-		E81A195F63C4347997A5CC6B /* "Shipping" */ = {
+		10F7F6E873054A4307851FE5 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -4681,69 +4691,69 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6945838359EA50A52096EA2E /* Build configuration list for PBXProject "stackingbuildinggame" */ = {
+		4E8C058D0BB73B2076E6DC8E /* Build configuration list for PBXProject "stackingbuildinggame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E8C058D0BB73B2076E6DC8E /* "Debug" */,
-				E82A40CB8126EE4EC0B1E2A1 /* "Debug Editor" */,
-				28DA591332806367BF9E423D /* "DebugGame" */,
-				021DBDE7D1EAD69563D5698E /* "DebugGame Editor" */,
-				976BEAE7AD34F5774772B6C4 /* "Development" */,
-				106417E48706AF9E60F81524 /* "Development Editor" */,
-				06FD23769E0192528550EB8D /* "Test" */,
-				9E75A1AFA2D6D61F65E33782 /* "Shipping" */,
+				88430343CE22BD728AE79F31 /* "Debug" */,
+				AAA32CFBC5B949A04F181AF4 /* "Debug Editor" */,
+				300C84DB2137FA0F64A5F9A8 /* "DebugGame" */,
+				D288C70BFAE30B7F576844B6 /* "DebugGame Editor" */,
+				F9F9FFEA978045C6897FFB95 /* "Development" */,
+				3E1C4510688AC9BC3639E499 /* "Development Editor" */,
+				2712FF46D71D04D3D35171F3 /* "Test" */,
+				15F86A1B39094B81459387C2 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		187E14E099299170421EF730 /* Build configuration list for PBXLegacyTarget "stackingbuildinggame_Build" */ = {
+		75B25ADEDEC06A0536A3A5C1 /* Build configuration list for PBXLegacyTarget "stackingbuildinggame_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA69C7875C1F96598821CF7B /* "Debug" */,
-				88430343CE22BD728AE79F31 /* "Debug Editor" */,
-				AAA32CFBC5B949A04F181AF4 /* "DebugGame" */,
-				300C84DB2137FA0F64A5F9A8 /* "DebugGame Editor" */,
-				D288C70BFAE30B7F576844B6 /* "Development" */,
-				F9F9FFEA978045C6897FFB95 /* "Development Editor" */,
-				3E1C4510688AC9BC3639E499 /* "Test" */,
-				2712FF46D71D04D3D35171F3 /* "Shipping" */,
+				28DA591332806367BF9E423D /* "Debug" */,
+				021DBDE7D1EAD69563D5698E /* "Debug Editor" */,
+				976BEAE7AD34F5774772B6C4 /* "DebugGame" */,
+				106417E48706AF9E60F81524 /* "DebugGame Editor" */,
+				06FD23769E0192528550EB8D /* "Development" */,
+				9E75A1AFA2D6D61F65E33782 /* "Development Editor" */,
+				BE14F40B127A132FF1BF878F /* "Test" */,
+				7CEC9B33F7615BC80288F61A /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		BC91DD13BF61979EF71B6DC8 /* Build configuration list for PBXNativeTarget "stackingbuildinggame" */ = {
+		E314BE3500F8AE5049725D7D /* Build configuration list for PBXNativeTarget "stackingbuildinggame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				804CFDCDDC1126A13000CB53 /* "Debug" */,
-				EFB3C4564F82055E7D816AA1 /* "Debug Editor" */,
-				23AB7F9EF470160814927784 /* "DebugGame" */,
-				5467A10655A1ED0A908BD54A /* "DebugGame Editor" */,
-				66FA742BDA5A29AE6DF80AF2 /* "Development" */,
-				6CEA7C6466366CFDB5BEDFC7 /* "Development Editor" */,
-				07C407E0B24E9AECEEE7983F /* "Test" */,
-				BC82E9FA862F57CDE06E83E2 /* "Shipping" */,
+				DECBD8623281BBB157E7F3EA /* "Debug" */,
+				C8A93F098338713F899A3F86 /* "Debug Editor" */,
+				FC62CF65428590F23FB1B51C /* "DebugGame" */,
+				4C136130AF82618AAC0BFE48 /* "DebugGame Editor" */,
+				CB26F850B8A55554FE3DC3C5 /* "Development" */,
+				5DCF2788EDA80F7B3B6A48F4 /* "Development Editor" */,
+				E81A195F63C4347997A5CC6B /* "Test" */,
+				28F8C1593D410129928988D3 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		F66A690E06FEC101471716EA /* Build configuration list for PBXNativeTarget "stackingbuildinggame_Index" */ = {
+		0150401D0868C7949ADA0DA7 /* Build configuration list for PBXNativeTarget "stackingbuildinggame_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				623A89E39EEC31A99638DFE0 /* "Debug" */,
-				DECBD8623281BBB157E7F3EA /* "Debug Editor" */,
-				C8A93F098338713F899A3F86 /* "DebugGame" */,
-				FC62CF65428590F23FB1B51C /* "DebugGame Editor" */,
-				4C136130AF82618AAC0BFE48 /* "Development" */,
-				CB26F850B8A55554FE3DC3C5 /* "Development Editor" */,
-				5DCF2788EDA80F7B3B6A48F4 /* "Test" */,
-				E81A195F63C4347997A5CC6B /* "Shipping" */,
+				23AB7F9EF470160814927784 /* "Debug" */,
+				5467A10655A1ED0A908BD54A /* "Debug Editor" */,
+				66FA742BDA5A29AE6DF80AF2 /* "DebugGame" */,
+				6CEA7C6466366CFDB5BEDFC7 /* "DebugGame Editor" */,
+				07C407E0B24E9AECEEE7983F /* "Development" */,
+				BC82E9FA862F57CDE06E83E2 /* "Development Editor" */,
+				D78F4847DE64AE6B10F6126C /* "Test" */,
+				10F7F6E873054A4307851FE5 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 /* Begin PBXShellScriptBuildPhase section */
-		9072C65F2CE5F81CDCA8C71E /* Sign Frameworks */ = {
+		EFB3C4564F82055E7D816AA1 /* Sign Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4759,5 +4769,5 @@
 		};
 /* End PBXShellScriptBuildPhase section */
 	};
-	rootObject = 8A5783FCF66B939D13F034C5 /* Project object */;
+	rootObject = 9072C65F2CE5F81CDCA8C71E /* Project object */;
 }

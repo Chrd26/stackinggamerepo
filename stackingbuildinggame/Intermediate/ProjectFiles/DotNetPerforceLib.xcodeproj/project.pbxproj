@@ -7,39 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E3F396523F71BF0CF6449AB3 /* BuildLibrary.xml in Sources */ = {isa = PBXBuildFile; fileRef = 6FF17C61FAC78C90F6F5CDD7 /* BuildLibrary.xml */; };
-		62B1D3E7424C1987280A713E /* Client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82A13A98FBA63F98F56C0CFA /* Client.cpp */; };
-		A2B258B39F9789ED26BFEF8D /* DotNetPerforceLib.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 9ED8CAAA2B128A647F3EDE58 /* DotNetPerforceLib.Build.cs */; };
+		62B1D3E7424C1987280A713E /* BuildLibrary.xml in Sources */ = {isa = PBXBuildFile; fileRef = 82A13A98FBA63F98F56C0CFA /* BuildLibrary.xml */; };
+		A2B258B39F9789ED26BFEF8D /* Client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ED8CAAA2B128A647F3EDE58 /* Client.cpp */; };
+		8CF49550B635E1F6A4D94490 /* DotNetPerforceLib.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = F365E890818418C3B2ADFA23 /* DotNetPerforceLib.Build.cs */; };
 		CB8171AF45794F693734FEAC /* DotNetPerforceLib.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 33D69F5C8046C69C00678DAC /* DotNetPerforceLib.Target.cs */; };
-		8CF49550B635E1F6A4D94490 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = F365E890818418C3B2ADFA23 /* Makefile */; };
-		DB946DE2E1A77A64D3FF27AB /* Makefile-Mac in Sources */ = {isa = PBXBuildFile; fileRef = 023937F1DDF9E8C5933AB6C5 /* Makefile-Mac */; };
-		2AFAE3FB251AA6DFF9717421 /* gzip.h in Sources */ = {isa = PBXBuildFile; fileRef = C7FF14FD5EDFBCF43E3D8E48 /* gzip.h */; };
+		DB946DE2E1A77A64D3FF27AB /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 023937F1DDF9E8C5933AB6C5 /* Makefile */; };
+		2AFAE3FB251AA6DFF9717421 /* Makefile-Mac in Sources */ = {isa = PBXBuildFile; fileRef = C7FF14FD5EDFBCF43E3D8E48 /* Makefile-Mac */; };
+		4C27E6B8C4358FA1DDA7B7E7 /* gzip.h in Sources */ = {isa = PBXBuildFile; fileRef = C47F3EB85947B190C51629DE /* gzip.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6FF17C61FAC78C90F6F5CDD7 /* BuildLibrary.xml */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BuildLibrary.xml"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Shared/EpicGames.Perforce.Native/BuildLibrary.xml"; sourceTree = SOURCE_ROOT; };
-		82A13A98FBA63F98F56C0CFA /* Client.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Client.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Shared/EpicGames.Perforce.Native/Client.cpp"; sourceTree = SOURCE_ROOT; };
-		9ED8CAAA2B128A647F3EDE58 /* DotNetPerforceLib.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DotNetPerforceLib.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Shared/EpicGames.Perforce.Native/DotNetPerforceLib.Build.cs"; sourceTree = SOURCE_ROOT; };
+		82A13A98FBA63F98F56C0CFA /* BuildLibrary.xml */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BuildLibrary.xml"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Shared/EpicGames.Perforce.Native/BuildLibrary.xml"; sourceTree = SOURCE_ROOT; };
+		9ED8CAAA2B128A647F3EDE58 /* Client.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Client.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Shared/EpicGames.Perforce.Native/Client.cpp"; sourceTree = SOURCE_ROOT; };
+		F365E890818418C3B2ADFA23 /* DotNetPerforceLib.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DotNetPerforceLib.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Shared/EpicGames.Perforce.Native/DotNetPerforceLib.Build.cs"; sourceTree = SOURCE_ROOT; };
 		33D69F5C8046C69C00678DAC /* DotNetPerforceLib.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DotNetPerforceLib.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Shared/EpicGames.Perforce.Native/DotNetPerforceLib.Target.cs"; sourceTree = SOURCE_ROOT; };
-		F365E890818418C3B2ADFA23 /* Makefile */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Makefile"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Shared/EpicGames.Perforce.Native/Makefile"; sourceTree = SOURCE_ROOT; };
-		023937F1DDF9E8C5933AB6C5 /* Makefile-Mac */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Makefile-Mac"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Shared/EpicGames.Perforce.Native/Makefile-Mac"; sourceTree = SOURCE_ROOT; };
-		C7FF14FD5EDFBCF43E3D8E48 /* gzip.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "gzip.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Shared/EpicGames.Perforce.Native/ThirdParty/gzip.h"; sourceTree = SOURCE_ROOT; };
-		BD37C0EF8F26656FF0864CA6 /* DotNetPerforceLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DotNetPerforceLib; sourceTree = BUILT_PRODUCTS_DIR; };
+		023937F1DDF9E8C5933AB6C5 /* Makefile */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Makefile"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Shared/EpicGames.Perforce.Native/Makefile"; sourceTree = SOURCE_ROOT; };
+		C7FF14FD5EDFBCF43E3D8E48 /* Makefile-Mac */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Makefile-Mac"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Shared/EpicGames.Perforce.Native/Makefile-Mac"; sourceTree = SOURCE_ROOT; };
+		C47F3EB85947B190C51629DE /* gzip.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "gzip.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Shared/EpicGames.Perforce.Native/ThirdParty/gzip.h"; sourceTree = SOURCE_ROOT; };
+		C2BC9DD8EC71A7CB5B64067A /* DotNetPerforceLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DotNetPerforceLib; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3FB2712D5DFC3DF6825C2ADA = {
+		5A4049376A54A755B4B5FA6E = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62B1D3E7424C1987280A713E /* Client.cpp in Sources */,
+				A2B258B39F9789ED26BFEF8D /* Client.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	21EC0E19D92F63677EC26734 /* Embed App Extensions */ = {
+	F835ABAEB031D81823957184 /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -51,51 +51,51 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		AE6102DC6F5CB711BDAEE0A9 /* PBXContainerItemProxy */ = {
+		5A89D7B9AC8ADAE2E0616283 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5A89D7B9AC8ADAE2E0616283 /* Project object */;
+			containerPortal = F61D4AA3DC92C06B8CCDAE22 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4107879A6AB655021F5F99BB;
+			remoteGlobalIDString = 8FD269EED4C787321F5A3EDB;
 			remoteInfo = "DotNetPerforceLib_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		70AC08E45DF7D682BFCAB662 /* PBXTargetDependency */ = {
+		D51DA60758DD8A5E9E04C798 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4107879A6AB655021F5F99BB /* DotNetPerforceLib_Build */;
-			targetProxy = AE6102DC6F5CB711BDAEE0A9 /* PBXContainerItemProxy */;
+			target = 8FD269EED4C787321F5A3EDB /* DotNetPerforceLib_Build */;
+			targetProxy = 5A89D7B9AC8ADAE2E0616283 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		8FD269EED4C787321F5A3EDB = {
+		A96E9A8ABFDE1C7D4A3D3640 = {
 			isa = PBXGroup;
 			children = (
-				BC57C3BF2CE5B8DB9887F32E /* ThirdParty */,
-				6FF17C61FAC78C90F6F5CDD7 /* BuildLibrary.xml */,
-				82A13A98FBA63F98F56C0CFA /* Client.cpp */,
-				9ED8CAAA2B128A647F3EDE58 /* DotNetPerforceLib.Build.cs */,
+				435107EFDFD4136B2E9486D2 /* ThirdParty */,
+				82A13A98FBA63F98F56C0CFA /* BuildLibrary.xml */,
+				9ED8CAAA2B128A647F3EDE58 /* Client.cpp */,
+				F365E890818418C3B2ADFA23 /* DotNetPerforceLib.Build.cs */,
 				33D69F5C8046C69C00678DAC /* DotNetPerforceLib.Target.cs */,
-				F365E890818418C3B2ADFA23 /* Makefile */,
-				023937F1DDF9E8C5933AB6C5 /* Makefile-Mac */,
-				70B87B8A81B78774BA23459B /* Products */,
+				023937F1DDF9E8C5933AB6C5 /* Makefile */,
+				C7FF14FD5EDFBCF43E3D8E48 /* Makefile-Mac */,
+				B19919F09CBF4D533DEBC37F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BC57C3BF2CE5B8DB9887F32E = {
+		435107EFDFD4136B2E9486D2 = {
 			isa = PBXGroup;
 			children = (
-				C7FF14FD5EDFBCF43E3D8E48 /* gzip.h */,
+				C47F3EB85947B190C51629DE /* gzip.h */,
 			);
 			name = "ThirdParty";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Shared/EpicGames.Perforce.Native/ThirdParty";
 			sourceTree = "<absolute>";
 		};
-		70B87B8A81B78774BA23459B /* Products */ = {
+		B19919F09CBF4D533DEBC37F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD37C0EF8F26656FF0864CA6 /* DotNetPerforceLib */,
+				C2BC9DD8EC71A7CB5B64067A /* DotNetPerforceLib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,10 +103,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		4107879A6AB655021F5F99BB /* DotNetPerforceLib_Build */ = {
+		8FD269EED4C787321F5A3EDB /* DotNetPerforceLib_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 27F6CBDC9836D9C1CC5E2626 /* Build configuration list for PBXLegacyTarget "DotNetPerforceLib_Build" */;
+			buildConfigurationList = 70B87B8A81B78774BA23459B /* Build configuration list for PBXLegacyTarget "DotNetPerforceLib_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -120,30 +120,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		BE371EBD5349EBE591413815 /* DotNetPerforceLib */ = {
+		27F6CBDC9836D9C1CC5E2626 /* DotNetPerforceLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDD6C1471D2AD23B384F4797 /* Build configuration list for PBXNativeTarget "DotNetPerforceLib" */;
+			buildConfigurationList = 37E7F39964477227145C9A67 /* Build configuration list for PBXNativeTarget "DotNetPerforceLib" */;
 			buildPhases = (
-				21EC0E19D92F63677EC26734 /* Embed App Extensions */, 
-				F61D4AA3DC92C06B8CCDAE22 /* Shell Script */, 
+				F835ABAEB031D81823957184 /* Embed App Extensions */, 
+				2D6777CE521557BDAA1A307E /* Shell Script */, 
 			);
 			dependencies = (
-				70AC08E45DF7D682BFCAB662 /* PBXTargetDependency */,
+				D51DA60758DD8A5E9E04C798 /* PBXTargetDependency */,
 			);
 			name = "DotNetPerforceLib";
 			passBuildSettingsInEnvironment = 1;
 			productName = "DotNetPerforceLib";
-			productReference = "BD37C0EF8F26656FF0864CA6";
+			productReference = "C2BC9DD8EC71A7CB5B64067A";
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		37E7F39964477227145C9A67 /* DotNetPerforceLib_Index */ = {
+		3FB2712D5DFC3DF6825C2ADA /* DotNetPerforceLib_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D51DA60758DD8A5E9E04C798 /* Build configuration list for PBXNativeTarget "DotNetPerforceLib_Index" */;
+			buildConfigurationList = 21EC0E19D92F63677EC26734 /* Build configuration list for PBXNativeTarget "DotNetPerforceLib_Index" */;
 			buildPhases = (
-				3FB2712D5DFC3DF6825C2ADA /* Sources */,
+				5A4049376A54A755B4B5FA6E /* Sources */,
 			);
 			dependencies = (
 			);
@@ -155,38 +155,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5A89D7B9AC8ADAE2E0616283 /* Project object */ = {
+		F61D4AA3DC92C06B8CCDAE22 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					BE371EBD5349EBE591413815 = {
+					27F6CBDC9836D9C1CC5E2626 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = C2BC9DD8EC71A7CB5B64067A /* Build configuration list for PBXProject "DotNetPerforceLib" */;
+			buildConfigurationList = 555AD5231D4758138DA06895 /* Build configuration list for PBXProject "DotNetPerforceLib" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 8FD269EED4C787321F5A3EDB;
-			productRefGroup = 70B87B8A81B78774BA23459B;
+			mainGroup = A96E9A8ABFDE1C7D4A3D3640;
+			productRefGroup = B19919F09CBF4D533DEBC37F;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			BE371EBD5349EBE591413815 /* DotNetPerforceLib */,
-			4107879A6AB655021F5F99BB /* DotNetPerforceLib_Build */,
-			37E7F39964477227145C9A67 /* DotNetPerforceLib_Index */,
+			27F6CBDC9836D9C1CC5E2626 /* DotNetPerforceLib */,
+			8FD269EED4C787321F5A3EDB /* DotNetPerforceLib_Build */,
+			3FB2712D5DFC3DF6825C2ADA /* DotNetPerforceLib_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		555AD5231D4758138DA06895 /* "Debug" */ = {
+		94E512F595E08BFC9EABF767 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -220,7 +220,7 @@
 			};
 			name = "Debug";
 		};
-		F835ABAEB031D81823957184 /* "DebugGame" */ = {
+		724CAA00BE6AAFCEDB0F18BC /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -253,7 +253,7 @@
 			};
 			name = "DebugGame";
 		};
-		DDD9039E5D3DC4DD052C1ACB /* "Development" */ = {
+		D6839B56AED42E9B607AD9A5 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -286,7 +286,7 @@
 			};
 			name = "Development";
 		};
-		2719BB5AE08792CD1E502C11 /* "Test" */ = {
+		5D9C917F28D75B49B4775AE6 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -319,7 +319,7 @@
 			};
 			name = "Test";
 		};
-		FBC76939E6DC6560B49F835C /* "Shipping" */ = {
+		DB2E047187DA55CB355053D4 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -352,7 +352,7 @@
 			};
 			name = "Shipping";
 		};
-		A96E9A8ABFDE1C7D4A3D3640 /* "Debug" */ = {
+		139FA20B13AA5BC5CFC50A02 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -369,7 +369,7 @@
 			};
 			name = "Debug";
 		};
-		2D6777CE521557BDAA1A307E /* "DebugGame" */ = {
+		DDEC9E61E61A61E684D7EC30 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -386,7 +386,7 @@
 			};
 			name = "DebugGame";
 		};
-		1FE283420975E582700FBAB3 /* "Development" */ = {
+		AF55EE537D4A9E8DC08DCF23 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -403,7 +403,7 @@
 			};
 			name = "Development";
 		};
-		92C31E9A7D4BF00FCAC6651C /* "Test" */ = {
+		6BF5B5831479F110D2916641 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -420,7 +420,7 @@
 			};
 			name = "Test";
 		};
-		EC3C1F492190B118EA79EA27 /* "Shipping" */ = {
+		6B2B6CFD3ED80929196A382D /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -437,7 +437,7 @@
 			};
 			name = "Shipping";
 		};
-		B19919F09CBF4D533DEBC37F /* "Debug" */ = {
+		DDD9039E5D3DC4DD052C1ACB /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -450,7 +450,7 @@
 			};
 			name = "Debug";
 		};
-		94E512F595E08BFC9EABF767 /* "DebugGame" */ = {
+		2719BB5AE08792CD1E502C11 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -463,7 +463,7 @@
 			};
 			name = "DebugGame";
 		};
-		724CAA00BE6AAFCEDB0F18BC /* "Development" */ = {
+		FBC76939E6DC6560B49F835C /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -476,7 +476,7 @@
 			};
 			name = "Development";
 		};
-		D6839B56AED42E9B607AD9A5 /* "Test" */ = {
+		2B546B30DCB63982DC41DC4A /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -489,7 +489,7 @@
 			};
 			name = "Test";
 		};
-		5D9C917F28D75B49B4775AE6 /* "Shipping" */ = {
+		4114CC97E8F260F2753F55AE /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -502,7 +502,7 @@
 			};
 			name = "Shipping";
 		};
-		5A4049376A54A755B4B5FA6E /* "Debug" */ = {
+		1FE283420975E582700FBAB3 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -519,7 +519,7 @@
 			};
 			name = "Debug";
 		};
-		139FA20B13AA5BC5CFC50A02 /* "DebugGame" */ = {
+		92C31E9A7D4BF00FCAC6651C /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -536,7 +536,7 @@
 			};
 			name = "DebugGame";
 		};
-		DDEC9E61E61A61E684D7EC30 /* "Development" */ = {
+		EC3C1F492190B118EA79EA27 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -553,7 +553,7 @@
 			};
 			name = "Development";
 		};
-		AF55EE537D4A9E8DC08DCF23 /* "Test" */ = {
+		4BE637DC433AA874E138DE2C /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -570,7 +570,7 @@
 			};
 			name = "Test";
 		};
-		6BF5B5831479F110D2916641 /* "Shipping" */ = {
+		B2C7FA01EC1014FA92627017 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -590,55 +590,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C2BC9DD8EC71A7CB5B64067A /* Build configuration list for PBXProject "DotNetPerforceLib" */ = {
+		555AD5231D4758138DA06895 /* Build configuration list for PBXProject "DotNetPerforceLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				555AD5231D4758138DA06895 /* "Debug" */,
-				F835ABAEB031D81823957184 /* "DebugGame" */,
-				DDD9039E5D3DC4DD052C1ACB /* "Development" */,
-				2719BB5AE08792CD1E502C11 /* "Test" */,
-				FBC76939E6DC6560B49F835C /* "Shipping" */,
+				94E512F595E08BFC9EABF767 /* "Debug" */,
+				724CAA00BE6AAFCEDB0F18BC /* "DebugGame" */,
+				D6839B56AED42E9B607AD9A5 /* "Development" */,
+				5D9C917F28D75B49B4775AE6 /* "Test" */,
+				DB2E047187DA55CB355053D4 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		27F6CBDC9836D9C1CC5E2626 /* Build configuration list for PBXLegacyTarget "DotNetPerforceLib_Build" */ = {
+		70B87B8A81B78774BA23459B /* Build configuration list for PBXLegacyTarget "DotNetPerforceLib_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B19919F09CBF4D533DEBC37F /* "Debug" */,
-				94E512F595E08BFC9EABF767 /* "DebugGame" */,
-				724CAA00BE6AAFCEDB0F18BC /* "Development" */,
-				D6839B56AED42E9B607AD9A5 /* "Test" */,
-				5D9C917F28D75B49B4775AE6 /* "Shipping" */,
+				DDD9039E5D3DC4DD052C1ACB /* "Debug" */,
+				2719BB5AE08792CD1E502C11 /* "DebugGame" */,
+				FBC76939E6DC6560B49F835C /* "Development" */,
+				2B546B30DCB63982DC41DC4A /* "Test" */,
+				4114CC97E8F260F2753F55AE /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		CDD6C1471D2AD23B384F4797 /* Build configuration list for PBXNativeTarget "DotNetPerforceLib" */ = {
+		37E7F39964477227145C9A67 /* Build configuration list for PBXNativeTarget "DotNetPerforceLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A96E9A8ABFDE1C7D4A3D3640 /* "Debug" */,
-				2D6777CE521557BDAA1A307E /* "DebugGame" */,
-				1FE283420975E582700FBAB3 /* "Development" */,
-				92C31E9A7D4BF00FCAC6651C /* "Test" */,
-				EC3C1F492190B118EA79EA27 /* "Shipping" */,
+				139FA20B13AA5BC5CFC50A02 /* "Debug" */,
+				DDEC9E61E61A61E684D7EC30 /* "DebugGame" */,
+				AF55EE537D4A9E8DC08DCF23 /* "Development" */,
+				6BF5B5831479F110D2916641 /* "Test" */,
+				6B2B6CFD3ED80929196A382D /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		D51DA60758DD8A5E9E04C798 /* Build configuration list for PBXNativeTarget "DotNetPerforceLib_Index" */ = {
+		21EC0E19D92F63677EC26734 /* Build configuration list for PBXNativeTarget "DotNetPerforceLib_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A4049376A54A755B4B5FA6E /* "Debug" */,
-				139FA20B13AA5BC5CFC50A02 /* "DebugGame" */,
-				DDEC9E61E61A61E684D7EC30 /* "Development" */,
-				AF55EE537D4A9E8DC08DCF23 /* "Test" */,
-				6BF5B5831479F110D2916641 /* "Shipping" */,
+				1FE283420975E582700FBAB3 /* "Debug" */,
+				92C31E9A7D4BF00FCAC6651C /* "DebugGame" */,
+				EC3C1F492190B118EA79EA27 /* "Development" */,
+				4BE637DC433AA874E138DE2C /* "Test" */,
+				B2C7FA01EC1014FA92627017 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5A89D7B9AC8ADAE2E0616283 /* Project object */;
+	rootObject = F61D4AA3DC92C06B8CCDAE22 /* Project object */;
 }

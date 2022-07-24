@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0F11BD54BBDAA3C726CE0D13"
+               BlueprintIdentifier = "B685E30472FC087A37FAE57E"
                BuildableName = "UnrealLaunchDaemon.app"
                BlueprintName = "UnrealLaunchDaemon"
                ReferencedContainer = "container:UnrealLaunchDaemon.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0F11BD54BBDAA3C726CE0D13"
+               BlueprintIdentifier = "B685E30472FC087A37FAE57E"
                BuildableName = "UnrealLaunchDaemon.app"
                BlueprintName = "UnrealLaunchDaemon"
                ReferencedContainer = "container:UnrealLaunchDaemon.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0F11BD54BBDAA3C726CE0D13"
+               BlueprintIdentifier = "B685E30472FC087A37FAE57E"
                BuildableName = "UnrealLaunchDaemon.app"
                BlueprintName = "UnrealLaunchDaemon"
                ReferencedContainer = "container:UnrealLaunchDaemon.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0F11BD54BBDAA3C726CE0D13"
+               BlueprintIdentifier = "B685E30472FC087A37FAE57E"
                BuildableName = "UnrealLaunchDaemon.app"
                BlueprintName = "UnrealLaunchDaemon"
                ReferencedContainer = "container:UnrealLaunchDaemon.xcodeproj">

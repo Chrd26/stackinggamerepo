@@ -7,168 +7,168 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7FA9984F9A37969645093A14 /* DatasmithFacadeCSharp.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 56DC7FB66CE15064F207C305 /* DatasmithFacadeCSharp.Build.cs */; };
-		CF51E7FE0A07845298261525 /* DatasmithFacadeCSharp.i in Sources */ = {isa = PBXBuildFile; fileRef = ECDD7002E46D3E4E63F45972 /* DatasmithFacadeCSharp.i */; };
+		CF51E7FE0A07845298261525 /* DatasmithFacadeCSharp.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = ECDD7002E46D3E4E63F45972 /* DatasmithFacadeCSharp.Build.cs */; };
+		B9D151E381385A77E6927F48 /* DatasmithFacadeCSharp.i in Sources */ = {isa = PBXBuildFile; fileRef = 4F988B3D84E77B30C65AC98F /* DatasmithFacadeCSharp.i */; };
 		DE3F921150CC8D8B6329672C /* DatasmithFacadeCSharp.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 626E002216CD5D0D39A20148 /* DatasmithFacadeCSharp.Target.cs */; };
-		B9D151E381385A77E6927F48 /* FacadeHeaderHelper.py in Sources */ = {isa = PBXBuildFile; fileRef = 4F988B3D84E77B30C65AC98F /* FacadeHeaderHelper.py */; };
-		E100C97B7829AB5F07C27133 /* DatasmithFacadeCSharp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8D6AE71F0A450D9525287E3 /* DatasmithFacadeCSharp.cpp */; };
-		161B64291A7030499A33A2C8 /* DatasmithFacadeCSharp.h in Sources */ = {isa = PBXBuildFile; fileRef = AA2762CECAE631F32F9DA8F4 /* DatasmithFacadeCSharp.h */; };
-		EECD69BAD7D8F98F78E6645D /* DatasmithFacadeDLL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48244979128988433E5C6C9 /* DatasmithFacadeDLL.cpp */; };
-		41820F6C2094B479736F3A4D /* DatasmithFacadeCSharp.cs in Sources */ = {isa = PBXBuildFile; fileRef = 067672C13A1250C4C2040948 /* DatasmithFacadeCSharp.cs */; };
-		A29A62060423C109079F7855 /* DatasmithFacadeCSharpPINVOKE.cs in Sources */ = {isa = PBXBuildFile; fileRef = C98C6EE431EBEA5447F7901A /* DatasmithFacadeCSharpPINVOKE.cs */; };
-		B6D749209501063D78C7CA86 /* EDatasmithFacadeAnimationTransformType.cs in Sources */ = {isa = PBXBuildFile; fileRef = 32AD744FAE314567FE1DF8AD /* EDatasmithFacadeAnimationTransformType.cs */; };
-		A36B92D71AB400AA0947502D /* EDatasmithFacadeCompletionMode.cs in Sources */ = {isa = PBXBuildFile; fileRef = D9A07305983BDC02C2E8B284 /* EDatasmithFacadeCompletionMode.cs */; };
-		779BA616B1291C99DF9B7C2A /* EDatasmithFacadeCurveInterpMode.cs in Sources */ = {isa = PBXBuildFile; fileRef = 6F2F22C3C61F7CEA5D47750E /* EDatasmithFacadeCurveInterpMode.cs */; };
-		BE40CEC340F5EBBBB80E607E /* EDatasmithFacadeElementAnimationSubType.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0EE9F9E02BB64E3D23489669 /* EDatasmithFacadeElementAnimationSubType.cs */; };
-		18183BA26CC7263025975870 /* EDatasmithFacadeMaterialExpressionType.cs in Sources */ = {isa = PBXBuildFile; fileRef = 5B5858E9B0C17160CFA4B5DC /* EDatasmithFacadeMaterialExpressionType.cs */; };
-		259BBFA6F837EB75AA64AA28 /* EDatasmithFacadePropertyCategory.cs in Sources */ = {isa = PBXBuildFile; fileRef = BA484EF1E7305977918985D2 /* EDatasmithFacadePropertyCategory.cs */; };
-		5D658D61D7359974635E7CD0 /* EDatasmithFacadeTransformChannels.cs in Sources */ = {isa = PBXBuildFile; fileRef = 087F37EDACE3C5F6AE302F67 /* EDatasmithFacadeTransformChannels.cs */; };
-		7280799F4A3D4B9C16ED4993 /* FDatasmithFacadeActor.cs in Sources */ = {isa = PBXBuildFile; fileRef = AA899D75CA36C45BCC7EE867 /* FDatasmithFacadeActor.cs */; };
-		F86CCAADC38E242C3526EE56 /* FDatasmithFacadeActorBinding.cs in Sources */ = {isa = PBXBuildFile; fileRef = BCFA292513E0B91A36A34322 /* FDatasmithFacadeActorBinding.cs */; };
-		45502B776CD49AF49711A6DE /* FDatasmithFacadeActorCamera.cs in Sources */ = {isa = PBXBuildFile; fileRef = 739ED987C91C5D839A47B9D0 /* FDatasmithFacadeActorCamera.cs */; };
-		0D9F48ECC4CE315528A76873 /* FDatasmithFacadeActorDecal.cs in Sources */ = {isa = PBXBuildFile; fileRef = 63ACC0618BFABFAA534BB274 /* FDatasmithFacadeActorDecal.cs */; };
-		0631501A45BF88FE975A6ACD /* FDatasmithFacadeActorLight.cs in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE2FC8E051B5CB3566241C /* FDatasmithFacadeActorLight.cs */; };
-		5BFCF89F870E7CC2ECD3E592 /* FDatasmithFacadeActorMesh.cs in Sources */ = {isa = PBXBuildFile; fileRef = 7E160F691F69DB0842F3D5DC /* FDatasmithFacadeActorMesh.cs */; };
-		CBF6CA0295E63FA00D33BE49 /* FDatasmithFacadeAreaLight.cs in Sources */ = {isa = PBXBuildFile; fileRef = C7E87688DDA7E0B8C99C4AC9 /* FDatasmithFacadeAreaLight.cs */; };
-		424CABCC8A1BDA68261BD391 /* FDatasmithFacadeBaseAnimation.cs in Sources */ = {isa = PBXBuildFile; fileRef = 437A2C069444854A58C5A236 /* FDatasmithFacadeBaseAnimation.cs */; };
-		F3532A9A131C122FAB01BF49 /* FDatasmithFacadeBaseMaterial.cs in Sources */ = {isa = PBXBuildFile; fileRef = 3B7216F2595523AB14E54462 /* FDatasmithFacadeBaseMaterial.cs */; };
-		7BDA24851700707CA974D937 /* FDatasmithFacadeDecalMaterial.cs in Sources */ = {isa = PBXBuildFile; fileRef = F03F540908A4E542BBE3CB21 /* FDatasmithFacadeDecalMaterial.cs */; };
-		2E93F102A2F6220D0EC71F39 /* FDatasmithFacadeDirectionalLight.cs in Sources */ = {isa = PBXBuildFile; fileRef = F88D18AB90439FC699DF0119 /* FDatasmithFacadeDirectionalLight.cs */; };
-		0019A370FF01A7970F035684 /* FDatasmithFacadeDirectLink.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DDAB352CB28281F1B117A /* FDatasmithFacadeDirectLink.cs */; };
-		8C39B2784404874F91D70189 /* FDatasmithFacadeElement.cs in Sources */ = {isa = PBXBuildFile; fileRef = 52B20E0C208729F437949C22 /* FDatasmithFacadeElement.cs */; };
-		68EB73CEB6D8FAE50728E3C5 /* FDatasmithFacadeEndPointObserver.cs in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F530A7B07F2376C5060A0 /* FDatasmithFacadeEndPointObserver.cs */; };
-		BC1C0897F21D43F89D8F0F58 /* FDatasmithFacadeExpressionInput.cs in Sources */ = {isa = PBXBuildFile; fileRef = 91B898B8DC1C8129CE48BCF0 /* FDatasmithFacadeExpressionInput.cs */; };
-		341F782FA165B6188AD2119A /* FDatasmithFacadeExpressionParameter.cs in Sources */ = {isa = PBXBuildFile; fileRef = D062F3EAE5EB28BF20FB78C2 /* FDatasmithFacadeExpressionParameter.cs */; };
-		6E395A4FCE36D2745F1863D2 /* FDatasmithFacadeExpressionParameterSwigImpl.cs in Sources */ = {isa = PBXBuildFile; fileRef = A4135637D9F6CDBEA6FEE87A /* FDatasmithFacadeExpressionParameterSwigImpl.cs */; };
-		299744E21FFDCF39A6B5C167 /* FDatasmithFacadeGuid.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0A664953009D3BB7FF2046D2 /* FDatasmithFacadeGuid.cs */; };
-		94F1E6292DB91B6F51E02537 /* FDatasmithFacadeKeyValueProperty.cs in Sources */ = {isa = PBXBuildFile; fileRef = F2EF5461482A2BEE51EF2D72 /* FDatasmithFacadeKeyValueProperty.cs */; };
-		AD79BE09C3307A0951724E2E /* FDatasmithFacadeLevelSequence.cs in Sources */ = {isa = PBXBuildFile; fileRef = 16A50BEC9951162A41126110 /* FDatasmithFacadeLevelSequence.cs */; };
-		48D96FD5F45780A5C3747CB3 /* FDatasmithFacadeLevelVariantSets.cs in Sources */ = {isa = PBXBuildFile; fileRef = FB12AC20651CE680A1264BA2 /* FDatasmithFacadeLevelVariantSets.cs */; };
-		1E3E5400D802319A18ADC0EA /* FDatasmithFacadeLightmassPortal.cs in Sources */ = {isa = PBXBuildFile; fileRef = C1A514F9F1A96AA22957F187 /* FDatasmithFacadeLightmassPortal.cs */; };
-		A5F6C4242CE06F228ECCB6B6 /* FDatasmithFacadeLog.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0380CCC142E19B4E51C25EBF /* FDatasmithFacadeLog.cs */; };
-		08EC8EF7BBA879C74DCC5BE2 /* FDatasmithFacadeMasterMaterial.cs in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C6E383D9D5CF5EF5EF571 /* FDatasmithFacadeMasterMaterial.cs */; };
-		DDA95F47BCA335E297051B3F /* FDatasmithFacadeMaterialExpression.cs in Sources */ = {isa = PBXBuildFile; fileRef = 517767E552EF683624E98336 /* FDatasmithFacadeMaterialExpression.cs */; };
-		736210B46669D0AAF61D1A12 /* FDatasmithFacadeMaterialExpressionBool.cs in Sources */ = {isa = PBXBuildFile; fileRef = 48320AAA97784A38F02FE6C5 /* FDatasmithFacadeMaterialExpressionBool.cs */; };
-		3676A200F5BF4CF32529D459 /* FDatasmithFacadeMaterialExpressionColor.cs in Sources */ = {isa = PBXBuildFile; fileRef = 92817C2E357148345D559D20 /* FDatasmithFacadeMaterialExpressionColor.cs */; };
-		E4BD9FAC9E4A45447C4A7DF0 /* FDatasmithFacadeMaterialExpressionFlattenNormal.cs in Sources */ = {isa = PBXBuildFile; fileRef = C6D0B437D026EC1E5EB11816 /* FDatasmithFacadeMaterialExpressionFlattenNormal.cs */; };
-		FB1C037FE6B268E0D8821B37 /* FDatasmithFacadeMaterialExpressionFunctionCall.cs in Sources */ = {isa = PBXBuildFile; fileRef = 209F54DBE48FDD47038C6764 /* FDatasmithFacadeMaterialExpressionFunctionCall.cs */; };
-		BC116336697EC133A589B182 /* FDatasmithFacadeMaterialExpressionGeneric.cs in Sources */ = {isa = PBXBuildFile; fileRef = 47C65DC9E29C1744B47C1730 /* FDatasmithFacadeMaterialExpressionGeneric.cs */; };
-		D2103ACED3D0126EB49EC2D4 /* FDatasmithFacadeMaterialExpressionScalar.cs in Sources */ = {isa = PBXBuildFile; fileRef = 4F317759C0E79297EED1931D /* FDatasmithFacadeMaterialExpressionScalar.cs */; };
-		311365667523B03FFA326458 /* FDatasmithFacadeMaterialExpressionTexture.cs in Sources */ = {isa = PBXBuildFile; fileRef = 44F35FD57642CEA803897AB0 /* FDatasmithFacadeMaterialExpressionTexture.cs */; };
-		25BD84CCEA8042007C1C9CC0 /* FDatasmithFacadeMaterialExpressionTextureCoordinate.cs in Sources */ = {isa = PBXBuildFile; fileRef = 6AABF991EE82DA1CCD1F15CD /* FDatasmithFacadeMaterialExpressionTextureCoordinate.cs */; };
-		88BC20AB03EB19A899B441B7 /* FDatasmithFacadeMaterialID.cs in Sources */ = {isa = PBXBuildFile; fileRef = 9EE3557AEF64DB27569F6ACA /* FDatasmithFacadeMaterialID.cs */; };
-		493DBA81AE5DE305A8B7442D /* FDatasmithFacadeMaterialsUtils.cs in Sources */ = {isa = PBXBuildFile; fileRef = 5F97FC9102F327B66A41F20A /* FDatasmithFacadeMaterialsUtils.cs */; };
-		2D602D6843ED76E8525561C5 /* FDatasmithFacadeMesh.cs in Sources */ = {isa = PBXBuildFile; fileRef = 3198F93BD03B0FE79F271A58 /* FDatasmithFacadeMesh.cs */; };
-		674A256378B360084BAF534E /* FDatasmithFacadeMeshElement.cs in Sources */ = {isa = PBXBuildFile; fileRef = 307AC2BB415BDB093537606A /* FDatasmithFacadeMeshElement.cs */; };
-		F9EBE52E320A6B0645D401F9 /* FDatasmithFacadeMessageAddress.cs in Sources */ = {isa = PBXBuildFile; fileRef = C813709EF4597A8144AA0B55 /* FDatasmithFacadeMessageAddress.cs */; };
-		7953A6434B102230E9BA698C /* FDatasmithFacadeMetaData.cs in Sources */ = {isa = PBXBuildFile; fileRef = CE32D540444D095C79C8F22D /* FDatasmithFacadeMetaData.cs */; };
-		EB3D14DCBCDE254FE08FB4DE /* FDatasmithFacadePointLight.cs in Sources */ = {isa = PBXBuildFile; fileRef = 6327BA34B1D1100DAAE3D0C2 /* FDatasmithFacadePointLight.cs */; };
-		83393DF7A1AEDCB06178580E /* FDatasmithFacadePropertyCapture.cs in Sources */ = {isa = PBXBuildFile; fileRef = FC46730A951AAC3E7DF6DC1C /* FDatasmithFacadePropertyCapture.cs */; };
-		92D5AAA7B8E583076D525882 /* FDatasmithFacadeRawInfo.cs in Sources */ = {isa = PBXBuildFile; fileRef = A12EAD31B2047DEBCEAC386B /* FDatasmithFacadeRawInfo.cs */; };
-		5D0578903691448C5C2064CB /* FDatasmithFacadeScene.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0435F87BF451A1A9EEF06966 /* FDatasmithFacadeScene.cs */; };
-		6C7B8B7979F14DE59D3F49B3 /* FDatasmithFacadeSpotLight.cs in Sources */ = {isa = PBXBuildFile; fileRef = 6CF3D0DB0DCB2680C9E12C7D /* FDatasmithFacadeSpotLight.cs */; };
-		0B01F67D0B8E7C6D9B1123BB /* FDatasmithFacadeSubsequenceAnimation.cs in Sources */ = {isa = PBXBuildFile; fileRef = 06CB136BD37F2EC5EB440E01 /* FDatasmithFacadeSubsequenceAnimation.cs */; };
-		80C59B22CAE99D8A4E0D6D77 /* FDatasmithFacadeTexture.cs in Sources */ = {isa = PBXBuildFile; fileRef = FBD0D90EC2DC185BD014D442 /* FDatasmithFacadeTexture.cs */; };
-		B7BBAD4AB26792C6F3F5FD45 /* FDatasmithFacadeTransformAnimation.cs in Sources */ = {isa = PBXBuildFile; fileRef = F35AA2B174986DF95D9C6F02 /* FDatasmithFacadeTransformAnimation.cs */; };
-		A520020E2CB3306BF1596A0F /* FDatasmithFacadeUEPbrMaterial.cs in Sources */ = {isa = PBXBuildFile; fileRef = 3C52D7E67AA68406D3931B67 /* FDatasmithFacadeUEPbrMaterial.cs */; };
-		3967E737A7DBE51B4BAAA592 /* FDatasmithFacadeUniqueNameProvider.cs in Sources */ = {isa = PBXBuildFile; fileRef = 64849A3FC491549AEF937421 /* FDatasmithFacadeUniqueNameProvider.cs */; };
-		C0867EB618692F11059AD4C5 /* FDatasmithFacadeVariant.cs in Sources */ = {isa = PBXBuildFile; fileRef = CBF9C415744FC392AD4582F6 /* FDatasmithFacadeVariant.cs */; };
-		0C4441413F8178A5F2C67620 /* FDatasmithFacadeVariantSet.cs in Sources */ = {isa = PBXBuildFile; fileRef = 5C2E03E27A938CC9AFD574CA /* FDatasmithFacadeVariantSet.cs */; };
-		CD3E259FD0E1737B0488A9D3 /* FDatasmithFacadeVisibilityAnimation.cs in Sources */ = {isa = PBXBuildFile; fileRef = 27EED284222ED20583A3B845 /* FDatasmithFacadeVisibilityAnimation.cs */; };
-		4CE1181AB8B84737D0777400 /* IDatasmithExporterUIModule.cs in Sources */ = {isa = PBXBuildFile; fileRef = 5BD8D51052FB1BD4842FBB8C /* IDatasmithExporterUIModule.cs */; };
-		C108A780026E472985E053EE /* IDirectLinkUI.cs in Sources */ = {isa = PBXBuildFile; fileRef = C959C24C417203B079D12949 /* IDirectLinkUI.cs */; };
-		714D7F84C974A2DBF7754539 /* ReadMe.txt in Sources */ = {isa = PBXBuildFile; fileRef = B5A1D160CB9D3F595E27B24B /* ReadMe.txt */; };
+		714D7F84C974A2DBF7754539 /* FacadeHeaderHelper.py in Sources */ = {isa = PBXBuildFile; fileRef = B5A1D160CB9D3F595E27B24B /* FacadeHeaderHelper.py */; };
+		161B64291A7030499A33A2C8 /* DatasmithFacadeCSharp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA2762CECAE631F32F9DA8F4 /* DatasmithFacadeCSharp.cpp */; };
+		EECD69BAD7D8F98F78E6645D /* DatasmithFacadeCSharp.h in Sources */ = {isa = PBXBuildFile; fileRef = C48244979128988433E5C6C9 /* DatasmithFacadeCSharp.h */; };
+		41820F6C2094B479736F3A4D /* DatasmithFacadeDLL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 067672C13A1250C4C2040948 /* DatasmithFacadeDLL.cpp */; };
+		A29A62060423C109079F7855 /* DatasmithFacadeCSharp.cs in Sources */ = {isa = PBXBuildFile; fileRef = C98C6EE431EBEA5447F7901A /* DatasmithFacadeCSharp.cs */; };
+		B6D749209501063D78C7CA86 /* DatasmithFacadeCSharpPINVOKE.cs in Sources */ = {isa = PBXBuildFile; fileRef = 32AD744FAE314567FE1DF8AD /* DatasmithFacadeCSharpPINVOKE.cs */; };
+		A36B92D71AB400AA0947502D /* EDatasmithFacadeAnimationTransformType.cs in Sources */ = {isa = PBXBuildFile; fileRef = D9A07305983BDC02C2E8B284 /* EDatasmithFacadeAnimationTransformType.cs */; };
+		779BA616B1291C99DF9B7C2A /* EDatasmithFacadeCompletionMode.cs in Sources */ = {isa = PBXBuildFile; fileRef = 6F2F22C3C61F7CEA5D47750E /* EDatasmithFacadeCompletionMode.cs */; };
+		BE40CEC340F5EBBBB80E607E /* EDatasmithFacadeCurveInterpMode.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0EE9F9E02BB64E3D23489669 /* EDatasmithFacadeCurveInterpMode.cs */; };
+		18183BA26CC7263025975870 /* EDatasmithFacadeElementAnimationSubType.cs in Sources */ = {isa = PBXBuildFile; fileRef = 5B5858E9B0C17160CFA4B5DC /* EDatasmithFacadeElementAnimationSubType.cs */; };
+		259BBFA6F837EB75AA64AA28 /* EDatasmithFacadeMaterialExpressionType.cs in Sources */ = {isa = PBXBuildFile; fileRef = BA484EF1E7305977918985D2 /* EDatasmithFacadeMaterialExpressionType.cs */; };
+		5D658D61D7359974635E7CD0 /* EDatasmithFacadePropertyCategory.cs in Sources */ = {isa = PBXBuildFile; fileRef = 087F37EDACE3C5F6AE302F67 /* EDatasmithFacadePropertyCategory.cs */; };
+		7280799F4A3D4B9C16ED4993 /* EDatasmithFacadeTransformChannels.cs in Sources */ = {isa = PBXBuildFile; fileRef = AA899D75CA36C45BCC7EE867 /* EDatasmithFacadeTransformChannels.cs */; };
+		F86CCAADC38E242C3526EE56 /* FDatasmithFacadeActor.cs in Sources */ = {isa = PBXBuildFile; fileRef = BCFA292513E0B91A36A34322 /* FDatasmithFacadeActor.cs */; };
+		45502B776CD49AF49711A6DE /* FDatasmithFacadeActorBinding.cs in Sources */ = {isa = PBXBuildFile; fileRef = 739ED987C91C5D839A47B9D0 /* FDatasmithFacadeActorBinding.cs */; };
+		0D9F48ECC4CE315528A76873 /* FDatasmithFacadeActorCamera.cs in Sources */ = {isa = PBXBuildFile; fileRef = 63ACC0618BFABFAA534BB274 /* FDatasmithFacadeActorCamera.cs */; };
+		0631501A45BF88FE975A6ACD /* FDatasmithFacadeActorDecal.cs in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE2FC8E051B5CB3566241C /* FDatasmithFacadeActorDecal.cs */; };
+		5BFCF89F870E7CC2ECD3E592 /* FDatasmithFacadeActorLight.cs in Sources */ = {isa = PBXBuildFile; fileRef = 7E160F691F69DB0842F3D5DC /* FDatasmithFacadeActorLight.cs */; };
+		CBF6CA0295E63FA00D33BE49 /* FDatasmithFacadeActorMesh.cs in Sources */ = {isa = PBXBuildFile; fileRef = C7E87688DDA7E0B8C99C4AC9 /* FDatasmithFacadeActorMesh.cs */; };
+		424CABCC8A1BDA68261BD391 /* FDatasmithFacadeAreaLight.cs in Sources */ = {isa = PBXBuildFile; fileRef = 437A2C069444854A58C5A236 /* FDatasmithFacadeAreaLight.cs */; };
+		F3532A9A131C122FAB01BF49 /* FDatasmithFacadeBaseAnimation.cs in Sources */ = {isa = PBXBuildFile; fileRef = 3B7216F2595523AB14E54462 /* FDatasmithFacadeBaseAnimation.cs */; };
+		7BDA24851700707CA974D937 /* FDatasmithFacadeBaseMaterial.cs in Sources */ = {isa = PBXBuildFile; fileRef = F03F540908A4E542BBE3CB21 /* FDatasmithFacadeBaseMaterial.cs */; };
+		2E93F102A2F6220D0EC71F39 /* FDatasmithFacadeDecalMaterial.cs in Sources */ = {isa = PBXBuildFile; fileRef = F88D18AB90439FC699DF0119 /* FDatasmithFacadeDecalMaterial.cs */; };
+		0019A370FF01A7970F035684 /* FDatasmithFacadeDirectionalLight.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DDAB352CB28281F1B117A /* FDatasmithFacadeDirectionalLight.cs */; };
+		8C39B2784404874F91D70189 /* FDatasmithFacadeDirectLink.cs in Sources */ = {isa = PBXBuildFile; fileRef = 52B20E0C208729F437949C22 /* FDatasmithFacadeDirectLink.cs */; };
+		68EB73CEB6D8FAE50728E3C5 /* FDatasmithFacadeElement.cs in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F530A7B07F2376C5060A0 /* FDatasmithFacadeElement.cs */; };
+		BC1C0897F21D43F89D8F0F58 /* FDatasmithFacadeEndPointObserver.cs in Sources */ = {isa = PBXBuildFile; fileRef = 91B898B8DC1C8129CE48BCF0 /* FDatasmithFacadeEndPointObserver.cs */; };
+		341F782FA165B6188AD2119A /* FDatasmithFacadeExpressionInput.cs in Sources */ = {isa = PBXBuildFile; fileRef = D062F3EAE5EB28BF20FB78C2 /* FDatasmithFacadeExpressionInput.cs */; };
+		6E395A4FCE36D2745F1863D2 /* FDatasmithFacadeExpressionParameter.cs in Sources */ = {isa = PBXBuildFile; fileRef = A4135637D9F6CDBEA6FEE87A /* FDatasmithFacadeExpressionParameter.cs */; };
+		299744E21FFDCF39A6B5C167 /* FDatasmithFacadeExpressionParameterSwigImpl.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0A664953009D3BB7FF2046D2 /* FDatasmithFacadeExpressionParameterSwigImpl.cs */; };
+		94F1E6292DB91B6F51E02537 /* FDatasmithFacadeGuid.cs in Sources */ = {isa = PBXBuildFile; fileRef = F2EF5461482A2BEE51EF2D72 /* FDatasmithFacadeGuid.cs */; };
+		AD79BE09C3307A0951724E2E /* FDatasmithFacadeKeyValueProperty.cs in Sources */ = {isa = PBXBuildFile; fileRef = 16A50BEC9951162A41126110 /* FDatasmithFacadeKeyValueProperty.cs */; };
+		48D96FD5F45780A5C3747CB3 /* FDatasmithFacadeLevelSequence.cs in Sources */ = {isa = PBXBuildFile; fileRef = FB12AC20651CE680A1264BA2 /* FDatasmithFacadeLevelSequence.cs */; };
+		1E3E5400D802319A18ADC0EA /* FDatasmithFacadeLevelVariantSets.cs in Sources */ = {isa = PBXBuildFile; fileRef = C1A514F9F1A96AA22957F187 /* FDatasmithFacadeLevelVariantSets.cs */; };
+		A5F6C4242CE06F228ECCB6B6 /* FDatasmithFacadeLightmassPortal.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0380CCC142E19B4E51C25EBF /* FDatasmithFacadeLightmassPortal.cs */; };
+		08EC8EF7BBA879C74DCC5BE2 /* FDatasmithFacadeLog.cs in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C6E383D9D5CF5EF5EF571 /* FDatasmithFacadeLog.cs */; };
+		DDA95F47BCA335E297051B3F /* FDatasmithFacadeMasterMaterial.cs in Sources */ = {isa = PBXBuildFile; fileRef = 517767E552EF683624E98336 /* FDatasmithFacadeMasterMaterial.cs */; };
+		736210B46669D0AAF61D1A12 /* FDatasmithFacadeMaterialExpression.cs in Sources */ = {isa = PBXBuildFile; fileRef = 48320AAA97784A38F02FE6C5 /* FDatasmithFacadeMaterialExpression.cs */; };
+		3676A200F5BF4CF32529D459 /* FDatasmithFacadeMaterialExpressionBool.cs in Sources */ = {isa = PBXBuildFile; fileRef = 92817C2E357148345D559D20 /* FDatasmithFacadeMaterialExpressionBool.cs */; };
+		E4BD9FAC9E4A45447C4A7DF0 /* FDatasmithFacadeMaterialExpressionColor.cs in Sources */ = {isa = PBXBuildFile; fileRef = C6D0B437D026EC1E5EB11816 /* FDatasmithFacadeMaterialExpressionColor.cs */; };
+		FB1C037FE6B268E0D8821B37 /* FDatasmithFacadeMaterialExpressionFlattenNormal.cs in Sources */ = {isa = PBXBuildFile; fileRef = 209F54DBE48FDD47038C6764 /* FDatasmithFacadeMaterialExpressionFlattenNormal.cs */; };
+		BC116336697EC133A589B182 /* FDatasmithFacadeMaterialExpressionFunctionCall.cs in Sources */ = {isa = PBXBuildFile; fileRef = 47C65DC9E29C1744B47C1730 /* FDatasmithFacadeMaterialExpressionFunctionCall.cs */; };
+		D2103ACED3D0126EB49EC2D4 /* FDatasmithFacadeMaterialExpressionGeneric.cs in Sources */ = {isa = PBXBuildFile; fileRef = 4F317759C0E79297EED1931D /* FDatasmithFacadeMaterialExpressionGeneric.cs */; };
+		311365667523B03FFA326458 /* FDatasmithFacadeMaterialExpressionScalar.cs in Sources */ = {isa = PBXBuildFile; fileRef = 44F35FD57642CEA803897AB0 /* FDatasmithFacadeMaterialExpressionScalar.cs */; };
+		25BD84CCEA8042007C1C9CC0 /* FDatasmithFacadeMaterialExpressionTexture.cs in Sources */ = {isa = PBXBuildFile; fileRef = 6AABF991EE82DA1CCD1F15CD /* FDatasmithFacadeMaterialExpressionTexture.cs */; };
+		88BC20AB03EB19A899B441B7 /* FDatasmithFacadeMaterialExpressionTextureCoordinate.cs in Sources */ = {isa = PBXBuildFile; fileRef = 9EE3557AEF64DB27569F6ACA /* FDatasmithFacadeMaterialExpressionTextureCoordinate.cs */; };
+		493DBA81AE5DE305A8B7442D /* FDatasmithFacadeMaterialID.cs in Sources */ = {isa = PBXBuildFile; fileRef = 5F97FC9102F327B66A41F20A /* FDatasmithFacadeMaterialID.cs */; };
+		2D602D6843ED76E8525561C5 /* FDatasmithFacadeMaterialsUtils.cs in Sources */ = {isa = PBXBuildFile; fileRef = 3198F93BD03B0FE79F271A58 /* FDatasmithFacadeMaterialsUtils.cs */; };
+		674A256378B360084BAF534E /* FDatasmithFacadeMesh.cs in Sources */ = {isa = PBXBuildFile; fileRef = 307AC2BB415BDB093537606A /* FDatasmithFacadeMesh.cs */; };
+		F9EBE52E320A6B0645D401F9 /* FDatasmithFacadeMeshElement.cs in Sources */ = {isa = PBXBuildFile; fileRef = C813709EF4597A8144AA0B55 /* FDatasmithFacadeMeshElement.cs */; };
+		7953A6434B102230E9BA698C /* FDatasmithFacadeMessageAddress.cs in Sources */ = {isa = PBXBuildFile; fileRef = CE32D540444D095C79C8F22D /* FDatasmithFacadeMessageAddress.cs */; };
+		EB3D14DCBCDE254FE08FB4DE /* FDatasmithFacadeMetaData.cs in Sources */ = {isa = PBXBuildFile; fileRef = 6327BA34B1D1100DAAE3D0C2 /* FDatasmithFacadeMetaData.cs */; };
+		83393DF7A1AEDCB06178580E /* FDatasmithFacadePointLight.cs in Sources */ = {isa = PBXBuildFile; fileRef = FC46730A951AAC3E7DF6DC1C /* FDatasmithFacadePointLight.cs */; };
+		92D5AAA7B8E583076D525882 /* FDatasmithFacadePropertyCapture.cs in Sources */ = {isa = PBXBuildFile; fileRef = A12EAD31B2047DEBCEAC386B /* FDatasmithFacadePropertyCapture.cs */; };
+		5D0578903691448C5C2064CB /* FDatasmithFacadeRawInfo.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0435F87BF451A1A9EEF06966 /* FDatasmithFacadeRawInfo.cs */; };
+		6C7B8B7979F14DE59D3F49B3 /* FDatasmithFacadeScene.cs in Sources */ = {isa = PBXBuildFile; fileRef = 6CF3D0DB0DCB2680C9E12C7D /* FDatasmithFacadeScene.cs */; };
+		0B01F67D0B8E7C6D9B1123BB /* FDatasmithFacadeSpotLight.cs in Sources */ = {isa = PBXBuildFile; fileRef = 06CB136BD37F2EC5EB440E01 /* FDatasmithFacadeSpotLight.cs */; };
+		80C59B22CAE99D8A4E0D6D77 /* FDatasmithFacadeSubsequenceAnimation.cs in Sources */ = {isa = PBXBuildFile; fileRef = FBD0D90EC2DC185BD014D442 /* FDatasmithFacadeSubsequenceAnimation.cs */; };
+		B7BBAD4AB26792C6F3F5FD45 /* FDatasmithFacadeTexture.cs in Sources */ = {isa = PBXBuildFile; fileRef = F35AA2B174986DF95D9C6F02 /* FDatasmithFacadeTexture.cs */; };
+		A520020E2CB3306BF1596A0F /* FDatasmithFacadeTransformAnimation.cs in Sources */ = {isa = PBXBuildFile; fileRef = 3C52D7E67AA68406D3931B67 /* FDatasmithFacadeTransformAnimation.cs */; };
+		3967E737A7DBE51B4BAAA592 /* FDatasmithFacadeUEPbrMaterial.cs in Sources */ = {isa = PBXBuildFile; fileRef = 64849A3FC491549AEF937421 /* FDatasmithFacadeUEPbrMaterial.cs */; };
+		C0867EB618692F11059AD4C5 /* FDatasmithFacadeUniqueNameProvider.cs in Sources */ = {isa = PBXBuildFile; fileRef = CBF9C415744FC392AD4582F6 /* FDatasmithFacadeUniqueNameProvider.cs */; };
+		0C4441413F8178A5F2C67620 /* FDatasmithFacadeVariant.cs in Sources */ = {isa = PBXBuildFile; fileRef = 5C2E03E27A938CC9AFD574CA /* FDatasmithFacadeVariant.cs */; };
+		CD3E259FD0E1737B0488A9D3 /* FDatasmithFacadeVariantSet.cs in Sources */ = {isa = PBXBuildFile; fileRef = 27EED284222ED20583A3B845 /* FDatasmithFacadeVariantSet.cs */; };
+		4CE1181AB8B84737D0777400 /* FDatasmithFacadeVisibilityAnimation.cs in Sources */ = {isa = PBXBuildFile; fileRef = 5BD8D51052FB1BD4842FBB8C /* FDatasmithFacadeVisibilityAnimation.cs */; };
+		C108A780026E472985E053EE /* IDatasmithExporterUIModule.cs in Sources */ = {isa = PBXBuildFile; fileRef = C959C24C417203B079D12949 /* IDatasmithExporterUIModule.cs */; };
+		59C2B28787E4C01C268C58B0 /* IDirectLinkUI.cs in Sources */ = {isa = PBXBuildFile; fileRef = 10C635612F4B7A7A84E746F9 /* IDirectLinkUI.cs */; };
+		E100C97B7829AB5F07C27133 /* ReadMe.txt in Sources */ = {isa = PBXBuildFile; fileRef = B8D6AE71F0A450D9525287E3 /* ReadMe.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		56DC7FB66CE15064F207C305 /* DatasmithFacadeCSharp.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithFacadeCSharp.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/DatasmithFacadeCSharp.Build.cs"; sourceTree = SOURCE_ROOT; };
-		ECDD7002E46D3E4E63F45972 /* DatasmithFacadeCSharp.i */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithFacadeCSharp.i"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/DatasmithFacadeCSharp.i"; sourceTree = SOURCE_ROOT; };
+		ECDD7002E46D3E4E63F45972 /* DatasmithFacadeCSharp.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithFacadeCSharp.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/DatasmithFacadeCSharp.Build.cs"; sourceTree = SOURCE_ROOT; };
+		4F988B3D84E77B30C65AC98F /* DatasmithFacadeCSharp.i */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithFacadeCSharp.i"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/DatasmithFacadeCSharp.i"; sourceTree = SOURCE_ROOT; };
 		626E002216CD5D0D39A20148 /* DatasmithFacadeCSharp.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithFacadeCSharp.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/DatasmithFacadeCSharp.Target.cs"; sourceTree = SOURCE_ROOT; };
-		4F988B3D84E77B30C65AC98F /* FacadeHeaderHelper.py */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FacadeHeaderHelper.py"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/FacadeHeaderHelper.py"; sourceTree = SOURCE_ROOT; };
-		B8D6AE71F0A450D9525287E3 /* DatasmithFacadeCSharp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DatasmithFacadeCSharp.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private/DatasmithFacadeCSharp.cpp"; sourceTree = SOURCE_ROOT; };
-		AA2762CECAE631F32F9DA8F4 /* DatasmithFacadeCSharp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DatasmithFacadeCSharp.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private/DatasmithFacadeCSharp.h"; sourceTree = SOURCE_ROOT; };
-		C48244979128988433E5C6C9 /* DatasmithFacadeDLL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DatasmithFacadeDLL.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private/DatasmithFacadeDLL.cpp"; sourceTree = SOURCE_ROOT; };
-		067672C13A1250C4C2040948 /* DatasmithFacadeCSharp.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithFacadeCSharp.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/DatasmithFacadeCSharp.cs"; sourceTree = SOURCE_ROOT; };
-		C98C6EE431EBEA5447F7901A /* DatasmithFacadeCSharpPINVOKE.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithFacadeCSharpPINVOKE.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/DatasmithFacadeCSharpPINVOKE.cs"; sourceTree = SOURCE_ROOT; };
-		32AD744FAE314567FE1DF8AD /* EDatasmithFacadeAnimationTransformType.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadeAnimationTransformType.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadeAnimationTransformType.cs"; sourceTree = SOURCE_ROOT; };
-		D9A07305983BDC02C2E8B284 /* EDatasmithFacadeCompletionMode.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadeCompletionMode.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadeCompletionMode.cs"; sourceTree = SOURCE_ROOT; };
-		6F2F22C3C61F7CEA5D47750E /* EDatasmithFacadeCurveInterpMode.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadeCurveInterpMode.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadeCurveInterpMode.cs"; sourceTree = SOURCE_ROOT; };
-		0EE9F9E02BB64E3D23489669 /* EDatasmithFacadeElementAnimationSubType.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadeElementAnimationSubType.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadeElementAnimationSubType.cs"; sourceTree = SOURCE_ROOT; };
-		5B5858E9B0C17160CFA4B5DC /* EDatasmithFacadeMaterialExpressionType.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadeMaterialExpressionType.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadeMaterialExpressionType.cs"; sourceTree = SOURCE_ROOT; };
-		BA484EF1E7305977918985D2 /* EDatasmithFacadePropertyCategory.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadePropertyCategory.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadePropertyCategory.cs"; sourceTree = SOURCE_ROOT; };
-		087F37EDACE3C5F6AE302F67 /* EDatasmithFacadeTransformChannels.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadeTransformChannels.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadeTransformChannels.cs"; sourceTree = SOURCE_ROOT; };
-		AA899D75CA36C45BCC7EE867 /* FDatasmithFacadeActor.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeActor.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActor.cs"; sourceTree = SOURCE_ROOT; };
-		BCFA292513E0B91A36A34322 /* FDatasmithFacadeActorBinding.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeActorBinding.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActorBinding.cs"; sourceTree = SOURCE_ROOT; };
-		739ED987C91C5D839A47B9D0 /* FDatasmithFacadeActorCamera.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeActorCamera.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActorCamera.cs"; sourceTree = SOURCE_ROOT; };
-		63ACC0618BFABFAA534BB274 /* FDatasmithFacadeActorDecal.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeActorDecal.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActorDecal.cs"; sourceTree = SOURCE_ROOT; };
-		8CAE2FC8E051B5CB3566241C /* FDatasmithFacadeActorLight.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeActorLight.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActorLight.cs"; sourceTree = SOURCE_ROOT; };
-		7E160F691F69DB0842F3D5DC /* FDatasmithFacadeActorMesh.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeActorMesh.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActorMesh.cs"; sourceTree = SOURCE_ROOT; };
-		C7E87688DDA7E0B8C99C4AC9 /* FDatasmithFacadeAreaLight.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeAreaLight.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeAreaLight.cs"; sourceTree = SOURCE_ROOT; };
-		437A2C069444854A58C5A236 /* FDatasmithFacadeBaseAnimation.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeBaseAnimation.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeBaseAnimation.cs"; sourceTree = SOURCE_ROOT; };
-		3B7216F2595523AB14E54462 /* FDatasmithFacadeBaseMaterial.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeBaseMaterial.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeBaseMaterial.cs"; sourceTree = SOURCE_ROOT; };
-		F03F540908A4E542BBE3CB21 /* FDatasmithFacadeDecalMaterial.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeDecalMaterial.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeDecalMaterial.cs"; sourceTree = SOURCE_ROOT; };
-		F88D18AB90439FC699DF0119 /* FDatasmithFacadeDirectionalLight.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeDirectionalLight.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeDirectionalLight.cs"; sourceTree = SOURCE_ROOT; };
-		0E6DDAB352CB28281F1B117A /* FDatasmithFacadeDirectLink.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeDirectLink.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeDirectLink.cs"; sourceTree = SOURCE_ROOT; };
-		52B20E0C208729F437949C22 /* FDatasmithFacadeElement.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeElement.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeElement.cs"; sourceTree = SOURCE_ROOT; };
-		4F2F530A7B07F2376C5060A0 /* FDatasmithFacadeEndPointObserver.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeEndPointObserver.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeEndPointObserver.cs"; sourceTree = SOURCE_ROOT; };
-		91B898B8DC1C8129CE48BCF0 /* FDatasmithFacadeExpressionInput.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeExpressionInput.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeExpressionInput.cs"; sourceTree = SOURCE_ROOT; };
-		D062F3EAE5EB28BF20FB78C2 /* FDatasmithFacadeExpressionParameter.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeExpressionParameter.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeExpressionParameter.cs"; sourceTree = SOURCE_ROOT; };
-		A4135637D9F6CDBEA6FEE87A /* FDatasmithFacadeExpressionParameterSwigImpl.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeExpressionParameterSwigImpl.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeExpressionParameterSwigImpl.cs"; sourceTree = SOURCE_ROOT; };
-		0A664953009D3BB7FF2046D2 /* FDatasmithFacadeGuid.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeGuid.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeGuid.cs"; sourceTree = SOURCE_ROOT; };
-		F2EF5461482A2BEE51EF2D72 /* FDatasmithFacadeKeyValueProperty.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeKeyValueProperty.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeKeyValueProperty.cs"; sourceTree = SOURCE_ROOT; };
-		16A50BEC9951162A41126110 /* FDatasmithFacadeLevelSequence.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeLevelSequence.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeLevelSequence.cs"; sourceTree = SOURCE_ROOT; };
-		FB12AC20651CE680A1264BA2 /* FDatasmithFacadeLevelVariantSets.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeLevelVariantSets.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeLevelVariantSets.cs"; sourceTree = SOURCE_ROOT; };
-		C1A514F9F1A96AA22957F187 /* FDatasmithFacadeLightmassPortal.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeLightmassPortal.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeLightmassPortal.cs"; sourceTree = SOURCE_ROOT; };
-		0380CCC142E19B4E51C25EBF /* FDatasmithFacadeLog.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeLog.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeLog.cs"; sourceTree = SOURCE_ROOT; };
-		3D0C6E383D9D5CF5EF5EF571 /* FDatasmithFacadeMasterMaterial.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMasterMaterial.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMasterMaterial.cs"; sourceTree = SOURCE_ROOT; };
-		517767E552EF683624E98336 /* FDatasmithFacadeMaterialExpression.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpression.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpression.cs"; sourceTree = SOURCE_ROOT; };
-		48320AAA97784A38F02FE6C5 /* FDatasmithFacadeMaterialExpressionBool.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionBool.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionBool.cs"; sourceTree = SOURCE_ROOT; };
-		92817C2E357148345D559D20 /* FDatasmithFacadeMaterialExpressionColor.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionColor.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionColor.cs"; sourceTree = SOURCE_ROOT; };
-		C6D0B437D026EC1E5EB11816 /* FDatasmithFacadeMaterialExpressionFlattenNormal.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionFlattenNormal.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionFlattenNormal.cs"; sourceTree = SOURCE_ROOT; };
-		209F54DBE48FDD47038C6764 /* FDatasmithFacadeMaterialExpressionFunctionCall.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionFunctionCall.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionFunctionCall.cs"; sourceTree = SOURCE_ROOT; };
-		47C65DC9E29C1744B47C1730 /* FDatasmithFacadeMaterialExpressionGeneric.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionGeneric.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionGeneric.cs"; sourceTree = SOURCE_ROOT; };
-		4F317759C0E79297EED1931D /* FDatasmithFacadeMaterialExpressionScalar.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionScalar.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionScalar.cs"; sourceTree = SOURCE_ROOT; };
-		44F35FD57642CEA803897AB0 /* FDatasmithFacadeMaterialExpressionTexture.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionTexture.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionTexture.cs"; sourceTree = SOURCE_ROOT; };
-		6AABF991EE82DA1CCD1F15CD /* FDatasmithFacadeMaterialExpressionTextureCoordinate.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionTextureCoordinate.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionTextureCoordinate.cs"; sourceTree = SOURCE_ROOT; };
-		9EE3557AEF64DB27569F6ACA /* FDatasmithFacadeMaterialID.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialID.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialID.cs"; sourceTree = SOURCE_ROOT; };
-		5F97FC9102F327B66A41F20A /* FDatasmithFacadeMaterialsUtils.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialsUtils.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialsUtils.cs"; sourceTree = SOURCE_ROOT; };
-		3198F93BD03B0FE79F271A58 /* FDatasmithFacadeMesh.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMesh.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMesh.cs"; sourceTree = SOURCE_ROOT; };
-		307AC2BB415BDB093537606A /* FDatasmithFacadeMeshElement.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMeshElement.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMeshElement.cs"; sourceTree = SOURCE_ROOT; };
-		C813709EF4597A8144AA0B55 /* FDatasmithFacadeMessageAddress.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMessageAddress.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMessageAddress.cs"; sourceTree = SOURCE_ROOT; };
-		CE32D540444D095C79C8F22D /* FDatasmithFacadeMetaData.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMetaData.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMetaData.cs"; sourceTree = SOURCE_ROOT; };
-		6327BA34B1D1100DAAE3D0C2 /* FDatasmithFacadePointLight.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadePointLight.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadePointLight.cs"; sourceTree = SOURCE_ROOT; };
-		FC46730A951AAC3E7DF6DC1C /* FDatasmithFacadePropertyCapture.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadePropertyCapture.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadePropertyCapture.cs"; sourceTree = SOURCE_ROOT; };
-		A12EAD31B2047DEBCEAC386B /* FDatasmithFacadeRawInfo.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeRawInfo.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeRawInfo.cs"; sourceTree = SOURCE_ROOT; };
-		0435F87BF451A1A9EEF06966 /* FDatasmithFacadeScene.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeScene.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeScene.cs"; sourceTree = SOURCE_ROOT; };
-		6CF3D0DB0DCB2680C9E12C7D /* FDatasmithFacadeSpotLight.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeSpotLight.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeSpotLight.cs"; sourceTree = SOURCE_ROOT; };
-		06CB136BD37F2EC5EB440E01 /* FDatasmithFacadeSubsequenceAnimation.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeSubsequenceAnimation.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeSubsequenceAnimation.cs"; sourceTree = SOURCE_ROOT; };
-		FBD0D90EC2DC185BD014D442 /* FDatasmithFacadeTexture.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeTexture.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeTexture.cs"; sourceTree = SOURCE_ROOT; };
-		F35AA2B174986DF95D9C6F02 /* FDatasmithFacadeTransformAnimation.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeTransformAnimation.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeTransformAnimation.cs"; sourceTree = SOURCE_ROOT; };
-		3C52D7E67AA68406D3931B67 /* FDatasmithFacadeUEPbrMaterial.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeUEPbrMaterial.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeUEPbrMaterial.cs"; sourceTree = SOURCE_ROOT; };
-		64849A3FC491549AEF937421 /* FDatasmithFacadeUniqueNameProvider.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeUniqueNameProvider.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeUniqueNameProvider.cs"; sourceTree = SOURCE_ROOT; };
-		CBF9C415744FC392AD4582F6 /* FDatasmithFacadeVariant.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeVariant.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeVariant.cs"; sourceTree = SOURCE_ROOT; };
-		5C2E03E27A938CC9AFD574CA /* FDatasmithFacadeVariantSet.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeVariantSet.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeVariantSet.cs"; sourceTree = SOURCE_ROOT; };
-		27EED284222ED20583A3B845 /* FDatasmithFacadeVisibilityAnimation.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeVisibilityAnimation.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeVisibilityAnimation.cs"; sourceTree = SOURCE_ROOT; };
-		5BD8D51052FB1BD4842FBB8C /* IDatasmithExporterUIModule.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "IDatasmithExporterUIModule.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/IDatasmithExporterUIModule.cs"; sourceTree = SOURCE_ROOT; };
-		C959C24C417203B079D12949 /* IDirectLinkUI.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "IDirectLinkUI.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/IDirectLinkUI.cs"; sourceTree = SOURCE_ROOT; };
-		B5A1D160CB9D3F595E27B24B /* ReadMe.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ReadMe.txt"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/ReadMe.txt"; sourceTree = SOURCE_ROOT; };
-		AD7B7271AF582AF1E04C4DE2 /* DatasmithFacadeCSharp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DatasmithFacadeCSharp; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A1D160CB9D3F595E27B24B /* FacadeHeaderHelper.py */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FacadeHeaderHelper.py"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/FacadeHeaderHelper.py"; sourceTree = SOURCE_ROOT; };
+		AA2762CECAE631F32F9DA8F4 /* DatasmithFacadeCSharp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DatasmithFacadeCSharp.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private/DatasmithFacadeCSharp.cpp"; sourceTree = SOURCE_ROOT; };
+		C48244979128988433E5C6C9 /* DatasmithFacadeCSharp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DatasmithFacadeCSharp.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private/DatasmithFacadeCSharp.h"; sourceTree = SOURCE_ROOT; };
+		067672C13A1250C4C2040948 /* DatasmithFacadeDLL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DatasmithFacadeDLL.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private/DatasmithFacadeDLL.cpp"; sourceTree = SOURCE_ROOT; };
+		C98C6EE431EBEA5447F7901A /* DatasmithFacadeCSharp.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithFacadeCSharp.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/DatasmithFacadeCSharp.cs"; sourceTree = SOURCE_ROOT; };
+		32AD744FAE314567FE1DF8AD /* DatasmithFacadeCSharpPINVOKE.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithFacadeCSharpPINVOKE.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/DatasmithFacadeCSharpPINVOKE.cs"; sourceTree = SOURCE_ROOT; };
+		D9A07305983BDC02C2E8B284 /* EDatasmithFacadeAnimationTransformType.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadeAnimationTransformType.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadeAnimationTransformType.cs"; sourceTree = SOURCE_ROOT; };
+		6F2F22C3C61F7CEA5D47750E /* EDatasmithFacadeCompletionMode.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadeCompletionMode.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadeCompletionMode.cs"; sourceTree = SOURCE_ROOT; };
+		0EE9F9E02BB64E3D23489669 /* EDatasmithFacadeCurveInterpMode.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadeCurveInterpMode.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadeCurveInterpMode.cs"; sourceTree = SOURCE_ROOT; };
+		5B5858E9B0C17160CFA4B5DC /* EDatasmithFacadeElementAnimationSubType.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadeElementAnimationSubType.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadeElementAnimationSubType.cs"; sourceTree = SOURCE_ROOT; };
+		BA484EF1E7305977918985D2 /* EDatasmithFacadeMaterialExpressionType.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadeMaterialExpressionType.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadeMaterialExpressionType.cs"; sourceTree = SOURCE_ROOT; };
+		087F37EDACE3C5F6AE302F67 /* EDatasmithFacadePropertyCategory.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadePropertyCategory.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadePropertyCategory.cs"; sourceTree = SOURCE_ROOT; };
+		AA899D75CA36C45BCC7EE867 /* EDatasmithFacadeTransformChannels.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadeTransformChannels.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadeTransformChannels.cs"; sourceTree = SOURCE_ROOT; };
+		BCFA292513E0B91A36A34322 /* FDatasmithFacadeActor.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeActor.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActor.cs"; sourceTree = SOURCE_ROOT; };
+		739ED987C91C5D839A47B9D0 /* FDatasmithFacadeActorBinding.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeActorBinding.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActorBinding.cs"; sourceTree = SOURCE_ROOT; };
+		63ACC0618BFABFAA534BB274 /* FDatasmithFacadeActorCamera.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeActorCamera.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActorCamera.cs"; sourceTree = SOURCE_ROOT; };
+		8CAE2FC8E051B5CB3566241C /* FDatasmithFacadeActorDecal.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeActorDecal.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActorDecal.cs"; sourceTree = SOURCE_ROOT; };
+		7E160F691F69DB0842F3D5DC /* FDatasmithFacadeActorLight.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeActorLight.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActorLight.cs"; sourceTree = SOURCE_ROOT; };
+		C7E87688DDA7E0B8C99C4AC9 /* FDatasmithFacadeActorMesh.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeActorMesh.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActorMesh.cs"; sourceTree = SOURCE_ROOT; };
+		437A2C069444854A58C5A236 /* FDatasmithFacadeAreaLight.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeAreaLight.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeAreaLight.cs"; sourceTree = SOURCE_ROOT; };
+		3B7216F2595523AB14E54462 /* FDatasmithFacadeBaseAnimation.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeBaseAnimation.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeBaseAnimation.cs"; sourceTree = SOURCE_ROOT; };
+		F03F540908A4E542BBE3CB21 /* FDatasmithFacadeBaseMaterial.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeBaseMaterial.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeBaseMaterial.cs"; sourceTree = SOURCE_ROOT; };
+		F88D18AB90439FC699DF0119 /* FDatasmithFacadeDecalMaterial.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeDecalMaterial.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeDecalMaterial.cs"; sourceTree = SOURCE_ROOT; };
+		0E6DDAB352CB28281F1B117A /* FDatasmithFacadeDirectionalLight.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeDirectionalLight.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeDirectionalLight.cs"; sourceTree = SOURCE_ROOT; };
+		52B20E0C208729F437949C22 /* FDatasmithFacadeDirectLink.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeDirectLink.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeDirectLink.cs"; sourceTree = SOURCE_ROOT; };
+		4F2F530A7B07F2376C5060A0 /* FDatasmithFacadeElement.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeElement.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeElement.cs"; sourceTree = SOURCE_ROOT; };
+		91B898B8DC1C8129CE48BCF0 /* FDatasmithFacadeEndPointObserver.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeEndPointObserver.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeEndPointObserver.cs"; sourceTree = SOURCE_ROOT; };
+		D062F3EAE5EB28BF20FB78C2 /* FDatasmithFacadeExpressionInput.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeExpressionInput.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeExpressionInput.cs"; sourceTree = SOURCE_ROOT; };
+		A4135637D9F6CDBEA6FEE87A /* FDatasmithFacadeExpressionParameter.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeExpressionParameter.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeExpressionParameter.cs"; sourceTree = SOURCE_ROOT; };
+		0A664953009D3BB7FF2046D2 /* FDatasmithFacadeExpressionParameterSwigImpl.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeExpressionParameterSwigImpl.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeExpressionParameterSwigImpl.cs"; sourceTree = SOURCE_ROOT; };
+		F2EF5461482A2BEE51EF2D72 /* FDatasmithFacadeGuid.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeGuid.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeGuid.cs"; sourceTree = SOURCE_ROOT; };
+		16A50BEC9951162A41126110 /* FDatasmithFacadeKeyValueProperty.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeKeyValueProperty.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeKeyValueProperty.cs"; sourceTree = SOURCE_ROOT; };
+		FB12AC20651CE680A1264BA2 /* FDatasmithFacadeLevelSequence.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeLevelSequence.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeLevelSequence.cs"; sourceTree = SOURCE_ROOT; };
+		C1A514F9F1A96AA22957F187 /* FDatasmithFacadeLevelVariantSets.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeLevelVariantSets.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeLevelVariantSets.cs"; sourceTree = SOURCE_ROOT; };
+		0380CCC142E19B4E51C25EBF /* FDatasmithFacadeLightmassPortal.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeLightmassPortal.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeLightmassPortal.cs"; sourceTree = SOURCE_ROOT; };
+		3D0C6E383D9D5CF5EF5EF571 /* FDatasmithFacadeLog.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeLog.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeLog.cs"; sourceTree = SOURCE_ROOT; };
+		517767E552EF683624E98336 /* FDatasmithFacadeMasterMaterial.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMasterMaterial.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMasterMaterial.cs"; sourceTree = SOURCE_ROOT; };
+		48320AAA97784A38F02FE6C5 /* FDatasmithFacadeMaterialExpression.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpression.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpression.cs"; sourceTree = SOURCE_ROOT; };
+		92817C2E357148345D559D20 /* FDatasmithFacadeMaterialExpressionBool.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionBool.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionBool.cs"; sourceTree = SOURCE_ROOT; };
+		C6D0B437D026EC1E5EB11816 /* FDatasmithFacadeMaterialExpressionColor.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionColor.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionColor.cs"; sourceTree = SOURCE_ROOT; };
+		209F54DBE48FDD47038C6764 /* FDatasmithFacadeMaterialExpressionFlattenNormal.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionFlattenNormal.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionFlattenNormal.cs"; sourceTree = SOURCE_ROOT; };
+		47C65DC9E29C1744B47C1730 /* FDatasmithFacadeMaterialExpressionFunctionCall.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionFunctionCall.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionFunctionCall.cs"; sourceTree = SOURCE_ROOT; };
+		4F317759C0E79297EED1931D /* FDatasmithFacadeMaterialExpressionGeneric.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionGeneric.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionGeneric.cs"; sourceTree = SOURCE_ROOT; };
+		44F35FD57642CEA803897AB0 /* FDatasmithFacadeMaterialExpressionScalar.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionScalar.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionScalar.cs"; sourceTree = SOURCE_ROOT; };
+		6AABF991EE82DA1CCD1F15CD /* FDatasmithFacadeMaterialExpressionTexture.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionTexture.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionTexture.cs"; sourceTree = SOURCE_ROOT; };
+		9EE3557AEF64DB27569F6ACA /* FDatasmithFacadeMaterialExpressionTextureCoordinate.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionTextureCoordinate.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionTextureCoordinate.cs"; sourceTree = SOURCE_ROOT; };
+		5F97FC9102F327B66A41F20A /* FDatasmithFacadeMaterialID.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialID.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialID.cs"; sourceTree = SOURCE_ROOT; };
+		3198F93BD03B0FE79F271A58 /* FDatasmithFacadeMaterialsUtils.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialsUtils.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialsUtils.cs"; sourceTree = SOURCE_ROOT; };
+		307AC2BB415BDB093537606A /* FDatasmithFacadeMesh.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMesh.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMesh.cs"; sourceTree = SOURCE_ROOT; };
+		C813709EF4597A8144AA0B55 /* FDatasmithFacadeMeshElement.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMeshElement.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMeshElement.cs"; sourceTree = SOURCE_ROOT; };
+		CE32D540444D095C79C8F22D /* FDatasmithFacadeMessageAddress.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMessageAddress.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMessageAddress.cs"; sourceTree = SOURCE_ROOT; };
+		6327BA34B1D1100DAAE3D0C2 /* FDatasmithFacadeMetaData.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMetaData.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMetaData.cs"; sourceTree = SOURCE_ROOT; };
+		FC46730A951AAC3E7DF6DC1C /* FDatasmithFacadePointLight.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadePointLight.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadePointLight.cs"; sourceTree = SOURCE_ROOT; };
+		A12EAD31B2047DEBCEAC386B /* FDatasmithFacadePropertyCapture.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadePropertyCapture.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadePropertyCapture.cs"; sourceTree = SOURCE_ROOT; };
+		0435F87BF451A1A9EEF06966 /* FDatasmithFacadeRawInfo.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeRawInfo.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeRawInfo.cs"; sourceTree = SOURCE_ROOT; };
+		6CF3D0DB0DCB2680C9E12C7D /* FDatasmithFacadeScene.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeScene.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeScene.cs"; sourceTree = SOURCE_ROOT; };
+		06CB136BD37F2EC5EB440E01 /* FDatasmithFacadeSpotLight.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeSpotLight.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeSpotLight.cs"; sourceTree = SOURCE_ROOT; };
+		FBD0D90EC2DC185BD014D442 /* FDatasmithFacadeSubsequenceAnimation.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeSubsequenceAnimation.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeSubsequenceAnimation.cs"; sourceTree = SOURCE_ROOT; };
+		F35AA2B174986DF95D9C6F02 /* FDatasmithFacadeTexture.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeTexture.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeTexture.cs"; sourceTree = SOURCE_ROOT; };
+		3C52D7E67AA68406D3931B67 /* FDatasmithFacadeTransformAnimation.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeTransformAnimation.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeTransformAnimation.cs"; sourceTree = SOURCE_ROOT; };
+		64849A3FC491549AEF937421 /* FDatasmithFacadeUEPbrMaterial.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeUEPbrMaterial.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeUEPbrMaterial.cs"; sourceTree = SOURCE_ROOT; };
+		CBF9C415744FC392AD4582F6 /* FDatasmithFacadeUniqueNameProvider.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeUniqueNameProvider.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeUniqueNameProvider.cs"; sourceTree = SOURCE_ROOT; };
+		5C2E03E27A938CC9AFD574CA /* FDatasmithFacadeVariant.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeVariant.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeVariant.cs"; sourceTree = SOURCE_ROOT; };
+		27EED284222ED20583A3B845 /* FDatasmithFacadeVariantSet.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeVariantSet.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeVariantSet.cs"; sourceTree = SOURCE_ROOT; };
+		5BD8D51052FB1BD4842FBB8C /* FDatasmithFacadeVisibilityAnimation.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeVisibilityAnimation.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeVisibilityAnimation.cs"; sourceTree = SOURCE_ROOT; };
+		C959C24C417203B079D12949 /* IDatasmithExporterUIModule.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "IDatasmithExporterUIModule.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/IDatasmithExporterUIModule.cs"; sourceTree = SOURCE_ROOT; };
+		10C635612F4B7A7A84E746F9 /* IDirectLinkUI.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "IDirectLinkUI.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/IDirectLinkUI.cs"; sourceTree = SOURCE_ROOT; };
+		B8D6AE71F0A450D9525287E3 /* ReadMe.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ReadMe.txt"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/ReadMe.txt"; sourceTree = SOURCE_ROOT; };
+		F0231D49BF2EFA4E50B88860 /* DatasmithFacadeCSharp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DatasmithFacadeCSharp; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		206E699C2337F4760BF7517D = {
+		C84C881553CF4E2AE1F022D4 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E100C97B7829AB5F07C27133 /* DatasmithFacadeCSharp.cpp in Sources */,
-				EECD69BAD7D8F98F78E6645D /* DatasmithFacadeDLL.cpp in Sources */,
+				161B64291A7030499A33A2C8 /* DatasmithFacadeCSharp.cpp in Sources */,
+				41820F6C2094B479736F3A4D /* DatasmithFacadeDLL.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	A11C6F5009BF4341E1B290DE /* Embed App Extensions */ = {
+	4A61DDDC93B610109370D0C6 /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -180,124 +180,124 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		CFA680FBF4A14E91288C5910 /* PBXContainerItemProxy */ = {
+		2F9457E2C2FB60CC5569DA71 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2F9457E2C2FB60CC5569DA71 /* Project object */;
+			containerPortal = 6D9D11019EE40195EF8624EE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E084941425E3941C5884B153;
+			remoteGlobalIDString = 90445A445D055F1B2EAE426A;
 			remoteInfo = "DatasmithFacadeCSharp_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		DEDA25DBA6AC25A2CA2900A4 /* PBXTargetDependency */ = {
+		0D396C45F73DB729CA1E8544 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E084941425E3941C5884B153 /* DatasmithFacadeCSharp_Build */;
-			targetProxy = CFA680FBF4A14E91288C5910 /* PBXContainerItemProxy */;
+			target = 90445A445D055F1B2EAE426A /* DatasmithFacadeCSharp_Build */;
+			targetProxy = 2F9457E2C2FB60CC5569DA71 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		90445A445D055F1B2EAE426A = {
+		DFC99A9FB713F36DDD8B2F86 = {
 			isa = PBXGroup;
 			children = (
-				7A7141CD9F96590417794588 /* Private */,
-				5DE71988644527CBDACCBDAF /* Public */,
-				56DC7FB66CE15064F207C305 /* DatasmithFacadeCSharp.Build.cs */,
-				ECDD7002E46D3E4E63F45972 /* DatasmithFacadeCSharp.i */,
+				4A7180E5418DB04EBE57B9AD /* Private */,
+				7915A3FEAD6D1684D5686C2D /* Public */,
+				ECDD7002E46D3E4E63F45972 /* DatasmithFacadeCSharp.Build.cs */,
+				4F988B3D84E77B30C65AC98F /* DatasmithFacadeCSharp.i */,
 				626E002216CD5D0D39A20148 /* DatasmithFacadeCSharp.Target.cs */,
-				4F988B3D84E77B30C65AC98F /* FacadeHeaderHelper.py */,
-				B5A1D160CB9D3F595E27B24B /* ReadMe.txt */,
-				B8E1C05D3D4E1AA35EFB55D4 /* Products */,
+				B5A1D160CB9D3F595E27B24B /* FacadeHeaderHelper.py */,
+				B8D6AE71F0A450D9525287E3 /* ReadMe.txt */,
+				26F2D827F5BC8D1BF880B546 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7A7141CD9F96590417794588 = {
+		4A7180E5418DB04EBE57B9AD = {
 			isa = PBXGroup;
 			children = (
-				B8D6AE71F0A450D9525287E3 /* DatasmithFacadeCSharp.cpp */,
-				AA2762CECAE631F32F9DA8F4 /* DatasmithFacadeCSharp.h */,
-				C48244979128988433E5C6C9 /* DatasmithFacadeDLL.cpp */,
+				AA2762CECAE631F32F9DA8F4 /* DatasmithFacadeCSharp.cpp */,
+				C48244979128988433E5C6C9 /* DatasmithFacadeCSharp.h */,
+				067672C13A1250C4C2040948 /* DatasmithFacadeDLL.cpp */,
 			);
 			name = "Private";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private";
 			sourceTree = "<absolute>";
 		};
-		5DE71988644527CBDACCBDAF = {
+		7915A3FEAD6D1684D5686C2D = {
 			isa = PBXGroup;
 			children = (
-				067672C13A1250C4C2040948 /* DatasmithFacadeCSharp.cs */,
-				C98C6EE431EBEA5447F7901A /* DatasmithFacadeCSharpPINVOKE.cs */,
-				32AD744FAE314567FE1DF8AD /* EDatasmithFacadeAnimationTransformType.cs */,
-				D9A07305983BDC02C2E8B284 /* EDatasmithFacadeCompletionMode.cs */,
-				6F2F22C3C61F7CEA5D47750E /* EDatasmithFacadeCurveInterpMode.cs */,
-				0EE9F9E02BB64E3D23489669 /* EDatasmithFacadeElementAnimationSubType.cs */,
-				5B5858E9B0C17160CFA4B5DC /* EDatasmithFacadeMaterialExpressionType.cs */,
-				BA484EF1E7305977918985D2 /* EDatasmithFacadePropertyCategory.cs */,
-				087F37EDACE3C5F6AE302F67 /* EDatasmithFacadeTransformChannels.cs */,
-				AA899D75CA36C45BCC7EE867 /* FDatasmithFacadeActor.cs */,
-				BCFA292513E0B91A36A34322 /* FDatasmithFacadeActorBinding.cs */,
-				739ED987C91C5D839A47B9D0 /* FDatasmithFacadeActorCamera.cs */,
-				63ACC0618BFABFAA534BB274 /* FDatasmithFacadeActorDecal.cs */,
-				8CAE2FC8E051B5CB3566241C /* FDatasmithFacadeActorLight.cs */,
-				7E160F691F69DB0842F3D5DC /* FDatasmithFacadeActorMesh.cs */,
-				C7E87688DDA7E0B8C99C4AC9 /* FDatasmithFacadeAreaLight.cs */,
-				437A2C069444854A58C5A236 /* FDatasmithFacadeBaseAnimation.cs */,
-				3B7216F2595523AB14E54462 /* FDatasmithFacadeBaseMaterial.cs */,
-				F03F540908A4E542BBE3CB21 /* FDatasmithFacadeDecalMaterial.cs */,
-				F88D18AB90439FC699DF0119 /* FDatasmithFacadeDirectionalLight.cs */,
-				0E6DDAB352CB28281F1B117A /* FDatasmithFacadeDirectLink.cs */,
-				52B20E0C208729F437949C22 /* FDatasmithFacadeElement.cs */,
-				4F2F530A7B07F2376C5060A0 /* FDatasmithFacadeEndPointObserver.cs */,
-				91B898B8DC1C8129CE48BCF0 /* FDatasmithFacadeExpressionInput.cs */,
-				D062F3EAE5EB28BF20FB78C2 /* FDatasmithFacadeExpressionParameter.cs */,
-				A4135637D9F6CDBEA6FEE87A /* FDatasmithFacadeExpressionParameterSwigImpl.cs */,
-				0A664953009D3BB7FF2046D2 /* FDatasmithFacadeGuid.cs */,
-				F2EF5461482A2BEE51EF2D72 /* FDatasmithFacadeKeyValueProperty.cs */,
-				16A50BEC9951162A41126110 /* FDatasmithFacadeLevelSequence.cs */,
-				FB12AC20651CE680A1264BA2 /* FDatasmithFacadeLevelVariantSets.cs */,
-				C1A514F9F1A96AA22957F187 /* FDatasmithFacadeLightmassPortal.cs */,
-				0380CCC142E19B4E51C25EBF /* FDatasmithFacadeLog.cs */,
-				3D0C6E383D9D5CF5EF5EF571 /* FDatasmithFacadeMasterMaterial.cs */,
-				517767E552EF683624E98336 /* FDatasmithFacadeMaterialExpression.cs */,
-				48320AAA97784A38F02FE6C5 /* FDatasmithFacadeMaterialExpressionBool.cs */,
-				92817C2E357148345D559D20 /* FDatasmithFacadeMaterialExpressionColor.cs */,
-				C6D0B437D026EC1E5EB11816 /* FDatasmithFacadeMaterialExpressionFlattenNormal.cs */,
-				209F54DBE48FDD47038C6764 /* FDatasmithFacadeMaterialExpressionFunctionCall.cs */,
-				47C65DC9E29C1744B47C1730 /* FDatasmithFacadeMaterialExpressionGeneric.cs */,
-				4F317759C0E79297EED1931D /* FDatasmithFacadeMaterialExpressionScalar.cs */,
-				44F35FD57642CEA803897AB0 /* FDatasmithFacadeMaterialExpressionTexture.cs */,
-				6AABF991EE82DA1CCD1F15CD /* FDatasmithFacadeMaterialExpressionTextureCoordinate.cs */,
-				9EE3557AEF64DB27569F6ACA /* FDatasmithFacadeMaterialID.cs */,
-				5F97FC9102F327B66A41F20A /* FDatasmithFacadeMaterialsUtils.cs */,
-				3198F93BD03B0FE79F271A58 /* FDatasmithFacadeMesh.cs */,
-				307AC2BB415BDB093537606A /* FDatasmithFacadeMeshElement.cs */,
-				C813709EF4597A8144AA0B55 /* FDatasmithFacadeMessageAddress.cs */,
-				CE32D540444D095C79C8F22D /* FDatasmithFacadeMetaData.cs */,
-				6327BA34B1D1100DAAE3D0C2 /* FDatasmithFacadePointLight.cs */,
-				FC46730A951AAC3E7DF6DC1C /* FDatasmithFacadePropertyCapture.cs */,
-				A12EAD31B2047DEBCEAC386B /* FDatasmithFacadeRawInfo.cs */,
-				0435F87BF451A1A9EEF06966 /* FDatasmithFacadeScene.cs */,
-				6CF3D0DB0DCB2680C9E12C7D /* FDatasmithFacadeSpotLight.cs */,
-				06CB136BD37F2EC5EB440E01 /* FDatasmithFacadeSubsequenceAnimation.cs */,
-				FBD0D90EC2DC185BD014D442 /* FDatasmithFacadeTexture.cs */,
-				F35AA2B174986DF95D9C6F02 /* FDatasmithFacadeTransformAnimation.cs */,
-				3C52D7E67AA68406D3931B67 /* FDatasmithFacadeUEPbrMaterial.cs */,
-				64849A3FC491549AEF937421 /* FDatasmithFacadeUniqueNameProvider.cs */,
-				CBF9C415744FC392AD4582F6 /* FDatasmithFacadeVariant.cs */,
-				5C2E03E27A938CC9AFD574CA /* FDatasmithFacadeVariantSet.cs */,
-				27EED284222ED20583A3B845 /* FDatasmithFacadeVisibilityAnimation.cs */,
-				5BD8D51052FB1BD4842FBB8C /* IDatasmithExporterUIModule.cs */,
-				C959C24C417203B079D12949 /* IDirectLinkUI.cs */,
+				C98C6EE431EBEA5447F7901A /* DatasmithFacadeCSharp.cs */,
+				32AD744FAE314567FE1DF8AD /* DatasmithFacadeCSharpPINVOKE.cs */,
+				D9A07305983BDC02C2E8B284 /* EDatasmithFacadeAnimationTransformType.cs */,
+				6F2F22C3C61F7CEA5D47750E /* EDatasmithFacadeCompletionMode.cs */,
+				0EE9F9E02BB64E3D23489669 /* EDatasmithFacadeCurveInterpMode.cs */,
+				5B5858E9B0C17160CFA4B5DC /* EDatasmithFacadeElementAnimationSubType.cs */,
+				BA484EF1E7305977918985D2 /* EDatasmithFacadeMaterialExpressionType.cs */,
+				087F37EDACE3C5F6AE302F67 /* EDatasmithFacadePropertyCategory.cs */,
+				AA899D75CA36C45BCC7EE867 /* EDatasmithFacadeTransformChannels.cs */,
+				BCFA292513E0B91A36A34322 /* FDatasmithFacadeActor.cs */,
+				739ED987C91C5D839A47B9D0 /* FDatasmithFacadeActorBinding.cs */,
+				63ACC0618BFABFAA534BB274 /* FDatasmithFacadeActorCamera.cs */,
+				8CAE2FC8E051B5CB3566241C /* FDatasmithFacadeActorDecal.cs */,
+				7E160F691F69DB0842F3D5DC /* FDatasmithFacadeActorLight.cs */,
+				C7E87688DDA7E0B8C99C4AC9 /* FDatasmithFacadeActorMesh.cs */,
+				437A2C069444854A58C5A236 /* FDatasmithFacadeAreaLight.cs */,
+				3B7216F2595523AB14E54462 /* FDatasmithFacadeBaseAnimation.cs */,
+				F03F540908A4E542BBE3CB21 /* FDatasmithFacadeBaseMaterial.cs */,
+				F88D18AB90439FC699DF0119 /* FDatasmithFacadeDecalMaterial.cs */,
+				0E6DDAB352CB28281F1B117A /* FDatasmithFacadeDirectionalLight.cs */,
+				52B20E0C208729F437949C22 /* FDatasmithFacadeDirectLink.cs */,
+				4F2F530A7B07F2376C5060A0 /* FDatasmithFacadeElement.cs */,
+				91B898B8DC1C8129CE48BCF0 /* FDatasmithFacadeEndPointObserver.cs */,
+				D062F3EAE5EB28BF20FB78C2 /* FDatasmithFacadeExpressionInput.cs */,
+				A4135637D9F6CDBEA6FEE87A /* FDatasmithFacadeExpressionParameter.cs */,
+				0A664953009D3BB7FF2046D2 /* FDatasmithFacadeExpressionParameterSwigImpl.cs */,
+				F2EF5461482A2BEE51EF2D72 /* FDatasmithFacadeGuid.cs */,
+				16A50BEC9951162A41126110 /* FDatasmithFacadeKeyValueProperty.cs */,
+				FB12AC20651CE680A1264BA2 /* FDatasmithFacadeLevelSequence.cs */,
+				C1A514F9F1A96AA22957F187 /* FDatasmithFacadeLevelVariantSets.cs */,
+				0380CCC142E19B4E51C25EBF /* FDatasmithFacadeLightmassPortal.cs */,
+				3D0C6E383D9D5CF5EF5EF571 /* FDatasmithFacadeLog.cs */,
+				517767E552EF683624E98336 /* FDatasmithFacadeMasterMaterial.cs */,
+				48320AAA97784A38F02FE6C5 /* FDatasmithFacadeMaterialExpression.cs */,
+				92817C2E357148345D559D20 /* FDatasmithFacadeMaterialExpressionBool.cs */,
+				C6D0B437D026EC1E5EB11816 /* FDatasmithFacadeMaterialExpressionColor.cs */,
+				209F54DBE48FDD47038C6764 /* FDatasmithFacadeMaterialExpressionFlattenNormal.cs */,
+				47C65DC9E29C1744B47C1730 /* FDatasmithFacadeMaterialExpressionFunctionCall.cs */,
+				4F317759C0E79297EED1931D /* FDatasmithFacadeMaterialExpressionGeneric.cs */,
+				44F35FD57642CEA803897AB0 /* FDatasmithFacadeMaterialExpressionScalar.cs */,
+				6AABF991EE82DA1CCD1F15CD /* FDatasmithFacadeMaterialExpressionTexture.cs */,
+				9EE3557AEF64DB27569F6ACA /* FDatasmithFacadeMaterialExpressionTextureCoordinate.cs */,
+				5F97FC9102F327B66A41F20A /* FDatasmithFacadeMaterialID.cs */,
+				3198F93BD03B0FE79F271A58 /* FDatasmithFacadeMaterialsUtils.cs */,
+				307AC2BB415BDB093537606A /* FDatasmithFacadeMesh.cs */,
+				C813709EF4597A8144AA0B55 /* FDatasmithFacadeMeshElement.cs */,
+				CE32D540444D095C79C8F22D /* FDatasmithFacadeMessageAddress.cs */,
+				6327BA34B1D1100DAAE3D0C2 /* FDatasmithFacadeMetaData.cs */,
+				FC46730A951AAC3E7DF6DC1C /* FDatasmithFacadePointLight.cs */,
+				A12EAD31B2047DEBCEAC386B /* FDatasmithFacadePropertyCapture.cs */,
+				0435F87BF451A1A9EEF06966 /* FDatasmithFacadeRawInfo.cs */,
+				6CF3D0DB0DCB2680C9E12C7D /* FDatasmithFacadeScene.cs */,
+				06CB136BD37F2EC5EB440E01 /* FDatasmithFacadeSpotLight.cs */,
+				FBD0D90EC2DC185BD014D442 /* FDatasmithFacadeSubsequenceAnimation.cs */,
+				F35AA2B174986DF95D9C6F02 /* FDatasmithFacadeTexture.cs */,
+				3C52D7E67AA68406D3931B67 /* FDatasmithFacadeTransformAnimation.cs */,
+				64849A3FC491549AEF937421 /* FDatasmithFacadeUEPbrMaterial.cs */,
+				CBF9C415744FC392AD4582F6 /* FDatasmithFacadeUniqueNameProvider.cs */,
+				5C2E03E27A938CC9AFD574CA /* FDatasmithFacadeVariant.cs */,
+				27EED284222ED20583A3B845 /* FDatasmithFacadeVariantSet.cs */,
+				5BD8D51052FB1BD4842FBB8C /* FDatasmithFacadeVisibilityAnimation.cs */,
+				C959C24C417203B079D12949 /* IDatasmithExporterUIModule.cs */,
+				10C635612F4B7A7A84E746F9 /* IDirectLinkUI.cs */,
 			);
 			name = "Public";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public";
 			sourceTree = "<absolute>";
 		};
-		B8E1C05D3D4E1AA35EFB55D4 /* Products */ = {
+		26F2D827F5BC8D1BF880B546 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD7B7271AF582AF1E04C4DE2 /* DatasmithFacadeCSharp */,
+				F0231D49BF2EFA4E50B88860 /* DatasmithFacadeCSharp */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -305,10 +305,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		E084941425E3941C5884B153 /* DatasmithFacadeCSharp_Build */ = {
+		90445A445D055F1B2EAE426A /* DatasmithFacadeCSharp_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = EC6A299599FD8A5281142E2A /* Build configuration list for PBXLegacyTarget "DatasmithFacadeCSharp_Build" */;
+			buildConfigurationList = B8E1C05D3D4E1AA35EFB55D4 /* Build configuration list for PBXLegacyTarget "DatasmithFacadeCSharp_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -322,30 +322,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		D96F002CBD06603AC04A865F /* DatasmithFacadeCSharp */ = {
+		EC6A299599FD8A5281142E2A /* DatasmithFacadeCSharp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45592881FA6C651E37E78FB3 /* Build configuration list for PBXNativeTarget "DatasmithFacadeCSharp" */;
+			buildConfigurationList = 39B3F371FF0FC483599D1A70 /* Build configuration list for PBXNativeTarget "DatasmithFacadeCSharp" */;
 			buildPhases = (
-				A11C6F5009BF4341E1B290DE /* Embed App Extensions */, 
-				6D9D11019EE40195EF8624EE /* Shell Script */, 
+				4A61DDDC93B610109370D0C6 /* Embed App Extensions */, 
+				F237CBD3B5A1275E1453D76B /* Shell Script */, 
 			);
 			dependencies = (
-				DEDA25DBA6AC25A2CA2900A4 /* PBXTargetDependency */,
+				0D396C45F73DB729CA1E8544 /* PBXTargetDependency */,
 			);
 			name = "DatasmithFacadeCSharp";
 			passBuildSettingsInEnvironment = 1;
 			productName = "DatasmithFacadeCSharp";
-			productReference = "AD7B7271AF582AF1E04C4DE2";
+			productReference = "F0231D49BF2EFA4E50B88860";
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		39B3F371FF0FC483599D1A70 /* DatasmithFacadeCSharp_Index */ = {
+		206E699C2337F4760BF7517D /* DatasmithFacadeCSharp_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D396C45F73DB729CA1E8544 /* Build configuration list for PBXNativeTarget "DatasmithFacadeCSharp_Index" */;
+			buildConfigurationList = A11C6F5009BF4341E1B290DE /* Build configuration list for PBXNativeTarget "DatasmithFacadeCSharp_Index" */;
 			buildPhases = (
-				206E699C2337F4760BF7517D /* Sources */,
+				C84C881553CF4E2AE1F022D4 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -357,38 +357,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2F9457E2C2FB60CC5569DA71 /* Project object */ = {
+		6D9D11019EE40195EF8624EE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					D96F002CBD06603AC04A865F = {
+					EC6A299599FD8A5281142E2A = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = F0231D49BF2EFA4E50B88860 /* Build configuration list for PBXProject "DatasmithFacadeCSharp" */;
+			buildConfigurationList = 9BC3F7F6B9CB5EC18F43BC20 /* Build configuration list for PBXProject "DatasmithFacadeCSharp" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 90445A445D055F1B2EAE426A;
-			productRefGroup = B8E1C05D3D4E1AA35EFB55D4;
+			mainGroup = DFC99A9FB713F36DDD8B2F86;
+			productRefGroup = 26F2D827F5BC8D1BF880B546;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			D96F002CBD06603AC04A865F /* DatasmithFacadeCSharp */,
-			E084941425E3941C5884B153 /* DatasmithFacadeCSharp_Build */,
-			39B3F371FF0FC483599D1A70 /* DatasmithFacadeCSharp_Index */,
+			EC6A299599FD8A5281142E2A /* DatasmithFacadeCSharp */,
+			90445A445D055F1B2EAE426A /* DatasmithFacadeCSharp_Build */,
+			206E699C2337F4760BF7517D /* DatasmithFacadeCSharp_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		9BC3F7F6B9CB5EC18F43BC20 /* "Debug" */ = {
+		8BDD1A0E3D05A535CF04DD93 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -469,7 +469,7 @@
 			};
 			name = "Debug";
 		};
-		4A61DDDC93B610109370D0C6 /* "DebugGame" */ = {
+		19E5EE70A080EEC9B9FE0BC2 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -549,7 +549,7 @@
 			};
 			name = "DebugGame";
 		};
-		037A7440C8C4BFF68A7251B6 /* "Development" */ = {
+		2DEBA8732E87A5473E809E7C /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -629,7 +629,7 @@
 			};
 			name = "Development";
 		};
-		D1238BE1CA35C2CB866F26E3 /* "Test" */ = {
+		877861B6D4DD28A4B5B1E32F /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -709,7 +709,7 @@
 			};
 			name = "Test";
 		};
-		90FFE9D7D40977C02524B3DE /* "Shipping" */ = {
+		6C6F4BD282441D6682731495 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -789,7 +789,7 @@
 			};
 			name = "Shipping";
 		};
-		DFC99A9FB713F36DDD8B2F86 /* "Debug" */ = {
+		DFB087426FA4B2577CC1231C /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -806,7 +806,7 @@
 			};
 			name = "Debug";
 		};
-		F237CBD3B5A1275E1453D76B /* "DebugGame" */ = {
+		90646C0B45E6096C5FD1A66D /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -823,7 +823,7 @@
 			};
 			name = "DebugGame";
 		};
-		9B01D38ECB9AF7ED5937F404 /* "Development" */ = {
+		F50DFF833C3F3C203D8936F6 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -840,7 +840,7 @@
 			};
 			name = "Development";
 		};
-		D54E560A8387FC9DF610FE66 /* "Test" */ = {
+		9ECE723509DE56D05921F6ED /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -857,7 +857,7 @@
 			};
 			name = "Test";
 		};
-		8D4E9DFEC9DFA454B0D91576 /* "Shipping" */ = {
+		86CABFD46B2C452B7E168D49 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -874,7 +874,7 @@
 			};
 			name = "Shipping";
 		};
-		26F2D827F5BC8D1BF880B546 /* "Debug" */ = {
+		037A7440C8C4BFF68A7251B6 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -887,7 +887,7 @@
 			};
 			name = "Debug";
 		};
-		8BDD1A0E3D05A535CF04DD93 /* "DebugGame" */ = {
+		D1238BE1CA35C2CB866F26E3 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -900,7 +900,7 @@
 			};
 			name = "DebugGame";
 		};
-		19E5EE70A080EEC9B9FE0BC2 /* "Development" */ = {
+		90FFE9D7D40977C02524B3DE /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -913,7 +913,7 @@
 			};
 			name = "Development";
 		};
-		2DEBA8732E87A5473E809E7C /* "Test" */ = {
+		A23E565EE4E146B6EA724F5C /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -926,7 +926,7 @@
 			};
 			name = "Test";
 		};
-		877861B6D4DD28A4B5B1E32F /* "Shipping" */ = {
+		F10ED549F71A8135DE5BF274 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -939,7 +939,7 @@
 			};
 			name = "Shipping";
 		};
-		C84C881553CF4E2AE1F022D4 /* "Debug" */ = {
+		9B01D38ECB9AF7ED5937F404 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -956,7 +956,7 @@
 			};
 			name = "Debug";
 		};
-		DFB087426FA4B2577CC1231C /* "DebugGame" */ = {
+		D54E560A8387FC9DF610FE66 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -973,7 +973,7 @@
 			};
 			name = "DebugGame";
 		};
-		90646C0B45E6096C5FD1A66D /* "Development" */ = {
+		8D4E9DFEC9DFA454B0D91576 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -990,7 +990,7 @@
 			};
 			name = "Development";
 		};
-		F50DFF833C3F3C203D8936F6 /* "Test" */ = {
+		A7C0EC48FB0F29DB6B6D5FFB /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -1007,7 +1007,7 @@
 			};
 			name = "Test";
 		};
-		9ECE723509DE56D05921F6ED /* "Shipping" */ = {
+		967433A555E9D933AC56C131 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -1027,55 +1027,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F0231D49BF2EFA4E50B88860 /* Build configuration list for PBXProject "DatasmithFacadeCSharp" */ = {
+		9BC3F7F6B9CB5EC18F43BC20 /* Build configuration list for PBXProject "DatasmithFacadeCSharp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BC3F7F6B9CB5EC18F43BC20 /* "Debug" */,
-				4A61DDDC93B610109370D0C6 /* "DebugGame" */,
-				037A7440C8C4BFF68A7251B6 /* "Development" */,
-				D1238BE1CA35C2CB866F26E3 /* "Test" */,
-				90FFE9D7D40977C02524B3DE /* "Shipping" */,
+				8BDD1A0E3D05A535CF04DD93 /* "Debug" */,
+				19E5EE70A080EEC9B9FE0BC2 /* "DebugGame" */,
+				2DEBA8732E87A5473E809E7C /* "Development" */,
+				877861B6D4DD28A4B5B1E32F /* "Test" */,
+				6C6F4BD282441D6682731495 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		EC6A299599FD8A5281142E2A /* Build configuration list for PBXLegacyTarget "DatasmithFacadeCSharp_Build" */ = {
+		B8E1C05D3D4E1AA35EFB55D4 /* Build configuration list for PBXLegacyTarget "DatasmithFacadeCSharp_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26F2D827F5BC8D1BF880B546 /* "Debug" */,
-				8BDD1A0E3D05A535CF04DD93 /* "DebugGame" */,
-				19E5EE70A080EEC9B9FE0BC2 /* "Development" */,
-				2DEBA8732E87A5473E809E7C /* "Test" */,
-				877861B6D4DD28A4B5B1E32F /* "Shipping" */,
+				037A7440C8C4BFF68A7251B6 /* "Debug" */,
+				D1238BE1CA35C2CB866F26E3 /* "DebugGame" */,
+				90FFE9D7D40977C02524B3DE /* "Development" */,
+				A23E565EE4E146B6EA724F5C /* "Test" */,
+				F10ED549F71A8135DE5BF274 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		45592881FA6C651E37E78FB3 /* Build configuration list for PBXNativeTarget "DatasmithFacadeCSharp" */ = {
+		39B3F371FF0FC483599D1A70 /* Build configuration list for PBXNativeTarget "DatasmithFacadeCSharp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DFC99A9FB713F36DDD8B2F86 /* "Debug" */,
-				F237CBD3B5A1275E1453D76B /* "DebugGame" */,
-				9B01D38ECB9AF7ED5937F404 /* "Development" */,
-				D54E560A8387FC9DF610FE66 /* "Test" */,
-				8D4E9DFEC9DFA454B0D91576 /* "Shipping" */,
+				DFB087426FA4B2577CC1231C /* "Debug" */,
+				90646C0B45E6096C5FD1A66D /* "DebugGame" */,
+				F50DFF833C3F3C203D8936F6 /* "Development" */,
+				9ECE723509DE56D05921F6ED /* "Test" */,
+				86CABFD46B2C452B7E168D49 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		0D396C45F73DB729CA1E8544 /* Build configuration list for PBXNativeTarget "DatasmithFacadeCSharp_Index" */ = {
+		A11C6F5009BF4341E1B290DE /* Build configuration list for PBXNativeTarget "DatasmithFacadeCSharp_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C84C881553CF4E2AE1F022D4 /* "Debug" */,
-				DFB087426FA4B2577CC1231C /* "DebugGame" */,
-				90646C0B45E6096C5FD1A66D /* "Development" */,
-				F50DFF833C3F3C203D8936F6 /* "Test" */,
-				9ECE723509DE56D05921F6ED /* "Shipping" */,
+				9B01D38ECB9AF7ED5937F404 /* "Debug" */,
+				D54E560A8387FC9DF610FE66 /* "DebugGame" */,
+				8D4E9DFEC9DFA454B0D91576 /* "Development" */,
+				A7C0EC48FB0F29DB6B6D5FFB /* "Test" */,
+				967433A555E9D933AC56C131 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2F9457E2C2FB60CC5569DA71 /* Project object */;
+	rootObject = 6D9D11019EE40195EF8624EE /* Project object */;
 }

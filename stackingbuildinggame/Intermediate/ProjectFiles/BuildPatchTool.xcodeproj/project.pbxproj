@@ -7,87 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35AB72058E6D535AAF0D31B5 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = E87D4C4E1B48F3DAF214C2EC /* DefaultEngine.ini */; };
-		AE66DB9355B52A1D412876A9 /* BuildPatchTool.Automation.cs in Sources */ = {isa = PBXBuildFile; fileRef = F0D6E59B1BA2BB062065C64A /* BuildPatchTool.Automation.cs */; };
-		E73EB33A3D8D913ADB5C5B53 /* BuildPatchTool.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = E80F7BB8998AE3D983AD67E6 /* BuildPatchTool.Build.cs */; };
+		AF3A73B3DFF69484FE6F1BE7 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = E255CC4056CF39C1E6BDCD03 /* DefaultEngine.ini */; };
+		E73EB33A3D8D913ADB5C5B53 /* BuildPatchTool.Automation.cs in Sources */ = {isa = PBXBuildFile; fileRef = E80F7BB8998AE3D983AD67E6 /* BuildPatchTool.Automation.cs */; };
+		607462BCDEE9ED499F91AB17 /* BuildPatchTool.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 02EFE0B3973BCE937A92B30B /* BuildPatchTool.Build.cs */; };
 		1CA02256E208777020EF3683 /* BuildPatchTool.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 5873D72E80F5FC38B15BAE4B /* BuildPatchTool.Target.cs */; };
-		607462BCDEE9ED499F91AB17 /* BuildPatchTool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EFE0B3973BCE937A92B30B /* BuildPatchTool.cpp */; };
-		27026D9582EDC639D6CCDAC8 /* ToolMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD45BF16F12B3566363B6A9 /* ToolMode.cpp */; };
-		AA2F4147DFD36CCDC15694DC /* AutomationMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B57C6B2CB714035141888C2 /* AutomationMode.cpp */; };
-		E0DC2468DF5DA7C44BC3EB53 /* ChunkDeltaOptimiseMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB7E5A02600C07D4407E7617 /* ChunkDeltaOptimiseMode.cpp */; };
-		4B008AF122819491A67F6702 /* CompactifyMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF04EE63AED091B86C73074C /* CompactifyMode.cpp */; };
-		173ED40811B48261660D1CDE /* DiffManifestMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2B6A1C92E59AD2B1658535C /* DiffManifestMode.cpp */; };
-		1DA3256FEDBDABD8F93EDAE4 /* EnumerationMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD8C80F1FD069BA2E71091F8 /* EnumerationMode.cpp */; };
-		2EC78A12C5DB36BEEA78EA6D /* MergeManifestMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F1273A96244E494DBBD1CA1 /* MergeManifestMode.cpp */; };
-		D9BC2D10BCB1750D122C4026 /* PackageChunksMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3398121E071BF934A21262EB /* PackageChunksMode.cpp */; };
-		92F240A22BFC1D71AAE83809 /* PatchGenerationMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD25023903DC5B62D14D75C9 /* PatchGenerationMode.cpp */; };
-		31C68CBFC3E7FFC759427DCA /* VerifyChunksMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70D2E1150FCF7B4B600870E2 /* VerifyChunksMode.cpp */; };
-		19C031C5B7FF19457C767065 /* BuildPatchTool.h in Sources */ = {isa = PBXBuildFile; fileRef = 705DADC3E971AF6BA837C830 /* BuildPatchTool.h */; };
-		FB465302D22A692856AAA603 /* ToolMode.h in Sources */ = {isa = PBXBuildFile; fileRef = B539105A29384DFA617BA4B1 /* ToolMode.h */; };
-		21B862EE59043AE1F701CA70 /* AutomationMode.h in Sources */ = {isa = PBXBuildFile; fileRef = AC1672520D480FC6B6AA0DAF /* AutomationMode.h */; };
-		6155426FE9CECE7FA1A1E11A /* ChunkDeltaOptimiseMode.h in Sources */ = {isa = PBXBuildFile; fileRef = C87ACF5170C40BB46F9FAD12 /* ChunkDeltaOptimiseMode.h */; };
-		C5FBEC196CDEFB76AAB28D03 /* CompactifyMode.h in Sources */ = {isa = PBXBuildFile; fileRef = C2CAF729324ACF0B34588A92 /* CompactifyMode.h */; };
-		78BE56F29F5840C1A72FAAEE /* DiffManifestMode.h in Sources */ = {isa = PBXBuildFile; fileRef = E2B512C2A66A6F15EDCC8EA5 /* DiffManifestMode.h */; };
-		CCE28224CFA2DD6D7059A1AE /* EnumerationMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 8808D75272CB5B922009477C /* EnumerationMode.h */; };
-		380C64CAE875A5AC2FB025BC /* MergeManifestMode.h in Sources */ = {isa = PBXBuildFile; fileRef = D51BF105513C7D8814643A9D /* MergeManifestMode.h */; };
-		931DA22170FB85C39A05ECC3 /* PackageChunksMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 3D1384FBB4F57ED8E31A7C56 /* PackageChunksMode.h */; };
-		D95640E38BBF68D3D2C736CB /* PatchGenerationMode.h in Sources */ = {isa = PBXBuildFile; fileRef = D2843B332A6122D02F2EC73E /* PatchGenerationMode.h */; };
-		B882D41FE562B978A04B4719 /* VerifyChunksMode.h in Sources */ = {isa = PBXBuildFile; fileRef = BAA238DB9C18F176DCB8292F /* VerifyChunksMode.h */; };
+		27026D9582EDC639D6CCDAC8 /* BuildPatchTool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD45BF16F12B3566363B6A9 /* BuildPatchTool.cpp */; };
+		AA2F4147DFD36CCDC15694DC /* ToolMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B57C6B2CB714035141888C2 /* ToolMode.cpp */; };
+		E0DC2468DF5DA7C44BC3EB53 /* AutomationMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB7E5A02600C07D4407E7617 /* AutomationMode.cpp */; };
+		4B008AF122819491A67F6702 /* ChunkDeltaOptimiseMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF04EE63AED091B86C73074C /* ChunkDeltaOptimiseMode.cpp */; };
+		173ED40811B48261660D1CDE /* CompactifyMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2B6A1C92E59AD2B1658535C /* CompactifyMode.cpp */; };
+		1DA3256FEDBDABD8F93EDAE4 /* DiffManifestMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD8C80F1FD069BA2E71091F8 /* DiffManifestMode.cpp */; };
+		2EC78A12C5DB36BEEA78EA6D /* EnumerationMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F1273A96244E494DBBD1CA1 /* EnumerationMode.cpp */; };
+		D9BC2D10BCB1750D122C4026 /* MergeManifestMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3398121E071BF934A21262EB /* MergeManifestMode.cpp */; };
+		92F240A22BFC1D71AAE83809 /* PackageChunksMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD25023903DC5B62D14D75C9 /* PackageChunksMode.cpp */; };
+		31C68CBFC3E7FFC759427DCA /* PatchGenerationMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70D2E1150FCF7B4B600870E2 /* PatchGenerationMode.cpp */; };
+		19C031C5B7FF19457C767065 /* VerifyChunksMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 705DADC3E971AF6BA837C830 /* VerifyChunksMode.cpp */; };
+		FB465302D22A692856AAA603 /* BuildPatchTool.h in Sources */ = {isa = PBXBuildFile; fileRef = B539105A29384DFA617BA4B1 /* BuildPatchTool.h */; };
+		21B862EE59043AE1F701CA70 /* ToolMode.h in Sources */ = {isa = PBXBuildFile; fileRef = AC1672520D480FC6B6AA0DAF /* ToolMode.h */; };
+		6155426FE9CECE7FA1A1E11A /* AutomationMode.h in Sources */ = {isa = PBXBuildFile; fileRef = C87ACF5170C40BB46F9FAD12 /* AutomationMode.h */; };
+		C5FBEC196CDEFB76AAB28D03 /* ChunkDeltaOptimiseMode.h in Sources */ = {isa = PBXBuildFile; fileRef = C2CAF729324ACF0B34588A92 /* ChunkDeltaOptimiseMode.h */; };
+		78BE56F29F5840C1A72FAAEE /* CompactifyMode.h in Sources */ = {isa = PBXBuildFile; fileRef = E2B512C2A66A6F15EDCC8EA5 /* CompactifyMode.h */; };
+		CCE28224CFA2DD6D7059A1AE /* DiffManifestMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 8808D75272CB5B922009477C /* DiffManifestMode.h */; };
+		380C64CAE875A5AC2FB025BC /* EnumerationMode.h in Sources */ = {isa = PBXBuildFile; fileRef = D51BF105513C7D8814643A9D /* EnumerationMode.h */; };
+		931DA22170FB85C39A05ECC3 /* MergeManifestMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 3D1384FBB4F57ED8E31A7C56 /* MergeManifestMode.h */; };
+		D95640E38BBF68D3D2C736CB /* PackageChunksMode.h in Sources */ = {isa = PBXBuildFile; fileRef = D2843B332A6122D02F2EC73E /* PackageChunksMode.h */; };
+		B882D41FE562B978A04B4719 /* PatchGenerationMode.h in Sources */ = {isa = PBXBuildFile; fileRef = BAA238DB9C18F176DCB8292F /* PatchGenerationMode.h */; };
+		B94BAD82F8AC27AB8F022A09 /* VerifyChunksMode.h in Sources */ = {isa = PBXBuildFile; fileRef = EA49EE6F0DBE2B863C227887 /* VerifyChunksMode.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E87D4C4E1B48F3DAF214C2EC /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/BuildPatchTool/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
-		F0D6E59B1BA2BB062065C64A /* BuildPatchTool.Automation.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BuildPatchTool.Automation.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/BuildPatchTool.Automation.cs"; sourceTree = SOURCE_ROOT; };
-		E80F7BB8998AE3D983AD67E6 /* BuildPatchTool.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BuildPatchTool.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/BuildPatchTool.Build.cs"; sourceTree = SOURCE_ROOT; };
+		E255CC4056CF39C1E6BDCD03 /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/BuildPatchTool/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		E80F7BB8998AE3D983AD67E6 /* BuildPatchTool.Automation.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BuildPatchTool.Automation.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/BuildPatchTool.Automation.cs"; sourceTree = SOURCE_ROOT; };
+		02EFE0B3973BCE937A92B30B /* BuildPatchTool.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BuildPatchTool.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/BuildPatchTool.Build.cs"; sourceTree = SOURCE_ROOT; };
 		5873D72E80F5FC38B15BAE4B /* BuildPatchTool.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BuildPatchTool.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/BuildPatchTool.Target.cs"; sourceTree = SOURCE_ROOT; };
-		02EFE0B3973BCE937A92B30B /* BuildPatchTool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "BuildPatchTool.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/BuildPatchTool.cpp"; sourceTree = SOURCE_ROOT; };
-		2AD45BF16F12B3566363B6A9 /* ToolMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ToolMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolMode.cpp"; sourceTree = SOURCE_ROOT; };
-		7B57C6B2CB714035141888C2 /* AutomationMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AutomationMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/AutomationMode.cpp"; sourceTree = SOURCE_ROOT; };
-		AB7E5A02600C07D4407E7617 /* ChunkDeltaOptimiseMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ChunkDeltaOptimiseMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/ChunkDeltaOptimiseMode.cpp"; sourceTree = SOURCE_ROOT; };
-		AF04EE63AED091B86C73074C /* CompactifyMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CompactifyMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/CompactifyMode.cpp"; sourceTree = SOURCE_ROOT; };
-		D2B6A1C92E59AD2B1658535C /* DiffManifestMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DiffManifestMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/DiffManifestMode.cpp"; sourceTree = SOURCE_ROOT; };
-		AD8C80F1FD069BA2E71091F8 /* EnumerationMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EnumerationMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/EnumerationMode.cpp"; sourceTree = SOURCE_ROOT; };
-		8F1273A96244E494DBBD1CA1 /* MergeManifestMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MergeManifestMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/MergeManifestMode.cpp"; sourceTree = SOURCE_ROOT; };
-		3398121E071BF934A21262EB /* PackageChunksMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PackageChunksMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/PackageChunksMode.cpp"; sourceTree = SOURCE_ROOT; };
-		AD25023903DC5B62D14D75C9 /* PatchGenerationMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PatchGenerationMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/PatchGenerationMode.cpp"; sourceTree = SOURCE_ROOT; };
-		70D2E1150FCF7B4B600870E2 /* VerifyChunksMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "VerifyChunksMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/VerifyChunksMode.cpp"; sourceTree = SOURCE_ROOT; };
-		705DADC3E971AF6BA837C830 /* BuildPatchTool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "BuildPatchTool.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/BuildPatchTool.h"; sourceTree = SOURCE_ROOT; };
-		B539105A29384DFA617BA4B1 /* ToolMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ToolMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/Interfaces/ToolMode.h"; sourceTree = SOURCE_ROOT; };
-		AC1672520D480FC6B6AA0DAF /* AutomationMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AutomationMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/AutomationMode.h"; sourceTree = SOURCE_ROOT; };
-		C87ACF5170C40BB46F9FAD12 /* ChunkDeltaOptimiseMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ChunkDeltaOptimiseMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/ChunkDeltaOptimiseMode.h"; sourceTree = SOURCE_ROOT; };
-		C2CAF729324ACF0B34588A92 /* CompactifyMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CompactifyMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/CompactifyMode.h"; sourceTree = SOURCE_ROOT; };
-		E2B512C2A66A6F15EDCC8EA5 /* DiffManifestMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DiffManifestMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/DiffManifestMode.h"; sourceTree = SOURCE_ROOT; };
-		8808D75272CB5B922009477C /* EnumerationMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnumerationMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/EnumerationMode.h"; sourceTree = SOURCE_ROOT; };
-		D51BF105513C7D8814643A9D /* MergeManifestMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MergeManifestMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/MergeManifestMode.h"; sourceTree = SOURCE_ROOT; };
-		3D1384FBB4F57ED8E31A7C56 /* PackageChunksMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PackageChunksMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/PackageChunksMode.h"; sourceTree = SOURCE_ROOT; };
-		D2843B332A6122D02F2EC73E /* PatchGenerationMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PatchGenerationMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/PatchGenerationMode.h"; sourceTree = SOURCE_ROOT; };
-		BAA238DB9C18F176DCB8292F /* VerifyChunksMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "VerifyChunksMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/VerifyChunksMode.h"; sourceTree = SOURCE_ROOT; };
-		2F74AD05C239B9F9694E0AC7 /* BuildPatchTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = BuildPatchTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD45BF16F12B3566363B6A9 /* BuildPatchTool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "BuildPatchTool.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/BuildPatchTool.cpp"; sourceTree = SOURCE_ROOT; };
+		7B57C6B2CB714035141888C2 /* ToolMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ToolMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolMode.cpp"; sourceTree = SOURCE_ROOT; };
+		AB7E5A02600C07D4407E7617 /* AutomationMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AutomationMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/AutomationMode.cpp"; sourceTree = SOURCE_ROOT; };
+		AF04EE63AED091B86C73074C /* ChunkDeltaOptimiseMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ChunkDeltaOptimiseMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/ChunkDeltaOptimiseMode.cpp"; sourceTree = SOURCE_ROOT; };
+		D2B6A1C92E59AD2B1658535C /* CompactifyMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CompactifyMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/CompactifyMode.cpp"; sourceTree = SOURCE_ROOT; };
+		AD8C80F1FD069BA2E71091F8 /* DiffManifestMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DiffManifestMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/DiffManifestMode.cpp"; sourceTree = SOURCE_ROOT; };
+		8F1273A96244E494DBBD1CA1 /* EnumerationMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EnumerationMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/EnumerationMode.cpp"; sourceTree = SOURCE_ROOT; };
+		3398121E071BF934A21262EB /* MergeManifestMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MergeManifestMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/MergeManifestMode.cpp"; sourceTree = SOURCE_ROOT; };
+		AD25023903DC5B62D14D75C9 /* PackageChunksMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PackageChunksMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/PackageChunksMode.cpp"; sourceTree = SOURCE_ROOT; };
+		70D2E1150FCF7B4B600870E2 /* PatchGenerationMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PatchGenerationMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/PatchGenerationMode.cpp"; sourceTree = SOURCE_ROOT; };
+		705DADC3E971AF6BA837C830 /* VerifyChunksMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "VerifyChunksMode.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/VerifyChunksMode.cpp"; sourceTree = SOURCE_ROOT; };
+		B539105A29384DFA617BA4B1 /* BuildPatchTool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "BuildPatchTool.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/BuildPatchTool.h"; sourceTree = SOURCE_ROOT; };
+		AC1672520D480FC6B6AA0DAF /* ToolMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ToolMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/Interfaces/ToolMode.h"; sourceTree = SOURCE_ROOT; };
+		C87ACF5170C40BB46F9FAD12 /* AutomationMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AutomationMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/AutomationMode.h"; sourceTree = SOURCE_ROOT; };
+		C2CAF729324ACF0B34588A92 /* ChunkDeltaOptimiseMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ChunkDeltaOptimiseMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/ChunkDeltaOptimiseMode.h"; sourceTree = SOURCE_ROOT; };
+		E2B512C2A66A6F15EDCC8EA5 /* CompactifyMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CompactifyMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/CompactifyMode.h"; sourceTree = SOURCE_ROOT; };
+		8808D75272CB5B922009477C /* DiffManifestMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DiffManifestMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/DiffManifestMode.h"; sourceTree = SOURCE_ROOT; };
+		D51BF105513C7D8814643A9D /* EnumerationMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnumerationMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/EnumerationMode.h"; sourceTree = SOURCE_ROOT; };
+		3D1384FBB4F57ED8E31A7C56 /* MergeManifestMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MergeManifestMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/MergeManifestMode.h"; sourceTree = SOURCE_ROOT; };
+		D2843B332A6122D02F2EC73E /* PackageChunksMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PackageChunksMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/PackageChunksMode.h"; sourceTree = SOURCE_ROOT; };
+		BAA238DB9C18F176DCB8292F /* PatchGenerationMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PatchGenerationMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/PatchGenerationMode.h"; sourceTree = SOURCE_ROOT; };
+		EA49EE6F0DBE2B863C227887 /* VerifyChunksMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "VerifyChunksMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/VerifyChunksMode.h"; sourceTree = SOURCE_ROOT; };
+		3B73CF16130920F9FC8A6AAC /* BuildPatchTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = BuildPatchTool; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A5405D1DB1E56B7EC36EE9B6 = {
+		8C3DDBFCFCD56DCAC183CDBB = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607462BCDEE9ED499F91AB17 /* BuildPatchTool.cpp in Sources */,
-				27026D9582EDC639D6CCDAC8 /* ToolMode.cpp in Sources */,
-				AA2F4147DFD36CCDC15694DC /* AutomationMode.cpp in Sources */,
-				E0DC2468DF5DA7C44BC3EB53 /* ChunkDeltaOptimiseMode.cpp in Sources */,
-				4B008AF122819491A67F6702 /* CompactifyMode.cpp in Sources */,
-				173ED40811B48261660D1CDE /* DiffManifestMode.cpp in Sources */,
-				1DA3256FEDBDABD8F93EDAE4 /* EnumerationMode.cpp in Sources */,
-				2EC78A12C5DB36BEEA78EA6D /* MergeManifestMode.cpp in Sources */,
-				D9BC2D10BCB1750D122C4026 /* PackageChunksMode.cpp in Sources */,
-				92F240A22BFC1D71AAE83809 /* PatchGenerationMode.cpp in Sources */,
-				31C68CBFC3E7FFC759427DCA /* VerifyChunksMode.cpp in Sources */,
+				27026D9582EDC639D6CCDAC8 /* BuildPatchTool.cpp in Sources */,
+				AA2F4147DFD36CCDC15694DC /* ToolMode.cpp in Sources */,
+				E0DC2468DF5DA7C44BC3EB53 /* AutomationMode.cpp in Sources */,
+				4B008AF122819491A67F6702 /* ChunkDeltaOptimiseMode.cpp in Sources */,
+				173ED40811B48261660D1CDE /* CompactifyMode.cpp in Sources */,
+				1DA3256FEDBDABD8F93EDAE4 /* DiffManifestMode.cpp in Sources */,
+				2EC78A12C5DB36BEEA78EA6D /* EnumerationMode.cpp in Sources */,
+				D9BC2D10BCB1750D122C4026 /* MergeManifestMode.cpp in Sources */,
+				92F240A22BFC1D71AAE83809 /* PackageChunksMode.cpp in Sources */,
+				31C68CBFC3E7FFC759427DCA /* PatchGenerationMode.cpp in Sources */,
+				19C031C5B7FF19457C767065 /* VerifyChunksMode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	3C48A8B58CCE33D578843ECB /* Embed App Extensions */ = {
+	199BA903B33E093F78642B1E /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -99,160 +99,160 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		93C5F4F22C1DB95778E5BE5E /* PBXContainerItemProxy */ = {
+		092E1A614A6D4DF2E431C20E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 092E1A614A6D4DF2E431C20E /* Project object */;
+			containerPortal = 0ED21A90C87B3CF661355F0A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9386FD87C809774908BD4EDB;
+			remoteGlobalIDString = 789430044A2FA4F3DA65FB4B;
 			remoteInfo = "BuildPatchTool_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		8238FFD04073BE903E33EB13 /* PBXTargetDependency */ = {
+		20318F6F6D75567126D1DE67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9386FD87C809774908BD4EDB /* BuildPatchTool_Build */;
-			targetProxy = 93C5F4F22C1DB95778E5BE5E /* PBXContainerItemProxy */;
+			target = 789430044A2FA4F3DA65FB4B /* BuildPatchTool_Build */;
+			targetProxy = 092E1A614A6D4DF2E431C20E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		789430044A2FA4F3DA65FB4B = {
+		C30C62A04D5D812101920EDE = {
 			isa = PBXGroup;
 			children = (
-				080A666D7171613A187190CB /* Programs */,
-				2BD7B8F13B153D15E2497249 /* Source */,
-				D748FA4EDF6BC1EF6F8133FA /* Products */,
+				E88D9A43CF01401244009FCB /* Programs */,
+				4A642CF104FD752631FB3883 /* Source */,
+				CADBB64731F25507E99DE405 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		080A666D7171613A187190CB = {
+		E88D9A43CF01401244009FCB = {
 			isa = PBXGroup;
 			children = (
-				A2FDF1BDB0A17FD5590D1722 /* BuildPatchTool */,
+				7D018D2F70DDC1E7C7FECA6A /* BuildPatchTool */,
 			);
 			name = "Programs";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs";
 			sourceTree = "<absolute>";
 		};
-		A2FDF1BDB0A17FD5590D1722 = {
+		7D018D2F70DDC1E7C7FECA6A = {
 			isa = PBXGroup;
 			children = (
-				5CB74A907462EC0C1418D9B4 /* Config */,
+				4F87905E92E825B3170B02F2 /* Config */,
 			);
 			name = "BuildPatchTool";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/BuildPatchTool";
 			sourceTree = "<absolute>";
 		};
-		5CB74A907462EC0C1418D9B4 = {
+		4F87905E92E825B3170B02F2 = {
 			isa = PBXGroup;
 			children = (
-				E87D4C4E1B48F3DAF214C2EC /* DefaultEngine.ini */,
+				E255CC4056CF39C1E6BDCD03 /* DefaultEngine.ini */,
 			);
 			name = "Config";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/BuildPatchTool/Config";
 			sourceTree = "<absolute>";
 		};
-		2BD7B8F13B153D15E2497249 = {
+		4A642CF104FD752631FB3883 = {
 			isa = PBXGroup;
 			children = (
-				F0A9E4EB7FE5A7FBF34410BA /* Programs */,
+				F68719467BAA11E9C22FF448 /* Programs */,
 			);
 			name = "Source";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source";
 			sourceTree = "<absolute>";
 		};
-		F0A9E4EB7FE5A7FBF34410BA = {
+		F68719467BAA11E9C22FF448 = {
 			isa = PBXGroup;
 			children = (
-				27D1C6B68583B68A233C91D8 /* BuildPatchTool */,
+				71E17F5CDBECB471FE9AE40C /* BuildPatchTool */,
 			);
 			name = "Programs";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs";
 			sourceTree = "<absolute>";
 		};
-		27D1C6B68583B68A233C91D8 = {
+		71E17F5CDBECB471FE9AE40C = {
 			isa = PBXGroup;
 			children = (
-				E88D9A43CF01401244009FCB /* Private */,
-				4F87905E92E825B3170B02F2 /* Public */,
-				F0D6E59B1BA2BB062065C64A /* BuildPatchTool.Automation.cs */,
-				E80F7BB8998AE3D983AD67E6 /* BuildPatchTool.Build.cs */,
+				B1D0E2C989A438534E0C670B /* Private */,
+				7E184B4547C7855BA20D94AB /* Public */,
+				E80F7BB8998AE3D983AD67E6 /* BuildPatchTool.Automation.cs */,
+				02EFE0B3973BCE937A92B30B /* BuildPatchTool.Build.cs */,
 				5873D72E80F5FC38B15BAE4B /* BuildPatchTool.Target.cs */,
 			);
 			name = "BuildPatchTool";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool";
 			sourceTree = "<absolute>";
 		};
-		E88D9A43CF01401244009FCB = {
+		B1D0E2C989A438534E0C670B = {
 			isa = PBXGroup;
 			children = (
-				7D018D2F70DDC1E7C7FECA6A /* ToolModes */,
-				02EFE0B3973BCE937A92B30B /* BuildPatchTool.cpp */,
-				2AD45BF16F12B3566363B6A9 /* ToolMode.cpp */,
+				CEDF386CFA192F1A6FE37F22 /* ToolModes */,
+				2AD45BF16F12B3566363B6A9 /* BuildPatchTool.cpp */,
+				7B57C6B2CB714035141888C2 /* ToolMode.cpp */,
 			);
 			name = "Private";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private";
 			sourceTree = "<absolute>";
 		};
-		7D018D2F70DDC1E7C7FECA6A = {
+		CEDF386CFA192F1A6FE37F22 = {
 			isa = PBXGroup;
 			children = (
-				7B57C6B2CB714035141888C2 /* AutomationMode.cpp */,
-				AB7E5A02600C07D4407E7617 /* ChunkDeltaOptimiseMode.cpp */,
-				AF04EE63AED091B86C73074C /* CompactifyMode.cpp */,
-				D2B6A1C92E59AD2B1658535C /* DiffManifestMode.cpp */,
-				AD8C80F1FD069BA2E71091F8 /* EnumerationMode.cpp */,
-				8F1273A96244E494DBBD1CA1 /* MergeManifestMode.cpp */,
-				3398121E071BF934A21262EB /* PackageChunksMode.cpp */,
-				AD25023903DC5B62D14D75C9 /* PatchGenerationMode.cpp */,
-				70D2E1150FCF7B4B600870E2 /* VerifyChunksMode.cpp */,
+				AB7E5A02600C07D4407E7617 /* AutomationMode.cpp */,
+				AF04EE63AED091B86C73074C /* ChunkDeltaOptimiseMode.cpp */,
+				D2B6A1C92E59AD2B1658535C /* CompactifyMode.cpp */,
+				AD8C80F1FD069BA2E71091F8 /* DiffManifestMode.cpp */,
+				8F1273A96244E494DBBD1CA1 /* EnumerationMode.cpp */,
+				3398121E071BF934A21262EB /* MergeManifestMode.cpp */,
+				AD25023903DC5B62D14D75C9 /* PackageChunksMode.cpp */,
+				70D2E1150FCF7B4B600870E2 /* PatchGenerationMode.cpp */,
+				705DADC3E971AF6BA837C830 /* VerifyChunksMode.cpp */,
 			);
 			name = "ToolModes";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes";
 			sourceTree = "<absolute>";
 		};
-		4F87905E92E825B3170B02F2 = {
+		7E184B4547C7855BA20D94AB = {
 			isa = PBXGroup;
 			children = (
-				4A642CF104FD752631FB3883 /* Interfaces */,
-				F68719467BAA11E9C22FF448 /* ToolModes */,
-				705DADC3E971AF6BA837C830 /* BuildPatchTool.h */,
+				C7485F1EF7A0F96479738DFB /* Interfaces */,
+				B44777E46BC99CCD50BF4B71 /* ToolModes */,
+				B539105A29384DFA617BA4B1 /* BuildPatchTool.h */,
 			);
 			name = "Public";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public";
 			sourceTree = "<absolute>";
 		};
-		4A642CF104FD752631FB3883 = {
+		C7485F1EF7A0F96479738DFB = {
 			isa = PBXGroup;
 			children = (
-				B539105A29384DFA617BA4B1 /* ToolMode.h */,
+				AC1672520D480FC6B6AA0DAF /* ToolMode.h */,
 			);
 			name = "Interfaces";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/Interfaces";
 			sourceTree = "<absolute>";
 		};
-		F68719467BAA11E9C22FF448 = {
+		B44777E46BC99CCD50BF4B71 = {
 			isa = PBXGroup;
 			children = (
-				AC1672520D480FC6B6AA0DAF /* AutomationMode.h */,
-				C87ACF5170C40BB46F9FAD12 /* ChunkDeltaOptimiseMode.h */,
-				C2CAF729324ACF0B34588A92 /* CompactifyMode.h */,
-				E2B512C2A66A6F15EDCC8EA5 /* DiffManifestMode.h */,
-				8808D75272CB5B922009477C /* EnumerationMode.h */,
-				D51BF105513C7D8814643A9D /* MergeManifestMode.h */,
-				3D1384FBB4F57ED8E31A7C56 /* PackageChunksMode.h */,
-				D2843B332A6122D02F2EC73E /* PatchGenerationMode.h */,
-				BAA238DB9C18F176DCB8292F /* VerifyChunksMode.h */,
+				C87ACF5170C40BB46F9FAD12 /* AutomationMode.h */,
+				C2CAF729324ACF0B34588A92 /* ChunkDeltaOptimiseMode.h */,
+				E2B512C2A66A6F15EDCC8EA5 /* CompactifyMode.h */,
+				8808D75272CB5B922009477C /* DiffManifestMode.h */,
+				D51BF105513C7D8814643A9D /* EnumerationMode.h */,
+				3D1384FBB4F57ED8E31A7C56 /* MergeManifestMode.h */,
+				D2843B332A6122D02F2EC73E /* PackageChunksMode.h */,
+				BAA238DB9C18F176DCB8292F /* PatchGenerationMode.h */,
+				EA49EE6F0DBE2B863C227887 /* VerifyChunksMode.h */,
 			);
 			name = "ToolModes";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes";
 			sourceTree = "<absolute>";
 		};
-		D748FA4EDF6BC1EF6F8133FA /* Products */ = {
+		CADBB64731F25507E99DE405 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2F74AD05C239B9F9694E0AC7 /* BuildPatchTool */,
+				3B73CF16130920F9FC8A6AAC /* BuildPatchTool */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -260,10 +260,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		9386FD87C809774908BD4EDB /* BuildPatchTool_Build */ = {
+		789430044A2FA4F3DA65FB4B /* BuildPatchTool_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 265A308BDE07039D7AA0A1CB /* Build configuration list for PBXLegacyTarget "BuildPatchTool_Build" */;
+			buildConfigurationList = D748FA4EDF6BC1EF6F8133FA /* Build configuration list for PBXLegacyTarget "BuildPatchTool_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -277,30 +277,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		91C8CA8D0092563DFA8699B5 /* BuildPatchTool */ = {
+		265A308BDE07039D7AA0A1CB /* BuildPatchTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7DF3D0E1A11A4D5DA9985F7B /* Build configuration list for PBXNativeTarget "BuildPatchTool" */;
+			buildConfigurationList = C5B9CD0479F2A945BB2C5EA6 /* Build configuration list for PBXNativeTarget "BuildPatchTool" */;
 			buildPhases = (
-				3C48A8B58CCE33D578843ECB /* Embed App Extensions */, 
-				0ED21A90C87B3CF661355F0A /* Shell Script */, 
+				199BA903B33E093F78642B1E /* Embed App Extensions */, 
+				C540376BEF09AD25285D1410 /* Shell Script */, 
 			);
 			dependencies = (
-				8238FFD04073BE903E33EB13 /* PBXTargetDependency */,
+				20318F6F6D75567126D1DE67 /* PBXTargetDependency */,
 			);
 			name = "BuildPatchTool";
 			passBuildSettingsInEnvironment = 1;
 			productName = "BuildPatchTool";
-			productReference = "2F74AD05C239B9F9694E0AC7";
+			productReference = "3B73CF16130920F9FC8A6AAC";
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		C5B9CD0479F2A945BB2C5EA6 /* BuildPatchTool_Index */ = {
+		A5405D1DB1E56B7EC36EE9B6 /* BuildPatchTool_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20318F6F6D75567126D1DE67 /* Build configuration list for PBXNativeTarget "BuildPatchTool_Index" */;
+			buildConfigurationList = 3C48A8B58CCE33D578843ECB /* Build configuration list for PBXNativeTarget "BuildPatchTool_Index" */;
 			buildPhases = (
-				A5405D1DB1E56B7EC36EE9B6 /* Sources */,
+				8C3DDBFCFCD56DCAC183CDBB /* Sources */,
 			);
 			dependencies = (
 			);
@@ -312,38 +312,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		092E1A614A6D4DF2E431C20E /* Project object */ = {
+		0ED21A90C87B3CF661355F0A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					91C8CA8D0092563DFA8699B5 = {
+					265A308BDE07039D7AA0A1CB = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 3B73CF16130920F9FC8A6AAC /* Build configuration list for PBXProject "BuildPatchTool" */;
+			buildConfigurationList = D18742F5FA7C87695E441196 /* Build configuration list for PBXProject "BuildPatchTool" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 789430044A2FA4F3DA65FB4B;
-			productRefGroup = D748FA4EDF6BC1EF6F8133FA;
+			mainGroup = C30C62A04D5D812101920EDE;
+			productRefGroup = CADBB64731F25507E99DE405;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			91C8CA8D0092563DFA8699B5 /* BuildPatchTool */,
-			9386FD87C809774908BD4EDB /* BuildPatchTool_Build */,
-			C5B9CD0479F2A945BB2C5EA6 /* BuildPatchTool_Index */,
+			265A308BDE07039D7AA0A1CB /* BuildPatchTool */,
+			789430044A2FA4F3DA65FB4B /* BuildPatchTool_Build */,
+			A5405D1DB1E56B7EC36EE9B6 /* BuildPatchTool_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		D18742F5FA7C87695E441196 /* "Debug" */ = {
+		8285252B25441C460DFA2E95 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -438,7 +438,7 @@
 			};
 			name = "Debug";
 		};
-		199BA903B33E093F78642B1E /* "Development" */ = {
+		B6029183D0ECFDC54E698D23 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -532,7 +532,7 @@
 			};
 			name = "Development";
 		};
-		9D01DBB7D6A793BB8798812D /* "Shipping" */ = {
+		73AA639F9471CC9071DAF778 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -626,7 +626,7 @@
 			};
 			name = "Shipping";
 		};
-		C30C62A04D5D812101920EDE /* "Debug" */ = {
+		495153AA94A58C2812BC37BB /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -643,7 +643,7 @@
 			};
 			name = "Debug";
 		};
-		C540376BEF09AD25285D1410 /* "Development" */ = {
+		6864706666720DB0D02591B6 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -660,7 +660,7 @@
 			};
 			name = "Development";
 		};
-		19DD193447E411CA11A2229D /* "Shipping" */ = {
+		0BCF19E2BF92452A639D5056 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -677,7 +677,7 @@
 			};
 			name = "Shipping";
 		};
-		CADBB64731F25507E99DE405 /* "Debug" */ = {
+		9D01DBB7D6A793BB8798812D /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -690,7 +690,7 @@
 			};
 			name = "Debug";
 		};
-		8285252B25441C460DFA2E95 /* "Development" */ = {
+		8B58E12EAB6CAAFBDE3E01D3 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -703,7 +703,7 @@
 			};
 			name = "Development";
 		};
-		B6029183D0ECFDC54E698D23 /* "Shipping" */ = {
+		8772151446E166958CFEBA01 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -716,7 +716,7 @@
 			};
 			name = "Shipping";
 		};
-		8C3DDBFCFCD56DCAC183CDBB /* "Debug" */ = {
+		19DD193447E411CA11A2229D /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -733,7 +733,7 @@
 			};
 			name = "Debug";
 		};
-		495153AA94A58C2812BC37BB /* "Development" */ = {
+		1510EA9B9BBBDFB04FF5CBE2 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -750,7 +750,7 @@
 			};
 			name = "Development";
 		};
-		6864706666720DB0D02591B6 /* "Shipping" */ = {
+		080A666D7171613A187190CB /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -770,47 +770,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B73CF16130920F9FC8A6AAC /* Build configuration list for PBXProject "BuildPatchTool" */ = {
+		D18742F5FA7C87695E441196 /* Build configuration list for PBXProject "BuildPatchTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D18742F5FA7C87695E441196 /* "Debug" */,
-				199BA903B33E093F78642B1E /* "Development" */,
-				9D01DBB7D6A793BB8798812D /* "Shipping" */,
+				8285252B25441C460DFA2E95 /* "Debug" */,
+				B6029183D0ECFDC54E698D23 /* "Development" */,
+				73AA639F9471CC9071DAF778 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		265A308BDE07039D7AA0A1CB /* Build configuration list for PBXLegacyTarget "BuildPatchTool_Build" */ = {
+		D748FA4EDF6BC1EF6F8133FA /* Build configuration list for PBXLegacyTarget "BuildPatchTool_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CADBB64731F25507E99DE405 /* "Debug" */,
-				8285252B25441C460DFA2E95 /* "Development" */,
-				B6029183D0ECFDC54E698D23 /* "Shipping" */,
+				9D01DBB7D6A793BB8798812D /* "Debug" */,
+				8B58E12EAB6CAAFBDE3E01D3 /* "Development" */,
+				8772151446E166958CFEBA01 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		7DF3D0E1A11A4D5DA9985F7B /* Build configuration list for PBXNativeTarget "BuildPatchTool" */ = {
+		C5B9CD0479F2A945BB2C5EA6 /* Build configuration list for PBXNativeTarget "BuildPatchTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C30C62A04D5D812101920EDE /* "Debug" */,
-				C540376BEF09AD25285D1410 /* "Development" */,
-				19DD193447E411CA11A2229D /* "Shipping" */,
+				495153AA94A58C2812BC37BB /* "Debug" */,
+				6864706666720DB0D02591B6 /* "Development" */,
+				0BCF19E2BF92452A639D5056 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		20318F6F6D75567126D1DE67 /* Build configuration list for PBXNativeTarget "BuildPatchTool_Index" */ = {
+		3C48A8B58CCE33D578843ECB /* Build configuration list for PBXNativeTarget "BuildPatchTool_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C3DDBFCFCD56DCAC183CDBB /* "Debug" */,
-				495153AA94A58C2812BC37BB /* "Development" */,
-				6864706666720DB0D02591B6 /* "Shipping" */,
+				19DD193447E411CA11A2229D /* "Debug" */,
+				1510EA9B9BBBDFB04FF5CBE2 /* "Development" */,
+				080A666D7171613A187190CB /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 092E1A614A6D4DF2E431C20E /* Project object */;
+	rootObject = 0ED21A90C87B3CF661355F0A /* Project object */;
 }

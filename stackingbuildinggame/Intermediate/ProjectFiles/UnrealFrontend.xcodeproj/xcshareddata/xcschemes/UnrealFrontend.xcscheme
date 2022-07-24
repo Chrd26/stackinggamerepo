@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3DEBE9E0F62356D81238ADB0"
+               BlueprintIdentifier = "137085B81DD251FFE382B641"
                BuildableName = "UnrealFrontend.app"
                BlueprintName = "UnrealFrontend"
                ReferencedContainer = "container:UnrealFrontend.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3DEBE9E0F62356D81238ADB0"
+               BlueprintIdentifier = "137085B81DD251FFE382B641"
                BuildableName = "UnrealFrontend.app"
                BlueprintName = "UnrealFrontend"
                ReferencedContainer = "container:UnrealFrontend.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3DEBE9E0F62356D81238ADB0"
+               BlueprintIdentifier = "137085B81DD251FFE382B641"
                BuildableName = "UnrealFrontend.app"
                BlueprintName = "UnrealFrontend"
                ReferencedContainer = "container:UnrealFrontend.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3DEBE9E0F62356D81238ADB0"
+               BlueprintIdentifier = "137085B81DD251FFE382B641"
                BuildableName = "UnrealFrontend.app"
                BlueprintName = "UnrealFrontend"
                ReferencedContainer = "container:UnrealFrontend.xcodeproj">

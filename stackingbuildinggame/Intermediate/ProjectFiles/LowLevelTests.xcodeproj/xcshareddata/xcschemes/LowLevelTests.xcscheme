@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F0BB0513DFEF7BF33442D202"
+               BlueprintIdentifier = "DE081B03D2884418D2B32920"
                BuildableName = "LowLevelTests"
                BlueprintName = "LowLevelTests"
                ReferencedContainer = "container:LowLevelTests.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F0BB0513DFEF7BF33442D202"
+            BlueprintIdentifier = "DE081B03D2884418D2B32920"
             BuildableName = "LowLevelTests"
             BlueprintName = "LowLevelTests"
             ReferencedContainer = "container:LowLevelTests.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F0BB0513DFEF7BF33442D202"
+            BlueprintIdentifier = "DE081B03D2884418D2B32920"
             BuildableName = "LowLevelTests"
             BlueprintName = "LowLevelTests"
             ReferencedContainer = "container:LowLevelTests.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F0BB0513DFEF7BF33442D202"
+            BlueprintIdentifier = "DE081B03D2884418D2B32920"
             BuildableName = "LowLevelTests"
             BlueprintName = "LowLevelTests"
             ReferencedContainer = "container:LowLevelTests.xcodeproj">
