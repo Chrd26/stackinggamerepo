@@ -9,30 +9,20 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
-		<key>DatasmithRhino6_Build.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>49</integer>
-		</dict>
-		<key>DatasmithRhino6_Index.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>48</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0B6D29F75A038565E53132EE</key>
+		<key>0C6D9AFA5A28C64238B83D50</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1AF7A4A47CE4E6BC7DAF9E67</key>
+		<key>99E8CDAD3C3B67068D11DC62</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A3C1B23AB70E5AADAC4C0252</key>
+		<key>E6018CCFEE04DC6E326C0B93</key>
 		<dict>
 			<key>primary</key>
 			<true/>

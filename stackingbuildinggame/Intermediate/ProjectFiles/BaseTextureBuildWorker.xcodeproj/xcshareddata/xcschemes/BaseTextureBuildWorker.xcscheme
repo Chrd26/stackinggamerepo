@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "223E78DC837E21D7270EC087"
+               BlueprintIdentifier = "0C763BAC6DCEF4BC0681009D"
                BuildableName = "BaseTextureBuildWorker"
                BlueprintName = "BaseTextureBuildWorker"
                ReferencedContainer = "container:BaseTextureBuildWorker.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "223E78DC837E21D7270EC087"
+            BlueprintIdentifier = "0C763BAC6DCEF4BC0681009D"
             BuildableName = "BaseTextureBuildWorker"
             BlueprintName = "BaseTextureBuildWorker"
             ReferencedContainer = "container:BaseTextureBuildWorker.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "223E78DC837E21D7270EC087"
+            BlueprintIdentifier = "0C763BAC6DCEF4BC0681009D"
             BuildableName = "BaseTextureBuildWorker"
             BlueprintName = "BaseTextureBuildWorker"
             ReferencedContainer = "container:BaseTextureBuildWorker.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "223E78DC837E21D7270EC087"
+            BlueprintIdentifier = "0C763BAC6DCEF4BC0681009D"
             BuildableName = "BaseTextureBuildWorker"
             BlueprintName = "BaseTextureBuildWorker"
             ReferencedContainer = "container:BaseTextureBuildWorker.xcodeproj">

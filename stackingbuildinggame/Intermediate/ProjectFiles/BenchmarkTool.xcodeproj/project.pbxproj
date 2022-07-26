@@ -20,11 +20,11 @@
 		A2007294997FCF8B248BB71C /* BenchmarkTool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "BenchmarkTool.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BenchmarkTool/Private/BenchmarkTool.cpp"; sourceTree = SOURCE_ROOT; };
 		F776F88B56F3CB7E3E02F627 /* BenchmarkTool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "BenchmarkTool.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BenchmarkTool/Private/BenchmarkTool.h"; sourceTree = SOURCE_ROOT; };
 		A7DF3635102A92DCE3FA9D23 /* BenchmarkTool.ico */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BenchmarkTool.ico"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BenchmarkTool/Resources/Windows/BenchmarkTool.ico"; sourceTree = SOURCE_ROOT; };
-		BA824DE8FE06086B8DB3C546 /* BenchmarkTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = BenchmarkTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC83792D1CB5D935B523E3C /* BenchmarkTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = BenchmarkTool; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		80CEDC290B34138E0625738C = {
+		7B43B62AA6827D7241B09716 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,7 +35,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	CF34E106FD204CAED80D8D2B /* Embed App Extensions */ = {
+	72476B08B2F4F2939158983C /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -47,36 +47,36 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		A879E687CBC7F6B2E4EB0CCF /* PBXContainerItemProxy */ = {
+		AF36F09EF7E470F5B3A0979B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FCB9E4E45661583A51E77D44 /* Project object */;
+			containerPortal = 80CEDC290B34138E0625738C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EF2F2C2D7B521941722727FA;
+			remoteGlobalIDString = FCB9E4E45661583A51E77D44;
 			remoteInfo = "BenchmarkTool_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		4FFB8598C7FD1FEEA5FF4FFE /* PBXTargetDependency */ = {
+		AAC1094E87A95C63EEB5DE44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EF2F2C2D7B521941722727FA /* BenchmarkTool_Build */;
-			targetProxy = A879E687CBC7F6B2E4EB0CCF /* PBXContainerItemProxy */;
+			target = FCB9E4E45661583A51E77D44 /* BenchmarkTool_Build */;
+			targetProxy = AF36F09EF7E470F5B3A0979B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		71CA9223584AE95CF8B3A23D = {
+		92F5C1CB23FE737E993CA289 = {
 			isa = PBXGroup;
 			children = (
-				32F808B9108EB698FC119887 /* Private */,
-				E0D44F31AA5893DCA3B8784E /* Resources */,
+				7C99498BC29687797FBA953B /* Private */,
+				F439DC25743EADE6A98F14D8 /* Resources */,
 				60DB4C992839E55BEC83FB27 /* BenchmarkTool.Build.cs */,
 				6EF1EB4E659A8BF798C986A9 /* BenchmarkTool.Target.cs */,
-				008B9F51485D4AB44BF23056 /* Products */,
+				6EC051C4A01336DA18138213 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		32F808B9108EB698FC119887 = {
+		7C99498BC29687797FBA953B = {
 			isa = PBXGroup;
 			children = (
 				A2007294997FCF8B248BB71C /* BenchmarkTool.cpp */,
@@ -86,16 +86,16 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BenchmarkTool/Private";
 			sourceTree = "<absolute>";
 		};
-		E0D44F31AA5893DCA3B8784E = {
+		F439DC25743EADE6A98F14D8 = {
 			isa = PBXGroup;
 			children = (
-				23D4997CBCD79D5AD9FA2AC0 /* Windows */,
+				6F7456CF331030B653B00023 /* Windows */,
 			);
 			name = "Resources";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BenchmarkTool/Resources";
 			sourceTree = "<absolute>";
 		};
-		23D4997CBCD79D5AD9FA2AC0 = {
+		6F7456CF331030B653B00023 = {
 			isa = PBXGroup;
 			children = (
 				A7DF3635102A92DCE3FA9D23 /* BenchmarkTool.ico */,
@@ -104,10 +104,10 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BenchmarkTool/Resources/Windows";
 			sourceTree = "<absolute>";
 		};
-		008B9F51485D4AB44BF23056 /* Products */ = {
+		6EC051C4A01336DA18138213 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA824DE8FE06086B8DB3C546 /* BenchmarkTool */,
+				9BC83792D1CB5D935B523E3C /* BenchmarkTool */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,10 +115,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		EF2F2C2D7B521941722727FA /* BenchmarkTool_Build */ = {
+		FCB9E4E45661583A51E77D44 /* BenchmarkTool_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = AAC1094E87A95C63EEB5DE44 /* Build configuration list for PBXLegacyTarget "BenchmarkTool_Build" */;
+			buildConfigurationList = 617A4A8EB731470A296DB2BE /* Build configuration list for PBXLegacyTarget "BenchmarkTool_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -132,30 +132,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		E8E9F4154174C8F32B9A40BF /* BenchmarkTool */ = {
+		BA824DE8FE06086B8DB3C546 /* BenchmarkTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41C225D0749148D5167D5B41 /* Build configuration list for PBXNativeTarget "BenchmarkTool" */;
+			buildConfigurationList = EF2F2C2D7B521941722727FA /* Build configuration list for PBXNativeTarget "BenchmarkTool" */;
 			buildPhases = (
-				CF34E106FD204CAED80D8D2B /* Embed App Extensions */, 
-				92F5C1CB23FE737E993CA289 /* Shell Script */, 
+				72476B08B2F4F2939158983C /* Embed App Extensions */, 
+				CF870DC4D7B3127F73AE4FE0 /* Shell Script */, 
 			);
 			dependencies = (
-				4FFB8598C7FD1FEEA5FF4FFE /* PBXTargetDependency */,
+				AAC1094E87A95C63EEB5DE44 /* PBXTargetDependency */,
 			);
 			name = "BenchmarkTool";
 			passBuildSettingsInEnvironment = 1;
 			productName = "BenchmarkTool";
-			productReference = "BA824DE8FE06086B8DB3C546";
+			productReference = "9BC83792D1CB5D935B523E3C";
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		AF36F09EF7E470F5B3A0979B /* BenchmarkTool_Index */ = {
+		71CA9223584AE95CF8B3A23D /* BenchmarkTool_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9BC83792D1CB5D935B523E3C /* Build configuration list for PBXNativeTarget "BenchmarkTool_Index" */;
+			buildConfigurationList = 008B9F51485D4AB44BF23056 /* Build configuration list for PBXNativeTarget "BenchmarkTool_Index" */;
 			buildPhases = (
-				80CEDC290B34138E0625738C /* Sources */,
+				7B43B62AA6827D7241B09716 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -167,38 +167,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FCB9E4E45661583A51E77D44 /* Project object */ = {
+		80CEDC290B34138E0625738C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					E8E9F4154174C8F32B9A40BF = {
+					BA824DE8FE06086B8DB3C546 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 617A4A8EB731470A296DB2BE /* Build configuration list for PBXProject "BenchmarkTool" */;
+			buildConfigurationList = CF34E106FD204CAED80D8D2B /* Build configuration list for PBXProject "BenchmarkTool" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 71CA9223584AE95CF8B3A23D;
-			productRefGroup = 008B9F51485D4AB44BF23056;
+			mainGroup = 92F5C1CB23FE737E993CA289;
+			productRefGroup = 6EC051C4A01336DA18138213;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			E8E9F4154174C8F32B9A40BF /* BenchmarkTool */,
-			EF2F2C2D7B521941722727FA /* BenchmarkTool_Build */,
-			AF36F09EF7E470F5B3A0979B /* BenchmarkTool_Index */,
+			BA824DE8FE06086B8DB3C546 /* BenchmarkTool */,
+			FCB9E4E45661583A51E77D44 /* BenchmarkTool_Build */,
+			71CA9223584AE95CF8B3A23D /* BenchmarkTool_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		6EC051C4A01336DA18138213 /* "Debug" */ = {
+		4848D716BE3048BD293B5258 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -240,7 +240,7 @@
 			};
 			name = "Debug";
 		};
-		4848D716BE3048BD293B5258 /* "DebugGame" */ = {
+		8AEE5E842C2C35CEECB9A105 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -281,7 +281,7 @@
 			};
 			name = "DebugGame";
 		};
-		8AEE5E842C2C35CEECB9A105 /* "Development" */ = {
+		BC02FBA753FF3ACCE6196A0B /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -322,7 +322,7 @@
 			};
 			name = "Development";
 		};
-		BC02FBA753FF3ACCE6196A0B /* "Test" */ = {
+		89579357672B9E4CAA80B1BD /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -363,7 +363,7 @@
 			};
 			name = "Test";
 		};
-		89579357672B9E4CAA80B1BD /* "Shipping" */ = {
+		AB869091D3569C85FE04E19C /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -404,7 +404,7 @@
 			};
 			name = "Shipping";
 		};
-		7B43B62AA6827D7241B09716 /* "Debug" */ = {
+		A82E282420EE8123AA795B1E /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -421,7 +421,7 @@
 			};
 			name = "Debug";
 		};
-		A82E282420EE8123AA795B1E /* "DebugGame" */ = {
+		94BA1F11988E611D6EBE0744 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -438,7 +438,7 @@
 			};
 			name = "DebugGame";
 		};
-		94BA1F11988E611D6EBE0744 /* "Development" */ = {
+		19666825D0E268A1B76F577A /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -455,7 +455,7 @@
 			};
 			name = "Development";
 		};
-		19666825D0E268A1B76F577A /* "Test" */ = {
+		37BD8B420F21B85B5203598F /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -472,7 +472,7 @@
 			};
 			name = "Test";
 		};
-		37BD8B420F21B85B5203598F /* "Shipping" */ = {
+		431EA6F2B847DA60CAA2315C /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -489,7 +489,7 @@
 			};
 			name = "Shipping";
 		};
-		72476B08B2F4F2939158983C /* "Debug" */ = {
+		74B99B8E9E18A2C3F78BBF6A /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -502,7 +502,7 @@
 			};
 			name = "Debug";
 		};
-		74B99B8E9E18A2C3F78BBF6A /* "DebugGame" */ = {
+		192013CF66C7E8BF9CF303AF /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -515,7 +515,7 @@
 			};
 			name = "DebugGame";
 		};
-		192013CF66C7E8BF9CF303AF /* "Development" */ = {
+		F696C77C40A40A4953BD1364 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -528,7 +528,7 @@
 			};
 			name = "Development";
 		};
-		F696C77C40A40A4953BD1364 /* "Test" */ = {
+		76CBE880A6B8C76AE3D7F3E8 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -541,7 +541,7 @@
 			};
 			name = "Test";
 		};
-		76CBE880A6B8C76AE3D7F3E8 /* "Shipping" */ = {
+		3F913C8C4A0DFFC866EDD51F /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -554,7 +554,7 @@
 			};
 			name = "Shipping";
 		};
-		CF870DC4D7B3127F73AE4FE0 /* "Debug" */ = {
+		1CDBD56110DB139335B51CA8 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -571,7 +571,7 @@
 			};
 			name = "Debug";
 		};
-		1CDBD56110DB139335B51CA8 /* "DebugGame" */ = {
+		B91D97CB55F17D6339D0CD55 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -588,7 +588,7 @@
 			};
 			name = "DebugGame";
 		};
-		B91D97CB55F17D6339D0CD55 /* "Development" */ = {
+		CC416B9DB836C99FB28BB2EF /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -605,7 +605,7 @@
 			};
 			name = "Development";
 		};
-		CC416B9DB836C99FB28BB2EF /* "Test" */ = {
+		11B2E1271EC6B94B8FAD65FB /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -622,7 +622,7 @@
 			};
 			name = "Test";
 		};
-		11B2E1271EC6B94B8FAD65FB /* "Shipping" */ = {
+		2736978D3B6DEA0CD145E300 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -642,55 +642,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		617A4A8EB731470A296DB2BE /* Build configuration list for PBXProject "BenchmarkTool" */ = {
+		CF34E106FD204CAED80D8D2B /* Build configuration list for PBXProject "BenchmarkTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EC051C4A01336DA18138213 /* "Debug" */,
-				4848D716BE3048BD293B5258 /* "DebugGame" */,
-				8AEE5E842C2C35CEECB9A105 /* "Development" */,
-				BC02FBA753FF3ACCE6196A0B /* "Test" */,
-				89579357672B9E4CAA80B1BD /* "Shipping" */,
+				4848D716BE3048BD293B5258 /* "Debug" */,
+				8AEE5E842C2C35CEECB9A105 /* "DebugGame" */,
+				BC02FBA753FF3ACCE6196A0B /* "Development" */,
+				89579357672B9E4CAA80B1BD /* "Test" */,
+				AB869091D3569C85FE04E19C /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		AAC1094E87A95C63EEB5DE44 /* Build configuration list for PBXLegacyTarget "BenchmarkTool_Build" */ = {
+		617A4A8EB731470A296DB2BE /* Build configuration list for PBXLegacyTarget "BenchmarkTool_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72476B08B2F4F2939158983C /* "Debug" */,
-				74B99B8E9E18A2C3F78BBF6A /* "DebugGame" */,
-				192013CF66C7E8BF9CF303AF /* "Development" */,
-				F696C77C40A40A4953BD1364 /* "Test" */,
-				76CBE880A6B8C76AE3D7F3E8 /* "Shipping" */,
+				74B99B8E9E18A2C3F78BBF6A /* "Debug" */,
+				192013CF66C7E8BF9CF303AF /* "DebugGame" */,
+				F696C77C40A40A4953BD1364 /* "Development" */,
+				76CBE880A6B8C76AE3D7F3E8 /* "Test" */,
+				3F913C8C4A0DFFC866EDD51F /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		41C225D0749148D5167D5B41 /* Build configuration list for PBXNativeTarget "BenchmarkTool" */ = {
+		EF2F2C2D7B521941722727FA /* Build configuration list for PBXNativeTarget "BenchmarkTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B43B62AA6827D7241B09716 /* "Debug" */,
-				A82E282420EE8123AA795B1E /* "DebugGame" */,
-				94BA1F11988E611D6EBE0744 /* "Development" */,
-				19666825D0E268A1B76F577A /* "Test" */,
-				37BD8B420F21B85B5203598F /* "Shipping" */,
+				A82E282420EE8123AA795B1E /* "Debug" */,
+				94BA1F11988E611D6EBE0744 /* "DebugGame" */,
+				19666825D0E268A1B76F577A /* "Development" */,
+				37BD8B420F21B85B5203598F /* "Test" */,
+				431EA6F2B847DA60CAA2315C /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		9BC83792D1CB5D935B523E3C /* Build configuration list for PBXNativeTarget "BenchmarkTool_Index" */ = {
+		008B9F51485D4AB44BF23056 /* Build configuration list for PBXNativeTarget "BenchmarkTool_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF870DC4D7B3127F73AE4FE0 /* "Debug" */,
-				1CDBD56110DB139335B51CA8 /* "DebugGame" */,
-				B91D97CB55F17D6339D0CD55 /* "Development" */,
-				CC416B9DB836C99FB28BB2EF /* "Test" */,
-				11B2E1271EC6B94B8FAD65FB /* "Shipping" */,
+				1CDBD56110DB139335B51CA8 /* "Debug" */,
+				B91D97CB55F17D6339D0CD55 /* "DebugGame" */,
+				CC416B9DB836C99FB28BB2EF /* "Development" */,
+				11B2E1271EC6B94B8FAD65FB /* "Test" */,
+				2736978D3B6DEA0CD145E300 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FCB9E4E45661583A51E77D44 /* Project object */;
+	rootObject = 80CEDC290B34138E0625738C /* Project object */;
 }

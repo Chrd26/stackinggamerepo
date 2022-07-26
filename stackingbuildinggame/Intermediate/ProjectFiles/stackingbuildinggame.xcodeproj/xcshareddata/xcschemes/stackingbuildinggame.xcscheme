@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "187E14E099299170421EF730"
+               BlueprintIdentifier = "6945838359EA50A52096EA2E"
                BuildableName = "stackingbuildinggame.app"
                BlueprintName = "stackingbuildinggame"
                ReferencedContainer = "container:stackingbuildinggame.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "187E14E099299170421EF730"
+               BlueprintIdentifier = "6945838359EA50A52096EA2E"
                BuildableName = "stackingbuildinggame.app"
                BlueprintName = "stackingbuildinggame"
                ReferencedContainer = "container:stackingbuildinggame.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "187E14E099299170421EF730"
+               BlueprintIdentifier = "6945838359EA50A52096EA2E"
                BuildableName = "stackingbuildinggame.app"
                BlueprintName = "stackingbuildinggame"
                ReferencedContainer = "container:stackingbuildinggame.xcodeproj">
@@ -83,7 +83,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "187E14E099299170421EF730"
+               BlueprintIdentifier = "6945838359EA50A52096EA2E"
                BuildableName = "stackingbuildinggame.app"
                BlueprintName = "stackingbuildinggame"
                ReferencedContainer = "container:stackingbuildinggame.xcodeproj">

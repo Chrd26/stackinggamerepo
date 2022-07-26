@@ -56,11 +56,11 @@
 		A172D898D9910545933A4785 /* CrashReportClientMainWindows.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportClientMainWindows.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/Windows/CrashReportClientMainWindows.cpp"; sourceTree = SOURCE_ROOT; };
 		31FAAB0DAD8A7EE6BC8E5BD7 /* CrashReportClientApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CrashReportClientApp.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Public/CrashReportClientApp.h"; sourceTree = SOURCE_ROOT; };
 		E38CF8786351FE43802067DF /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; name = "Info.plist"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Resources/Mac/Info.plist"; sourceTree = SOURCE_ROOT; };
-		16E9309B0BD4CC16E193BE44 /* CrashReportClient */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = CrashReportClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B15FD4C58B8E862682BB20 /* CrashReportClient */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = CrashReportClient; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2D25A4719BF09927C3DF8316 = {
+		0A6E6CFF8CB540D8AFF05FD7 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,7 +78,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	4E1AF44741920690A65475B4 /* Embed App Extensions */ = {
+	D111EBEFAE1708DFF8A81F9C /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -90,52 +90,52 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		A18659C9319CE0AE7FF6368D /* PBXContainerItemProxy */ = {
+		0F811D514D96AF0DC71564CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1944A2826AA36A6514581FCC /* Project object */;
+			containerPortal = 2D25A4719BF09927C3DF8316 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6467962E4EAB30ABFF90C2AE;
+			remoteGlobalIDString = 1944A2826AA36A6514581FCC;
 			remoteInfo = "CrashReportClient_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		11118C6927401D29261AAC90 /* PBXTargetDependency */ = {
+		DFEBBB87745F281BDAFF523D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6467962E4EAB30ABFF90C2AE /* CrashReportClient_Build */;
-			targetProxy = A18659C9319CE0AE7FF6368D /* PBXContainerItemProxy */;
+			target = 1944A2826AA36A6514581FCC /* CrashReportClient_Build */;
+			targetProxy = 0F811D514D96AF0DC71564CA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		FF54554F70CC168CC5FD3808 = {
+		11C31F873BD3306B0D6E214B = {
 			isa = PBXGroup;
 			children = (
-				040CD37438A2553241927A9A /* Programs */,
-				6FDC7694E77F483E35BF266D /* Source */,
-				F32CA323ABFEB5AD929346E6 /* Products */,
+				70151A7C07BF4729FD462701 /* Programs */,
+				0AB365056AA21A29B574218D /* Source */,
+				28A5F1D463104514A98CD490 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		040CD37438A2553241927A9A = {
+		70151A7C07BF4729FD462701 = {
 			isa = PBXGroup;
 			children = (
-				96784DB394E00C3892DA0E8D /* CrashReportClient */,
+				7259661C620DD5E3AC3543B8 /* CrashReportClient */,
 			);
 			name = "Programs";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs";
 			sourceTree = "<absolute>";
 		};
-		96784DB394E00C3892DA0E8D = {
+		7259661C620DD5E3AC3543B8 = {
 			isa = PBXGroup;
 			children = (
-				4D362FFCCB252F6DC5B2CC18 /* Config */,
+				6A77511392D0588E10C28BB5 /* Config */,
 			);
 			name = "CrashReportClient";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/CrashReportClient";
 			sourceTree = "<absolute>";
 		};
-		4D362FFCCB252F6DC5B2CC18 = {
+		6A77511392D0588E10C28BB5 = {
 			isa = PBXGroup;
 			children = (
 				F99F7AB878ACB67862656BC5 /* DefaultEngine.ini */,
@@ -144,30 +144,30 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/CrashReportClient/Config";
 			sourceTree = "<absolute>";
 		};
-		6FDC7694E77F483E35BF266D = {
+		0AB365056AA21A29B574218D = {
 			isa = PBXGroup;
 			children = (
-				70151A7C07BF4729FD462701 /* Programs */,
+				182CDB27EA42C03BD162128F /* Programs */,
 			);
 			name = "Source";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source";
 			sourceTree = "<absolute>";
 		};
-		70151A7C07BF4729FD462701 = {
+		182CDB27EA42C03BD162128F = {
 			isa = PBXGroup;
 			children = (
-				7259661C620DD5E3AC3543B8 /* CrashReportClient */,
+				6E34972DED98F0AFCDB111AF /* CrashReportClient */,
 			);
 			name = "Programs";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs";
 			sourceTree = "<absolute>";
 		};
-		7259661C620DD5E3AC3543B8 = {
+		6E34972DED98F0AFCDB111AF = {
 			isa = PBXGroup;
 			children = (
-				6A77511392D0588E10C28BB5 /* Private */,
-				A7CF78091A1A03F556C3FA65 /* Public */,
-				F431A3CD0150E3A8A1D69736 /* Resources */,
+				A7CF78091A1A03F556C3FA65 /* Private */,
+				F522AE7DCD690DD13842FD2C /* Public */,
+				DEE771E403934AC8B188044A /* Resources */,
 				48FDF6650AEFDFAE6E551624 /* CrashReportClient.Build.cs */,
 				CEDBC2E8B849B360A801E011 /* CrashReportClient.Target.cs */,
 				8F1A6A2D506D1AD7D9CA8CF9 /* CrashReportClientEditor.Build.cs */,
@@ -176,12 +176,12 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient";
 			sourceTree = "<absolute>";
 		};
-		6A77511392D0588E10C28BB5 = {
+		A7CF78091A1A03F556C3FA65 = {
 			isa = PBXGroup;
 			children = (
-				0AB365056AA21A29B574218D /* Linux */,
-				182CDB27EA42C03BD162128F /* Mac */,
-				6E34972DED98F0AFCDB111AF /* Windows */,
+				F431A3CD0150E3A8A1D69736 /* Linux */,
+				0BED3B1C8371C0671A2C7F1A /* Mac */,
+				C9B720B75E1C39AA393138BC /* Windows */,
 				B2187D3731EF43D8B7FBD5EF /* CrashReportAnalyticsSessionSummary.cpp */,
 				CC3842B31DB5168D97347B37 /* CrashReportAnalyticsSessionSummary.h */,
 				A35055A6B6E60F0FA0146AF9 /* CrashReportClient.cpp */,
@@ -201,7 +201,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private";
 			sourceTree = "<absolute>";
 		};
-		0AB365056AA21A29B574218D = {
+		F431A3CD0150E3A8A1D69736 = {
 			isa = PBXGroup;
 			children = (
 				FCEC91097720A355EFE862D8 /* CrashReportClientMainLinux.cpp */,
@@ -210,7 +210,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/Linux";
 			sourceTree = "<absolute>";
 		};
-		182CDB27EA42C03BD162128F = {
+		0BED3B1C8371C0671A2C7F1A = {
 			isa = PBXGroup;
 			children = (
 				C1F244FC4971130361CF96DD /* CrashReportClientMainMac.cpp */,
@@ -219,7 +219,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/Mac";
 			sourceTree = "<absolute>";
 		};
-		6E34972DED98F0AFCDB111AF = {
+		C9B720B75E1C39AA393138BC = {
 			isa = PBXGroup;
 			children = (
 				A172D898D9910545933A4785 /* CrashReportClientMainWindows.cpp */,
@@ -228,7 +228,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Private/Windows";
 			sourceTree = "<absolute>";
 		};
-		A7CF78091A1A03F556C3FA65 = {
+		F522AE7DCD690DD13842FD2C = {
 			isa = PBXGroup;
 			children = (
 				31FAAB0DAD8A7EE6BC8E5BD7 /* CrashReportClientApp.h */,
@@ -237,16 +237,16 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Public";
 			sourceTree = "<absolute>";
 		};
-		F431A3CD0150E3A8A1D69736 = {
+		DEE771E403934AC8B188044A = {
 			isa = PBXGroup;
 			children = (
-				0BED3B1C8371C0671A2C7F1A /* Mac */,
+				2F2B49849DEDFCD9B57F2660 /* Mac */,
 			);
 			name = "Resources";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Resources";
 			sourceTree = "<absolute>";
 		};
-		0BED3B1C8371C0671A2C7F1A = {
+		2F2B49849DEDFCD9B57F2660 = {
 			isa = PBXGroup;
 			children = (
 				E38CF8786351FE43802067DF /* Info.plist */,
@@ -255,10 +255,10 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/CrashReportClient/Resources/Mac";
 			sourceTree = "<absolute>";
 		};
-		F32CA323ABFEB5AD929346E6 /* Products */ = {
+		28A5F1D463104514A98CD490 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16E9309B0BD4CC16E193BE44 /* CrashReportClient */,
+				06B15FD4C58B8E862682BB20 /* CrashReportClient */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -266,10 +266,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		6467962E4EAB30ABFF90C2AE /* CrashReportClient_Build */ = {
+		1944A2826AA36A6514581FCC /* CrashReportClient_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = DFEBBB87745F281BDAFF523D /* Build configuration list for PBXLegacyTarget "CrashReportClient_Build" */;
+			buildConfigurationList = 8DDE5D69E1B4E6CA86F181C2 /* Build configuration list for PBXLegacyTarget "CrashReportClient_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -283,30 +283,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		6CEE3CD055F1D0BD6F6BD456 /* CrashReportClient */ = {
+		16E9309B0BD4CC16E193BE44 /* CrashReportClient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5AB20643439B4EC24550DA8 /* Build configuration list for PBXNativeTarget "CrashReportClient" */;
+			buildConfigurationList = 6467962E4EAB30ABFF90C2AE /* Build configuration list for PBXNativeTarget "CrashReportClient" */;
 			buildPhases = (
-				4E1AF44741920690A65475B4 /* Embed App Extensions */, 
-				11C31F873BD3306B0D6E214B /* Shell Script */, 
+				D111EBEFAE1708DFF8A81F9C /* Embed App Extensions */, 
+				A1312D950F600A84EF8E7DCD /* Shell Script */, 
 			);
 			dependencies = (
-				11118C6927401D29261AAC90 /* PBXTargetDependency */,
+				DFEBBB87745F281BDAFF523D /* PBXTargetDependency */,
 			);
 			name = "CrashReportClient";
 			passBuildSettingsInEnvironment = 1;
 			productName = "CrashReportClient";
-			productReference = "16E9309B0BD4CC16E193BE44";
+			productReference = "06B15FD4C58B8E862682BB20";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		0F811D514D96AF0DC71564CA /* CrashReportClient_Index */ = {
+		FF54554F70CC168CC5FD3808 /* CrashReportClient_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06B15FD4C58B8E862682BB20 /* Build configuration list for PBXNativeTarget "CrashReportClient_Index" */;
+			buildConfigurationList = F32CA323ABFEB5AD929346E6 /* Build configuration list for PBXNativeTarget "CrashReportClient_Index" */;
 			buildPhases = (
-				2D25A4719BF09927C3DF8316 /* Sources */,
+				0A6E6CFF8CB540D8AFF05FD7 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -318,38 +318,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1944A2826AA36A6514581FCC /* Project object */ = {
+		2D25A4719BF09927C3DF8316 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					6CEE3CD055F1D0BD6F6BD456 = {
+					16E9309B0BD4CC16E193BE44 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 8DDE5D69E1B4E6CA86F181C2 /* Build configuration list for PBXProject "CrashReportClient" */;
+			buildConfigurationList = 4E1AF44741920690A65475B4 /* Build configuration list for PBXProject "CrashReportClient" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = FF54554F70CC168CC5FD3808;
-			productRefGroup = F32CA323ABFEB5AD929346E6;
+			mainGroup = 11C31F873BD3306B0D6E214B;
+			productRefGroup = 28A5F1D463104514A98CD490;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			6CEE3CD055F1D0BD6F6BD456 /* CrashReportClient */,
-			6467962E4EAB30ABFF90C2AE /* CrashReportClient_Build */,
-			0F811D514D96AF0DC71564CA /* CrashReportClient_Index */,
+			16E9309B0BD4CC16E193BE44 /* CrashReportClient */,
+			1944A2826AA36A6514581FCC /* CrashReportClient_Build */,
+			FF54554F70CC168CC5FD3808 /* CrashReportClient_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		28A5F1D463104514A98CD490 /* "Debug" */ = {
+		6730DF582E499B3845190351 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -463,7 +463,7 @@
 			};
 			name = "Debug";
 		};
-		6730DF582E499B3845190351 /* "Development" */ = {
+		FA7700FAF71B7E98D284CF83 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -576,7 +576,7 @@
 			};
 			name = "Development";
 		};
-		FA7700FAF71B7E98D284CF83 /* "Shipping" */ = {
+		94EC566D1E6AEB111C2CB70E /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -689,7 +689,7 @@
 			};
 			name = "Shipping";
 		};
-		0A6E6CFF8CB540D8AFF05FD7 /* "Debug" */ = {
+		2555669284F497614FCF5E5A /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -706,7 +706,7 @@
 			};
 			name = "Debug";
 		};
-		2555669284F497614FCF5E5A /* "Development" */ = {
+		804C526A31C0BD06CEE85BD4 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -723,7 +723,7 @@
 			};
 			name = "Development";
 		};
-		804C526A31C0BD06CEE85BD4 /* "Shipping" */ = {
+		C6151EFB58234871F7E58F43 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -740,7 +740,7 @@
 			};
 			name = "Shipping";
 		};
-		D111EBEFAE1708DFF8A81F9C /* "Debug" */ = {
+		88AAC84FE5DBE842941E877D /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -753,7 +753,7 @@
 			};
 			name = "Debug";
 		};
-		88AAC84FE5DBE842941E877D /* "Development" */ = {
+		43E8546879D72CAC3A0F556D /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -766,7 +766,7 @@
 			};
 			name = "Development";
 		};
-		43E8546879D72CAC3A0F556D /* "Shipping" */ = {
+		754465DF3DA8F315B994D48C /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -779,7 +779,7 @@
 			};
 			name = "Shipping";
 		};
-		A1312D950F600A84EF8E7DCD /* "Debug" */ = {
+		37B0B1AF0CE656872EDC70B9 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -796,7 +796,7 @@
 			};
 			name = "Debug";
 		};
-		37B0B1AF0CE656872EDC70B9 /* "Development" */ = {
+		DAEE4B78A0EFABB3E02E2EC0 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -813,7 +813,7 @@
 			};
 			name = "Development";
 		};
-		DAEE4B78A0EFABB3E02E2EC0 /* "Shipping" */ = {
+		80BE8DD0244350AE363CB18A /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -833,47 +833,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8DDE5D69E1B4E6CA86F181C2 /* Build configuration list for PBXProject "CrashReportClient" */ = {
+		4E1AF44741920690A65475B4 /* Build configuration list for PBXProject "CrashReportClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28A5F1D463104514A98CD490 /* "Debug" */,
-				6730DF582E499B3845190351 /* "Development" */,
-				FA7700FAF71B7E98D284CF83 /* "Shipping" */,
+				6730DF582E499B3845190351 /* "Debug" */,
+				FA7700FAF71B7E98D284CF83 /* "Development" */,
+				94EC566D1E6AEB111C2CB70E /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		DFEBBB87745F281BDAFF523D /* Build configuration list for PBXLegacyTarget "CrashReportClient_Build" */ = {
+		8DDE5D69E1B4E6CA86F181C2 /* Build configuration list for PBXLegacyTarget "CrashReportClient_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D111EBEFAE1708DFF8A81F9C /* "Debug" */,
-				88AAC84FE5DBE842941E877D /* "Development" */,
-				43E8546879D72CAC3A0F556D /* "Shipping" */,
+				88AAC84FE5DBE842941E877D /* "Debug" */,
+				43E8546879D72CAC3A0F556D /* "Development" */,
+				754465DF3DA8F315B994D48C /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		C5AB20643439B4EC24550DA8 /* Build configuration list for PBXNativeTarget "CrashReportClient" */ = {
+		6467962E4EAB30ABFF90C2AE /* Build configuration list for PBXNativeTarget "CrashReportClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A6E6CFF8CB540D8AFF05FD7 /* "Debug" */,
-				2555669284F497614FCF5E5A /* "Development" */,
-				804C526A31C0BD06CEE85BD4 /* "Shipping" */,
+				2555669284F497614FCF5E5A /* "Debug" */,
+				804C526A31C0BD06CEE85BD4 /* "Development" */,
+				C6151EFB58234871F7E58F43 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		06B15FD4C58B8E862682BB20 /* Build configuration list for PBXNativeTarget "CrashReportClient_Index" */ = {
+		F32CA323ABFEB5AD929346E6 /* Build configuration list for PBXNativeTarget "CrashReportClient_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1312D950F600A84EF8E7DCD /* "Debug" */,
-				37B0B1AF0CE656872EDC70B9 /* "Development" */,
-				DAEE4B78A0EFABB3E02E2EC0 /* "Shipping" */,
+				37B0B1AF0CE656872EDC70B9 /* "Debug" */,
+				DAEE4B78A0EFABB3E02E2EC0 /* "Development" */,
+				80BE8DD0244350AE363CB18A /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1944A2826AA36A6514581FCC /* Project object */;
+	rootObject = 2D25A4719BF09927C3DF8316 /* Project object */;
 }

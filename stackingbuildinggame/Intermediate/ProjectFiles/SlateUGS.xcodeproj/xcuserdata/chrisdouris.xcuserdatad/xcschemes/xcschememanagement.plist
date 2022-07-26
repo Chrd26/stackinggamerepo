@@ -9,30 +9,20 @@
 			<key>orderHint</key>
 			<integer>24</integer>
 		</dict>
-		<key>SlateUGS_Build.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>84</integer>
-		</dict>
-		<key>SlateUGS_Index.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>62</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2DD10A310444420E5FBE2A27</key>
+		<key>359A99DA5AC6FEFF53C484D9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>435107EFDFD4136B2E9486D2</key>
+		<key>0DBE969CCED20B95F0873BD3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CF969E79D2543ABFD4751C21</key>
+		<key>3EB93EB050441978D2F9A610</key>
 		<dict>
 			<key>primary</key>
 			<true/>

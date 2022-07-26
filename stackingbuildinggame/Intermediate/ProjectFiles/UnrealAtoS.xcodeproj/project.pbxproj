@@ -20,11 +20,11 @@
 		E622A8DE1620136A54D9FAA4 /* UnrealAtoSApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealAtoSApp.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Mac/UnrealAtoS/Public/UnrealAtoSApp.h"; sourceTree = SOURCE_ROOT; };
 		33CBB5B73AD4A9D653733DC2 /* UnrealAtoS.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealAtoS.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Mac/UnrealAtoS/UnrealAtoS.Build.cs"; sourceTree = SOURCE_ROOT; };
 		8915B59745870EF5BBE1C46F /* UnrealAtoS.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealAtoS.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Mac/UnrealAtoS/UnrealAtoS.Target.cs"; sourceTree = SOURCE_ROOT; };
-		0243BC0E1F8682A6038E71FE /* UnrealAtoS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = UnrealAtoS; sourceTree = BUILT_PRODUCTS_DIR; };
+		84087C334F813BADE1C42C69 /* UnrealAtoS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = UnrealAtoS; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3FC118BFAC9D98D21F5E1D2E = {
+		4B55A2795BE37EF66C7198A4 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,7 +36,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	7BE62B2607952374FA4954A7 /* Embed App Extensions */ = {
+	AF3C32D9CEE870A15BA869F3 /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -48,46 +48,46 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		CF5050D3FA142A7FDDF0CBDA /* PBXContainerItemProxy */ = {
+		2805CFCB0724BF40DE52E579 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EF0EFED145CEB16EFDDAF9FD /* Project object */;
+			containerPortal = 3FC118BFAC9D98D21F5E1D2E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ED808F2203AAA1499F5462F7;
+			remoteGlobalIDString = EF0EFED145CEB16EFDDAF9FD;
 			remoteInfo = "UnrealAtoS_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		92185985F8E514EF5189CBC2 /* PBXTargetDependency */ = {
+		E1B69673A73149A24C7F83B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ED808F2203AAA1499F5462F7 /* UnrealAtoS_Build */;
-			targetProxy = CF5050D3FA142A7FDDF0CBDA /* PBXContainerItemProxy */;
+			target = EF0EFED145CEB16EFDDAF9FD /* UnrealAtoS_Build */;
+			targetProxy = 2805CFCB0724BF40DE52E579 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		B41653CA43D6D364D965DBF8 = {
+		2608EE5BA0459035BEDA8B82 = {
 			isa = PBXGroup;
 			children = (
-				7C47A7954D488DC6765C9B92 /* Private */,
-				4842D578F959F40BC0BCE2B7 /* Public */,
+				CFD8AE4FC7D430CCBAD54D0A /* Private */,
+				C0BEA2B8238B0F131453A920 /* Public */,
 				33CBB5B73AD4A9D653733DC2 /* UnrealAtoS.Build.cs */,
 				8915B59745870EF5BBE1C46F /* UnrealAtoS.Target.cs */,
-				25EDFB10A1767CA90E7F5878 /* Products */,
+				BD14B73BCD09D9C7D0CC94BA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7C47A7954D488DC6765C9B92 = {
+		CFD8AE4FC7D430CCBAD54D0A = {
 			isa = PBXGroup;
 			children = (
-				CE190AC21F35D9121DB08DD2 /* Mac */,
+				7314CC1D688FD1123653F99B /* Mac */,
 				D3A346A695516AF61994FF50 /* UnrealAtoSApp.cpp */,
 			);
 			name = "Private";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Mac/UnrealAtoS/Private";
 			sourceTree = "<absolute>";
 		};
-		CE190AC21F35D9121DB08DD2 = {
+		7314CC1D688FD1123653F99B = {
 			isa = PBXGroup;
 			children = (
 				ACF1A92D4F2A457A9799E496 /* UnrealAtoSMainMac.cpp */,
@@ -96,7 +96,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Mac/UnrealAtoS/Private/Mac";
 			sourceTree = "<absolute>";
 		};
-		4842D578F959F40BC0BCE2B7 = {
+		C0BEA2B8238B0F131453A920 = {
 			isa = PBXGroup;
 			children = (
 				E622A8DE1620136A54D9FAA4 /* UnrealAtoSApp.h */,
@@ -105,10 +105,10 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Mac/UnrealAtoS/Public";
 			sourceTree = "<absolute>";
 		};
-		25EDFB10A1767CA90E7F5878 /* Products */ = {
+		BD14B73BCD09D9C7D0CC94BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0243BC0E1F8682A6038E71FE /* UnrealAtoS */,
+				84087C334F813BADE1C42C69 /* UnrealAtoS */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,10 +116,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		ED808F2203AAA1499F5462F7 /* UnrealAtoS_Build */ = {
+		EF0EFED145CEB16EFDDAF9FD /* UnrealAtoS_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = E1B69673A73149A24C7F83B4 /* Build configuration list for PBXLegacyTarget "UnrealAtoS_Build" */;
+			buildConfigurationList = DAD6427A9422188FD11DEF9F /* Build configuration list for PBXLegacyTarget "UnrealAtoS_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -133,30 +133,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		79B4B60316470688071799F3 /* UnrealAtoS */ = {
+		0243BC0E1F8682A6038E71FE /* UnrealAtoS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D26A17314732899188D2B127 /* Build configuration list for PBXNativeTarget "UnrealAtoS" */;
+			buildConfigurationList = ED808F2203AAA1499F5462F7 /* Build configuration list for PBXNativeTarget "UnrealAtoS" */;
 			buildPhases = (
-				7BE62B2607952374FA4954A7 /* Embed App Extensions */, 
-				2608EE5BA0459035BEDA8B82 /* Shell Script */, 
+				AF3C32D9CEE870A15BA869F3 /* Embed App Extensions */, 
+				DDE8A7F16F8DD65A74330F4A /* Shell Script */, 
 			);
 			dependencies = (
-				92185985F8E514EF5189CBC2 /* PBXTargetDependency */,
+				E1B69673A73149A24C7F83B4 /* PBXTargetDependency */,
 			);
 			name = "UnrealAtoS";
 			passBuildSettingsInEnvironment = 1;
 			productName = "UnrealAtoS";
-			productReference = "0243BC0E1F8682A6038E71FE";
+			productReference = "84087C334F813BADE1C42C69";
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		2805CFCB0724BF40DE52E579 /* UnrealAtoS_Index */ = {
+		B41653CA43D6D364D965DBF8 /* UnrealAtoS_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84087C334F813BADE1C42C69 /* Build configuration list for PBXNativeTarget "UnrealAtoS_Index" */;
+			buildConfigurationList = 25EDFB10A1767CA90E7F5878 /* Build configuration list for PBXNativeTarget "UnrealAtoS_Index" */;
 			buildPhases = (
-				3FC118BFAC9D98D21F5E1D2E /* Sources */,
+				4B55A2795BE37EF66C7198A4 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -168,38 +168,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EF0EFED145CEB16EFDDAF9FD /* Project object */ = {
+		3FC118BFAC9D98D21F5E1D2E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					79B4B60316470688071799F3 = {
+					0243BC0E1F8682A6038E71FE = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = DAD6427A9422188FD11DEF9F /* Build configuration list for PBXProject "UnrealAtoS" */;
+			buildConfigurationList = 7BE62B2607952374FA4954A7 /* Build configuration list for PBXProject "UnrealAtoS" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = B41653CA43D6D364D965DBF8;
-			productRefGroup = 25EDFB10A1767CA90E7F5878;
+			mainGroup = 2608EE5BA0459035BEDA8B82;
+			productRefGroup = BD14B73BCD09D9C7D0CC94BA;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			79B4B60316470688071799F3 /* UnrealAtoS */,
-			ED808F2203AAA1499F5462F7 /* UnrealAtoS_Build */,
-			2805CFCB0724BF40DE52E579 /* UnrealAtoS_Index */,
+			0243BC0E1F8682A6038E71FE /* UnrealAtoS */,
+			EF0EFED145CEB16EFDDAF9FD /* UnrealAtoS_Build */,
+			B41653CA43D6D364D965DBF8 /* UnrealAtoS_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		BD14B73BCD09D9C7D0CC94BA /* "Debug" */ = {
+		A317D9DA5B94164C7C138C90 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -254,7 +254,7 @@
 			};
 			name = "Debug";
 		};
-		A317D9DA5B94164C7C138C90 /* "DebugGame" */ = {
+		94EEFD81D36D5EF37B659ECE /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -308,7 +308,7 @@
 			};
 			name = "DebugGame";
 		};
-		94EEFD81D36D5EF37B659ECE /* "Development" */ = {
+		6B38E74CB22AA5521536D439 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -362,7 +362,7 @@
 			};
 			name = "Development";
 		};
-		6B38E74CB22AA5521536D439 /* "Test" */ = {
+		87915A7F1BC16E653BB3E50E /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -416,7 +416,7 @@
 			};
 			name = "Test";
 		};
-		87915A7F1BC16E653BB3E50E /* "Shipping" */ = {
+		ACB1A33C18BBCCCBD0D67A07 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -470,7 +470,7 @@
 			};
 			name = "Shipping";
 		};
-		4B55A2795BE37EF66C7198A4 /* "Debug" */ = {
+		D700F9E85CF25FA2ECAF9B73 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -487,7 +487,7 @@
 			};
 			name = "Debug";
 		};
-		D700F9E85CF25FA2ECAF9B73 /* "DebugGame" */ = {
+		0E37B13EE30F63EFC942D9C6 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -504,7 +504,7 @@
 			};
 			name = "DebugGame";
 		};
-		0E37B13EE30F63EFC942D9C6 /* "Development" */ = {
+		5C8FBBAA4E785BF6EC05FD34 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -521,7 +521,7 @@
 			};
 			name = "Development";
 		};
-		5C8FBBAA4E785BF6EC05FD34 /* "Test" */ = {
+		C31E4BE4669E57A72CBBC083 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -538,7 +538,7 @@
 			};
 			name = "Test";
 		};
-		C31E4BE4669E57A72CBBC083 /* "Shipping" */ = {
+		3C79F64759EECE551FD50E16 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -555,7 +555,7 @@
 			};
 			name = "Shipping";
 		};
-		AF3C32D9CEE870A15BA869F3 /* "Debug" */ = {
+		3C8D86DE9A3E307C2DE736B6 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -568,7 +568,7 @@
 			};
 			name = "Debug";
 		};
-		3C8D86DE9A3E307C2DE736B6 /* "DebugGame" */ = {
+		AD9910CE38D1172572174AAB /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -581,7 +581,7 @@
 			};
 			name = "DebugGame";
 		};
-		AD9910CE38D1172572174AAB /* "Development" */ = {
+		66A367860730CF35E1B563FF /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -594,7 +594,7 @@
 			};
 			name = "Development";
 		};
-		66A367860730CF35E1B563FF /* "Test" */ = {
+		051385F46FF359F6406EFF75 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -607,7 +607,7 @@
 			};
 			name = "Test";
 		};
-		051385F46FF359F6406EFF75 /* "Shipping" */ = {
+		8337602EF6899DA08E3247BD /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -620,7 +620,7 @@
 			};
 			name = "Shipping";
 		};
-		DDE8A7F16F8DD65A74330F4A /* "Debug" */ = {
+		0E9545C6921D76CA5C161A6F /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -637,7 +637,7 @@
 			};
 			name = "Debug";
 		};
-		0E9545C6921D76CA5C161A6F /* "DebugGame" */ = {
+		40AEA9BF88423BA8F777B85B /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -654,7 +654,7 @@
 			};
 			name = "DebugGame";
 		};
-		40AEA9BF88423BA8F777B85B /* "Development" */ = {
+		E9CB734871F8960ADA6F62F8 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -671,7 +671,7 @@
 			};
 			name = "Development";
 		};
-		E9CB734871F8960ADA6F62F8 /* "Test" */ = {
+		D6501A2046FDC436E5648452 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -688,7 +688,7 @@
 			};
 			name = "Test";
 		};
-		D6501A2046FDC436E5648452 /* "Shipping" */ = {
+		4F1CDE85A133A5FFD613E4CC /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -708,55 +708,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DAD6427A9422188FD11DEF9F /* Build configuration list for PBXProject "UnrealAtoS" */ = {
+		7BE62B2607952374FA4954A7 /* Build configuration list for PBXProject "UnrealAtoS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD14B73BCD09D9C7D0CC94BA /* "Debug" */,
-				A317D9DA5B94164C7C138C90 /* "DebugGame" */,
-				94EEFD81D36D5EF37B659ECE /* "Development" */,
-				6B38E74CB22AA5521536D439 /* "Test" */,
-				87915A7F1BC16E653BB3E50E /* "Shipping" */,
+				A317D9DA5B94164C7C138C90 /* "Debug" */,
+				94EEFD81D36D5EF37B659ECE /* "DebugGame" */,
+				6B38E74CB22AA5521536D439 /* "Development" */,
+				87915A7F1BC16E653BB3E50E /* "Test" */,
+				ACB1A33C18BBCCCBD0D67A07 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		E1B69673A73149A24C7F83B4 /* Build configuration list for PBXLegacyTarget "UnrealAtoS_Build" */ = {
+		DAD6427A9422188FD11DEF9F /* Build configuration list for PBXLegacyTarget "UnrealAtoS_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF3C32D9CEE870A15BA869F3 /* "Debug" */,
-				3C8D86DE9A3E307C2DE736B6 /* "DebugGame" */,
-				AD9910CE38D1172572174AAB /* "Development" */,
-				66A367860730CF35E1B563FF /* "Test" */,
-				051385F46FF359F6406EFF75 /* "Shipping" */,
+				3C8D86DE9A3E307C2DE736B6 /* "Debug" */,
+				AD9910CE38D1172572174AAB /* "DebugGame" */,
+				66A367860730CF35E1B563FF /* "Development" */,
+				051385F46FF359F6406EFF75 /* "Test" */,
+				8337602EF6899DA08E3247BD /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		D26A17314732899188D2B127 /* Build configuration list for PBXNativeTarget "UnrealAtoS" */ = {
+		ED808F2203AAA1499F5462F7 /* Build configuration list for PBXNativeTarget "UnrealAtoS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B55A2795BE37EF66C7198A4 /* "Debug" */,
-				D700F9E85CF25FA2ECAF9B73 /* "DebugGame" */,
-				0E37B13EE30F63EFC942D9C6 /* "Development" */,
-				5C8FBBAA4E785BF6EC05FD34 /* "Test" */,
-				C31E4BE4669E57A72CBBC083 /* "Shipping" */,
+				D700F9E85CF25FA2ECAF9B73 /* "Debug" */,
+				0E37B13EE30F63EFC942D9C6 /* "DebugGame" */,
+				5C8FBBAA4E785BF6EC05FD34 /* "Development" */,
+				C31E4BE4669E57A72CBBC083 /* "Test" */,
+				3C79F64759EECE551FD50E16 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		84087C334F813BADE1C42C69 /* Build configuration list for PBXNativeTarget "UnrealAtoS_Index" */ = {
+		25EDFB10A1767CA90E7F5878 /* Build configuration list for PBXNativeTarget "UnrealAtoS_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDE8A7F16F8DD65A74330F4A /* "Debug" */,
-				0E9545C6921D76CA5C161A6F /* "DebugGame" */,
-				40AEA9BF88423BA8F777B85B /* "Development" */,
-				E9CB734871F8960ADA6F62F8 /* "Test" */,
-				D6501A2046FDC436E5648452 /* "Shipping" */,
+				0E9545C6921D76CA5C161A6F /* "Debug" */,
+				40AEA9BF88423BA8F777B85B /* "DebugGame" */,
+				E9CB734871F8960ADA6F62F8 /* "Development" */,
+				D6501A2046FDC436E5648452 /* "Test" */,
+				4F1CDE85A133A5FFD613E4CC /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EF0EFED145CEB16EFDDAF9FD /* Project object */;
+	rootObject = 3FC118BFAC9D98D21F5E1D2E /* Project object */;
 }

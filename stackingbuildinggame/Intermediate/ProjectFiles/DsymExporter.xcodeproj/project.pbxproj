@@ -20,11 +20,11 @@
 		BC0EF0D987C772F77CF6258E /* DsymExporterApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DsymExporterApp.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Mac/DsymExporter/Private/DsymExporterApp.cpp"; sourceTree = SOURCE_ROOT; };
 		9C913F2CCC265D4A5EECBC03 /* DsymExporterMainMac.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DsymExporterMainMac.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Mac/DsymExporter/Private/Mac/DsymExporterMainMac.cpp"; sourceTree = SOURCE_ROOT; };
 		EE091F321B20AA885AC63DF6 /* DsymExporterApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DsymExporterApp.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Mac/DsymExporter/Public/DsymExporterApp.h"; sourceTree = SOURCE_ROOT; };
-		C3870CF621EC1C84EE4BA651 /* DsymExporter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DsymExporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B3FDD41B8DDD0F939BF625 /* DsymExporter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DsymExporter; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2AAADF3ED47CF38E22739B34 = {
+		50E9FDF2F4C30D63F8ECB150 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,7 +36,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	45FCD129787267B548C7B1F2 /* Embed App Extensions */ = {
+	29E23B38AA4D0C79C3A5B56B /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -48,46 +48,46 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		E951D7236FDB78CEFC540F35 /* PBXContainerItemProxy */ = {
+		762FCB731E24839EAA86C88F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F582A245D56860A67CC34EA1 /* Project object */;
+			containerPortal = 2AAADF3ED47CF38E22739B34 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5ADFA2C5D127388157B4F471;
+			remoteGlobalIDString = F582A245D56860A67CC34EA1;
 			remoteInfo = "DsymExporter_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		9200E926668225ED5F3AA871 /* PBXTargetDependency */ = {
+		FFFBF699E1A8763DF0B362DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5ADFA2C5D127388157B4F471 /* DsymExporter_Build */;
-			targetProxy = E951D7236FDB78CEFC540F35 /* PBXContainerItemProxy */;
+			target = F582A245D56860A67CC34EA1 /* DsymExporter_Build */;
+			targetProxy = 762FCB731E24839EAA86C88F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		AAA12263D5534BDB39A57D9B = {
+		8C83531053EAC94D27CC382B = {
 			isa = PBXGroup;
 			children = (
-				922504489D76B59E9F6EE855 /* Private */,
-				9776E39D4419750341A9180A /* Public */,
+				D26A17314732899188D2B127 /* Private */,
+				CF5050D3FA142A7FDDF0CBDA /* Public */,
 				ED964D78117D5C3681D3F675 /* DsymExporter.Build.cs */,
 				6098A6B9231A52AC3635F59D /* DsymExporter.Target.cs */,
-				813DC84226211275655C7955 /* Products */,
+				730D07BCB2EE790DA294FC29 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		922504489D76B59E9F6EE855 = {
+		D26A17314732899188D2B127 = {
 			isa = PBXGroup;
 			children = (
-				98699344778553671A019C31 /* Mac */,
+				92185985F8E514EF5189CBC2 /* Mac */,
 				BC0EF0D987C772F77CF6258E /* DsymExporterApp.cpp */,
 			);
 			name = "Private";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Mac/DsymExporter/Private";
 			sourceTree = "<absolute>";
 		};
-		98699344778553671A019C31 = {
+		92185985F8E514EF5189CBC2 = {
 			isa = PBXGroup;
 			children = (
 				9C913F2CCC265D4A5EECBC03 /* DsymExporterMainMac.cpp */,
@@ -96,7 +96,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Mac/DsymExporter/Private/Mac";
 			sourceTree = "<absolute>";
 		};
-		9776E39D4419750341A9180A = {
+		CF5050D3FA142A7FDDF0CBDA = {
 			isa = PBXGroup;
 			children = (
 				EE091F321B20AA885AC63DF6 /* DsymExporterApp.h */,
@@ -105,10 +105,10 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Mac/DsymExporter/Public";
 			sourceTree = "<absolute>";
 		};
-		813DC84226211275655C7955 /* Products */ = {
+		730D07BCB2EE790DA294FC29 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C3870CF621EC1C84EE4BA651 /* DsymExporter */,
+				39B3FDD41B8DDD0F939BF625 /* DsymExporter */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,10 +116,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		5ADFA2C5D127388157B4F471 /* DsymExporter_Build */ = {
+		F582A245D56860A67CC34EA1 /* DsymExporter_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = FFFBF699E1A8763DF0B362DE /* Build configuration list for PBXLegacyTarget "DsymExporter_Build" */;
+			buildConfigurationList = 5BC563333055C6793266602E /* Build configuration list for PBXLegacyTarget "DsymExporter_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -133,30 +133,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		DE65BE385144060948F61598 /* DsymExporter */ = {
+		C3870CF621EC1C84EE4BA651 /* DsymExporter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC0025DDC2D71E66755A7772 /* Build configuration list for PBXNativeTarget "DsymExporter" */;
+			buildConfigurationList = 5ADFA2C5D127388157B4F471 /* Build configuration list for PBXNativeTarget "DsymExporter" */;
 			buildPhases = (
-				45FCD129787267B548C7B1F2 /* Embed App Extensions */, 
-				8C83531053EAC94D27CC382B /* Shell Script */, 
+				29E23B38AA4D0C79C3A5B56B /* Embed App Extensions */, 
+				6BAB03594EA34FF8872ABF6A /* Shell Script */, 
 			);
 			dependencies = (
-				9200E926668225ED5F3AA871 /* PBXTargetDependency */,
+				FFFBF699E1A8763DF0B362DE /* PBXTargetDependency */,
 			);
 			name = "DsymExporter";
 			passBuildSettingsInEnvironment = 1;
 			productName = "DsymExporter";
-			productReference = "C3870CF621EC1C84EE4BA651";
+			productReference = "39B3FDD41B8DDD0F939BF625";
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		762FCB731E24839EAA86C88F /* DsymExporter_Index */ = {
+		AAA12263D5534BDB39A57D9B /* DsymExporter_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39B3FDD41B8DDD0F939BF625 /* Build configuration list for PBXNativeTarget "DsymExporter_Index" */;
+			buildConfigurationList = 813DC84226211275655C7955 /* Build configuration list for PBXNativeTarget "DsymExporter_Index" */;
 			buildPhases = (
-				2AAADF3ED47CF38E22739B34 /* Sources */,
+				50E9FDF2F4C30D63F8ECB150 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -168,38 +168,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F582A245D56860A67CC34EA1 /* Project object */ = {
+		2AAADF3ED47CF38E22739B34 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					DE65BE385144060948F61598 = {
+					C3870CF621EC1C84EE4BA651 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 5BC563333055C6793266602E /* Build configuration list for PBXProject "DsymExporter" */;
+			buildConfigurationList = 45FCD129787267B548C7B1F2 /* Build configuration list for PBXProject "DsymExporter" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = AAA12263D5534BDB39A57D9B;
-			productRefGroup = 813DC84226211275655C7955;
+			mainGroup = 8C83531053EAC94D27CC382B;
+			productRefGroup = 730D07BCB2EE790DA294FC29;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			DE65BE385144060948F61598 /* DsymExporter */,
-			5ADFA2C5D127388157B4F471 /* DsymExporter_Build */,
-			762FCB731E24839EAA86C88F /* DsymExporter_Index */,
+			C3870CF621EC1C84EE4BA651 /* DsymExporter */,
+			F582A245D56860A67CC34EA1 /* DsymExporter_Build */,
+			AAA12263D5534BDB39A57D9B /* DsymExporter_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		730D07BCB2EE790DA294FC29 /* "Debug" */ = {
+		ECD75964BFD532875BB693CF /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -254,7 +254,7 @@
 			};
 			name = "Debug";
 		};
-		ECD75964BFD532875BB693CF /* "DebugGame" */ = {
+		40F97004C514375A500FA40B /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -308,7 +308,7 @@
 			};
 			name = "DebugGame";
 		};
-		40F97004C514375A500FA40B /* "Development" */ = {
+		436CC78386C316B0978F3A4D /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -362,7 +362,7 @@
 			};
 			name = "Development";
 		};
-		436CC78386C316B0978F3A4D /* "Test" */ = {
+		190406EBAF74CBFC139F28E7 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -416,7 +416,7 @@
 			};
 			name = "Test";
 		};
-		190406EBAF74CBFC139F28E7 /* "Shipping" */ = {
+		C1F1066BE8F5F55990D8D9F9 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -470,7 +470,7 @@
 			};
 			name = "Shipping";
 		};
-		50E9FDF2F4C30D63F8ECB150 /* "Debug" */ = {
+		B3416355888365AA33928649 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -487,7 +487,7 @@
 			};
 			name = "Debug";
 		};
-		B3416355888365AA33928649 /* "DebugGame" */ = {
+		C0DDEAA2ED94ACE3F69062E0 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -504,7 +504,7 @@
 			};
 			name = "DebugGame";
 		};
-		C0DDEAA2ED94ACE3F69062E0 /* "Development" */ = {
+		DD32D77EDD17FEB9C9475928 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -521,7 +521,7 @@
 			};
 			name = "Development";
 		};
-		DD32D77EDD17FEB9C9475928 /* "Test" */ = {
+		7911A21AB21F033A71C0742E /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -538,7 +538,7 @@
 			};
 			name = "Test";
 		};
-		7911A21AB21F033A71C0742E /* "Shipping" */ = {
+		AC66C07201B97995269AA3C0 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -555,7 +555,7 @@
 			};
 			name = "Shipping";
 		};
-		29E23B38AA4D0C79C3A5B56B /* "Debug" */ = {
+		C0B314549CB9C9FE22D04BD3 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -568,7 +568,7 @@
 			};
 			name = "Debug";
 		};
-		C0B314549CB9C9FE22D04BD3 /* "DebugGame" */ = {
+		C977370483D1328C0C0714A3 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -581,7 +581,7 @@
 			};
 			name = "DebugGame";
 		};
-		C977370483D1328C0C0714A3 /* "Development" */ = {
+		5A9E4A050D7DDD1B4AA2C016 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -594,7 +594,7 @@
 			};
 			name = "Development";
 		};
-		5A9E4A050D7DDD1B4AA2C016 /* "Test" */ = {
+		11B5C8653CA09D6E6EE3EB08 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -607,7 +607,7 @@
 			};
 			name = "Test";
 		};
-		11B5C8653CA09D6E6EE3EB08 /* "Shipping" */ = {
+		B32D63ACBD08A7F3E5E8A44B /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -620,7 +620,7 @@
 			};
 			name = "Shipping";
 		};
-		6BAB03594EA34FF8872ABF6A /* "Debug" */ = {
+		F3A7B9EE732E0FB41733A60C /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -637,7 +637,7 @@
 			};
 			name = "Debug";
 		};
-		F3A7B9EE732E0FB41733A60C /* "DebugGame" */ = {
+		48C5390D98F082E403AE2D95 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -654,7 +654,7 @@
 			};
 			name = "DebugGame";
 		};
-		48C5390D98F082E403AE2D95 /* "Development" */ = {
+		0AAF0649F1640BB98AEC3066 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -671,7 +671,7 @@
 			};
 			name = "Development";
 		};
-		0AAF0649F1640BB98AEC3066 /* "Test" */ = {
+		76F16CD5D6C4036B861ED0DF /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -688,7 +688,7 @@
 			};
 			name = "Test";
 		};
-		76F16CD5D6C4036B861ED0DF /* "Shipping" */ = {
+		99328678EE92789E18722970 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -708,55 +708,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5BC563333055C6793266602E /* Build configuration list for PBXProject "DsymExporter" */ = {
+		45FCD129787267B548C7B1F2 /* Build configuration list for PBXProject "DsymExporter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				730D07BCB2EE790DA294FC29 /* "Debug" */,
-				ECD75964BFD532875BB693CF /* "DebugGame" */,
-				40F97004C514375A500FA40B /* "Development" */,
-				436CC78386C316B0978F3A4D /* "Test" */,
-				190406EBAF74CBFC139F28E7 /* "Shipping" */,
+				ECD75964BFD532875BB693CF /* "Debug" */,
+				40F97004C514375A500FA40B /* "DebugGame" */,
+				436CC78386C316B0978F3A4D /* "Development" */,
+				190406EBAF74CBFC139F28E7 /* "Test" */,
+				C1F1066BE8F5F55990D8D9F9 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		FFFBF699E1A8763DF0B362DE /* Build configuration list for PBXLegacyTarget "DsymExporter_Build" */ = {
+		5BC563333055C6793266602E /* Build configuration list for PBXLegacyTarget "DsymExporter_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29E23B38AA4D0C79C3A5B56B /* "Debug" */,
-				C0B314549CB9C9FE22D04BD3 /* "DebugGame" */,
-				C977370483D1328C0C0714A3 /* "Development" */,
-				5A9E4A050D7DDD1B4AA2C016 /* "Test" */,
-				11B5C8653CA09D6E6EE3EB08 /* "Shipping" */,
+				C0B314549CB9C9FE22D04BD3 /* "Debug" */,
+				C977370483D1328C0C0714A3 /* "DebugGame" */,
+				5A9E4A050D7DDD1B4AA2C016 /* "Development" */,
+				11B5C8653CA09D6E6EE3EB08 /* "Test" */,
+				B32D63ACBD08A7F3E5E8A44B /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		BC0025DDC2D71E66755A7772 /* Build configuration list for PBXNativeTarget "DsymExporter" */ = {
+		5ADFA2C5D127388157B4F471 /* Build configuration list for PBXNativeTarget "DsymExporter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50E9FDF2F4C30D63F8ECB150 /* "Debug" */,
-				B3416355888365AA33928649 /* "DebugGame" */,
-				C0DDEAA2ED94ACE3F69062E0 /* "Development" */,
-				DD32D77EDD17FEB9C9475928 /* "Test" */,
-				7911A21AB21F033A71C0742E /* "Shipping" */,
+				B3416355888365AA33928649 /* "Debug" */,
+				C0DDEAA2ED94ACE3F69062E0 /* "DebugGame" */,
+				DD32D77EDD17FEB9C9475928 /* "Development" */,
+				7911A21AB21F033A71C0742E /* "Test" */,
+				AC66C07201B97995269AA3C0 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		39B3FDD41B8DDD0F939BF625 /* Build configuration list for PBXNativeTarget "DsymExporter_Index" */ = {
+		813DC84226211275655C7955 /* Build configuration list for PBXNativeTarget "DsymExporter_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BAB03594EA34FF8872ABF6A /* "Debug" */,
-				F3A7B9EE732E0FB41733A60C /* "DebugGame" */,
-				48C5390D98F082E403AE2D95 /* "Development" */,
-				0AAF0649F1640BB98AEC3066 /* "Test" */,
-				76F16CD5D6C4036B861ED0DF /* "Shipping" */,
+				F3A7B9EE732E0FB41733A60C /* "Debug" */,
+				48C5390D98F082E403AE2D95 /* "DebugGame" */,
+				0AAF0649F1640BB98AEC3066 /* "Development" */,
+				76F16CD5D6C4036B861ED0DF /* "Test" */,
+				99328678EE92789E18722970 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F582A245D56860A67CC34EA1 /* Project object */;
+	rootObject = 2AAADF3ED47CF38E22739B34 /* Project object */;
 }

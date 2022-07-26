@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "59F30C87870C69C14A8DA4B2"
+               BlueprintIdentifier = "A6CDE3351641E509620D36E6"
                BuildableName = "ChaosVisualDebugger.app"
                BlueprintName = "ChaosVisualDebugger"
                ReferencedContainer = "container:ChaosVisualDebugger.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "59F30C87870C69C14A8DA4B2"
+               BlueprintIdentifier = "A6CDE3351641E509620D36E6"
                BuildableName = "ChaosVisualDebugger.app"
                BlueprintName = "ChaosVisualDebugger"
                ReferencedContainer = "container:ChaosVisualDebugger.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "59F30C87870C69C14A8DA4B2"
+               BlueprintIdentifier = "A6CDE3351641E509620D36E6"
                BuildableName = "ChaosVisualDebugger.app"
                BlueprintName = "ChaosVisualDebugger"
                ReferencedContainer = "container:ChaosVisualDebugger.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "59F30C87870C69C14A8DA4B2"
+               BlueprintIdentifier = "A6CDE3351641E509620D36E6"
                BuildableName = "ChaosVisualDebugger.app"
                BlueprintName = "ChaosVisualDebugger"
                ReferencedContainer = "container:ChaosVisualDebugger.xcodeproj">

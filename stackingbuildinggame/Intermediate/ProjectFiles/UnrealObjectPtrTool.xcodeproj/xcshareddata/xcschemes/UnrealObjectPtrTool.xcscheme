@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "63F16E0713BBAF193D2897FD"
+               BlueprintIdentifier = "B0ED0A8B87CDBCE3D2AA8971"
                BuildableName = "UnrealObjectPtrTool"
                BlueprintName = "UnrealObjectPtrTool"
                ReferencedContainer = "container:UnrealObjectPtrTool.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "63F16E0713BBAF193D2897FD"
+            BlueprintIdentifier = "B0ED0A8B87CDBCE3D2AA8971"
             BuildableName = "UnrealObjectPtrTool"
             BlueprintName = "UnrealObjectPtrTool"
             ReferencedContainer = "container:UnrealObjectPtrTool.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "63F16E0713BBAF193D2897FD"
+            BlueprintIdentifier = "B0ED0A8B87CDBCE3D2AA8971"
             BuildableName = "UnrealObjectPtrTool"
             BlueprintName = "UnrealObjectPtrTool"
             ReferencedContainer = "container:UnrealObjectPtrTool.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "63F16E0713BBAF193D2897FD"
+            BlueprintIdentifier = "B0ED0A8B87CDBCE3D2AA8971"
             BuildableName = "UnrealObjectPtrTool"
             BlueprintName = "UnrealObjectPtrTool"
             ReferencedContainer = "container:UnrealObjectPtrTool.xcodeproj">

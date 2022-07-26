@@ -9,30 +9,20 @@
 			<key>orderHint</key>
 			<integer>34</integer>
 		</dict>
-		<key>UnrealInsights_Build.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>82</integer>
-		</dict>
-		<key>UnrealInsights_Index.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>66</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4EC6DE78B1C7F37E2A1F147D</key>
+		<key>D3B45FE0157E3D4095403E31</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>91A46F5237B22D10A809FD67</key>
+		<key>89A2B0CBCE1C45F0B23074EB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A00A45C76E9DF5A22605625B</key>
+		<key>A64E611A871FE7A10619373D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

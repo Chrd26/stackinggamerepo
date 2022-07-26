@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EB2F54408EBA7FAD06FA49E0"
+               BlueprintIdentifier = "8CE8992E2A1842E10ED1CE3C"
                BuildableName = "DatasmithSDK"
                BlueprintName = "DatasmithSDK"
                ReferencedContainer = "container:DatasmithSDK.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EB2F54408EBA7FAD06FA49E0"
+            BlueprintIdentifier = "8CE8992E2A1842E10ED1CE3C"
             BuildableName = "DatasmithSDK"
             BlueprintName = "DatasmithSDK"
             ReferencedContainer = "container:DatasmithSDK.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EB2F54408EBA7FAD06FA49E0"
+            BlueprintIdentifier = "8CE8992E2A1842E10ED1CE3C"
             BuildableName = "DatasmithSDK"
             BlueprintName = "DatasmithSDK"
             ReferencedContainer = "container:DatasmithSDK.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EB2F54408EBA7FAD06FA49E0"
+            BlueprintIdentifier = "8CE8992E2A1842E10ED1CE3C"
             BuildableName = "DatasmithSDK"
             BlueprintName = "DatasmithSDK"
             ReferencedContainer = "container:DatasmithSDK.xcodeproj">

@@ -9,30 +9,20 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>BlankProgram_Build.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>53</integer>
-		</dict>
-		<key>BlankProgram_Index.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>59</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1CD1E91F86D385681D6D80E8</key>
+		<key>8E11984272B140623BAD2A4C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A66A73F84FB29DC1490AD7D2</key>
+		<key>6BD0D85CC5E6123EC9903855</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F760F3DFBF9A3EEC84701C4D</key>
+		<key>E82FD1261A786E5C67B88D7E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

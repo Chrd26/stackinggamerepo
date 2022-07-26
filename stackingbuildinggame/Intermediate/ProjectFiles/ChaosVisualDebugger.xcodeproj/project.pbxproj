@@ -32,11 +32,11 @@
 		BCDFC3F4C0FDFFDE1374E223 /* ChaosVisualDebuggerWindows.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ChaosVisualDebuggerWindows.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private/Windows/ChaosVisualDebuggerWindows.cpp"; sourceTree = SOURCE_ROOT; };
 		45FF1603B7298993DC451B7E /* ChaosVisualDebuggerWindows.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ChaosVisualDebuggerWindows.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private/Windows/ChaosVisualDebuggerWindows.h"; sourceTree = SOURCE_ROOT; };
 		ED93C2D4F7ADA0AD9A67AFC0 /* ChaosVisualDebugger.ico */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ChaosVisualDebugger.ico"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Resources/Windows/ChaosVisualDebugger.ico"; sourceTree = SOURCE_ROOT; };
-		A6CDE3351641E509620D36E6 /* ChaosVisualDebugger */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = ChaosVisualDebugger; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2DF4060F5E0E87936CF8DA /* ChaosVisualDebugger */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = ChaosVisualDebugger; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9B7E0ADF30B1EFBBE0F9835B = {
+		CC662C6407C694BB3F360185 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,7 +49,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	2F59FEB49F28E09480E03ED3 /* Embed App Extensions */ = {
+	F1D0506714F560C7DEF6136F /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -61,41 +61,41 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		9472DD6D0ACBB027A3C42A5A /* PBXContainerItemProxy */ = {
+		E325F1BB08BBA2863CF65179 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 41266BF8B0AB70855EAEA00D /* Project object */;
+			containerPortal = 9B7E0ADF30B1EFBBE0F9835B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1B905183329CB5CB4B1F3A77;
+			remoteGlobalIDString = 41266BF8B0AB70855EAEA00D;
 			remoteInfo = "ChaosVisualDebugger_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		50A0F0D870C75A07FCEEC504 /* PBXTargetDependency */ = {
+		3D3CFFBF9E695C8B759532A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1B905183329CB5CB4B1F3A77 /* ChaosVisualDebugger_Build */;
-			targetProxy = 9472DD6D0ACBB027A3C42A5A /* PBXContainerItemProxy */;
+			target = 41266BF8B0AB70855EAEA00D /* ChaosVisualDebugger_Build */;
+			targetProxy = E325F1BB08BBA2863CF65179 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		75557C1787AA0F772C1679E2 = {
+		DDAAC01F6B79E48DFB677B08 = {
 			isa = PBXGroup;
 			children = (
-				1270738C6377138BCDFED68F /* Private */,
-				E9E70B197EDD56AFBA01594F /* Resources */,
+				E9E70B197EDD56AFBA01594F /* Private */,
+				11118C6927401D29261AAC90 /* Resources */,
 				B4377FF4249C8AB8782FF053 /* ChaosVisualDebugger.Build.cs */,
 				4E6FC01DBECF6EAFE3EBE34A /* ChaosVisualDebugger.Target.cs */,
-				50A9D69085CB1ACB8CE75A14 /* Products */,
+				A030477A27BE0157267B612B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1270738C6377138BCDFED68F = {
+		E9E70B197EDD56AFBA01594F = {
 			isa = PBXGroup;
 			children = (
-				EEBE2FB06E1114392D63B671 /* Linux */,
-				32135DBE3ED0C59F418AE96E /* Mac */,
-				EE7DA526FD5D0DC5A075A4F2 /* Windows */,
+				19544CFC39374E64D5C0C1F0 /* Linux */,
+				6CEE3CD055F1D0BD6F6BD456 /* Mac */,
+				C5AB20643439B4EC24550DA8 /* Windows */,
 				78106D3EA12AB046E453BBD6 /* ChaosVisualDebuggerMain.cpp */,
 				E84373B5B1CEC78EDECC7B13 /* ChaosVisualDebuggerMain.h */,
 				4152FF12165F5D9824B1565D /* ChaosVisualDebuggerSlateStyle.cpp */,
@@ -105,7 +105,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private";
 			sourceTree = "<absolute>";
 		};
-		EEBE2FB06E1114392D63B671 = {
+		19544CFC39374E64D5C0C1F0 = {
 			isa = PBXGroup;
 			children = (
 				15594A989B6B9AF3E0B26855 /* ChaosVisualDebuggerLinux.cpp */,
@@ -114,7 +114,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private/Linux";
 			sourceTree = "<absolute>";
 		};
-		32135DBE3ED0C59F418AE96E = {
+		6CEE3CD055F1D0BD6F6BD456 = {
 			isa = PBXGroup;
 			children = (
 				B57703D85EF457F02AF69517 /* ChaosVisualDebuggerMac.cpp */,
@@ -123,7 +123,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private/Mac";
 			sourceTree = "<absolute>";
 		};
-		EE7DA526FD5D0DC5A075A4F2 = {
+		C5AB20643439B4EC24550DA8 = {
 			isa = PBXGroup;
 			children = (
 				BCDFC3F4C0FDFFDE1374E223 /* ChaosVisualDebuggerWindows.cpp */,
@@ -133,16 +133,16 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Private/Windows";
 			sourceTree = "<absolute>";
 		};
-		E9E70B197EDD56AFBA01594F = {
+		11118C6927401D29261AAC90 = {
 			isa = PBXGroup;
 			children = (
-				19544CFC39374E64D5C0C1F0 /* Windows */,
+				A18659C9319CE0AE7FF6368D /* Windows */,
 			);
 			name = "Resources";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Resources";
 			sourceTree = "<absolute>";
 		};
-		19544CFC39374E64D5C0C1F0 = {
+		A18659C9319CE0AE7FF6368D = {
 			isa = PBXGroup;
 			children = (
 				ED93C2D4F7ADA0AD9A67AFC0 /* ChaosVisualDebugger.ico */,
@@ -151,10 +151,10 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ChaosVisualDebugger/Resources/Windows";
 			sourceTree = "<absolute>";
 		};
-		50A9D69085CB1ACB8CE75A14 /* Products */ = {
+		A030477A27BE0157267B612B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6CDE3351641E509620D36E6 /* ChaosVisualDebugger */,
+				7A2DF4060F5E0E87936CF8DA /* ChaosVisualDebugger */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,10 +162,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		1B905183329CB5CB4B1F3A77 /* ChaosVisualDebugger_Build */ = {
+		41266BF8B0AB70855EAEA00D /* ChaosVisualDebugger_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 3D3CFFBF9E695C8B759532A2 /* Build configuration list for PBXLegacyTarget "ChaosVisualDebugger_Build" */;
+			buildConfigurationList = ABFAC38F7DB33B46EA864571 /* Build configuration list for PBXLegacyTarget "ChaosVisualDebugger_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -179,30 +179,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		59F30C87870C69C14A8DA4B2 /* ChaosVisualDebugger */ = {
+		A6CDE3351641E509620D36E6 /* ChaosVisualDebugger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA1123CEEA1AA90A8B4F91FF /* Build configuration list for PBXNativeTarget "ChaosVisualDebugger" */;
+			buildConfigurationList = 1B905183329CB5CB4B1F3A77 /* Build configuration list for PBXNativeTarget "ChaosVisualDebugger" */;
 			buildPhases = (
-				2F59FEB49F28E09480E03ED3 /* Embed App Extensions */, 
-				DDAAC01F6B79E48DFB677B08 /* Shell Script */, 
+				F1D0506714F560C7DEF6136F /* Embed App Extensions */, 
+				E1656DC2DEE7AC6249945205 /* Shell Script */, 
 			);
 			dependencies = (
-				50A0F0D870C75A07FCEEC504 /* PBXTargetDependency */,
+				3D3CFFBF9E695C8B759532A2 /* PBXTargetDependency */,
 			);
 			name = "ChaosVisualDebugger";
 			passBuildSettingsInEnvironment = 1;
 			productName = "ChaosVisualDebugger";
-			productReference = "A6CDE3351641E509620D36E6";
+			productReference = "7A2DF4060F5E0E87936CF8DA";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		E325F1BB08BBA2863CF65179 /* ChaosVisualDebugger_Index */ = {
+		75557C1787AA0F772C1679E2 /* ChaosVisualDebugger_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A2DF4060F5E0E87936CF8DA /* Build configuration list for PBXNativeTarget "ChaosVisualDebugger_Index" */;
+			buildConfigurationList = 50A9D69085CB1ACB8CE75A14 /* Build configuration list for PBXNativeTarget "ChaosVisualDebugger_Index" */;
 			buildPhases = (
-				9B7E0ADF30B1EFBBE0F9835B /* Sources */,
+				CC662C6407C694BB3F360185 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -214,38 +214,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		41266BF8B0AB70855EAEA00D /* Project object */ = {
+		9B7E0ADF30B1EFBBE0F9835B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					59F30C87870C69C14A8DA4B2 = {
+					A6CDE3351641E509620D36E6 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = ABFAC38F7DB33B46EA864571 /* Build configuration list for PBXProject "ChaosVisualDebugger" */;
+			buildConfigurationList = 2F59FEB49F28E09480E03ED3 /* Build configuration list for PBXProject "ChaosVisualDebugger" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 75557C1787AA0F772C1679E2;
-			productRefGroup = 50A9D69085CB1ACB8CE75A14;
+			mainGroup = DDAAC01F6B79E48DFB677B08;
+			productRefGroup = A030477A27BE0157267B612B;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			59F30C87870C69C14A8DA4B2 /* ChaosVisualDebugger */,
-			1B905183329CB5CB4B1F3A77 /* ChaosVisualDebugger_Build */,
-			E325F1BB08BBA2863CF65179 /* ChaosVisualDebugger_Index */,
+			A6CDE3351641E509620D36E6 /* ChaosVisualDebugger */,
+			41266BF8B0AB70855EAEA00D /* ChaosVisualDebugger_Build */,
+			75557C1787AA0F772C1679E2 /* ChaosVisualDebugger_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		A030477A27BE0157267B612B /* "Debug" */ = {
+		4D808534D3BFC8692EC18957 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -365,7 +365,7 @@
 			};
 			name = "Debug";
 		};
-		4D808534D3BFC8692EC18957 /* "DebugGame" */ = {
+		A57B47AF477BB290FCE3DB01 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -484,7 +484,7 @@
 			};
 			name = "DebugGame";
 		};
-		A57B47AF477BB290FCE3DB01 /* "Development" */ = {
+		CBB09CAE3B31C3F7BA580918 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -603,7 +603,7 @@
 			};
 			name = "Development";
 		};
-		CBB09CAE3B31C3F7BA580918 /* "Test" */ = {
+		76FE6EB66FF100FB77A59563 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -722,7 +722,7 @@
 			};
 			name = "Test";
 		};
-		76FE6EB66FF100FB77A59563 /* "Shipping" */ = {
+		D9D0472DD647612F2B6A2538 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -841,7 +841,7 @@
 			};
 			name = "Shipping";
 		};
-		CC662C6407C694BB3F360185 /* "Debug" */ = {
+		6E9A42311A9A4DD652BD83A2 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -858,7 +858,7 @@
 			};
 			name = "Debug";
 		};
-		6E9A42311A9A4DD652BD83A2 /* "DebugGame" */ = {
+		E370DE8F842DD92380ADC1EF /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -875,7 +875,7 @@
 			};
 			name = "DebugGame";
 		};
-		E370DE8F842DD92380ADC1EF /* "Development" */ = {
+		D20A13991D98834ABCCF38F6 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -892,7 +892,7 @@
 			};
 			name = "Development";
 		};
-		D20A13991D98834ABCCF38F6 /* "Test" */ = {
+		A6CCE284B75625E72C46D204 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -909,7 +909,7 @@
 			};
 			name = "Test";
 		};
-		A6CCE284B75625E72C46D204 /* "Shipping" */ = {
+		7BFF803D3379BAA94CCABECE /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -926,7 +926,7 @@
 			};
 			name = "Shipping";
 		};
-		F1D0506714F560C7DEF6136F /* "Debug" */ = {
+		59D1DC588A9E3C5C7D4A1A94 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -939,7 +939,7 @@
 			};
 			name = "Debug";
 		};
-		59D1DC588A9E3C5C7D4A1A94 /* "DebugGame" */ = {
+		A52EA8A87C63C6437D98B30F /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -952,7 +952,7 @@
 			};
 			name = "DebugGame";
 		};
-		A52EA8A87C63C6437D98B30F /* "Development" */ = {
+		18D88AF61535A0B2F3EBDDCC /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -965,7 +965,7 @@
 			};
 			name = "Development";
 		};
-		18D88AF61535A0B2F3EBDDCC /* "Test" */ = {
+		913775017A3A711CA9FC8017 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -978,7 +978,7 @@
 			};
 			name = "Test";
 		};
-		913775017A3A711CA9FC8017 /* "Shipping" */ = {
+		1323FC4AF2B181ED906C27AA /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -991,7 +991,7 @@
 			};
 			name = "Shipping";
 		};
-		E1656DC2DEE7AC6249945205 /* "Debug" */ = {
+		6F2BF41E2DAA4020DB155444 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -1008,7 +1008,7 @@
 			};
 			name = "Debug";
 		};
-		6F2BF41E2DAA4020DB155444 /* "DebugGame" */ = {
+		578D14019889988B4FF33BBD /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -1025,7 +1025,7 @@
 			};
 			name = "DebugGame";
 		};
-		578D14019889988B4FF33BBD /* "Development" */ = {
+		C718074CD5BB55FE84FC2E8E /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -1042,7 +1042,7 @@
 			};
 			name = "Development";
 		};
-		C718074CD5BB55FE84FC2E8E /* "Test" */ = {
+		C6E94302EAE2542183A3A608 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -1059,7 +1059,7 @@
 			};
 			name = "Test";
 		};
-		C6E94302EAE2542183A3A608 /* "Shipping" */ = {
+		F24446619B50EB5CC30A86EB /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -1079,55 +1079,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ABFAC38F7DB33B46EA864571 /* Build configuration list for PBXProject "ChaosVisualDebugger" */ = {
+		2F59FEB49F28E09480E03ED3 /* Build configuration list for PBXProject "ChaosVisualDebugger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A030477A27BE0157267B612B /* "Debug" */,
-				4D808534D3BFC8692EC18957 /* "DebugGame" */,
-				A57B47AF477BB290FCE3DB01 /* "Development" */,
-				CBB09CAE3B31C3F7BA580918 /* "Test" */,
-				76FE6EB66FF100FB77A59563 /* "Shipping" */,
+				4D808534D3BFC8692EC18957 /* "Debug" */,
+				A57B47AF477BB290FCE3DB01 /* "DebugGame" */,
+				CBB09CAE3B31C3F7BA580918 /* "Development" */,
+				76FE6EB66FF100FB77A59563 /* "Test" */,
+				D9D0472DD647612F2B6A2538 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		3D3CFFBF9E695C8B759532A2 /* Build configuration list for PBXLegacyTarget "ChaosVisualDebugger_Build" */ = {
+		ABFAC38F7DB33B46EA864571 /* Build configuration list for PBXLegacyTarget "ChaosVisualDebugger_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1D0506714F560C7DEF6136F /* "Debug" */,
-				59D1DC588A9E3C5C7D4A1A94 /* "DebugGame" */,
-				A52EA8A87C63C6437D98B30F /* "Development" */,
-				18D88AF61535A0B2F3EBDDCC /* "Test" */,
-				913775017A3A711CA9FC8017 /* "Shipping" */,
+				59D1DC588A9E3C5C7D4A1A94 /* "Debug" */,
+				A52EA8A87C63C6437D98B30F /* "DebugGame" */,
+				18D88AF61535A0B2F3EBDDCC /* "Development" */,
+				913775017A3A711CA9FC8017 /* "Test" */,
+				1323FC4AF2B181ED906C27AA /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		BA1123CEEA1AA90A8B4F91FF /* Build configuration list for PBXNativeTarget "ChaosVisualDebugger" */ = {
+		1B905183329CB5CB4B1F3A77 /* Build configuration list for PBXNativeTarget "ChaosVisualDebugger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC662C6407C694BB3F360185 /* "Debug" */,
-				6E9A42311A9A4DD652BD83A2 /* "DebugGame" */,
-				E370DE8F842DD92380ADC1EF /* "Development" */,
-				D20A13991D98834ABCCF38F6 /* "Test" */,
-				A6CCE284B75625E72C46D204 /* "Shipping" */,
+				6E9A42311A9A4DD652BD83A2 /* "Debug" */,
+				E370DE8F842DD92380ADC1EF /* "DebugGame" */,
+				D20A13991D98834ABCCF38F6 /* "Development" */,
+				A6CCE284B75625E72C46D204 /* "Test" */,
+				7BFF803D3379BAA94CCABECE /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		7A2DF4060F5E0E87936CF8DA /* Build configuration list for PBXNativeTarget "ChaosVisualDebugger_Index" */ = {
+		50A9D69085CB1ACB8CE75A14 /* Build configuration list for PBXNativeTarget "ChaosVisualDebugger_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E1656DC2DEE7AC6249945205 /* "Debug" */,
-				6F2BF41E2DAA4020DB155444 /* "DebugGame" */,
-				578D14019889988B4FF33BBD /* "Development" */,
-				C718074CD5BB55FE84FC2E8E /* "Test" */,
-				C6E94302EAE2542183A3A608 /* "Shipping" */,
+				6F2BF41E2DAA4020DB155444 /* "Debug" */,
+				578D14019889988B4FF33BBD /* "DebugGame" */,
+				C718074CD5BB55FE84FC2E8E /* "Development" */,
+				C6E94302EAE2542183A3A608 /* "Test" */,
+				F24446619B50EB5CC30A86EB /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 41266BF8B0AB70855EAEA00D /* Project object */;
+	rootObject = 9B7E0ADF30B1EFBBE0F9835B /* Project object */;
 }

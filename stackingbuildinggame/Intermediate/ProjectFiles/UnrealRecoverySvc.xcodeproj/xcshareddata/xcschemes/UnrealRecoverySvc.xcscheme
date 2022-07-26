@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B27BF0082291331012D46970"
+               BlueprintIdentifier = "00714F8FBBCD1C43E6FBF427"
                BuildableName = "UnrealRecoverySvc"
                BlueprintName = "UnrealRecoverySvc"
                ReferencedContainer = "container:UnrealRecoverySvc.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B27BF0082291331012D46970"
+            BlueprintIdentifier = "00714F8FBBCD1C43E6FBF427"
             BuildableName = "UnrealRecoverySvc"
             BlueprintName = "UnrealRecoverySvc"
             ReferencedContainer = "container:UnrealRecoverySvc.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B27BF0082291331012D46970"
+            BlueprintIdentifier = "00714F8FBBCD1C43E6FBF427"
             BuildableName = "UnrealRecoverySvc"
             BlueprintName = "UnrealRecoverySvc"
             ReferencedContainer = "container:UnrealRecoverySvc.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B27BF0082291331012D46970"
+            BlueprintIdentifier = "00714F8FBBCD1C43E6FBF427"
             BuildableName = "UnrealRecoverySvc"
             BlueprintName = "UnrealRecoverySvc"
             ReferencedContainer = "container:UnrealRecoverySvc.xcodeproj">

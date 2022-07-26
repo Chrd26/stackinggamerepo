@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "79B4B60316470688071799F3"
+               BlueprintIdentifier = "0243BC0E1F8682A6038E71FE"
                BuildableName = "UnrealAtoS"
                BlueprintName = "UnrealAtoS"
                ReferencedContainer = "container:UnrealAtoS.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "79B4B60316470688071799F3"
+            BlueprintIdentifier = "0243BC0E1F8682A6038E71FE"
             BuildableName = "UnrealAtoS"
             BlueprintName = "UnrealAtoS"
             ReferencedContainer = "container:UnrealAtoS.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "79B4B60316470688071799F3"
+            BlueprintIdentifier = "0243BC0E1F8682A6038E71FE"
             BuildableName = "UnrealAtoS"
             BlueprintName = "UnrealAtoS"
             ReferencedContainer = "container:UnrealAtoS.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "79B4B60316470688071799F3"
+            BlueprintIdentifier = "0243BC0E1F8682A6038E71FE"
             BuildableName = "UnrealAtoS"
             BlueprintName = "UnrealAtoS"
             ReferencedContainer = "container:UnrealAtoS.xcodeproj">

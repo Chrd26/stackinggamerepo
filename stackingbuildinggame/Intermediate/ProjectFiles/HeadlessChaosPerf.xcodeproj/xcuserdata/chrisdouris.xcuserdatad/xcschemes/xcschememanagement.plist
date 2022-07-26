@@ -9,30 +9,20 @@
 			<key>orderHint</key>
 			<integer>18</integer>
 		</dict>
-		<key>HeadlessChaosPerf_Build.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>49</integer>
-		</dict>
-		<key>HeadlessChaosPerf_Index.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>54</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4405895C4710A7694D3C7A98</key>
+		<key>1634B3ABA8F27CA0BF275E08</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4CDAA72DAD4BA54D9C8DF8E8</key>
+		<key>A726998750CA74082C0401DD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C8DE1C4DB72A797B622B0D70</key>
+		<key>E076A56599C7F10917218587</key>
 		<dict>
 			<key>primary</key>
 			<true/>

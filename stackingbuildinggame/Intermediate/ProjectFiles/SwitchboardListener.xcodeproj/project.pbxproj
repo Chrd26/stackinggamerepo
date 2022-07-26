@@ -58,11 +58,11 @@
 		6CFD59C1C5DB34CC90F2D5DD /* SwitchboardListener.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SwitchboardListener.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SwitchboardListener/SwitchboardListener.Target.cs"; sourceTree = SOURCE_ROOT; };
 		DB97EA287E52F9E61F4B507B /* listener_tests.py */ = {isa = PBXFileReference; explicitFileType = file.text; name = "listener_tests.py"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SwitchboardListener/Tests/listener_tests.py"; sourceTree = SOURCE_ROOT; };
 		F0B1C2E2AF93925F8A27D13D /* transfer_test.cfg */ = {isa = PBXFileReference; explicitFileType = file.text; name = "transfer_test.cfg"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SwitchboardListener/Tests/transfer_test.cfg"; sourceTree = SOURCE_ROOT; };
-		D9F6F7A49A812CEF3C831379 /* SwitchboardListener */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SwitchboardListener; sourceTree = BUILT_PRODUCTS_DIR; };
+		12ABE8D24BEFFA497E77FAA5 /* SwitchboardListener */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SwitchboardListener; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		09DB0F355DB93A4EF3A4D7EF = {
+		B0645369BE30F4902C164984 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,7 +76,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	855AE686CEBA5B5BEC79AEF9 /* Embed App Extensions */ = {
+	7268D70278B499C64CB49AE3 /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -88,40 +88,40 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		B279E48736A07822A9E4497D /* PBXContainerItemProxy */ = {
+		446C902E7364562E666A8B6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B106F416D02672F482EF87CD /* Project object */;
+			containerPortal = 09DB0F355DB93A4EF3A4D7EF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FBC88ECC39D7985A83907780;
+			remoteGlobalIDString = B106F416D02672F482EF87CD;
 			remoteInfo = "SwitchboardListener_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		D050851F963C102BB0A05393 /* PBXTargetDependency */ = {
+		AAF5D025FB26B3EC0707459F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FBC88ECC39D7985A83907780 /* SwitchboardListener_Build */;
-			targetProxy = B279E48736A07822A9E4497D /* PBXContainerItemProxy */;
+			target = B106F416D02672F482EF87CD /* SwitchboardListener_Build */;
+			targetProxy = 446C902E7364562E666A8B6E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		3EE1A0170DFB20CD71EB7D6C = {
+		EBD947D277F02C2355BF0E32 = {
 			isa = PBXGroup;
 			children = (
-				E778FE75B09FF197C6CE8420 /* Private */,
-				0E7006004CD264A1620551B1 /* Tests */,
+				1EA8375F2C50875440C27683 /* Private */,
+				18ABB3FA4418334BFA835BA6 /* Tests */,
 				5C66580DF84594A5C4728BE7 /* ReadMe.md */,
 				AF53B2710938A0544870073B /* SwitchboardListener.Build.cs */,
 				6CFD59C1C5DB34CC90F2D5DD /* SwitchboardListener.Target.cs */,
-				70405D40F897EB22231A8BE1 /* Products */,
+				ECEB70B7B02E79CB686EBA9D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E778FE75B09FF197C6CE8420 = {
+		1EA8375F2C50875440C27683 = {
 			isa = PBXGroup;
 			children = (
-				D8A868D8C3E928963393373C /* Windows */,
+				A4A53276C3A4D50C3BF3CA52 /* Windows */,
 				93BF7B19EA38896CA7D95EA4 /* CpuUtilizationMonitor.cpp */,
 				119B5450F7B94E0430AEDD49 /* CpuUtilizationMonitor.h */,
 				B16C32F90BB9E7622366084F /* SwitchboardListener.cpp */,
@@ -140,10 +140,10 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SwitchboardListener/Private";
 			sourceTree = "<absolute>";
 		};
-		D8A868D8C3E928963393373C = {
+		A4A53276C3A4D50C3BF3CA52 = {
 			isa = PBXGroup;
 			children = (
-				FE2DFB4C65500BE04BCB6D74 /* Resources */,
+				E3274A602E96D9F9DB4A2DBD /* Resources */,
 				C2FF40DA51CC04BA60984DDE /* WindowsCpuUtilizationMonitor.cpp */,
 				35F86FD0391182541699BD26 /* WindowsCpuUtilizationMonitor.h */,
 			);
@@ -151,7 +151,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SwitchboardListener/Private/Windows";
 			sourceTree = "<absolute>";
 		};
-		FE2DFB4C65500BE04BCB6D74 = {
+		E3274A602E96D9F9DB4A2DBD = {
 			isa = PBXGroup;
 			children = (
 				A0609158348955CC6BE1A558 /* Icon.ico */,
@@ -163,7 +163,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SwitchboardListener/Private/Windows/Resources";
 			sourceTree = "<absolute>";
 		};
-		0E7006004CD264A1620551B1 = {
+		18ABB3FA4418334BFA835BA6 = {
 			isa = PBXGroup;
 			children = (
 				DB97EA287E52F9E61F4B507B /* listener_tests.py */,
@@ -173,10 +173,10 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SwitchboardListener/Tests";
 			sourceTree = "<absolute>";
 		};
-		70405D40F897EB22231A8BE1 /* Products */ = {
+		ECEB70B7B02E79CB686EBA9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D9F6F7A49A812CEF3C831379 /* SwitchboardListener */,
+				12ABE8D24BEFFA497E77FAA5 /* SwitchboardListener */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,10 +184,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		FBC88ECC39D7985A83907780 /* SwitchboardListener_Build */ = {
+		B106F416D02672F482EF87CD /* SwitchboardListener_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = AAF5D025FB26B3EC0707459F /* Build configuration list for PBXLegacyTarget "SwitchboardListener_Build" */;
+			buildConfigurationList = 466AE61F394919406A62134F /* Build configuration list for PBXLegacyTarget "SwitchboardListener_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -201,30 +201,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		6285E0E3CA80E724084A0249 /* SwitchboardListener */ = {
+		D9F6F7A49A812CEF3C831379 /* SwitchboardListener */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAD6232AFA8E7C07C673485D /* Build configuration list for PBXNativeTarget "SwitchboardListener" */;
+			buildConfigurationList = FBC88ECC39D7985A83907780 /* Build configuration list for PBXNativeTarget "SwitchboardListener" */;
 			buildPhases = (
-				855AE686CEBA5B5BEC79AEF9 /* Embed App Extensions */, 
-				EBD947D277F02C2355BF0E32 /* Shell Script */, 
+				7268D70278B499C64CB49AE3 /* Embed App Extensions */, 
+				49A3AABDFFE3917C1FAA2112 /* Shell Script */, 
 			);
 			dependencies = (
-				D050851F963C102BB0A05393 /* PBXTargetDependency */,
+				AAF5D025FB26B3EC0707459F /* PBXTargetDependency */,
 			);
 			name = "SwitchboardListener";
 			passBuildSettingsInEnvironment = 1;
 			productName = "SwitchboardListener";
-			productReference = "D9F6F7A49A812CEF3C831379";
+			productReference = "12ABE8D24BEFFA497E77FAA5";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		446C902E7364562E666A8B6E /* SwitchboardListener_Index */ = {
+		3EE1A0170DFB20CD71EB7D6C /* SwitchboardListener_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12ABE8D24BEFFA497E77FAA5 /* Build configuration list for PBXNativeTarget "SwitchboardListener_Index" */;
+			buildConfigurationList = 70405D40F897EB22231A8BE1 /* Build configuration list for PBXNativeTarget "SwitchboardListener_Index" */;
 			buildPhases = (
-				09DB0F355DB93A4EF3A4D7EF /* Sources */,
+				B0645369BE30F4902C164984 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -236,38 +236,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B106F416D02672F482EF87CD /* Project object */ = {
+		09DB0F355DB93A4EF3A4D7EF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					6285E0E3CA80E724084A0249 = {
+					D9F6F7A49A812CEF3C831379 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 466AE61F394919406A62134F /* Build configuration list for PBXProject "SwitchboardListener" */;
+			buildConfigurationList = 855AE686CEBA5B5BEC79AEF9 /* Build configuration list for PBXProject "SwitchboardListener" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 3EE1A0170DFB20CD71EB7D6C;
-			productRefGroup = 70405D40F897EB22231A8BE1;
+			mainGroup = EBD947D277F02C2355BF0E32;
+			productRefGroup = ECEB70B7B02E79CB686EBA9D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			6285E0E3CA80E724084A0249 /* SwitchboardListener */,
-			FBC88ECC39D7985A83907780 /* SwitchboardListener_Build */,
-			446C902E7364562E666A8B6E /* SwitchboardListener_Index */,
+			D9F6F7A49A812CEF3C831379 /* SwitchboardListener */,
+			B106F416D02672F482EF87CD /* SwitchboardListener_Build */,
+			3EE1A0170DFB20CD71EB7D6C /* SwitchboardListener_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		ECEB70B7B02E79CB686EBA9D /* "Debug" */ = {
+		9CC26525CA7D06D6A1EC4548 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -337,7 +337,7 @@
 			};
 			name = "Debug";
 		};
-		9CC26525CA7D06D6A1EC4548 /* "DebugGame" */ = {
+		8FDDA72B5924492CA34A9F93 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -406,7 +406,7 @@
 			};
 			name = "DebugGame";
 		};
-		8FDDA72B5924492CA34A9F93 /* "Development" */ = {
+		726DD6DF60D475F1784534D8 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -475,7 +475,7 @@
 			};
 			name = "Development";
 		};
-		726DD6DF60D475F1784534D8 /* "Test" */ = {
+		39317757A6FDEBC8BE88CE81 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -544,7 +544,7 @@
 			};
 			name = "Test";
 		};
-		39317757A6FDEBC8BE88CE81 /* "Shipping" */ = {
+		6115295E5DD685FA3AC69DDF /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -613,7 +613,7 @@
 			};
 			name = "Shipping";
 		};
-		B0645369BE30F4902C164984 /* "Debug" */ = {
+		577753B3D5F350FCC9701F1A /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -630,7 +630,7 @@
 			};
 			name = "Debug";
 		};
-		577753B3D5F350FCC9701F1A /* "DebugGame" */ = {
+		EDBD51D4877E0192129D6461 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -647,7 +647,7 @@
 			};
 			name = "DebugGame";
 		};
-		EDBD51D4877E0192129D6461 /* "Development" */ = {
+		D544FEE18D7CC2E404AAAE4E /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -664,7 +664,7 @@
 			};
 			name = "Development";
 		};
-		D544FEE18D7CC2E404AAAE4E /* "Test" */ = {
+		BE9B6618B6A63775B13EF6B0 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -681,7 +681,7 @@
 			};
 			name = "Test";
 		};
-		BE9B6618B6A63775B13EF6B0 /* "Shipping" */ = {
+		ADAE4CF03F53EEDFFA0C2F7F /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -698,7 +698,7 @@
 			};
 			name = "Shipping";
 		};
-		7268D70278B499C64CB49AE3 /* "Debug" */ = {
+		8537904884CC64C746C465B5 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -711,7 +711,7 @@
 			};
 			name = "Debug";
 		};
-		8537904884CC64C746C465B5 /* "DebugGame" */ = {
+		F7814F052DC1BC23D009B9A7 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -724,7 +724,7 @@
 			};
 			name = "DebugGame";
 		};
-		F7814F052DC1BC23D009B9A7 /* "Development" */ = {
+		10DF16D98B5F8E8EA05F92C0 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -737,7 +737,7 @@
 			};
 			name = "Development";
 		};
-		10DF16D98B5F8E8EA05F92C0 /* "Test" */ = {
+		B9C6503C7CCE497B92DEA05A /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -750,7 +750,7 @@
 			};
 			name = "Test";
 		};
-		B9C6503C7CCE497B92DEA05A /* "Shipping" */ = {
+		BE9502E83C93A2788857DB66 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -763,7 +763,7 @@
 			};
 			name = "Shipping";
 		};
-		49A3AABDFFE3917C1FAA2112 /* "Debug" */ = {
+		4F73FCCEADC4425D5E626687 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -780,7 +780,7 @@
 			};
 			name = "Debug";
 		};
-		4F73FCCEADC4425D5E626687 /* "DebugGame" */ = {
+		25396D227B381204D369E1F0 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -797,7 +797,7 @@
 			};
 			name = "DebugGame";
 		};
-		25396D227B381204D369E1F0 /* "Development" */ = {
+		EBDDC2FB93C72EE005954C37 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -814,7 +814,7 @@
 			};
 			name = "Development";
 		};
-		EBDDC2FB93C72EE005954C37 /* "Test" */ = {
+		E837E7A273C901620E413DF8 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -831,7 +831,7 @@
 			};
 			name = "Test";
 		};
-		E837E7A273C901620E413DF8 /* "Shipping" */ = {
+		A4EA1DBB58A51F229907F5C4 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -851,55 +851,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		466AE61F394919406A62134F /* Build configuration list for PBXProject "SwitchboardListener" */ = {
+		855AE686CEBA5B5BEC79AEF9 /* Build configuration list for PBXProject "SwitchboardListener" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECEB70B7B02E79CB686EBA9D /* "Debug" */,
-				9CC26525CA7D06D6A1EC4548 /* "DebugGame" */,
-				8FDDA72B5924492CA34A9F93 /* "Development" */,
-				726DD6DF60D475F1784534D8 /* "Test" */,
-				39317757A6FDEBC8BE88CE81 /* "Shipping" */,
+				9CC26525CA7D06D6A1EC4548 /* "Debug" */,
+				8FDDA72B5924492CA34A9F93 /* "DebugGame" */,
+				726DD6DF60D475F1784534D8 /* "Development" */,
+				39317757A6FDEBC8BE88CE81 /* "Test" */,
+				6115295E5DD685FA3AC69DDF /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		AAF5D025FB26B3EC0707459F /* Build configuration list for PBXLegacyTarget "SwitchboardListener_Build" */ = {
+		466AE61F394919406A62134F /* Build configuration list for PBXLegacyTarget "SwitchboardListener_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7268D70278B499C64CB49AE3 /* "Debug" */,
-				8537904884CC64C746C465B5 /* "DebugGame" */,
-				F7814F052DC1BC23D009B9A7 /* "Development" */,
-				10DF16D98B5F8E8EA05F92C0 /* "Test" */,
-				B9C6503C7CCE497B92DEA05A /* "Shipping" */,
+				8537904884CC64C746C465B5 /* "Debug" */,
+				F7814F052DC1BC23D009B9A7 /* "DebugGame" */,
+				10DF16D98B5F8E8EA05F92C0 /* "Development" */,
+				B9C6503C7CCE497B92DEA05A /* "Test" */,
+				BE9502E83C93A2788857DB66 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		FAD6232AFA8E7C07C673485D /* Build configuration list for PBXNativeTarget "SwitchboardListener" */ = {
+		FBC88ECC39D7985A83907780 /* Build configuration list for PBXNativeTarget "SwitchboardListener" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0645369BE30F4902C164984 /* "Debug" */,
-				577753B3D5F350FCC9701F1A /* "DebugGame" */,
-				EDBD51D4877E0192129D6461 /* "Development" */,
-				D544FEE18D7CC2E404AAAE4E /* "Test" */,
-				BE9B6618B6A63775B13EF6B0 /* "Shipping" */,
+				577753B3D5F350FCC9701F1A /* "Debug" */,
+				EDBD51D4877E0192129D6461 /* "DebugGame" */,
+				D544FEE18D7CC2E404AAAE4E /* "Development" */,
+				BE9B6618B6A63775B13EF6B0 /* "Test" */,
+				ADAE4CF03F53EEDFFA0C2F7F /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		12ABE8D24BEFFA497E77FAA5 /* Build configuration list for PBXNativeTarget "SwitchboardListener_Index" */ = {
+		70405D40F897EB22231A8BE1 /* Build configuration list for PBXNativeTarget "SwitchboardListener_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49A3AABDFFE3917C1FAA2112 /* "Debug" */,
-				4F73FCCEADC4425D5E626687 /* "DebugGame" */,
-				25396D227B381204D369E1F0 /* "Development" */,
-				EBDDC2FB93C72EE005954C37 /* "Test" */,
-				E837E7A273C901620E413DF8 /* "Shipping" */,
+				4F73FCCEADC4425D5E626687 /* "Debug" */,
+				25396D227B381204D369E1F0 /* "DebugGame" */,
+				EBDDC2FB93C72EE005954C37 /* "Development" */,
+				E837E7A273C901620E413DF8 /* "Test" */,
+				A4EA1DBB58A51F229907F5C4 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B106F416D02672F482EF87CD /* Project object */;
+	rootObject = 09DB0F355DB93A4EF3A4D7EF /* Project object */;
 }

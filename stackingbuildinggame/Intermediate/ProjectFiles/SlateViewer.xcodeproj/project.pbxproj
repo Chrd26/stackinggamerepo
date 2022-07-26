@@ -28,11 +28,11 @@
 		22E79864A185DABD8DA6F2BD /* SlateViewerApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SlateViewerApp.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Public/SlateViewerApp.h"; sourceTree = SOURCE_ROOT; };
 		9AB4FC7C50B1F514A2760915 /* SlateViewer.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SlateViewer.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/SlateViewer.Build.cs"; sourceTree = SOURCE_ROOT; };
 		B39EC8FFBF5D5CEB9677CAE7 /* SlateViewer.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SlateViewer.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/SlateViewer.Target.cs"; sourceTree = SOURCE_ROOT; };
-		33114496164405A5A33C4203 /* SlateViewer */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SlateViewer; sourceTree = BUILT_PRODUCTS_DIR; };
+		461C073318AEB914328F1A38 /* SlateViewer */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SlateViewer; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		88EDA5BC061A5FC41A0CB73A = {
+		2E785343D3F3FA3548B90D53 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,7 +45,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	80A6A4A260E4F1103252A4EB /* Embed App Extensions */ = {
+	17591AFCF50BD7D857020CEC /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -57,49 +57,49 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		A56D7E80253CAFB4BB4795F8 /* PBXContainerItemProxy */ = {
+		9F6A5742C072AE682B7B05F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 88EC4B29A1547E32DD92F441 /* Project object */;
+			containerPortal = 88EDA5BC061A5FC41A0CB73A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7A2DF693AC872FE63F1EDEB5;
+			remoteGlobalIDString = 88EC4B29A1547E32DD92F441;
 			remoteInfo = "SlateViewer_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		341A408375E4016D87C51851 /* PBXTargetDependency */ = {
+		7BDEBC185A799AED85475064 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7A2DF693AC872FE63F1EDEB5 /* SlateViewer_Build */;
-			targetProxy = A56D7E80253CAFB4BB4795F8 /* PBXContainerItemProxy */;
+			target = 88EC4B29A1547E32DD92F441 /* SlateViewer_Build */;
+			targetProxy = 9F6A5742C072AE682B7B05F7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		7267D4D78E3B310F501FBAD3 = {
+		AFB20205A91E16AC63A74FA1 = {
 			isa = PBXGroup;
 			children = (
-				0D6222A0B7FCF2B1D1E038DE /* Private */,
-				6DAC2E4454FC20F1331789F3 /* Public */,
+				433993B518935DAE081EC580 /* Private */,
+				B279E48736A07822A9E4497D /* Public */,
 				9AB4FC7C50B1F514A2760915 /* SlateViewer.Build.cs */,
 				B39EC8FFBF5D5CEB9677CAE7 /* SlateViewer.Target.cs */,
-				2784C6D6FDD31AB327C5032C /* Products */,
+				96740935C0F5B91BCC8B5656 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0D6222A0B7FCF2B1D1E038DE = {
+		433993B518935DAE081EC580 = {
 			isa = PBXGroup;
 			children = (
-				49719CAE7F553BEAE25F5A03 /* IOS */,
-				DB368F45838D8B3BBD573D85 /* Linux */,
-				258BF3B509FE94D91CB62D44 /* Mac */,
-				433993B518935DAE081EC580 /* Windows */,
+				6DAC2E4454FC20F1331789F3 /* IOS */,
+				6285E0E3CA80E724084A0249 /* Linux */,
+				FAD6232AFA8E7C07C673485D /* Mac */,
+				D050851F963C102BB0A05393 /* Windows */,
 				C254EFB78B525AF9C85F42BA /* SlateViewerApp.cpp */,
 			);
 			name = "Private";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private";
 			sourceTree = "<absolute>";
 		};
-		49719CAE7F553BEAE25F5A03 = {
+		6DAC2E4454FC20F1331789F3 = {
 			isa = PBXGroup;
 			children = (
 				E7401C67F126D9A4B033BAFB /* IOSSlateViewerMain.cpp */,
@@ -108,7 +108,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private/IOS";
 			sourceTree = "<absolute>";
 		};
-		DB368F45838D8B3BBD573D85 = {
+		6285E0E3CA80E724084A0249 = {
 			isa = PBXGroup;
 			children = (
 				C431A1593D001E596771D04B /* SlateViewerMainLinux.cpp */,
@@ -117,7 +117,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private/Linux";
 			sourceTree = "<absolute>";
 		};
-		258BF3B509FE94D91CB62D44 = {
+		FAD6232AFA8E7C07C673485D = {
 			isa = PBXGroup;
 			children = (
 				4B67E69A1BBAB8C5AFA3A3BF /* SlateViewerMainMac.cpp */,
@@ -126,7 +126,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private/Mac";
 			sourceTree = "<absolute>";
 		};
-		433993B518935DAE081EC580 = {
+		D050851F963C102BB0A05393 = {
 			isa = PBXGroup;
 			children = (
 				06ABAC28177969616FAC0ED6 /* SlateViewerMainWindows.cpp */,
@@ -135,7 +135,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Private/Windows";
 			sourceTree = "<absolute>";
 		};
-		6DAC2E4454FC20F1331789F3 = {
+		B279E48736A07822A9E4497D = {
 			isa = PBXGroup;
 			children = (
 				355A02AECE71860E4EBC9470 /* SlateViewer.h */,
@@ -145,10 +145,10 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateViewer/Public";
 			sourceTree = "<absolute>";
 		};
-		2784C6D6FDD31AB327C5032C /* Products */ = {
+		96740935C0F5B91BCC8B5656 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33114496164405A5A33C4203 /* SlateViewer */,
+				461C073318AEB914328F1A38 /* SlateViewer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,10 +156,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		7A2DF693AC872FE63F1EDEB5 /* SlateViewer_Build */ = {
+		88EC4B29A1547E32DD92F441 /* SlateViewer_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 7BDEBC185A799AED85475064 /* Build configuration list for PBXLegacyTarget "SlateViewer_Build" */;
+			buildConfigurationList = 30EC26CC6F758900D8C4D23E /* Build configuration list for PBXLegacyTarget "SlateViewer_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -173,30 +173,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		B0D093771EBBB16B78AEF5B6 /* SlateViewer */ = {
+		33114496164405A5A33C4203 /* SlateViewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC586F8422FA5EE1540A2D56 /* Build configuration list for PBXNativeTarget "SlateViewer" */;
+			buildConfigurationList = 7A2DF693AC872FE63F1EDEB5 /* Build configuration list for PBXNativeTarget "SlateViewer" */;
 			buildPhases = (
-				80A6A4A260E4F1103252A4EB /* Embed App Extensions */, 
-				AFB20205A91E16AC63A74FA1 /* Shell Script */, 
+				17591AFCF50BD7D857020CEC /* Embed App Extensions */, 
+				DBBB503C99891F235CACD631 /* Shell Script */, 
 			);
 			dependencies = (
-				341A408375E4016D87C51851 /* PBXTargetDependency */,
+				7BDEBC185A799AED85475064 /* PBXTargetDependency */,
 			);
 			name = "SlateViewer";
 			passBuildSettingsInEnvironment = 1;
 			productName = "SlateViewer";
-			productReference = "33114496164405A5A33C4203";
+			productReference = "461C073318AEB914328F1A38";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		9F6A5742C072AE682B7B05F7 /* SlateViewer_Index */ = {
+		7267D4D78E3B310F501FBAD3 /* SlateViewer_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 461C073318AEB914328F1A38 /* Build configuration list for PBXNativeTarget "SlateViewer_Index" */;
+			buildConfigurationList = 2784C6D6FDD31AB327C5032C /* Build configuration list for PBXNativeTarget "SlateViewer_Index" */;
 			buildPhases = (
-				88EDA5BC061A5FC41A0CB73A /* Sources */,
+				2E785343D3F3FA3548B90D53 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -208,38 +208,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		88EC4B29A1547E32DD92F441 /* Project object */ = {
+		88EDA5BC061A5FC41A0CB73A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					B0D093771EBBB16B78AEF5B6 = {
+					33114496164405A5A33C4203 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 30EC26CC6F758900D8C4D23E /* Build configuration list for PBXProject "SlateViewer" */;
+			buildConfigurationList = 80A6A4A260E4F1103252A4EB /* Build configuration list for PBXProject "SlateViewer" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 7267D4D78E3B310F501FBAD3;
-			productRefGroup = 2784C6D6FDD31AB327C5032C;
+			mainGroup = AFB20205A91E16AC63A74FA1;
+			productRefGroup = 96740935C0F5B91BCC8B5656;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			B0D093771EBBB16B78AEF5B6 /* SlateViewer */,
-			7A2DF693AC872FE63F1EDEB5 /* SlateViewer_Build */,
-			9F6A5742C072AE682B7B05F7 /* SlateViewer_Index */,
+			33114496164405A5A33C4203 /* SlateViewer */,
+			88EC4B29A1547E32DD92F441 /* SlateViewer_Build */,
+			7267D4D78E3B310F501FBAD3 /* SlateViewer_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		96740935C0F5B91BCC8B5656 /* "Debug" */ = {
+		CBD3D870AD1959DC66B51E66 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -333,7 +333,7 @@
 			};
 			name = "Debug";
 		};
-		CBD3D870AD1959DC66B51E66 /* "DebugGame" */ = {
+		645D6FDFADAAC5646AC0CDEE /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -426,7 +426,7 @@
 			};
 			name = "DebugGame";
 		};
-		645D6FDFADAAC5646AC0CDEE /* "Development" */ = {
+		EC0867EA066F5161CF228DED /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -519,7 +519,7 @@
 			};
 			name = "Development";
 		};
-		EC0867EA066F5161CF228DED /* "Test" */ = {
+		4A902C83AA05D0E607C0F5FA /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -612,7 +612,7 @@
 			};
 			name = "Test";
 		};
-		4A902C83AA05D0E607C0F5FA /* "Shipping" */ = {
+		E1B9EA10E2F9619F44751E05 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -705,7 +705,7 @@
 			};
 			name = "Shipping";
 		};
-		2E785343D3F3FA3548B90D53 /* "Debug" */ = {
+		DABC25C1B47DFE2C6B666818 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -742,7 +742,7 @@
 			};
 			name = "Debug";
 		};
-		DABC25C1B47DFE2C6B666818 /* "DebugGame" */ = {
+		7C9A427CBEB2E3F28B028E4C /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -779,7 +779,7 @@
 			};
 			name = "DebugGame";
 		};
-		7C9A427CBEB2E3F28B028E4C /* "Development" */ = {
+		28888227461692BC3F0601A6 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -816,7 +816,7 @@
 			};
 			name = "Development";
 		};
-		28888227461692BC3F0601A6 /* "Test" */ = {
+		A09317B36E79EEB538AA4CB6 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -853,7 +853,7 @@
 			};
 			name = "Test";
 		};
-		A09317B36E79EEB538AA4CB6 /* "Shipping" */ = {
+		B78A4C5EA3D19D6B1F5DC23E /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -890,7 +890,7 @@
 			};
 			name = "Shipping";
 		};
-		17591AFCF50BD7D857020CEC /* "Debug" */ = {
+		A2BE9CBF9AEAF76B82E83122 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -903,7 +903,7 @@
 			};
 			name = "Debug";
 		};
-		A2BE9CBF9AEAF76B82E83122 /* "DebugGame" */ = {
+		51C0823CE1427AB75CC05A3C /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -916,7 +916,7 @@
 			};
 			name = "DebugGame";
 		};
-		51C0823CE1427AB75CC05A3C /* "Development" */ = {
+		F50BCEBE4A1CB314FE7250D8 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -929,7 +929,7 @@
 			};
 			name = "Development";
 		};
-		F50BCEBE4A1CB314FE7250D8 /* "Test" */ = {
+		64A54D4699A81C245C3473BA /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -942,7 +942,7 @@
 			};
 			name = "Test";
 		};
-		64A54D4699A81C245C3473BA /* "Shipping" */ = {
+		0FF413CED9301CAD587264DF /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -955,7 +955,7 @@
 			};
 			name = "Shipping";
 		};
-		DBBB503C99891F235CACD631 /* "Debug" */ = {
+		32672B3EA92F85259DEA61DC /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -992,7 +992,7 @@
 			};
 			name = "Debug";
 		};
-		32672B3EA92F85259DEA61DC /* "DebugGame" */ = {
+		7B17BDD723CDB872993CC10F /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -1029,7 +1029,7 @@
 			};
 			name = "DebugGame";
 		};
-		7B17BDD723CDB872993CC10F /* "Development" */ = {
+		DB8FB1ED6EF96C5889D0AF9A /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -1066,7 +1066,7 @@
 			};
 			name = "Development";
 		};
-		DB8FB1ED6EF96C5889D0AF9A /* "Test" */ = {
+		F03069F9A26AD11B99B64CDB /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -1103,7 +1103,7 @@
 			};
 			name = "Test";
 		};
-		F03069F9A26AD11B99B64CDB /* "Shipping" */ = {
+		BE0C4163D3D4757A11644217 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -1143,55 +1143,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30EC26CC6F758900D8C4D23E /* Build configuration list for PBXProject "SlateViewer" */ = {
+		80A6A4A260E4F1103252A4EB /* Build configuration list for PBXProject "SlateViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96740935C0F5B91BCC8B5656 /* "Debug" */,
-				CBD3D870AD1959DC66B51E66 /* "DebugGame" */,
-				645D6FDFADAAC5646AC0CDEE /* "Development" */,
-				EC0867EA066F5161CF228DED /* "Test" */,
-				4A902C83AA05D0E607C0F5FA /* "Shipping" */,
+				CBD3D870AD1959DC66B51E66 /* "Debug" */,
+				645D6FDFADAAC5646AC0CDEE /* "DebugGame" */,
+				EC0867EA066F5161CF228DED /* "Development" */,
+				4A902C83AA05D0E607C0F5FA /* "Test" */,
+				E1B9EA10E2F9619F44751E05 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		7BDEBC185A799AED85475064 /* Build configuration list for PBXLegacyTarget "SlateViewer_Build" */ = {
+		30EC26CC6F758900D8C4D23E /* Build configuration list for PBXLegacyTarget "SlateViewer_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17591AFCF50BD7D857020CEC /* "Debug" */,
-				A2BE9CBF9AEAF76B82E83122 /* "DebugGame" */,
-				51C0823CE1427AB75CC05A3C /* "Development" */,
-				F50BCEBE4A1CB314FE7250D8 /* "Test" */,
-				64A54D4699A81C245C3473BA /* "Shipping" */,
+				A2BE9CBF9AEAF76B82E83122 /* "Debug" */,
+				51C0823CE1427AB75CC05A3C /* "DebugGame" */,
+				F50BCEBE4A1CB314FE7250D8 /* "Development" */,
+				64A54D4699A81C245C3473BA /* "Test" */,
+				0FF413CED9301CAD587264DF /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		AC586F8422FA5EE1540A2D56 /* Build configuration list for PBXNativeTarget "SlateViewer" */ = {
+		7A2DF693AC872FE63F1EDEB5 /* Build configuration list for PBXNativeTarget "SlateViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E785343D3F3FA3548B90D53 /* "Debug" */,
-				DABC25C1B47DFE2C6B666818 /* "DebugGame" */,
-				7C9A427CBEB2E3F28B028E4C /* "Development" */,
-				28888227461692BC3F0601A6 /* "Test" */,
-				A09317B36E79EEB538AA4CB6 /* "Shipping" */,
+				DABC25C1B47DFE2C6B666818 /* "Debug" */,
+				7C9A427CBEB2E3F28B028E4C /* "DebugGame" */,
+				28888227461692BC3F0601A6 /* "Development" */,
+				A09317B36E79EEB538AA4CB6 /* "Test" */,
+				B78A4C5EA3D19D6B1F5DC23E /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		461C073318AEB914328F1A38 /* Build configuration list for PBXNativeTarget "SlateViewer_Index" */ = {
+		2784C6D6FDD31AB327C5032C /* Build configuration list for PBXNativeTarget "SlateViewer_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBBB503C99891F235CACD631 /* "Debug" */,
-				32672B3EA92F85259DEA61DC /* "DebugGame" */,
-				7B17BDD723CDB872993CC10F /* "Development" */,
-				DB8FB1ED6EF96C5889D0AF9A /* "Test" */,
-				F03069F9A26AD11B99B64CDB /* "Shipping" */,
+				32672B3EA92F85259DEA61DC /* "Debug" */,
+				7B17BDD723CDB872993CC10F /* "DebugGame" */,
+				DB8FB1ED6EF96C5889D0AF9A /* "Development" */,
+				F03069F9A26AD11B99B64CDB /* "Test" */,
+				BE0C4163D3D4757A11644217 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 88EC4B29A1547E32DD92F441 /* Project object */;
+	rootObject = 88EDA5BC061A5FC41A0CB73A /* Project object */;
 }

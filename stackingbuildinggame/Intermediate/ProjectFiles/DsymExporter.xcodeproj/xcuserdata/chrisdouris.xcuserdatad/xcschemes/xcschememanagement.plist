@@ -9,30 +9,20 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
-		<key>DsymExporter_Build.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>69</integer>
-		</dict>
-		<key>DsymExporter_Index.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>49</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>46CB8CBA5AB0543654BEE6EB</key>
+		<key>C3870CF621EC1C84EE4BA651</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BC0025DDC2D71E66755A7772</key>
+		<key>F582A245D56860A67CC34EA1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C511ECCB36E965CECD405291</key>
+		<key>AAA12263D5534BDB39A57D9B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

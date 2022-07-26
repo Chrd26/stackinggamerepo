@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "756FE638C7886B0058DE2506"
+               BlueprintIdentifier = "359A99DA5AC6FEFF53C484D9"
                BuildableName = "SlateUGS.app"
                BlueprintName = "SlateUGS"
                ReferencedContainer = "container:SlateUGS.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "756FE638C7886B0058DE2506"
+               BlueprintIdentifier = "359A99DA5AC6FEFF53C484D9"
                BuildableName = "SlateUGS.app"
                BlueprintName = "SlateUGS"
                ReferencedContainer = "container:SlateUGS.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "756FE638C7886B0058DE2506"
+               BlueprintIdentifier = "359A99DA5AC6FEFF53C484D9"
                BuildableName = "SlateUGS.app"
                BlueprintName = "SlateUGS"
                ReferencedContainer = "container:SlateUGS.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "756FE638C7886B0058DE2506"
+               BlueprintIdentifier = "359A99DA5AC6FEFF53C484D9"
                BuildableName = "SlateUGS.app"
                BlueprintName = "SlateUGS"
                ReferencedContainer = "container:SlateUGS.xcodeproj">

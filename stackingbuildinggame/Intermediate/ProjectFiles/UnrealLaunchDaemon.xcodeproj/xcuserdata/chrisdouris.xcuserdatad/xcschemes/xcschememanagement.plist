@@ -9,30 +9,20 @@
 			<key>orderHint</key>
 			<integer>35</integer>
 		</dict>
-		<key>UnrealLaunchDaemon_Build.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>77</integer>
-		</dict>
-		<key>UnrealLaunchDaemon_Index.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>63</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0F11BD54BBDAA3C726CE0D13</key>
+		<key>04CB534F5D783D185A4D5FB4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4F1606C036F3EF3B2B9D2B96</key>
+		<key>254F001542C7DA8998160DD0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E1718A343B0A8B89424DB468</key>
+		<key>9C650208D040DDB7D9216AAE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

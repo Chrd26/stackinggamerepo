@@ -9,30 +9,20 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
-		<key>BootstrapPackagedGame_Build.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>64</integer>
-		</dict>
-		<key>BootstrapPackagedGame_Index.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>65</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>9E8C17B425B58FEA99F5B2E2</key>
+		<key>BCB6F0B15495F8BC5BA96CBD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B54C38D9E0D8DDD718206760</key>
+		<key>E56B870B0AC700A4C53D097D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CF63856F97E002B2E9A89C0C</key>
+		<key>50A8DEE839EAAC3FD0848A2B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

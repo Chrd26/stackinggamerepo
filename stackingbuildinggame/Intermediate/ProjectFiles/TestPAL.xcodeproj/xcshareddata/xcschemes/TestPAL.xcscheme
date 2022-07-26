@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "10C4E72C07F5ACB1FCCF26A2"
+               BlueprintIdentifier = "210C87EEEA715B2FA530CC29"
                BuildableName = "TestPAL"
                BlueprintName = "TestPAL"
                ReferencedContainer = "container:TestPAL.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "10C4E72C07F5ACB1FCCF26A2"
+            BlueprintIdentifier = "210C87EEEA715B2FA530CC29"
             BuildableName = "TestPAL"
             BlueprintName = "TestPAL"
             ReferencedContainer = "container:TestPAL.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "10C4E72C07F5ACB1FCCF26A2"
+            BlueprintIdentifier = "210C87EEEA715B2FA530CC29"
             BuildableName = "TestPAL"
             BlueprintName = "TestPAL"
             ReferencedContainer = "container:TestPAL.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "10C4E72C07F5ACB1FCCF26A2"
+            BlueprintIdentifier = "210C87EEEA715B2FA530CC29"
             BuildableName = "TestPAL"
             BlueprintName = "TestPAL"
             ReferencedContainer = "container:TestPAL.xcodeproj">

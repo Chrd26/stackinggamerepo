@@ -18,11 +18,11 @@
 		0B1CFB53713DBAA608D04B72 /* UnrealRecoverySvc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealRecoverySvc.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealRecoverySvc/Private/UnrealRecoverySvc.cpp"; sourceTree = SOURCE_ROOT; };
 		8868CAC08BFABD3F00EC6F6F /* UnrealRecoverySvc.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealRecoverySvc.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealRecoverySvc/UnrealRecoverySvc.Build.cs"; sourceTree = SOURCE_ROOT; };
 		9B6A0A8494D574EE6E022D31 /* UnrealRecoverySvc.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealRecoverySvc.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealRecoverySvc/UnrealRecoverySvc.Target.cs"; sourceTree = SOURCE_ROOT; };
-		00714F8FBBCD1C43E6FBF427 /* UnrealRecoverySvc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = UnrealRecoverySvc; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87FACBD4FFB07E566B33B2F /* UnrealRecoverySvc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = UnrealRecoverySvc; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BC0DD53DD37D898EDEDAD23A = {
+		5052F12F1C3F7E5DF7C9B84B = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,7 +33,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	21B6B1AA771DC63B0D5E150B /* Embed App Extensions */ = {
+	62E65F7CB381B36B378B40EB /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -45,52 +45,52 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		DCB0BD06F61879B33582C336 /* PBXContainerItemProxy */ = {
+		C83E366F89340BE0BB95E6E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B9A94F063C63F1E5EA4032C9 /* Project object */;
+			containerPortal = BC0DD53DD37D898EDEDAD23A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1F0E6FFA077833C82F1A0A9B;
+			remoteGlobalIDString = B9A94F063C63F1E5EA4032C9;
 			remoteInfo = "UnrealRecoverySvc_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		14FA7124A017CDF13DA678F2 /* PBXTargetDependency */ = {
+		538C1373F4E0BF91363A242F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1F0E6FFA077833C82F1A0A9B /* UnrealRecoverySvc_Build */;
-			targetProxy = DCB0BD06F61879B33582C336 /* PBXContainerItemProxy */;
+			target = B9A94F063C63F1E5EA4032C9 /* UnrealRecoverySvc_Build */;
+			targetProxy = C83E366F89340BE0BB95E6E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		3401423B333FC8140206B5DF = {
+		84881AA32E61275087B67E26 = {
 			isa = PBXGroup;
 			children = (
-				5D3A5B73BCDDCDC5DFFED307 /* Programs */,
-				A81A1B8CC821245047A5B531 /* Source */,
-				E504A458A301FD684DE37A8C /* Products */,
+				86884C1F007993BC2F237808 /* Programs */,
+				5F8E94A7D4062384A112C0FE /* Source */,
+				6A8B40857D27010A326936ED /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5D3A5B73BCDDCDC5DFFED307 = {
+		86884C1F007993BC2F237808 = {
 			isa = PBXGroup;
 			children = (
-				1EE09FD55B5E9EC69CA10A38 /* UnrealRecoverySvc */,
+				CBCA2433503DE6B61E4B2D41 /* UnrealRecoverySvc */,
 			);
 			name = "Programs";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs";
 			sourceTree = "<absolute>";
 		};
-		1EE09FD55B5E9EC69CA10A38 = {
+		CBCA2433503DE6B61E4B2D41 = {
 			isa = PBXGroup;
 			children = (
-				FBB31203A1ACAD952067C253 /* Config */,
+				4212FD7A7DBAF155FDE07C18 /* Config */,
 			);
 			name = "UnrealRecoverySvc";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/UnrealRecoverySvc";
 			sourceTree = "<absolute>";
 		};
-		FBB31203A1ACAD952067C253 = {
+		4212FD7A7DBAF155FDE07C18 = {
 			isa = PBXGroup;
 			children = (
 				D212CC6FAFA24644A3D4507F /* DefaultEngine.ini */,
@@ -99,28 +99,28 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/UnrealRecoverySvc/Config";
 			sourceTree = "<absolute>";
 		};
-		A81A1B8CC821245047A5B531 = {
+		5F8E94A7D4062384A112C0FE = {
 			isa = PBXGroup;
 			children = (
-				86884C1F007993BC2F237808 /* Programs */,
+				FDF1FF09BFFE123B5A0BDCEE /* Programs */,
 			);
 			name = "Source";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source";
 			sourceTree = "<absolute>";
 		};
-		86884C1F007993BC2F237808 = {
+		FDF1FF09BFFE123B5A0BDCEE = {
 			isa = PBXGroup;
 			children = (
-				CBCA2433503DE6B61E4B2D41 /* UnrealRecoverySvc */,
+				7B183E7532220BEA4D0CD3C2 /* UnrealRecoverySvc */,
 			);
 			name = "Programs";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs";
 			sourceTree = "<absolute>";
 		};
-		CBCA2433503DE6B61E4B2D41 = {
+		7B183E7532220BEA4D0CD3C2 = {
 			isa = PBXGroup;
 			children = (
-				4212FD7A7DBAF155FDE07C18 /* Private */,
+				A83FE21727A89F2F51FE7D8B /* Private */,
 				8868CAC08BFABD3F00EC6F6F /* UnrealRecoverySvc.Build.cs */,
 				9B6A0A8494D574EE6E022D31 /* UnrealRecoverySvc.Target.cs */,
 			);
@@ -128,7 +128,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealRecoverySvc";
 			sourceTree = "<absolute>";
 		};
-		4212FD7A7DBAF155FDE07C18 = {
+		A83FE21727A89F2F51FE7D8B = {
 			isa = PBXGroup;
 			children = (
 				0B1CFB53713DBAA608D04B72 /* UnrealRecoverySvc.cpp */,
@@ -137,10 +137,10 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/UnrealRecoverySvc/Private";
 			sourceTree = "<absolute>";
 		};
-		E504A458A301FD684DE37A8C /* Products */ = {
+		6A8B40857D27010A326936ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00714F8FBBCD1C43E6FBF427 /* UnrealRecoverySvc */,
+				A87FACBD4FFB07E566B33B2F /* UnrealRecoverySvc */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,10 +148,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		1F0E6FFA077833C82F1A0A9B /* UnrealRecoverySvc_Build */ = {
+		B9A94F063C63F1E5EA4032C9 /* UnrealRecoverySvc_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 538C1373F4E0BF91363A242F /* Build configuration list for PBXLegacyTarget "UnrealRecoverySvc_Build" */;
+			buildConfigurationList = 42C33EFA0F29E0BEA52BCA74 /* Build configuration list for PBXLegacyTarget "UnrealRecoverySvc_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -165,30 +165,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		B27BF0082291331012D46970 /* UnrealRecoverySvc */ = {
+		00714F8FBBCD1C43E6FBF427 /* UnrealRecoverySvc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EA70CE64C10920A8B6E94F4 /* Build configuration list for PBXNativeTarget "UnrealRecoverySvc" */;
+			buildConfigurationList = 1F0E6FFA077833C82F1A0A9B /* Build configuration list for PBXNativeTarget "UnrealRecoverySvc" */;
 			buildPhases = (
-				21B6B1AA771DC63B0D5E150B /* Embed App Extensions */, 
-				84881AA32E61275087B67E26 /* Shell Script */, 
+				62E65F7CB381B36B378B40EB /* Embed App Extensions */, 
+				DD41BEE55D0AD81B512D53DB /* Shell Script */, 
 			);
 			dependencies = (
-				14FA7124A017CDF13DA678F2 /* PBXTargetDependency */,
+				538C1373F4E0BF91363A242F /* PBXTargetDependency */,
 			);
 			name = "UnrealRecoverySvc";
 			passBuildSettingsInEnvironment = 1;
 			productName = "UnrealRecoverySvc";
-			productReference = "00714F8FBBCD1C43E6FBF427";
+			productReference = "A87FACBD4FFB07E566B33B2F";
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		C83E366F89340BE0BB95E6E7 /* UnrealRecoverySvc_Index */ = {
+		3401423B333FC8140206B5DF /* UnrealRecoverySvc_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A87FACBD4FFB07E566B33B2F /* Build configuration list for PBXNativeTarget "UnrealRecoverySvc_Index" */;
+			buildConfigurationList = E504A458A301FD684DE37A8C /* Build configuration list for PBXNativeTarget "UnrealRecoverySvc_Index" */;
 			buildPhases = (
-				BC0DD53DD37D898EDEDAD23A /* Sources */,
+				5052F12F1C3F7E5DF7C9B84B /* Sources */,
 			);
 			dependencies = (
 			);
@@ -200,38 +200,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B9A94F063C63F1E5EA4032C9 /* Project object */ = {
+		BC0DD53DD37D898EDEDAD23A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					B27BF0082291331012D46970 = {
+					00714F8FBBCD1C43E6FBF427 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 42C33EFA0F29E0BEA52BCA74 /* Build configuration list for PBXProject "UnrealRecoverySvc" */;
+			buildConfigurationList = 21B6B1AA771DC63B0D5E150B /* Build configuration list for PBXProject "UnrealRecoverySvc" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 3401423B333FC8140206B5DF;
-			productRefGroup = E504A458A301FD684DE37A8C;
+			mainGroup = 84881AA32E61275087B67E26;
+			productRefGroup = 6A8B40857D27010A326936ED;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			B27BF0082291331012D46970 /* UnrealRecoverySvc */,
-			1F0E6FFA077833C82F1A0A9B /* UnrealRecoverySvc_Build */,
-			C83E366F89340BE0BB95E6E7 /* UnrealRecoverySvc_Index */,
+			00714F8FBBCD1C43E6FBF427 /* UnrealRecoverySvc */,
+			B9A94F063C63F1E5EA4032C9 /* UnrealRecoverySvc_Build */,
+			3401423B333FC8140206B5DF /* UnrealRecoverySvc_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		6A8B40857D27010A326936ED /* "Debug" */ = {
+		70F7344737202EA0D2F52296 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -315,7 +315,7 @@
 			};
 			name = "Debug";
 		};
-		70F7344737202EA0D2F52296 /* "DebugGame" */ = {
+		B3276485778EC86AA559C69D /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -398,7 +398,7 @@
 			};
 			name = "DebugGame";
 		};
-		B3276485778EC86AA559C69D /* "Development" */ = {
+		F0E3ED3023D86217C31AEDD9 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -481,7 +481,7 @@
 			};
 			name = "Development";
 		};
-		F0E3ED3023D86217C31AEDD9 /* "Test" */ = {
+		23DA553874FB150AE6660123 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -564,7 +564,7 @@
 			};
 			name = "Test";
 		};
-		23DA553874FB150AE6660123 /* "Shipping" */ = {
+		90B4A99DB30293AE1C4301F7 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -647,7 +647,7 @@
 			};
 			name = "Shipping";
 		};
-		5052F12F1C3F7E5DF7C9B84B /* "Debug" */ = {
+		C88457B1B6CBB5C4120552DA /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -664,7 +664,7 @@
 			};
 			name = "Debug";
 		};
-		C88457B1B6CBB5C4120552DA /* "DebugGame" */ = {
+		2040AF35FBED0444779B644A /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -681,7 +681,7 @@
 			};
 			name = "DebugGame";
 		};
-		2040AF35FBED0444779B644A /* "Development" */ = {
+		26557E3B9D6C21FA06E6FC86 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -698,7 +698,7 @@
 			};
 			name = "Development";
 		};
-		26557E3B9D6C21FA06E6FC86 /* "Test" */ = {
+		508C925175EA30DAD274BE11 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -715,7 +715,7 @@
 			};
 			name = "Test";
 		};
-		508C925175EA30DAD274BE11 /* "Shipping" */ = {
+		C4322A0868B5002DD9E83609 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -732,7 +732,7 @@
 			};
 			name = "Shipping";
 		};
-		62E65F7CB381B36B378B40EB /* "Debug" */ = {
+		8199FFEDF19DFA3592840CBB /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -745,7 +745,7 @@
 			};
 			name = "Debug";
 		};
-		8199FFEDF19DFA3592840CBB /* "DebugGame" */ = {
+		989E6773EC69BC597C263AC9 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -758,7 +758,7 @@
 			};
 			name = "DebugGame";
 		};
-		989E6773EC69BC597C263AC9 /* "Development" */ = {
+		2F0088D58471A402A84B8309 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -771,7 +771,7 @@
 			};
 			name = "Development";
 		};
-		2F0088D58471A402A84B8309 /* "Test" */ = {
+		367D36E3DFDEFE4B2222B2AA /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -784,7 +784,7 @@
 			};
 			name = "Test";
 		};
-		367D36E3DFDEFE4B2222B2AA /* "Shipping" */ = {
+		5C84A45952A8872429FF532B /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -797,7 +797,7 @@
 			};
 			name = "Shipping";
 		};
-		DD41BEE55D0AD81B512D53DB /* "Debug" */ = {
+		4C6B33175C9F18E81E271CD9 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -814,7 +814,7 @@
 			};
 			name = "Debug";
 		};
-		4C6B33175C9F18E81E271CD9 /* "DebugGame" */ = {
+		3874BD04BBA116F3A595F61C /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -831,7 +831,7 @@
 			};
 			name = "DebugGame";
 		};
-		3874BD04BBA116F3A595F61C /* "Development" */ = {
+		7C8B36A3C322061E87E4DD66 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -848,7 +848,7 @@
 			};
 			name = "Development";
 		};
-		7C8B36A3C322061E87E4DD66 /* "Test" */ = {
+		1B6C8DAC357822158A125337 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -865,7 +865,7 @@
 			};
 			name = "Test";
 		};
-		1B6C8DAC357822158A125337 /* "Shipping" */ = {
+		356197208E048DD76A96E703 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -885,55 +885,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42C33EFA0F29E0BEA52BCA74 /* Build configuration list for PBXProject "UnrealRecoverySvc" */ = {
+		21B6B1AA771DC63B0D5E150B /* Build configuration list for PBXProject "UnrealRecoverySvc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A8B40857D27010A326936ED /* "Debug" */,
-				70F7344737202EA0D2F52296 /* "DebugGame" */,
-				B3276485778EC86AA559C69D /* "Development" */,
-				F0E3ED3023D86217C31AEDD9 /* "Test" */,
-				23DA553874FB150AE6660123 /* "Shipping" */,
+				70F7344737202EA0D2F52296 /* "Debug" */,
+				B3276485778EC86AA559C69D /* "DebugGame" */,
+				F0E3ED3023D86217C31AEDD9 /* "Development" */,
+				23DA553874FB150AE6660123 /* "Test" */,
+				90B4A99DB30293AE1C4301F7 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		538C1373F4E0BF91363A242F /* Build configuration list for PBXLegacyTarget "UnrealRecoverySvc_Build" */ = {
+		42C33EFA0F29E0BEA52BCA74 /* Build configuration list for PBXLegacyTarget "UnrealRecoverySvc_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62E65F7CB381B36B378B40EB /* "Debug" */,
-				8199FFEDF19DFA3592840CBB /* "DebugGame" */,
-				989E6773EC69BC597C263AC9 /* "Development" */,
-				2F0088D58471A402A84B8309 /* "Test" */,
-				367D36E3DFDEFE4B2222B2AA /* "Shipping" */,
+				8199FFEDF19DFA3592840CBB /* "Debug" */,
+				989E6773EC69BC597C263AC9 /* "DebugGame" */,
+				2F0088D58471A402A84B8309 /* "Development" */,
+				367D36E3DFDEFE4B2222B2AA /* "Test" */,
+				5C84A45952A8872429FF532B /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		6EA70CE64C10920A8B6E94F4 /* Build configuration list for PBXNativeTarget "UnrealRecoverySvc" */ = {
+		1F0E6FFA077833C82F1A0A9B /* Build configuration list for PBXNativeTarget "UnrealRecoverySvc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5052F12F1C3F7E5DF7C9B84B /* "Debug" */,
-				C88457B1B6CBB5C4120552DA /* "DebugGame" */,
-				2040AF35FBED0444779B644A /* "Development" */,
-				26557E3B9D6C21FA06E6FC86 /* "Test" */,
-				508C925175EA30DAD274BE11 /* "Shipping" */,
+				C88457B1B6CBB5C4120552DA /* "Debug" */,
+				2040AF35FBED0444779B644A /* "DebugGame" */,
+				26557E3B9D6C21FA06E6FC86 /* "Development" */,
+				508C925175EA30DAD274BE11 /* "Test" */,
+				C4322A0868B5002DD9E83609 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		A87FACBD4FFB07E566B33B2F /* Build configuration list for PBXNativeTarget "UnrealRecoverySvc_Index" */ = {
+		E504A458A301FD684DE37A8C /* Build configuration list for PBXNativeTarget "UnrealRecoverySvc_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD41BEE55D0AD81B512D53DB /* "Debug" */,
-				4C6B33175C9F18E81E271CD9 /* "DebugGame" */,
-				3874BD04BBA116F3A595F61C /* "Development" */,
-				7C8B36A3C322061E87E4DD66 /* "Test" */,
-				1B6C8DAC357822158A125337 /* "Shipping" */,
+				4C6B33175C9F18E81E271CD9 /* "Debug" */,
+				3874BD04BBA116F3A595F61C /* "DebugGame" */,
+				7C8B36A3C322061E87E4DD66 /* "Development" */,
+				1B6C8DAC357822158A125337 /* "Test" */,
+				356197208E048DD76A96E703 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B9A94F063C63F1E5EA4032C9 /* Project object */;
+	rootObject = BC0DD53DD37D898EDEDAD23A /* Project object */;
 }

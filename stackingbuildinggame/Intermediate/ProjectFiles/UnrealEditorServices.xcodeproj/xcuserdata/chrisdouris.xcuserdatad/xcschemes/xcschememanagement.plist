@@ -9,30 +9,20 @@
 			<key>orderHint</key>
 			<integer>31</integer>
 		</dict>
-		<key>UnrealEditorServices_Build.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>67</integer>
-		</dict>
-		<key>UnrealEditorServices_Index.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>83</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1048B3EB300E3F7053942779</key>
+		<key>AAA444EC8C16FCF2376AA75B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4842D578F959F40BC0BCE2B7</key>
+		<key>6DCE2CFD7487EFEBFDD5E87D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CFD8AE4FC7D430CCBAD54D0A</key>
+		<key>89FD173E6ADAAF0E2A72B288</key>
 		<dict>
 			<key>primary</key>
 			<true/>

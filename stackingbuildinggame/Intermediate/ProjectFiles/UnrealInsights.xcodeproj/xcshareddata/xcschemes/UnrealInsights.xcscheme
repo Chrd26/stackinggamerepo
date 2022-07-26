@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "60A9BDD92015FD1D244598F6"
+               BlueprintIdentifier = "D3B45FE0157E3D4095403E31"
                BuildableName = "UnrealInsights.app"
                BlueprintName = "UnrealInsights"
                ReferencedContainer = "container:UnrealInsights.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "60A9BDD92015FD1D244598F6"
+               BlueprintIdentifier = "D3B45FE0157E3D4095403E31"
                BuildableName = "UnrealInsights.app"
                BlueprintName = "UnrealInsights"
                ReferencedContainer = "container:UnrealInsights.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "60A9BDD92015FD1D244598F6"
+               BlueprintIdentifier = "D3B45FE0157E3D4095403E31"
                BuildableName = "UnrealInsights.app"
                BlueprintName = "UnrealInsights"
                ReferencedContainer = "container:UnrealInsights.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "60A9BDD92015FD1D244598F6"
+               BlueprintIdentifier = "D3B45FE0157E3D4095403E31"
                BuildableName = "UnrealInsights.app"
                BlueprintName = "UnrealInsights"
                ReferencedContainer = "container:UnrealInsights.xcodeproj">

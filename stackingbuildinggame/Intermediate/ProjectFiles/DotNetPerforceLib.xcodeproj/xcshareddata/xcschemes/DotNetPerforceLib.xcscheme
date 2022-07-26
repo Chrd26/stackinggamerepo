@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "27F6CBDC9836D9C1CC5E2626"
+               BlueprintIdentifier = "C2BC9DD8EC71A7CB5B64067A"
                BuildableName = "DotNetPerforceLib"
                BlueprintName = "DotNetPerforceLib"
                ReferencedContainer = "container:DotNetPerforceLib.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "27F6CBDC9836D9C1CC5E2626"
+            BlueprintIdentifier = "C2BC9DD8EC71A7CB5B64067A"
             BuildableName = "DotNetPerforceLib"
             BlueprintName = "DotNetPerforceLib"
             ReferencedContainer = "container:DotNetPerforceLib.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "27F6CBDC9836D9C1CC5E2626"
+            BlueprintIdentifier = "C2BC9DD8EC71A7CB5B64067A"
             BuildableName = "DotNetPerforceLib"
             BlueprintName = "DotNetPerforceLib"
             ReferencedContainer = "container:DotNetPerforceLib.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "27F6CBDC9836D9C1CC5E2626"
+            BlueprintIdentifier = "C2BC9DD8EC71A7CB5B64067A"
             BuildableName = "DotNetPerforceLib"
             BlueprintName = "DotNetPerforceLib"
             ReferencedContainer = "container:DotNetPerforceLib.xcodeproj">

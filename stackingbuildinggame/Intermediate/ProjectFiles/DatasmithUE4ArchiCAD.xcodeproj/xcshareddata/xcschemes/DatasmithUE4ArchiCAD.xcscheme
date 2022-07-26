@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D3AE1A2AC2DB6D863C570BAA"
+               BlueprintIdentifier = "DEF6716326096400956EBC08"
                BuildableName = "DatasmithUE4ArchiCAD"
                BlueprintName = "DatasmithUE4ArchiCAD"
                ReferencedContainer = "container:DatasmithUE4ArchiCAD.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D3AE1A2AC2DB6D863C570BAA"
+            BlueprintIdentifier = "DEF6716326096400956EBC08"
             BuildableName = "DatasmithUE4ArchiCAD"
             BlueprintName = "DatasmithUE4ArchiCAD"
             ReferencedContainer = "container:DatasmithUE4ArchiCAD.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D3AE1A2AC2DB6D863C570BAA"
+            BlueprintIdentifier = "DEF6716326096400956EBC08"
             BuildableName = "DatasmithUE4ArchiCAD"
             BlueprintName = "DatasmithUE4ArchiCAD"
             ReferencedContainer = "container:DatasmithUE4ArchiCAD.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D3AE1A2AC2DB6D863C570BAA"
+            BlueprintIdentifier = "DEF6716326096400956EBC08"
             BuildableName = "DatasmithUE4ArchiCAD"
             BlueprintName = "DatasmithUE4ArchiCAD"
             ReferencedContainer = "container:DatasmithUE4ArchiCAD.xcodeproj">

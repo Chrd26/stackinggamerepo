@@ -26,11 +26,11 @@
 		3E97562314D7C431D61B3B75 /* ChaosPerfTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ChaosPerfTest.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/HeadlessChaosPerf/Private/ChaosPerf/ChaosPerfTest.h"; sourceTree = SOURCE_ROOT; };
 		37524A5C86B16356E4F41531 /* ChaosPerfProfilerTests.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ChaosPerfProfilerTests.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/HeadlessChaosPerf/Private/ChaosPerf/PerfTests/ChaosPerfProfilerTests.cpp"; sourceTree = SOURCE_ROOT; };
 		BF7AD53F644765607FC3C48D /* HeadlessChaosPerfApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HeadlessChaosPerfApp.cpp"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/HeadlessChaosPerf/Private/HeadlessChaosPerfApp.cpp"; sourceTree = SOURCE_ROOT; };
-		1634B3ABA8F27CA0BF275E08 /* HeadlessChaosPerf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = HeadlessChaosPerf; sourceTree = BUILT_PRODUCTS_DIR; };
+		104E5660EF2E26EA2642C285 /* HeadlessChaosPerf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = HeadlessChaosPerf; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		600F64666E675B45E1E1A7D9 = {
+		8057FA54B37BDB19AAFBA36B = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,7 +42,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	250F6F6412F8C661C7466468 /* Embed App Extensions */ = {
+	2420A0A875403F2209E50187 /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -54,48 +54,48 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		74FA96C0C72D9C0E8A68AA88 /* PBXContainerItemProxy */ = {
+		4CDAA72DAD4BA54D9C8DF8E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A726998750CA74082C0401DD /* Project object */;
+			containerPortal = 600F64666E675B45E1E1A7D9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C8DE1C4DB72A797B622B0D70;
+			remoteGlobalIDString = A726998750CA74082C0401DD;
 			remoteInfo = "HeadlessChaosPerf_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		FD3E48C84CFF854F1F2AEC64 /* PBXTargetDependency */ = {
+		E8224A560737D69494BFB218 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C8DE1C4DB72A797B622B0D70 /* HeadlessChaosPerf_Build */;
-			targetProxy = 74FA96C0C72D9C0E8A68AA88 /* PBXContainerItemProxy */;
+			target = A726998750CA74082C0401DD /* HeadlessChaosPerf_Build */;
+			targetProxy = 4CDAA72DAD4BA54D9C8DF8E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		E076A56599C7F10917218587 = {
+		C202423AA5386B669902058A = {
 			isa = PBXGroup;
 			children = (
-				BD4F580BB2CE1C295AF7BF39 /* Private */,
+				A103215D243902C06177DA10 /* Private */,
 				C64F86DDBF5518ECE756846E /* HeadlessChaosPerf.Build.cs */,
 				B3F0240D3A41115CDA07C91E /* HeadlessChaosPerf.Target.cs */,
-				B21DFDD118EFBC0C4D79DCA2 /* Products */,
+				628B9BAFC63FA6D07623AC09 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BD4F580BB2CE1C295AF7BF39 = {
+		A103215D243902C06177DA10 = {
 			isa = PBXGroup;
 			children = (
-				F0A925478434102480FDEDE1 /* ChaosPerf */,
+				FA05A03D92F2D1122D34B0A6 /* ChaosPerf */,
 				BF7AD53F644765607FC3C48D /* HeadlessChaosPerfApp.cpp */,
 			);
 			name = "Private";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/HeadlessChaosPerf/Private";
 			sourceTree = "<absolute>";
 		};
-		F0A925478434102480FDEDE1 = {
+		FA05A03D92F2D1122D34B0A6 = {
 			isa = PBXGroup;
 			children = (
-				31A1D317881C65CC67DD7CF0 /* PerfTests */,
+				1FC00C3983A9A9CA743B7585 /* PerfTests */,
 				13BA6F38792720574BA51E44 /* ChaosPerf.h */,
 				808C2B6F225C68087A7C2BAA /* ChaosPerfLog.h */,
 				33ACB754C806C8BC5C38B7ED /* ChaosPerfProfiling.h */,
@@ -105,7 +105,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/HeadlessChaosPerf/Private/ChaosPerf";
 			sourceTree = "<absolute>";
 		};
-		31A1D317881C65CC67DD7CF0 = {
+		1FC00C3983A9A9CA743B7585 = {
 			isa = PBXGroup;
 			children = (
 				37524A5C86B16356E4F41531 /* ChaosPerfProfilerTests.cpp */,
@@ -114,10 +114,10 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/HeadlessChaosPerf/Private/ChaosPerf/PerfTests";
 			sourceTree = "<absolute>";
 		};
-		B21DFDD118EFBC0C4D79DCA2 /* Products */ = {
+		628B9BAFC63FA6D07623AC09 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1634B3ABA8F27CA0BF275E08 /* HeadlessChaosPerf */,
+				104E5660EF2E26EA2642C285 /* HeadlessChaosPerf */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,10 +125,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		C8DE1C4DB72A797B622B0D70 /* HeadlessChaosPerf_Build */ = {
+		A726998750CA74082C0401DD /* HeadlessChaosPerf_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = E8224A560737D69494BFB218 /* Build configuration list for PBXLegacyTarget "HeadlessChaosPerf_Build" */;
+			buildConfigurationList = 834CCD1686C0D45B2A6145B8 /* Build configuration list for PBXLegacyTarget "HeadlessChaosPerf_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -142,30 +142,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		4405895C4710A7694D3C7A98 /* HeadlessChaosPerf */ = {
+		1634B3ABA8F27CA0BF275E08 /* HeadlessChaosPerf */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A54E90826B7EE31183A34561 /* Build configuration list for PBXNativeTarget "HeadlessChaosPerf" */;
+			buildConfigurationList = C8DE1C4DB72A797B622B0D70 /* Build configuration list for PBXNativeTarget "HeadlessChaosPerf" */;
 			buildPhases = (
-				250F6F6412F8C661C7466468 /* Embed App Extensions */, 
-				C202423AA5386B669902058A /* Shell Script */, 
+				2420A0A875403F2209E50187 /* Embed App Extensions */, 
+				5C169A87A093F29F5539BA4D /* Shell Script */, 
 			);
 			dependencies = (
-				FD3E48C84CFF854F1F2AEC64 /* PBXTargetDependency */,
+				E8224A560737D69494BFB218 /* PBXTargetDependency */,
 			);
 			name = "HeadlessChaosPerf";
 			passBuildSettingsInEnvironment = 1;
 			productName = "HeadlessChaosPerf";
-			productReference = "1634B3ABA8F27CA0BF275E08";
+			productReference = "104E5660EF2E26EA2642C285";
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		4CDAA72DAD4BA54D9C8DF8E8 /* HeadlessChaosPerf_Index */ = {
+		E076A56599C7F10917218587 /* HeadlessChaosPerf_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 104E5660EF2E26EA2642C285 /* Build configuration list for PBXNativeTarget "HeadlessChaosPerf_Index" */;
+			buildConfigurationList = B21DFDD118EFBC0C4D79DCA2 /* Build configuration list for PBXNativeTarget "HeadlessChaosPerf_Index" */;
 			buildPhases = (
-				600F64666E675B45E1E1A7D9 /* Sources */,
+				8057FA54B37BDB19AAFBA36B /* Sources */,
 			);
 			dependencies = (
 			);
@@ -177,38 +177,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A726998750CA74082C0401DD /* Project object */ = {
+		600F64666E675B45E1E1A7D9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					4405895C4710A7694D3C7A98 = {
+					1634B3ABA8F27CA0BF275E08 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 834CCD1686C0D45B2A6145B8 /* Build configuration list for PBXProject "HeadlessChaosPerf" */;
+			buildConfigurationList = 250F6F6412F8C661C7466468 /* Build configuration list for PBXProject "HeadlessChaosPerf" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = E076A56599C7F10917218587;
-			productRefGroup = B21DFDD118EFBC0C4D79DCA2;
+			mainGroup = C202423AA5386B669902058A;
+			productRefGroup = 628B9BAFC63FA6D07623AC09;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			4405895C4710A7694D3C7A98 /* HeadlessChaosPerf */,
-			C8DE1C4DB72A797B622B0D70 /* HeadlessChaosPerf_Build */,
-			4CDAA72DAD4BA54D9C8DF8E8 /* HeadlessChaosPerf_Index */,
+			1634B3ABA8F27CA0BF275E08 /* HeadlessChaosPerf */,
+			A726998750CA74082C0401DD /* HeadlessChaosPerf_Build */,
+			E076A56599C7F10917218587 /* HeadlessChaosPerf_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		628B9BAFC63FA6D07623AC09 /* "Debug" */ = {
+		3E16B31E26EBDF66E72F8AA6 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -289,7 +289,7 @@
 			};
 			name = "Debug";
 		};
-		3E16B31E26EBDF66E72F8AA6 /* "DebugGame" */ = {
+		38BCBBCB391FF7CB1E163ED2 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -369,7 +369,7 @@
 			};
 			name = "DebugGame";
 		};
-		38BCBBCB391FF7CB1E163ED2 /* "Development" */ = {
+		3DBC13EBB49B0F3D14F93D59 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -449,7 +449,7 @@
 			};
 			name = "Development";
 		};
-		3DBC13EBB49B0F3D14F93D59 /* "Test" */ = {
+		A4EE708FC311532C2245FDBA /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -529,7 +529,7 @@
 			};
 			name = "Test";
 		};
-		A4EE708FC311532C2245FDBA /* "Shipping" */ = {
+		1D56363432875FC15290722E /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -609,7 +609,7 @@
 			};
 			name = "Shipping";
 		};
-		8057FA54B37BDB19AAFBA36B /* "Debug" */ = {
+		9FFD5B35E38AFF9A5572F89C /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -646,7 +646,7 @@
 			};
 			name = "Debug";
 		};
-		9FFD5B35E38AFF9A5572F89C /* "DebugGame" */ = {
+		71C85DE3199F404C93FBA8C2 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -683,7 +683,7 @@
 			};
 			name = "DebugGame";
 		};
-		71C85DE3199F404C93FBA8C2 /* "Development" */ = {
+		8A3CF9520553669BEA109ACE /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -720,7 +720,7 @@
 			};
 			name = "Development";
 		};
-		8A3CF9520553669BEA109ACE /* "Test" */ = {
+		A91983E118D92533BEE39BE0 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -757,7 +757,7 @@
 			};
 			name = "Test";
 		};
-		A91983E118D92533BEE39BE0 /* "Shipping" */ = {
+		3D0954D783667CD5C9B820C7 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -794,7 +794,7 @@
 			};
 			name = "Shipping";
 		};
-		2420A0A875403F2209E50187 /* "Debug" */ = {
+		E0547916090416EB66526A5F /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -807,7 +807,7 @@
 			};
 			name = "Debug";
 		};
-		E0547916090416EB66526A5F /* "DebugGame" */ = {
+		8EE094BBD2CB11EB6CD6DE4C /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -820,7 +820,7 @@
 			};
 			name = "DebugGame";
 		};
-		8EE094BBD2CB11EB6CD6DE4C /* "Development" */ = {
+		EEF9F1F5B932E06433577D15 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -833,7 +833,7 @@
 			};
 			name = "Development";
 		};
-		EEF9F1F5B932E06433577D15 /* "Test" */ = {
+		1C95D449D84BC1963ED450CB /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -846,7 +846,7 @@
 			};
 			name = "Test";
 		};
-		1C95D449D84BC1963ED450CB /* "Shipping" */ = {
+		38032F6DF029B8A06E262B81 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -859,7 +859,7 @@
 			};
 			name = "Shipping";
 		};
-		5C169A87A093F29F5539BA4D /* "Debug" */ = {
+		8D21FC1E059AA02D8BF4E8A2 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -896,7 +896,7 @@
 			};
 			name = "Debug";
 		};
-		8D21FC1E059AA02D8BF4E8A2 /* "DebugGame" */ = {
+		484AB1465A9E4176E229AC3D /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -933,7 +933,7 @@
 			};
 			name = "DebugGame";
 		};
-		484AB1465A9E4176E229AC3D /* "Development" */ = {
+		B72536D0C7A0384F0D57BB1D /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -970,7 +970,7 @@
 			};
 			name = "Development";
 		};
-		B72536D0C7A0384F0D57BB1D /* "Test" */ = {
+		C150A0220451F372277B26AD /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -1007,7 +1007,7 @@
 			};
 			name = "Test";
 		};
-		C150A0220451F372277B26AD /* "Shipping" */ = {
+		148D64B6748F7830DE71E4FA /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
@@ -1047,55 +1047,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		834CCD1686C0D45B2A6145B8 /* Build configuration list for PBXProject "HeadlessChaosPerf" */ = {
+		250F6F6412F8C661C7466468 /* Build configuration list for PBXProject "HeadlessChaosPerf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				628B9BAFC63FA6D07623AC09 /* "Debug" */,
-				3E16B31E26EBDF66E72F8AA6 /* "DebugGame" */,
-				38BCBBCB391FF7CB1E163ED2 /* "Development" */,
-				3DBC13EBB49B0F3D14F93D59 /* "Test" */,
-				A4EE708FC311532C2245FDBA /* "Shipping" */,
+				3E16B31E26EBDF66E72F8AA6 /* "Debug" */,
+				38BCBBCB391FF7CB1E163ED2 /* "DebugGame" */,
+				3DBC13EBB49B0F3D14F93D59 /* "Development" */,
+				A4EE708FC311532C2245FDBA /* "Test" */,
+				1D56363432875FC15290722E /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		E8224A560737D69494BFB218 /* Build configuration list for PBXLegacyTarget "HeadlessChaosPerf_Build" */ = {
+		834CCD1686C0D45B2A6145B8 /* Build configuration list for PBXLegacyTarget "HeadlessChaosPerf_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2420A0A875403F2209E50187 /* "Debug" */,
-				E0547916090416EB66526A5F /* "DebugGame" */,
-				8EE094BBD2CB11EB6CD6DE4C /* "Development" */,
-				EEF9F1F5B932E06433577D15 /* "Test" */,
-				1C95D449D84BC1963ED450CB /* "Shipping" */,
+				E0547916090416EB66526A5F /* "Debug" */,
+				8EE094BBD2CB11EB6CD6DE4C /* "DebugGame" */,
+				EEF9F1F5B932E06433577D15 /* "Development" */,
+				1C95D449D84BC1963ED450CB /* "Test" */,
+				38032F6DF029B8A06E262B81 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		A54E90826B7EE31183A34561 /* Build configuration list for PBXNativeTarget "HeadlessChaosPerf" */ = {
+		C8DE1C4DB72A797B622B0D70 /* Build configuration list for PBXNativeTarget "HeadlessChaosPerf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8057FA54B37BDB19AAFBA36B /* "Debug" */,
-				9FFD5B35E38AFF9A5572F89C /* "DebugGame" */,
-				71C85DE3199F404C93FBA8C2 /* "Development" */,
-				8A3CF9520553669BEA109ACE /* "Test" */,
-				A91983E118D92533BEE39BE0 /* "Shipping" */,
+				9FFD5B35E38AFF9A5572F89C /* "Debug" */,
+				71C85DE3199F404C93FBA8C2 /* "DebugGame" */,
+				8A3CF9520553669BEA109ACE /* "Development" */,
+				A91983E118D92533BEE39BE0 /* "Test" */,
+				3D0954D783667CD5C9B820C7 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		104E5660EF2E26EA2642C285 /* Build configuration list for PBXNativeTarget "HeadlessChaosPerf_Index" */ = {
+		B21DFDD118EFBC0C4D79DCA2 /* Build configuration list for PBXNativeTarget "HeadlessChaosPerf_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C169A87A093F29F5539BA4D /* "Debug" */,
-				8D21FC1E059AA02D8BF4E8A2 /* "DebugGame" */,
-				484AB1465A9E4176E229AC3D /* "Development" */,
-				B72536D0C7A0384F0D57BB1D /* "Test" */,
-				C150A0220451F372277B26AD /* "Shipping" */,
+				8D21FC1E059AA02D8BF4E8A2 /* "Debug" */,
+				484AB1465A9E4176E229AC3D /* "DebugGame" */,
+				B72536D0C7A0384F0D57BB1D /* "Development" */,
+				C150A0220451F372277B26AD /* "Test" */,
+				148D64B6748F7830DE71E4FA /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A726998750CA74082C0401DD /* Project object */;
+	rootObject = 600F64666E675B45E1E1A7D9 /* Project object */;
 }

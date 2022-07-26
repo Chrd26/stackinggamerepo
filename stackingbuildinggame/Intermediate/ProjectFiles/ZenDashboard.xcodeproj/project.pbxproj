@@ -26,11 +26,11 @@
 		0B47280A912FE8160858CC65 /* ZenDashboardStyle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ZenDashboardStyle.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/Private/ZenDashboardStyle.h"; sourceTree = SOURCE_ROOT; };
 		5B3EDDB01360B1395DF30AE8 /* ZenDashboard.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ZenDashboard.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/ZenDashboard.Build.cs"; sourceTree = SOURCE_ROOT; };
 		73703735C8DCAA5970940557 /* ZenDashboard.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ZenDashboard.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/ZenDashboard.Target.cs"; sourceTree = SOURCE_ROOT; };
-		F0F93BE742C907783E7675D0 /* ZenDashboard */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = ZenDashboard; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B77157557A5261E3522797A /* ZenDashboard */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = ZenDashboard; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		42AE3333D70E42B6D73C6441 = {
+		4F350B115CDE5A006168D379 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,7 +43,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	A0A927A801E70F5028424DCA /* Embed App Extensions */ = {
+	BC800F99546E90E4ABE35AA8 /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -55,35 +55,35 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		3842D4C1D1EBADD22C144BE6 /* PBXContainerItemProxy */ = {
+		B81270E84249E6C2CC039008 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3C211EC620DFEA19298E7DA9 /* Project object */;
+			containerPortal = 42AE3333D70E42B6D73C6441 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 31C95036BCB6BCA6C0D1C318;
+			remoteGlobalIDString = 3C211EC620DFEA19298E7DA9;
 			remoteInfo = "ZenDashboard_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		AB31FE8FBBF3FAB3B24AC125 /* PBXTargetDependency */ = {
+		6EC88DE659785596E6189FC2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 31C95036BCB6BCA6C0D1C318 /* ZenDashboard_Build */;
-			targetProxy = 3842D4C1D1EBADD22C144BE6 /* PBXContainerItemProxy */;
+			target = 3C211EC620DFEA19298E7DA9 /* ZenDashboard_Build */;
+			targetProxy = B81270E84249E6C2CC039008 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		62DF3E40F2818C9599F6AC21 = {
+		605D52C1A73DE8F6B0BBFE43 = {
 			isa = PBXGroup;
 			children = (
-				4C7800604ED5A80717B3690D /* Private */,
+				24364BDBDF8A73F667B97604 /* Private */,
 				5B3EDDB01360B1395DF30AE8 /* ZenDashboard.Build.cs */,
 				73703735C8DCAA5970940557 /* ZenDashboard.Target.cs */,
-				2A20A1ED1876DE0DF96C2F83 /* Products */,
+				4D58BE8BB4F54AEDBB5F4D6E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4C7800604ED5A80717B3690D = {
+		24364BDBDF8A73F667B97604 = {
 			isa = PBXGroup;
 			children = (
 				34AED91E1CA26BCD85974F4A /* SZenCacheStatistics.cpp */,
@@ -97,10 +97,10 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/ZenDashboard/Private";
 			sourceTree = "<absolute>";
 		};
-		2A20A1ED1876DE0DF96C2F83 /* Products */ = {
+		4D58BE8BB4F54AEDBB5F4D6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F0F93BE742C907783E7675D0 /* ZenDashboard */,
+				9B77157557A5261E3522797A /* ZenDashboard */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,10 +108,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		31C95036BCB6BCA6C0D1C318 /* ZenDashboard_Build */ = {
+		3C211EC620DFEA19298E7DA9 /* ZenDashboard_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 6EC88DE659785596E6189FC2 /* Build configuration list for PBXLegacyTarget "ZenDashboard_Build" */;
+			buildConfigurationList = 46D46377EA014B6A38854AE2 /* Build configuration list for PBXLegacyTarget "ZenDashboard_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -125,30 +125,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		7E89F7200230590B29B66A6E /* ZenDashboard */ = {
+		F0F93BE742C907783E7675D0 /* ZenDashboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F181F7FB5A42895FD1064A81 /* Build configuration list for PBXNativeTarget "ZenDashboard" */;
+			buildConfigurationList = 31C95036BCB6BCA6C0D1C318 /* Build configuration list for PBXNativeTarget "ZenDashboard" */;
 			buildPhases = (
-				A0A927A801E70F5028424DCA /* Embed App Extensions */, 
-				605D52C1A73DE8F6B0BBFE43 /* Shell Script */, 
+				BC800F99546E90E4ABE35AA8 /* Embed App Extensions */, 
+				29849C32F85F0F0010E37171 /* Shell Script */, 
 			);
 			dependencies = (
-				AB31FE8FBBF3FAB3B24AC125 /* PBXTargetDependency */,
+				6EC88DE659785596E6189FC2 /* PBXTargetDependency */,
 			);
 			name = "ZenDashboard";
 			passBuildSettingsInEnvironment = 1;
 			productName = "ZenDashboard";
-			productReference = "F0F93BE742C907783E7675D0";
+			productReference = "9B77157557A5261E3522797A";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		B81270E84249E6C2CC039008 /* ZenDashboard_Index */ = {
+		62DF3E40F2818C9599F6AC21 /* ZenDashboard_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B77157557A5261E3522797A /* Build configuration list for PBXNativeTarget "ZenDashboard_Index" */;
+			buildConfigurationList = 2A20A1ED1876DE0DF96C2F83 /* Build configuration list for PBXNativeTarget "ZenDashboard_Index" */;
 			buildPhases = (
-				42AE3333D70E42B6D73C6441 /* Sources */,
+				4F350B115CDE5A006168D379 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -160,38 +160,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3C211EC620DFEA19298E7DA9 /* Project object */ = {
+		42AE3333D70E42B6D73C6441 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					7E89F7200230590B29B66A6E = {
+					F0F93BE742C907783E7675D0 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 46D46377EA014B6A38854AE2 /* Build configuration list for PBXProject "ZenDashboard" */;
+			buildConfigurationList = A0A927A801E70F5028424DCA /* Build configuration list for PBXProject "ZenDashboard" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 62DF3E40F2818C9599F6AC21;
-			productRefGroup = 2A20A1ED1876DE0DF96C2F83;
+			mainGroup = 605D52C1A73DE8F6B0BBFE43;
+			productRefGroup = 4D58BE8BB4F54AEDBB5F4D6E;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			7E89F7200230590B29B66A6E /* ZenDashboard */,
-			31C95036BCB6BCA6C0D1C318 /* ZenDashboard_Build */,
-			B81270E84249E6C2CC039008 /* ZenDashboard_Index */,
+			F0F93BE742C907783E7675D0 /* ZenDashboard */,
+			3C211EC620DFEA19298E7DA9 /* ZenDashboard_Build */,
+			62DF3E40F2818C9599F6AC21 /* ZenDashboard_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		4D58BE8BB4F54AEDBB5F4D6E /* "Debug" */ = {
+		31D69AD160FEE1E58544CE33 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -268,7 +268,7 @@
 			};
 			name = "Debug";
 		};
-		31D69AD160FEE1E58544CE33 /* "DebugGame" */ = {
+		C6C130A81F0596CDEEC28E39 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -344,7 +344,7 @@
 			};
 			name = "DebugGame";
 		};
-		C6C130A81F0596CDEEC28E39 /* "Development" */ = {
+		EA700AC04403FFAB4720C408 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -420,7 +420,7 @@
 			};
 			name = "Development";
 		};
-		EA700AC04403FFAB4720C408 /* "Test" */ = {
+		0DA26F7BEC7F7BF760EF8428 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -496,7 +496,7 @@
 			};
 			name = "Test";
 		};
-		0DA26F7BEC7F7BF760EF8428 /* "Shipping" */ = {
+		707142D10A192050AE2E5B66 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -572,7 +572,7 @@
 			};
 			name = "Shipping";
 		};
-		4F350B115CDE5A006168D379 /* "Debug" */ = {
+		E6B0994DCF68C36BDB63E7D7 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -589,7 +589,7 @@
 			};
 			name = "Debug";
 		};
-		E6B0994DCF68C36BDB63E7D7 /* "DebugGame" */ = {
+		F6E08BB2DBF52449481B7910 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -606,7 +606,7 @@
 			};
 			name = "DebugGame";
 		};
-		F6E08BB2DBF52449481B7910 /* "Development" */ = {
+		9B308DECA1B45E36A5F2101A /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -623,7 +623,7 @@
 			};
 			name = "Development";
 		};
-		9B308DECA1B45E36A5F2101A /* "Test" */ = {
+		C1501EDF3F2AA653B5BCF341 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -640,7 +640,7 @@
 			};
 			name = "Test";
 		};
-		C1501EDF3F2AA653B5BCF341 /* "Shipping" */ = {
+		096555D2D0F97A55AF34E6D9 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -657,7 +657,7 @@
 			};
 			name = "Shipping";
 		};
-		BC800F99546E90E4ABE35AA8 /* "Debug" */ = {
+		4227070159D369D90E9D687D /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -670,7 +670,7 @@
 			};
 			name = "Debug";
 		};
-		4227070159D369D90E9D687D /* "DebugGame" */ = {
+		E4176A65400221D9DBC03A98 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -683,7 +683,7 @@
 			};
 			name = "DebugGame";
 		};
-		E4176A65400221D9DBC03A98 /* "Development" */ = {
+		3C1B42AE8C68E09961487BD0 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -696,7 +696,7 @@
 			};
 			name = "Development";
 		};
-		3C1B42AE8C68E09961487BD0 /* "Test" */ = {
+		1F857516A18E1E8BAE6BA1EA /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -709,7 +709,7 @@
 			};
 			name = "Test";
 		};
-		1F857516A18E1E8BAE6BA1EA /* "Shipping" */ = {
+		7DC485324CEA65B26F05A52F /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -722,7 +722,7 @@
 			};
 			name = "Shipping";
 		};
-		29849C32F85F0F0010E37171 /* "Debug" */ = {
+		D4BE83AC017522E5B6684C47 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -739,7 +739,7 @@
 			};
 			name = "Debug";
 		};
-		D4BE83AC017522E5B6684C47 /* "DebugGame" */ = {
+		A2C0B908079A8E112F4AB521 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -756,7 +756,7 @@
 			};
 			name = "DebugGame";
 		};
-		A2C0B908079A8E112F4AB521 /* "Development" */ = {
+		F86095D8C08F5181FCB16DD6 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -773,7 +773,7 @@
 			};
 			name = "Development";
 		};
-		F86095D8C08F5181FCB16DD6 /* "Test" */ = {
+		F865ACE2CD837009DB6D166F /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -790,7 +790,7 @@
 			};
 			name = "Test";
 		};
-		F865ACE2CD837009DB6D166F /* "Shipping" */ = {
+		4B4C80944B503BC90946D968 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -810,55 +810,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		46D46377EA014B6A38854AE2 /* Build configuration list for PBXProject "ZenDashboard" */ = {
+		A0A927A801E70F5028424DCA /* Build configuration list for PBXProject "ZenDashboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D58BE8BB4F54AEDBB5F4D6E /* "Debug" */,
-				31D69AD160FEE1E58544CE33 /* "DebugGame" */,
-				C6C130A81F0596CDEEC28E39 /* "Development" */,
-				EA700AC04403FFAB4720C408 /* "Test" */,
-				0DA26F7BEC7F7BF760EF8428 /* "Shipping" */,
+				31D69AD160FEE1E58544CE33 /* "Debug" */,
+				C6C130A81F0596CDEEC28E39 /* "DebugGame" */,
+				EA700AC04403FFAB4720C408 /* "Development" */,
+				0DA26F7BEC7F7BF760EF8428 /* "Test" */,
+				707142D10A192050AE2E5B66 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		6EC88DE659785596E6189FC2 /* Build configuration list for PBXLegacyTarget "ZenDashboard_Build" */ = {
+		46D46377EA014B6A38854AE2 /* Build configuration list for PBXLegacyTarget "ZenDashboard_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC800F99546E90E4ABE35AA8 /* "Debug" */,
-				4227070159D369D90E9D687D /* "DebugGame" */,
-				E4176A65400221D9DBC03A98 /* "Development" */,
-				3C1B42AE8C68E09961487BD0 /* "Test" */,
-				1F857516A18E1E8BAE6BA1EA /* "Shipping" */,
+				4227070159D369D90E9D687D /* "Debug" */,
+				E4176A65400221D9DBC03A98 /* "DebugGame" */,
+				3C1B42AE8C68E09961487BD0 /* "Development" */,
+				1F857516A18E1E8BAE6BA1EA /* "Test" */,
+				7DC485324CEA65B26F05A52F /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		F181F7FB5A42895FD1064A81 /* Build configuration list for PBXNativeTarget "ZenDashboard" */ = {
+		31C95036BCB6BCA6C0D1C318 /* Build configuration list for PBXNativeTarget "ZenDashboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F350B115CDE5A006168D379 /* "Debug" */,
-				E6B0994DCF68C36BDB63E7D7 /* "DebugGame" */,
-				F6E08BB2DBF52449481B7910 /* "Development" */,
-				9B308DECA1B45E36A5F2101A /* "Test" */,
-				C1501EDF3F2AA653B5BCF341 /* "Shipping" */,
+				E6B0994DCF68C36BDB63E7D7 /* "Debug" */,
+				F6E08BB2DBF52449481B7910 /* "DebugGame" */,
+				9B308DECA1B45E36A5F2101A /* "Development" */,
+				C1501EDF3F2AA653B5BCF341 /* "Test" */,
+				096555D2D0F97A55AF34E6D9 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		9B77157557A5261E3522797A /* Build configuration list for PBXNativeTarget "ZenDashboard_Index" */ = {
+		2A20A1ED1876DE0DF96C2F83 /* Build configuration list for PBXNativeTarget "ZenDashboard_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29849C32F85F0F0010E37171 /* "Debug" */,
-				D4BE83AC017522E5B6684C47 /* "DebugGame" */,
-				A2C0B908079A8E112F4AB521 /* "Development" */,
-				F86095D8C08F5181FCB16DD6 /* "Test" */,
-				F865ACE2CD837009DB6D166F /* "Shipping" */,
+				D4BE83AC017522E5B6684C47 /* "Debug" */,
+				A2C0B908079A8E112F4AB521 /* "DebugGame" */,
+				F86095D8C08F5181FCB16DD6 /* "Development" */,
+				F865ACE2CD837009DB6D166F /* "Test" */,
+				4B4C80944B503BC90946D968 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3C211EC620DFEA19298E7DA9 /* Project object */;
+	rootObject = 42AE3333D70E42B6D73C6441 /* Project object */;
 }

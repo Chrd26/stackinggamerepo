@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96DE144F1747794437672D98"
+               BlueprintIdentifier = "FB07A72EDBBB8F1E03035511"
                BuildableName = "InterchangeWorker"
                BlueprintName = "InterchangeWorker"
                ReferencedContainer = "container:InterchangeWorker.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96DE144F1747794437672D98"
+            BlueprintIdentifier = "FB07A72EDBBB8F1E03035511"
             BuildableName = "InterchangeWorker"
             BlueprintName = "InterchangeWorker"
             ReferencedContainer = "container:InterchangeWorker.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96DE144F1747794437672D98"
+            BlueprintIdentifier = "FB07A72EDBBB8F1E03035511"
             BuildableName = "InterchangeWorker"
             BlueprintName = "InterchangeWorker"
             ReferencedContainer = "container:InterchangeWorker.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96DE144F1747794437672D98"
+            BlueprintIdentifier = "FB07A72EDBBB8F1E03035511"
             BuildableName = "InterchangeWorker"
             BlueprintName = "InterchangeWorker"
             ReferencedContainer = "container:InterchangeWorker.xcodeproj">

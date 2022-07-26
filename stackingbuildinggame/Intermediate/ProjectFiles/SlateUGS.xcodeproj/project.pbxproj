@@ -122,11 +122,11 @@
 		A0C466DC6E4644AF3529E85A /* SlateUGSApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SlateUGSApp.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateUGS/Public/SlateUGSApp.h"; sourceTree = SOURCE_ROOT; };
 		34ED1BC4E1D2431F472D39DE /* SlateUGS.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SlateUGS.Build.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateUGS/SlateUGS.Build.cs"; sourceTree = SOURCE_ROOT; };
 		9298C9897C3C45F4A424F81B /* SlateUGS.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SlateUGS.Target.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateUGS/SlateUGS.Target.cs"; sourceTree = SOURCE_ROOT; };
-		359A99DA5AC6FEFF53C484D9 /* SlateUGS */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SlateUGS; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8F783C741D84DED5C946E2 /* SlateUGS */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SlateUGS; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EA927B017697C2469DBD5E15 = {
+		7E552991A51067C8DB704FCF = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -161,7 +161,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	945B44AC6DC200193322B60A /* Embed App Extensions */ = {
+	C365811237C585F09686E354 /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -173,41 +173,41 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		B402BFC206940C642B012049 /* PBXContainerItemProxy */ = {
+		4218DBB3CFD2F4F07DE658F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0DBE969CCED20B95F0873BD3 /* Project object */;
+			containerPortal = EA927B017697C2469DBD5E15 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6A13767DEBEF8D02C456C4CF;
+			remoteGlobalIDString = 0DBE969CCED20B95F0873BD3;
 			remoteInfo = "SlateUGS_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		B3ED1E5889DBF33679CDD248 /* PBXTargetDependency */ = {
+		9478B93F69B7F5B2CDD522EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6A13767DEBEF8D02C456C4CF /* SlateUGS_Build */;
-			targetProxy = B402BFC206940C642B012049 /* PBXContainerItemProxy */;
+			target = 0DBE969CCED20B95F0873BD3 /* SlateUGS_Build */;
+			targetProxy = 4218DBB3CFD2F4F07DE658F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		3EB93EB050441978D2F9A610 = {
+		B2A6D35DC48A85988FA3C5BE = {
 			isa = PBXGroup;
 			children = (
-				149096AF21661C1E3290976B /* Private */,
-				62B0FE4250A2956791752659 /* Public */,
+				76C440D865CC2191BD07979A /* Private */,
+				A56D7E80253CAFB4BB4795F8 /* Public */,
 				34ED1BC4E1D2431F472D39DE /* SlateUGS.Build.cs */,
 				9298C9897C3C45F4A424F81B /* SlateUGS.Target.cs */,
-				3B5721ABDAC2019754A5299A /* Products */,
+				C818023A375F737EF90C167E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		149096AF21661C1E3290976B = {
+		76C440D865CC2191BD07979A = {
 			isa = PBXGroup;
 			children = (
-				035A5EBBBBF28D76AC82D38F /* Platforms */,
-				B8FD328F07335C91260B4C92 /* UGSCore */,
-				E3AE1FC92239E49C3BD6A828 /* Widgets */,
+				B8FD328F07335C91260B4C92 /* Platforms */,
+				AC586F8422FA5EE1540A2D56 /* UGSCore */,
+				341A408375E4016D87C51851 /* Widgets */,
 				CEDB241B1FCA7A29D040846B /* ChangeInfo.h */,
 				2790616F1878002C1A43F606 /* SlateUGSApp.cpp */,
 				4E8F63F4711C2646C8AAF48F /* UGSLog.h */,
@@ -220,18 +220,18 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateUGS/Private";
 			sourceTree = "<absolute>";
 		};
-		035A5EBBBBF28D76AC82D38F = {
+		B8FD328F07335C91260B4C92 = {
 			isa = PBXGroup;
 			children = (
-				1787AD1FECA389630E723452 /* Linux */,
-				6F280FDF57E3609AAA7A4CD7 /* Mac */,
-				76C440D865CC2191BD07979A /* Windows */,
+				E3AE1FC92239E49C3BD6A828 /* Linux */,
+				62B0FE4250A2956791752659 /* Mac */,
+				B0D093771EBBB16B78AEF5B6 /* Windows */,
 			);
 			name = "Platforms";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateUGS/Private/Platforms";
 			sourceTree = "<absolute>";
 		};
-		1787AD1FECA389630E723452 = {
+		E3AE1FC92239E49C3BD6A828 = {
 			isa = PBXGroup;
 			children = (
 				E4E88E6F4BE8123970336344 /* SlateUGSMainLinux.cpp */,
@@ -240,7 +240,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateUGS/Private/Platforms/Linux";
 			sourceTree = "<absolute>";
 		};
-		6F280FDF57E3609AAA7A4CD7 = {
+		62B0FE4250A2956791752659 = {
 			isa = PBXGroup;
 			children = (
 				413517D11227B6DAA47452BE /* SlateUGSMainMac.cpp */,
@@ -249,7 +249,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateUGS/Private/Platforms/Mac";
 			sourceTree = "<absolute>";
 		};
-		76C440D865CC2191BD07979A = {
+		B0D093771EBBB16B78AEF5B6 = {
 			isa = PBXGroup;
 			children = (
 				5EB61CB5B5DA95571DD82E16 /* SlateUGSMainWindows.cpp */,
@@ -258,7 +258,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateUGS/Private/Platforms/Windows";
 			sourceTree = "<absolute>";
 		};
-		B8FD328F07335C91260B4C92 = {
+		AC586F8422FA5EE1540A2D56 = {
 			isa = PBXGroup;
 			children = (
 				01C9CFF672E6B84B1C12725C /* BuildStep.cpp */,
@@ -292,7 +292,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateUGS/Private/UGSCore";
 			sourceTree = "<absolute>";
 		};
-		E3AE1FC92239E49C3BD6A828 = {
+		341A408375E4016D87C51851 = {
 			isa = PBXGroup;
 			children = (
 				CB8A54A12997D9E06472E2B8 /* SEmptyTab.cpp */,
@@ -316,7 +316,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateUGS/Private/Widgets";
 			sourceTree = "<absolute>";
 		};
-		62B0FE4250A2956791752659 = {
+		A56D7E80253CAFB4BB4795F8 = {
 			isa = PBXGroup;
 			children = (
 				BC525AA9DAF7E34A2285D1EB /* SlateUGS.h */,
@@ -326,10 +326,10 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/SlateUGS/Public";
 			sourceTree = "<absolute>";
 		};
-		3B5721ABDAC2019754A5299A /* Products */ = {
+		C818023A375F737EF90C167E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				359A99DA5AC6FEFF53C484D9 /* SlateUGS */,
+				1E8F783C741D84DED5C946E2 /* SlateUGS */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -337,10 +337,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		6A13767DEBEF8D02C456C4CF /* SlateUGS_Build */ = {
+		0DBE969CCED20B95F0873BD3 /* SlateUGS_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 9478B93F69B7F5B2CDD522EF /* Build configuration list for PBXLegacyTarget "SlateUGS_Build" */;
+			buildConfigurationList = 13D932F262D352AE1FC621D9 /* Build configuration list for PBXLegacyTarget "SlateUGS_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -354,30 +354,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		756FE638C7886B0058DE2506 /* SlateUGS */ = {
+		359A99DA5AC6FEFF53C484D9 /* SlateUGS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF969E79D2543ABFD4751C21 /* Build configuration list for PBXNativeTarget "SlateUGS" */;
+			buildConfigurationList = 6A13767DEBEF8D02C456C4CF /* Build configuration list for PBXNativeTarget "SlateUGS" */;
 			buildPhases = (
-				945B44AC6DC200193322B60A /* Embed App Extensions */, 
-				B2A6D35DC48A85988FA3C5BE /* Shell Script */, 
+				C365811237C585F09686E354 /* Embed App Extensions */, 
+				C0C5E2D3AE3811A59055DE6F /* Shell Script */, 
 			);
 			dependencies = (
-				B3ED1E5889DBF33679CDD248 /* PBXTargetDependency */,
+				9478B93F69B7F5B2CDD522EF /* PBXTargetDependency */,
 			);
 			name = "SlateUGS";
 			passBuildSettingsInEnvironment = 1;
 			productName = "SlateUGS";
-			productReference = "359A99DA5AC6FEFF53C484D9";
+			productReference = "1E8F783C741D84DED5C946E2";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		4218DBB3CFD2F4F07DE658F2 /* SlateUGS_Index */ = {
+		3EB93EB050441978D2F9A610 /* SlateUGS_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E8F783C741D84DED5C946E2 /* Build configuration list for PBXNativeTarget "SlateUGS_Index" */;
+			buildConfigurationList = 3B5721ABDAC2019754A5299A /* Build configuration list for PBXNativeTarget "SlateUGS_Index" */;
 			buildPhases = (
-				EA927B017697C2469DBD5E15 /* Sources */,
+				7E552991A51067C8DB704FCF /* Sources */,
 			);
 			dependencies = (
 			);
@@ -389,38 +389,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0DBE969CCED20B95F0873BD3 /* Project object */ = {
+		EA927B017697C2469DBD5E15 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					756FE638C7886B0058DE2506 = {
+					359A99DA5AC6FEFF53C484D9 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 13D932F262D352AE1FC621D9 /* Build configuration list for PBXProject "SlateUGS" */;
+			buildConfigurationList = 945B44AC6DC200193322B60A /* Build configuration list for PBXProject "SlateUGS" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 3EB93EB050441978D2F9A610;
-			productRefGroup = 3B5721ABDAC2019754A5299A;
+			mainGroup = B2A6D35DC48A85988FA3C5BE;
+			productRefGroup = C818023A375F737EF90C167E;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			756FE638C7886B0058DE2506 /* SlateUGS */,
-			6A13767DEBEF8D02C456C4CF /* SlateUGS_Build */,
-			4218DBB3CFD2F4F07DE658F2 /* SlateUGS_Index */,
+			359A99DA5AC6FEFF53C484D9 /* SlateUGS */,
+			0DBE969CCED20B95F0873BD3 /* SlateUGS_Build */,
+			3EB93EB050441978D2F9A610 /* SlateUGS_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		C818023A375F737EF90C167E /* "Debug" */ = {
+		60F3F37F3CFDE258C83276D1 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -507,7 +507,7 @@
 			};
 			name = "Debug";
 		};
-		60F3F37F3CFDE258C83276D1 /* "DebugGame" */ = {
+		F1DD1F696DE6FD8B211352A8 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -593,7 +593,7 @@
 			};
 			name = "DebugGame";
 		};
-		F1DD1F696DE6FD8B211352A8 /* "Development" */ = {
+		926D9B46C5299FEE7B9EF71E /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -679,7 +679,7 @@
 			};
 			name = "Development";
 		};
-		926D9B46C5299FEE7B9EF71E /* "Test" */ = {
+		E3443A7E019ED51CD8803F1B /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -765,7 +765,7 @@
 			};
 			name = "Test";
 		};
-		E3443A7E019ED51CD8803F1B /* "Shipping" */ = {
+		B42F184E5E6E3A7B0D01A06C /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -851,7 +851,7 @@
 			};
 			name = "Shipping";
 		};
-		7E552991A51067C8DB704FCF /* "Debug" */ = {
+		DE6046348626E8F871D4D1DF /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -868,7 +868,7 @@
 			};
 			name = "Debug";
 		};
-		DE6046348626E8F871D4D1DF /* "DebugGame" */ = {
+		E33FF81EF2084ACBAE026280 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -885,7 +885,7 @@
 			};
 			name = "DebugGame";
 		};
-		E33FF81EF2084ACBAE026280 /* "Development" */ = {
+		911643DE83350A178D76941B /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -902,7 +902,7 @@
 			};
 			name = "Development";
 		};
-		911643DE83350A178D76941B /* "Test" */ = {
+		73170ED7D29085A0C3683639 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -919,7 +919,7 @@
 			};
 			name = "Test";
 		};
-		73170ED7D29085A0C3683639 /* "Shipping" */ = {
+		B40AAC2F421C7FBC72726E85 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -936,7 +936,7 @@
 			};
 			name = "Shipping";
 		};
-		C365811237C585F09686E354 /* "Debug" */ = {
+		2D9319A35FA93F6E8612B244 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -949,7 +949,7 @@
 			};
 			name = "Debug";
 		};
-		2D9319A35FA93F6E8612B244 /* "DebugGame" */ = {
+		724F55E64843901C9ECBB182 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -962,7 +962,7 @@
 			};
 			name = "DebugGame";
 		};
-		724F55E64843901C9ECBB182 /* "Development" */ = {
+		06AAB588E0A3CC6698F153DB /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -975,7 +975,7 @@
 			};
 			name = "Development";
 		};
-		06AAB588E0A3CC6698F153DB /* "Test" */ = {
+		DE95EACA6FA83D239CB7A49C /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -988,7 +988,7 @@
 			};
 			name = "Test";
 		};
-		DE95EACA6FA83D239CB7A49C /* "Shipping" */ = {
+		2A8B848C650F2FA294D41640 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -1001,7 +1001,7 @@
 			};
 			name = "Shipping";
 		};
-		C0C5E2D3AE3811A59055DE6F /* "Debug" */ = {
+		D206B499A38B8C8E4E10F54D /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -1018,7 +1018,7 @@
 			};
 			name = "Debug";
 		};
-		D206B499A38B8C8E4E10F54D /* "DebugGame" */ = {
+		8AD601A0152622BEB40BB663 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -1035,7 +1035,7 @@
 			};
 			name = "DebugGame";
 		};
-		8AD601A0152622BEB40BB663 /* "Development" */ = {
+		A74956742CC206EBDEE30EFE /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -1052,7 +1052,7 @@
 			};
 			name = "Development";
 		};
-		A74956742CC206EBDEE30EFE /* "Test" */ = {
+		694D65FA1B370227093B0015 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -1069,7 +1069,7 @@
 			};
 			name = "Test";
 		};
-		694D65FA1B370227093B0015 /* "Shipping" */ = {
+		90EEC52D7C298E68ADF94510 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -1089,55 +1089,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13D932F262D352AE1FC621D9 /* Build configuration list for PBXProject "SlateUGS" */ = {
+		945B44AC6DC200193322B60A /* Build configuration list for PBXProject "SlateUGS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C818023A375F737EF90C167E /* "Debug" */,
-				60F3F37F3CFDE258C83276D1 /* "DebugGame" */,
-				F1DD1F696DE6FD8B211352A8 /* "Development" */,
-				926D9B46C5299FEE7B9EF71E /* "Test" */,
-				E3443A7E019ED51CD8803F1B /* "Shipping" */,
+				60F3F37F3CFDE258C83276D1 /* "Debug" */,
+				F1DD1F696DE6FD8B211352A8 /* "DebugGame" */,
+				926D9B46C5299FEE7B9EF71E /* "Development" */,
+				E3443A7E019ED51CD8803F1B /* "Test" */,
+				B42F184E5E6E3A7B0D01A06C /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		9478B93F69B7F5B2CDD522EF /* Build configuration list for PBXLegacyTarget "SlateUGS_Build" */ = {
+		13D932F262D352AE1FC621D9 /* Build configuration list for PBXLegacyTarget "SlateUGS_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C365811237C585F09686E354 /* "Debug" */,
-				2D9319A35FA93F6E8612B244 /* "DebugGame" */,
-				724F55E64843901C9ECBB182 /* "Development" */,
-				06AAB588E0A3CC6698F153DB /* "Test" */,
-				DE95EACA6FA83D239CB7A49C /* "Shipping" */,
+				2D9319A35FA93F6E8612B244 /* "Debug" */,
+				724F55E64843901C9ECBB182 /* "DebugGame" */,
+				06AAB588E0A3CC6698F153DB /* "Development" */,
+				DE95EACA6FA83D239CB7A49C /* "Test" */,
+				2A8B848C650F2FA294D41640 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		CF969E79D2543ABFD4751C21 /* Build configuration list for PBXNativeTarget "SlateUGS" */ = {
+		6A13767DEBEF8D02C456C4CF /* Build configuration list for PBXNativeTarget "SlateUGS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E552991A51067C8DB704FCF /* "Debug" */,
-				DE6046348626E8F871D4D1DF /* "DebugGame" */,
-				E33FF81EF2084ACBAE026280 /* "Development" */,
-				911643DE83350A178D76941B /* "Test" */,
-				73170ED7D29085A0C3683639 /* "Shipping" */,
+				DE6046348626E8F871D4D1DF /* "Debug" */,
+				E33FF81EF2084ACBAE026280 /* "DebugGame" */,
+				911643DE83350A178D76941B /* "Development" */,
+				73170ED7D29085A0C3683639 /* "Test" */,
+				B40AAC2F421C7FBC72726E85 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		1E8F783C741D84DED5C946E2 /* Build configuration list for PBXNativeTarget "SlateUGS_Index" */ = {
+		3B5721ABDAC2019754A5299A /* Build configuration list for PBXNativeTarget "SlateUGS_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0C5E2D3AE3811A59055DE6F /* "Debug" */,
-				D206B499A38B8C8E4E10F54D /* "DebugGame" */,
-				8AD601A0152622BEB40BB663 /* "Development" */,
-				A74956742CC206EBDEE30EFE /* "Test" */,
-				694D65FA1B370227093B0015 /* "Shipping" */,
+				D206B499A38B8C8E4E10F54D /* "Debug" */,
+				8AD601A0152622BEB40BB663 /* "DebugGame" */,
+				A74956742CC206EBDEE30EFE /* "Development" */,
+				694D65FA1B370227093B0015 /* "Test" */,
+				90EEC52D7C298E68ADF94510 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0DBE969CCED20B95F0873BD3 /* Project object */;
+	rootObject = EA927B017697C2469DBD5E15 /* Project object */;
 }

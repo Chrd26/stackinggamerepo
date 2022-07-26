@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A589098A2418BEBAC2D5B166"
+               BlueprintIdentifier = "657240E37527C77F6BE217D5"
                BuildableName = "UnrealPak"
                BlueprintName = "UnrealPak"
                ReferencedContainer = "container:UnrealPak.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A589098A2418BEBAC2D5B166"
+            BlueprintIdentifier = "657240E37527C77F6BE217D5"
             BuildableName = "UnrealPak"
             BlueprintName = "UnrealPak"
             ReferencedContainer = "container:UnrealPak.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A589098A2418BEBAC2D5B166"
+            BlueprintIdentifier = "657240E37527C77F6BE217D5"
             BuildableName = "UnrealPak"
             BlueprintName = "UnrealPak"
             ReferencedContainer = "container:UnrealPak.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A589098A2418BEBAC2D5B166"
+            BlueprintIdentifier = "657240E37527C77F6BE217D5"
             BuildableName = "UnrealPak"
             BlueprintName = "UnrealPak"
             ReferencedContainer = "container:UnrealPak.xcodeproj">

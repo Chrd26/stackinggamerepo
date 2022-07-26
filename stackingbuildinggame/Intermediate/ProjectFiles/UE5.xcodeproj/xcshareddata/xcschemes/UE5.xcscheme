@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B761446E981C5B76E9551146"
+               BlueprintIdentifier = "17518574272B280B4EC45128"
                BuildableName = "UnrealGame.app"
                BlueprintName = "UE5"
                ReferencedContainer = "container:UE5.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B761446E981C5B76E9551146"
+            BlueprintIdentifier = "17518574272B280B4EC45128"
             BuildableName = "UnrealGame.app"
             BlueprintName = "UE5"
             ReferencedContainer = "container:UE5.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B761446E981C5B76E9551146"
+            BlueprintIdentifier = "17518574272B280B4EC45128"
             BuildableName = "UnrealGame.app"
             BlueprintName = "UE5"
             ReferencedContainer = "container:UE5.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B761446E981C5B76E9551146"
+            BlueprintIdentifier = "17518574272B280B4EC45128"
             BuildableName = "UnrealGame.app"
             BlueprintName = "UE5"
             ReferencedContainer = "container:UE5.xcodeproj">

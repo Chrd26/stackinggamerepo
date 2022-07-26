@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4405895C4710A7694D3C7A98"
+               BlueprintIdentifier = "1634B3ABA8F27CA0BF275E08"
                BuildableName = "HeadlessChaosPerf"
                BlueprintName = "HeadlessChaosPerf"
                ReferencedContainer = "container:HeadlessChaosPerf.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4405895C4710A7694D3C7A98"
+            BlueprintIdentifier = "1634B3ABA8F27CA0BF275E08"
             BuildableName = "HeadlessChaosPerf"
             BlueprintName = "HeadlessChaosPerf"
             ReferencedContainer = "container:HeadlessChaosPerf.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4405895C4710A7694D3C7A98"
+            BlueprintIdentifier = "1634B3ABA8F27CA0BF275E08"
             BuildableName = "HeadlessChaosPerf"
             BlueprintName = "HeadlessChaosPerf"
             ReferencedContainer = "container:HeadlessChaosPerf.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4405895C4710A7694D3C7A98"
+            BlueprintIdentifier = "1634B3ABA8F27CA0BF275E08"
             BuildableName = "HeadlessChaosPerf"
             BlueprintName = "HeadlessChaosPerf"
             ReferencedContainer = "container:HeadlessChaosPerf.xcodeproj">

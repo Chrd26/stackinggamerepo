@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EC6A299599FD8A5281142E2A"
+               BlueprintIdentifier = "F0231D49BF2EFA4E50B88860"
                BuildableName = "DatasmithFacadeCSharp"
                BlueprintName = "DatasmithFacadeCSharp"
                ReferencedContainer = "container:DatasmithFacadeCSharp.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC6A299599FD8A5281142E2A"
+            BlueprintIdentifier = "F0231D49BF2EFA4E50B88860"
             BuildableName = "DatasmithFacadeCSharp"
             BlueprintName = "DatasmithFacadeCSharp"
             ReferencedContainer = "container:DatasmithFacadeCSharp.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC6A299599FD8A5281142E2A"
+            BlueprintIdentifier = "F0231D49BF2EFA4E50B88860"
             BuildableName = "DatasmithFacadeCSharp"
             BlueprintName = "DatasmithFacadeCSharp"
             ReferencedContainer = "container:DatasmithFacadeCSharp.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC6A299599FD8A5281142E2A"
+            BlueprintIdentifier = "F0231D49BF2EFA4E50B88860"
             BuildableName = "DatasmithFacadeCSharp"
             BlueprintName = "DatasmithFacadeCSharp"
             ReferencedContainer = "container:DatasmithFacadeCSharp.xcodeproj">

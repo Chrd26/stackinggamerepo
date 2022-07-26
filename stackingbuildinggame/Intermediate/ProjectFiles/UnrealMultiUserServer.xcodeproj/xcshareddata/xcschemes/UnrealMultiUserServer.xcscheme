@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F752C89896EEDC3E2970D579"
+               BlueprintIdentifier = "C141DD3860D354DC31B79D93"
                BuildableName = "UnrealMultiUserServer.app"
                BlueprintName = "UnrealMultiUserServer"
                ReferencedContainer = "container:UnrealMultiUserServer.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F752C89896EEDC3E2970D579"
+               BlueprintIdentifier = "C141DD3860D354DC31B79D93"
                BuildableName = "UnrealMultiUserServer.app"
                BlueprintName = "UnrealMultiUserServer"
                ReferencedContainer = "container:UnrealMultiUserServer.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F752C89896EEDC3E2970D579"
+               BlueprintIdentifier = "C141DD3860D354DC31B79D93"
                BuildableName = "UnrealMultiUserServer.app"
                BlueprintName = "UnrealMultiUserServer"
                ReferencedContainer = "container:UnrealMultiUserServer.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F752C89896EEDC3E2970D579"
+               BlueprintIdentifier = "C141DD3860D354DC31B79D93"
                BuildableName = "UnrealMultiUserServer.app"
                BlueprintName = "UnrealMultiUserServer"
                ReferencedContainer = "container:UnrealMultiUserServer.xcodeproj">

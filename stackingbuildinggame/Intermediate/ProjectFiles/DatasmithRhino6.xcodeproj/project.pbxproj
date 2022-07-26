@@ -208,11 +208,11 @@
 		686F2AC766A349EEF8CB46A7 /* Resources.zh.Designer.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resources.zh.Designer.cs"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization/Resources.zh.Designer.cs"; sourceTree = SOURCE_ROOT; };
 		EB8308BAC58C512DF23E22A5 /* Resources.zh.resx */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resources.zh.resx"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization/Resources.zh.resx"; sourceTree = SOURCE_ROOT; };
 		A0953725F0E1BAC6A9E7A2AA /* UnrealEngine.ico */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealEngine.ico"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/UnrealEngine.ico"; sourceTree = SOURCE_ROOT; };
-		0C6D9AFA5A28C64238B83D50 /* DatasmithRhino6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DatasmithRhino6; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F5A37A751917DB3AABC438 /* DatasmithRhino6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DatasmithRhino6; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2F1690C43A3DB5717A4EC73B = {
+		804F2AA91028C0DA2B7ECD0C = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,7 +222,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	AF971789346E30F3D555EA12 /* Embed App Extensions */ = {
+	FECA236CE72154B8F73F141B /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -234,42 +234,42 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		75BBFFAAD599ECFE7EFB7EFD /* PBXContainerItemProxy */ = {
+		1AF7A4A47CE4E6BC7DAF9E67 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 99E8CDAD3C3B67068D11DC62 /* Project object */;
+			containerPortal = 2F1690C43A3DB5717A4EC73B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0B6D29F75A038565E53132EE;
+			remoteGlobalIDString = 99E8CDAD3C3B67068D11DC62;
 			remoteInfo = "DatasmithRhino6_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		FD6703EC84B5F2FECC42261E /* PBXTargetDependency */ = {
+		36218EDE748A7B02E805E017 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0B6D29F75A038565E53132EE /* DatasmithRhino6_Build */;
-			targetProxy = 75BBFFAAD599ECFE7EFB7EFD /* PBXContainerItemProxy */;
+			target = 99E8CDAD3C3B67068D11DC62 /* DatasmithRhino6_Build */;
+			targetProxy = 1AF7A4A47CE4E6BC7DAF9E67 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		E6018CCFEE04DC6E326C0B93 = {
+		F62E3FEA4E0E66A6E6F69FD8 = {
 			isa = PBXGroup;
 			children = (
-				BFEDF10FE6A748F08D833396 /* Config */,
-				CC3593E51C4E6D7DB01D3A29 /* DatasmithRhino6 */,
-				6ABD097B20ADBE80C8F1F334 /* DatasmithRhino7 */,
-				67BA032774E9C2AA65535C36 /* Installer */,
-				7FFE8DEFDEDF4D70BC60AC78 /* Private */,
-				2CF00F99DE4D3F3CE1A68629 /* Properties */,
-				D3FC4CF6FCDD67D82138616C /* SharedResources */,
+				F903E5B94DF9A3A2B3C8A528 /* Config */,
+				9ECCCFE0C5B2CDDA415F7D62 /* DatasmithRhino6 */,
+				4B4508C65B8FC31660D3821D /* DatasmithRhino7 */,
+				C80532CF4D51809E14DA89A8 /* Installer */,
+				FEE8EC621BD329551F1CE483 /* Private */,
+				F8B88801A112B7F38EA3FA8F /* Properties */,
+				BE531DEB91912BBFC621336C /* SharedResources */,
 				28ACB2147A57187B9919C653 /* DatasmithRhino6.Build.cs */,
 				59AC0475899049793EA51E0B /* DatasmithRhino6.Target.cs */,
 				8D34831332DB9EBDA68F4E2A /* DatasmithRhino7.Build.cs */,
-				17387F424798D95F18401B95 /* Products */,
+				741833F4B69919C8714493B0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BFEDF10FE6A748F08D833396 = {
+		F903E5B94DF9A3A2B3C8A528 = {
 			isa = PBXGroup;
 			children = (
 				C908D9B326DAB8E426C28746 /* DatasmithRhino.rhp.config */,
@@ -279,7 +279,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Config";
 			sourceTree = "<absolute>";
 		};
-		CC3593E51C4E6D7DB01D3A29 = {
+		9ECCCFE0C5B2CDDA415F7D62 = {
 			isa = PBXGroup;
 			children = (
 				70DAD0068C4A57F1F4460BB6 /* DatasmithRhino6.cs */,
@@ -288,7 +288,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/DatasmithRhino6";
 			sourceTree = "<absolute>";
 		};
-		6ABD097B20ADBE80C8F1F334 = {
+		4B4508C65B8FC31660D3821D = {
 			isa = PBXGroup;
 			children = (
 				72E04704D49875FCFE2FC4D2 /* DatasmithRhino7.cs */,
@@ -297,11 +297,11 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/DatasmithRhino7";
 			sourceTree = "<absolute>";
 		};
-		67BA032774E9C2AA65535C36 = {
+		C80532CF4D51809E14DA89A8 = {
 			isa = PBXGroup;
 			children = (
-				F903E5B94DF9A3A2B3C8A528 /* Localization */,
-				9ECCCFE0C5B2CDDA415F7D62 /* Resources */,
+				1AE2E5B28581F59A85836D08 /* Localization */,
+				F0DD4724048FC8CA4AB218C0 /* Resources */,
 				311798EA2F5AD2521E4193AC /* CreateMacPackages.sh */,
 				6DFCB160E7FFAF9233F3D2BD /* CreateMultilanguageInstaller.bat */,
 				3BDAEBD128BD94CC928F7C33 /* CreateMultilanguageInstaller.py */,
@@ -320,7 +320,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer";
 			sourceTree = "<absolute>";
 		};
-		F903E5B94DF9A3A2B3C8A528 = {
+		1AE2E5B28581F59A85836D08 = {
 			isa = PBXGroup;
 			children = (
 				BFEB3A14E292CE2E52DBCCF5 /* de-de.wxl */,
@@ -342,11 +342,11 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Localization";
 			sourceTree = "<absolute>";
 		};
-		9ECCCFE0C5B2CDDA415F7D62 = {
+		F0DD4724048FC8CA4AB218C0 = {
 			isa = PBXGroup;
 			children = (
-				4B4508C65B8FC31660D3821D /* General */,
-				C80532CF4D51809E14DA89A8 /* Images */,
+				7FFE8DEFDEDF4D70BC60AC78 /* General */,
+				AA1190DFDEE79744972ADE70 /* Images */,
 				B825374ED7FA79ED36833BF8 /* Banner.bmp */,
 				0B9B2B37FB2946B894A48C77 /* default_small_banner.bmp */,
 				D83BAFF2AC51EFF4CD93433C /* Dialog.bmp */,
@@ -360,7 +360,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources";
 			sourceTree = "<absolute>";
 		};
-		4B4508C65B8FC31660D3821D = {
+		7FFE8DEFDEDF4D70BC60AC78 = {
 			isa = PBXGroup;
 			children = (
 				6C38B2A5DD257B1129FDD47B /* banner.bmp */,
@@ -370,18 +370,18 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/General";
 			sourceTree = "<absolute>";
 		};
-		C80532CF4D51809E14DA89A8 = {
+		AA1190DFDEE79744972ADE70 = {
 			isa = PBXGroup;
 			children = (
-				1AE2E5B28581F59A85836D08 /* Background */,
-				F0DD4724048FC8CA4AB218C0 /* General */,
+				0A5B998512BF5E67C9253287 /* Background */,
+				F405BBA635FD4C9030CE7AF3 /* General */,
 				BACE631FB93BEF402AC4B8DA /* Epic_Games_logo.bmp */,
 			);
 			name = "Images";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Images";
 			sourceTree = "<absolute>";
 		};
-		1AE2E5B28581F59A85836D08 = {
+		0A5B998512BF5E67C9253287 = {
 			isa = PBXGroup;
 			children = (
 				95BDF323447185B942414391 /* 28190.bmp */,
@@ -394,7 +394,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Images/Background";
 			sourceTree = "<absolute>";
 		};
-		F0DD4724048FC8CA4AB218C0 = {
+		F405BBA635FD4C9030CE7AF3 = {
 			isa = PBXGroup;
 			children = (
 				DDEF55F799F3163BFEAE18E3 /* banner.bmp */,
@@ -404,14 +404,14 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Images/General";
 			sourceTree = "<absolute>";
 		};
-		7FFE8DEFDEDF4D70BC60AC78 = {
+		FEE8EC621BD329551F1CE483 = {
 			isa = PBXGroup;
 			children = (
-				AA1190DFDEE79744972ADE70 /* Commands */,
-				0A5B998512BF5E67C9253287 /* DirectLink */,
-				F405BBA635FD4C9030CE7AF3 /* ElementExporters */,
-				FEE8EC621BD329551F1CE483 /* ExportContext */,
-				45C85EFC0144AE84DE09EAD8 /* Utils */,
+				45C85EFC0144AE84DE09EAD8 /* Commands */,
+				2CF00F99DE4D3F3CE1A68629 /* DirectLink */,
+				D3FC4CF6FCDD67D82138616C /* ElementExporters */,
+				9F4F8FEC1FF514F5FE13362B /* ExportContext */,
+				C38F76D2DCA7A19E42342904 /* Utils */,
 				22A862051C68790BDEFAFBE7 /* DatasmithRhinoExportOptions.cs */,
 				3867EC9FA293102B90DD78E2 /* DatasmithRhinoPlugin.cs */,
 				EB60433D83F8322BE493CCB4 /* DatasmithRhinoSceneExporter.cs */,
@@ -420,7 +420,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private";
 			sourceTree = "<absolute>";
 		};
-		AA1190DFDEE79744972ADE70 = {
+		45C85EFC0144AE84DE09EAD8 = {
 			isa = PBXGroup;
 			children = (
 				1E21F0E1CF5FF1805212B342 /* DatasmithDirectLinkConnectionsCommand.cs */,
@@ -433,7 +433,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/Commands";
 			sourceTree = "<absolute>";
 		};
-		0A5B998512BF5E67C9253287 = {
+		2CF00F99DE4D3F3CE1A68629 = {
 			isa = PBXGroup;
 			children = (
 				484F89785319E18ADADA2A65 /* DatasmithRhinoChangeListener.cs */,
@@ -443,7 +443,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/DirectLink";
 			sourceTree = "<absolute>";
 		};
-		F405BBA635FD4C9030CE7AF3 = {
+		D3FC4CF6FCDD67D82138616C = {
 			isa = PBXGroup;
 			children = (
 				4E5282FF08D9B552EA0B4889 /* DatasmithRhinoActorExporter.cs */,
@@ -456,7 +456,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/ElementExporters";
 			sourceTree = "<absolute>";
 		};
-		FEE8EC621BD329551F1CE483 = {
+		9F4F8FEC1FF514F5FE13362B = {
 			isa = PBXGroup;
 			children = (
 				582A6A8759F932D653C44D81 /* DatasmithActorInfo.cs */,
@@ -471,7 +471,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/ExportContext";
 			sourceTree = "<absolute>";
 		};
-		45C85EFC0144AE84DE09EAD8 = {
+		C38F76D2DCA7A19E42342904 = {
 			isa = PBXGroup;
 			children = (
 				7AE8949BA35CD6ACECBA8687 /* DatasmithRhinoLogManager.cs */,
@@ -483,7 +483,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/Utils";
 			sourceTree = "<absolute>";
 		};
-		2CF00F99DE4D3F3CE1A68629 = {
+		F8B88801A112B7F38EA3FA8F = {
 			isa = PBXGroup;
 			children = (
 				7E6AC914CB6560FE7713CC25 /* DefaultAssemblyInfo.cs */,
@@ -493,10 +493,10 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Properties";
 			sourceTree = "<absolute>";
 		};
-		D3FC4CF6FCDD67D82138616C = {
+		BE531DEB91912BBFC621336C = {
 			isa = PBXGroup;
 			children = (
-				9F4F8FEC1FF514F5FE13362B /* Localization */,
+				6695FB7996C2296A258AF466 /* Localization */,
 				2A17B9E709514874F679711B /* DatasmithRhino.plist */,
 				455EDF17AD8F01BD7F74A9D5 /* DatasmithRhino.rui */,
 				A0953725F0E1BAC6A9E7A2AA /* UnrealEngine.ico */,
@@ -505,7 +505,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources";
 			sourceTree = "<absolute>";
 		};
-		9F4F8FEC1FF514F5FE13362B = {
+		6695FB7996C2296A258AF466 = {
 			isa = PBXGroup;
 			children = (
 				9016799037ACFC7FAD237718 /* Resources.de.Designer.cs */,
@@ -529,10 +529,10 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization";
 			sourceTree = "<absolute>";
 		};
-		17387F424798D95F18401B95 /* Products */ = {
+		741833F4B69919C8714493B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C6D9AFA5A28C64238B83D50 /* DatasmithRhino6 */,
+				70F5A37A751917DB3AABC438 /* DatasmithRhino6 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -540,10 +540,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		0B6D29F75A038565E53132EE /* DatasmithRhino6_Build */ = {
+		99E8CDAD3C3B67068D11DC62 /* DatasmithRhino6_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 36218EDE748A7B02E805E017 /* Build configuration list for PBXLegacyTarget "DatasmithRhino6_Build" */;
+			buildConfigurationList = 5FE0E9014A76718683276D7F /* Build configuration list for PBXLegacyTarget "DatasmithRhino6_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -557,30 +557,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		A3C1B23AB70E5AADAC4C0252 /* DatasmithRhino6 */ = {
+		0C6D9AFA5A28C64238B83D50 /* DatasmithRhino6 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A80C50A7A935CB63786188FA /* Build configuration list for PBXNativeTarget "DatasmithRhino6" */;
+			buildConfigurationList = 0B6D29F75A038565E53132EE /* Build configuration list for PBXNativeTarget "DatasmithRhino6" */;
 			buildPhases = (
-				AF971789346E30F3D555EA12 /* Embed App Extensions */, 
-				F62E3FEA4E0E66A6E6F69FD8 /* Shell Script */, 
+				FECA236CE72154B8F73F141B /* Embed App Extensions */, 
+				3A3B3C3B3C21A1B19B8E6AFE /* Shell Script */, 
 			);
 			dependencies = (
-				FD6703EC84B5F2FECC42261E /* PBXTargetDependency */,
+				36218EDE748A7B02E805E017 /* PBXTargetDependency */,
 			);
 			name = "DatasmithRhino6";
 			passBuildSettingsInEnvironment = 1;
 			productName = "DatasmithRhino6";
-			productReference = "0C6D9AFA5A28C64238B83D50";
+			productReference = "70F5A37A751917DB3AABC438";
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		1AF7A4A47CE4E6BC7DAF9E67 /* DatasmithRhino6_Index */ = {
+		E6018CCFEE04DC6E326C0B93 /* DatasmithRhino6_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70F5A37A751917DB3AABC438 /* Build configuration list for PBXNativeTarget "DatasmithRhino6_Index" */;
+			buildConfigurationList = 17387F424798D95F18401B95 /* Build configuration list for PBXNativeTarget "DatasmithRhino6_Index" */;
 			buildPhases = (
-				2F1690C43A3DB5717A4EC73B /* Sources */,
+				804F2AA91028C0DA2B7ECD0C /* Sources */,
 			);
 			dependencies = (
 			);
@@ -592,38 +592,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		99E8CDAD3C3B67068D11DC62 /* Project object */ = {
+		2F1690C43A3DB5717A4EC73B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					A3C1B23AB70E5AADAC4C0252 = {
+					0C6D9AFA5A28C64238B83D50 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 5FE0E9014A76718683276D7F /* Build configuration list for PBXProject "DatasmithRhino6" */;
+			buildConfigurationList = AF971789346E30F3D555EA12 /* Build configuration list for PBXProject "DatasmithRhino6" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = E6018CCFEE04DC6E326C0B93;
-			productRefGroup = 17387F424798D95F18401B95;
+			mainGroup = F62E3FEA4E0E66A6E6F69FD8;
+			productRefGroup = 741833F4B69919C8714493B0;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			A3C1B23AB70E5AADAC4C0252 /* DatasmithRhino6 */,
-			0B6D29F75A038565E53132EE /* DatasmithRhino6_Build */,
-			1AF7A4A47CE4E6BC7DAF9E67 /* DatasmithRhino6_Index */,
+			0C6D9AFA5A28C64238B83D50 /* DatasmithRhino6 */,
+			99E8CDAD3C3B67068D11DC62 /* DatasmithRhino6_Build */,
+			E6018CCFEE04DC6E326C0B93 /* DatasmithRhino6_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		741833F4B69919C8714493B0 /* "Debug" */ = {
+		E3BC95BE36C5ACF64B27F6EC /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -652,7 +652,7 @@
 			};
 			name = "Debug";
 		};
-		E3BC95BE36C5ACF64B27F6EC /* "DebugGame" */ = {
+		4150C2BFD629C3D54DC0D2B2 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -680,7 +680,7 @@
 			};
 			name = "DebugGame";
 		};
-		4150C2BFD629C3D54DC0D2B2 /* "Development" */ = {
+		04A15CBEC4736A8B8C696550 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -708,7 +708,7 @@
 			};
 			name = "Development";
 		};
-		04A15CBEC4736A8B8C696550 /* "Test" */ = {
+		1BEB9A8BDCF11677CB56D170 /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -736,7 +736,7 @@
 			};
 			name = "Test";
 		};
-		1BEB9A8BDCF11677CB56D170 /* "Shipping" */ = {
+		886D1D6F73FF2D21FA3C2935 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -764,7 +764,7 @@
 			};
 			name = "Shipping";
 		};
-		804F2AA91028C0DA2B7ECD0C /* "Debug" */ = {
+		76ADE050EFDBB8413B0E6FD5 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -781,7 +781,7 @@
 			};
 			name = "Debug";
 		};
-		76ADE050EFDBB8413B0E6FD5 /* "DebugGame" */ = {
+		27A2192FB6868B5124B5C459 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -798,7 +798,7 @@
 			};
 			name = "DebugGame";
 		};
-		27A2192FB6868B5124B5C459 /* "Development" */ = {
+		7AA697F13038F218DA8DD605 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -815,7 +815,7 @@
 			};
 			name = "Development";
 		};
-		7AA697F13038F218DA8DD605 /* "Test" */ = {
+		84F8B492D3DBD5BD8DFAF15E /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -832,7 +832,7 @@
 			};
 			name = "Test";
 		};
-		84F8B492D3DBD5BD8DFAF15E /* "Shipping" */ = {
+		7C78EBE59B2CD74FA3C833C9 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -849,7 +849,7 @@
 			};
 			name = "Shipping";
 		};
-		FECA236CE72154B8F73F141B /* "Debug" */ = {
+		EB849D09DD1B706F6024882B /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -862,7 +862,7 @@
 			};
 			name = "Debug";
 		};
-		EB849D09DD1B706F6024882B /* "DebugGame" */ = {
+		5986AE1D3D5C909ABF0EC88C /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -875,7 +875,7 @@
 			};
 			name = "DebugGame";
 		};
-		5986AE1D3D5C909ABF0EC88C /* "Development" */ = {
+		ED54EF71D7F9958A7BBD189C /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -888,7 +888,7 @@
 			};
 			name = "Development";
 		};
-		ED54EF71D7F9958A7BBD189C /* "Test" */ = {
+		62A7749D8CE5BAA5983455EB /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -901,7 +901,7 @@
 			};
 			name = "Test";
 		};
-		62A7749D8CE5BAA5983455EB /* "Shipping" */ = {
+		2D4B15ED29485EFCDFC9141F /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -914,7 +914,7 @@
 			};
 			name = "Shipping";
 		};
-		3A3B3C3B3C21A1B19B8E6AFE /* "Debug" */ = {
+		8B968132921ED0134550C58F /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -931,7 +931,7 @@
 			};
 			name = "Debug";
 		};
-		8B968132921ED0134550C58F /* "DebugGame" */ = {
+		59B0993761B3DDCBC3CF0AF0 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -948,7 +948,7 @@
 			};
 			name = "DebugGame";
 		};
-		59B0993761B3DDCBC3CF0AF0 /* "Development" */ = {
+		FFD1D64BA43C00F04B48BCBB /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -965,7 +965,7 @@
 			};
 			name = "Development";
 		};
-		FFD1D64BA43C00F04B48BCBB /* "Test" */ = {
+		5E0AAD89A7A0D1A90065C7AB /* "Test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -982,7 +982,7 @@
 			};
 			name = "Test";
 		};
-		5E0AAD89A7A0D1A90065C7AB /* "Shipping" */ = {
+		C84A31990634F122E0780C2E /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -1002,55 +1002,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5FE0E9014A76718683276D7F /* Build configuration list for PBXProject "DatasmithRhino6" */ = {
+		AF971789346E30F3D555EA12 /* Build configuration list for PBXProject "DatasmithRhino6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				741833F4B69919C8714493B0 /* "Debug" */,
-				E3BC95BE36C5ACF64B27F6EC /* "DebugGame" */,
-				4150C2BFD629C3D54DC0D2B2 /* "Development" */,
-				04A15CBEC4736A8B8C696550 /* "Test" */,
-				1BEB9A8BDCF11677CB56D170 /* "Shipping" */,
+				E3BC95BE36C5ACF64B27F6EC /* "Debug" */,
+				4150C2BFD629C3D54DC0D2B2 /* "DebugGame" */,
+				04A15CBEC4736A8B8C696550 /* "Development" */,
+				1BEB9A8BDCF11677CB56D170 /* "Test" */,
+				886D1D6F73FF2D21FA3C2935 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		36218EDE748A7B02E805E017 /* Build configuration list for PBXLegacyTarget "DatasmithRhino6_Build" */ = {
+		5FE0E9014A76718683276D7F /* Build configuration list for PBXLegacyTarget "DatasmithRhino6_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FECA236CE72154B8F73F141B /* "Debug" */,
-				EB849D09DD1B706F6024882B /* "DebugGame" */,
-				5986AE1D3D5C909ABF0EC88C /* "Development" */,
-				ED54EF71D7F9958A7BBD189C /* "Test" */,
-				62A7749D8CE5BAA5983455EB /* "Shipping" */,
+				EB849D09DD1B706F6024882B /* "Debug" */,
+				5986AE1D3D5C909ABF0EC88C /* "DebugGame" */,
+				ED54EF71D7F9958A7BBD189C /* "Development" */,
+				62A7749D8CE5BAA5983455EB /* "Test" */,
+				2D4B15ED29485EFCDFC9141F /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		A80C50A7A935CB63786188FA /* Build configuration list for PBXNativeTarget "DatasmithRhino6" */ = {
+		0B6D29F75A038565E53132EE /* Build configuration list for PBXNativeTarget "DatasmithRhino6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				804F2AA91028C0DA2B7ECD0C /* "Debug" */,
-				76ADE050EFDBB8413B0E6FD5 /* "DebugGame" */,
-				27A2192FB6868B5124B5C459 /* "Development" */,
-				7AA697F13038F218DA8DD605 /* "Test" */,
-				84F8B492D3DBD5BD8DFAF15E /* "Shipping" */,
+				76ADE050EFDBB8413B0E6FD5 /* "Debug" */,
+				27A2192FB6868B5124B5C459 /* "DebugGame" */,
+				7AA697F13038F218DA8DD605 /* "Development" */,
+				84F8B492D3DBD5BD8DFAF15E /* "Test" */,
+				7C78EBE59B2CD74FA3C833C9 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		70F5A37A751917DB3AABC438 /* Build configuration list for PBXNativeTarget "DatasmithRhino6_Index" */ = {
+		17387F424798D95F18401B95 /* Build configuration list for PBXNativeTarget "DatasmithRhino6_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A3B3C3B3C21A1B19B8E6AFE /* "Debug" */,
-				8B968132921ED0134550C58F /* "DebugGame" */,
-				59B0993761B3DDCBC3CF0AF0 /* "Development" */,
-				FFD1D64BA43C00F04B48BCBB /* "Test" */,
-				5E0AAD89A7A0D1A90065C7AB /* "Shipping" */,
+				8B968132921ED0134550C58F /* "Debug" */,
+				59B0993761B3DDCBC3CF0AF0 /* "DebugGame" */,
+				FFD1D64BA43C00F04B48BCBB /* "Development" */,
+				5E0AAD89A7A0D1A90065C7AB /* "Test" */,
+				C84A31990634F122E0780C2E /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 99E8CDAD3C3B67068D11DC62 /* Project object */;
+	rootObject = 2F1690C43A3DB5717A4EC73B /* Project object */;
 }

@@ -62,11 +62,11 @@
 		D2843B332A6122D02F2EC73E /* PackageChunksMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PackageChunksMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/PackageChunksMode.h"; sourceTree = SOURCE_ROOT; };
 		BAA238DB9C18F176DCB8292F /* PatchGenerationMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PatchGenerationMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/PatchGenerationMode.h"; sourceTree = SOURCE_ROOT; };
 		EA49EE6F0DBE2B863C227887 /* VerifyChunksMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "VerifyChunksMode.h"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/VerifyChunksMode.h"; sourceTree = SOURCE_ROOT; };
-		3B73CF16130920F9FC8A6AAC /* BuildPatchTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = BuildPatchTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C48A8B58CCE33D578843ECB /* BuildPatchTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = BuildPatchTool; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8C3DDBFCFCD56DCAC183CDBB = {
+		495153AA94A58C2812BC37BB = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,7 +87,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	199BA903B33E093F78642B1E /* Embed App Extensions */ = {
+	9D01DBB7D6A793BB8798812D /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -99,52 +99,52 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		092E1A614A6D4DF2E431C20E /* PBXContainerItemProxy */ = {
+		A5405D1DB1E56B7EC36EE9B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0ED21A90C87B3CF661355F0A /* Project object */;
+			containerPortal = 8C3DDBFCFCD56DCAC183CDBB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 789430044A2FA4F3DA65FB4B;
+			remoteGlobalIDString = 0ED21A90C87B3CF661355F0A;
 			remoteInfo = "BuildPatchTool_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		20318F6F6D75567126D1DE67 /* PBXTargetDependency */ = {
+		D748FA4EDF6BC1EF6F8133FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 789430044A2FA4F3DA65FB4B /* BuildPatchTool_Build */;
-			targetProxy = 092E1A614A6D4DF2E431C20E /* PBXContainerItemProxy */;
+			target = 0ED21A90C87B3CF661355F0A /* BuildPatchTool_Build */;
+			targetProxy = A5405D1DB1E56B7EC36EE9B6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		C30C62A04D5D812101920EDE = {
+		C540376BEF09AD25285D1410 = {
 			isa = PBXGroup;
 			children = (
-				E88D9A43CF01401244009FCB /* Programs */,
-				4A642CF104FD752631FB3883 /* Source */,
-				CADBB64731F25507E99DE405 /* Products */,
+				F68719467BAA11E9C22FF448 /* Programs */,
+				CEDF386CFA192F1A6FE37F22 /* Source */,
+				8285252B25441C460DFA2E95 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E88D9A43CF01401244009FCB = {
+		F68719467BAA11E9C22FF448 = {
 			isa = PBXGroup;
 			children = (
-				7D018D2F70DDC1E7C7FECA6A /* BuildPatchTool */,
+				71E17F5CDBECB471FE9AE40C /* BuildPatchTool */,
 			);
 			name = "Programs";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs";
 			sourceTree = "<absolute>";
 		};
-		7D018D2F70DDC1E7C7FECA6A = {
+		71E17F5CDBECB471FE9AE40C = {
 			isa = PBXGroup;
 			children = (
-				4F87905E92E825B3170B02F2 /* Config */,
+				B1D0E2C989A438534E0C670B /* Config */,
 			);
 			name = "BuildPatchTool";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/BuildPatchTool";
 			sourceTree = "<absolute>";
 		};
-		4F87905E92E825B3170B02F2 = {
+		B1D0E2C989A438534E0C670B = {
 			isa = PBXGroup;
 			children = (
 				E255CC4056CF39C1E6BDCD03 /* DefaultEngine.ini */,
@@ -153,29 +153,29 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Programs/BuildPatchTool/Config";
 			sourceTree = "<absolute>";
 		};
-		4A642CF104FD752631FB3883 = {
+		CEDF386CFA192F1A6FE37F22 = {
 			isa = PBXGroup;
 			children = (
-				F68719467BAA11E9C22FF448 /* Programs */,
+				7E184B4547C7855BA20D94AB /* Programs */,
 			);
 			name = "Source";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source";
 			sourceTree = "<absolute>";
 		};
-		F68719467BAA11E9C22FF448 = {
+		7E184B4547C7855BA20D94AB = {
 			isa = PBXGroup;
 			children = (
-				71E17F5CDBECB471FE9AE40C /* BuildPatchTool */,
+				C7485F1EF7A0F96479738DFB /* BuildPatchTool */,
 			);
 			name = "Programs";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs";
 			sourceTree = "<absolute>";
 		};
-		71E17F5CDBECB471FE9AE40C = {
+		C7485F1EF7A0F96479738DFB = {
 			isa = PBXGroup;
 			children = (
-				B1D0E2C989A438534E0C670B /* Private */,
-				7E184B4547C7855BA20D94AB /* Public */,
+				B44777E46BC99CCD50BF4B71 /* Private */,
+				BA1123CEEA1AA90A8B4F91FF /* Public */,
 				E80F7BB8998AE3D983AD67E6 /* BuildPatchTool.Automation.cs */,
 				02EFE0B3973BCE937A92B30B /* BuildPatchTool.Build.cs */,
 				5873D72E80F5FC38B15BAE4B /* BuildPatchTool.Target.cs */,
@@ -184,10 +184,10 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool";
 			sourceTree = "<absolute>";
 		};
-		B1D0E2C989A438534E0C670B = {
+		B44777E46BC99CCD50BF4B71 = {
 			isa = PBXGroup;
 			children = (
-				CEDF386CFA192F1A6FE37F22 /* ToolModes */,
+				59F30C87870C69C14A8DA4B2 /* ToolModes */,
 				2AD45BF16F12B3566363B6A9 /* BuildPatchTool.cpp */,
 				7B57C6B2CB714035141888C2 /* ToolMode.cpp */,
 			);
@@ -195,7 +195,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private";
 			sourceTree = "<absolute>";
 		};
-		CEDF386CFA192F1A6FE37F22 = {
+		59F30C87870C69C14A8DA4B2 = {
 			isa = PBXGroup;
 			children = (
 				AB7E5A02600C07D4407E7617 /* AutomationMode.cpp */,
@@ -212,18 +212,18 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Private/ToolModes";
 			sourceTree = "<absolute>";
 		};
-		7E184B4547C7855BA20D94AB = {
+		BA1123CEEA1AA90A8B4F91FF = {
 			isa = PBXGroup;
 			children = (
-				C7485F1EF7A0F96479738DFB /* Interfaces */,
-				B44777E46BC99CCD50BF4B71 /* ToolModes */,
+				50A0F0D870C75A07FCEEC504 /* Interfaces */,
+				9472DD6D0ACBB027A3C42A5A /* ToolModes */,
 				B539105A29384DFA617BA4B1 /* BuildPatchTool.h */,
 			);
 			name = "Public";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public";
 			sourceTree = "<absolute>";
 		};
-		C7485F1EF7A0F96479738DFB = {
+		50A0F0D870C75A07FCEEC504 = {
 			isa = PBXGroup;
 			children = (
 				AC1672520D480FC6B6AA0DAF /* ToolMode.h */,
@@ -232,7 +232,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/Interfaces";
 			sourceTree = "<absolute>";
 		};
-		B44777E46BC99CCD50BF4B71 = {
+		9472DD6D0ACBB027A3C42A5A = {
 			isa = PBXGroup;
 			children = (
 				C87ACF5170C40BB46F9FAD12 /* AutomationMode.h */,
@@ -249,10 +249,10 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/BuildPatchTool/Public/ToolModes";
 			sourceTree = "<absolute>";
 		};
-		CADBB64731F25507E99DE405 /* Products */ = {
+		8285252B25441C460DFA2E95 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B73CF16130920F9FC8A6AAC /* BuildPatchTool */,
+				3C48A8B58CCE33D578843ECB /* BuildPatchTool */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -260,10 +260,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		789430044A2FA4F3DA65FB4B /* BuildPatchTool_Build */ = {
+		0ED21A90C87B3CF661355F0A /* BuildPatchTool_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = D748FA4EDF6BC1EF6F8133FA /* Build configuration list for PBXLegacyTarget "BuildPatchTool_Build" */;
+			buildConfigurationList = D18742F5FA7C87695E441196 /* Build configuration list for PBXLegacyTarget "BuildPatchTool_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -277,30 +277,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		265A308BDE07039D7AA0A1CB /* BuildPatchTool */ = {
+		3B73CF16130920F9FC8A6AAC /* BuildPatchTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5B9CD0479F2A945BB2C5EA6 /* Build configuration list for PBXNativeTarget "BuildPatchTool" */;
+			buildConfigurationList = 789430044A2FA4F3DA65FB4B /* Build configuration list for PBXNativeTarget "BuildPatchTool" */;
 			buildPhases = (
-				199BA903B33E093F78642B1E /* Embed App Extensions */, 
-				C540376BEF09AD25285D1410 /* Shell Script */, 
+				9D01DBB7D6A793BB8798812D /* Embed App Extensions */, 
+				19DD193447E411CA11A2229D /* Shell Script */, 
 			);
 			dependencies = (
-				20318F6F6D75567126D1DE67 /* PBXTargetDependency */,
+				D748FA4EDF6BC1EF6F8133FA /* PBXTargetDependency */,
 			);
 			name = "BuildPatchTool";
 			passBuildSettingsInEnvironment = 1;
 			productName = "BuildPatchTool";
-			productReference = "3B73CF16130920F9FC8A6AAC";
+			productReference = "3C48A8B58CCE33D578843ECB";
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		A5405D1DB1E56B7EC36EE9B6 /* BuildPatchTool_Index */ = {
+		C30C62A04D5D812101920EDE /* BuildPatchTool_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C48A8B58CCE33D578843ECB /* Build configuration list for PBXNativeTarget "BuildPatchTool_Index" */;
+			buildConfigurationList = CADBB64731F25507E99DE405 /* Build configuration list for PBXNativeTarget "BuildPatchTool_Index" */;
 			buildPhases = (
-				8C3DDBFCFCD56DCAC183CDBB /* Sources */,
+				495153AA94A58C2812BC37BB /* Sources */,
 			);
 			dependencies = (
 			);
@@ -312,38 +312,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0ED21A90C87B3CF661355F0A /* Project object */ = {
+		8C3DDBFCFCD56DCAC183CDBB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					265A308BDE07039D7AA0A1CB = {
+					3B73CF16130920F9FC8A6AAC = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = D18742F5FA7C87695E441196 /* Build configuration list for PBXProject "BuildPatchTool" */;
+			buildConfigurationList = 199BA903B33E093F78642B1E /* Build configuration list for PBXProject "BuildPatchTool" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = C30C62A04D5D812101920EDE;
-			productRefGroup = CADBB64731F25507E99DE405;
+			mainGroup = C540376BEF09AD25285D1410;
+			productRefGroup = 8285252B25441C460DFA2E95;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			265A308BDE07039D7AA0A1CB /* BuildPatchTool */,
-			789430044A2FA4F3DA65FB4B /* BuildPatchTool_Build */,
-			A5405D1DB1E56B7EC36EE9B6 /* BuildPatchTool_Index */,
+			3B73CF16130920F9FC8A6AAC /* BuildPatchTool */,
+			0ED21A90C87B3CF661355F0A /* BuildPatchTool_Build */,
+			C30C62A04D5D812101920EDE /* BuildPatchTool_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		8285252B25441C460DFA2E95 /* "Debug" */ = {
+		B6029183D0ECFDC54E698D23 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -438,7 +438,7 @@
 			};
 			name = "Debug";
 		};
-		B6029183D0ECFDC54E698D23 /* "Development" */ = {
+		73AA639F9471CC9071DAF778 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -532,7 +532,7 @@
 			};
 			name = "Development";
 		};
-		73AA639F9471CC9071DAF778 /* "Shipping" */ = {
+		A2FDF1BDB0A17FD5590D1722 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -626,7 +626,7 @@
 			};
 			name = "Shipping";
 		};
-		495153AA94A58C2812BC37BB /* "Debug" */ = {
+		6864706666720DB0D02591B6 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -643,7 +643,7 @@
 			};
 			name = "Debug";
 		};
-		6864706666720DB0D02591B6 /* "Development" */ = {
+		0BCF19E2BF92452A639D5056 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -660,7 +660,7 @@
 			};
 			name = "Development";
 		};
-		0BCF19E2BF92452A639D5056 /* "Shipping" */ = {
+		5CB74A907462EC0C1418D9B4 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -677,7 +677,7 @@
 			};
 			name = "Shipping";
 		};
-		9D01DBB7D6A793BB8798812D /* "Debug" */ = {
+		8B58E12EAB6CAAFBDE3E01D3 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -690,7 +690,7 @@
 			};
 			name = "Debug";
 		};
-		8B58E12EAB6CAAFBDE3E01D3 /* "Development" */ = {
+		8772151446E166958CFEBA01 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -703,7 +703,7 @@
 			};
 			name = "Development";
 		};
-		8772151446E166958CFEBA01 /* "Shipping" */ = {
+		2BD7B8F13B153D15E2497249 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -716,7 +716,7 @@
 			};
 			name = "Shipping";
 		};
-		19DD193447E411CA11A2229D /* "Debug" */ = {
+		1510EA9B9BBBDFB04FF5CBE2 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -733,7 +733,7 @@
 			};
 			name = "Debug";
 		};
-		1510EA9B9BBBDFB04FF5CBE2 /* "Development" */ = {
+		080A666D7171613A187190CB /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -750,7 +750,7 @@
 			};
 			name = "Development";
 		};
-		080A666D7171613A187190CB /* "Shipping" */ = {
+		F0A9E4EB7FE5A7FBF34410BA /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -770,47 +770,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D18742F5FA7C87695E441196 /* Build configuration list for PBXProject "BuildPatchTool" */ = {
+		199BA903B33E093F78642B1E /* Build configuration list for PBXProject "BuildPatchTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8285252B25441C460DFA2E95 /* "Debug" */,
-				B6029183D0ECFDC54E698D23 /* "Development" */,
-				73AA639F9471CC9071DAF778 /* "Shipping" */,
+				B6029183D0ECFDC54E698D23 /* "Debug" */,
+				73AA639F9471CC9071DAF778 /* "Development" */,
+				A2FDF1BDB0A17FD5590D1722 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		D748FA4EDF6BC1EF6F8133FA /* Build configuration list for PBXLegacyTarget "BuildPatchTool_Build" */ = {
+		D18742F5FA7C87695E441196 /* Build configuration list for PBXLegacyTarget "BuildPatchTool_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D01DBB7D6A793BB8798812D /* "Debug" */,
-				8B58E12EAB6CAAFBDE3E01D3 /* "Development" */,
-				8772151446E166958CFEBA01 /* "Shipping" */,
+				8B58E12EAB6CAAFBDE3E01D3 /* "Debug" */,
+				8772151446E166958CFEBA01 /* "Development" */,
+				2BD7B8F13B153D15E2497249 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		C5B9CD0479F2A945BB2C5EA6 /* Build configuration list for PBXNativeTarget "BuildPatchTool" */ = {
+		789430044A2FA4F3DA65FB4B /* Build configuration list for PBXNativeTarget "BuildPatchTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				495153AA94A58C2812BC37BB /* "Debug" */,
-				6864706666720DB0D02591B6 /* "Development" */,
-				0BCF19E2BF92452A639D5056 /* "Shipping" */,
+				6864706666720DB0D02591B6 /* "Debug" */,
+				0BCF19E2BF92452A639D5056 /* "Development" */,
+				5CB74A907462EC0C1418D9B4 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		3C48A8B58CCE33D578843ECB /* Build configuration list for PBXNativeTarget "BuildPatchTool_Index" */ = {
+		CADBB64731F25507E99DE405 /* Build configuration list for PBXNativeTarget "BuildPatchTool_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				19DD193447E411CA11A2229D /* "Debug" */,
-				1510EA9B9BBBDFB04FF5CBE2 /* "Development" */,
-				080A666D7171613A187190CB /* "Shipping" */,
+				1510EA9B9BBBDFB04FF5CBE2 /* "Debug" */,
+				080A666D7171613A187190CB /* "Development" */,
+				F0A9E4EB7FE5A7FBF34410BA /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0ED21A90C87B3CF661355F0A /* Project object */;
+	rootObject = 8C3DDBFCFCD56DCAC183CDBB /* Project object */;
 }

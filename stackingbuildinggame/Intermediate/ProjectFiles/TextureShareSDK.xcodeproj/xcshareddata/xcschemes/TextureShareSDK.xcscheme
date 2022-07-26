@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ABECCFA37F76CCB08E188748"
+               BlueprintIdentifier = "CBB09CC9826EA9B3C7C990A4"
                BuildableName = "TextureShareSDK"
                BlueprintName = "TextureShareSDK"
                ReferencedContainer = "container:TextureShareSDK.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ABECCFA37F76CCB08E188748"
+            BlueprintIdentifier = "CBB09CC9826EA9B3C7C990A4"
             BuildableName = "TextureShareSDK"
             BlueprintName = "TextureShareSDK"
             ReferencedContainer = "container:TextureShareSDK.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ABECCFA37F76CCB08E188748"
+            BlueprintIdentifier = "CBB09CC9826EA9B3C7C990A4"
             BuildableName = "TextureShareSDK"
             BlueprintName = "TextureShareSDK"
             ReferencedContainer = "container:TextureShareSDK.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ABECCFA37F76CCB08E188748"
+            BlueprintIdentifier = "CBB09CC9826EA9B3C7C990A4"
             BuildableName = "TextureShareSDK"
             BlueprintName = "TextureShareSDK"
             ReferencedContainer = "container:TextureShareSDK.xcodeproj">

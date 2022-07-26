@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C7087DBC7318501C1D00B1DA"
+               BlueprintIdentifier = "38C03F169E4EC37853013353"
                BuildableName = "UnrealVirtualizationTool"
                BlueprintName = "UnrealVirtualizationTool"
                ReferencedContainer = "container:UnrealVirtualizationTool.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C7087DBC7318501C1D00B1DA"
+            BlueprintIdentifier = "38C03F169E4EC37853013353"
             BuildableName = "UnrealVirtualizationTool"
             BlueprintName = "UnrealVirtualizationTool"
             ReferencedContainer = "container:UnrealVirtualizationTool.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C7087DBC7318501C1D00B1DA"
+            BlueprintIdentifier = "38C03F169E4EC37853013353"
             BuildableName = "UnrealVirtualizationTool"
             BlueprintName = "UnrealVirtualizationTool"
             ReferencedContainer = "container:UnrealVirtualizationTool.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C7087DBC7318501C1D00B1DA"
+            BlueprintIdentifier = "38C03F169E4EC37853013353"
             BuildableName = "UnrealVirtualizationTool"
             BlueprintName = "UnrealVirtualizationTool"
             ReferencedContainer = "container:UnrealVirtualizationTool.xcodeproj">

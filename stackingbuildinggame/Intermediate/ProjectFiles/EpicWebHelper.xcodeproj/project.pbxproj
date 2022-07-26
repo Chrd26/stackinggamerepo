@@ -54,11 +54,11 @@
 		DC7BFCCD9E5D044B6A313164 /* EpicWebHelper-Win32.manifest */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EpicWebHelper-Win32.manifest"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/EpicWebHelper/Resources/Windows/EpicWebHelper-Win32.manifest"; sourceTree = SOURCE_ROOT; };
 		E389E42BCC003450FA58DA54 /* EpicWebHelper-Win64.manifest */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EpicWebHelper-Win64.manifest"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/EpicWebHelper/Resources/Windows/EpicWebHelper-Win64.manifest"; sourceTree = SOURCE_ROOT; };
 		2C3D7FF860249FA1FD48E914 /* EpicWebHelper.rc */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EpicWebHelper.rc"; path = "../../../../../../../../../../Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/EpicWebHelper/Resources/Windows/EpicWebHelper.rc"; sourceTree = SOURCE_ROOT; };
-		56AF07D1C979F10EA56B363E /* EpicWebHelper */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = EpicWebHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D83E29DCD288A52C515CDD9 /* EpicWebHelper */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = EpicWebHelper; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		287B36D1BDB013F7DEBEA85F = {
+		F01911B5CA58FE03D1CD3CC8 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,7 +74,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	08BBE8D248445F77EB24AA69 /* Embed App Extensions */ = {
+	12265ECED246F9C236FA4F7E /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -86,41 +86,41 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		61D125710E8164C298264DA1 /* PBXContainerItemProxy */ = {
+		59262E752409E8F69BE62B77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7C49A435963868528BE388B8 /* Project object */;
+			containerPortal = 287B36D1BDB013F7DEBEA85F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 469644E1DFFB59241704EAF2;
+			remoteGlobalIDString = 7C49A435963868528BE388B8;
 			remoteInfo = "EpicWebHelper_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		242395611060F8F8EE16178D /* PBXTargetDependency */ = {
+		03F0FCA7696FD4FDD6F40B60 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 469644E1DFFB59241704EAF2 /* EpicWebHelper_Build */;
-			targetProxy = 61D125710E8164C298264DA1 /* PBXContainerItemProxy */;
+			target = 7C49A435963868528BE388B8 /* EpicWebHelper_Build */;
+			targetProxy = 59262E752409E8F69BE62B77 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		8C362FAD6AB89B445955F8DB = {
+		94F59EED9810EB62664684EE = {
 			isa = PBXGroup;
 			children = (
-				79B24D30BED1FC615D2F17BA /* Private */,
-				4B39A198CE5D6E116EF41885 /* Resources */,
+				4B39A198CE5D6E116EF41885 /* Private */,
+				843A7C4B4EB1D00DF9B596DF /* Resources */,
 				398C94D31E52159816F10D09 /* EpicWebHelper.Build.cs */,
 				4AA8BBCA605C83F1532333FE /* EpicWebHelper.Target.cs */,
-				64B25F627ED8EC59FA2AD0E9 /* Products */,
+				82C986A84100FCA50AFF59C3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		79B24D30BED1FC615D2F17BA = {
+		4B39A198CE5D6E116EF41885 = {
 			isa = PBXGroup;
 			children = (
-				CEC0B41AE148BAFA39674358 /* Linux */,
-				1839ACA8E239847BCAD69C76 /* Mac */,
-				D9F546CBF6035F27E83EAAF4 /* Windows */,
+				25547F24AA9CF0F8233D40EB /* Linux */,
+				01EF0435081C70DA8FB85CA8 /* Mac */,
+				98ECAC6C678A07E4DDC1A6A2 /* Windows */,
 				2794D5729E412C6B124FD889 /* EpicWebHelper.cpp */,
 				4ED724C4CE92D504DF89AC8A /* EpicWebHelper.h */,
 				EFEBE9A69C1120FD85B523C7 /* EpicWebHelperApp.cpp */,
@@ -137,7 +137,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/EpicWebHelper/Private";
 			sourceTree = "<absolute>";
 		};
-		CEC0B41AE148BAFA39674358 = {
+		25547F24AA9CF0F8233D40EB = {
 			isa = PBXGroup;
 			children = (
 				23570D461D8B9401E24EC4EE /* EpicWebHelperLinux.cpp */,
@@ -146,7 +146,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/EpicWebHelper/Private/Linux";
 			sourceTree = "<absolute>";
 		};
-		1839ACA8E239847BCAD69C76 = {
+		01EF0435081C70DA8FB85CA8 = {
 			isa = PBXGroup;
 			children = (
 				955F5D5C293F35AA664BBD82 /* EpicWebHelperMac.cpp */,
@@ -155,7 +155,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/EpicWebHelper/Private/Mac";
 			sourceTree = "<absolute>";
 		};
-		D9F546CBF6035F27E83EAAF4 = {
+		98ECAC6C678A07E4DDC1A6A2 = {
 			isa = PBXGroup;
 			children = (
 				1E071D43E2E9387BA358B0BE /* EpicWebHelperWindows.cpp */,
@@ -164,17 +164,17 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/EpicWebHelper/Private/Windows";
 			sourceTree = "<absolute>";
 		};
-		4B39A198CE5D6E116EF41885 = {
+		843A7C4B4EB1D00DF9B596DF = {
 			isa = PBXGroup;
 			children = (
-				25547F24AA9CF0F8233D40EB /* Mac */,
-				01EF0435081C70DA8FB85CA8 /* Windows */,
+				59390952843DF66CF7D78CBE /* Mac */,
+				F0839198355B0E404962B1CD /* Windows */,
 			);
 			name = "Resources";
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/EpicWebHelper/Resources";
 			sourceTree = "<absolute>";
 		};
-		25547F24AA9CF0F8233D40EB = {
+		59390952843DF66CF7D78CBE = {
 			isa = PBXGroup;
 			children = (
 				451D7DFF163F149E1A8F3E22 /* Info.plist */,
@@ -183,7 +183,7 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/EpicWebHelper/Resources/Mac";
 			sourceTree = "<absolute>";
 		};
-		01EF0435081C70DA8FB85CA8 = {
+		F0839198355B0E404962B1CD = {
 			isa = PBXGroup;
 			children = (
 				01EC5A846FFFD570399FFDC4 /* Debug-EpicWebHelper-Win32.manifest */,
@@ -196,10 +196,10 @@
 			path = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Source/Programs/EpicWebHelper/Resources/Windows";
 			sourceTree = "<absolute>";
 		};
-		64B25F627ED8EC59FA2AD0E9 /* Products */ = {
+		82C986A84100FCA50AFF59C3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				56AF07D1C979F10EA56B363E /* EpicWebHelper */,
+				3D83E29DCD288A52C515CDD9 /* EpicWebHelper */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -207,10 +207,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		469644E1DFFB59241704EAF2 /* EpicWebHelper_Build */ = {
+		7C49A435963868528BE388B8 /* EpicWebHelper_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
-			buildConfigurationList = 03F0FCA7696FD4FDD6F40B60 /* Build configuration list for PBXLegacyTarget "EpicWebHelper_Build" */;
+			buildConfigurationList = CDE4000E1CF3571CC5856AE6 /* Build configuration list for PBXLegacyTarget "EpicWebHelper_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Volumes/LaCie_Logic_Library_and_Back_Ups/UnrealRepo/Ver_5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -224,30 +224,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		DCD7D85A62DCF85442D7F347 /* EpicWebHelper */ = {
+		56AF07D1C979F10EA56B363E /* EpicWebHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A2E924BC329620A29CE326D /* Build configuration list for PBXNativeTarget "EpicWebHelper" */;
+			buildConfigurationList = 469644E1DFFB59241704EAF2 /* Build configuration list for PBXNativeTarget "EpicWebHelper" */;
 			buildPhases = (
-				08BBE8D248445F77EB24AA69 /* Embed App Extensions */, 
-				94F59EED9810EB62664684EE /* Shell Script */, 
+				12265ECED246F9C236FA4F7E /* Embed App Extensions */, 
+				BDB736EA28045F959BDBFD7F /* Shell Script */, 
 			);
 			dependencies = (
-				242395611060F8F8EE16178D /* PBXTargetDependency */,
+				03F0FCA7696FD4FDD6F40B60 /* PBXTargetDependency */,
 			);
 			name = "EpicWebHelper";
 			passBuildSettingsInEnvironment = 1;
 			productName = "EpicWebHelper";
-			productReference = "56AF07D1C979F10EA56B363E";
+			productReference = "3D83E29DCD288A52C515CDD9";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		59262E752409E8F69BE62B77 /* EpicWebHelper_Index */ = {
+		8C362FAD6AB89B445955F8DB /* EpicWebHelper_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D83E29DCD288A52C515CDD9 /* Build configuration list for PBXNativeTarget "EpicWebHelper_Index" */;
+			buildConfigurationList = 64B25F627ED8EC59FA2AD0E9 /* Build configuration list for PBXNativeTarget "EpicWebHelper_Index" */;
 			buildPhases = (
-				287B36D1BDB013F7DEBEA85F /* Sources */,
+				F01911B5CA58FE03D1CD3CC8 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -259,38 +259,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7C49A435963868528BE388B8 /* Project object */ = {
+		287B36D1BDB013F7DEBEA85F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					DCD7D85A62DCF85442D7F347 = {
+					56AF07D1C979F10EA56B363E = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = CDE4000E1CF3571CC5856AE6 /* Build configuration list for PBXProject "EpicWebHelper" */;
+			buildConfigurationList = 08BBE8D248445F77EB24AA69 /* Build configuration list for PBXProject "EpicWebHelper" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 8C362FAD6AB89B445955F8DB;
-			productRefGroup = 64B25F627ED8EC59FA2AD0E9;
+			mainGroup = 94F59EED9810EB62664684EE;
+			productRefGroup = 82C986A84100FCA50AFF59C3;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			DCD7D85A62DCF85442D7F347 /* EpicWebHelper */,
-			469644E1DFFB59241704EAF2 /* EpicWebHelper_Build */,
-			59262E752409E8F69BE62B77 /* EpicWebHelper_Index */,
+			56AF07D1C979F10EA56B363E /* EpicWebHelper */,
+			7C49A435963868528BE388B8 /* EpicWebHelper_Build */,
+			8C362FAD6AB89B445955F8DB /* EpicWebHelper_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		82C986A84100FCA50AFF59C3 /* "Debug" */ = {
+		FF35980E47801DB58CBE951B /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -343,7 +343,7 @@
 			};
 			name = "Debug";
 		};
-		FF35980E47801DB58CBE951B /* "Development" */ = {
+		319B8E044E07B56C3D85EB34 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -395,7 +395,7 @@
 			};
 			name = "Development";
 		};
-		319B8E044E07B56C3D85EB34 /* "Shipping" */ = {
+		520C6EC327859AFB8673E777 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -447,7 +447,7 @@
 			};
 			name = "Shipping";
 		};
-		F01911B5CA58FE03D1CD3CC8 /* "Debug" */ = {
+		A22ED2C306978CF5C992F812 /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -464,7 +464,7 @@
 			};
 			name = "Debug";
 		};
-		A22ED2C306978CF5C992F812 /* "Development" */ = {
+		A55047E5905EF2C25F35151B /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -481,7 +481,7 @@
 			};
 			name = "Development";
 		};
-		A55047E5905EF2C25F35151B /* "Shipping" */ = {
+		EE85CA4593E368C4B575CB67 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -498,7 +498,7 @@
 			};
 			name = "Shipping";
 		};
-		12265ECED246F9C236FA4F7E /* "Debug" */ = {
+		2213DBCC6DA72D3729DFCE9C /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -511,7 +511,7 @@
 			};
 			name = "Debug";
 		};
-		2213DBCC6DA72D3729DFCE9C /* "Development" */ = {
+		1CD6182FA1F8F107CBE19AD2 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -524,7 +524,7 @@
 			};
 			name = "Development";
 		};
-		1CD6182FA1F8F107CBE19AD2 /* "Shipping" */ = {
+		75D098FCD6EC1BD6C58CDD94 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -537,7 +537,7 @@
 			};
 			name = "Shipping";
 		};
-		BDB736EA28045F959BDBFD7F /* "Debug" */ = {
+		AEEB7AB6DD9AF1FF211A48FA /* "Debug" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -554,7 +554,7 @@
 			};
 			name = "Debug";
 		};
-		AEEB7AB6DD9AF1FF211A48FA /* "Development" */ = {
+		1929E8212A625F29FF46108C /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -571,7 +571,7 @@
 			};
 			name = "Development";
 		};
-		1929E8212A625F29FF46108C /* "Shipping" */ = {
+		892EDF45469E4CA5417033A5 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64";
@@ -591,47 +591,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CDE4000E1CF3571CC5856AE6 /* Build configuration list for PBXProject "EpicWebHelper" */ = {
+		08BBE8D248445F77EB24AA69 /* Build configuration list for PBXProject "EpicWebHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				82C986A84100FCA50AFF59C3 /* "Debug" */,
-				FF35980E47801DB58CBE951B /* "Development" */,
-				319B8E044E07B56C3D85EB34 /* "Shipping" */,
+				FF35980E47801DB58CBE951B /* "Debug" */,
+				319B8E044E07B56C3D85EB34 /* "Development" */,
+				520C6EC327859AFB8673E777 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		03F0FCA7696FD4FDD6F40B60 /* Build configuration list for PBXLegacyTarget "EpicWebHelper_Build" */ = {
+		CDE4000E1CF3571CC5856AE6 /* Build configuration list for PBXLegacyTarget "EpicWebHelper_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12265ECED246F9C236FA4F7E /* "Debug" */,
-				2213DBCC6DA72D3729DFCE9C /* "Development" */,
-				1CD6182FA1F8F107CBE19AD2 /* "Shipping" */,
+				2213DBCC6DA72D3729DFCE9C /* "Debug" */,
+				1CD6182FA1F8F107CBE19AD2 /* "Development" */,
+				75D098FCD6EC1BD6C58CDD94 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		3A2E924BC329620A29CE326D /* Build configuration list for PBXNativeTarget "EpicWebHelper" */ = {
+		469644E1DFFB59241704EAF2 /* Build configuration list for PBXNativeTarget "EpicWebHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F01911B5CA58FE03D1CD3CC8 /* "Debug" */,
-				A22ED2C306978CF5C992F812 /* "Development" */,
-				A55047E5905EF2C25F35151B /* "Shipping" */,
+				A22ED2C306978CF5C992F812 /* "Debug" */,
+				A55047E5905EF2C25F35151B /* "Development" */,
+				EE85CA4593E368C4B575CB67 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		3D83E29DCD288A52C515CDD9 /* Build configuration list for PBXNativeTarget "EpicWebHelper_Index" */ = {
+		64B25F627ED8EC59FA2AD0E9 /* Build configuration list for PBXNativeTarget "EpicWebHelper_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BDB736EA28045F959BDBFD7F /* "Debug" */,
-				AEEB7AB6DD9AF1FF211A48FA /* "Development" */,
-				1929E8212A625F29FF46108C /* "Shipping" */,
+				AEEB7AB6DD9AF1FF211A48FA /* "Debug" */,
+				1929E8212A625F29FF46108C /* "Development" */,
+				892EDF45469E4CA5417033A5 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7C49A435963868528BE388B8 /* Project object */;
+	rootObject = 287B36D1BDB013F7DEBEA85F /* Project object */;
 }
